@@ -1,0 +1,222 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:animgraph1:version{ed501b4a-4c4b-4832-917c-534fe2787259} -->
+{
+	_class = "CAnimationGraph"
+	m_pParameterList = 
+	{
+		_class = "CAnimParameterList"
+		m_Parameters = [  ]
+	}
+	m_pTagManager = 
+	{
+		_class = "CAnimTagManager"
+		m_tags = [  ]
+	}
+	m_pMovementManager = 
+	{
+		_class = "CAnimMovementManager"
+		m_MotorList = 
+		{
+			_class = "CAnimMotorList"
+			m_motors = 
+			[
+				{
+					_class = "CPathAnimMotor"
+					m_name = "Unnamed Motor"
+					m_bDefault = true
+					m_facingDamping = 
+					{
+						_class = "CAnimInputDamping"
+						m_speedFunction = "NoDamping"
+						m_fSpeedScale = 1.0
+						m_fMinSpeed = 10.0
+						m_fMaxTension = 1000.0
+					}
+					m_bLockToPath = true
+				},
+			]
+		}
+		m_MovementSettings = 
+		{
+			_class = "CAnimMovementSettings"
+			m_bShouldCalculateSlope = false
+		}
+	}
+	m_pSettingsManager = 
+	{
+		_class = "CAnimGraphSettingsManager"
+		m_settingsGroups = 
+		[
+			{
+				_class = "CAnimGraphGeneralSettings"
+			},
+			{
+				_class = "CAnimGraphNetworkSettings"
+				m_bNetworkingEnabled = true
+			},
+		]
+	}
+	m_pActivityValuesList = 
+	{
+		_class = "CActivityValueList"
+		m_activities = [  ]
+	}
+	m_rootNodeID = 
+	{
+		m_id = 1248798021
+	}
+	m_previewModels = 
+	[
+		"models/face_fisted.vmdl",
+	]
+	m_nodes = 
+	[
+		{
+			key = 
+			{
+				m_id = 314990686
+			}
+			value = 
+			{
+				_class = "CStateMachineAnimNode"
+				m_sName = "Unnamed"
+				m_vecPosition = [ -60.0, -6.0 ]
+				m_nNodeID = 
+				{
+					m_id = 314990686
+				}
+				m_networkMode = "ServerAuthoritative"
+				m_states = 
+				[
+					{
+						_class = "CAnimState"
+						m_transitions = [  ]
+						m_tags = [  ]
+						m_tagBehaviors = [  ]
+						m_name = "Move"
+						m_childNodeID = 
+						{
+							m_id = 1634381294
+						}
+						m_stateID = 
+						{
+							m_id = 240915394
+						}
+						m_position = [ -4308.0, -1695.0 ]
+						m_bIsStartState = false
+						m_bIsEndtState = false
+						m_bIsPassthrough = false
+						m_bIsRootMotionExclusive = false
+					},
+					{
+						_class = "CAnimState"
+						m_transitions = [  ]
+						m_tags = [  ]
+						m_tagBehaviors = [  ]
+						m_name = "Idle"
+						m_childNodeID = 
+						{
+							m_id = 4294967295
+						}
+						m_stateID = 
+						{
+							m_id = 214054993
+						}
+						m_position = [ -4631.0, -1693.0 ]
+						m_bIsStartState = true
+						m_bIsEndtState = false
+						m_bIsPassthrough = false
+						m_bIsRootMotionExclusive = false
+					},
+				]
+				m_bBlockWaningTags = false
+				m_bLockStateWhenWaning = false
+			}
+		},
+		{
+			key = 
+			{
+				m_id = 1248798021
+			}
+			value = 
+			{
+				_class = "CRootAnimNode"
+				m_sName = "Unnamed"
+				m_vecPosition = [ 275.0, -7.0 ]
+				m_nNodeID = 
+				{
+					m_id = 1248798021
+				}
+				m_networkMode = "ServerAuthoritative"
+				m_childID = 
+				{
+					m_id = 314990686
+				}
+			}
+		},
+		{
+			key = 
+			{
+				m_id = 1496667850
+			}
+			value = 
+			{
+				_class = "CSequenceAnimNode"
+				m_sName = "Unnamed"
+				m_vecPosition = [ -479.0, 8.0 ]
+				m_nNodeID = 
+				{
+					m_id = 1496667850
+				}
+				m_networkMode = "ServerAuthoritative"
+				m_tagSpans = [  ]
+				m_sequenceName = "tzim3_@Walk"
+				m_playbackSpeed = 1.0
+				m_bLoop = true
+			}
+		},
+		{
+			key = 
+			{
+				m_id = 1634381294
+			}
+			value = 
+			{
+				_class = "CFollowPathAnimNode"
+				m_sName = "Unnamed"
+				m_vecPosition = [ -277.0, 10.0 ]
+				m_nNodeID = 
+				{
+					m_id = 1634381294
+				}
+				m_networkMode = "ServerAuthoritative"
+				m_childID = 
+				{
+					m_id = 1496667850
+				}
+				m_flBlendOutTime = 0.3
+				m_bBlockNonPathMovement = false
+				m_bStopFeetAtGoal = true
+				m_bScaleSpeed = false
+				m_flScale = 0.5
+				m_flMinAngle = 0.0
+				m_flMaxAngle = 180.0
+				m_flSpeedScaleBlending = 0.2
+				m_bTurnToFace = true
+				m_facingTarget = "MoveHeading"
+				m_param = 
+				{
+					m_id = 4294967295
+				}
+				m_flTurnToFaceOffset = 0.0
+				m_damping = 
+				{
+					_class = "CAnimInputDamping"
+					m_speedFunction = "NoDamping"
+					m_fSpeedScale = 1.0
+					m_fMinSpeed = 10.0
+					m_fMaxTension = 1000.0
+				}
+			}
+		},
+	]
+}

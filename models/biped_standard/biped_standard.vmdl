@@ -1,0 +1,2152 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/biped_standard/dmx/mesh/biped_standard_model.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "MovementSettings"
+						movementsettings = 
+						{
+							name = ""
+							speeds = [  ]
+							runspeed = 220.0
+							walkspeed = 84.0
+							maxSpringTension = 100.0
+							springConstant = 10.0
+							useSmoothPaths = true
+							useMotionDamping = false
+							sharpStartAngle = 180.0
+							m_vTraceScale = [ 1.0, 1.0, 1.0 ]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "Head_LookAt_Chain"
+						lookat_chain = 
+						{
+							name = ""
+							bones = 
+							[
+								{
+									name = "head"
+									weight = 1.0
+								},
+								{
+									name = "neck_0"
+									weight = 0.928
+								},
+								{
+									name = "spine_3"
+									weight = 0.375
+								},
+								{
+									name = "spine_2"
+									weight = 0.285
+								},
+								{
+									name = "spine_1"
+									weight = 0.214
+								},
+								{
+									name = "spine_0"
+									weight = 0.142
+								},
+								{
+									name = "pelvis"
+									weight = 0.142
+								},
+							]
+						}
+					},
+					{
+						_class = "Feet"
+						children = 
+						[
+							{
+								_class = "Foot"
+								name = "Foot_Left"
+								anklebone = "ankle_L"
+								toebone = "ball_L"
+								balloffset = [ 7.697131, -0.575445, 0.055231 ]
+								heeloffset = [ -0.395982, -4.087081, -0.036411 ]
+								autolevel = false
+								traceheight = 40.0
+								traceradius = 0.5
+							},
+							{
+								_class = "Foot"
+								name = "Foot_Right"
+								anklebone = "ankle_R"
+								toebone = "ball_R"
+								balloffset = [ -8.308445, -0.253959, -0.132064 ]
+								heeloffset = [ 0.07128, 4.121193, 0.01902 ]
+								autolevel = false
+								traceheight = 40.0
+								traceradius = 0.5
+							},
+						]
+						locktolerance = 0.8
+						heighttolerance = 1.5
+						sanitizetrajectories = true
+					},
+					{
+						_class = "GenericGameData"
+						name = "AO_Proxy_Foot_Left"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "ankle_L"
+							radius = 1.57156
+							point0 = [ 0.436035, -2.66145, 0.031398 ]
+							point1 = [ 7.21774, 0.769584, 0.205879 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						name = "AO_Proxy_Foot_Right"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "ankle_R"
+							radius = 1.57156
+							point0 = [ -7.15414, -0.872349, -0.145063 ]
+							point1 = [ -0.577456, 2.9789, -0.01341 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "npc_foot_sweep"
+						game_keys = 
+						{
+							npc_foot_sweep_enabled = true
+						}
+					},
+				]
+			},
+			{
+				_class = "BoneMarkupList"
+				bone_cull_type = "None"
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "Folder"
+						name = "Walk"
+						children = 
+						[
+							{
+								_class = "AnimFile"
+								name = "walke"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+									{
+										_class = "AnimAlign"
+										align_tx = true
+										align_ty = true
+										align_tz = false
+										align_rx = false
+										align_ry = false
+										align_rz = false
+										align_frame_type = "Number"
+										frame = 0
+										align_to_anim = "walkn"
+										align_to_frame_type = "Number"
+										align_to_frame = 0
+										bone = "root_motion"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/walke.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "walkn"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+									{
+										_class = "AnimOffset"
+										translation = [ -5.0, 0.0, 0.0 ]
+										rotation_xyz = [ 0.0, 0.0, 0.0 ]
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/walkn.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "walkne"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+									{
+										_class = "AnimAlign"
+										align_tx = true
+										align_ty = true
+										align_tz = false
+										align_rx = false
+										align_ry = false
+										align_rz = false
+										align_frame_type = "Number"
+										frame = 0
+										align_to_anim = "walkn"
+										align_to_frame_type = "Number"
+										align_to_frame = 0
+										bone = "root_motion"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/walkne.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "walknw"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+									{
+										_class = "AnimAlign"
+										align_tx = true
+										align_ty = true
+										align_tz = false
+										align_rx = false
+										align_ry = false
+										align_rz = false
+										align_frame_type = "Number"
+										frame = 0
+										align_to_anim = "walkn"
+										align_to_frame_type = "Number"
+										align_to_frame = 0
+										bone = "root_motion"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/walknw.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "walks"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+									{
+										_class = "AnimAlign"
+										align_tx = true
+										align_ty = true
+										align_tz = false
+										align_rx = false
+										align_ry = false
+										align_rz = false
+										align_frame_type = "Number"
+										frame = 0
+										align_to_anim = "walkn"
+										align_to_frame_type = "Number"
+										align_to_frame = 0
+										bone = "root_motion"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/walks.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "walkse"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+									{
+										_class = "AnimAlign"
+										align_tx = true
+										align_ty = true
+										align_tz = false
+										align_rx = false
+										align_ry = false
+										align_rz = false
+										align_frame_type = "Number"
+										frame = 0
+										align_to_anim = "walkn"
+										align_to_frame_type = "Number"
+										align_to_frame = 0
+										bone = "root_motion"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/walkse.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "walksw"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+									{
+										_class = "AnimAlign"
+										align_tx = true
+										align_ty = true
+										align_tz = false
+										align_rx = false
+										align_ry = false
+										align_rz = false
+										align_frame_type = "Number"
+										frame = 0
+										align_to_anim = "walkn"
+										align_to_frame_type = "Number"
+										align_to_frame = 0
+										bone = "root_motion"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/walksw.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "walkw"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+									{
+										_class = "AnimAlign"
+										align_tx = true
+										align_ty = true
+										align_tz = false
+										align_rx = false
+										align_ry = false
+										align_rz = false
+										align_frame_type = "Number"
+										frame = 0
+										align_to_anim = "walkn"
+										align_to_frame_type = "Number"
+										align_to_frame = 0
+										bone = "root_motion"
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/walkw.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+						]
+					},
+					{
+						_class = "Folder"
+						name = "Stationary_Turns"
+						children = 
+						[
+							{
+								_class = "AnimFile"
+								name = "turn_left_45"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = false
+										extract_ty = false
+										extract_tz = false
+										extract_rz = true
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Uniform"
+									},
+									{
+										_class = "FootCycle Override"
+										footname = "Foot_Left"
+										locktolerance = 0.4
+										verticaltolerance = 0.8
+										sanitizetrajectories = true
+									},
+									{
+										_class = "FootCycle Override"
+										footname = "Foot_Right"
+										locktolerance = 0.4
+										verticaltolerance = 0.8
+										sanitizetrajectories = true
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/turn_left_45.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "turn_left_90"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = false
+										extract_ty = false
+										extract_tz = false
+										extract_rz = true
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Uniform"
+									},
+									{
+										_class = "FootCycle Override"
+										footname = "Foot_Left"
+										locktolerance = 0.4
+										verticaltolerance = 0.8
+										sanitizetrajectories = true
+									},
+									{
+										_class = "FootCycle Override"
+										footname = "Foot_Right"
+										locktolerance = 0.4
+										verticaltolerance = 0.8
+										sanitizetrajectories = true
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/turn_left_90.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "turn_left_180"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = false
+										extract_ty = false
+										extract_tz = false
+										extract_rz = true
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Uniform"
+									},
+									{
+										_class = "FootCycle Override"
+										footname = "Foot_Left"
+										locktolerance = 0.6
+										verticaltolerance = 1.0
+										sanitizetrajectories = true
+									},
+									{
+										_class = "FootCycle Override"
+										footname = "Foot_Right"
+										locktolerance = 0.6
+										verticaltolerance = 1.5
+										sanitizetrajectories = true
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/turn_left_180.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "turn_right_45"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = false
+										extract_ty = false
+										extract_tz = false
+										extract_rz = true
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Uniform"
+									},
+									{
+										_class = "FootCycle Override"
+										footname = "Foot_Left"
+										locktolerance = 0.4
+										verticaltolerance = 0.8
+										sanitizetrajectories = true
+									},
+									{
+										_class = "FootCycle Override"
+										footname = "Foot_Right"
+										locktolerance = 0.4
+										verticaltolerance = 0.8
+										sanitizetrajectories = true
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/turn_right_45.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "turn_right_90"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = false
+										extract_ty = false
+										extract_tz = false
+										extract_rz = true
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Uniform"
+									},
+									{
+										_class = "FootCycle Override"
+										footname = "Foot_Left"
+										locktolerance = 0.4
+										verticaltolerance = 0.8
+										sanitizetrajectories = true
+									},
+									{
+										_class = "FootCycle Override"
+										footname = "Foot_Right"
+										locktolerance = 0.4
+										verticaltolerance = 0.8
+										sanitizetrajectories = true
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/turn_right_90.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "turn_right_180"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = false
+										extract_ty = false
+										extract_tz = false
+										extract_rz = true
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Uniform"
+									},
+									{
+										_class = "FootCycle Override"
+										footname = "Foot_Left"
+										locktolerance = 0.4
+										verticaltolerance = 0.8
+										sanitizetrajectories = true
+									},
+									{
+										_class = "FootCycle Override"
+										footname = "Foot_Right"
+										locktolerance = 0.4
+										verticaltolerance = 0.8
+										sanitizetrajectories = true
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/turn_right_180.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+						]
+					},
+					{
+						_class = "Folder"
+						name = "Crouch"
+						children = 
+						[
+							{
+								_class = "AnimFile"
+								name = "crouch_walke"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/crouch_walke.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "crouch_walkn"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/crouch_walkn.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "crouch_walkne"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/crouch_walkne.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "crouch_walknw"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/crouch_walknw.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "crouch_walks"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/crouch_walks.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "crouch_walkse"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/crouch_walkse.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "crouch_walksw"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/crouch_walksw.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "crouch_walkw"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/crouch_walkw.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+						]
+					},
+					{
+						_class = "Folder"
+						name = "Run"
+						children = 
+						[
+							{
+								_class = "AnimFile"
+								name = "rune"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/rune.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "runn"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/runn.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "runne"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/runne.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "runnw"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/runnw.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "runs"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/runs.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "runse"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/runse.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "runsw"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/runsw.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "runw"
+								children = 
+								[
+									{
+										_class = "ExtractMotion"
+										extract_tx = true
+										extract_ty = true
+										extract_tz = false
+										extract_rz = false
+										linear = false
+										quadratic = false
+										root_bone_name = "root_motion"
+										motion_type = "Single"
+									},
+									{
+										_class = "AnimSmoothLoop"
+										frames_from_start = -2
+										frames_from_end = 2
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = true
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								source_filename = "models/biped_standard/dmx/animation/runw.dmx"
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+						]
+					},
+					{
+						_class = "AnimFile"
+						name = "idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/biped_standard/dmx/animation/idle.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "Head_LookAt_Attachment"
+						parent_bone = "head"
+						relative_origin = [ 1.895531, 3.499232, -0.027622 ]
+						relative_angles = [ 0.0, 90.0, 90.000076 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "IKData"
+				children = 
+				[
+					{
+						_class = "IKChain"
+						name = "IK_Leg_Left"
+						children = 
+						[
+							{
+								_class = "IKChainJoint"
+								name = "leg_upper_L"
+								children = 
+								[
+									{
+										_class = "IKChainJoint"
+										name = "leg_lower_L"
+										children = 
+										[
+											{
+												_class = "IKChainJoint"
+												name = "ankle_L"
+												bone = "ankle_L"
+											},
+											{
+												_class = "IKJointConstraint_Hinge"
+												constrained_joint = ""
+												hinge_axis = "Down"
+												min_radians = 0.0
+												max_radians = 2.094395
+											},
+										]
+										bone = "leg_lower_L"
+									},
+								]
+								bone = "leg_upper_L"
+							},
+						]
+						m_bDoBonesOrientAlongPositiveX = true
+						"m_DefaultSolverSettings.m_nNumIterations" = 6
+						"m_DefaultSolverSettings.m_SolverType " = "IKSOLVER_TwoBone"
+						"m_DefaultTargetSettings.m_Bone" = 
+						{
+							m_Name = "foot_L_IK_target"
+						}
+						"m_DefaultTargetSettings.m_TargetSource" = "Bone"
+						"m_Data.m_DefaultTargetSettings.m_AnimgraphParameterNamePosition" = 
+						{
+							m_id = 4294967295
+						}
+						"m_Data.m_EndEffectorFixedOffsetAttachment" = 
+						{
+							m_Name = ""
+						}
+						"m_Data.m_bParentJointRequiresAlignment" = true
+					},
+					{
+						_class = "IKChain"
+						name = "IK_Leg_Right"
+						children = 
+						[
+							{
+								_class = "IKChainJoint"
+								name = "leg_upper_R"
+								children = 
+								[
+									{
+										_class = "IKChainJoint"
+										name = "leg_lower_R"
+										children = 
+										[
+											{
+												_class = "IKChainJoint"
+												name = "ankle_R"
+												bone = "ankle_R"
+											},
+											{
+												_class = "IKJointConstraint_Hinge"
+												constrained_joint = ""
+												hinge_axis = "Down"
+												min_radians = 0.0
+												max_radians = 2.094395
+											},
+										]
+										bone = "leg_lower_R"
+									},
+								]
+								bone = "leg_upper_R"
+							},
+						]
+						m_bDoBonesOrientAlongPositiveX = true
+						"m_DefaultSolverSettings.m_nNumIterations" = 6
+						"m_DefaultSolverSettings.m_SolverType " = "IKSOLVER_TwoBone"
+						"m_DefaultTargetSettings.m_Bone" = 
+						{
+							m_Name = "foot_R_IK_target"
+						}
+						"m_DefaultTargetSettings.m_TargetSource" = "Bone"
+						"m_Data.m_DefaultTargetSettings.m_AnimgraphParameterNamePosition" = 
+						{
+							m_id = 4294967295
+						}
+						"m_Data.m_EndEffectorFixedOffsetAttachment" = 
+						{
+							m_Name = ""
+						}
+						"m_Data.m_bParentJointRequiresAlignment" = true
+					},
+				]
+			},
+			{
+				_class = "WeightListList"
+				children = 
+				[
+					{
+						_class = "WeightList"
+						name = "Foot_IK_Only"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "ball_L"
+								weight = 0.0
+							},
+							{
+								bone = "ball_R"
+								weight = 0.0
+							},
+							{
+								bone = "foot_L_IK_target"
+								weight = 0.0
+							},
+							{
+								bone = "foot_R_IK_target"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+				]
+			},
+			{
+				_class = "PhysicsJointList"
+				children = 
+				[
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "pelvis"
+						child_body = "spine_0"
+						anchor_origin = [ 0.896484, 0.226074, -0.000008 ]
+						anchor_angles = [ 0.0, -82.887871, -90.0 ]
+						collision_enabled = false
+						friction = 0.05
+						enable_swing_limit = true
+						swing_limit = 7.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -10.0
+						max_twist_angle = 10.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "spine_0"
+						child_body = "spine_2"
+						anchor_origin = [ 8.138229, -0.738055, 0.000004 ]
+						anchor_angles = [ 0.0, -111.105476, -90.0 ]
+						collision_enabled = false
+						friction = 0.1
+						enable_swing_limit = true
+						swing_limit = 7.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -5.0
+						max_twist_angle = 5.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "spine_2"
+						child_body = "neck_0"
+						anchor_origin = [ 10.327862, 1.215211, -0.000004 ]
+						anchor_angles = [ 0.0, -59.638092, -90.0 ]
+						collision_enabled = false
+						friction = 0.1
+						enable_swing_limit = true
+						swing_limit = 20.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -5.0
+						max_twist_angle = 5.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "neck_0"
+						child_body = "head"
+						anchor_origin = [ 5.764896, 0.000006, 0.000008 ]
+						anchor_angles = [ 0.0, -106.367882, -90.0 ]
+						collision_enabled = false
+						friction = 0.1
+						enable_swing_limit = true
+						swing_limit = 30.000015
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -30.000015
+						max_twist_angle = 30.000015
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "clavicle_L"
+						child_body = "arm_upper_L"
+						anchor_origin = [ 6.663423, -0.000002, -0.000008 ]
+						anchor_angles = [ -5.576956, -70.792824, -54.943577 ]
+						collision_enabled = false
+						friction = 0.05
+						enable_swing_limit = true
+						swing_limit = 30.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -25.0
+						max_twist_angle = 25.0
+					},
+					{
+						_class = "PhysicsJointRevolute"
+						parent_body = "arm_upper_L"
+						child_body = "arm_lower_L"
+						anchor_origin = [ 11.628017, -0.00001, -0.000008 ]
+						anchor_angles = [ -0.000003, 24.906425, 0.0 ]
+						collision_enabled = false
+						friction = 0.05
+						enable_limit = true
+						min_angle = 0.0
+						max_angle = 60.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "pelvis"
+						child_body = "leg_upper_L"
+						anchor_origin = [ -2.749707, 0.441631, 4.060912 ]
+						anchor_angles = [ 80.852539, 104.273773, -74.914566 ]
+						collision_enabled = false
+						friction = 0.05
+						enable_swing_limit = true
+						swing_limit = 20.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -10.0
+						max_twist_angle = 10.0
+					},
+					{
+						_class = "PhysicsJointRevolute"
+						parent_body = "leg_upper_L"
+						child_body = "leg_lower_L"
+						anchor_origin = [ 17.317543, -0.000001, -0.000001 ]
+						anchor_angles = [ -0.0, 9.782758, 0.0 ]
+						collision_enabled = false
+						friction = 0.075
+						enable_limit = true
+						min_angle = 0.0
+						max_angle = 45.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "clavicle_R"
+						child_body = "arm_upper_R"
+						anchor_origin = [ -6.663422, -0.000002, 0.0 ]
+						anchor_angles = [ 5.576956, 109.207184, -125.056435 ]
+						collision_enabled = false
+						friction = 0.05
+						enable_swing_limit = true
+						swing_limit = 30.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -25.0
+						max_twist_angle = 25.0
+					},
+					{
+						_class = "PhysicsJointRevolute"
+						parent_body = "arm_upper_R"
+						child_body = "arm_lower_R"
+						anchor_origin = [ -11.628021, -0.000008, -0.000008 ]
+						anchor_angles = [ 0.000003, 204.906433, 0.0 ]
+						collision_enabled = false
+						friction = 0.05
+						enable_limit = true
+						min_angle = 0.0
+						max_angle = 60.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "pelvis"
+						child_body = "leg_upper_R"
+						anchor_origin = [ -2.658119, 0.603723, -3.979191 ]
+						anchor_angles = [ -80.852539, 104.273773, -105.085426 ]
+						collision_enabled = false
+						friction = 0.05
+						enable_swing_limit = true
+						swing_limit = 20.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -10.0
+						max_twist_angle = 10.0
+					},
+					{
+						_class = "PhysicsJointRevolute"
+						parent_body = "leg_upper_R"
+						child_body = "leg_lower_R"
+						anchor_origin = [ -17.317545, 0.000003, 0.000001 ]
+						anchor_angles = [ -0.0, -170.217255, -0.0 ]
+						collision_enabled = false
+						friction = 0.075
+						enable_limit = true
+						min_angle = 0.0
+						max_angle = 45.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "arm_lower_L"
+						child_body = "hand_L"
+						anchor_origin = [ 10.948382, -0.000004, 0.0 ]
+						anchor_angles = [ 82.360741, 34.121086, 39.977276 ]
+						collision_enabled = false
+						friction = 0.05
+						enable_swing_limit = true
+						swing_limit = 20.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -20.0
+						max_twist_angle = 20.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "leg_lower_L"
+						child_body = "ankle_L"
+						anchor_origin = [ 16.970499, -0.000003, -0.000002 ]
+						anchor_angles = [ 0.90129, 18.969608, 90.760506 ]
+						collision_enabled = false
+						friction = 0.1
+						enable_swing_limit = true
+						swing_limit = 14.999978
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -7.0
+						max_twist_angle = 7.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "arm_lower_R"
+						child_body = "hand_R"
+						anchor_origin = [ -10.948379, -0.000007, 0.000008 ]
+						anchor_angles = [ -82.360741, -145.878922, 140.022736 ]
+						collision_enabled = false
+						friction = 0.05
+						enable_swing_limit = true
+						swing_limit = 20.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -20.0
+						max_twist_angle = 20.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "leg_lower_R"
+						child_body = "ankle_R"
+						anchor_origin = [ -16.970503, 0.000006, -0.000003 ]
+						anchor_angles = [ -0.90129, -161.030396, 89.239502 ]
+						collision_enabled = false
+						friction = 0.1
+						enable_swing_limit = true
+						swing_limit = 14.999978
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -7.0
+						max_twist_angle = 7.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "spine_2"
+						child_body = "clavicle_L"
+						anchor_origin = [ 7.891129, 3.107337, 0.867264 ]
+						anchor_angles = [ 27.01907, -68.581474, 16.011789 ]
+						collision_enabled = false
+						friction = 0.1
+						enable_swing_limit = true
+						swing_limit = 10.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -2.0
+						max_twist_angle = 2.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "spine_2"
+						child_body = "clavicle_R"
+						anchor_origin = [ 7.891129, 3.107337, -0.867271 ]
+						anchor_angles = [ 27.019068, 111.41851, -163.974258 ]
+						collision_enabled = false
+						friction = 0.1
+						enable_swing_limit = true
+						swing_limit = 10.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -2.0
+						max_twist_angle = 2.0
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "pelvis"
+						surface_prop = "npc_combine_soldier"
+						collision_prop = "default"
+						radius = 5.405184
+						point0 = [ -2.805105, 0.927527, 1.993394 ]
+						point1 = [ -2.805105, 0.927527, -2.049777 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "spine_0"
+						surface_prop = "npc_combine_soldier"
+						collision_prop = "default"
+						radius = 5.666323
+						point0 = [ 2.628309, 0.777579, 0.0 ]
+						point1 = [ 4.489939, 0.30354, 0.0 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "spine_2"
+						surface_prop = "npc_combine_soldier"
+						collision_prop = "default"
+						radius = 6.0
+						point0 = [ 0.571935, 0.723189, 0.0 ]
+						point1 = [ 5.44134, 0.817928, 0.0 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "neck_0"
+						surface_prop = "npc_combine_soldier"
+						collision_prop = "default"
+						radius = 2.8
+						point0 = [ 1.834593, 0.159425, 0.0 ]
+						point1 = [ 3.494013, 0.331719, 0.0 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "head"
+						surface_prop = "npc_combine_soldier"
+						collision_prop = "default"
+						radius = 4.0
+						point0 = [ 0.137518, 1.110987, 0.0 ]
+						point1 = [ 2.787661, 0.119519, 0.0 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "arm_upper_L"
+						surface_prop = "npc_combine_soldier"
+						collision_prop = "default"
+						radius = 2.2
+						point0 = [ 3.07092, 0.101982, -0.419772 ]
+						point1 = [ 10.302732, 0.03362, -0.138387 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "arm_lower_L"
+						surface_prop = "npc_combine_soldier"
+						collision_prop = "default"
+						radius = 2.2
+						point0 = [ 0.779721, 0.0, 0.0 ]
+						point1 = [ 9.437909, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "leg_upper_L"
+						surface_prop = "npc_combine_soldier"
+						collision_prop = "default"
+						radius = 3.2
+						point0 = [ 3.823403, -0.404825, -0.589013 ]
+						point1 = [ 16.633715, 0.339113, 0.081382 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "leg_lower_L"
+						surface_prop = "npc_combine_soldier"
+						collision_prop = "default"
+						radius = 2.2
+						point0 = [ 1.759624, 0.683827, 0.101829 ]
+						point1 = [ 16.163443, -0.0, -0.0 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "arm_upper_R"
+						surface_prop = "npc_combine_soldier"
+						collision_prop = "default"
+						radius = 2.2
+						point0 = [ -2.940807, -0.09661, 0.290651 ]
+						point1 = [ -10.314828, -0.031363, 0.094355 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "arm_lower_R"
+						surface_prop = "npc_combine_soldier"
+						collision_prop = "default"
+						radius = 2.2
+						point0 = [ -0.981427, 0.0, 0.0 ]
+						point1 = [ -9.801885, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "leg_upper_R"
+						surface_prop = "npc_combine_soldier"
+						collision_prop = "default"
+						radius = 3.2
+						point0 = [ -3.796616, 0.288326, 0.569778 ]
+						point1 = [ -16.634039, -0.309878, -0.076823 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "leg_lower_R"
+						surface_prop = "npc_combine_soldier"
+						collision_prop = "default"
+						radius = 2.2
+						point0 = [ -1.969846, -0.732311, -0.110404 ]
+						point1 = [ -16.163443, 0.0, -0.0 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "hand_L"
+						surface_prop = "npc_combine_soldier"
+						collision_prop = "default"
+						radius = 2.5
+						point0 = [ -0.0, 0.0, -0.0 ]
+						point1 = [ 3.276794, 0.226292, -0.351149 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "ankle_L"
+						surface_prop = "npc_combine_soldier"
+						collision_prop = "default"
+						radius = 2.425187
+						point0 = [ 1.329381, -2.072794, 0.000599 ]
+						point1 = [ 7.157719, 1.280429, -0.005458 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "hand_R"
+						surface_prop = "npc_combine_soldier"
+						collision_prop = "default"
+						radius = 2.5
+						point0 = [ 0.0, 0.0, -0.0 ]
+						point1 = [ -3.318429, -0.28164, 0.320061 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "ankle_R"
+						surface_prop = "npc_combine_soldier"
+						collision_prop = "default"
+						radius = 2.365405
+						point0 = [ -1.352253, 2.059729, 0.000007 ]
+						point1 = [ -6.915459, -1.139789, 0.012948 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "clavicle_L"
+						surface_prop = "npc_combine_soldier"
+						collision_prop = "default"
+						radius = 3.0
+						point0 = [ 4.50063, -0.44032, 0.342261 ]
+						point1 = [ 5.81971, 0.276718, 0.834412 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "clavicle_R"
+						surface_prop = "npc_combine_soldier"
+						collision_prop = "default"
+						radius = 3.0
+						point0 = [ -4.484322, 0.445906, -0.161212 ]
+						point1 = [ -5.538912, -0.125534, -0.559547 ]
+					},
+				]
+			},
+		]
+		model_archetype = "generic_actor_model"
+		primary_associated_entity = "generic_actor"
+		anim_graph_name = "animgraphs/biped_standard.vanmgrph"
+	}
+}
