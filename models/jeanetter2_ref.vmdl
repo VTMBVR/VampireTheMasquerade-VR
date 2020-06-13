@@ -811,8 +811,8 @@
 						disable_compression = false
 						source_filename = "VpkContent/decompiled_models/character/shared/female/misc_dance01.smd"
 						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
+						end_frame = 110
+						framerate = 23.0
 						reverse = false
 					},
 					{

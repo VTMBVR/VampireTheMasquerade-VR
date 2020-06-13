@@ -214,6 +214,7 @@ scenery/furniture/bed2/bed2.mdl
 scenery/furniture/beda/beda.mdl
 scenery/furniture/bench/bencha.mdl
 scenery/furniture/chair/crappy_chair.mdl
+//----
 scenery/furniture/chair/office_chair.mdl
 scenery/furniture/coffeetablemotel/coffeetablemotelsmall.mdl
 scenery/furniture/computer/computer_case.mdl
@@ -234,6 +235,7 @@ scenery/furniture/table/foldingtable.mdl
 scenery/furniture/toileta/toileta.mdl
 scenery/furniture/tvs/TV19inch.mdl
 scenery/furniture/tvs/TV8inch.mdl
+//---
 scenery/misc/GehtoBlaster1/GehtoBlaster1.mdl
 scenery/misc/busstop/busstop.mdl
 scenery/misc/coaster/coastersky.mdl
@@ -259,6 +261,7 @@ scenery/street/pierlight/pierlightskybox_hol.mdl
 scenery/street/pierlightb/pierlightb.mdl
 scenery/street/piertrash/piertrash.mdl
 scenery/street/powerpole/powerpole.mdl
+//--
 scenery/structural/apartment/roofasky.mdl
 scenery/structural/apartment/roofcsky.mdl
 scenery/structural/apartment/windowa.mdl

@@ -112,6 +112,28 @@
 							exception_list = [  ]
 						}
 					},
+					{
+						_class = "RenderMeshFile"
+						disabled = true
+						filename = "VpkContent/decompiled_models/character/gibs/left_eye.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						disabled = true
+						filename = "VpkContent/decompiled_models/character/gibs/right_eye.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
 				]
 			},
 			{
@@ -367,6 +389,49 @@
 					},
 				]
 				default_root_bone_name = ""
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						name = "right_eye"
+						game_class = "eye"
+						game_keys = 
+						{
+							bonename = ""
+							radius = 1.0
+							yaw = 4.0
+						}
+					},
+					{
+						_class = "GenericGameData"
+						name = "left_eye"
+						game_class = "eye"
+						game_keys = 
+						{
+							bonename = ""
+							radius = 1.0
+							yaw = 4.0
+						}
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "eyes"
+						parent_bone = ""
+						relative_origin = [ -4.735095, 6.583934, 61.089298 ]
+						relative_angles = [ 0.0, 52.831429, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
 			},
 		]
 		model_archetype = "generic_actor_model"
