@@ -48,6 +48,24 @@
 				]
 				default_root_bone_name = ""
 			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "dresser.vmat"
+								to = "materials/models/scenery/furniture/dresser/dresser.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
 		]
 		model_archetype = "animated_model"
 		primary_associated_entity = "npc_furniture"

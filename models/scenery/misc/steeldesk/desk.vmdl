@@ -21,6 +21,32 @@
 					},
 				]
 			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "steel.vmat"
+								to = "materials/models/scenery/misc/steeltable/steel.vmat"
+							},
+							{
+								from = "steel2.vmat"
+								to = "materials/models/scenery/misc/steeltable/steel2.vmat"
+							},
+							{
+								from = "steelb.vmat"
+								to = "materials/models/scenery/misc/steeltable/steelb.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
 		]
 		model_archetype = "static_prop_model"
 		primary_associated_entity = "hl_vr_environmental_interaction"

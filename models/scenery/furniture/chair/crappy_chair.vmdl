@@ -11,7 +11,17 @@
 				[
 					{
 						_class = "DefaultMaterialGroup"
-						remaps = [  ]
+						remaps = 
+						[
+							{
+								from = "brown_vinyl.vmat"
+								to = "materials/models/scenery/furniture/chair/brown_vinyl.vmat"
+							},
+							{
+								from = "metalox.vmat"
+								to = "materials/models/scenery/furniture/chair/metalox.vmat"
+							},
+						]
 						use_global_default = false
 						global_default_material = ""
 					},
