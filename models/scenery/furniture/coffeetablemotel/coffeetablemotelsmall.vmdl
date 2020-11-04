@@ -11,7 +11,17 @@
 				[
 					{
 						_class = "DefaultMaterialGroup"
-						remaps = [  ]
+						remaps = 
+						[
+							{
+								from = "wood.vmat"
+								to = "materials/models/scenery/furniture/chairmotel/wood.vmat"
+							},
+							{
+								from = "wood2.vmat"
+								to = "materials/models/scenery/furniture/chairmotel/wood2.vmat"
+							},
+						]
 						use_global_default = false
 						global_default_material = ""
 					},

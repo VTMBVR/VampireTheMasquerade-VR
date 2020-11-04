@@ -37,6 +37,6 @@ Layer0
 
 	SystemAttributes
 	{
-		PhysicsSurfaceProperties "base.cloth"
+		PhysicsSurfaceProperties "world.mattress"
 	}
 }

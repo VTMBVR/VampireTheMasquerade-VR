@@ -11,7 +11,13 @@
 				[
 					{
 						_class = "DefaultMaterialGroup"
-						remaps = [  ]
+						remaps = 
+						[
+							{
+								from = "conduita.vmat"
+								to = "materials/models/scenery/structural/conduita/conduita.vmat"
+							},
+						]
 						use_global_default = false
 						global_default_material = ""
 					},

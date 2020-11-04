@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\pizza\box"
+	"$nocull"			1
+
+}

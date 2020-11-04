@@ -1,0 +1,7 @@
+"Sprite"
+{
+	"$spriteorientation" "vp_parallel"
+	"$basetexture" "sprites/steam"
+	"$translucent" 1
+
+ }

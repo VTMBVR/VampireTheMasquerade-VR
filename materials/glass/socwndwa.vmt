@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "glass/socwndwa"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "glass/socwndwa_ref"
+	"$alphatest" 1
+	"$surfaceprop" "glass"
+}

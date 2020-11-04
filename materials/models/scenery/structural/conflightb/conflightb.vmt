@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\conflightb\conflightb"
+	"$selfillum" "1"
+	"$surfaceprop" "metalvent"
+
+}

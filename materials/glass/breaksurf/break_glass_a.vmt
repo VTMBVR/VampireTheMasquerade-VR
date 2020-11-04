@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+	"$basetexture"	"glass\breaksurf\break_glass_a"
+	"$translucent" 1
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects\ref_100"
+	"$surfaceprop" "glass"
+	"$nocull" 		1
+	"$crackmaterial" 	"glass\breaksurf\break_glass_a_cracked"
+}

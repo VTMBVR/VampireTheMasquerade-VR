@@ -2,36 +2,21 @@
 
 Layer0
 {
-	shader "vr_glass.vfx"
+	shader "vr_simple.vfx"
 
-	//---- Ambient Occlusion ----
-	TextureAmbientOcclusion "materials/default/default_ao.tga"
+	//---- Rendering ----
+	F_DO_NOT_CAST_SHADOWS 1
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
 	TextureColor "vpkcontent/materials/models/scenery/furniture/lighta/lighta.tga"
 
-	//---- Emissive ----
-	g_flEmissiveEdgeColorFalloff "3.000"
-	g_flEmissiveEdgeColorThickness "0.100"
-	g_flEmissiveStrength "0.500"
-	g_vEmissiveColor "[0.000000 0.000000 0.000000 0.000000]"
-	g_vEmissiveEdgeColor "[0.000000 0.000000 0.000000 0.000000]"
-
 	//---- Fade ----
 	g_flFadeExponent "1.000"
 
 	//---- Fog ----
-	g_bAvoidDoubleFogging "1"
-	g_flGlassFogExtinctionAmount "0.000"
-
-	//---- Glass Color ----
-	g_flEdgeColorFalloff "3.000"
-	g_flEdgeColorMaxOpacity "0.500"
-	g_flEdgeColorThickness "0.100"
-	g_vEdgeColor "[0.000000 0.000000 0.000000 0.000000]"
-	GlassTintColor "materials/default/default_color.tga"
+	g_bFogEnabled "1"
 
 	//---- Lighting ----
 	g_flDirectionalLightmapMinZ "0.050"
@@ -53,9 +38,10 @@ Layer0
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
 
-	//---- Translucent ----
-	g_flOpacityScale "1.000"
-	TextureTranslucency "materials/default/default_trans.tga"
+	Attributes
+	{
+		selfillum "1"
+	}
 
 	SystemAttributes
 	{

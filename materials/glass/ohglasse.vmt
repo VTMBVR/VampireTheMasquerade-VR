@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "glass/ohglasse"
+	"$envmap" "envmap/hav"
+	"$envmapmask" "glass/ohglasse_ref"
+	"$selfillum" "1"
+}

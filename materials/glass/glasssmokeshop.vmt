@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "glass/glass01"
+	"$envmap" "envmap/smokeshop"
+	"$translucent" 1
+	"$surfaceprop" "glass"
+}

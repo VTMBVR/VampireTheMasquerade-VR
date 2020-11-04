@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"glass\biltdra"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "glass\biltdra_ref"
+	"$surfaceprop" "glass"
+
+}

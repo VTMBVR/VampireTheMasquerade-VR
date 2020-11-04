@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "glass/windowa"
+	"$envmap" "envmap/moon"	
+	"$envmapmask" "glass/windowa_ref"
+}

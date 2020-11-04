@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "glass/chubbys"
+	"$envmap" "env_cubemap"	
+	"$envmapmask" "glass/chubbys_ref"
+	"$selfillum" "0"
+	"$surfaceprop" "glass"
+}

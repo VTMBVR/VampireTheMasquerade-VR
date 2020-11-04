@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/street/lamppost/lampposttp"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"metal"
+}

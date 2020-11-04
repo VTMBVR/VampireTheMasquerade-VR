@@ -1,0 +1,16 @@
+"Sprite"
+{
+	"$basetexture"	"sprites\lightning"
+	"$spriteorientation" "parallel_upright"
+	"$spriteorigin" "[ 0.50 0.50 ]"
+
+ "Proxies"
+ {
+  "AnimatedTexture"
+  {
+    "animatedTextureVar" "$basetexture"
+    "animatedTextureFrameNumVar" "$frame"
+    "animatedTextureFrameRate" "15"
+  }
+ }
+}

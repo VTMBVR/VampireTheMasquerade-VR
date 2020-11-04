@@ -15,7 +15,7 @@
 						[
 							{
 								from = "handraila.vmat"
-								to = "handraila.vmat"
+								to = "materials/models/scenery/structural/handraila/handraila.vmat"
 							},
 							{
 								from = "knobfrntc.vmat"
@@ -39,7 +39,7 @@
 							},
 							{
 								from = "sinkmetal.vmat"
-								to = "sinkmetal.vmat"
+								to = "materials/models/scenery/furniture/sinka/sinkmetal.vmat"
 							},
 						]
 						use_global_default = false

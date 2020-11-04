@@ -21,6 +21,36 @@
 					},
 				]
 			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "lamppost.vmat"
+								to = "materials/models/scenery/street/lamppost/lamppost.vmat"
+							},
+							{
+								from = "lamppostglss.vmat"
+								to = "materials/models/scenery/street/lamppost/lamppostglss.vmat"
+							},
+							{
+								from = "lampposttp.vmat"
+								to = "materials/models/scenery/street/lamppost/lampposttp.vmat"
+							},
+							{
+								from = "lightcbulb.vmat"
+								to = "materials/models/scenery/street/lamppost/lightcbulb.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
 		]
 		model_archetype = "static_prop_model"
 		primary_associated_entity = "prop_static"

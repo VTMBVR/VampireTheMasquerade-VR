@@ -1,0 +1,17 @@
+"Sprite"
+{
+	"$baseTexture" "sprites/MFlash_Mac10"
+
+	"$spriteorigin" "[ 0.50 0.50 ]"
+	"$spriteorientation" "oriented"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "30"
+		}
+	}
+}

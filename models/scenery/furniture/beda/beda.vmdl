@@ -40,8 +40,8 @@
 				]
 			},
 		]
-		model_archetype = "animated_model"
-		primary_associated_entity = "npc_furniture"
+		model_archetype = "static_prop_model"
+		primary_associated_entity = "prop_static"
 		anim_graph_name = ""
 	}
 }

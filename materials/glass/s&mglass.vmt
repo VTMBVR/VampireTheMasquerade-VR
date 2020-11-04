@@ -1,0 +1,7 @@
+"UnLitGeneric"
+{
+	"$baseTexture" "glass/S&Mglass"
+	"$translucent" 	"1"
+	"$envmap" 		"env_cubemap"
+	"$envmapmask" 	"effects/ref_100"
+}

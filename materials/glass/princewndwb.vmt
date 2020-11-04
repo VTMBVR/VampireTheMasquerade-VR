@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "glass/princewndwb"
+	"$envmap" "envmap/hav"
+	"$envmapmask" "glass/princewndwb_ref"
+	"$surfaceprop" "glass"
+	"$translucent" "1"
+}

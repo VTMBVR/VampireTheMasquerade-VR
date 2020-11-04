@@ -1,0 +1,13 @@
+"Sprite"
+{
+	"$basetexture" "sprites/Bullet-Hit"
+
+ "Proxies"
+ {
+  "AnimatedTexture"
+  {
+    "animatedTextureVar" "$basetexture"
+    "animatedTextureFrameNumVar" "$frame"
+    "animatedTextureFrameRate" "30"
+  }
+ }

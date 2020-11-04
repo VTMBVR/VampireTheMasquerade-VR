@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "glass/warewing"
+//	"$translucent" 1
+	"$envmap" "env_cubemap"
+	"$envmapmask" "glass/warewing_ref"
+	"$surfaceprop" "metal"
+}

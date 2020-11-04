@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "glass/wrhswndwa"
+	"$envmap" "envmap/hav"
+	"$envmapmask" "glass/wrhswndwa_ref"
+	"$selfillum" "1"
+	"$surfaceprop" "glass"
+}

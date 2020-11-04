@@ -11,7 +11,13 @@
 				[
 					{
 						_class = "DefaultMaterialGroup"
-						remaps = [  ]
+						remaps = 
+						[
+							{
+								from = "conflighta.vmat"
+								to = "materials/models/scenery/structural/conflight/conflighta.vmat"
+							},
+						]
 						use_global_default = false
 						global_default_material = ""
 					},

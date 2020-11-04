@@ -21,9 +21,39 @@
 					},
 				]
 			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "box.vmat"
+								to = "materials/models/scenery/misc/pizza/box.vmat"
+							},
+							{
+								from = "inside.vmat"
+								to = "materials/models/scenery/misc/pizza/inside.vmat"
+							},
+							{
+								from = "pizza.vmat"
+								to = "materials/models/scenery/misc/pizza/pizza.vmat"
+							},
+							{
+								from = "pizza2.vmat"
+								to = "materials/models/scenery/misc/pizza/pizza2.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
 		]
-		model_archetype = ""
-		primary_associated_entity = ""
+		model_archetype = "static_prop_model"
+		primary_associated_entity = "prop_static"
 		anim_graph_name = ""
 	}
 }

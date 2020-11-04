@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "glass/glassa"
+	"$selfillum" "1"
+	"$surfaceprop" "glass"
+
+}

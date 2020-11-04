@@ -1,0 +1,28 @@
+"Sprite"
+{
+	"$spriteorientation" "parallel_upright"
+	"$spriteorigin" "[ 0.50 0.0 ]"
+	"$basetexture" "sprites/volumelightb"
+
+	"$temp" 0
+	"$curve" 0.2
+	"$alpha" 0.5
+
+
+	"Proxies"
+	{
+		"PlayerProximity"
+		{
+			"resultVar"	"$temp"
+			"scale"		0.0018
+		}
+		
+		"Subtract"
+		{
+			"srcVar1"	"$temp"
+			"srcVar2"	"$curve"
+			"resultVar"	"$alpha"
+		}
+
+	}
+}

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "glass/mirror"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "glass"
+	"$envmapmask" "glass/mirror_ref"
+}

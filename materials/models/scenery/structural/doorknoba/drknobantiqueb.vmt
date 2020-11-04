@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/structural/doorknoba/drknobantiqueb"
+	"$envmapmask" "models/scenery/structural/doorknoba/drknobantique_ref"
+	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"metal"
+}

@@ -1,0 +1,5 @@
+"Sprite"
+{
+	"$basetexture" "sprites/hud1_glow"
+	"$ignorez" 1
+}

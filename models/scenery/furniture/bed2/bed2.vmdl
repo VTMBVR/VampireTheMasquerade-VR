@@ -11,7 +11,7 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "VpkContent/decompiled_models/scenery/furniture/bed2/bed2_r.smd"
+						filename = "vpkcontent/decompiled_models/scenery/furniture/bed2/bed2_r.smd"
 						import_scale = 1.0
 						import_filter = 
 						{
@@ -47,6 +47,28 @@
 					},
 				]
 				default_root_bone_name = ""
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "matress.vmat"
+								to = "materials/models/scenery/furniture/bed2/matress.vmat"
+							},
+							{
+								from = "old_bed_rail.vmat"
+								to = "materials/models/scenery/furniture/bed2/old_bed_rail.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
 			},
 		]
 		model_archetype = ""

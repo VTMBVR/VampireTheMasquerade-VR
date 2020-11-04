@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/street/pierlightb/pierlightbsuper"
+	"$selfillum" "1"
+	"$surfaceprop" "metal"
+}

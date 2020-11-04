@@ -1,0 +1,13 @@
+"Sprite"
+{
+	"$spriteorientation" "parallel_upright"
+	"$spriteorigin" "[ .50 0.0 ]"
+	"$basetexture" "sprites/volumelight_wide"
+
+	"Proxies"
+	{
+		"lampbeam"
+		{
+		}
+	}
+}

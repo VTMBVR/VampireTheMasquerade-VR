@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "glass/pawnwndwglassb"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "glass/pawnwndwglassb_ref"
+	"$translucent" 1
+}

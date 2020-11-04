@@ -17,6 +17,14 @@
 								from = "folding_table.vmat"
 								to = "materials/models/scenary/furniture/table/folding_table.vmat"
 							},
+							{
+								from = "doorplate.vmat"
+								to = "materials/metal/doorplate.vmat"
+							},
+							{
+								from = "metalox.vmat"
+								to = "materials/metal/metalox.vmat"
+							},
 						]
 						use_global_default = false
 						global_default_material = ""

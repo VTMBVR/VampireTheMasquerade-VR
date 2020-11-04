@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "glass/ohglassd"
+	"$surfaceprop" "glass"
+	"$envmap" "envmap/hav"
+	"$envmapmask" "glass/ohglassd_ref"
+	"$translucent" 1
+}

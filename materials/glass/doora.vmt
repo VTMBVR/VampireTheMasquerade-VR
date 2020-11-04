@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "glass/doora"
+	"$envmap" "env_cubemap"	
+	"$envmapmask" "glass/doora_ref"
+	"$selfillum" "1"
+	"$surfaceprop" "glass"
+}

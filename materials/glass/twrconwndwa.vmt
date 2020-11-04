@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "glass/twrconwndwa"
+	"$translucent" 1
+	"%compilePassBullets 1 "
+	"$surfaceprop" "metal"
+}
