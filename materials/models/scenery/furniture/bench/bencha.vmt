@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+
+	"$color"				"[1 1 1]"
+	"$baseTexture"				"/models/scenery/furniture/bench/bencha"
+	"$selfIllum"				0
+	"$translucency"				0
+	"$alpha"				1
+	"$surfaceprop"				"wood"
+	"$nocull"				1
+}

@@ -44,6 +44,28 @@
 					},
 				]
 			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "toothbrush.vmat"
+								to = "materials/models/scenery/misc/toothbrush/toothbrush.vmat"
+							},
+							{
+								from = "toothbrushholder.vmat"
+								to = "materials/models/scenery/misc/toothbrush/toothbrushholder.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
 		]
 		model_archetype = "physics_prop_model"
 		primary_associated_entity = "prop_physics"

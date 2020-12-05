@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\posters\vvposter"
+	"$envmapmask" "models\scenery\misc\posters\vvposter_ref"
+	"$envmap"	"envmap/havenrm"
+	/"$envmap" "env_cubemap"
+	"$envmapmode" "1"
+
+}

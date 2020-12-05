@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\busstop\santamonica_small"
+	"$surfaceprop" "default"
+
+}

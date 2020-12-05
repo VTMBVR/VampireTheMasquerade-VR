@@ -11,7 +11,25 @@
 				[
 					{
 						_class = "DefaultMaterialGroup"
-						remaps = [  ]
+						remaps = 
+						[
+							{
+								from = "phoneofficeblack.vmat"
+								to = "materials/models/scenery/furniture/phoneoffice/phoneofficeblack.vmat"
+							},
+							{
+								from = "phoneofficecord_envmask.vmat"
+								to = "materials/models/scenery/furniture/phoneoffice/phoneofficecord_envmask.vmat"
+							},
+							{
+								from = "phoneofficegrey.vmat"
+								to = "materials/models/scenery/furniture/phoneoffice/phoneofficegrey.vmat"
+							},
+							{
+								from = "phoneofficemain.vmat"
+								to = "materials/models/scenery/furniture/phoneoffice/phoneofficemain.vmat"
+							},
+						]
 						use_global_default = false
 						global_default_material = ""
 					},

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\posters\poster3a"
+	"$nocull"			1
+}

@@ -11,7 +11,37 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "VpkContent/decompiled_models/scenery/furniture/beda/beda.smd"
+						filename = "models/scenery/furniture/beda/beda.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/scenery/furniture/beda/beda_@idle.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/scenery/furniture/beda/bedashort.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/scenery/furniture/beda/bedashort_@idle.smd"
 						import_scale = 1.0
 						import_filter = 
 						{

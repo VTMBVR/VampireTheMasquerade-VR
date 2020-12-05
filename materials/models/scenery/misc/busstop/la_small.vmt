@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\busstop\la_small"
+	"$surfaceprop" "default"
+
+}

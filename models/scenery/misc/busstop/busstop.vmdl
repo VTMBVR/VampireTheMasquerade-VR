@@ -21,6 +21,40 @@
 					},
 				]
 			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "busstop.vmat"
+								to = "materials/models/scenery/misc/busstop/busstop.vmat"
+							},
+							{
+								from = "glass.vmat"
+								to = "materials/models/scenery/misc/busstop/glass.vmat"
+							},
+							{
+								from = "postergen1.vmat"
+								to = "materials/models/scenery/misc/busstop/postergen1.vmat"
+							},
+							{
+								from = "postergen2.vmat"
+								to = "materials/models/scenery/misc/busstop/postergen2.vmat"
+							},
+							{
+								from = "postergen3.vmat"
+								to = "materials/models/scenery/misc/busstop/postergen3.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
 		]
 		model_archetype = "static_prop_model"
 		primary_associated_entity = "prop_static"
