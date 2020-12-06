@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"signs\netsigna"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.100"
+
+}

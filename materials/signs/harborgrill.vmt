@@ -1,0 +1,6 @@
+"lightmappedGeneric"
+{	
+	"$basetexture" "signs/harborgrill"
+	"$surfaceprop" "wood"
+	"$translucent" 1
+}

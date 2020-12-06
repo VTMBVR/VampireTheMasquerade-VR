@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+	"$basetexture"	"signs\smsign3"
+	"$translucent" "1"
+	"$alphatest" "1"
+	"$envmap" "envmap/smsewer"
+	"$envmapmask" "signs/smsign_ref"
+	"$surfaceprop" "metal"
+
+}

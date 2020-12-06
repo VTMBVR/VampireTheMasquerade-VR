@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"signs\gimble"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "signs\gimble_ref"
+	"$surfaceprop" "metal"
+
+}

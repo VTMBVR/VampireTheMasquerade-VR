@@ -21,6 +21,32 @@
 					},
 				]
 			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "piertrash.vmat"
+								to = "materials/models/scenery/street/piertrash/piertrash.vmat"
+							},
+							{
+								from = "piertrashinsd.vmat"
+								to = "materials/models/scenery/street/piertrash/piertrashinsd.vmat"
+							},
+							{
+								from = "piertrashtp.vmat"
+								to = "materials/models/scenery/street/piertrash/piertrashtp.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
 		]
 		model_archetype = ""
 		primary_associated_entity = ""

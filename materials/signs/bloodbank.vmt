@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\signs\bloodbank"
+	"$translucent" "1"
+	"$surfaceprop" "metal"
+
+}

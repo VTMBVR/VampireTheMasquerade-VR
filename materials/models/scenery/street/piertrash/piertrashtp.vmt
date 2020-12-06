@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/street/piertrash/piertrashtp"
+	"$surfaceprop" "metal"
+	"$alphatest" 1
+}

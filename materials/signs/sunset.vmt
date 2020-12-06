@@ -1,0 +1,6 @@
+"lightmappedGeneric"
+{	
+	"$basetexture" "signs/sunset"
+	"$surfaceprop" "plastic"
+	"$selfillum" "1"
+}

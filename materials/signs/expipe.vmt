@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"signs\expipe"
+	"$selfillum" "1"
+	"$surfaceprop" "wood"
+
+}

@@ -11,7 +11,21 @@
 				[
 					{
 						_class = "DefaultMaterialGroup"
-						remaps = [  ]
+						remaps = 
+						[
+							{
+								from = "chair_rolling.vmat"
+								to = "materials/models/scenery/furniture/chair/chair_rolling.vmat"
+							},
+							{
+								from = "metale.vmat"
+								to = "materials/models/scenery/furniture/chair/metale.vmat"
+							},
+							{
+								from = "wheel.vmat"
+								to = "materials/models/scenery/furniture/chair/wheel.vmat"
+							},
+						]
 						use_global_default = false
 						global_default_material = ""
 					},

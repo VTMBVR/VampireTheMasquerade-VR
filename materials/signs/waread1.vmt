@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "signs/waread1"
+	"$translucent" "1"
+	"$surfaceprop" "stone"
+}

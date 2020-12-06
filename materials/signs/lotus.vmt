@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"signs\lotus"
+	"$selfillum" "1"
+	"$surfaceprop" "glass"
+
+}
