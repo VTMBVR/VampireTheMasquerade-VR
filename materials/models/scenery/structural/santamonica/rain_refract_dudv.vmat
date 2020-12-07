@@ -1,0 +1,16 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "refract.vfx"
+
+	//---- Refraction ----
+	g_flRefractScale "0.100"
+	TextureNormal "materials/models/scenery/structural/santamonica/rain_refract_dudv.tga"
+
+	//---- Texture Transform ----
+	g_vTexCoordScale "[1.000 1.000]"
+
+	//---- Tinting ----
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+}

@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"signs\records_room"
+	"$translucent" "1"
+	"$surfaceprop" "metal"
+
+}

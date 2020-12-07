@@ -11,7 +11,17 @@
 				[
 					{
 						_class = "DefaultMaterialGroup"
-						remaps = [  ]
+						remaps = 
+						[
+							{
+								from = "staple.vmat"
+								to = "materials/models/scenery/structural/wire/staple.vmat"
+							},
+							{
+								from = "wire.vmat"
+								to = "materials/models/scenery/structural/wire/wire.vmat"
+							},
+						]
 						use_global_default = false
 						global_default_material = ""
 					},

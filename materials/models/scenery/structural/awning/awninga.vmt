@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/structural/awning/awninga"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"carpet"
+}

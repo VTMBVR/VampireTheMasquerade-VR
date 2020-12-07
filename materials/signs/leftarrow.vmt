@@ -1,0 +1,6 @@
+"lightmappedGeneric"
+{	
+	"$basetexture" "signs/leftarrow"
+	"$surfaceprop" "rock"
+	"$translucent" "1"
+}

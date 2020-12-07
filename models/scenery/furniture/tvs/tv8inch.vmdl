@@ -17,6 +17,10 @@
 								from = "tv8inch.vmat"
 								to = "materials/models/scenery/furniture/tvs/tv8inch.vmat"
 							},
+							{
+								from = "tv_back.vmat"
+								to = "materials/models/scenery/furniture/tvs/tv_back.vmat"
+							},
 						]
 						use_global_default = false
 						global_default_material = ""

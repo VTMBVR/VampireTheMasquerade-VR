@@ -1,0 +1,6 @@
+"lightmappedGeneric"
+{	
+	"$basetexture" "signs/vesuvius"
+	"$surfaceprop" "metal"
+	"$translucent" 1
+}

@@ -1,0 +1,6 @@
+"lightmappedGeneric"
+{	
+	"$basetexture" "signs/bailbonds"
+	"$surfaceprop" "plastic"
+	"$selfillum" "1"
+}

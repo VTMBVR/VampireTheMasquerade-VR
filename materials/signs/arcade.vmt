@@ -1,0 +1,6 @@
+"lightmappedGeneric"
+{	
+	"$basetexture" "signs/arcade"
+	"$surfaceprop" "wood"
+	"$translucent" 1
+}

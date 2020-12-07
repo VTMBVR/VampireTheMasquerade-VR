@@ -1,0 +1,14 @@
+UnlitGeneric
+{
+	"$basetexture"	"signs\newsticker"
+	"$additive" "1"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" .02
+			"texturescrollangle" 0.00
+		}
+	}
+}
