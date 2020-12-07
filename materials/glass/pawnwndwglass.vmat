@@ -4,9 +4,6 @@ Layer0
 {
 	shader "vr_glass.vfx"
 
-	//---- Animation ----
-	F_MORPH_SUPPORTED 1
-
 	//---- Translucent ----
 	F_TRANSLUCENT 1
 
@@ -60,6 +57,11 @@ Layer0
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
 
 	//---- Translucent ----
-	g_flOpacityScale "0.194"
+	g_flOpacityScale "0.243"
 	TextureTranslucency "materials/default/default_trans.tga"
+
+	SystemAttributes
+	{
+		PhysicsSurfaceProperties "world.glass"
+	}
 }
