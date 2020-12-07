@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\santamonica\sanbusstop"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\santamonica\sanbusstop_ref"
+	"$surfaceprop" "metal"
+
+}

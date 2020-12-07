@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\santamonica\freewaysign"
+	"$selfillum" "1"
+
+}
