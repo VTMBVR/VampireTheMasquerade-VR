@@ -1,0 +1,6 @@
+"Refract"
+{ 
+$dudvmap "models/scenery/structural/santamonica/rain_refract_dudv"
+$refractamount ".01"
+$model "1" 
+}

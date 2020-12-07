@@ -11,7 +11,13 @@
 				[
 					{
 						_class = "DefaultMaterialGroup"
-						remaps = [  ]
+						remaps = 
+						[
+							{
+								from = "rain_refract_dudv.vmat"
+								to = "materials/models/scenery/structural/santamonica/rain_refract_dudv.vmat"
+							},
+						]
 						use_global_default = false
 						global_default_material = ""
 					},
