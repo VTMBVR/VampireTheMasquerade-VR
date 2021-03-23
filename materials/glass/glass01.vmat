@@ -33,7 +33,7 @@ Layer0
 	g_flEdgeColorFalloff "3.000"
 	g_flEdgeColorMaxOpacity "0.500"
 	g_flEdgeColorThickness "0.100"
-	g_vEdgeColor "[0.000000 0.000000 0.000000 0.000000]"
+	g_vEdgeColor "[0.376471 0.501961 0.525490 1.000000]"
 	GlassTintColor "materials/default/default_color.tga"
 
 	//---- Lighting ----
@@ -58,7 +58,7 @@ Layer0
 
 	//---- Translucent ----
 	g_flOpacityScale "0.149"
-	TextureTranslucency "[0.378000 0.378000 0.378000 0.000000]"
+	TextureTranslucency "[0.393000 0.393000 0.393000 0.000000]"
 
 	SystemAttributes
 	{
