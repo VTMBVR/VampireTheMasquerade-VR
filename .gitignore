@@ -1,3 +1,5 @@
 VpkContent/
 *.tth
 *.ttz
+_bakeresourcecache/
+_buildcubemaps/
