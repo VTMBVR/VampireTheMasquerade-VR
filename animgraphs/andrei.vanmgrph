@@ -46,54 +46,56 @@
 	}
 	m_rootNodeID = 
 	{
-		m_id = 1279247921
+		m_id = 1503374738
 	}
 	m_previewModels = 
 	[
+		"models/character/npc/unique/hollywood/andrei/andrei.vmdl",
 		"models/character/andrei/andrei.vmdl",
+		"models/character/npc/unique/hollywood/andrei_crowbar/andrei.vmdl",
 	]
 	m_nodes = 
 	[
 		{
 			key = 
 			{
-				m_id = 1279247921
-			}
-			value = 
-			{
-				_class = "CRootAnimNode"
-				m_sName = "Unnamed"
-				m_vecPosition = [ 92.0, -135.0 ]
-				m_nNodeID = 
-				{
-					m_id = 1279247921
-				}
-				m_networkMode = "ServerAuthoritative"
-				m_childID = 
-				{
-					m_id = 1369399366
-				}
-			}
-		},
-		{
-			key = 
-			{
-				m_id = 1369399366
+				m_id = 229214591
 			}
 			value = 
 			{
 				_class = "CSequenceAnimNode"
 				m_sName = "Unnamed"
-				m_vecPosition = [ -492.0, -146.0 ]
+				m_vecPosition = [ -614.0, -141.0 ]
 				m_nNodeID = 
 				{
-					m_id = 1369399366
+					m_id = 229214591
 				}
 				m_networkMode = "ServerAuthoritative"
 				m_tagSpans = [  ]
-				m_sequenceName = "andrei_@Andrei_Dialogue"
+				m_sequenceName = "Andrei_Idle"
 				m_playbackSpeed = 1.0
 				m_bLoop = true
+			}
+		},
+		{
+			key = 
+			{
+				m_id = 1503374738
+			}
+			value = 
+			{
+				_class = "CRootAnimNode"
+				m_sName = "Unnamed"
+				m_vecPosition = [ -294.0, -120.0 ]
+				m_nNodeID = 
+				{
+					m_id = 1503374738
+				}
+				m_networkMode = "ServerAuthoritative"
+				m_childID = 
+				{
+					m_id = 229214591
+				}
 			}
 		},
 	]
