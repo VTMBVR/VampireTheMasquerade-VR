@@ -2,22 +2,25 @@
 
 Layer0
 {
-	shader "vr_complex.vfx"
+	shader "vr_skin.vfx"
 
 	//---- Animation ----
 	F_MORPH_SUPPORTED 1
-	F_TEXTURE_ANIMATION 1
 	F_WRINKLE 1
 
-	//---- PBR ----
+	//---- Self Illum ----
 	F_SELF_ILLUM 1
 
-	//---- Rendering ----
-	F_RENDER_BACKFACES 1
+	//---- Skin ----
+	F_USE_FACE_OCCLUSION_TEXTURE 1
+
+	//---- Translucent ----
+	F_TRANSLUCENT 2 // Membrane
 
 	//---- Ambient Occlusion ----
 	g_flAmbientOcclusionDirectDiffuse "1.000"
 	g_flAmbientOcclusionDirectSpecular "1.000"
+	g_vAmbientOcclusionColorBleed "[0.400000 0.149020 0.129412 0.000000]"
 	TextureAmbientOcclusion "materials/default/default_ao.tga"
 	TextureSquishAmbientOcclusion "materials/default/default_ao.tga"
 	TextureStretchAmbientOcclusion "materials/default/default_ao.tga"
@@ -29,20 +32,26 @@ Layer0
 	TextureSquishColor "materials/default/default_color.tga"
 	TextureStretchColor "materials/default/default_color.tga"
 
-	//---- Fade ----
-	g_flFadeExponent "1.000"
+	//---- Curvature ----
+	g_flCurvatureScale "1.000"
+
+	//---- Face Occlusion ----
+	g_flMouthInteriorBrightnessScale "1.000"
+	g_flOcclusionStrength "0.750"
+	g_flOcclusionWidth "3.000"
+	TextureInsideMouth "materials/default/default_black_mask.tga"
+	TextureOcclusion "materials/default/default_color.tga"
 
 	//---- Fog ----
 	g_bFogEnabled "1"
 
-	//---- Lighting ----
-	g_flDirectionalLightmapMinZ "0.050"
-	g_flDirectionalLightmapStrength "1.000"
-
-	//---- Metalness ----
-	g_flMetalness "0.000"
+	//---- Lookup Textures ----
+	g_vAmbientNormalSoftness "[1.000000 0.301961 0.000000 0.000000]"
+	TextureDiffuseFalloff "materials/default/default_skin_diffusewarp.tga"
+	TextureShadowFalloff "materials/default/default_skin_shadowwarp.tga"
 
 	//---- Normal ----
+	g_flDiffuseNormalBlur "0.500"
 	TextureNormal "materials/default/default_normal.tga"
 	TextureSquishNormal "materials/default/default_normal.tga"
 	TextureStretchNormal "materials/default/default_normal.tga"
@@ -54,22 +63,25 @@ Layer0
 	g_flSelfIllumAlbedoFactor "1.000"
 	g_flSelfIllumBrightness "0.000"
 	g_flSelfIllumScale "1.000"
-	g_vSelfIllumScrollSpeed "[0.000 0.000]"
 	g_vSelfIllumTint "[1.000000 1.000000 1.000000 0.000000]"
 	TextureSelfIllumMask "materials/default/default_selfillum.tga"
 
-	//---- Texture Animation ----
-	g_flAnimationFrame "0.000"
-	g_flAnimationTimeOffset "0.000"
-	g_flAnimationTimePerFrame "0.100"
-	g_nNumAnimationCells "1"
-	g_vAnimationGrid "[1 1]"
+	//---- Specular ----
+	g_flSecondSpecularLobeGlossiness "0.500"
+	g_flSecondSpecularLobeRatio "0.150"
 
 	//---- Texture Coordinates ----
-	g_nScaleTexCoordUByModelScaleAxis "0"
-	g_nScaleTexCoordVByModelScaleAxis "0"
 	g_vTexCoordOffset "[0.000 0.000]"
 	g_vTexCoordScale "[1.000 1.000]"
+
+	//---- Translucent ----
+	g_flOpacityScale "1.000"
+	TextureTranslucency "materials/default/default_trans.tga"
+
+	//---- Transmission ----
+	g_flTransmissionFalloff "0.800"
+	g_vTransmissionColor "[0.749020 0.231373 0.011765 0.000000]"
+	TextureTransmissiveMask "materials/default/default_trans.tga"
 
 	//---- Wrinkle ----
 	g_bWrinkleOverride "0"

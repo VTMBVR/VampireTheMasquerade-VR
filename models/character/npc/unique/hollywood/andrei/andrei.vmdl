@@ -30,16 +30,20 @@
 								to = "materials/models/character/npc/unique/hollywood/andrei/andreiskirt.vmat"
 							},
 							{
+								from = "eyeball_l.vmat"
+								to = "materials/models/character/npc/unique/hollywood/andrei/eyeball_l.vmat"
+							},
+							{
+								from = "eyeball_r.vmat"
+								to = "materials/models/character/npc/unique/hollywood/andrei/eyeball_r.vmat"
+							},
+							{
 								from = "lowerteeth.vmat"
 								to = "vpkcontent/materials/models/character/teeth/lowerteeth.vmat"
 							},
 							{
 								from = "molar.vmat"
 								to = "vpkcontent/materials/models/character/teeth/molar.vmat"
-							},
-							{
-								from = "mouth.vmat"
-								to = "vpkcontent/materials/models/character/teeth/mouth.vmat"
 							},
 							{
 								from = "tongue.vmat"
@@ -50,12 +54,8 @@
 								to = "vpkcontent/materials/models/character/teeth/upperteeth.vmat"
 							},
 							{
-								from = "eyeball_l.vmat"
-								to = "vpkcontent/materials/models/character/npc/unique/santa_monica/jeanette/eyeball_l.vmat"
-							},
-							{
-								from = "eyeball_r.vmat"
-								to = "vpkcontent/materials/models/character/npc/unique/santa_monica/jeanette/eyeball_r.vmat"
+								from = "mouth.vmat"
+								to = "vpkcontent/materials/models/character/teeth/mouth.vmat"
 							},
 						]
 						use_global_default = false
@@ -85,7 +85,7 @@
 				[
 					{
 						_class = "AnimFile"
-						name = "andrei_@Andrei_Act_Transform"
+						name = "Andrei_Act_Transform"
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -97,7 +97,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_@Andrei_Act_Transform.smd"
+						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_anims/Andrei_Act_Transform.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -105,7 +105,7 @@
 					},
 					{
 						_class = "AnimFile"
-						name = "andrei_@Andrei_Dialogue"
+						name = "Andrei_Dialogue"
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -117,7 +117,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_@Andrei_Dialogue.smd"
+						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_anims/Andrei_Dialogue.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -125,7 +125,7 @@
 					},
 					{
 						_class = "AnimFile"
-						name = "andrei_@Andrei_Idle"
+						name = "Andrei_Idle"
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -137,7 +137,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_@Andrei_Idle.smd"
+						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_anims/Andrei_Idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -145,7 +145,7 @@
 					},
 					{
 						_class = "AnimFile"
-						name = "andrei_@Andrei_Levitate"
+						name = "Andrei_Levitate"
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -157,7 +157,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_@Andrei_Levitate.smd"
+						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_anims/Andrei_Levitate.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -165,7 +165,7 @@
 					},
 					{
 						_class = "AnimFile"
-						name = "andrei_@Andrei_line11_col_E"
+						name = "Andrei_line11_col_E"
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -177,7 +177,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_@Andrei_line11_col_E.smd"
+						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_anims/Andrei_line11_col_E.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -185,7 +185,7 @@
 					},
 					{
 						_class = "AnimFile"
-						name = "andrei_@Andrei_line151_col_E"
+						name = "Andrei_line151_col_E"
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -197,7 +197,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_@Andrei_line151_col_E.smd"
+						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_anims/Andrei_line151_col_E.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -205,7 +205,7 @@
 					},
 					{
 						_class = "AnimFile"
-						name = "andrei_@Andrei_line171_col_E"
+						name = "Andrei_line171_col_E"
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -217,7 +217,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_@Andrei_line171_col_E.smd"
+						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_anims/Andrei_line171_col_E.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -225,7 +225,7 @@
 					},
 					{
 						_class = "AnimFile"
-						name = "andrei_@Andrei_line181_col_E"
+						name = "Andrei_line181_col_E"
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -237,7 +237,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_@Andrei_line181_col_E.smd"
+						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_anims/Andrei_line181_col_E.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -245,7 +245,7 @@
 					},
 					{
 						_class = "AnimFile"
-						name = "andrei_@Andrei_line191_col_E"
+						name = "Andrei_line191_col_E"
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -257,7 +257,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_@Andrei_line191_col_E.smd"
+						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_anims/Andrei_line191_col_E.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -265,7 +265,7 @@
 					},
 					{
 						_class = "AnimFile"
-						name = "andrei_@Andrei_line201_col_E"
+						name = "Andrei_line201_col_E"
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -277,7 +277,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_@Andrei_line201_col_E.smd"
+						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_anims/Andrei_line201_col_E.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -285,7 +285,7 @@
 					},
 					{
 						_class = "AnimFile"
-						name = "andrei_@Andrei_SUMMON"
+						name = "Andrei_SUMMON"
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -297,7 +297,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_@Andrei_SUMMON.smd"
+						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_anims/Andrei_SUMMON.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -305,7 +305,7 @@
 					},
 					{
 						_class = "AnimFile"
-						name = "andrei_@Andrei_Tele_IN"
+						name = "Andrei_Tele_IN"
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -317,7 +317,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_@Andrei_Tele-IN.smd"
+						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_anims/Andrei_Tele-IN.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -325,7 +325,7 @@
 					},
 					{
 						_class = "AnimFile"
-						name = "andrei_@Andrei_Tele_OUT"
+						name = "Andrei_Tele_OUT"
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -337,7 +337,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_@Andrei_Tele-OUT.smd"
+						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_anims/Andrei_Tele-OUT.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -345,7 +345,7 @@
 					},
 					{
 						_class = "AnimFile"
-						name = "andrei_@Andrei_Tele_OUT_HIT"
+						name = "Andrei_Tele_OUT_HIT"
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -357,7 +357,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_@Andrei_Tele-OUT-HIT.smd"
+						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_anims/Andrei_Tele-OUT-HIT.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -365,7 +365,7 @@
 					},
 					{
 						_class = "AnimFile"
-						name = "andrei_@ragdoll"
+						name = "ragdoll"
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -377,7 +377,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_@ragdoll.smd"
+						source_filename = "models/character/npc/unique/hollywood/andrei/andrei_anims/ragdoll.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -387,8 +387,8 @@
 				default_root_bone_name = ""
 			},
 		]
-		model_archetype = ""
-		primary_associated_entity = ""
-		anim_graph_name = ""
+		model_archetype = "generic_actor_model"
+		primary_associated_entity = "generic_actor"
+		anim_graph_name = "animgraphs/andrei.vanmgrph"
 	}
 }
