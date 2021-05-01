@@ -6,12 +6,39 @@
 		children = 
 		[
 			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "mbdoor_505.vmat"
+								to = "materials/models/scenery/furniture/mailboxes/mbdoor_505.vmat"
+							},
+							{
+								from = "mbsides.vmat"
+								to = "materials/models/scenery/furniture/mailboxes/mbsides.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+					{
+						_class = "MaterialGroup"
+						name = "0"
+						remaps = [  ]
+					},
+				]
+			},
+			{
 				_class = "RenderMeshList"
 				children = 
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "VpkContent/decompiled_models/scenery/furniture/mailboxes/MailBox_REF.smd"
+						filename = "models/scenery/furniture/mailboxes/MailBox_REF.smd"
 						import_scale = 1.0
 						import_filter = 
 						{
@@ -27,7 +54,7 @@
 				[
 					{
 						_class = "AnimFile"
-						name = "mailbox_@Close"
+						name = "Close"
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -39,7 +66,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "VpkContent/decompiled_models/scenery/furniture/mailboxes/mailbox_@Close.smd"
+						source_filename = "models/scenery/furniture/mailboxes/mailbox_anims/Close.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -47,7 +74,7 @@
 					},
 					{
 						_class = "AnimFile"
-						name = "mailbox_@idle"
+						name = "idle"
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -59,7 +86,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "VpkContent/decompiled_models/scenery/furniture/mailboxes/mailbox_@idle.smd"
+						source_filename = "models/scenery/furniture/mailboxes/mailbox_anims/idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -67,7 +94,7 @@
 					},
 					{
 						_class = "AnimFile"
-						name = "mailbox_@Open"
+						name = "Open"
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -79,7 +106,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "VpkContent/decompiled_models/scenery/furniture/mailboxes/mailbox_@Open.smd"
+						source_filename = "models/scenery/furniture/mailboxes/mailbox_anims/Open.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
