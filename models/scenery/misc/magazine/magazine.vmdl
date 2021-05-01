@@ -50,7 +50,25 @@
 				[
 					{
 						_class = "DefaultMaterialGroup"
-						remaps = [  ]
+						remaps = 
+						[
+							{
+								from = "bitchmagazine.vmat"
+								to = "materials/models/scenery/misc/magazine/bitchmagazine.vmat"
+							},
+							{
+								from = "wwiii.vmat"
+								to = "materials/models/scenery/misc/magazine/wwiii.vmat"
+							},
+							{
+								from = "motorwhore.vmat"
+								to = "materials/models/scenery/misc/magazine/motorwhore.vmat"
+							},
+							{
+								from = "hookermagazine.vmat"
+								to = "materials/models/scenery/misc/magazine/hookermagazine.vmat"
+							},
+						]
 						use_global_default = false
 						global_default_material = ""
 					},
