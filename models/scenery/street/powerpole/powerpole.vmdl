@@ -6,6 +6,32 @@
 		children = 
 		[
 			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "insulator.vmat"
+								to = "materials/models/scenery/street/powerpole/insulator.vmat"
+							},
+							{
+								from = "woodb.vmat"
+								to = "materials/wood/woodbeamsa.vmat"
+							},
+							{
+								from = "lightcblk.vmat"
+								to = "materials/models/scenery/furniture/lightc/lightcblk.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
 				_class = "RenderMeshList"
 				children = 
 				[

@@ -1,10 +1,38 @@
-$cd "C:\Users\HYPERPC\Desktop\Source 2\VTMB\SDKContent\VpkContent\decompiled_models\scenery\street\powerpole"
-$modelname "scenery/street/powerpole/powerpole.mdl"
-$cdmaterials "models/scenery/street/powerpole/"
-$surfaceprop ""
-$model "Body" "powerpole.smd"{
-}
-$hboxset "default"
-$hbox 0 "static_prop" -48.3339 -10.191302 -201.0403 49.3492 9.527202 239.9315
-$sequence "idle" "powerpole_@idle" activity "" 1.0 fps 5.0
+// Created by Crowbar 0.71
 
+$modelname "scenery/street/powerpole/powerpole.mdl"
+
+$bodygroup "Body"
+{
+	studio "powerpole"
+}
+
+
+$staticprop
+
+$illumposition 0 0 0
+
+$eyeposition 0.5 -0.5 0.5
+
+$cdmaterials "models\scenery\street\powerpole\"
+
+$cbox 0 0 0 0 0 0
+
+$bbox -48.334 -10.191 -201.04 49.349 9.527 239.932
+
+$sequence "idle" {
+	"powerpole_anims\idle.smd"
+	fps 5
+}
+
+$collisionmodel "powerpole_physics.smd"
+{
+	$mass 500
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+	$concave
+	$maxconvexpieces 2
+
+}
