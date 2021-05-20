@@ -6,6 +6,8 @@
 			"wave"	"area/Santa_Monica/santa monica apt bg.wav"
 			"position" "0"
 			"volume"	"20"
+			"pitch" "110"
+			"soundlevel"	"SNDLVL_85dB"
 		}
 
 	"playrandom"
@@ -14,17 +16,19 @@
 		"volume" "30"
 		"pitch" "95,100"
 		"position" "0"
+		"soundlevel"	"SNDLVL_85dB"
 	"rndwave"
 	{
 		"wave" "Environmental\City\Candle Sticks Break.wav"
-"wave" "Environmental\Interior\LightBulb_Pop2.wav"
-"wave" "Area\Santa_Monica\Clinic\clinic phone ring single.wav"
-"wave" "Environmental\Machines\Telephone.wav"
-"wave" "Environmental\Animals\cat7.wav"
-"wave" "Environmental\Animals\cat6.wav"
-"wave" "Environmental\Interior\toiletflush5.wav"
+"wave" "Environmental/Interior/LightBulb_Pop2.wav"
+"wave" "Area/Santa_Monica/Clinic/clinic phone ring single.wav"
+"wave" "Environmental/Machines/Telephone.wav"
+"wave" "Environmental/Animals/cat7.wav"
+"wave" "Environmental/Animals/cat6.wav"
+"wave" "Environmental/Interior/toiletflush5.wav"
 	}
   }
+}
 
 	Music
 	{

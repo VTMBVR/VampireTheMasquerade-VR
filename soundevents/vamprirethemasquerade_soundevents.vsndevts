@@ -12,7 +12,7 @@
 		spread_max = 150
 		vsnd_files = 
 		[
-			"sounds\area\Santa_Monica\santa monica apt bg.vsnd",
+			"sounds/area/Santa_Monica/santa monica apt bg.vsnd",
 		]
 	}
 
@@ -28,8 +28,43 @@
 		spread_max = 150
 		vsnd_files = 
 		[
-			"sounds\character\conversations\answering_machine\muddy.vsnd",
+			"sounds/character/conversations/answering_machine/muddy.vsnd",
 		]
 	}
+
+	
+	"Addon.SantaMonica_Furry" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		use_hrtf = 1.000000
+	//	volume_falloff_min = 70.0
+	//	volume_falloff_max = 2700.0
+	//	volume_fade_out = 1
+	//	volume_fade_in = 0
+	//	spread_min = 30
+	//	spread_max = 150
+		vsnd_files = 
+		[
+			"sounds/area/Santa_Monica/trips_pawnshop/furious mystery.vsnd",
+		]
+	}
+
+		"Addon.SantaMonica_Hart" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+		use_hrtf = 1.000000
+		volume_falloff_min = 70.0
+		volume_falloff_max = 2700.0
+		volume_fade_out = 1
+		volume_fade_in = 0
+		spread_min = 30
+		spread_max = 150
+		vsnd_files = 
+		[
+			"sounds/hart_beat.vsnd",
+		]
+	}	
 
 }
