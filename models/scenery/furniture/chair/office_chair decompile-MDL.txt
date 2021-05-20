@@ -1,0 +1,39 @@
+// Created by Crowbar 0.71
+====== File Size ======
+	73 608
+====== File Seek Log ======
+	0 - 423 MDL File Header; MDL File Header
+	424 - 583 aBone
+	584 - 595 aHitboxSet
+	596 - 627 aHitbox
+	628 - 699 anAnimationDesc
+	700 - 731 anAnimationDesc.theAnimations 1
+	732 - 1 495 aSequence [only_sequence]
+	1 496 - 1 511 aSequenceGroup 
+	1 512 - 1 527 aBodyPart
+	1 528 - 1 751 aModel [office_chair_r.smd]
+	1 752 - 1 811 aMesh
+	1 812 - 1 871 aMesh
+	1 872 - 1 931 aMesh
+	1 932 - 1 951 [ERROR] Unread bytes (all zeroes) [ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ]
+	1 952 - 54 355 aModel.theVertexesType0 1191
+	54 356 - 73 411 aModel.theTangents 1191
+	73 412 - 73 431 aTexture
+	73 432 - 73 451 aTexture
+	73 452 - 73 471 aTexture
+	73 472 - 73 475 aTexturePath (offset to text)
+	73 476 - 73 481 aSkin
+	73 482 - 73 483 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	73 484 - 73 484 aBone.theSurfacePropName = ; theSurfacePropName = 
+	73 485 - 73 496 aBone.theName = static_prop
+	73 497 - 73 504 aHitboxSet.theName = default
+	73 505 - 73 519 anAnimationDesc.theName = only_sequence
+	73 520 - 73 533 aSequence.theName = only_sequence
+	73 534 - 73 542 aSequence.theActivityName = ACT_IDLE
+	73 543 - 73 547 aBodyPart.theName = Body
+	73 548 - 73 554 aTexture.theFileName = metale
+	73 555 - 73 568 aTexture.theFileName = chair_rolling
+	73 569 - 73 574 aTexture.theFileName = wheel
+	73 575 - 73 607 aTexturePath (text) = models\scenery\furniture\chair\\
+	73 608 - 73 608 END OF FILE + 1 (File size)
+========================

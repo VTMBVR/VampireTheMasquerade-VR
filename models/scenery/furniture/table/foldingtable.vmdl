@@ -37,7 +37,7 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "VpkContent/decompiled_models/scenery/furniture/table/foldingtable_r.smd"
+						filename = "models/scenery/furniture/table/foldingtable_r.smd"
 						import_scale = 1.0
 						import_filter = 
 						{
@@ -47,9 +47,34 @@
 					},
 				]
 			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						name = "foldingtable_physics"
+						parent_bone = "static_prop"
+						surface_prop = "prop.wood_furniture"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/scenery/furniture/table/foldingtable_physics.smd"
+						import_scale = 1.0
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
 		]
-		model_archetype = ""
-		primary_associated_entity = ""
+		model_archetype = "static_prop_model"
+		primary_associated_entity = "prop_static"
 		anim_graph_name = ""
 	}
 }
