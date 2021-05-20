@@ -20,12 +20,12 @@
 	"rndwave"
 	{
 		"wave" "Environmental\City\Candle Sticks Break.wav"
-"wave" "Environmental\Interior\LightBulb_Pop2.wav"
-"wave" "Area\Santa_Monica\Clinic\clinic phone ring single.wav"
-"wave" "Environmental\Machines\Telephone.wav"
-"wave" "Environmental\Animals\cat7.wav"
-"wave" "Environmental\Animals\cat6.wav"
-"wave" "Environmental\Interior\toiletflush5.wav"
+"wave" "Environmental/Interior/LightBulb_Pop2.wav"
+"wave" "Area/Santa_Monica/Clinic/clinic phone ring single.wav"
+"wave" "Environmental/Machines/Telephone.wav"
+"wave" "Environmental/Animals/cat7.wav"
+"wave" "Environmental/Animals/cat6.wav"
+"wave" "Environmental/Interior/toiletflush5.wav"
 	}
   }
 }
