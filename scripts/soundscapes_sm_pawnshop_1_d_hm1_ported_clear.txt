@@ -1,5 +1,31 @@
 "sm_apartment_interior"
 {
+
+	"playlooping"
+		{
+			"wave"	"area/Santa_Monica/santa monica apt bg.wav"
+			"position" "0"
+			"volume"	"20"
+		}
+
+	"playrandom"
+	{
+		"time" "5"
+		"volume" "30"
+		"pitch" "95,100"
+		"position" "0"
+	"rndwave"
+	{
+		"wave" "Environmental\City\Candle Sticks Break.wav"
+"wave" "Environmental\Interior\LightBulb_Pop2.wav"
+"wave" "Area\Santa_Monica\Clinic\clinic phone ring single.wav"
+"wave" "Environmental\Machines\Telephone.wav"
+"wave" "Environmental\Animals\cat7.wav"
+"wave" "Environmental\Animals\cat6.wav"
+"wave" "Environmental\Interior\toiletflush5.wav"
+	}
+  }
+
 	Music
 	{
 		
