@@ -6,12 +6,55 @@
 		children = 
 		[
 			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "gehtoblaster1.vmat"
+								to = "materials/models/scenery/misc/gehtoblaster1/gehtoblaster1.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						name = "gehtoblaster1_physics"
+						parent_bone = ""
+						surface_prop = "prop.plastic"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/scenery/misc/gehtoblaster1/gehtoblaster1_physics.smd"
+						import_scale = 1.0
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
 				_class = "RenderMeshList"
 				children = 
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "VpkContent/decompiled_models/scenery/misc/gehtoblaster1/GehtoBlaster1_r.smd"
+						filename = "models/scenery/misc/gehtoblaster1/GehtoBlaster1_r.smd"
 						import_scale = 1.0
 						import_filter = 
 						{

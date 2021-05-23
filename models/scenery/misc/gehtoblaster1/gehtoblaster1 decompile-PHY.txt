@@ -1,0 +1,12 @@
+// Created by Crowbar 0.71
+====== File Size ======
+	753
+====== File Seek Log ======
+	0 - 15 Header
+	16 - 403 Solid(0)
+	404 - 431 [ERROR] Unread bytes (non-zero) [ 00 00 00 00 B0 FE FF FF 00 00 00 00 14 55 30 BE 00 00 00 00 31 ... ]
+	432 - 684 Properties
+	685 - 751 Edit params
+	752 - 752 [ERROR] Unread bytes (all zeroes) [ 00 ]
+	753 - 753 END OF FILE + 1 (File size)
+========================
