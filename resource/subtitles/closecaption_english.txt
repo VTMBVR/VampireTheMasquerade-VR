@@ -1,0 +1,12 @@
+lang
+{ 
+	Language "Russian" //(or "French", etc)
+	Tokens 
+	{ 
+		// Captions defined here.
+	//	nameofsound	"This is the caption."
+
+		Addon.SantaMonica_Radio2	"We're picking up radio chatter. They're looking for your car."
+		// etc...
+	}
+}
