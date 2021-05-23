@@ -1,0 +1,33 @@
+"sm_apartment_interior"
+{
+	"dsp"  "1"
+	"playlooping"
+		{
+			"wave"	"sounds/area/Santa_Monica/santa monica apt bg.vsnd"
+			"position" "0"
+			"volume"	"5"
+			"pitch" "110"
+			"soundlevel"	"SNDLVL_85dB"
+		}
+
+	"playrandom"
+	{
+		"time" "5"
+		"volume" "4"
+		"pitch" "95,100"
+		"position" "0"
+		"soundlevel"	"SNDLVL_85dB"
+	"rndwave"
+	{
+		"wave" "sounds/Environmental/City/Candle Sticks Break.vsnd"
+"wave" "sounds/Environmental/Interior/LightBulb_Pop2.vsnd"
+"wave" "sounds/Area/Santa_Monica/Clinic/clinic phone ring single.vsnd"
+"wave" "sounds/Environmental/Machines/Telephone.vsnd"
+"wave" "sounds/Environmental/Animals/cat7.vsnd"
+"wave" "sounds/Environmental/Animals/cat6.vsnd"
+"wave" "sounds/Environmental/Interior/toiletflush5.vsnd"
+	}
+  }
+}
+
+
