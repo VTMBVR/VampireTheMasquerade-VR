@@ -1,0 +1,2 @@
+"D:\Steam\steamapps\common\SourceSDK\bin\orangebox\bin\captioncompiler.exe" -v -l "D:\Steam\steamapps\common\Half-Life Alyx\content\hlvr_addons\vamprirethemasquerade\resource\subtitles\closecaption_english.txt"
+pause

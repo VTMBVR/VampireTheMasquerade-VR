@@ -1,0 +1,10 @@
+    Outputting to log.txt
+Valve Software - captioncompiler.exe (Oct 31 2012)
+--- Close Caption File compiler ---
+gamedir[ D:\Steam\steamapps\SourceMods\oldsourcemod\ ]
+infile[ resource\d:\steam\steamapps\common\half-life alyx\content\hlvr_addons\vamprirethemasquerade\resource\subtitles\closecaption_french.txt ]
+outfile[ resource\d:\steam\steamapps\common\half-life alyx\content\hlvr_addons\vamprirethemasquerade\resource\subtitles\closecaption_french.dat ]
+    Compiling Captions for 'resource\d:\steam\steamapps\common\half-life alyx\content\hlvr_addons\vamprirethemasquerade\resource\subtitles\closecaption_french.txt'...
+Found 0 strings in 'resource\d:\steam\steamapps\common\half-life alyx\content\hlvr_addons\vamprirethemasquerade\resource\subtitles\closecaption_french.txt'
+1 blocks (8192 bytes each), 8192 bytes wasted (8192.000 per block average), total bytes 8192
+directory size 0 entries, 0 bytes, data size 8192 bytes
