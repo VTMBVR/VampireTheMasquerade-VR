@@ -2,4 +2,5 @@ soundscapes_manifest
 {
 
 	"file" "scripts/soundscapes_sm_pawnshop_1_d_hm1_ported_clear.txt"
+	"file" "scripts/soundscapes_models_example_test.txt"
 }
