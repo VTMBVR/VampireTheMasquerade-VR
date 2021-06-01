@@ -1,31 +1,29 @@
 "sm_apartment_interior"
 {
-	"dsp"  "1"
-	"playlooping"
-		{
-			"wave"	"sounds/area/Santa_Monica/santa monica apt bg.vsnd"
+//	"dsp"  "1"
+//	"playlooping"
+//		{			
+//			"volume"	"1"
+//			"wave"	"sounds/area/Santa_Monica/santa monica apt bg.vsnd"
 //			"position" "0"
-//			"volume"	"10"
-//			"pitch" "110"
-//			"soundlevel"	"SNDLVL_85dB"
-		}
-
-//	"playevent"
-//		{
-//			"event" "Addon.SantaMonica_Apartments"
+//			"pitch" "100"
+//			"soundlevel"	"SNDLVL_75dB"
 //		}
 
-	"playlooping"
+	"playevent"
 		{
-			"volume"	"1"
-			"pitch" "110"
-			"wave" "sounds/Environmental/Machines/Telephone.vsnd"
+			"event" "Addon.SantaMonica_Apartments"
 		}
 
-	"playlooping"
-		{
-			"event" "Addon.SantaMonica_Hart"
-		}
+//	"playlooping"
+//		{
+//			"volume"	"1"
+//			"pitch" "100"
+//			"position" "0"
+//			"soundlevel"	"SNDLVL_75dB"
+//			"wave" "sounds/Environmental/Machines/Telephone.vsnd"
+//		}
+
 
 //
 //	"playrandom"
