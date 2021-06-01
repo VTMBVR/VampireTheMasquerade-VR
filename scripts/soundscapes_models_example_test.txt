@@ -10,9 +10,21 @@
 //			"soundlevel"	"SNDLVL_85dB"
 		}
 
-	"playevent"
+//	"playevent"
+//		{
+//			"event" "Addon.SantaMonica_Apartments"
+//		}
+
+	"playlooping"
 		{
-			"event" "Addon.SantaMonica_Apartments"
+			"volume"	"1"
+			"pitch" "110"
+			"wave" "sounds/Environmental/Machines/Telephone.vsnd"
+		}
+
+	"playlooping"
+		{
+			"event" "Addon.SantaMonica_Hart"
 		}
 
 //
