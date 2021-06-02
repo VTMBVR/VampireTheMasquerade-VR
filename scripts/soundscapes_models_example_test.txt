@@ -15,6 +15,7 @@
 			"event" "Addon.SantaMonica_Apartments"
 		}
 
+// NOTE -- it has to be looping cue point inside *.WAV file to work properly
 //	"playlooping"
 //		{
 //			"volume"	"1"
