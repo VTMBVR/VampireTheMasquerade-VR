@@ -1,6 +1,16 @@
 "sm_apartment_interior"
 {
-//	"dsp"  "1"
+	"dsp"  "1"
+
+	//mixgroupe
+//	"mixgroup" "ambient"
+
+//	Sound Mixer
+	"soundmixer"	"Default_Mix"
+
+
+
+// 	TODO -- make this loop
 //	"playlooping"
 //		{			
 //			"volume"	"1"
@@ -10,10 +20,41 @@
 //			"soundlevel"	"SNDLVL_75dB"
 //		}
 
-	"playevent"
+//	"playevent"
+//		{
+//			"event" "Addon.SantaMonica_Apartments"
+//		}
+
+	"playrandom"
+	{
+		// time, volume, pitch, attenuation are all random intervals ( i.e. minval, maxval )
+		// every 0.5 to 2 seconds
+		"time"		"1,4"
+
+		// at a volume of 0.25 to 0.25
+		"volume"	"0.5,0.8"
+
+		
+
+		// at a pitch of 90 to 100
+		"pitch"		"80,120"
+
+		// play one of these .wav files randomly each time
+		"rndwave"
 		{
-			"event" "Addon.SantaMonica_Apartments"
+			"wave"	"sounds/Environmental/Machines/Telephone.vsnd"
+			"wave"	"sounds/Environmental/Animals/cat7.vsnd"
+			"wave"	"sounds/Environmental/Animals/cat6.vsnd"
+			"wave"	"sounds/Environmental/Interior/toiletflush5.vsnd"
 		}
+		
+		// omit position for ambient sounds
+		"position"	"1"
+		// only required if "position" is present
+		"attenuation"	"2"
+	}
+
+
 
 // NOTE -- it has to be looping cue point inside *.WAV file to work properly
 //	"playlooping"
