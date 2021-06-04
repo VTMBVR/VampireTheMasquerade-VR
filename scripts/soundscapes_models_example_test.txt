@@ -26,12 +26,17 @@
 			"position" "0"
 		}
 
+//	"playevent"
+//		{
+//			"event" "Addon.SantaMonica_Hart"
+//			"position" "1"
+//		}
+
 	"playevent"
 		{
-			"event" "Addon.SantaMonica_Hart"
+			"event" "VTMB.Random_ambient_sm_apartments"
 			"position" "1"
 		}
-
 
 //	NOTE -- this isn't working properly by engine yet.
 //	"playrandom"
