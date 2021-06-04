@@ -32,24 +32,6 @@
 		]
 	}
 
-	
-	"Addon.SantaMonica_Furry" = 
-	{
-		type = "hlvr_default_3d"
-		volume = 1.0
-		use_hrtf = 1.000000
-	//	volume_falloff_min = 70.0
-	//	volume_falloff_max = 2700.0
-	//	volume_fade_out = 1
-	//	volume_fade_in = 0
-	//	spread_min = 30
-	//	spread_max = 150
-		vsnd_files = 
-		[
-			"sounds/area/Santa_Monica/trips_pawnshop/furious mystery.vsnd",
-		]
-	}
-
 		"Addon.SantaMonica_Hart" = 
 	{
 		type = "hlvr_default_3d"
@@ -64,6 +46,23 @@
 		vsnd_files = 
 		[
 			"sounds/hart_beat.vsnd",
+		]
+	}
+
+		"Addon.SantaMonica_Flush" = 
+	{
+		type = "hlvr_default_3d"
+		volume = 1.0
+	//	use_hrtf = 1.000000
+	//	volume_falloff_min = 70.0
+	//	volume_falloff_max = 2700.0
+	//	volume_fade_out = 1
+	//	volume_fade_in = 0
+	//	spread_min = 30
+	//	spread_max = 150
+		vsnd_files = 
+		[
+			"sounds/toiletflush5.vsnd",
 		]
 	}	
 
@@ -103,24 +102,25 @@
 
 		"VTMB.Random_ambient_sm_apartments" = 
 	{
-
 		type = "hlvr_default_3d"
 		volume = 1.0
 		use_hrtf = 1.000000
 		volume_falloff_min = 70.0
 		volume_falloff_max = 2700.0
-		volume_fade_out = 1
-		volume_fade_in = 0
+	//	volume_fade_out = 1
+	//	volume_fade_in = 0
 		spread_min = 30
 		spread_max = 150
 		vsnd_files = 
 		[
-		//	"sounds/Environmental/City/Candle Sticks Break.vsnd",
-		//	"sounds/Environmental/Interior/LightBulb_Pop2.vsnd",
-			"sounds/Environmental/Machines/Telephone.vsnd",
-		//	"sounds/Environmental/Animals/cat6.vsnd",
-		//	"sounds/Environmental/Animals/cat7.vsnd",
-		//	"sounds/Environmental/Interior/toiletflush5.vsnd",
+			"sounds/environmental/interior/toiletflush5.vsnd",
 		]
 	}
 }
+
+// 	"sounds/Environmental/Interior/LightBulb_Pop2.vsnd",
+//	"sounds/Environmental/City/Candle Sticks Break.vsnd",
+//	"sounds/Environmental/Machines/Telephone.vsnd",
+//	"sounds/Environmental/Animals/cat6.vsnd",
+//	"sounds/Environmental/Animals/cat7.vsnd",
+//	"sounds/Environmental/Interior/toiletflush5.vsnd",
