@@ -20,11 +20,11 @@
 //			"soundlevel"	"SNDLVL_75dB"
 //		}
 
-	"playevent"
-		{
-			"event" "Addon.SantaMonica_Apartments"
-			"position" "0"
-		}
+//	"playevent"
+//		{
+//			"event" "Addon.SantaMonica_Apartments"
+//			"position" "0"
+//		}
 
 
 	"playevent"
