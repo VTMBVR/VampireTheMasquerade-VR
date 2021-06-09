@@ -26,11 +26,6 @@
 			"position" "0"
 		}
 
-//	"playevent"
-//		{
-//			"event" "Addon.SantaMonica_Hart"
-//			"position" "1"
-//		}
 
 	"playevent"
 		{

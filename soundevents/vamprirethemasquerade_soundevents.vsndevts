@@ -107,14 +107,17 @@
 		use_hrtf = 1.000000
 		volume_falloff_min = 70.0
 		volume_falloff_max = 2700.0
-	//	volume_fade_out = 1
-	//	volume_fade_in = 0
+		volume_fade_out = 1
+		volume_fade_in = 0
 		spread_min = 30
 		spread_max = 150
 		vsnd_files = 
 		[
 			"sounds/enviromental/interior/lightbulb_pop2.vsnd",
 			"sounds/enviromental/interior/toiletflush5.vsnd",
+			"sounds/enviromental/animals/cat6.vsnd",
+			"sounds/enviromental/animals/cat7.vsnd",
+			"sounds/enviromental/machines/telephone.vsnd",
 		]
 	}
 }
