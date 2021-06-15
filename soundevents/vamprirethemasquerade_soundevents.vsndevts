@@ -1,5 +1,6 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
+	// Background
 	"Addon.SantaMonica_Apartments" = 
 	{
 		type = "hlvr_default_3d"
@@ -100,6 +101,10 @@
 		]
 	}
 
+
+		// This is random soundevent. When it's triggered -- it will choose random sound from array, (see dev guide)
+		// NOTE -- you can't set random BEHAVIOR here, means you can't set random time and make it retrigger itself.
+		// If you are want to add some random ambient generic noises to your map and make it retriger itself you should look into SOUNDSCAPE "playrandom" rule
 		"VTMB.Random_ambient_sm_apartments" = 
 	{
 		type = "hlvr_default_3d"

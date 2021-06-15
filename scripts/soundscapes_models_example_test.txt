@@ -3,23 +3,15 @@
 	"dsp"  "1"
 
 	//mixgroupe
-//	"mixgroup" "ambient"
+	"mixgroup" "ambient"
 
 //	Sound Mixer
 	"soundmixer"	"Default_Mix"
 
 
 
-// 	TODO -- make this loop
-//	"playlooping"
-//		{			
-//			"volume"	"1"
-//			"wave"	"sounds/area/Santa_Monica/santa monica apt bg.vsnd"
-//			"position" "0"
-//			"pitch" "100"
-//			"soundlevel"	"SNDLVL_75dB"
-//		}
-
+//	This will play sound event. It can be looped in the emiting entity
+//	This is base background soundscape
 //	"playevent"
 //		{
 //			"event" "Addon.SantaMonica_Apartments"
@@ -27,11 +19,14 @@
 //		}
 
 
+//	This will play *randomised* soundevent -- means it will play soundevent, which will choose random sound to play. It will not retriger itself and you can't set behaviour rule for that.
 //	"playevent"
 //		{
 //			"event" "VTMB.Random_ambient_sm_apartments"
 //			"position" "1"
 //		}
+
+
 
 //	NOTE -- this isn't working properly by engine yet.
 	"playrandom"
@@ -72,7 +67,7 @@
 //			"pitch" "100"
 //			"position" "0"
 //			"soundlevel"	"SNDLVL_75dB"
-//			"wave" "sounds/Environmental/Machines/Telephone.vsnd"
+//			"wave" "sounds/area/Santa_Monica/santa monica apt bg.vsnd"
 //		}
 
 
