@@ -1,9 +1,11 @@
 "sm_apartment_interior"
 {
-	"dsp"  "1"
+//	"dsp"  "1"
 
 	//mixgroupe
-	"mixgroup" "ambient"
+//	TODO -- fix missing mixgroup
+//	Possible bug -- mixgroup is missing when used playrandom instead of playevent cause of missing type?
+//	"mixgroup" "ambient"
 
 //	Sound Mixer
 	"soundmixer"	"Default_Mix"
@@ -12,11 +14,12 @@
 
 //	This will play sound event. It can be looped in the emiting entity
 //	This is base background soundscape
-//	"playevent"
-//		{
-//			"event" "Addon.SantaMonica_Apartments"
-//			"position" "0"
-//		}
+// 	TODO -- maybe will switch it to playlooping as we thought?
+	"playevent"
+		{
+			"event" "Addon.SantaMonica_Apartments"
+			"position" "0"
+		}
 
 
 //	This will play *randomised* soundevent -- means it will play soundevent, which will choose random sound to play. It will not retriger itself and you can't set behaviour rule for that.
@@ -28,15 +31,15 @@
 
 
 
-//	NOTE -- this isn't working properly by engine yet.
+//	NOTE -- This will play random sound (not soundevent) with rules described below
 	"playrandom"
 	{
 		// time, volume, pitch, attenuation are all random intervals ( i.e. minval, maxval )
 		// every 0.5 to 2 seconds
-		"time"		"1,4"
+		"time"		"6,8"
 
 		// at a volume of 0.25 to 0.25
-		"volume"	"0.5,0.8"
+		"volume"	"1,1.5"
 
 		
 
@@ -48,14 +51,19 @@
 		{
 			"wave"	"sounds/enviromental/interior/lightbulb_pop2.vsnd"
 			"wave"	"sounds/enviromental/interior/toiletflush5.vsnd"
-			"wave"	"sounds/enviromental/animals/cat6.vsnd"
+			"wave"	"sounds/enviromental/animals/cat7.vsnd"
 			"wave"	"sounds/enviromental/machines/telephone.vsnd"
+			"wave"	"sounds/enviromental/city/candle sticks break.vsnd"
 		}
 		
 		// omit position for ambient sounds
+		// if set "position" "random" then sound plays in random positions near the player
 		"position"	"2"
 		// only required if "position" is present
+		// todo -- what is that?
 		"attenuation"	"2"
+		
+		"soundlevel"	"SNDLVL_85dB"
 	}
 
 

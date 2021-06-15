@@ -4,7 +4,7 @@
 	"Addon.SantaMonica_Apartments" = 
 	{
 		type = "hlvr_default_3d"
-		volume = 10.0
+		volume = 1.8
 		volume_falloff_min = 70.0
 		volume_falloff_max = 2700.0
 		volume_fade_out = 1
@@ -20,7 +20,7 @@
 	"Addon.SantaMonica_Muddy" = 
 	{
 		type = "hlvr_default_3d"
-		volume = 10.0
+		volume = 1.0
 		volume_falloff_min = 70.0
 		volume_falloff_max = 2700.0
 		volume_fade_out = 1
