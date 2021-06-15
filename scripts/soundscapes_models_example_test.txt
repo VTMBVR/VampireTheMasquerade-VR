@@ -27,41 +27,41 @@
 //		}
 
 
-	"playevent"
-		{
-			"event" "VTMB.Random_ambient_sm_apartments"
-			"position" "1"
-		}
+//	"playevent"
+//		{
+//			"event" "VTMB.Random_ambient_sm_apartments"
+//			"position" "1"
+//		}
 
 //	NOTE -- this isn't working properly by engine yet.
-//	"playrandom"
-//	{
+	"playrandom"
+	{
 		// time, volume, pitch, attenuation are all random intervals ( i.e. minval, maxval )
 		// every 0.5 to 2 seconds
-//		"time"		"1,4"
-//
+		"time"		"1,4"
+
 		// at a volume of 0.25 to 0.25
-//		"volume"	"0.5,0.8"
-//
-//		
-//
+		"volume"	"0.5,0.8"
+
+		
+
 		// at a pitch of 90 to 100
-//		"pitch"		"80,120"
-//
+		"pitch"		"80,120"
+
 		// play one of these .wav files randomly each time
-//		"rndwave"
-//		{
-//			"wave"	"sounds/Environmental/Machines/Telephone.vsnd"
-//			"wave"	"sounds/Environmental/Animals/cat7.vsnd"
-//			"wave"	"sounds/Environmental/Animals/cat6.vsnd"
-//			"wave"	"sounds/Environmental/Interior/toiletflush5.vsnd"
-//		}
-//		
+		"rndwave"
+		{
+			"wave"	"sounds/enviromental/interior/lightbulb_pop2.vsnd"
+			"wave"	"sounds/enviromental/interior/toiletflush5.vsnd"
+			"wave"	"sounds/enviromental/animals/cat6.vsnd"
+			"wave"	"sounds/enviromental/machines/telephone.vsnd"
+		}
+		
 		// omit position for ambient sounds
-//		"position"	"1"
+		"position"	"2"
 		// only required if "position" is present
-//		"attenuation"	"2"
-//	}
+		"attenuation"	"2"
+	}
 
 
 
