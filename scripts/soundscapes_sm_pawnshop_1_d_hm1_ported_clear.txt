@@ -1,39 +1,85 @@
-"sm_apartment_interior"
+"sm_apartment_interior1"
 {
-	"dsp"  "1"
-	"playlooping"
-		{
-			"wave"	"sounds/area/Santa_Monica/santa monica apt bg.vsnd"
-//			"position" "0"
-//			"volume"	"10"
-//			"pitch" "110"
-//			"soundlevel"	"SNDLVL_85dB"
-		}
+//	"dsp"  "1"
 
+	//mixgroupe
+//	TODO -- fix missing mixgroup
+//	Possible bug -- mixgroup is missing when used playrandom instead of playevent cause of missing type?
+//	"mixgroup" "ambient"
+
+//	Sound Mixer
+	"soundmixer"	"Default_Mix"
+
+
+
+//	This will play sound event. It can be looped in the emiting entity
+//	This is base background soundscape
+// 	TODO -- maybe will switch it to playlooping as we thought?
 	"playevent"
 		{
 			"event" "Addon.SantaMonica_Apartments"
+			"position" "0"
 		}
 
-//
-//	"playrandom"
-//	{
-//		"time" "5"
-//		"volume" "4"
-//		"pitch" "95,100"
-//		"position" "0"
-//		"soundlevel"	"SNDLVL_85dB"
-//	"rndwave"
-//	{
-//		"wave" "sounds/Environmental/City/Candle Sticks Break.vsnd"
-//	"wave" "sounds/Environmental/Interior/LightBulb_Pop2.vsnd"
-//	"wave" "sounds/Area/Santa_Monica/Clinic/clinic phone ring single.vsnd"
-//	"wave" "sounds/Environmental/Machines/Telephone.vsnd"
-//	"wave" "sounds/Environmental/Animals/cat7.vsnd"
-//	"wave" "sounds/Environmental/Animals/cat6.vsnd"
-//	"wave" "sounds/Environmental/Interior/toiletflush5.vsnd"
-//	}
-//  }
+
+//	This will play *randomised* soundevent -- means it will play soundevent, which will choose random sound to play. It will not retriger itself and you can't set behaviour rule for that.
+//	"playevent"
+//		{
+//			"event" "VTMB.Random_ambient_sm_apartments"
+//			"position" "1"
+//		}
+
+
+
+//	NOTE -- This will play random sound (not soundevent) with rules described below
+	"playrandom"
+	{
+		// time, volume, pitch, attenuation are all random intervals ( i.e. minval, maxval )
+		// every 0.5 to 2 seconds
+		"time"		"6,8"
+
+		// at a volume of 0.25 to 0.25
+		"volume"	"1,1.5"
+
+		
+
+		// at a pitch of 90 to 100
+		"pitch"		"80,120"
+
+		// play one of these .wav files randomly each time
+		"rndwave"
+		{
+			"wave"	"sounds/enviromental/interior/lightbulb_pop2.vsnd"
+			"wave"	"sounds/enviromental/interior/toiletflush5.vsnd"
+			"wave"	"sounds/enviromental/animals/cat7.vsnd"
+			"wave"	"sounds/enviromental/machines/telephone.vsnd"
+			"wave"	"sounds/enviromental/city/candle sticks break.vsnd"
+		}
+		
+		// omit position for ambient sounds
+		// if set "position" "random" then sound plays in random positions near the player
+		"position"	"2"
+		// only required if "position" is present
+		// todo -- what is that?
+		"attenuation"	"2"
+		
+		"soundlevel"	"SNDLVL_85dB"
+	}
+
+
+
+// NOTE -- it has to be looping cue point inside *.WAV file to work properly
+//	"playlooping"
+//		{
+//			"volume"	"1"
+//			"pitch" "100"
+//			"position" "0"
+//			"soundlevel"	"SNDLVL_75dB"
+//			"wave" "sounds/area/Santa_Monica/santa monica apt bg.vsnd"
+//		}
+
+
+
 }
 
 

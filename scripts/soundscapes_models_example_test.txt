@@ -1,8 +1,10 @@
 "sm_apartment_interior"
 {
-	"dsp"  "1"
+//	"dsp"  "1"
 
 	//mixgroupe
+//	TODO -- fix missing mixgroup
+//	Possible bug -- mixgroup is missing when used playrandom instead of playevent cause of missing type?
 //	"mixgroup" "ambient"
 
 //	Sound Mixer
@@ -10,63 +12,59 @@
 
 
 
-// 	TODO -- make this loop
-//	"playlooping"
-//		{			
-//			"volume"	"1"
-//			"wave"	"sounds/area/Santa_Monica/santa monica apt bg.vsnd"
-//			"position" "0"
-//			"pitch" "100"
-//			"soundlevel"	"SNDLVL_75dB"
-//		}
-
+//	This will play sound event. It can be looped in the emiting entity
+//	This is base background soundscape
+// 	TODO -- maybe will switch it to playlooping as we thought?
 	"playevent"
 		{
 			"event" "Addon.SantaMonica_Apartments"
 			"position" "0"
 		}
 
+
+//	This will play *randomised* soundevent -- means it will play soundevent, which will choose random sound to play. It will not retriger itself and you can't set behaviour rule for that.
 //	"playevent"
 //		{
-//			"event" "Addon.SantaMonica_Hart"
+//			"event" "VTMB.Random_ambient_sm_apartments"
 //			"position" "1"
 //		}
 
-	"playevent"
-		{
-			"event" "VTMB.Random_ambient_sm_apartments"
-			"position" "1"
-		}
 
-//	NOTE -- this isn't working properly by engine yet.
-//	"playrandom"
-//	{
+
+//	NOTE -- This will play random sound (not soundevent) with rules described below
+	"playrandom"
+	{
 		// time, volume, pitch, attenuation are all random intervals ( i.e. minval, maxval )
 		// every 0.5 to 2 seconds
-//		"time"		"1,4"
-//
+		"time"		"6,8"
+
 		// at a volume of 0.25 to 0.25
-//		"volume"	"0.5,0.8"
-//
-//		
-//
+		"volume"	"1,1.5"
+
+		
+
 		// at a pitch of 90 to 100
-//		"pitch"		"80,120"
-//
+		"pitch"		"80,120"
+
 		// play one of these .wav files randomly each time
-//		"rndwave"
-//		{
-//			"wave"	"sounds/Environmental/Machines/Telephone.vsnd"
-//			"wave"	"sounds/Environmental/Animals/cat7.vsnd"
-//			"wave"	"sounds/Environmental/Animals/cat6.vsnd"
-//			"wave"	"sounds/Environmental/Interior/toiletflush5.vsnd"
-//		}
-//		
+		"rndwave"
+		{
+			"wave"	"sounds/enviromental/interior/lightbulb_pop2.vsnd"
+			"wave"	"sounds/enviromental/interior/toiletflush5.vsnd"
+			"wave"	"sounds/enviromental/animals/cat7.vsnd"
+			"wave"	"sounds/enviromental/machines/telephone.vsnd"
+			"wave"	"sounds/enviromental/city/candle sticks break.vsnd"
+		}
+		
 		// omit position for ambient sounds
-//		"position"	"1"
+		// if set "position" "random" then sound plays in random positions near the player
+		"position"	"2"
 		// only required if "position" is present
-//		"attenuation"	"2"
-//	}
+		// todo -- what is that?
+		"attenuation"	"2"
+		
+		"soundlevel"	"SNDLVL_85dB"
+	}
 
 
 
@@ -77,7 +75,7 @@
 //			"pitch" "100"
 //			"position" "0"
 //			"soundlevel"	"SNDLVL_75dB"
-//			"wave" "sounds/Environmental/Machines/Telephone.vsnd"
+//			"wave" "sounds/area/Santa_Monica/santa monica apt bg.vsnd"
 //		}
 
 

@@ -1,9 +1,10 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
+	// Background
 	"Addon.SantaMonica_Apartments" = 
 	{
 		type = "hlvr_default_3d"
-		volume = 10.0
+		volume = 1.8
 		volume_falloff_min = 70.0
 		volume_falloff_max = 2700.0
 		volume_fade_out = 1
@@ -19,7 +20,7 @@
 	"Addon.SantaMonica_Muddy" = 
 	{
 		type = "hlvr_default_3d"
-		volume = 10.0
+		volume = 1.0
 		volume_falloff_min = 70.0
 		volume_falloff_max = 2700.0
 		volume_fade_out = 1
@@ -100,6 +101,10 @@
 		]
 	}
 
+
+		// This is random soundevent. When it's triggered -- it will choose random sound from array, (see dev guide)
+		// NOTE -- you can't set random BEHAVIOR here, means you can't set random time and make it retrigger itself.
+		// If you are want to add some random ambient generic noises to your map and make it retriger itself you should look into SOUNDSCAPE "playrandom" rule
 		"VTMB.Random_ambient_sm_apartments" = 
 	{
 		type = "hlvr_default_3d"
@@ -107,23 +112,20 @@
 		use_hrtf = 1.000000
 		volume_falloff_min = 70.0
 		volume_falloff_max = 2700.0
-	//	volume_fade_out = 1
-	//	volume_fade_in = 0
+		volume_fade_out = 1
+		volume_fade_in = 0
 		spread_min = 30
 		spread_max = 150
 		vsnd_files = 
 		[
 			"sounds/enviromental/interior/lightbulb_pop2.vsnd",
 			"sounds/enviromental/interior/toiletflush5.vsnd",
+			"sounds/enviromental/animals/cat6.vsnd",
+			"sounds/enviromental/animals/cat7.vsnd",
+			"sounds/enviromental/machines/telephone.vsnd",
+			"sounds/enviromental/city/candle sticks break.vsnd",
 		]
 	}
 }
 
 
-//	"sounds/environmental/interior/toiletflush5.vsnd",
-// 	"sounds/Environmental/Interior/LightBulb_Pop2.vsnd",
-//	"sounds/Environmental/City/Candle Sticks Break.vsnd",
-//	"sounds/Environmental/Machines/Telephone.vsnd",
-//	"sounds/Environmental/Animals/cat6.vsnd",
-//	"sounds/Environmental/Animals/cat7.vsnd",
-//	"sounds/Environmental/Interior/toiletflush5.vsnd",
