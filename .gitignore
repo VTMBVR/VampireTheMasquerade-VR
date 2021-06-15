@@ -1,5 +1,10 @@
-VpkContent/
+VpkContent/decompiled_models/
 *.tth
 *.ttz
+*.vtf
+*.vmt
+*.mdl
+*.phy
+*.vtx
 _bakeresourcecache/
 _buildcubemaps/
