@@ -9,7 +9,18 @@
 	m_pTagManager = 
 	{
 		_class = "CAnimTagManager"
-		m_tags = [  ]
+		m_tags = 
+		[
+			{
+				_class = "CAudioAnimTag"
+				m_name = "radio_loop_2"
+				m_tagID = 
+				{
+					m_id = 1985431558
+				}
+				m_clipName = "Addon.SantaMonica_Radio2"
+			},
+		]
 	}
 	m_pMovementManager = 
 	{
@@ -46,53 +57,51 @@
 	}
 	m_rootNodeID = 
 	{
-		m_id = 2035294758
+		m_id = 1169607730
 	}
 	m_previewModels = 
 	[
-		"models/jeanetter2_ref.vmdl",
+		"models/scenery/misc/gehtoblaster1/gehtoblaster1.vmdl",
 	]
 	m_nodes = 
 	[
 		{
 			key = 
 			{
-				m_id = 1248190795
+				m_id = 583576379
 			}
 			value = 
 			{
-				_class = "CSequenceAnimNode"
+				_class = "CSingleFrameAnimNode"
 				m_sName = "Unnamed"
-				m_vecPosition = [ -353.0, -90.0 ]
+				m_vecPosition = [ -445.0, -34.0 ]
 				m_nNodeID = 
 				{
-					m_id = 1248190795
+					m_id = 583576379
 				}
 				m_networkMode = "ServerAuthoritative"
-				m_tagSpans = [  ]
-				m_sequenceName = "misc_dance01"
-				m_playbackSpeed = 0.9
-				m_bLoop = true
+				m_sequenceName = "only_sequence"
+				m_nFrameIndex = 0
 			}
 		},
 		{
 			key = 
 			{
-				m_id = 2035294758
+				m_id = 1169607730
 			}
 			value = 
 			{
 				_class = "CRootAnimNode"
 				m_sName = "Unnamed"
-				m_vecPosition = [ -136.0, -94.0 ]
+				m_vecPosition = [ -199.0, -32.0 ]
 				m_nNodeID = 
 				{
-					m_id = 2035294758
+					m_id = 1169607730
 				}
 				m_networkMode = "ServerAuthoritative"
 				m_childID = 
 				{
-					m_id = 1248190795
+					m_id = 583576379
 				}
 			}
 		},

@@ -6,7 +6,7 @@ Layer0
 
 	//---- Color ----
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "vpkcontent/models/character/monster/tzimisce/creation3/eyeball_l.tga"
+	TextureColor "vpkcontent/materials/models/character/monster/tzimisce/creation3/eyeball_l.tga"
 
 	//---- Iris ----
 	g_flIrisBumpStrength "1.000"
