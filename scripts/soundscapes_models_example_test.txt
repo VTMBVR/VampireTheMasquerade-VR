@@ -1,4 +1,4 @@
-"sm_apartment_interior"
+"vtm_sandbox_interior"
 {
 //	"dsp"  "1"
 
