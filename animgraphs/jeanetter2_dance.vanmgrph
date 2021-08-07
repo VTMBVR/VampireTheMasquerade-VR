@@ -71,7 +71,7 @@
 				m_networkMode = "ServerAuthoritative"
 				m_tagSpans = [  ]
 				m_sequenceName = "misc_dance01"
-				m_playbackSpeed = 0.9
+				m_playbackSpeed = 0.8
 				m_bLoop = true
 			}
 		},
