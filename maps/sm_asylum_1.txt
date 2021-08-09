@@ -1,0 +1,619 @@
+[debug] BspSource: Debug mode on, verbosity set to maximum
+[info] Loading C:\Users\HYPERPC\Desktop\Source 2\VTMB\SDKContent\VpkContent\maps\sm_asylum_1.bsp
+[debug] BspFile: Loading headers for sm_asylum_1.bsp
+[debug] BspFile: Ident: 1,447,187,280
+[debug] BspFile: Endianness: LITTLE_ENDIAN
+[debug] BspFile: Version: 17
+[debug] BspFile: Loading lumps
+[debug] BspFile: Map revision: 894
+[debug] BspFile: Loading lump files
+[debug] BspFileReader: Loading game lumps
+[debug] BspFileReader: Game lumps: 2
+[info] Creating info report
+
+**** File details ****
+File name: sm_asylum_1.bsp
+Size in bytes: 1961376
+Endianness: LITTLE_ENDIAN
+File CRC: C64FD7F9
+Map CRC: 989BBD79
+
+**** BSP Structure ****
+BSP version: 17
+Map revision: 894
+
+Lumps:
+#   Name                                     Offset     Length     Packed length  Version  Origin
+0   LUMP_ENTITIES                            1338152    109378     109378         0        BSP
+1   LUMP_PLANES                              1036       74960      74960          0        BSP
+2   LUMP_TEXDATA                             356200     2848       2848           0        BSP
+3   LUMP_VERTEXES                            103388     46668      46668          0        BSP
+4   LUMP_VISIBILITY                          1334340    3811       3811           0        BSP
+5   LUMP_NODES                               150056     26144      26144          0        BSP
+6   LUMP_TEXINFO                             176200     180000     180000         0        BSP
+7   LUMP_FACES                               359048     267800     267800         0        BSP
+8   LUMP_LIGHTING                            1068548    265792     265792         0        BSP
+10  LUMP_LEAFS                               75996      27392      27392          0        BSP
+12  LUMP_EDGES                               1019056    47640      47640          0        BSP
+13  LUMP_SURFEDGES                           938216     80840      80840          0        BSP
+14  LUMP_MODELS                              1066696    1824       1824           0        BSP
+15  LUMP_WORLDLIGHTS                         1447532    26400      26400          0        BSP
+16  LUMP_LEAFFACES                           929376     5786       5786           0        BSP
+17  LUMP_LEAFBRUSHES                         935164     3050       3050           0        BSP
+18  LUMP_BRUSHES                             855024     12456      12456          0        BSP
+19  LUMP_BRUSHSIDES                          867480     61896      61896          0        BSP
+20  LUMP_AREAS                               1068520    16         16             0        BSP
+21  LUMP_AREAPORTALS                         1068536    12         12             0        BSP
+22  LUMP_PORTALS                             1473932    4240       4240           0        BSP
+23  LUMP_CLUSTERS                            1478172    2432       2432           0        BSP
+24  LUMP_PORTALVERTS                         1480604    2118       2118           0        BSP
+25  LUMP_CLUSTERPORTALS                      1482724    1060       1060           0        BSP
+27  LUMP_ORIGINALFACES                       626848     228176     228176         0        BSP
+29  LUMP_PHYSCOLLIDE                         1486604    361787     361787         0        BSP
+30  LUMP_VERTNORMALS                         1848392    7572       7572           0        BSP
+31  LUMP_VERTNORMALINDICES                   1855964    23354      23354          0        BSP
+35  LUMP_GAME_LUMP                           1879320    11866      11866          0        BSP
+40  LUMP_PAKFILE                             1891188    70187      70187          0        BSP
+42  LUMP_CUBEMAPS                            1483784    208        208            0        BSP
+43  LUMP_TEXDATA_STRING_DATA                 1483992    2190       2190           0        BSP
+44  LUMP_TEXDATA_STRING_TABLE                1486184    420        420            0        BSP
+
+Lump alignment:
+#   Name                                     Offset
+0   LUMP_PLANES                              1036
+1   LUMP_LEAFS                               75996
+2   LUMP_VERTEXES                            103388
+3   LUMP_NODES                               150056
+4   LUMP_TEXINFO                             176200
+5   LUMP_TEXDATA                             356200
+6   LUMP_FACES                               359048
+7   LUMP_ORIGINALFACES                       626848
+8   LUMP_BRUSHES                             855024
+9   LUMP_BRUSHSIDES                          867480
+10  LUMP_LEAFFACES                           929376
+11  LUMP_LEAFBRUSHES                         935164
+12  LUMP_SURFEDGES                           938216
+13  LUMP_EDGES                               1019056
+14  LUMP_MODELS                              1066696
+15  LUMP_AREAS                               1068520
+16  LUMP_AREAPORTALS                         1068536
+17  LUMP_LIGHTING                            1068548
+18  LUMP_VISIBILITY                          1334340
+19  LUMP_ENTITIES                            1338152
+20  LUMP_WORLDLIGHTS                         1447532
+21  LUMP_PORTALS                             1473932
+22  LUMP_CLUSTERS                            1478172
+23  LUMP_PORTALVERTS                         1480604
+24  LUMP_CLUSTERPORTALS                      1482724
+25  LUMP_CUBEMAPS                            1483784
+26  LUMP_TEXDATA_STRING_DATA                 1483992
+27  LUMP_TEXDATA_STRING_TABLE                1486184
+28  LUMP_PHYSCOLLIDE                         1486604
+29  LUMP_VERTNORMALS                         1848392
+30  LUMP_VERTNORMALINDICES                   1855964
+31  LUMP_GAME_LUMP                           1879320
+32  LUMP_PAKFILE                             1891188
+
+Game lumps:
+#   Name  Offset     Length     Packed     Version  Flags
+0   SPRP  36         11822      11822      4        0
+1   DPRP  11858      8          8          2        0
+
+[debug] BspFileReader: Loading raw entities
+[debug] BspFileReader: Raw entities: 346
+[debug] BspFileReader: Loading entities
+[debug] BspFileReader: Entities: 346
+[debug] AppIDFinder: Skipping PORTAL_2 (version mismatch)
+[debug] AppIDFinder: Skipping ALIEN_SWARM (version mismatch)
+[debug] AppIDFinder: Skipping LEFT_4_DEAD_2 (version mismatch)
+[debug] AppIDFinder: Skipping LEFT_4_DEAD (version mismatch)
+[debug] AppIDFinder: Skipping ZOMBIE_PANIC (version mismatch)
+[debug] AppIDFinder: Skipping DYSTOPIA (version mismatch)
+[debug] AppIDFinder: Skipping ETERNAL_SILENCE (version mismatch)
+[debug] AppIDFinder: Skipping SYNERGY (version mismatch)
+[debug] AppIDFinder: Skipping PVKII (version mismatch)
+[debug] AppIDFinder: Skipping ZENO_CLASH (version mismatch)
+[debug] AppIDFinder: Skipping THE_SHIP (version mismatch)
+[debug] AppIDFinder: Skipping TEAM_FORTRESS_2_DB (version mismatch)
+[debug] AppIDFinder: Skipping TEAM_FORTRESS_2 (version mismatch)
+[debug] AppIDFinder: Skipping PORTAL (version mismatch)
+[debug] AppIDFinder: Skipping DAY_OF_DEFEAT_SOURCE (version mismatch)
+[debug] AppIDFinder: Skipping COUNTER_STRIKE_SOURCE (version mismatch)
+[debug] AppIDFinder: Skipping HALF_LIFE_2_DM (version mismatch)
+[debug] AppIDFinder: Skipping HALF_LIFE_2_EP2 (version mismatch)
+[debug] AppIDFinder: Skipping HALF_LIFE_2_EP1 (version mismatch)
+[debug] AppIDFinder: Skipping HALF_LIFE_2 (version mismatch)
+[debug] AppIDFinder: Skipping HALF_LIFE_2_BETA (version mismatch)
+[debug] AppIDFinder: Testing VAMPIRE_BLOODLINES
+[debug] AppIDFinder: Match: VAMPIRE_BLOODLINES
+**** Game Detection ****
+Method: heuristic
+Name: Vampire: The Masquerade - Bloodlines
+AppID: 2600
+
+**** Environment Settings ****
+skyname: holly
+
+**** Used Materials ****
+[debug] BspFileReader: Loading texture info
+[debug] BspFileReader: Texture info: 2,500
+[debug] BspFileReader: Loading texture data
+[debug] BspFileReader: Texture data: 89
+[debug] BspFileReader: Loading texture string data
+[debug] BspFileReader: Texture string data: 2,190
+[debug] BspFileReader: Loading texture string table
+[debug] BspFileReader: Texture string table: 105
+[debug] BspFileReader: Loading cubemaps
+[debug] BspFileReader: Cubemaps: 13
+[info] Fixing cubemap texture names
+[trace] TextureSource: Fix: PLASTER/WNDWA
+[trace] TextureSource:  To: plaster/wndwa
+[trace] TextureSource: Fix: CONCRETE/CONCRETE2DARK
+[trace] TextureSource:  To: concrete/concrete2dark
+[trace] TextureSource: Fix: CONCRETE/STKWLLA
+[trace] TextureSource:  To: concrete/stkwlla
+[trace] TextureSource: Fix: STONE/WLLA
+[trace] TextureSource:  To: stone/wlla
+[trace] TextureSource: Fix: CONCRETE/BASED
+[trace] TextureSource:  To: concrete/based
+[trace] TextureSource: Fix: CONCRETE/BASEA
+[trace] TextureSource:  To: concrete/basea
+[trace] TextureSource: Fix: PLASTER/WNDWBLIT
+[trace] TextureSource:  To: plaster/wndwblit
+[trace] TextureSource: Fix: CONCRETE/CONCRETE2
+[trace] TextureSource:  To: concrete/concrete2
+[trace] TextureSource: Fix: PLASTER/WLLB
+[trace] TextureSource:  To: plaster/wllb
+[trace] TextureSource: Fix: STONE/WNDWA_LIT
+[trace] TextureSource:  To: stone/wndwa_lit
+[trace] TextureSource: Fix: PLASTER/ASWLLE
+[trace] TextureSource:  To: plaster/aswlle
+[trace] TextureSource: Fix: TOOLS/TOOLSNODRAW
+[trace] TextureSource:  To: tools/toolsnodraw
+[trace] TextureSource: Fix: STONE/DOORB
+[trace] TextureSource:  To: stone/doorb
+[trace] TextureSource: Fix: WOOD/FLOORB
+[trace] TextureSource:  To: wood/floorb
+[trace] TextureSource: Fix: PLASTER/ASWLLA
+[trace] TextureSource:  To: plaster/aswlla
+[trace] TextureSource: Fix: PLASTER/ASWLLD
+[trace] TextureSource:  To: plaster/aswlld
+[trace] TextureSource: Fix: METAL/DOORPLATE
+[trace] TextureSource:  To: metal/doorplate
+[trace] TextureSource: Fix: WOOD/CEILINGA
+[trace] TextureSource:  To: wood/ceilinga
+[trace] TextureSource: Fix: PLASTER/ASWNDWA
+[trace] TextureSource:  To: plaster/aswndwa
+[trace] TextureSource: Fix: STONE/WNDWALIT
+[trace] TextureSource:  To: stone/wndwalit
+[trace] TextureSource: Fix: WOOD/CEILINGB
+[trace] TextureSource:  To: wood/ceilingb
+[trace] TextureSource: Fix: TILE/TILEA
+[trace] TextureSource:  To: tile/tilea
+[trace] TextureSource: Fix: PLASTER/CEILINGA
+[trace] TextureSource:  To: plaster/ceilinga
+[trace] TextureSource: Fix: PLASTER/WLLA
+[trace] TextureSource:  To: plaster/wlla
+[trace] TextureSource: Fix: PLASTER/WNDWALIT
+[trace] TextureSource:  To: plaster/wndwalit
+[trace] TextureSource: Fix: PLASTER/ASWLLC
+[trace] TextureSource:  To: plaster/aswllc
+[trace] TextureSource: Fix: PLASTER/ASWLLB
+[trace] TextureSource:  To: plaster/aswllb
+[trace] TextureSource: Fix: WOOD/TRIMA
+[trace] TextureSource:  To: wood/trima
+[trace] TextureSource: Fix: PLASTER/ASWNDWB
+[trace] TextureSource:  To: plaster/aswndwb
+[trace] TextureSource: Fix: WOOD/OHFLOORA
+[trace] TextureSource:  To: wood/ohfloora
+[trace] TextureSource: Fix: STONE/ASFLOORA
+[trace] TextureSource:  To: stone/asfloora
+[trace] TextureSource: Fix: CONCRETE/CONCRETE5
+[trace] TextureSource:  To: concrete/concrete5
+[trace] TextureSource: Fix: GROUND/SIDEWALKA
+[trace] TextureSource:  To: ground/sidewalka
+[trace] TextureSource: Fix: BRICK/DOORA
+[trace] TextureSource:  To: brick/doora
+[trace] TextureSource: Fix: WOOD/WOODBEAMSA
+[trace] TextureSource:  To: wood/woodbeamsa
+[trace] TextureSource: Fix: TOOLS/TOOLSCLIP
+[trace] TextureSource:  To: tools/toolsclip
+[trace] TextureSource: Fix: WOOD/STAIRSFRNTB
+[trace] TextureSource:  To: wood/stairsfrntb
+[trace] TextureSource: Fix: WOOD/ASSTAIRSCAP
+[trace] TextureSource:  To: wood/asstairscap
+[trace] TextureSource: Fix: PLASTER/APAWLLB
+[trace] TextureSource:  To: plaster/apawllb
+[trace] TextureSource: Fix: CONCRETE/WLLB
+[trace] TextureSource:  To: concrete/wllb
+[trace] TextureSource: Fix: EFFECTS/BLACK
+[trace] TextureSource:  To: effects/black
+[trace] TextureSource: Fix: PLASTER/ASCEILINGA
+[trace] TextureSource:  To: plaster/asceilinga
+[trace] TextureSource: Fix: PLASTER/WNDWB
+[trace] TextureSource:  To: plaster/wndwb
+[trace] TextureSource: Fix: STONE/ROCKA
+[trace] TextureSource:  To: stone/rocka
+[trace] TextureSource: Fix: PLASTER/CEILINGE
+[trace] TextureSource:  To: plaster/ceilinge
+[trace] TextureSource: Fix: PLASTER/ASDRA
+[trace] TextureSource:  To: plaster/asdra
+[trace] TextureSource: Fix: PLASTER/WLLC
+[trace] TextureSource:  To: plaster/wllc
+[trace] TextureSource: Fix: METAL/BRUSHEDCOUNTER
+[trace] TextureSource:  To: metal/brushedcounter
+[trace] TextureSource: Fix: PLASTER/ARCHA
+[trace] TextureSource:  To: plaster/archa
+[trace] TextureSource: Fix: TOOLS/TOOLSNPCCLIP
+[trace] TextureSource:  To: tools/toolsnpcclip
+[trace] TextureSource: Fix: TOOLS/TOOLSPEDCLIP
+[trace] TextureSource:  To: tools/toolspedclip
+[trace] TextureSource: Fix: TOOLS/TOOLSINVISIBLE
+[trace] TextureSource:  To: tools/toolsinvisible
+[trace] TextureSource: Fix: WOOD/WOODPANELA
+[trace] TextureSource:  To: wood/woodpanela
+[trace] TextureSource: Fix: PLASTER/VESWLLC
+[trace] TextureSource:  To: plaster/veswllc
+[trace] TextureSource: Fix: PLASTER/PILLARA
+[trace] TextureSource:  To: plaster/pillara
+[trace] TextureSource: Fix: PLASTER/ASCEILINGB
+[trace] TextureSource:  To: plaster/asceilingb
+[trace] TextureSource: Fix: GRATES/DOORAL
+[trace] TextureSource:  To: grates/dooral
+[trace] TextureSource: Fix: GRATES/DOORALSHDW
+[trace] TextureSource:  To: grates/dooralshdw
+[trace] TextureSource: Fix: OBJECTS/RUBBERA
+[trace] TextureSource:  To: objects/rubbera
+[trace] TextureSource: Fix: METAL/ELEVDOORSA
+[trace] TextureSource:  To: metal/elevdoorsa
+[trace] TextureSource: Fix: WOOD/WOODE
+[trace] TextureSource:  To: wood/woode
+[trace] TextureSource: Fix: LIGHTS/AS_GREEN
+[trace] TextureSource:  To: lights/as_green
+[trace] TextureSource: Fix: DRAPERY/VINYLA
+[trace] TextureSource:  To: drapery/vinyla
+[trace] TextureSource: Fix: OBJECTS/ELEVSWITCHA
+[trace] TextureSource:  To: objects/elevswitcha
+[trace] TextureSource: Fix: DEBUG/DEBUGEMPTY
+[trace] TextureSource:  To: debug/debugempty
+[trace] TextureSource: Fix: OBJECTS/FLYERC
+[trace] TextureSource:  To: objects/flyerc
+[trace] TextureSource: Fix: OBJECTS/FLYERH
+[trace] TextureSource:  To: objects/flyerh
+[trace] TextureSource: Fix: WOOD/FLOORA
+[trace] TextureSource:  To: wood/floora
+[trace] TextureSource: Fix: DRAPERY/ASCURTAINB
+[trace] TextureSource:  To: drapery/ascurtainb
+[trace] TextureSource: Fix: DRAPERY/ASCURTAINA
+[trace] TextureSource:  To: drapery/ascurtaina
+[trace] TextureSource: Fix: TOOLS/TOOLSTRIGGER
+[trace] TextureSource:  To: tools/toolstrigger
+[trace] TextureSource: Fix: TOOLS/TOOLSTRIGGER_BW
+[trace] TextureSource:  To: tools/toolstrigger_bw
+[trace] TextureSource: Fix: WOOD/STAIRSTOPB
+[trace] TextureSource:  To: wood/stairstopb
+[trace] TextureSource: Fix: STONE/BAR
+[trace] TextureSource:  To: stone/bar
+[trace] TextureSource: Fix: METAL/FIREESCAPE1LADDER
+[trace] TextureSource:  To: metal/fireescape1ladder
+[trace] TextureSource: Fix: PLASTER/SINWLLA
+[trace] TextureSource:  To: plaster/sinwlla
+[trace] TextureSource: Fix: GROUND/STNSTREETA
+[trace] TextureSource:  To: ground/stnstreeta
+[trace] TextureSource: Fix: TOOLS/TOOLSTRIGGER_GY
+[trace] TextureSource:  To: tools/toolstrigger_gy
+[trace] TextureSource: Fix: TOOLS/TOOLSTRIGGER_BLUE
+[trace] TextureSource:  To: tools/toolstrigger_blue
+[trace] TextureSource: Fix: TOOLS/TOOLSTRIGGER_RB
+[trace] TextureSource:  To: tools/toolstrigger_rb
+[trace] TextureSource: TN: 80 C: 2
+[trace] TextureSource: Fix: maps/sm_asylum_1/wood/floorb_-923_-112_-214
+[trace] TextureSource:  To: wood/floorb
+[trace] TextureSource: TN: 81 C: 2
+[trace] TextureSource: Fix: maps/sm_asylum_1/wood/ceilingb_-923_-112_-214
+[trace] TextureSource:  To: wood/ceilingb
+[trace] TextureSource: TN: 82 C: 3
+[trace] TextureSource: Fix: maps/sm_asylum_1/wood/floorb_-918_541_-122
+[trace] TextureSource:  To: wood/floorb
+[trace] TextureSource: TN: 83 C: 3
+[trace] TextureSource: Fix: maps/sm_asylum_1/wood/trima_-918_541_-122
+[trace] TextureSource:  To: wood/trima
+[trace] TextureSource: TN: 84 C: 6
+[trace] TextureSource: Fix: maps/sm_asylum_1/wood/trima_-695_72_-215
+[trace] TextureSource:  To: wood/trima
+[trace] TextureSource: TN: 85 C: 6
+[trace] TextureSource: Fix: maps/sm_asylum_1/wood/trima_-1157_69_-215
+[trace] TextureSource:  To: wood/trima
+[trace] TextureSource: TN: 86 C: 8
+[trace] TextureSource: Fix: maps/sm_asylum_1/wood/woode_-680_560_-228
+[trace] TextureSource:  To: wood/woode
+[trace] TextureSource: TN: 87 C: 10
+[trace] TextureSource: Fix: maps/sm_asylum_1/wood/ceilingb_-859_342_-45
+[trace] TextureSource:  To: wood/ceilingb
+[trace] TextureSource: TN: 88 C: 11
+[trace] TextureSource: Fix: maps/sm_asylum_1/tile/tilea_-1062_347_18
+[trace] TextureSource:  To: tile/tilea
+[trace] TextureSource: Fix: maps/sm_asylum_1/PLASTER/WNDWA
+[trace] TextureSource:  To: plaster/wndwa
+[trace] TextureSource: Fix: maps/sm_asylum_1/PLASTER/WNDWBLIT
+[trace] TextureSource:  To: plaster/wndwblit
+[trace] TextureSource: Fix: maps/sm_asylum_1/STONE/WNDWA_LIT
+[trace] TextureSource:  To: stone/wndwa_lit
+[trace] TextureSource: Fix: maps/sm_asylum_1/WOOD/FLOORB
+[trace] TextureSource:  To: wood/floorb
+[trace] TextureSource: Fix: maps/sm_asylum_1/WOOD/CEILINGB
+[trace] TextureSource:  To: wood/ceilingb
+[trace] TextureSource: Fix: maps/sm_asylum_1/TILE/TILEA
+[trace] TextureSource:  To: tile/tilea
+[trace] TextureSource: Fix: maps/sm_asylum_1/PLASTER/WNDWALIT
+[trace] TextureSource:  To: plaster/wndwalit
+[trace] TextureSource: Fix: maps/sm_asylum_1/WOOD/TRIMA
+[trace] TextureSource:  To: wood/trima
+[trace] TextureSource: Fix: maps/sm_asylum_1/STONE/ASFLOORA
+[trace] TextureSource:  To: stone/asfloora
+[trace] TextureSource: Fix: maps/sm_asylum_1/PLASTER/APAWLLB
+[trace] TextureSource:  To: plaster/apawllb
+[trace] TextureSource: Fix: maps/sm_asylum_1/PLASTER/WNDWB
+[trace] TextureSource:  To: plaster/wndwb
+[trace] TextureSource: Fix: maps/sm_asylum_1/METAL/BRUSHEDCOUNTER
+[trace] TextureSource:  To: metal/brushedcounter
+[trace] TextureSource: Fix: maps/sm_asylum_1/PLASTER/VESWLLC
+[trace] TextureSource:  To: plaster/veswllc
+[trace] TextureSource: Fix: maps/sm_asylum_1/METAL/ELEVDOORSA
+[trace] TextureSource:  To: metal/elevdoorsa
+[trace] TextureSource: Fix: maps/sm_asylum_1/WOOD/WOODE
+[trace] TextureSource:  To: wood/woode
+[trace] TextureSource: Fix: maps/sm_asylum_1/OBJECTS/ELEVSWITCHA
+[trace] TextureSource:  To: objects/elevswitcha
+brick/doora
+concrete/basea
+concrete/based
+concrete/concrete2
+concrete/concrete2dark
+concrete/concrete5
+concrete/stkwlla
+concrete/wllb
+debug/debugempty
+drapery/ascurtaina
+drapery/ascurtainb
+drapery/vinyla
+effects/black
+grates/dooral
+grates/dooralshdw
+ground/sidewalka
+ground/stnstreeta
+lights/as_green
+metal/brushedcounter
+metal/doorplate
+metal/elevdoorsa
+metal/fireescape1ladder
+objects/elevswitcha
+objects/flyerc
+objects/flyerh
+objects/rubbera
+plaster/apawllb
+plaster/archa
+plaster/asceilinga
+plaster/asceilingb
+plaster/asdra
+plaster/aswlla
+plaster/aswllb
+plaster/aswllc
+plaster/aswlld
+plaster/aswlle
+plaster/aswndwa
+plaster/aswndwb
+plaster/ceilinga
+plaster/ceilinge
+plaster/pillara
+plaster/sinwlla
+plaster/veswllc
+plaster/wlla
+plaster/wllb
+plaster/wllc
+plaster/wndwa
+plaster/wndwalit
+plaster/wndwb
+plaster/wndwblit
+sprites/candle.vmt
+sprites/glowa.vmt
+sprites/streetlight3_proxyfade.vmt
+stone/asfloora
+stone/bar
+stone/doorb
+stone/rocka
+stone/wlla
+stone/wndwa_lit
+stone/wndwalit
+tile/tilea
+tools/toolsclip
+tools/toolsinvisible
+tools/toolsnodraw
+tools/toolsnpcclip
+tools/toolspedclip
+tools/toolstrigger
+tools/toolstrigger_blue
+tools/toolstrigger_bw
+tools/toolstrigger_gy
+tools/toolstrigger_rb
+wood/asstairscap
+wood/ceilinga
+wood/ceilingb
+wood/floora
+wood/floorb
+wood/ohfloora
+wood/stairsfrntb
+wood/stairstopb
+wood/trima
+wood/woodbeamsa
+wood/woode
+wood/woodpanela
+
+**** Used Studio Models ****
+[debug] BspFileReader: Loading static props
+[debug] BspFileReader: Static prop names: 45
+[debug] BspFileReader: Static props: 103
+character/npc/common/Blood_Doll/bd_asylum/Blood_Dollasylum.mdl
+character/npc/common/Goth_kids/female/Goth_Female.mdl
+character/npc/common/dancer/female_1/female_dancer_1.mdl
+character/npc/common/dancer/female_2/Female_Dancer_2.mdl
+character/npc/common/dancer/male_1/Male_Dancer_1.mdl
+character/npc/common/dancer/male_2/male_dancer_2.mdl
+character/npc/common/hustler/Hustler_2_Ref.mdl
+character/npc/common/security_guard/Security_Guard.mdl
+character/npc/unique/Santa_Monica/Cal/Cal.mdl
+character/npc/unique/Santa_Monica/Danielle/Danielle.mdl
+character/npc/unique/Santa_Monica/Jeanette/Jeanette.mdl
+character/npc/unique/Santa_Monica/Knox/Knox.mdl
+character/npc/unique/Santa_Monica/Therese/Therese.mdl
+character/npc/unique/Santa_Monica/Tourette/Tourette.mdl
+items/Newspaper/Ground/Newspaper.mdl
+scenery/furniture/BookEnd/BookEnd.mdl
+scenery/furniture/ChinaCabinet/ChinaCabinet.mdl
+scenery/furniture/ClockDesktop/ClockDesktop.mdl
+scenery/furniture/CoffeeTable1/chanttbl.mdl
+scenery/furniture/CouchBackless/CouchBackless.mdl
+scenery/furniture/Diningroom_Chairs/Diningroom_Chairs.mdl
+scenery/furniture/Divider/Divider.mdl
+scenery/furniture/Fancystandinglamp/fancystandinglamp.mdl
+scenery/furniture/HeartBed/HeartBed.mdl
+scenery/furniture/LampFloor02/LampFloor02.mdl
+scenery/furniture/Mask/Mask.mdl
+scenery/furniture/MirrorMetal/MirrorMetal.mdl
+scenery/furniture/Paintings/JeanetteThereseRoom/Painting02.mdl
+scenery/furniture/Paintings/JeanetteThereseRoom/Painting03.mdl
+scenery/furniture/Paintings/JeanetteThereseRoom/Painting04.mdl
+scenery/furniture/Paintings/JeanetteThereseRoom/Painting05.mdl
+scenery/furniture/Papasan/Papasan.mdl
+scenery/furniture/Vanity/Vanity.mdl
+scenery/furniture/ascandle/ascandle.mdl
+scenery/furniture/ascandleb/ascandleb.mdl
+scenery/furniture/asstatue/asstatue.mdl
+scenery/furniture/barstool/barstool.mdl
+scenery/furniture/bartable/bartable.mdl
+scenery/furniture/bath/bath.mdl
+scenery/furniture/chair_executive/chair_executive.mdl
+scenery/furniture/chair_newage/chair.mdl
+scenery/furniture/computer/computer_case.mdl
+scenery/furniture/computer/keyboard.mdl
+scenery/furniture/computer/monitor_useable.mdl
+scenery/furniture/computer/mouse.mdl
+scenery/furniture/desk_executive/desk_executive.mdl
+scenery/furniture/guitar_mockingbird/guitar_mockingbird.mdl
+scenery/furniture/microphone/microphone.mdl
+scenery/furniture/sink2/sink2w.mdl
+scenery/furniture/toilet2/toilet_hightank2.mdl
+scenery/misc/Cash_Register/Cash_Register.mdl
+scenery/misc/Cash_Register/Cash_Registerdrawr.mdl
+scenery/misc/bottles/bottleb.mdl
+scenery/misc/bottles/bottlec.mdl
+scenery/misc/bottles/glassa.mdl
+scenery/misc/drums/drum1.mdl
+scenery/misc/laptop/laptop2.mdl
+scenery/misc/shampoo/shampoo.mdl
+scenery/misc/soap/soap.mdl
+scenery/misc/toothbrush/toothbrush.mdl
+scenery/misc/trash/trash.mdl
+scenery/structural/ashandrail/ashandrail.mdl
+scenery/structural/ceilinglight/ceilinglight.mdl
+scenery/structural/doorknoba/drknobantique.mdl
+scenery/structural/doorknoba/drknobantiquel.mdl
+scenery/structural/elevator_dial/elevbutton_1.mdl
+scenery/structural/elevator_dial/elevbutton_2.mdl
+scenery/structural/elevator_dial/elevbutton_dn.mdl
+scenery/structural/elevator_dial/elevbutton_up.mdl
+scenery/structural/theatlights/theatlights.mdl
+scenery/structural/vesuvius/bar.mdl
+scenery/structural/vesuvius/bartap.mdl
+scenery/theater/stage_light.mdl
+weapons/ThirtyEight/wield/w_f_thirtyeight.mdl
+
+**** Used Sounds ****
+* # = raw
+* + = soundscript
+* : = soundscape
+
+#Area/Santa_Monica/Asylum/Jeanette.wav
+#Character/CONVERSATIONS/Sisters_Argument.wav
+#Environmental/Machines/elevator_operation.wav
+#Environmental/People/Conversation4.wav
+#Environmental/People/Conversation5.wav
+#Music/Licenced/05. Chiasm - Isolated.mp3
+#Usable/Doors/standard_door/standard_door_locked.wav
+#area/Santa_Monica/Ocean_House/doors_end_1.wav
+#environmental/electronic/deny_beep.wav
+#environmental/machines/elevator_ding.wav
+#environmental/machines/elevator_stop.wav
+#environmental/people/Police/Come_Out.wav
+#environmental/people/Police/Police_Arrive1.wav
+#sound/Schemes/SM_asylum_main_hall.txt
+#sound/Schemes/SM_asylum_office.txt
+#sound/schemes/Cops_Outside.txt
++Unique/Jeanette
++Unique/Therese
++Unique/cal
++Unique/danielle
++chainlink_gate
++elevator_button
++light_iron_gate
++manhole_cover
++metal_file_cabinet
++old_computer
++standard_door
+
+**** Pakfile Contents ****
+materials/maps/sm_asylum_1/wood/floorb_-923_-112_-214.vmt 110 D18F6753
+materials/maps/sm_asylum_1/wood/ceilingb_-923_-112_-214.vmt 112 CB0BB370
+materials/maps/sm_asylum_1/wood/floorb_-918_541_-122.vmt 109 E5B246D4
+materials/maps/sm_asylum_1/wood/trima_-918_541_-122.vmt 108 5E693501
+materials/maps/sm_asylum_1/wood/trima_-695_72_-215.vmt 107 9276D9F9
+materials/maps/sm_asylum_1/wood/trima_-1157_69_-215.vmt 108 82583BFF
+materials/maps/sm_asylum_1/wood/woode_-680_560_-228.vmt 108 F7E8B8BE
+materials/maps/sm_asylum_1/wood/ceilingb_-859_342_-45.vmt 110 E2A93EDB
+materials/maps/sm_asylum_1/tile/tilea_-1062_347_18.vmt 107 F8DA8E6F
+materials/maps/sm_asylum_1/cubemapdefault.tth 468 1163D491
+materials/maps/sm_asylum_1/cubemapdefault.ttz 2383 B60AAC04
+materials/maps/sm_asylum_1/c-923_-112_-214.tth 300 97AA977D
+materials/maps/sm_asylum_1/c-923_-112_-214.ttz 4021 55B3E351
+materials/maps/sm_asylum_1/c-918_541_-122.tth 300 03B47FE2
+materials/maps/sm_asylum_1/c-918_541_-122.ttz 3685 22C0E70D
+materials/maps/sm_asylum_1/c-695_72_-215.tth 300 7B552949
+materials/maps/sm_asylum_1/c-695_72_-215.ttz 3922 07F07D96
+materials/maps/sm_asylum_1/c-1157_69_-215.tth 300 E5F9CA2A
+materials/maps/sm_asylum_1/c-1157_69_-215.ttz 3971 6A85A487
+materials/maps/sm_asylum_1/c-680_560_-228.tth 300 C2755794
+materials/maps/sm_asylum_1/c-680_560_-228.ttz 3758 FCAD0611
+materials/maps/sm_asylum_1/c-859_342_-45.tth 300 F38D4143
+materials/maps/sm_asylum_1/c-859_342_-45.ttz 3878 41B98B74
+materials/maps/sm_asylum_1/c-1062_347_18.tth 300 9B282284
+materials/maps/sm_asylum_1/c-1062_347_18.ttz 3976 8DE23E7C
+materials/maps/sm_asylum_1/plaster/wndwa.vmt 174 2F6B38C6
+materials/maps/sm_asylum_1/plaster/wndwblit.vmt 194 1939CAA9
+materials/maps/sm_asylum_1/stone/wndwa_lit.vmt 191 DA2419A4
+materials/maps/sm_asylum_1/wood/floorb.vmt 167 90A54023
+materials/maps/sm_asylum_1/wood/ceilingb.vmt 168 50716BAC
+materials/maps/sm_asylum_1/tile/tilea.vmt 140 6BBBA3F5
+materials/maps/sm_asylum_1/plaster/wndwalit.vmt 194 5A75BAA9
+materials/maps/sm_asylum_1/wood/trima.vmt 165 23E1E281
+materials/maps/sm_asylum_1/stone/asfloora.vmt 177 9C42983D
+materials/maps/sm_asylum_1/plaster/apawllb.vmt 178 60298C45
+materials/maps/sm_asylum_1/plaster/wndwb.vmt 174 4376DEEF
+materials/maps/sm_asylum_1/metal/brushedcounter.vmt 179 891BB013
+materials/maps/sm_asylum_1/plaster/veswllc.vmt 178 28AEB972
+materials/maps/sm_asylum_1/metal/elevdoorsa.vmt 178 2A17DBB8
+materials/maps/sm_asylum_1/wood/woode.vmt 165 DB4CF87F
+materials/maps/sm_asylum_1/objects/elevswitcha.vmt 184 5BF14A84
+materials/maps/sm_asylum_1/c-1043_597_-237.tth 300 788DE01B
+materials/maps/sm_asylum_1/c-1043_597_-237.ttz 3917 6AFFE386
+materials/maps/sm_asylum_1/c-928_335_-252.tth 300 82385F6B
+materials/maps/sm_asylum_1/c-928_335_-252.ttz 3843 CA7E915E
+materials/maps/sm_asylum_1/c-1180_600_-276.tth 300 36EFB13E
+materials/maps/sm_asylum_1/c-1180_600_-276.ttz 3798 9739962C
+materials/maps/sm_asylum_1/c-801_539_37.tth 300 3C1FC8F3
+materials/maps/sm_asylum_1/c-801_539_37.ttz 4056 31F306A8
+materials/maps/sm_asylum_1/c-772_548_-262.tth 300 98955BF6
+materials/maps/sm_asylum_1/c-772_548_-262.ttz 3897 DC001B73
+materials/maps/sm_asylum_1/c-1000_612_50.tth 300 2B1B6890
+materials/maps/sm_asylum_1/c-1000_612_50.ttz 3923 D7A30E12
+
+[info] Done in 0.088 seconds
