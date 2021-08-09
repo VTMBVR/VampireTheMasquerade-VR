@@ -180,6 +180,7 @@ skyname: holly
 [trace] TextureSource:  To: plaster/aswlld
 [trace] TextureSource: Fix: METAL/DOORPLATE
 [trace] TextureSource:  To: metal/doorplate
+//----------------------------------------------
 [trace] TextureSource: Fix: WOOD/CEILINGA
 [trace] TextureSource:  To: wood/ceilinga
 [trace] TextureSource: Fix: PLASTER/ASWNDWA
