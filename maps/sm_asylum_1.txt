@@ -180,7 +180,7 @@ skyname: holly
 [trace] TextureSource:  To: plaster/aswlld
 [trace] TextureSource: Fix: METAL/DOORPLATE
 [trace] TextureSource:  To: metal/doorplate
-//----------------------------------------------
+
 [trace] TextureSource: Fix: WOOD/CEILINGA
 [trace] TextureSource:  To: wood/ceilinga
 [trace] TextureSource: Fix: PLASTER/ASWNDWA
@@ -203,6 +203,7 @@ skyname: holly
 [trace] TextureSource:  To: plaster/aswllb
 [trace] TextureSource: Fix: WOOD/TRIMA
 [trace] TextureSource:  To: wood/trima
+
 [trace] TextureSource: Fix: PLASTER/ASWNDWB
 [trace] TextureSource:  To: plaster/aswndwb
 [trace] TextureSource: Fix: WOOD/OHFLOORA
@@ -221,6 +222,7 @@ skyname: holly
 [trace] TextureSource:  To: tools/toolsclip
 [trace] TextureSource: Fix: WOOD/STAIRSFRNTB
 [trace] TextureSource:  To: wood/stairsfrntb
+
 [trace] TextureSource: Fix: WOOD/ASSTAIRSCAP
 [trace] TextureSource:  To: wood/asstairscap
 [trace] TextureSource: Fix: PLASTER/APAWLLB
@@ -228,7 +230,7 @@ skyname: holly
 [trace] TextureSource: Fix: CONCRETE/WLLB
 [trace] TextureSource:  To: concrete/wllb
 [trace] TextureSource: Fix: EFFECTS/BLACK
-[trace] TextureSource:  To: effects/black
+[trace] TextureSource:  To: effects/black      //--- wtf?
 [trace] TextureSource: Fix: PLASTER/ASCEILINGA
 [trace] TextureSource:  To: plaster/asceilinga
 [trace] TextureSource: Fix: PLASTER/WNDWB
@@ -259,6 +261,7 @@ skyname: holly
 [trace] TextureSource:  To: plaster/pillara
 [trace] TextureSource: Fix: PLASTER/ASCEILINGB
 [trace] TextureSource:  To: plaster/asceilingb
+//--------------------------------------------
 [trace] TextureSource: Fix: GRATES/DOORAL
 [trace] TextureSource:  To: grates/dooral
 [trace] TextureSource: Fix: GRATES/DOORALSHDW
