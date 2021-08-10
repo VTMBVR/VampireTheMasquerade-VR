@@ -261,7 +261,7 @@ skyname: holly
 [trace] TextureSource:  To: plaster/pillara
 [trace] TextureSource: Fix: PLASTER/ASCEILINGB
 [trace] TextureSource:  To: plaster/asceilingb
-//--------------------------------------------
+
 [trace] TextureSource: Fix: GRATES/DOORAL
 [trace] TextureSource:  To: grates/dooral
 [trace] TextureSource: Fix: GRATES/DOORALSHDW
@@ -274,6 +274,7 @@ skyname: holly
 [trace] TextureSource:  To: wood/woode
 [trace] TextureSource: Fix: LIGHTS/AS_GREEN
 [trace] TextureSource:  To: lights/as_green
+//-------------------------------------------
 [trace] TextureSource: Fix: DRAPERY/VINYLA
 [trace] TextureSource:  To: drapery/vinyla
 [trace] TextureSource: Fix: OBJECTS/ELEVSWITCHA
