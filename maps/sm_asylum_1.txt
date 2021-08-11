@@ -274,7 +274,6 @@ skyname: holly
 [trace] TextureSource:  To: wood/woode
 [trace] TextureSource: Fix: LIGHTS/AS_GREEN
 [trace] TextureSource:  To: lights/as_green
-//-------------------------------------------
 [trace] TextureSource: Fix: DRAPERY/VINYLA
 [trace] TextureSource:  To: drapery/vinyla
 [trace] TextureSource: Fix: OBJECTS/ELEVSWITCHA
@@ -285,6 +284,7 @@ skyname: holly
 [trace] TextureSource:  To: objects/flyerc
 [trace] TextureSource: Fix: OBJECTS/FLYERH
 [trace] TextureSource:  To: objects/flyerh
+//--------------------------------------------
 [trace] TextureSource: Fix: WOOD/FLOORA
 [trace] TextureSource:  To: wood/floora
 [trace] TextureSource: Fix: DRAPERY/ASCURTAINB
