@@ -5,5 +5,5 @@ Layer0
 	shader "spriteentity.vfx"
 
 	//---- Color ----
-	TextureColor "materials/sprites/glowa.tga"
+	TextureColor "materials/sprites/candle.tga"
 }
