@@ -380,7 +380,6 @@ concrete/concrete5
 concrete/stkwlla
 concrete/wllb
 debug/debugempty
-//-------------------
 drapery/ascurtaina
 drapery/ascurtainb
 drapery/vinyla
@@ -390,6 +389,7 @@ grates/dooralshdw
 ground/sidewalka
 ground/stnstreeta
 lights/as_green
+//----------------
 metal/brushedcounter
 metal/doorplate
 metal/elevdoorsa
