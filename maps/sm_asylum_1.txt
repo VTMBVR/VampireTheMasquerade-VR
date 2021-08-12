@@ -389,11 +389,11 @@ grates/dooralshdw
 ground/sidewalka
 ground/stnstreeta
 lights/as_green
-//----------------
 metal/brushedcounter
 metal/doorplate
 metal/elevdoorsa
 metal/fireescape1ladder
+//-------------------------
 objects/elevswitcha
 objects/flyerc
 objects/flyerh
