@@ -397,7 +397,7 @@ objects/elevswitcha
 objects/flyerc
 objects/flyerh
 objects/rubbera
-//---------------------
+
 plaster/apawllb
 plaster/archa
 plaster/asceilinga
@@ -422,6 +422,7 @@ plaster/wndwa
 plaster/wndwalit
 plaster/wndwb
 plaster/wndwblit
+//-----------------
 sprites/candle.vmt
 sprites/glowa.vmt
 sprites/streetlight3_proxyfade.vmt
