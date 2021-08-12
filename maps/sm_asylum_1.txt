@@ -393,11 +393,11 @@ metal/brushedcounter
 metal/doorplate
 metal/elevdoorsa
 metal/fireescape1ladder
-//-------------------------
 objects/elevswitcha
 objects/flyerc
 objects/flyerh
 objects/rubbera
+//---------------------
 plaster/apawllb
 plaster/archa
 plaster/asceilinga
