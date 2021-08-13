@@ -1,0 +1,56 @@
+// Created by Crowbar 0.71
+
+  Decompiling "jeanette.mdl" ...
+    Model version 2531 detected.
+    Reading MDL file header ...
+    ... Reading MDL file header finished.
+    Checking for required files ...
+    ... All required files found.
+    Reading data ...
+      Reading MDL file ...
+      ... Reading MDL file finished.
+      Reading PHY file ...
+      ... Reading PHY file finished.
+      Reading VTX file ...
+      ... Reading VTX file finished.
+    ... Reading data finished.
+    Writing decompile-info files ...
+        jeanette decompile-MDL.txt
+        jeanette decompile-VTX.txt
+        jeanette decompile-PHY.txt
+    ... Writing decompile-info files finished.
+    Writing data ...
+      QC file: 
+        jeanette.qc
+      Reference mesh files: 
+        JeanetteR2_REF.smd
+      LOD mesh files: 
+      Physics mesh file: 
+        jeanette_physics.smd
+      Vertex animation files: 
+        jeanette_01.vta
+      Bone animation files: 
+        jeanette_anim_Jeanette_Line1_Col_E.smd
+        jeanette_anim_Jeanette_Line1_Col_F.smd
+        jeanette_anim_Jeanette_Line11_Col_E.smd
+        jeanette_anim_Jeanette_Line21_Col_E.smd
+        jeanette_anim_Jeanette_Line31_Col_E.smd
+        jeanette_anim_Jeanette_Line41_Col_E.smd
+        jeanette_anim_Jeanette_Line41_Col_F.smd
+        jeanette_anim_Jeanette_Line51_Col_E.smd
+        jeanette_anim_Jeanette_Line61_Col_E.smd
+        jeanette_anim_Jeanette_Line71_Col_E.smd
+        jeanette_anim_Jeanette_Line81_Col_E.smd
+        jeanette_anim_Jeanette_Line91_Col_E.smd
+        jeanette_anim_Jeanette_Line131_Col_E.smd
+        jeanette_anim_Jeanette_Line191_Col_E.smd
+        jeanette_anim_Jeanette_Line271_Col_E.smd
+        jeanette_anim_Jeanette_Line311_Col_E.smd
+        jeanette_anim_Jeanette_Line351_Col_E.smd
+        jeanette_anim_Jeanette_Line361_Col_E.smd
+        jeanette_anim_Jeanette_Line511_Col_E.smd
+        jeanette_anim_Jeanette_Line571_Col_E.smd
+        jeanette_anim_Jeanette_Line811_Col_E.smd
+        jeanette_anim_ragdoll.smd
+    ... Writing data finished.
+  ... Decompiling "jeanette.mdl" finished.

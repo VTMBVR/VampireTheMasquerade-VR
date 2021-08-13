@@ -1,0 +1,41 @@
+// Created by Crowbar 0.71
+====== File Size ======
+	25 489
+====== File Seek Log ======
+	0 - 15 Header
+	16 - 1 507 Solid(0)
+	1 508 - 1 535 [ERROR] Unread bytes (non-zero) [ 00 00 00 00 60 FA FF FF 20 EB 99 BA 40 C1 CC BA 98 65 C4 BB 3B ... ]
+	1 536 - 2 835 Solid(1)
+	2 836 - 2 863 [ERROR] Unread bytes (non-zero) [ 00 00 00 00 20 FB FF FF 4A 03 96 3D 00 E5 1C 3A 4B AF 1D 3D F7 ... ]
+	2 864 - 4 115 Solid(2)
+	4 116 - 4 143 [ERROR] Unread bytes (non-zero) [ 00 00 00 00 50 FB FF FF D4 FC FC 3D 93 B6 CD 3C 59 36 88 3C 77 ... ]
+	4 144 - 5 395 Solid(3)
+	5 396 - 5 423 [ERROR] Unread bytes (non-zero) [ 00 00 00 00 50 FB FF FF 2B 08 02 3E BE BD D3 BC 75 94 8B 3C 2B ... ]
+	5 424 - 6 675 Solid(4)
+	6 676 - 6 703 [ERROR] Unread bytes (non-zero) [ 00 00 00 00 50 FB FF FF 6F 4D 07 3E EC B8 50 BC 3C 25 81 3C 04 ... ]
+	6 704 - 7 331 Solid(5)
+	7 332 - 7 359 [ERROR] Unread bytes (non-zero) [ 00 00 00 00 C0 FD FF FF 6A 80 C0 3D D8 FB 57 BC 80 7E A2 39 2B ... ]
+	7 360 - 8 611 Solid(6)
+	8 612 - 8 639 [ERROR] Unread bytes (non-zero) [ 00 00 00 00 50 FB FF FF 2E F7 04 3E FA 31 83 3C C0 06 94 3C 5A ... ]
+	8 640 - 9 267 Solid(7)
+	9 268 - 9 295 [ERROR] Unread bytes (non-zero) [ 00 00 00 00 C0 FD FF FF AF 65 BC 3D 10 3C 5D 3C C0 CF BD 39 23 ... ]
+	9 296 - 10 547 Solid(8)
+	10 548 - 10 575 [ERROR] Unread bytes (non-zero) [ 00 00 00 00 50 FB FF FF 2A B1 99 3E B0 F9 ED BB 9A 7D 14 BD 05 ... ]
+	10 576 - 11 827 Solid(9)
+	11 828 - 11 855 [ERROR] Unread bytes (non-zero) [ 00 00 00 00 50 FB FF FF 6E 50 6A 3E 70 6E AE BB 57 51 8C BD F6 ... ]
+	11 856 - 14 019 Solid(10)
+	14 020 - 14 047 [ERROR] Unread bytes (non-zero) [ 00 00 00 00 C0 F7 FF FF 92 04 D8 3D 20 D7 30 3B A6 C1 1C 3D 52 ... ]
+	14 048 - 15 299 Solid(11)
+	15 300 - 15 327 [ERROR] Unread bytes (non-zero) [ 00 00 00 00 50 FB FF FF BC CC 99 3E 98 37 CF 3B B0 9D 14 BD 66 ... ]
+	15 328 - 16 579 Solid(12)
+	16 580 - 16 607 [ERROR] Unread bytes (non-zero) [ 00 00 00 00 50 FB FF FF 46 4E 6A 3E E8 DD B5 3B DC 50 8C BD B9 ... ]
+	16 608 - 17 187 Solid(13)
+	17 188 - 17 215 [ERROR] Unread bytes (non-zero) [ 00 00 00 00 F0 FD FF FF B0 28 3A 3B E7 8E 81 3C B0 2C 58 BC 9C ... ]
+	17 216 - 17 795 Solid(14)
+	17 796 - 17 823 [ERROR] Unread bytes (non-zero) [ 00 00 00 00 F0 FD FF FF D0 28 3A 3B 44 D9 7E BC 88 2E 58 BC 99 ... ]
+	17 824 - 22 182 Properties
+	22 183 - 25 401 Ragdoll constraints
+	25 402 - 25 487 Edit params
+	25 488 - 25 488 [ERROR] Unread bytes (all zeroes) [ 00 ]
+	25 489 - 25 489 END OF FILE + 1 (File size)
+========================

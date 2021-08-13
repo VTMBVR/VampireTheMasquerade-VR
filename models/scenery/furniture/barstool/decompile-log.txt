@@ -1,0 +1,60 @@
+// Created by Crowbar 0.71
+
+  Decompiling "barstool.mdl" ...
+    Model version 2531 detected.
+    Reading MDL file header ...
+    ... Reading MDL file header finished.
+    Checking for required files ...
+    ... All required files found.
+    Reading data ...
+      Reading MDL file ...
+      ... Reading MDL file finished.
+      Reading VTX file ...
+      ... Reading VTX file finished.
+    ... Reading data finished.
+    Writing decompile-info files ...
+        barstool decompile-MDL.txt
+        barstool decompile-VTX.txt
+    ... Writing decompile-info files finished.
+    Writing data ...
+      QC file: 
+        barstool.qc
+      Reference mesh files: 
+        barstool.smd
+      LOD mesh files: 
+      Bone animation files: 
+        idle.smd
+    ... Writing data finished.
+  ... Decompiling "barstool.mdl" finished.
+
+  Decompiling "barstoolb.mdl" ...
+    Model version 2531 detected.
+    Reading MDL file header ...
+    ... Reading MDL file header finished.
+    Checking for required files ...
+    ... All required files found.
+    Reading data ...
+      Reading MDL file ...
+      ... Reading MDL file finished.
+      Reading PHY file ...
+      ... Reading PHY file finished.
+      Reading VTX file ...
+      ... Reading VTX file finished.
+    ... Reading data finished.
+    Writing decompile-info files ...
+        barstoolb decompile-MDL.txt
+        barstoolb decompile-VTX.txt
+        barstoolb decompile-PHY.txt
+    ... Writing decompile-info files finished.
+    Writing data ...
+      QC file: 
+        barstoolb.qc
+      Reference mesh files: 
+        barstoolb.smd
+      LOD mesh files: 
+      Physics mesh file: 
+        barstoolb_physics.smd
+      Bone animation files: 
+        idle.smd
+    ... Writing data finished.
+  ... Decompiling "barstoolb.mdl" finished.

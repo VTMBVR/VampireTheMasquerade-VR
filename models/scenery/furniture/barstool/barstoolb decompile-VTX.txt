@@ -1,0 +1,16 @@
+// Created by Crowbar 0.71
+====== File Size ======
+	1 366
+====== File Seek Log ======
+	0 - 35 VTX File Header (Actual version: 107; override version: 107)
+	36 - 43 aBodyPart
+	44 - 51 aModel
+	52 - 63 aModelLod
+	64 - 71 aMesh
+	72 - 91 aStripGroup
+	92 - 107 aStripGroup.theVtxStrips 1
+	108 - 429 aStripGroup.theVtxVertexesForStaticProp 161
+	430 - 1 353 aStripGroup.theVtxIndexes 462
+	1 354 - 1 365 [ERROR] Unread bytes (all zeroes) [ 00 00 00 00 00 00 00 00 00 00 00 00 ]
+	1 366 - 1 366 END OF FILE + 1 (File size)
+========================

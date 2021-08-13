@@ -1,0 +1,39 @@
+// Created by Crowbar 0.71
+====== File Size ======
+	13 708
+====== File Seek Log ======
+	0 - 423 MDL File Header; MDL File Header
+	424 - 583 aBone
+	584 - 595 aHitboxSet
+	596 - 627 aHitbox
+	628 - 699 anAnimationDesc
+	700 - 731 anAnimationDesc.theAnimations 1
+	732 - 1 495 aSequence [idle]
+	1 496 - 1 511 aSequenceGroup 
+	1 512 - 1 527 aBodyPart
+	1 528 - 1 751 aModel [barstool.smd]
+	1 752 - 1 811 aMesh
+	1 812 - 1 871 aMesh
+	1 872 - 1 931 aMesh
+	1 932 - 1 951 [ERROR] Unread bytes (all zeroes) [ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ]
+	1 952 - 10 443 aModel.theVertexesType0 193
+	10 444 - 13 531 aModel.theTangents 193
+	13 532 - 13 551 aTexture
+	13 552 - 13 571 aTexture
+	13 572 - 13 591 aTexture
+	13 592 - 13 595 aTexturePath (offset to text)
+	13 596 - 13 601 aSkin
+	13 602 - 13 603 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	13 604 - 13 604 aBone.theSurfacePropName = ; theSurfacePropName = 
+	13 605 - 13 616 aBone.theName = static_prop
+	13 617 - 13 624 aHitboxSet.theName = default
+	13 625 - 13 630 anAnimationDesc.theName = idle
+	13 631 - 13 635 aSequence.theName = idle
+	13 636 - 13 640 aBodyPart.theName = Body
+	13 641 - 13 651 aTexture.theFileName = barstooltp
+	13 652 - 13 662 aTexture.theFileName = barstoolsd
+	13 663 - 13 671 aTexture.theFileName = barstool
+	13 672 - 13 706 aTexturePath (text) = models\scenery\furniture\barstool\
+	13 707 - 13 707 [ERROR] Unread bytes (all zeroes) [ 00 ]
+	13 708 - 13 708 END OF FILE + 1 (File size)
+========================
