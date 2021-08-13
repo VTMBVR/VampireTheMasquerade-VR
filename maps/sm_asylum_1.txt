@@ -502,7 +502,7 @@ scenery/furniture/Vanity/Vanity.mdl
 scenery/furniture/ascandle/ascandle.mdl
 scenery/furniture/ascandleb/ascandleb.mdl
 scenery/furniture/asstatue/asstatue.mdl
-scenery/furniture/barstool/barstool.mdl
+scenery/furniture/barstool/barstool.mdl  // imported
 scenery/furniture/bartable/bartable.mdl
 scenery/furniture/bath/bath.mdl
 scenery/furniture/chair_executive/chair_executive.mdl
