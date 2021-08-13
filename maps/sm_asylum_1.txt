@@ -433,6 +433,7 @@ stone/rocka
 stone/wlla
 stone/wndwa_lit
 stone/wndwalit
+//----------------------
 tile/tilea
 tools/toolsclip
 tools/toolsinvisible
