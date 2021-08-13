@@ -434,7 +434,6 @@ stone/wlla
 stone/wndwa_lit
 stone/wndwalit
 tile/tilea
-//-------------
 tools/toolsclip
 tools/toolsinvisible
 tools/toolsnodraw
@@ -457,6 +456,7 @@ wood/trima
 wood/woodbeamsa
 wood/woode
 wood/woodpanela
+//----------------------
 
 **** Used Studio Models ****
 [debug] BspFileReader: Loading static props
