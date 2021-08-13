@@ -488,7 +488,7 @@ scenery/furniture/Diningroom_Chairs/Diningroom_Chairs.mdl
 scenery/furniture/Divider/Divider.mdl
 scenery/furniture/Fancystandinglamp/fancystandinglamp.mdl //-- imported
 scenery/furniture/HeartBed/HeartBed.mdl
-scenery/furniture/LampFloor02/LampFloor02.mdl		
+scenery/furniture/LampFloor02/LampFloor02.mdl	// -- imported	
 scenery/furniture/Mask/Mask.mdl
 scenery/furniture/MirrorMetal/MirrorMetal.mdl
 //------
