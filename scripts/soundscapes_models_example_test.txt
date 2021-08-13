@@ -17,7 +17,7 @@
 // 	TODO -- maybe will switch it to playlooping as we thought?
 	"playevent"
 		{
-			"event" "Addon.SantaMonica_Apartments"
+			"event" "Addon.MusicEvent_MainTheme"
 			"position" "0"
 		}
 
