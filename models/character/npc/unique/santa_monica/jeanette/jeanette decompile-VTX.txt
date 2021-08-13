@@ -1,0 +1,141 @@
+// Created by Crowbar 0.71
+====== File Size ======
+	136 952
+====== File Seek Log ======
+	0 - 35 VTX File Header (Actual version: 107; override version: 107)
+	36 - 43 aBodyPart
+	44 - 51 aModel
+	52 - 63 aModelLod
+	64 - 71 aMesh
+	72 - 79 aMesh
+	80 - 87 aMesh
+	88 - 95 aMesh
+	96 - 103 aMesh
+	104 - 111 aMesh
+	112 - 119 aMesh
+	120 - 127 aMesh
+	128 - 135 aMesh
+	136 - 143 aMesh
+	144 - 151 aMesh
+	152 - 159 aMesh
+	160 - 167 aMesh
+	168 - 175 aMesh
+	176 - 183 aMesh
+	184 - 191 aMesh
+	192 - 199 aMesh
+	200 - 207 aMesh
+	208 - 227 aStripGroup
+	228 - 247 aStripGroup
+	248 - 267 aStripGroup
+	268 - 287 aStripGroup
+	288 - 307 aStripGroup
+	308 - 327 aStripGroup
+	328 - 347 aStripGroup
+	348 - 367 aStripGroup
+	368 - 387 aStripGroup
+	388 - 407 aStripGroup
+	408 - 427 aStripGroup
+	428 - 447 aStripGroup
+	448 - 467 aStripGroup
+	468 - 487 aStripGroup
+	488 - 507 aStripGroup
+	508 - 527 aStripGroup
+	528 - 547 aStripGroup
+	548 - 567 aStripGroup
+	568 - 587 aStripGroup
+	588 - 607 aStripGroup
+	608 - 627 aStripGroup
+	628 - 647 aStripGroup
+	648 - 727 aStripGroup.theVtxStrips 5
+	728 - 743 aStripGroup.theVtxStrips 1
+	744 - 759 aStripGroup.theVtxStrips 1
+	760 - 775 aStripGroup.theVtxStrips 1
+	776 - 791 aStripGroup.theVtxStrips 1
+	792 - 807 aStripGroup.theVtxStrips 1
+	808 - 823 aStripGroup.theVtxStrips 1
+	824 - 839 aStripGroup.theVtxStrips 1
+	840 - 855 aStripGroup.theVtxStrips 1
+	856 - 871 aStripGroup.theVtxStrips 1
+	872 - 887 aStripGroup.theVtxStrips 1
+	888 - 903 aStripGroup.theVtxStrips 1
+	904 - 919 aStripGroup.theVtxStrips 1
+	920 - 935 aStripGroup.theVtxStrips 1
+	936 - 951 aStripGroup.theVtxStrips 1
+	952 - 967 aStripGroup.theVtxStrips 1
+	968 - 983 aStripGroup.theVtxStrips 1
+	984 - 999 aStripGroup.theVtxStrips 1
+	1 000 - 1 015 aStripGroup.theVtxStrips 1
+	1 016 - 1 031 aStripGroup.theVtxStrips 1
+	1 032 - 1 047 aStripGroup.theVtxStrips 1
+	1 048 - 1 063 aStripGroup.theVtxStrips 1
+	1 064 - 37 639 aStripGroup.theVtxVertexes 3048
+	37 640 - 49 135 aStripGroup.theVtxVertexes 958
+	49 136 - 52 363 aStripGroup.theVtxVertexes 269
+	52 364 - 53 131 aStripGroup.theVtxVertexes 64
+	53 132 - 53 467 aStripGroup.theVtxVertexes 28
+	53 468 - 56 959 aStripGroup.theVtxVertexes 291
+	56 960 - 58 111 aStripGroup.theVtxVertexes 96
+	58 112 - 58 447 aStripGroup.theVtxVertexes 28
+	58 448 - 62 839 aStripGroup.theVtxVertexes 366
+	62 840 - 63 451 aStripGroup.theVtxVertexes 51
+	63 452 - 63 643 aStripGroup.theVtxVertexes 16
+	63 644 - 63 931 aStripGroup.theVtxVertexes 24
+	63 932 - 64 147 aStripGroup.theVtxVertexes 18
+	64 148 - 65 623 aStripGroup.theVtxVertexes 123
+	65 624 - 65 839 aStripGroup.theVtxVertexes 18
+	65 840 - 66 475 aStripGroup.theVtxVertexes 53
+	66 476 - 71 179 aStripGroup.theVtxVertexes 392
+	71 180 - 75 031 aStripGroup.theVtxVertexes 321
+	75 032 - 76 771 aStripGroup.theVtxVertexes 145
+	76 772 - 77 983 aStripGroup.theVtxVertexes 101
+	77 984 - 81 163 aStripGroup.theVtxVertexes 265
+	81 164 - 81 487 aStripGroup.theVtxVertexes 27
+	81 488 - 107 203 aStripGroup.theVtxIndexes 12858
+	107 204 - 117 451 aStripGroup.theVtxIndexes 5124
+	117 452 - 119 515 aStripGroup.theVtxIndexes 1032
+	119 516 - 120 019 aStripGroup.theVtxIndexes 252
+	120 020 - 120 235 aStripGroup.theVtxIndexes 108
+	120 236 - 122 575 aStripGroup.theVtxIndexes 1170
+	122 576 - 122 995 aStripGroup.theVtxIndexes 210
+	122 996 - 123 211 aStripGroup.theVtxIndexes 108
+	123 212 - 125 515 aStripGroup.theVtxIndexes 1152
+	125 516 - 125 809 aStripGroup.theVtxIndexes 147
+	125 810 - 125 881 aStripGroup.theVtxIndexes 36
+	125 882 - 126 025 aStripGroup.theVtxIndexes 72
+	126 026 - 126 121 aStripGroup.theVtxIndexes 48
+	126 122 - 126 871 aStripGroup.theVtxIndexes 375
+	126 872 - 126 967 aStripGroup.theVtxIndexes 48
+	126 968 - 127 279 aStripGroup.theVtxIndexes 156
+	127 280 - 131 239 aStripGroup.theVtxIndexes 1980
+	131 240 - 132 913 aStripGroup.theVtxIndexes 837
+	132 914 - 133 939 aStripGroup.theVtxIndexes 513
+	133 940 - 134 713 aStripGroup.theVtxIndexes 387
+	134 714 - 136 135 aStripGroup.theVtxIndexes 711
+	136 136 - 136 363 aStripGroup.theVtxIndexes 114
+	136 364 - 136 427 aStrip.theVtxBoneStateChanges 16
+	136 428 - 136 491 aStrip.theVtxBoneStateChanges 16
+	136 492 - 136 555 aStrip.theVtxBoneStateChanges 16
+	136 556 - 136 619 aStrip.theVtxBoneStateChanges 16
+	136 620 - 136 647 aStrip.theVtxBoneStateChanges 7
+	136 648 - 136 651 aStrip.theVtxBoneStateChanges 1
+	136 652 - 136 671 aStrip.theVtxBoneStateChanges 5
+	136 672 - 136 675 aStrip.theVtxBoneStateChanges 1
+	136 676 - 136 687 aStrip.theVtxBoneStateChanges 3
+	136 688 - 136 691 aStrip.theVtxBoneStateChanges 1
+	136 692 - 136 695 aStrip.theVtxBoneStateChanges 1
+	136 696 - 136 739 aStrip.theVtxBoneStateChanges 11
+	136 740 - 136 779 aStrip.theVtxBoneStateChanges 10
+	136 780 - 136 799 aStrip.theVtxBoneStateChanges 5
+	136 800 - 136 815 aStrip.theVtxBoneStateChanges 4
+	136 816 - 136 855 aStrip.theVtxBoneStateChanges 10
+	136 856 - 136 895 aStrip.theVtxBoneStateChanges 10
+	136 896 - 136 911 aStrip.theVtxBoneStateChanges 4
+	136 912 - 136 923 aStrip.theVtxBoneStateChanges 3
+	136 924 - 136 927 aStrip.theVtxBoneStateChanges 1
+	136 928 - 136 931 aStrip.theVtxBoneStateChanges 1
+	136 932 - 136 935 aStrip.theVtxBoneStateChanges 1
+	136 936 - 136 939 aStrip.theVtxBoneStateChanges 1
+	136 940 - 136 943 aStrip.theVtxBoneStateChanges 1
+	136 944 - 136 951 [ERROR] Unread bytes (all zeroes) [ 00 00 00 00 00 00 00 00 ]
+	136 952 - 136 952 END OF FILE + 1 (File size)
+========================

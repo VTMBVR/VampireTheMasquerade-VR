@@ -47,6 +47,22 @@
 					},
 				]
 			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						name = "desk_executive_phys_box"
+						parent_bone = "static_prop"
+						surface_prop = "prop.wood_furniture"
+						collision_prop = "default"
+						origin = [ -1.954281, 0.276229, 17.64119 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 44.774353, 91.522728, 36.282379 ]
+					},
+				]
+			},
 		]
 		model_archetype = "static_prop_model"
 		primary_associated_entity = "hl_vr_environmental_interaction"

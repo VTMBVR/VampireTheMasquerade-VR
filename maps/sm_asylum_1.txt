@@ -462,6 +462,7 @@ wood/woodpanela
 [debug] BspFileReader: Loading static props
 [debug] BspFileReader: Static prop names: 45
 [debug] BspFileReader: Static props: 103
+//--------------------------NPC----------------------------------
 character/npc/common/Blood_Doll/bd_asylum/Blood_Dollasylum.mdl
 character/npc/common/Goth_kids/female/Goth_Female.mdl
 character/npc/common/dancer/female_1/female_dancer_1.mdl
@@ -476,6 +477,7 @@ character/npc/unique/Santa_Monica/Jeanette/Jeanette.mdl
 character/npc/unique/Santa_Monica/Knox/Knox.mdl
 character/npc/unique/Santa_Monica/Therese/Therese.mdl
 character/npc/unique/Santa_Monica/Tourette/Tourette.mdl
+//-------------------------------------------------------
 items/Newspaper/Ground/Newspaper.mdl
 scenery/furniture/BookEnd/BookEnd.mdl
 scenery/furniture/ChinaCabinet/ChinaCabinet.mdl

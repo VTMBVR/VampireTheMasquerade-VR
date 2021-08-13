@@ -396,6 +396,41 @@
 					},
 				]
 			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						name = "jeanette_physics"
+						parent_bone = "bip01_pelvis"
+						surface_prop = "player"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/character/npc/unique/santa_monica/jeanette/jeanette_physics.smd"
+						import_scale = 1.0
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "PhysicsShapeBox"
+						name = "skirt_test"
+						parent_bone = "bip01"
+						surface_prop = "base.cloth"
+						collision_prop = "default"
+						origin = [ -0.082846, 1.438382, -0.179535 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 24.275875, 27.573685, 6.36646 ]
+					},
+				]
+			},
 		]
 		model_archetype = "generic_actor_model"
 		primary_associated_entity = "generic_actor"
