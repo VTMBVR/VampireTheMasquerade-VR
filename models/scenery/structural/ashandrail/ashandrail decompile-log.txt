@@ -1,0 +1,33 @@
+// Created by Crowbar 0.71
+
+  Decompiling "ashandrail.mdl" ...
+    Model version 2531 detected.
+    Reading MDL file header ...
+    ... Reading MDL file header finished.
+    Checking for required files ...
+    ... All required files found.
+    Reading data ...
+      Reading MDL file ...
+      ... Reading MDL file finished.
+      Reading PHY file ...
+      ... Reading PHY file finished.
+      Reading VTX file ...
+      ... Reading VTX file finished.
+    ... Reading data finished.
+    Writing decompile-info files ...
+        ashandrail decompile-MDL.txt
+        ashandrail decompile-VTX.txt
+        ashandrail decompile-PHY.txt
+    ... Writing decompile-info files finished.
+    Writing data ...
+      QC file: 
+        ashandrail.qc
+      Reference mesh files: 
+        ashandrail.smd
+      LOD mesh files: 
+      Physics mesh file: 
+        ashandrail_physics.smd
+      Bone animation files: 
+        idle.smd
+    ... Writing data finished.
+  ... Decompiling "ashandrail.mdl" finished.

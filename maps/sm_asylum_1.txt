@@ -523,7 +523,8 @@ scenery/misc/shampoo/shampoo.mdl
 scenery/misc/soap/soap.mdl
 scenery/misc/toothbrush/toothbrush.mdl
 scenery/misc/trash/trash.mdl
-scenery/structural/ashandrail/ashandrail.mdl
+//-----------------------------------------
+scenery/structural/ashandrail/ashandrail.mdl		//-- imported
 scenery/structural/ceilinglight/ceilinglight.mdl
 scenery/structural/doorknoba/drknobantique.mdl
 scenery/structural/doorknoba/drknobantiquel.mdl
@@ -535,6 +536,9 @@ scenery/structural/theatlights/theatlights.mdl
 scenery/structural/vesuvius/bar.mdl
 scenery/structural/vesuvius/bartap.mdl
 scenery/theater/stage_light.mdl
+//----------------------------------------
+
+
 weapons/ThirtyEight/wield/w_f_thirtyeight.mdl
 
 **** Used Sounds ****
