@@ -15,7 +15,7 @@ Layer0
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "vpkcontent/materials/models/scenery/furniture/lightc/lightcbulb.tga"
+	TextureColor "materials/models/scenery/furniture/lampfloor02/lampfloor02.tga"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
@@ -42,7 +42,7 @@ Layer0
 	g_flSelfIllumScale "1.000"
 	g_vSelfIllumScrollSpeed "[0.000 0.000]"
 	g_vSelfIllumTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureSelfIllumMask "materials/default/default_selfillum.tga"
+	TextureSelfIllumMask "materials/models/scenery/furniture/lampfloor02/lampfloor02_ref.tga"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"
@@ -50,9 +50,4 @@ Layer0
 	g_vTexCoordOffset "[0.000 0.000]"
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
-
-	SystemAttributes
-	{
-		PhysicsSurfaceProperties "prop.glass"
-	}
 }
