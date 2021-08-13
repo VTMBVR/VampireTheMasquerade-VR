@@ -17,7 +17,7 @@
 // 	TODO -- maybe will switch it to playlooping as we thought?
 	"playevent"
 		{
-			"event" "Addon.MusicEvent_MainTheme"
+			"event" "VTMB.AmbientMusic_Moldy_Old_World"
 			"position" "0"
 		}
 

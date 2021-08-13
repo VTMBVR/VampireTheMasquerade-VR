@@ -39,6 +39,22 @@
 					},
 				]
 			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						name = "keyboard_phys_box"
+						parent_bone = "static_prop"
+						surface_prop = "prop.plastic_keyboard"
+						collision_prop = "default"
+						origin = [ -0.050897, 0.082312, 0.625042 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 16.928074, 6.180333, 2.250084 ]
+					},
+				]
+			},
 		]
 		model_archetype = "static_prop_model"
 		primary_associated_entity = "prop_static"
