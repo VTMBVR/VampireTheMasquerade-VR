@@ -1,0 +1,36 @@
+// Created by Crowbar 0.71
+====== File Size ======
+	7 108
+====== File Seek Log ======
+	0 - 423 MDL File Header; MDL File Header
+	424 - 583 aBone
+	584 - 595 aHitboxSet
+	596 - 667 anAnimationDesc
+	668 - 699 anAnimationDesc.theAnimations 1
+	700 - 1 463 aSequence [idle]
+	1 464 - 1 479 aSequenceGroup 
+	1 480 - 1 495 aBodyPart
+	1 496 - 1 719 aModel [Painting02_REF.smd]
+	1 720 - 1 779 aMesh
+	1 780 - 1 839 aMesh
+	1 840 - 1 887 [ERROR] Unread bytes (all zeroes) [ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ... ]
+	1 888 - 5 583 aModel.theVertexesType0 84
+	5 584 - 6 927 aModel.theTangents 84
+	6 928 - 6 947 aTexture
+	6 948 - 6 967 aTexture
+	6 968 - 6 971 aTexturePath (offset to text)
+	6 972 - 6 975 aSkin
+	6 976 - 6 976 [ERROR] Unread bytes (all zeroes) [ 00 ]
+	6 977 - 6 981 aBone.theSurfacePropName = wood; theSurfacePropName = wood
+	6 982 - 6 993 aBone.theName = static_prop
+	6 994 - 7 001 aHitboxSet.theName = default
+	7 002 - 7 007 anAnimationDesc.theName = idle
+	7 008 - 7 012 aSequence.theName = idle
+	7 013 - 7 021 aSequence.theActivityName = ACT_IDLE
+	7 022 - 7 026 aBodyPart.theName = Body
+	7 027 - 7 035 aTexture.theFileName = Frame_01
+	7 036 - 7 047 aTexture.theFileName = Painting_02
+	7 048 - 7 104 aTexturePath (text) = models\scenery\furniture\Paintings\JeanetteThereseRoom\\
+	7 105 - 7 107 [ERROR] Unread bytes (all zeroes) [ 00 00 00 ]
+	7 108 - 7 108 END OF FILE + 1 (File size)
+========================

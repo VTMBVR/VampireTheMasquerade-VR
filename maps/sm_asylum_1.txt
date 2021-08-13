@@ -489,10 +489,12 @@ scenery/furniture/HeartBed/HeartBed.mdl
 scenery/furniture/LampFloor02/LampFloor02.mdl
 scenery/furniture/Mask/Mask.mdl
 scenery/furniture/MirrorMetal/MirrorMetal.mdl
-scenery/furniture/Paintings/JeanetteThereseRoom/Painting02.mdl
-scenery/furniture/Paintings/JeanetteThereseRoom/Painting03.mdl
-scenery/furniture/Paintings/JeanetteThereseRoom/Painting04.mdl
-scenery/furniture/Paintings/JeanetteThereseRoom/Painting05.mdl
+//------
+scenery/furniture/Paintings/JeanetteThereseRoom/Painting02.mdl // imported  TODO: maybe change archetype to physics cause player can interact with it as with painting?
+scenery/furniture/Paintings/JeanetteThereseRoom/Painting03.mdl // imported
+scenery/furniture/Paintings/JeanetteThereseRoom/Painting04.mdl // imported
+scenery/furniture/Paintings/JeanetteThereseRoom/Painting05.mdl // imported -- NOTE -- THIS IS A PORTRAIT
+//-------------
 scenery/furniture/Papasan/Papasan.mdl
 scenery/furniture/Vanity/Vanity.mdl
 scenery/furniture/ascandle/ascandle.mdl
@@ -523,7 +525,8 @@ scenery/misc/shampoo/shampoo.mdl
 scenery/misc/soap/soap.mdl
 scenery/misc/toothbrush/toothbrush.mdl
 scenery/misc/trash/trash.mdl
-scenery/structural/ashandrail/ashandrail.mdl
+//-----------------------------------------
+scenery/structural/ashandrail/ashandrail.mdl		//-- imported
 scenery/structural/ceilinglight/ceilinglight.mdl
 scenery/structural/doorknoba/drknobantique.mdl
 scenery/structural/doorknoba/drknobantiquel.mdl
@@ -535,6 +538,9 @@ scenery/structural/theatlights/theatlights.mdl
 scenery/structural/vesuvius/bar.mdl
 scenery/structural/vesuvius/bartap.mdl
 scenery/theater/stage_light.mdl
+//----------------------------------------
+
+
 weapons/ThirtyEight/wield/w_f_thirtyeight.mdl
 
 **** Used Sounds ****
