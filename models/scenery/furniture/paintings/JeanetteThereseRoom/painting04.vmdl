@@ -14,12 +14,12 @@
 						remaps = 
 						[
 							{
-								from = "frame_01.vmat"
-								to = "materials/models/scenery/furniture/paintings/jeanettethereseroom/frame_01.vmat"
+								from = "frames.vmat"
+								to = "models/windows/materials/window_industrial_frames_01.vmat"
 							},
 							{
-								from = "painting_01.vmat"
-								to = "materials/models/scenery/furniture/paintings/jeanettethereseroom/painting_01.vmat"
+								from = "painting_04.vmat"
+								to = "materials/models/scenery/furniture/paintings/jeanettethereseroom/painting_04.vmat"
 							},
 						]
 						use_global_default = false
@@ -33,7 +33,7 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models/scenery/furniture/paintings/jeanettethereseroom/Painting01_REF.smd"
+						filename = "models/scenery/furniture/paintings/jeanettethereseroom/Painting04_REF.smd"
 						import_scale = 1.0
 						import_filter = 
 						{

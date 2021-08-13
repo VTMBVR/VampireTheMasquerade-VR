@@ -490,10 +490,10 @@ scenery/furniture/LampFloor02/LampFloor02.mdl
 scenery/furniture/Mask/Mask.mdl
 scenery/furniture/MirrorMetal/MirrorMetal.mdl
 //------
-scenery/furniture/Paintings/JeanetteThereseRoom/Painting02.mdl
-scenery/furniture/Paintings/JeanetteThereseRoom/Painting03.mdl
-scenery/furniture/Paintings/JeanetteThereseRoom/Painting04.mdl
-scenery/furniture/Paintings/JeanetteThereseRoom/Painting05.mdl
+scenery/furniture/Paintings/JeanetteThereseRoom/Painting02.mdl // imported  TODO: maybe change archetype to physics cause player can interact with it as with painting?
+scenery/furniture/Paintings/JeanetteThereseRoom/Painting03.mdl // imported
+scenery/furniture/Paintings/JeanetteThereseRoom/Painting04.mdl // imported
+scenery/furniture/Paintings/JeanetteThereseRoom/Painting05.mdl // imported -- NOTE -- THIS IS A PORTRAIT
 //-------------
 scenery/furniture/Papasan/Papasan.mdl
 scenery/furniture/Vanity/Vanity.mdl
