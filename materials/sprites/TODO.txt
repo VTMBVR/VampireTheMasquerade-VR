@@ -1,2 +1,3 @@
 // TODO: Check sprites work for dev sprite shader
+// @todo: check sprites work for dev sprite shader
 // *tip* -- check what type of texture file should be used as texture color for Spriteentity dev shader
