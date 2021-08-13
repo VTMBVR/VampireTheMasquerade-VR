@@ -1,0 +1,9 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "spriteentity.vfx"
+
+	//---- Color ----
+	TextureColor "materials/sprites/volumelighta.tga"
+}

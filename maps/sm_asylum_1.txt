@@ -380,7 +380,6 @@ concrete/concrete5
 concrete/stkwlla
 concrete/wllb
 debug/debugempty
-//-------------------
 drapery/ascurtaina
 drapery/ascurtainb
 drapery/vinyla
@@ -422,9 +421,11 @@ plaster/wndwa
 plaster/wndwalit
 plaster/wndwb
 plaster/wndwblit
-sprites/candle.vmt
+//-----------------
+sprites/candle.vmt			// TODO: Check this material for proper work with dev spriteentity shader
 sprites/glowa.vmt
 sprites/streetlight3_proxyfade.vmt
+//-----------------------------------
 stone/asfloora
 stone/bar
 stone/doorb
@@ -455,6 +456,7 @@ wood/trima
 wood/woodbeamsa
 wood/woode
 wood/woodpanela
+//----------------------
 
 **** Used Studio Models ****
 [debug] BspFileReader: Loading static props
