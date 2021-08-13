@@ -425,9 +425,9 @@
 						parent_bone = "bip01"
 						surface_prop = "base.cloth"
 						collision_prop = "default"
-						origin = [ -0.082846, 2.503013, -0.179535 ]
+						origin = [ -0.082846, 1.438382, -0.179535 ]
 						angles = [ 0.0, 0.0, 0.0 ]
-						dimensions = [ 24.275875, 25.444424, 6.36646 ]
+						dimensions = [ 24.275875, 27.573685, 6.36646 ]
 					},
 				]
 			},

@@ -39,6 +39,22 @@
 					},
 				]
 			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						name = "computer_monitor_physics_box"
+						parent_bone = "static_prop"
+						surface_prop = "prop.glass_tv_tube_02"
+						collision_prop = "default"
+						origin = [ -1.767069, 0.022185, 11.825464 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 24.638161, 23.644619, 24.650928 ]
+					},
+				]
+			},
 		]
 		model_archetype = "animated_model"
 		primary_associated_entity = "npc_furniture"

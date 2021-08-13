@@ -30,12 +30,12 @@
 					{
 						_class = "PhysicsMeshFile"
 						name = "gehtoblaster1_physics"
-						parent_bone = ""
+						parent_bone = "static_prop"
 						surface_prop = "prop.plastic"
 						collision_prop = "default"
 						recenter_on_parent_bone = false
 						offset_origin = [ 0.0, 0.0, 0.0 ]
-						offset_angles = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 90.0, 0.0 ]
 						filename = "models/scenery/misc/gehtoblaster1/gehtoblaster1_physics.smd"
 						import_scale = 1.0
 						maxMeshVertices = 0
@@ -45,6 +45,16 @@
 							exclude_by_default = false
 							exception_list = [  ]
 						}
+					},
+					{
+						_class = "PhysicsShapeBox"
+						name = "ghetoblaster1_box"
+						parent_bone = "static_prop"
+						surface_prop = "prop.plastic_radio"
+						collision_prop = "default"
+						origin = [ -0.672137, -0.053023, 6.543612 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 11.618532, 35.368965, 14.087223 ]
 					},
 				]
 			},

@@ -66,6 +66,22 @@
 					},
 				]
 			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						name = "shampoo_phys_box"
+						parent_bone = "static_prop"
+						surface_prop = "prop.plastic_bottle_small"
+						collision_prop = "default"
+						origin = [ 0.283378, 0.025411, 4.741365 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 4.986624, 4.977694, 10.482731 ]
+					},
+				]
+			},
 		]
 		model_archetype = "physics_prop_model"
 		primary_associated_entity = "prop_physics"
