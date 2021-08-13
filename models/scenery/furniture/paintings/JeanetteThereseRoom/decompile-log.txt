@@ -1,0 +1,161 @@
+// Created by Crowbar 0.71
+
+  Decompiling "painting01.mdl" ...
+    Model version 2531 detected.
+    Reading MDL file header ...
+    ... Reading MDL file header finished.
+    Checking for required files ...
+    ... All required files found.
+    Reading data ...
+      Reading MDL file ...
+      ... Reading MDL file finished.
+      Reading PHY file ...
+      ... Reading PHY file finished.
+      Reading VTX file ...
+      ... Reading VTX file finished.
+    ... Reading data finished.
+    Writing decompile-info files ...
+        painting01 decompile-MDL.txt
+        painting01 decompile-VTX.txt
+        painting01 decompile-PHY.txt
+    ... Writing decompile-info files finished.
+    Writing data ...
+      QC file: 
+        painting01.qc
+      Reference mesh files: 
+        Painting01_REF.smd
+      LOD mesh files: 
+      Physics mesh file: 
+        painting01_physics.smd
+      Bone animation files: 
+        idle.smd
+    ... Writing data finished.
+  ... Decompiling "painting01.mdl" finished.
+
+  Decompiling "painting02.mdl" ...
+    Model version 2531 detected.
+    Reading MDL file header ...
+    ... Reading MDL file header finished.
+    Checking for required files ...
+    ... All required files found.
+    Reading data ...
+      Reading MDL file ...
+      ... Reading MDL file finished.
+      Reading PHY file ...
+      ... Reading PHY file finished.
+      Reading VTX file ...
+      ... Reading VTX file finished.
+    ... Reading data finished.
+    Writing decompile-info files ...
+        painting02 decompile-MDL.txt
+        painting02 decompile-VTX.txt
+        painting02 decompile-PHY.txt
+    ... Writing decompile-info files finished.
+    Writing data ...
+      QC file: 
+        painting02.qc
+      Reference mesh files: 
+        Painting02_REF.smd
+      LOD mesh files: 
+      Physics mesh file: 
+        painting02_physics.smd
+      Bone animation files: 
+        idle.smd
+    ... Writing data finished.
+  ... Decompiling "painting02.mdl" finished.
+
+  Decompiling "painting03.mdl" ...
+    Model version 2531 detected.
+    Reading MDL file header ...
+    ... Reading MDL file header finished.
+    Checking for required files ...
+    ... All required files found.
+    Reading data ...
+      Reading MDL file ...
+      ... Reading MDL file finished.
+      Reading PHY file ...
+      ... Reading PHY file finished.
+      Reading VTX file ...
+      ... Reading VTX file finished.
+    ... Reading data finished.
+    Writing decompile-info files ...
+        painting03 decompile-MDL.txt
+        painting03 decompile-VTX.txt
+        painting03 decompile-PHY.txt
+    ... Writing decompile-info files finished.
+    Writing data ...
+      QC file: 
+        painting03.qc
+      Reference mesh files: 
+        Painting03_REF.smd
+      LOD mesh files: 
+      Physics mesh file: 
+        painting03_physics.smd
+      Bone animation files: 
+        idle.smd
+    ... Writing data finished.
+  ... Decompiling "painting03.mdl" finished.
+
+  Decompiling "painting04.mdl" ...
+    Model version 2531 detected.
+    Reading MDL file header ...
+    ... Reading MDL file header finished.
+    Checking for required files ...
+    ... All required files found.
+    Reading data ...
+      Reading MDL file ...
+      ... Reading MDL file finished.
+      Reading PHY file ...
+      ... Reading PHY file finished.
+      Reading VTX file ...
+      ... Reading VTX file finished.
+    ... Reading data finished.
+    Writing decompile-info files ...
+        painting04 decompile-MDL.txt
+        painting04 decompile-VTX.txt
+        painting04 decompile-PHY.txt
+    ... Writing decompile-info files finished.
+    Writing data ...
+      QC file: 
+        painting04.qc
+      Reference mesh files: 
+        Painting04_REF.smd
+      LOD mesh files: 
+      Physics mesh file: 
+        painting04_physics.smd
+      Bone animation files: 
+        idle.smd
+    ... Writing data finished.
+  ... Decompiling "painting04.mdl" finished.
+
+  Decompiling "painting05.mdl" ...
+    Model version 2531 detected.
+    Reading MDL file header ...
+    ... Reading MDL file header finished.
+    Checking for required files ...
+    ... All required files found.
+    Reading data ...
+      Reading MDL file ...
+      ... Reading MDL file finished.
+      Reading PHY file ...
+      ... Reading PHY file finished.
+      Reading VTX file ...
+      ... Reading VTX file finished.
+    ... Reading data finished.
+    Writing decompile-info files ...
+        painting05 decompile-MDL.txt
+        painting05 decompile-VTX.txt
+        painting05 decompile-PHY.txt
+    ... Writing decompile-info files finished.
+    Writing data ...
+      QC file: 
+        painting05.qc
+      Reference mesh files: 
+        Painting05_REF.smd
+      LOD mesh files: 
+      Physics mesh file: 
+        painting05_physics.smd
+      Bone animation files: 
+        idle.smd
+    ... Writing data finished.
+  ... Decompiling "painting05.mdl" finished.

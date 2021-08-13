@@ -489,10 +489,12 @@ scenery/furniture/HeartBed/HeartBed.mdl
 scenery/furniture/LampFloor02/LampFloor02.mdl
 scenery/furniture/Mask/Mask.mdl
 scenery/furniture/MirrorMetal/MirrorMetal.mdl
+//------
 scenery/furniture/Paintings/JeanetteThereseRoom/Painting02.mdl
 scenery/furniture/Paintings/JeanetteThereseRoom/Painting03.mdl
 scenery/furniture/Paintings/JeanetteThereseRoom/Painting04.mdl
 scenery/furniture/Paintings/JeanetteThereseRoom/Painting05.mdl
+//-------------
 scenery/furniture/Papasan/Papasan.mdl
 scenery/furniture/Vanity/Vanity.mdl
 scenery/furniture/ascandle/ascandle.mdl
