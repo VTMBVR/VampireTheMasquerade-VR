@@ -2,12 +2,14 @@
 
 Layer0
 {
-	shader "vr_glass.vfx"
+	shader "vr_complex.vfx"
 
 	//---- Translucent ----
 	F_TRANSLUCENT 1
 
 	//---- Ambient Occlusion ----
+	g_flAmbientOcclusionDirectDiffuse "0.000"
+	g_flAmbientOcclusionDirectSpecular "0.000"
 	TextureAmbientOcclusion "materials/default/default_ao.tga"
 
 	//---- Color ----
@@ -15,26 +17,11 @@ Layer0
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
 	TextureColor "materials/glass/pawnwndwglass.tga"
 
-	//---- Emissive ----
-	g_flEmissiveEdgeColorFalloff "3.000"
-	g_flEmissiveEdgeColorThickness "0.100"
-	g_flEmissiveStrength "0.500"
-	g_vEmissiveColor "[0.000000 0.000000 0.000000 0.000000]"
-	g_vEmissiveEdgeColor "[0.000000 0.000000 0.000000 0.000000]"
-
 	//---- Fade ----
 	g_flFadeExponent "1.000"
 
 	//---- Fog ----
-	g_bAvoidDoubleFogging "1"
-	g_flGlassFogExtinctionAmount "0.000"
-
-	//---- Glass Color ----
-	g_flEdgeColorFalloff "3.000"
-	g_flEdgeColorMaxOpacity "0.500"
-	g_flEdgeColorThickness "0.100"
-	g_vEdgeColor "[0.000000 0.000000 0.000000 0.000000]"
-	GlassTintColor "materials/default/default_color.tga"
+	g_bFogEnabled "1"
 
 	//---- Lighting ----
 	g_flDirectionalLightmapMinZ "0.050"
@@ -58,7 +45,7 @@ Layer0
 
 	//---- Translucent ----
 	g_flOpacityScale "0.243"
-	TextureTranslucency "materials/default/default_trans.tga"
+	TextureTranslucency "materials/glass/pawnwndwglass_ref.tga"
 
 	SystemAttributes
 	{
