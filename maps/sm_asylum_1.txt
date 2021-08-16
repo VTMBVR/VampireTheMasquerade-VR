@@ -514,7 +514,7 @@ scenery/misc/Cash_Register/Cash_Registerdrawr.mdl
 scenery/misc/bottles/bottleb.mdl
 scenery/misc/bottles/bottlec.mdl
 scenery/misc/bottles/glassa.mdl
-scenery/misc/drums/drum1.mdl
+scenery/misc/drums/drum1.mdl	// imported
 scenery/misc/laptop/laptop2.mdl
 scenery/misc/shampoo/shampoo.mdl
 scenery/misc/soap/soap.mdl
