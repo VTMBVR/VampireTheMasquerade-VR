@@ -482,7 +482,7 @@ scenery/furniture/Divider/Divider.mdl
 scenery/furniture/Fancystandinglamp/fancystandinglamp.mdl //-- imported
 scenery/furniture/HeartBed/HeartBed.mdl
 scenery/furniture/LampFloor02/LampFloor02.mdl	// -- imported	
-scenery/furniture/Mask/Mask.mdl
+scenery/furniture/Mask/Mask.mdl			// -- imported
 scenery/furniture/MirrorMetal/MirrorMetal.mdl
 //------
 scenery/furniture/Paintings/JeanetteThereseRoom/Painting02.mdl // imported  TODO: maybe change archetype to physics cause player can interact with it as with painting?
