@@ -529,10 +529,10 @@ scenery/structural/elevator_dial/elevbutton_1.mdl
 scenery/structural/elevator_dial/elevbutton_2.mdl
 scenery/structural/elevator_dial/elevbutton_dn.mdl
 scenery/structural/elevator_dial/elevbutton_up.mdl
-scenery/structural/theatlights/theatlights.mdl
+scenery/structural/theatlights/theatlights.mdl		// imported
 scenery/structural/vesuvius/bar.mdl
 scenery/structural/vesuvius/bartap.mdl
-scenery/theater/stage_light.mdl
+scenery/theater/stage_light.mdl			// imported
 //----------------------------------------
 
 
