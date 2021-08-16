@@ -1,0 +1,34 @@
+// Created by Crowbar 0.71
+====== File Size ======
+	9 292
+====== File Seek Log ======
+	0 - 423 MDL File Header; MDL File Header
+	424 - 583 aBone
+	584 - 595 aHitboxSet
+	596 - 627 aHitbox
+	628 - 699 anAnimationDesc
+	700 - 731 anAnimationDesc.theAnimations 1
+	732 - 1 495 aSequence [idle]
+	1 496 - 1 511 aSequenceGroup 
+	1 512 - 1 527 aBodyPart
+	1 528 - 1 751 aModel [MirrorMetal_REF.smd]
+	1 752 - 1 811 aMesh
+	1 812 - 1 823 [ERROR] Unread bytes (all zeroes) [ 00 00 00 00 00 00 00 00 00 00 00 00 ]
+	1 824 - 4 967 aModel.theVertexesType1 262
+	4 968 - 9 159 aModel.theTangents 262
+	9 160 - 9 179 aTexture
+	9 180 - 9 183 aTexturePath (offset to text)
+	9 184 - 9 185 aSkin
+	9 186 - 9 188 [ERROR] Unread bytes (all zeroes) [ 00 00 00 ]
+	9 189 - 9 194 aBone.theSurfacePropName = metal; theSurfacePropName = metal
+	9 195 - 9 206 aBone.theName = static_prop
+	9 207 - 9 214 aHitboxSet.theName = default
+	9 215 - 9 220 anAnimationDesc.theName = idle
+	9 221 - 9 225 aSequence.theName = idle
+	9 226 - 9 234 aSequence.theActivityName = ACT_IDLE
+	9 235 - 9 239 aBodyPart.theName = Body
+	9 240 - 9 251 aTexture.theFileName = MirrorMetal
+	9 252 - 9 289 aTexturePath (text) = models\scenery\furniture\MirrorMetal\
+	9 290 - 9 291 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	9 292 - 9 292 END OF FILE + 1 (File size)
+========================

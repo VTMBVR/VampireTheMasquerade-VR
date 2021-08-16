@@ -1,0 +1,35 @@
+// Created by Crowbar 0.71
+====== File Size ======
+	11 400
+====== File Seek Log ======
+	0 - 423 MDL File Header; MDL File Header
+	424 - 583 aBone
+	584 - 595 aHitboxSet
+	596 - 627 aHitbox
+	628 - 699 anAnimationDesc
+	700 - 731 anAnimationDesc.theAnimations 1
+	732 - 1 495 aSequence [idle]
+	1 496 - 1 511 aSequenceGroup 
+	1 512 - 1 527 aBodyPart
+	1 528 - 1 751 aModel [stage_light.smd]
+	1 752 - 1 811 aMesh
+	1 812 - 1 823 [ERROR] Unread bytes (all zeroes) [ 00 00 00 00 00 00 00 00 00 00 00 00 ]
+	1 824 - 5 867 aModel.theVertexesType1 337
+	5 868 - 11 259 aModel.theTangents 337
+	11 260 - 11 279 aTexture
+	11 280 - 11 299 aTexture
+	11 300 - 11 303 aTexturePath (offset to text)
+	11 304 - 11 305 aSkin
+	11 306 - 11 307 aSkin
+	11 308 - 11 308 aBone.theSurfacePropName = ; theSurfacePropName = 
+	11 309 - 11 320 aBone.theName = static_prop
+	11 321 - 11 328 aHitboxSet.theName = default
+	11 329 - 11 334 anAnimationDesc.theName = idle
+	11 335 - 11 339 aSequence.theName = idle
+	11 340 - 11 344 aBodyPart.theName = Body
+	11 345 - 11 356 aTexture.theFileName = stage_light
+	11 357 - 11 372 aTexture.theFileName = stage_light_off
+	11 373 - 11 397 aTexturePath (text) = models\scenery\theater\\
+	11 398 - 11 399 [ERROR] Unread bytes (all zeroes) [ 00 00 ]
+	11 400 - 11 400 END OF FILE + 1 (File size)
+========================

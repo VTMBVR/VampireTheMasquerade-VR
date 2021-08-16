@@ -482,7 +482,7 @@ scenery/furniture/Divider/Divider.mdl
 scenery/furniture/Fancystandinglamp/fancystandinglamp.mdl //-- imported
 scenery/furniture/HeartBed/HeartBed.mdl
 scenery/furniture/LampFloor02/LampFloor02.mdl	// -- imported	
-scenery/furniture/Mask/Mask.mdl
+scenery/furniture/Mask/Mask.mdl			// -- imported
 scenery/furniture/MirrorMetal/MirrorMetal.mdl
 //------
 scenery/furniture/Paintings/JeanetteThereseRoom/Painting02.mdl // imported  TODO: maybe change archetype to physics cause player can interact with it as with painting?
@@ -500,12 +500,12 @@ scenery/furniture/bartable/bartable.mdl
 scenery/furniture/bath/bath.mdl
 scenery/furniture/chair_executive/chair_executive.mdl
 scenery/furniture/chair_newage/chair.mdl
-scenery/furniture/computer/computer_case.mdl
-scenery/furniture/computer/keyboard.mdl
+scenery/furniture/computer/computer_case.mdl	// imported
+scenery/furniture/computer/keyboard.mdl		// imported
 scenery/furniture/computer/monitor_useable.mdl
-scenery/furniture/computer/mouse.mdl
+scenery/furniture/computer/mouse.mdl		// imported
 scenery/furniture/desk_executive/desk_executive.mdl  // imported
-scenery/furniture/guitar_mockingbird/guitar_mockingbird.mdl
+scenery/furniture/guitar_mockingbird/guitar_mockingbird.mdl // imported
 scenery/furniture/microphone/microphone.mdl
 scenery/furniture/sink2/sink2w.mdl
 scenery/furniture/toilet2/toilet_hightank2.mdl
@@ -514,7 +514,7 @@ scenery/misc/Cash_Register/Cash_Registerdrawr.mdl
 scenery/misc/bottles/bottleb.mdl
 scenery/misc/bottles/bottlec.mdl
 scenery/misc/bottles/glassa.mdl
-scenery/misc/drums/drum1.mdl
+scenery/misc/drums/drum1.mdl	// imported
 scenery/misc/laptop/laptop2.mdl
 scenery/misc/shampoo/shampoo.mdl
 scenery/misc/soap/soap.mdl
@@ -529,10 +529,10 @@ scenery/structural/elevator_dial/elevbutton_1.mdl
 scenery/structural/elevator_dial/elevbutton_2.mdl
 scenery/structural/elevator_dial/elevbutton_dn.mdl
 scenery/structural/elevator_dial/elevbutton_up.mdl
-scenery/structural/theatlights/theatlights.mdl
+scenery/structural/theatlights/theatlights.mdl		// imported
 scenery/structural/vesuvius/bar.mdl
 scenery/structural/vesuvius/bartap.mdl
-scenery/theater/stage_light.mdl
+scenery/theater/stage_light.mdl			// imported
 //----------------------------------------
 
 
