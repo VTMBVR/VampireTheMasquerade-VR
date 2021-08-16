@@ -1,0 +1,42 @@
+// Created by Crowbar 0.71
+====== File Size ======
+	33 232
+====== File Seek Log ======
+	0 - 423 MDL File Header; MDL File Header
+	424 - 583 aBone
+	584 - 595 aHitboxSet
+	596 - 627 aHitbox
+	628 - 699 anAnimationDesc
+	700 - 731 anAnimationDesc.theAnimations 1
+	732 - 1 495 aSequence [only_sequence]
+	1 496 - 1 511 aSequenceGroup 
+	1 512 - 1 527 aBodyPart
+	1 528 - 1 751 aModel [guitar_moc_r.smd]
+	1 752 - 1 811 aMesh
+	1 812 - 1 871 aMesh
+	1 872 - 1 931 aMesh
+	1 932 - 1 991 aMesh
+	1 992 - 2 015 [ERROR] Unread bytes (all zeroes) [ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ... ]
+	2 016 - 24 719 aModel.theVertexesType0 516
+	24 720 - 32 975 aModel.theTangents 516
+	32 976 - 32 995 aTexture
+	32 996 - 33 015 aTexture
+	33 016 - 33 035 aTexture
+	33 036 - 33 055 aTexture
+	33 056 - 33 059 aTexturePath (offset to text)
+	33 060 - 33 067 aSkin
+	33 068 - 33 068 aBone.theSurfacePropName = ; theSurfacePropName = 
+	33 069 - 33 080 aBone.theName = static_prop
+	33 081 - 33 088 aHitboxSet.theName = default
+	33 089 - 33 103 anAnimationDesc.theName = only_sequence
+	33 104 - 33 117 aSequence.theName = only_sequence
+	33 118 - 33 126 aSequence.theActivityName = ACT_IDLE
+	33 127 - 33 131 aBodyPart.theName = Body
+	33 132 - 33 145 aTexture.theFileName = black_leather
+	33 146 - 33 152 aTexture.theFileName = chrome
+	33 153 - 33 168 aTexture.theFileName = guitar_moc_back
+	33 169 - 33 185 aTexture.theFileName = guitar_moc_front
+	33 186 - 33 230 aTexturePath (text) = models\scenery\furniture\guitar_mockingbird\
+	33 231 - 33 231 [ERROR] Unread bytes (all zeroes) [ 00 ]
+	33 232 - 33 232 END OF FILE + 1 (File size)
+========================
