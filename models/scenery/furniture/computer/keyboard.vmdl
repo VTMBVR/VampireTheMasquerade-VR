@@ -44,14 +44,25 @@
 				children = 
 				[
 					{
-						_class = "PhysicsShapeBox"
-						name = "keyboard_phys_box"
-						parent_bone = "static_prop"
+						_class = "PhysicsHullFile"
+						name = "keyboard_physics"
+						parent_bone = ""
 						surface_prop = "prop.plastic_keyboard"
 						collision_prop = "default"
-						origin = [ -0.050897, 0.082312, 0.625042 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-						dimensions = [ 16.928074, 6.180333, 2.250084 ]
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 90.0, 0.0 ]
+						filename = "models/scenery/furniture/computer/keyboard_physics.smd"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
 					},
 				]
 			},
