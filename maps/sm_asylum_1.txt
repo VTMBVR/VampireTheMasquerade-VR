@@ -505,7 +505,7 @@ scenery/furniture/computer/keyboard.mdl
 scenery/furniture/computer/monitor_useable.mdl
 scenery/furniture/computer/mouse.mdl
 scenery/furniture/desk_executive/desk_executive.mdl  // imported
-scenery/furniture/guitar_mockingbird/guitar_mockingbird.mdl
+scenery/furniture/guitar_mockingbird/guitar_mockingbird.mdl // imported
 scenery/furniture/microphone/microphone.mdl
 scenery/furniture/sink2/sink2w.mdl
 scenery/furniture/toilet2/toilet_hightank2.mdl
