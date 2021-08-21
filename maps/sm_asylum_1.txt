@@ -522,7 +522,7 @@ scenery/misc/toothbrush/toothbrush.mdl
 scenery/misc/trash/trash.mdl
 //-----------------------------------------
 scenery/structural/ashandrail/ashandrail.mdl		//-- imported
-scenery/structural/ceilinglight/ceilinglight.mdl
+scenery/structural/ceilinglight/ceilinglight.mdl	// imported
 scenery/structural/doorknoba/drknobantique.mdl
 scenery/structural/doorknoba/drknobantiquel.mdl
 scenery/structural/elevator_dial/elevbutton_1.mdl
