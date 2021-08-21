@@ -496,7 +496,7 @@ scenery/furniture/ascandle/ascandle.mdl		// imported
 scenery/furniture/ascandleb/ascandleb.mdl
 scenery/furniture/asstatue/asstatue.mdl		// imported
 scenery/furniture/barstool/barstool.mdl  // imported
-scenery/furniture/bartable/bartable.mdl
+scenery/furniture/bartable/bartable.mdl	 // imported
 scenery/furniture/bath/bath.mdl
 scenery/furniture/chair_executive/chair_executive.mdl
 scenery/furniture/chair_newage/chair.mdl
@@ -506,7 +506,7 @@ scenery/furniture/computer/monitor_useable.mdl
 scenery/furniture/computer/mouse.mdl		// imported
 scenery/furniture/desk_executive/desk_executive.mdl  // imported
 scenery/furniture/guitar_mockingbird/guitar_mockingbird.mdl // imported
-scenery/furniture/microphone/microphone.mdl
+scenery/furniture/microphone/microphone.mdl		    // imported
 scenery/furniture/sink2/sink2w.mdl
 scenery/furniture/toilet2/toilet_hightank2.mdl
 scenery/misc/Cash_Register/Cash_Register.mdl
