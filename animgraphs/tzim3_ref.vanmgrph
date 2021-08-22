@@ -121,7 +121,7 @@
 			{
 				_class = "CSequenceAnimNode"
 				m_sName = "Walk1"
-				m_vecPosition = [ -838.0, -175.0 ]
+				m_vecPosition = [ -641.0, 106.0 ]
 				m_nNodeID = 
 				{
 					m_id = 465505743
@@ -229,7 +229,7 @@
 										_class = "CPathStatusCondition"
 										m_comparisonOp = 0
 										m_optionToCheck = "PathStatus_HasPath"
-										m_bComparisonValue = false
+										m_bComparisonValue = true
 									},
 								]
 								m_blendDuration = 0.2
