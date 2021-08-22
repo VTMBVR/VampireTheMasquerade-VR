@@ -74,6 +74,20 @@
 					{
 						_class = "AnimFile"
 						name = "tzim3_idle"
+						children = 
+						[
+							{
+								_class = "ExtractMotion"
+								extract_tx = false
+								extract_ty = false
+								extract_tz = false
+								extract_rz = true
+								linear = false
+								quadratic = false
+								root_bone_name = ""
+								motion_type = "Uniform"
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -307,6 +321,17 @@
 								root_bone_name = ""
 								motion_type = "Single"
 							},
+							{
+								_class = "ExtractMotion"
+								extract_tx = true
+								extract_ty = true
+								extract_tz = false
+								extract_rz = false
+								linear = false
+								quadratic = false
+								root_bone_name = ""
+								motion_type = "Uniform"
+							},
 						]
 						activity_name = ""
 						activity_weight = 1
@@ -372,7 +397,7 @@
 								extract_rz = false
 								linear = false
 								quadratic = false
-								root_bone_name = ""
+								root_bone_name = "bip01_head"
 								motion_type = "Single"
 							},
 						]
@@ -430,9 +455,58 @@
 				]
 				default_root_bone_name = ""
 			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "MovementSettings"
+						movementsettings = 
+						{
+							name = ""
+							speeds = [  ]
+							runspeed = 150.0
+							walkspeed = 75.0
+							maxSpringTension = 100.0
+							springConstant = 10.0
+							useSmoothPaths = true
+							useMotionDamping = false
+							sharpStartAngle = 180.0
+							m_vTraceScale = [ 1.0, 1.0, 1.0 ]
+						}
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "tzim3_physics"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/character/monster/tzimisce/creation3/tzim3_physics.smd"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
 		]
 		model_archetype = "generic_actor_model"
 		primary_associated_entity = "generic_actor"
-		anim_graph_name = ""
+		anim_graph_name = "animgraphs/tzim3_ref.vanmgrph"
 	}
 }
