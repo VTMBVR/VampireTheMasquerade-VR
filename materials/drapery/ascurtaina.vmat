@@ -4,6 +4,9 @@ Layer0
 {
 	shader "vr_complex.vfx"
 
+	//---- PBR ----
+	F_TRANSMISSIVE_BACKFACE_NDOTL 1
+
 	//---- Translucent ----
 	F_TRANSLUCENT 1
 
@@ -46,4 +49,7 @@ Layer0
 	//---- Translucent ----
 	g_flOpacityScale "1.000"
 	TextureTranslucency "materials/default/default_trans.tga"
+
+	//---- Transmission ----
+	TextureTransmissiveColor "materials/default/default_color.tga"
 }
