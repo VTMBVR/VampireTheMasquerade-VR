@@ -39,6 +39,29 @@
 					},
 				]
 			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								name = "static_prop"
+								parent_bone = "static_prop"
+								hitbox_mins = [ -0.5, -0.5, -0.5 ]
+								hitbox_maxs = [ 31.318996, 31.802197, 36.774399 ]
+								surface_property = "prop.wood_furniture"
+								translation_only = false
+								group_id = 0
+							},
+						]
+					},
+				]
+			},
 		]
 		model_archetype = "static_prop_model"
 		primary_associated_entity = "prop_static"

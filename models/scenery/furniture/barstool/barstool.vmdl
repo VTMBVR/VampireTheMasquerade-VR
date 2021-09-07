@@ -36,33 +36,25 @@
 				children = 
 				[
 					{
-						_class = "PhysicsMeshFile"
+						_class = "PhysicsHullFile"
 						name = "barstoolb_physics"
-						parent_bone = "static_prop"
-						surface_prop = "prop.wood_furniture"
+						parent_bone = ""
+						surface_prop = "default"
 						collision_prop = "default"
 						recenter_on_parent_bone = false
 						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
 						filename = "models/scenery/furniture/barstool/barstoolb_physics.smd"
 						import_scale = 1.0
-						maxMeshVertices = 0
-						qemError = 0.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
 						import_filter = 
 						{
 							exclude_by_default = false
 							exception_list = [  ]
 						}
-					},
-					{
-						_class = "PhysicsShapeBox"
-						name = "barstoolb_box"
-						parent_bone = "static_prop"
-						surface_prop = "prop.wood_furniture"
-						collision_prop = "default"
-						origin = [ -0.32322, 0.003076, -0.185679 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-						dimensions = [ 16.861374, 16.675522, 33.412704 ]
 					},
 				]
 			},
