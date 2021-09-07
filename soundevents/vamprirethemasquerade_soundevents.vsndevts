@@ -160,6 +160,23 @@
 			"sounds/enviromental/city/candle sticks break.vsnd",
 		]
 	}
+
+
+		"VTMB.Music.isolated" =
+	{
+
+		type = "hlvr_default_3d"
+		volume = 0.9
+		use_hrtf = 1.000000
+		vsnd_files = 
+		[
+			"sounds/music/licenced/05. chiasm - isolated.vsnd",
+		]
+
+
+	}
+
+
 }
 
 
