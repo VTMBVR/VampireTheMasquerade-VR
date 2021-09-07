@@ -2,14 +2,12 @@
 
 Layer0
 {
-	shader "vr_complex.vfx"
+	shader "vr_hair.vfx"
 
 	//---- Translucent ----
 	F_TRANSLUCENT 1
 
 	//---- Ambient Occlusion ----
-	g_flAmbientOcclusionDirectDiffuse "0.000"
-	g_flAmbientOcclusionDirectSpecular "0.000"
 	TextureAmbientOcclusion "materials/default/default_ao.tga"
 
 	//---- Color ----
@@ -19,9 +17,6 @@ Layer0
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
-
-	//---- Fog ----
-	g_bFogEnabled "1"
 
 	//---- Lighting ----
 	g_flDirectionalLightmapMinZ "0.050"
