@@ -9,7 +9,33 @@
 	m_pTagManager = 
 	{
 		_class = "CAnimTagManager"
-		m_tags = [  ]
+		m_tags = 
+		[
+			{
+				_class = "CFootstepLandedAnimTag"
+				m_name = "Left Foot Landed"
+				m_tagID = 
+				{
+					m_id = 1017626153
+				}
+				m_FootstepType = "FOOTSOUND_Left"
+				m_OverrideSoundName = ""
+				m_DebugAnimSourceString = ""
+				m_BoneName = "bip01_l_ankle"
+			},
+			{
+				_class = "CFootstepLandedAnimTag"
+				m_name = "Right Foot Landed"
+				m_tagID = 
+				{
+					m_id = 2027789230
+				}
+				m_FootstepType = "FOOTSOUND_Right"
+				m_OverrideSoundName = ""
+				m_DebugAnimSourceString = ""
+				m_BoneName = "bip01_r_ankle"
+			},
+		]
 	}
 	m_pMovementManager = 
 	{
@@ -100,7 +126,7 @@
 			{
 				_class = "CSequenceAnimNode"
 				m_sName = "walk1"
-				m_vecPosition = [ -357.0, -156.0 ]
+				m_vecPosition = [ -271.0, -312.0 ]
 				m_nNodeID = 
 				{
 					m_id = 142481039
@@ -121,7 +147,7 @@
 			{
 				_class = "CTurnHelperAnimNode"
 				m_sName = "Turn Helpers"
-				m_vecPosition = [ -1231.0, 296.0 ]
+				m_vecPosition = [ -1434.0, -179.0 ]
 				m_nNodeID = 
 				{
 					m_id = 286035428
@@ -148,7 +174,7 @@
 			{
 				_class = "CTurnHelperAnimNode"
 				m_sName = "Turn Helpers"
-				m_vecPosition = [ -1230.0, 395.0 ]
+				m_vecPosition = [ -1433.0, -80.0 ]
 				m_nNodeID = 
 				{
 					m_id = 428404215
@@ -175,7 +201,7 @@
 			{
 				_class = "CStateMachineAnimNode"
 				m_sName = "Standing Turns"
-				m_vecPosition = [ -555.0, 287.0 ]
+				m_vecPosition = [ -752.0, -263.0 ]
 				m_nNodeID = 
 				{
 					m_id = 527830271
@@ -546,7 +572,7 @@
 			{
 				_class = "CSequenceAnimNode"
 				m_sName = "turn_right_90"
-				m_vecPosition = [ -1747.0, -16.0 ]
+				m_vecPosition = [ -1822.0, -315.0 ]
 				m_nNodeID = 
 				{
 					m_id = 994811996
@@ -929,7 +955,7 @@
 			{
 				_class = "CTurnHelperAnimNode"
 				m_sName = "Turn Helpers"
-				m_vecPosition = [ -1229.0, 249.0 ]
+				m_vecPosition = [ -1432.0, -226.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1097575780
@@ -956,7 +982,7 @@
 			{
 				_class = "CCommentAnimNode"
 				m_sName = "Start and End States"
-				m_vecPosition = [ -796.0, 8.0 ]
+				m_vecPosition = [ -993.0, -542.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1228302265
@@ -976,7 +1002,7 @@
 			{
 				_class = "CFollowPathAnimNode"
 				m_sName = "Unnamed"
-				m_vecPosition = [ 80.5, -65.0 ]
+				m_vecPosition = [ -35.0, -165.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1270251190
@@ -1020,7 +1046,7 @@
 			{
 				_class = "CCommentAnimNode"
 				m_sName = "Turn Helpers"
-				m_vecPosition = [ -1420.0, 7.0 ]
+				m_vecPosition = [ -1623.0, -468.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1328133352
@@ -1040,7 +1066,7 @@
 			{
 				_class = "CSequenceAnimNode"
 				m_sName = "Unnamed"
-				m_vecPosition = [ -232.782196, -293.245117 ]
+				m_vecPosition = [ -224.0, -396.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1479098888
@@ -1061,7 +1087,7 @@
 			{
 				_class = "CSequenceAnimNode"
 				m_sName = "Unnamed"
-				m_vecPosition = [ -1776.0, 239.0 ]
+				m_vecPosition = [ -1825.0, -227.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1501818873
@@ -1082,7 +1108,7 @@
 			{
 				_class = "CTurnHelperAnimNode"
 				m_sName = "Turn Helpers"
-				m_vecPosition = [ -1232.0, 346.0 ]
+				m_vecPosition = [ -1435.0, -129.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1574393767
@@ -1109,7 +1135,7 @@
 			{
 				_class = "CTurnHelperAnimNode"
 				m_sName = "Turn Helpers"
-				m_vecPosition = [ -1228.0, 155.0 ]
+				m_vecPosition = [ -1431.0, -320.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1644059547
@@ -1136,7 +1162,7 @@
 			{
 				_class = "CTurnHelperAnimNode"
 				m_sName = "Turn Helpers"
-				m_vecPosition = [ -1230.0, 203.0 ]
+				m_vecPosition = [ -1433.0, -272.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1699813283

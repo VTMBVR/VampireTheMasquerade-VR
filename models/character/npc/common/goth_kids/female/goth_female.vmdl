@@ -1060,7 +1060,7 @@
 								extract_rz = true
 								linear = false
 								quadratic = false
-								root_bone_name = ""
+								root_bone_name = "bip01_l_ankle"
 								motion_type = "Single"
 							},
 						]
@@ -1321,6 +1321,28 @@
 					},
 				]
 				default_root_bone_name = ""
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "MovementSettings"
+						movementsettings = 
+						{
+							name = ""
+							speeds = [  ]
+							runspeed = 150.0
+							walkspeed = 75.0
+							maxSpringTension = 100.0
+							springConstant = 10.0
+							useSmoothPaths = true
+							useMotionDamping = false
+							sharpStartAngle = 180.0
+							m_vTraceScale = [ 1.0, 1.0, 1.0 ]
+						}
+					},
+				]
 			},
 		]
 		model_archetype = "default"

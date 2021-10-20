@@ -457,7 +457,7 @@ wood/woodpanela
 [debug] BspFileReader: Static props: 103
 //--------------------------NPC----------------------------------
 character/npc/common/Blood_Doll/bd_asylum/Blood_Dollasylum.mdl
-character/npc/common/Goth_kids/female/Goth_Female.mdl
+character/npc/common/Goth_kids/female/Goth_Female.mdl		// -- imported
 character/npc/common/dancer/female_1/female_dancer_1.mdl
 character/npc/common/dancer/female_2/Female_Dancer_2.mdl
 character/npc/common/dancer/male_1/Male_Dancer_1.mdl
