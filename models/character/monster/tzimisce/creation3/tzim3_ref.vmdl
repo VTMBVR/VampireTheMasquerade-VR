@@ -321,17 +321,6 @@
 								root_bone_name = ""
 								motion_type = "Single"
 							},
-							{
-								_class = "ExtractMotion"
-								extract_tx = true
-								extract_ty = true
-								extract_tz = false
-								extract_rz = false
-								linear = false
-								quadratic = false
-								root_bone_name = ""
-								motion_type = "Uniform"
-							},
 						]
 						activity_name = ""
 						activity_weight = 1
@@ -401,7 +390,7 @@
 								motion_type = "Single"
 							},
 						]
-						activity_name = ""
+						activity_name = "ACT_WALK"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -585,8 +574,8 @@
 						{
 							name = ""
 							speeds = [  ]
-							runspeed = 150.0
-							walkspeed = 75.0
+							runspeed = 200.0
+							walkspeed = 100.0
 							maxSpringTension = 100.0
 							springConstant = 10.0
 							useSmoothPaths = true
@@ -627,6 +616,6 @@
 		]
 		model_archetype = "generic_actor_model"
 		primary_associated_entity = "generic_actor"
-		anim_graph_name = "animgraphs/tzim3_ref.vanmgrph"
+		anim_graph_name = "animgraphs/tzim3_ref_biped_standard.vanmgrph"
 	}
 }
