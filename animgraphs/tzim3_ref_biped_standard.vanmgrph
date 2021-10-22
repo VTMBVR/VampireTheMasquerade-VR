@@ -7326,7 +7326,7 @@
 				{
 					m_id = 4294967295
 				}
-				m_flTurnToFaceOffset = 0.0
+				m_flTurnToFaceOffset = -81.0
 				m_damping = 
 				{
 					_class = "CAnimInputDamping"

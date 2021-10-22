@@ -386,8 +386,8 @@
 								extract_rz = false
 								linear = false
 								quadratic = false
-								root_bone_name = "bip01_head"
-								motion_type = "Single"
+								root_bone_name = "bip01_spine"
+								motion_type = "Uniform"
 							},
 						]
 						activity_name = "ACT_WALK"
