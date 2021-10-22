@@ -46,7 +46,7 @@
 				m_bUseMostRecentValue = false
 				m_bAutoReset = false
 				m_bPredicted = false
-				m_defaultValue = 2
+				m_defaultValue = 1
 				m_enumOptions = 
 				[
 					"Example 1",
@@ -7127,7 +7127,7 @@
 				{
 					m_id = 4294967295
 				}
-				m_flTurnToFaceOffset = 0.0
+				m_flTurnToFaceOffset = -81.5
 				m_damping = 
 				{
 					_class = "CAnimInputDamping"
@@ -7485,7 +7485,7 @@
 				}
 				m_networkMode = "ServerAuthoritative"
 				m_tagSpans = [  ]
-				m_sequenceName = "idle"
+				m_sequenceName = "misc_idle01"
 				m_playbackSpeed = 1.0
 				m_bLoop = true
 			}
@@ -9200,7 +9200,7 @@
 				}
 				m_networkMode = "ServerAuthoritative"
 				m_tagSpans = [  ]
-				m_sequenceName = "walkn"
+				m_sequenceName = "move_and_ranged_walk_0"
 				m_playbackSpeed = 1.0
 				m_bLoop = true
 			}
