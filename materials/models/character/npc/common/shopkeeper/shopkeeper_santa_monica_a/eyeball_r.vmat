@@ -1,0 +1,32 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "vr_eyeball.vfx"
+
+	//---- Color ----
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureColor "materials/models/character/eyes/eyeball.tga"
+
+	//---- Iris ----
+	g_flIrisBumpStrength "1.000"
+	g_flParallaxStrength "0.050"
+	IrisNormal "materials/default/default_eyes_normal.psd"
+	IrisRoughness "materials/default/default_rough.tga"
+	TextureIrisMask "materials/models/character/eyes/blue_ice.tga"
+
+	//---- Lighting ----
+	g_vReflectanceRange "[0.000 1.000]"
+	TextureReflectance "materials/default/default_refl.tga"
+
+	//---- Normal ----
+	g_flCorneaScleraBumpStrength "1.000"
+	g_flScleraDiffuseExponent "1.500"
+	g_flScleraDiffuseWrap "0.300"
+	TextureNormal "materials/default/default_normal.tga"
+
+	//---- Occlusion ----
+	g_flOcclusionStrength "0.750"
+	g_flOcclusionWidth "3.000"
+	TextureOcclusion "materials/default/default_color.tga"
+}
