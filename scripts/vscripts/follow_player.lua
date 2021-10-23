@@ -71,6 +71,10 @@ local bShouldRun = false
 function MainThinkFunc() 
 	local localPlayer = Entities:GetLocalPlayer()
 
+	if localPlayer == nil then
+		print("local player is 0")
+	end
+
 	if localPlayer ~= nil then
 
 		-- Set the look target on the AnimGraph to be the position of the players eyes.  
@@ -118,6 +122,8 @@ end
 -- animation if one is available
 --=============================
 function CreatePathToPlayer( localPlayer ) 
+
+	print("try to create path to player")
 
 	-- Find the vector from this entity to the player
 	local vVecToPlayerNorm = ( localPlayer:GetAbsOrigin() - thisEntity:GetAbsOrigin() ):Normalized()
