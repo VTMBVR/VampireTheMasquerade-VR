@@ -74,21 +74,7 @@
 					{
 						_class = "AnimFile"
 						name = "tzim3_idle"
-						children = 
-						[
-							{
-								_class = "ExtractMotion"
-								extract_tx = false
-								extract_ty = false
-								extract_tz = false
-								extract_rz = true
-								linear = false
-								quadratic = false
-								root_bone_name = ""
-								motion_type = "Uniform"
-							},
-						]
-						activity_name = ""
+						activity_name = "ACT_IDLE"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2

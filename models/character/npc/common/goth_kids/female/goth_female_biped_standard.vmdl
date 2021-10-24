@@ -86,7 +86,7 @@
 					{
 						_class = "AnimFile"
 						name = "misc_dance01"
-						activity_name = ""
+						activity_name = "ACT_SCRIPT_CUSTOM_1"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -1342,7 +1342,7 @@
 					{
 						_class = "AnimFile"
 						name = "misc_idle01"
-						activity_name = ""
+						activity_name = "ACT_IDLE"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -1372,8 +1372,8 @@
 						{
 							name = ""
 							speeds = [  ]
-							runspeed = 250.0
-							walkspeed = 150.0
+							runspeed = 300.0
+							walkspeed = 220.0
 							maxSpringTension = 100.0
 							springConstant = 12.0
 							useSmoothPaths = true
