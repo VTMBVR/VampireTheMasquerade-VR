@@ -8,7 +8,7 @@
 --=============================
 function Spawn() 
 	-- Registers a function to get called each time the entity updates, or "thinks"
-	thisEntity:SetContextThink(nil, MainThinkFunc, 0)
+	thisEntity:SetContextThink(nil, TargetThinkFunc, 0)
 end
 
 --=============================
@@ -116,6 +116,60 @@ end
 
 
 --=============================
+-- Think function for the script, called roughly every 0.1 seconds.
+--=============================
+function TargetThinkFunc() 
+	local placeOfInterest = Entities:FindByName(nil,"int_place_1")
+
+	if placeOfInterest == nil then
+		print("interesting place is 0")
+	end
+
+	if placeOfInterest ~= nil then
+
+		-- Set the look target on the AnimGraph to be the position of the players eyes.  
+		thisEntity:SetGraphLookTarget( placeOfInterest:EyePosition() )
+
+		-- If the entity is too close to the player and still has an active path, then
+		-- cancel the path to make it stop moving
+		local flDistToPlayer = ( placeOfInterest:GetAbsOrigin() - thisEntity:GetAbsOrigin() ):Length()
+
+		if ( flDistToPlayer < flMinPlayerDist ) and ( thisEntity:NpcNavGoalActive() ) then
+				thisEntity:NpcNavClearGoal()
+		end
+
+		-- If the entity is too far from the player...
+		if ( flDistToPlayer > flMaxPlayerDist ) then
+			
+			-- If the entity does not already have a path
+			if ( not thisEntity:NpcNavGoalActive() ) then
+
+				-- Create a path that ends near the player
+				CreatePathToInterestingPlace()
+			else
+				local vCurrentGoalPos = thisEntity:NpcNavGetGoalPosition()
+				local flDistPlayerToGoal = ( placeOfInterest:GetAbsOrigin() - vCurrentGoalPos ):Length()
+				local flTimeSincePath = Time() - flLastPathTime
+
+				-- If the player has moved away from the path goal and we haven't changed the path recently
+				-- then calculate a new path
+				if ( flDistPlayerToGoal > flMinPlayerDist ) and ( flTimeSincePath > flRepathTime ) then
+					CreatePathToInterestingPlace()
+				end
+			end
+		end
+	end
+
+	-- Return the amount of time to wait before calling this function again.
+	return 0.1
+end
+
+
+
+
+
+
+--=============================
 -- Create a path to a point that is flMinPlayerDist from the player
 -- Note: Always try to create a path to where you want to entity to stop, rather than cancelling the path
 -- when it gets close enough.  This allows the AnimGraph to anticipate the goal and choose to play a stopping
@@ -142,5 +196,22 @@ end
 
 function CreatePathToInterestingPlace()
     print("try to route to interesting place")
-    
+    local placeOfInterest = Entities:FindByName(nil,"int_place_1")
+	print(placeOfInterest)
+
+	-- Find the vector from this entity to the player
+	local vVecToPlayerNorm = ( placeOfInterest:GetAbsOrigin() - thisEntity:GetAbsOrigin() ):Normalized()
+
+	-- Then find the point along that vector that is flMinPlayerDist from the player
+	local vGoalPos = placeOfInterest:GetAbsOrigin() - ( vVecToPlayerNorm * flMinPlayerDist );
+
+	-- Create a path to that goal.  This will replace any existing path
+	-- The path gets sent to the AnimGraph, and its up to the graph to make the character
+	-- walk along the path
+	thisEntity:NpcForceGoPosition( vGoalPos, bShouldRun, flNavGoalTolerance )
+
+	flLastPathTime = Time()
 end
+
+
+--end
