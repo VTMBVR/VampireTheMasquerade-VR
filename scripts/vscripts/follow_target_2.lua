@@ -119,7 +119,7 @@ end
 -- Think function for the script, called roughly every 0.1 seconds.
 --=============================
 function TargetThinkFunc() 
-	local placeOfInterest = Entities:FindByName(nil,"int_place_1")
+	local placeOfInterest = Entities:FindByName(nil,"int_place_2")
 
 	if placeOfInterest == nil then
 		print("interesting place is 0")
@@ -161,7 +161,7 @@ function TargetThinkFunc()
 	end
 
 	-- Return the amount of time to wait before calling this function again.
-	return 0.1
+	return 0.5
 end
 
 
@@ -195,8 +195,9 @@ end
 
 
 function CreatePathToInterestingPlace()
-    print("try to route to interesting place")
+    print("2nd target: try to route to interesting place")
     local placeOfInterest = Entities:FindByName(nil,"int_place_2")
+    print("2nd target is :")
 	print(placeOfInterest)
 
 	-- Find the vector from this entity to the player
