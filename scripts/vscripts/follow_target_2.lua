@@ -196,7 +196,7 @@ end
 
 function CreatePathToInterestingPlace()
     print("try to route to interesting place")
-    local placeOfInterest = Entities:FindByName(nil,"int_place_1")
+    local placeOfInterest = Entities:FindByName(nil,"int_place_2")
 	print(placeOfInterest)
 
 	-- Find the vector from this entity to the player
