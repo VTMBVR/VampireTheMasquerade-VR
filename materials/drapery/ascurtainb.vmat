@@ -8,6 +8,7 @@ Layer0
 	F_RENDER_BACKFACES 1
 
 	//---- Translucent ----
+	F_ADDITIVE_BLEND 1
 	F_TRANSLUCENT 1
 
 	//---- Ambient Occlusion ----

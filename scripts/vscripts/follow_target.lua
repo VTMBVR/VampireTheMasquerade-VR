@@ -161,7 +161,7 @@ function TargetThinkFunc()
 	end
 
 	-- Return the amount of time to wait before calling this function again.
-	return 0.1
+	return 0.5
 end
 
 
