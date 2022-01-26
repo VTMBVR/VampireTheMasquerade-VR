@@ -11,13 +11,8 @@ This project may have been real cause of a strong community of original game and
 
 this repository is steam workshop mirror.
 
-Currently there is one working 'example' map, which is `models_example_test`
-At this map I test some exported models from original game.
+Currently there is one working Asylum map and s&andbox for tests
 
-
-I've also started work at `sm_pawnshop_1` map transition
-
-You can find initial prototype as `sm_pawnshop_1_d_hm1_ported.vmap` in maps directory
 
 
 You may add your work for this repository throught pull requests
