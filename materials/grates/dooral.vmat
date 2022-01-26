@@ -5,6 +5,7 @@ Layer0
 	shader "vr_complex.vfx"
 
 	//---- Translucent ----
+	F_ADDITIVE_BLEND 1
 	F_TRANSLUCENT 1
 
 	//---- Ambient Occlusion ----
