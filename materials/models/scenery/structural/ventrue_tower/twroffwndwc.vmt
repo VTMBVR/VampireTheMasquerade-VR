@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"plaster\twroffwndwc"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "plaster/twroffwndwc_ref"
+	"$surfaceprop" "plaster"
+
+}

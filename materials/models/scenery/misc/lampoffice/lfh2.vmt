@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\lampoffice\lfh2"
+	"$selfillum" "1"
+
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\ramen\sign"
+	"$selfillum" "1"
+
+}

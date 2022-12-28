@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/physics/cola_can/AndersonCola_CLR"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"metal"
+}

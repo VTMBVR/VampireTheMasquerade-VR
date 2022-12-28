@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/malkavian/curtainsa"
+	"$surfaceprop" "cloth"
+	"$nocull" "1"
+	"$translucent" "1"
+}

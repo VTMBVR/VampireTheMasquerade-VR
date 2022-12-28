@@ -1,0 +1,7 @@
+"BumpmappedEnvMap"
+{
+	"$basetexture" "shadertest/WorldDiffuseBumpmap"
+	"$bumpmap" "shadertest/sphere"
+	"$bumpscale" 0.10
+	"$envmap" "shadertest/cubemap"
+}

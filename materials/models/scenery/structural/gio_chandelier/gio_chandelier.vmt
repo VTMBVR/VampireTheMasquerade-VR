@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\gio_chandelier\gio_chandelier"
+	"$surfaceprop" "default"
+
+}

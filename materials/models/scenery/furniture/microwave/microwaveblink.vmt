@@ -1,0 +1,16 @@
+
+
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\microwave\microwaveblink"
+
+ "Proxies"
+ {
+  "AnimatedTexture"
+  {
+    "animatedTextureVar" "$basetexture"
+    "animatedTextureFrameNumVar" "$frame"
+    "animatedTextureFrameRate" "2"
+  }
+}	
+

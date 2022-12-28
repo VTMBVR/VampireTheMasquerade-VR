@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/street/lamppost/lamppost"
+	"$surfaceprop"				"metal"
+}

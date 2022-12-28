@@ -1,0 +1,10 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/weapons/HolyLight/SCross"
+//	"$envmapmask" 		"models/weapons/HolyLight/SCross_envmask"
+	"$envmap" 		"env_cubemap"
+	"$envmapmode" 1
+	"$bumpmap"	"models/weapons/HolyLight/SCross_normal"
+	"$normalmapalphaenvmapmask" 		1
+
+}

@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "brick/sntawllflit"
+	"$surfaceprop" "brick"
+	"$selfillum" "1"
+}

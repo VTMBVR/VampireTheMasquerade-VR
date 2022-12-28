@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"objects\elevswitcha"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "objects\elevswitcha_ref"
+	"$surfaceprop" "metal"
+
+}

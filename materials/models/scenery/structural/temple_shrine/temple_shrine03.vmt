@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\temple_shrine\temple_shrine03"
+	"$selfillum" "1"
+
+}

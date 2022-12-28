@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "dev/dev_corrugatedmetal"
+	"$bumpmap" "dev/dev_corrugatedmetalbump"
+	"$surfaceprop" "metal"
+}

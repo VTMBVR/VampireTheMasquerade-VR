@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "wood/trellis"
+	"$surfaceprop" "wood"
+	"$translucent" 1
+}

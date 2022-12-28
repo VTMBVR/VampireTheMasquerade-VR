@@ -1,0 +1,7 @@
+"Eyes"
+{
+	"$basetexture" "models/character/eyes/eyeball"
+	"$iris" "models/character/eyes/Green_Light"
+//	"$additive"	"1" 
+	"$selfillum"	"1"
+}

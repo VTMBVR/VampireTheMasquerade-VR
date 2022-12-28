@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "decals/details/malklited"
+	"$translucent" 1
+	"$decal" 1
+	"$decalscale" 0.5
+}

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "brick/building1windowa"
+	"$surfaceprop" "brick"
+	"$envmap" "envmap/hav"
+	"$envmapmask" "brick/building1windowa_ref"
+}

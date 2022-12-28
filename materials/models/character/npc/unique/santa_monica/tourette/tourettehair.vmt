@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\santa_monica\tourette\tourettehair"
+	"$translucent" "1"
+
+}

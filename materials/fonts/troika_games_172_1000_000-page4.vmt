@@ -1,0 +1,9 @@
+UnlitGeneric
+{
+      "$basetexture"   "fonts\Troika_Games_172_1000_000-page4"
+      "$ignorez" "1"
+      "$translucent" "1"
+      "$vertexcolor" "1"
+      "$vertexalpha" "1"
+      "$no_fullbright" "1"
+}

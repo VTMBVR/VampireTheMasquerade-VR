@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "wood/lb_dwayframe"
+	"$translucent" 1
+	"$surfaceprop" "wood"
+}

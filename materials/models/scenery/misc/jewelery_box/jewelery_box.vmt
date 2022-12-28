@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/misc/jewelery_box/jewelery_box"
+	"$envmap" "env_cubemap"
+//	"$envmap" "envmap/smokeshop"
+	"$envmapmask" "models\scenery\misc\jewelery_box\jewelery_box_EnvMask"
+	"$envmaptint" "[ 1.0 1.0 1.0 ]"
+}

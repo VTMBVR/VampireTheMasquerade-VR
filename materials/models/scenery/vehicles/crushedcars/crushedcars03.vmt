@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\vehicles\crushedcars\crushedcars03"
+	"$nocull" "1"
+
+}

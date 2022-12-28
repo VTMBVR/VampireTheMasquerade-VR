@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\console_panel\console"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_25"
+	"$selfillum" "1"
+
+}

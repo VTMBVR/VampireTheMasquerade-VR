@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\nightstand\nightstand"
+	"$alphatest" "1"
+	"$nocull" "1"
+	"$surfaceprop" "wood"
+
+}

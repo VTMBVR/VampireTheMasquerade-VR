@@ -1,0 +1,7 @@
+"WorldVertexTransition" 
+{ 
+     	"$basetexture" "concrete/twrconflra" 
+	"$basetexture2" "concrete/twrconflrb" 
+	"$surfaceprop" "concrete"
+} 
+

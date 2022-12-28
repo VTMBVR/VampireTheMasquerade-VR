@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/malkraila"
+	"%compilePassBullets" 1
+	"$translucent" 1
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "metal/malkraila_ref"
+}

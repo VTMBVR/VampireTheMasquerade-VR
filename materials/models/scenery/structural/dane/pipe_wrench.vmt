@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\dane\pipe_wrench"
+	"$surfaceprop" "metal"
+
+}

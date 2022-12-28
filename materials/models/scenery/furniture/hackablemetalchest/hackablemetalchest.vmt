@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\hackablemetalchest\hackablemetalchest"
+	/"$envmap" "env_cubemap"
+	"$envmap"	"envmap/havenrm"
+	"$envmapmask" "models\scenery\furniture\hackablemetalchest\hackablemetalchest_ref"
+
+}

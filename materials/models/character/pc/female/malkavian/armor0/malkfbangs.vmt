@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/character/pc/female/malkavian/armor0/malkFBangs"
+	"$translucent"	"1"
+}

@@ -1,0 +1,7 @@
+
+"lightmappedGeneric"
+{
+	"$basetexture" "building/labldgbs14lit"
+	"$selfillum" "1"
+	"$surfaceprop" "plaster"
+}

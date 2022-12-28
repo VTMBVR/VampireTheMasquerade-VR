@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/sewer/fancasingb"
+	"$surfaceprop" "metal"
+}

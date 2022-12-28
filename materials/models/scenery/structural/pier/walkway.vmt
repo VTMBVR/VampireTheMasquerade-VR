@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/pier/walkway"
+	"$alphatest" "1"
+}

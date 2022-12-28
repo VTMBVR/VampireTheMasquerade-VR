@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/diner/barstooltp"
+	"$envmap" 		"env_cubemap"
+	"$envmapmask" 	"models/scenery/structural/diner/barstooltp_ref"
+}

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "objects\hospmorgdoor"
+	"$surfaceprop" "metal"
+	"$envmapmask" "objects\hospmorgdoor_ref"
+	"$envmap" "env_cubemap"
+}

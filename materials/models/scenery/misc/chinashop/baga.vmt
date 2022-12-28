@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\chinashop\baga"
+	"$nocull" "1"
+
+}

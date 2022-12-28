@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+
+	"$baseTexture"				"models/scenery/misc/trike/pedal"
+	"$translucent"				0
+	"$alpha"				1
+	"$surfaceprop"				"metal"
+}

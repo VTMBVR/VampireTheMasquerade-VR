@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/physics/bottle/bottle_clr"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"glass"
+}

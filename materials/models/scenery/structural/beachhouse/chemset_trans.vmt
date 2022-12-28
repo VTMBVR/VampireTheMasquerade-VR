@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\beachhouse\chemset"
+	"$translucent" "1"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\beachhouse\chemset_ref"
+	"$envmapmode" "1"
+}

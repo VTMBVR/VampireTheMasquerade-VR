@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\structural\oilfield\druma"
+	"$surfaceprop" "metal"
+	"$model" "1"
+}

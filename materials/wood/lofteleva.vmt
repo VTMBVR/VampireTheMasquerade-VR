@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"wood\lofteleva"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "wood\lofteleva_ref"
+	"$surfaceprop" "wood"
+
+}

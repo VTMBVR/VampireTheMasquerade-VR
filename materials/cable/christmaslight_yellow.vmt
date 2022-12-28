@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture"		"cable\christmaslight_yellow"
+	"$nocull"			1
+	"$alphatest"		1
+}
+

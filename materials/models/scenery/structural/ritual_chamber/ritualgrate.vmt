@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/ritual_chamber/ritualgrate"
+	"%compilePassBullets 1 " 
+	"$surfaceprop" "metal"
+}

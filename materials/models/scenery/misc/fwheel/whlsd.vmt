@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\misc\fwheel\whlsd"
+	"$selfillum" "1"
+	"$surfaceprop" "metal"
+ }

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\plywoodboard\board3"
+	"$nocull"			1
+
+}

@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	// Original shader: BaseTimesVertexColorAlphaBlend
+	"$basetexture" "particle/firesprite"
+//	"$translucent" 1
+	"$additive" 1
+	"$vertexcolor" 1
+}

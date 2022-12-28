@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"tile\twroffstairtopb"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "tile/twroffstairtopa_ref"
+	"$surfaceprop" "tile"
+
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\editor\air_node_hint"
+	"$translucent" "1"
+
+}

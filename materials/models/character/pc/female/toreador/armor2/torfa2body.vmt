@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models/character/pc/female/toreador/armor2/TorFA2body"
+	"$envmap"	"env_cubemap"
+	"$envmapmask"	"models/character/pc/female/toreador/armor2/TorFA2bodyenv"
+}

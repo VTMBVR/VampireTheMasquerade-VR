@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\warrens\warr_04_pipetrim"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\warrens\warr_04_pipetrim_ref"
+	"$surfaceprop" "metal"
+
+}

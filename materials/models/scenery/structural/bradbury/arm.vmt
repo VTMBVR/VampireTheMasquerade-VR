@@ -1,0 +1,6 @@
+UnlitGeneric
+{
+	"$basetexture"	"models\scenery\structural\bradbury\arm"
+	"$surfaceprop" "flesh"
+	"$model" 1
+}

@@ -1,0 +1,6 @@
+"UnLitGeneric"
+{
+	"$basetexture"	"models\scenery\structural\malkavian\malk_oplamp_volume"
+	"$translucent" "1"
+	"$model"				1
+}

@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/warrens/skull"
+	"$envmap"	   "env_cubemap"
+	"$envmapmask"  "models/scenery/structural/warrens/skull_ref"
+	"$model" 1
+}

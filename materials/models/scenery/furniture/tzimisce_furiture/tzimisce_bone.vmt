@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\tzimisce_furiture\tzimisce_bone"
+	"$translucent" "1"
+	"$surfaceprop" "default"
+
+}

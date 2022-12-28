@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\pooltablelights\pooltable1_env"
+	"$selfIllum"				1
+
+}

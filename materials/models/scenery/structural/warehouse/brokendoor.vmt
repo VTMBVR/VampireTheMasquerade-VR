@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"brick/building1door"
+	"$envmap"	"env_cubemap"
+	"$envmapmask"	"brick/building1door_ref"
+}

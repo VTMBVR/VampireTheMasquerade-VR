@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"		"/models/scenery/trash/greendumpster/dumpsterwheel_clr"
+	"$alphatest"		1
+	"$surfaceprop"		"metal"
+}

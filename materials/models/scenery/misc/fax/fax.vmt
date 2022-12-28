@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\fax\fax"
+	"$nocull"			1
+
+}

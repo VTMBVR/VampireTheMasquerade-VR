@@ -1,0 +1,5 @@
+UnlitGeneric
+{
+	"$basetexture"	"tools\calibration"
+	"$nomip"   "1"
+}

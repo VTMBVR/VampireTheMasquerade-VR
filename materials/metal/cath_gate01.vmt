@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "metal\cath_gate01"
+	"%compilePassBullets" 1
+}

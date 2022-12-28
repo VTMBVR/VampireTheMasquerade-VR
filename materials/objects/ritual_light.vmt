@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"objects\ritual_light"
+	"$additive" "1"
+	"$selfillum" "1"
+
+}

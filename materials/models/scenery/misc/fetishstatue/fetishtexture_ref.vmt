@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\fetishstatue\fetishtexture_ref"
+	"$surfaceprop" "default"
+
+}

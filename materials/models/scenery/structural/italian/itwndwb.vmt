@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "brick\itwndwb"
+	"$surfaceprop" "wood"
+	"$selfillum" "1"
+}

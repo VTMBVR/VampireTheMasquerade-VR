@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\elevator_dial\elevbuttons"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\elevator_dial\elevbuttons_ref"
+
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/furniture/bunk_bed/bunkbed"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/furniture/bunk_bed/bunkbed_ref"
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\relief\wall4b"
+	"$surfaceprop" "stone"
+
+}

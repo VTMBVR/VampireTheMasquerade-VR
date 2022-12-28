@@ -1,0 +1,7 @@
+"WorldVertexTransition" 
+{ 
+     "$basetexture" "ground/dirtc_a" 
+     "$basetexture2" "ground/dirtb"
+	"%detailtype" "junkyard" 
+} 
+

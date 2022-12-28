@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\common\dancer\male_1\hairpiece128"
+	"$translucent" "1"
+
+}

@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\items\rings\ring_sapphire"
+	"$envmapmask"   "models\items\rings\ring_sapphire_ref"
+	"$envmap"	"envmap/havenrm"
+	"$envmapmode" "1"
+	"$nocull" "1"
+
+}

@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\common\freshcorpses\chain"
+	"$alphatest" "1"
+	"$MinLight" "0.100"
+	"$MaxLight" "1.000"
+	"$surfaceprop" "metal"
+	"$nocull" "1"
+}

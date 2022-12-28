@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\alarmkeypad\greenon"
+	"$SelfIllum"	"1"
+
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/structural/italian/awningb"
+	"$surfaceprop" "plastic"
+	"$alphatest" "1"
+}

@@ -1,0 +1,7 @@
+"WorldVertexTransition" 
+{ 
+     "$basetexture" "ground/gravela" 
+     "$basetexture2" "ground/ohstreeta"
+	\\"%detailtype" "junkyard"
+} 
+

@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"building\chinabldgwndwb"
+	"$surfaceprop" 	"plaster"
+	"$selfillum"	"1"
+
+}

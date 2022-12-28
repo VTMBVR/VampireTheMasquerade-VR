@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+
+	"$baseTexture" "/models/scenery/furniture/bilttablea/wooda"
+	"$surfaceprop" "wood"
+}

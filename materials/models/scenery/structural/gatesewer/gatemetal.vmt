@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\gatesewer\gatemetal"
+	"$surfaceprop" "metal"
+
+}

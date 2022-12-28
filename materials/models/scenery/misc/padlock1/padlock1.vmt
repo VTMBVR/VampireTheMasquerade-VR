@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\padlock1\padlock1"
+	"$envmapmask" "padlock1_spec.vtf"
+	"$surfaceprop" "metal"
+
+}

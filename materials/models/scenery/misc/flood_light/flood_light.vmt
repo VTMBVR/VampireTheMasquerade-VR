@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/misc/flood_light/flood_light"
+	"$selfillum" "1"
+}

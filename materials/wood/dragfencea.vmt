@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"wood\dragfencea"
+	"$translucent" "1"
+//	"$alphatest" "1"
+	"$surfaceprop" "wood"
+	"%compilePassBullets" 1
+}

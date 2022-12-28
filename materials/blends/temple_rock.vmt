@@ -1,0 +1,6 @@
+"WorldVertexTransition" 
+{
+     "$basetexture" "ground/temrock"
+     "$basetexture2" "grass/grassb" 
+//	"%detailtype" "grass" 
+}

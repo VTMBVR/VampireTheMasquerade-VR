@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/warrens/warrarcha"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/structural/warrens/warrarcha_ref"
+}

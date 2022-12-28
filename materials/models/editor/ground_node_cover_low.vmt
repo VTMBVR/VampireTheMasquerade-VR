@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\editor\ground_node_cover_low"
+	"$translucent" "1"
+
+}

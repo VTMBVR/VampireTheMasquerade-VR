@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\elec_panel\ep_door_damaged"
+	"$surfaceprop" "metal"
+
+}

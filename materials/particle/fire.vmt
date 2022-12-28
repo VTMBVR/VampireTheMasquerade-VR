@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	// Original shader: AddTexture
+	"$basetexture" "particle/error"
+	"$additive" 1
+}

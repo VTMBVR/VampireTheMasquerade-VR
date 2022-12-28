@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/sewer/post"
+	"$envmapmask" "effects/ref_12"
+	"$envmap" "env_cubemap"
+}

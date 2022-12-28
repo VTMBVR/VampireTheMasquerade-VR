@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\structural\oilfield\pallet"
+	"$surfaceprop" "wood"
+	"$model" "1"
+}

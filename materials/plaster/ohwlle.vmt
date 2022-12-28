@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "plaster/ohwlle"
+	"$surfaceprop" "plaster"
+	"$envmap" "envmap/havenrm"
+	"$envmapmask" "plaster\ohwlle_ref"
+}

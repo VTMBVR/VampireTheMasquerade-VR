@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "art/deathbanner"
+	//"$nocull" 1
+}

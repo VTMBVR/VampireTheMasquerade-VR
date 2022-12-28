@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"brick\tutwndwa"
+	"$selfillum" "1"
+	"$surfaceprop" "brick"
+
+}

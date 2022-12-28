@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\monster\manbat\manbatwings"
+	"$bumpmap"	"models\character\monster\manbat\manbatwings_normal"
+	"$alphatest"	"1"
+	
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\cloud\awningb"
+	"$alphatest" "1"
+
+}

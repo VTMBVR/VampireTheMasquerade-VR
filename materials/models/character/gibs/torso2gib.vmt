@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\gibs\torso2gib"
+	"$envmap" "envmap\blood"
+	"$envmapmask" "models\character\gibs\torso2gibenvmask"
+
+}

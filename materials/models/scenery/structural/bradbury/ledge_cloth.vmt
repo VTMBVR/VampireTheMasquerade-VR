@@ -1,0 +1,8 @@
+"unlitGeneric"
+{
+	"$basetexture"	"models\scenery\structural\bradbury\ledge_cloth"
+	"$alphatest"	"1"
+	"$nocull"	"1"
+	"$surfaceprop"	"flesh"
+	"$model"	1
+}

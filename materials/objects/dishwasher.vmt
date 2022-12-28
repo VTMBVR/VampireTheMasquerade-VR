@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "objects/dishwasher"
+	"$surfaceprop" "metal"
+	"$envmapmask" "objects\dishwasher_ref"
+	"$envmap" "env_cubemap"
+}

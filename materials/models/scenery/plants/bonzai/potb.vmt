@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/plants/bonzai/potb"
+	"$surfaceprop" "brick"
+}

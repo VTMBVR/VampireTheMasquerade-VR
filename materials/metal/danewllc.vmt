@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+	"$basetexture"	"metal\danewllc"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "metal\danewllc_ref"
+	"$bumpmap" "metal\danewllc_normal"
+	"$normalmapalphaenvmapmask" "1"
+	"$surfaceprop" "metal"
+
+}

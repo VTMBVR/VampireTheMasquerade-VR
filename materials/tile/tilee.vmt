@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "tile/tilee"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "tile/tilee_ref"
+}

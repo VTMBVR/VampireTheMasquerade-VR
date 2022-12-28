@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/weapons/ammo/steyr_aug_mag"
+	"$translucent"				1
+	"$alpha"				1
+
+}

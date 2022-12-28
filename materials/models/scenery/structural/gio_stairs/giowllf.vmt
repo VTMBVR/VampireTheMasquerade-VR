@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "stone/giowllf"
+	"$envmapmask" "effects/ref_25"
+	"$surfaceprop" "concrete"
+	"$envmap" 				"env_cubemap"
+}

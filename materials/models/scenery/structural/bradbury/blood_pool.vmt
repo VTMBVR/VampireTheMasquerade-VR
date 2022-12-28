@@ -1,0 +1,30 @@
+VertexLitGeneric
+{
+	"$basetexture"			"models\scenery\structural\bradbury\blood_pool"
+//	"$bumpmap"			"dev/water_normal"
+	"$bumpmap"			"models\scenery\structural\bradbury\blood_pool_normal"
+	"$normalmapalphaenvmapmask"	"1"
+	"$surfaceprop"			"water"
+//	"$envmap"			"envmap/sewer"
+	"$envmap"			"env_cubemap"
+	"$translucent"			"1"
+	"$alpha"			"1"
+	"$envmaptint"			"[ 1.0 0.0 0.0 ]"
+
+"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$bumpmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumpoffset"
+			"texturescrollrate" .05
+			"texturescrollangle" 45.00
+		}
+	}
+}

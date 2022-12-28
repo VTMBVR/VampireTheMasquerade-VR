@@ -1,0 +1,12 @@
+"Refract"
+  {
+   	"$dudvmap" 	"effects\ripples_dudv"
+   	"$refractamount" "10"
+	"$refracttint"	 "[.6 0 0]"
+   	"$normalmap"	"effects\ripples_normal"
+    	"$envmap"	"envmap\blood"
+	"$model" 	"1"
+	"$envmaptint" 	"[1 0 0]"
+  }
+
+	

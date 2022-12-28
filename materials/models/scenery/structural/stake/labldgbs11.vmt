@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "building/labldgbs11lit"
+	"$selfillum" "1"
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\transistor_radio\transistor_radio"
+	"$surfaceprop" "plastic"
+
+}

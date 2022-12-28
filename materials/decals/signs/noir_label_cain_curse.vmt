@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\signs\noir_label_cain_curse"
+	"$decal" "1"
+	"$decalscale" "0.150"
+	"$surfaceprop" "metal"
+
+}

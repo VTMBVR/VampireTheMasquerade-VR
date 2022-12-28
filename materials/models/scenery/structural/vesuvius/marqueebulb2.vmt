@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+
+	"$color"				"[1 1 1]"
+	"$baseTexture"				"models/scenery/structural/vesuvius/marquee"
+	"$selfillum"				1
+	"Proxies"
+	{
+		"Sine"
+		{
+			// This is the data for the sine proxy, notice no '$' on the proxy variables!
+			"alpha" 		0
+			"resultVar"		"$selfillumtint"
+			"sineperiod"	.8
+			"sinemin"		0
+			"sinemax"		1
+			"timeoffset"	.2
+		}
+
+
+	}
+}

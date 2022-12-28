@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\chinese\curtains2"
+	"$translucent" "1"
+	"$alphatest" "1"
+
+}

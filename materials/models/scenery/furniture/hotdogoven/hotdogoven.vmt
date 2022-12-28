@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/furniture/HotDogOven/HotDogOven"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/furniture/HotDogOven/HotDogOven_ref"
+	"$Translucent"	"0"
+}

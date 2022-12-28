@@ -1,0 +1,10 @@
+UnlitGeneric
+{
+	"$basetexture"	"decals\details\window_light"
+	"$translucent" "1"
+	"$additive" "1"
+	"$selfillum" "0.2"
+	"$decal" "1"
+	"$decalscale" "0.500"
+
+}

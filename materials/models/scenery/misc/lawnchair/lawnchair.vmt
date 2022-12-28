@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\lawnchair\lawnchair"
+	"$alphatest" "1"
+	"$nocull" "1"
+	"$surfaceprop" "default"
+
+}

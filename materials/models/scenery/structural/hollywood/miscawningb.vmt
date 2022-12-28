@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/hollywood/miscawningb"
+	"$surfaceprop" "cloth"
+	"$selfillum" "1"
+}

@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "plaster/wllq"
+	"$envmap" "envmap/pwnbthrm"
+	"$envmapmask" "plaster/wllq_ref"
+}

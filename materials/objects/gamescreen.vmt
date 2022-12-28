@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"objects\gamescreen"
+	"$selfillum" "1"
+	"$surfaceprop" "glass"
+
+}

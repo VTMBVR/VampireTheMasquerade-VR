@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/furniture/TiffanyLamp/bulb"
+	"$selfillum" "1"
+	"$surfaceprop" 				"glass"
+	"$translucent"				0
+	"$envmapmask" 				"effects/ref_100"
+}

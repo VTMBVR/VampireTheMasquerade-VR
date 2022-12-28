@@ -1,0 +1,6 @@
+"DecalModulate"
+{
+	"$decalscale" 0.10
+//	"$translucent" 1
+	"$baseTexture" "decals/hits/flesh/soak2"
+}

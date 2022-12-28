@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\gio_malk_bonesaw\gio_malk_bonesaw"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\gio_malk_bonesaw\gio_malk_bonesaw_envmap"
+	"$surfaceprop" "metal"
+
+}

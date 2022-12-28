@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\common\security_guard\torsoback"
+	"$surfaceprop" "default"
+
+}

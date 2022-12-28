@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	// Original shader: DecalBaseTimesLightmapAlphaBlend
+	"$translucent" 1
+	"$basetexture" "march/script"
+	"$decal" 1
+	"$decalscale" 0.25
+	"%keywords" "borealis"
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/furniture/sinka/sinkb"
+	"$envmapmask" "effects/ref_25"
+	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"concrete"
+}

@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"stone\vtwrwndwet"
+	"$selfillum" "1"
+	"$surfaceprop" "stone"
+
+}

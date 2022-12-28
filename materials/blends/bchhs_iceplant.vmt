@@ -1,0 +1,8 @@
+"WorldVertexTransition" 
+{ 
+     "$basetexture" "ground/piersand" 
+     "$basetexture2" "ground/iceplant" 
+//	"%detailtype" "dweed"
+	"$surfaceprop" "dirt"
+} 
+

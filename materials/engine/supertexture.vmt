@@ -1,0 +1,6 @@
+"Sprite"
+{
+	"$translucent" 1
+	"$basetexture" "engine/supertexture"
+	"$spriterendermode" "8"
+}

@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "Decals/stains/bloodg"
+	"$envmap" "envmap/blood"
+	"$envmapmask" "effects/ref_25"
+	"$envmapmode" "0"
+	"$decal" 1
+	"$decalscale" 0.15
+	"$model" "1"
+}

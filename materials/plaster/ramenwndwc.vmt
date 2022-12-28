@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"plaster\ramenwndwc"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "plaster\ramenwndwc_ref"
+	"$surfaceprop" "plaster"
+
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/ritual_chamber/ritualwlld"
+	"$surfaceprop" "concrete"
+	"$selfillum" "1"
+}

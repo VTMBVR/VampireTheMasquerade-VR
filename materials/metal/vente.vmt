@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/vente"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "metal/vente_ref"
+}

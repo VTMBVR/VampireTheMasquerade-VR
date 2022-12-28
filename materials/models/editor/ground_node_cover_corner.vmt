@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\editor\ground_node_cover_corner"
+	"$translucent" "1"
+
+}

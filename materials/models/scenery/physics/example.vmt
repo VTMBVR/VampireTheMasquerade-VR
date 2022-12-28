@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/physics/DIR/TEXTURE"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"defualt"
+}

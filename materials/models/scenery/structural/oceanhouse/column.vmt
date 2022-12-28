@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\oceanhouse\column"
+	"$surfaceprop" "plaster"
+
+}

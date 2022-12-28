@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\chinadolls\chinadolls2texture"
+	"$surfaceprop" "default"
+
+}

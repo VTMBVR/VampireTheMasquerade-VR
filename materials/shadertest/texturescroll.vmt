@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	// Original shader: basetexture
+	"$basetexture" "shadertest/basetexture"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$BASETEXTUREOFFSET"
+			"texturescrollrate" 1.00
+			"texturescrollangle" 45.00
+		}
+	}
+}

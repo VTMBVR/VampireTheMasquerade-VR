@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "metal/wndwebars"
+	"%compilePassBullets" 1
+	"$alphatest" 1
+}

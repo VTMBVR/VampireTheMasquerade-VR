@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"lights\loftlighta"
+	"$selfillum" "1"
+	"$surfaceprop" "glass"
+
+}

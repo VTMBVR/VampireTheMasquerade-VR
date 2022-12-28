@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"				"/models/scenery/structural/sewerpipes/pipe_box"
+	"$envmapmask"				"/models/scenery/structural/sewerpipes/pipe_box_ref"
+	"$envmap" 					"env_cubemap"
+	"$surfaceprop"				"metal"
+}

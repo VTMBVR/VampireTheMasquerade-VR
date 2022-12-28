@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+	"$basetexture"		"tools\tools_trigger_ww"
+	"$translucent"		1
+	"%compiletrigger"	1
+}

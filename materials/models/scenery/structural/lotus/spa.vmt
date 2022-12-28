@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\lotus\spa"
+//	"$envmap" "envmap\specmap"
+//	"$envmap" "env_cubemap"
+//	"$envmapmask" "models\scenery\structural\lotus\spa_ref"
+	"$surfaceprop" "wood"
+
+
+}

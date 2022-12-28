@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/vehicles/OmniShpere/LightBar"
+	"$selfillum" "1"
+
+	 "Proxies"
+	 {
+ 	 "AnimatedTexture"
+ 	 {
+ 	   "animatedTextureVar" "$basetexture"
+ 	   "animatedTextureFrameNumVar" "$frame"
+	    "animatedTextureFrameRate" "10"
+	  }
+	 }
+
+}

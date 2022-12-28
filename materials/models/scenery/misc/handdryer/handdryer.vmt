@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\handdryer\handdryer"
+	"$envmapmask" "models/scenery/misc/handdryer/handdryer_env"
+	"$envmap" 				"env_cubemap"
+//	"$envmap" 				"envmap/asylum"
+	"$surfaceprop"				"metal"
+
+}

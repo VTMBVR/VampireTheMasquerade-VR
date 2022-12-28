@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models/weapons/thirtyeight/thirtyeight"
+	"$envmapmask"			"models/weapons/thirtyeight/thirtyeight_Spec"
+	"$envmap"	   "envmap/havenrm"
+	"$envmapmode" "1"
+}

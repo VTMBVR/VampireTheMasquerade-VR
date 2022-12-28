@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+	"$basetexture"	"models\scenery\structural\oceanhouse\lighthouseglow"
+	"$translucent" "1"
+//	"$additive" "1"
+	"$model" "1"
+
+}

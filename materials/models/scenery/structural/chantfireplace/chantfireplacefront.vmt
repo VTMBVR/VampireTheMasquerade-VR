@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/structural/chantfireplace/chantfireplacefront"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_25"
+	"$surfaceprop" "brick"
+}

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "decals/structural/outletb"
+	"$decal" 1
+	"$decalscale" 0.18
+	"$translucent" 1
+}

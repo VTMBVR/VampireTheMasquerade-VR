@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "plaster/dinbara"
+	"$surfaceprop"	"plaster"
+	"$envmap" 		"env_cubemap"
+	"$envmapmask" 	"plaster/dinbara_ref"
+}

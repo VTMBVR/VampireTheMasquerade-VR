@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\pooltablelights\pool2"
+	"$nocull"			1
+	"$selfillum" "1"
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\santa_monica\ghost\ghost_lens"
+//	"$translucent" "1"
+	"$selfillum"	"1"
+//	"$additive"	"1" 
+}

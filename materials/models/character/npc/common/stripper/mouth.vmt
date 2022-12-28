@@ -1,0 +1,5 @@
+"teeth"
+{
+	"$baseTexture" "models/character/npc/stripper/stripperhead"
+	"$translucent"	"1"
+}

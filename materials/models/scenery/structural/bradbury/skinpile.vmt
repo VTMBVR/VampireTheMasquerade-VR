@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\bradbury\skinpile"
+	"$envmapmask"	"models\scenery\structural\bradbury\skinpile_ref"
+	"$envmap"	"env_cubemap"
+	"$envmaptint"	"[0.5 0.25 0.25]"
+}

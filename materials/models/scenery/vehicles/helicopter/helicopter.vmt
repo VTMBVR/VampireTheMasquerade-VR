@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/vehicles/Helicopter/helicopter"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/vehicles/Helicopter/Helicopter_ref"
+}

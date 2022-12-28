@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$selfIllum"				1
+	"$baseTexture" "models/scenery/furniture/bartable/bartable_snake"
+	"$envmap"	"env_cubemap"
+	"$envmapmask"	"models/scenery/furniture/bartable/bartable_ref"
+}

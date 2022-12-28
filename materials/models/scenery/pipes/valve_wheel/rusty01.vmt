@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/pipes/valve_wheel/rusty01"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"metal"
+}

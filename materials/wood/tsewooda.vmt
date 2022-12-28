@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"wood\tsewooda"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "wood\tsewooda_ref"
+	"$surfaceprop" "wood"
+
+}

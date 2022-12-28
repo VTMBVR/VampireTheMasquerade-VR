@@ -1,0 +1,7 @@
+"WorldVertexTransition" 
+{ 
+     	"$basetexture" 	"carpet/ocecrpta" 
+     	"$basetexture2" 	"carpet/ocecrptb"
+	"$surfaceprop" 	"carpet"
+} 
+

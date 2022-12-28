@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\structural\hotel\sign"
+	"$surfaceprop" "plastic"
+	"$selfillum" "1"
+}

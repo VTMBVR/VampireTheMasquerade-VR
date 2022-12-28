@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$basetexture" "building/labldgbs05litsan"
+	"$surfaceprop" "concrete"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "building/labldgbs05_ref"
+}

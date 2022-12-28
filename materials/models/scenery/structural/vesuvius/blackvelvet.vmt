@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/vesuvius/blackvelvet"	
+	"$surfaceprop" "cloth"
+	"$nocull" "1"
+}

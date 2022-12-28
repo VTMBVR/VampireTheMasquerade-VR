@@ -1,0 +1,32 @@
+LightmappedGeneric
+{
+	"$basetexture"	"objects\surf"
+	"$translucent" "1"
+	"$temp" "[ 0 0 ]"
+
+	"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar" "$temp[0]"
+			"sineperiod" 15.00
+			"sinemin" 0
+			"sinemax" .5
+		}
+		"TextureTransform"
+		{
+			"resultVar" "$baseTextureTransform"
+			"translateVar" "$temp"
+		}
+
+		"Sine"
+		{
+			"resultVar" "$alpha"
+			"sineperiod" 15.00
+			"sinemin" 0
+			"sinemax" 1
+		}
+
+	}
+
+}

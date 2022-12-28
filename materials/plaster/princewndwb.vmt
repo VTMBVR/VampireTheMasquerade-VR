@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "plaster/princewndwb"
+	"$surfaceprop" "plaster"
+	"$envmap" "envmap/prince"
+	"$envmapmask" "plaster/princewndwb_ref"
+}

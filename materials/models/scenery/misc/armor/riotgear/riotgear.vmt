@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+	"$basetexture"	"models\scenery\misc\armor\riotgear\riotgear"
+	"$translucent" "1"
+	"$model" "1"
+
+}

@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\ventrue_tower\skylinebldgtops"
+	"$selfillum" "1"
+	"$envmap" "envmap/ventruetower2"
+	"$envmapmask" "models/scenery/structural/ventrue_tower/skylinebldgtops_ref"
+
+}

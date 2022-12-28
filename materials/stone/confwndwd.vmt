@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"stone\confwndwd"
+	"$selfillum" "1"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "stone\confwndwd_ref"
+	"$surfaceprop" "stone"
+
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/furniture/showercurtain/shwrcrtn"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"carpet"
+}

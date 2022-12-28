@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\dane\crane_controls01"
+	"$selfillum" "1"
+	"$surfaceprop" "metal"
+
+}

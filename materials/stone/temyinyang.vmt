@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"stone\temyinyang"
+	"$bumpmap" "stone/temyinyang_normal"
+	"$surfaceprop" "stone"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+
+}

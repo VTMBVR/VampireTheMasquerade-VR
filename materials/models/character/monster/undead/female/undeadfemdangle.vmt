@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/character/monster/undead/female/undeadfemdangle"
+	"$translucent"	"1"
+}

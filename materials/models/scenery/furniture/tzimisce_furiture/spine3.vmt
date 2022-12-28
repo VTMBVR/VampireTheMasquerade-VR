@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\tzimisce_furiture\spine3"
+	"$surfaceprop" "default"
+
+}

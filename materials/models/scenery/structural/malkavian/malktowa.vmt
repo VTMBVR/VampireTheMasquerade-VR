@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/Malkavian/malktowa"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/structural/Malkavian/malktowa_ref"
+	"$selfillum" "1"
+}

@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\items\bloodpack\bloodpack"
+	"$envmapmask" "models\items\bloodpack\bloodpack_ref"
+	"$envmap"	"envmap/havenrm"
+	"$envmapmode" "1"
+
+}

@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\structural\turnstile\turnstile"
+	"$surfaceprop" "metal"
+//	"$envmap" "envmap/havenrm"
+	"$envmapmask" "models\scenery\structural\turnstile\turnstile_ref"
+	"$envmap" 				"env_cubemap"
+
+}

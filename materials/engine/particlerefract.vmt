@@ -1,0 +1,7 @@
+"RefractParticle"
+{
+	"$basetexture" "engine/supertexture"
+	"$dudvtexture" "engine/supertexture_dudv"
+	"$translucent" "1"
+	"$nocull" "1"
+}

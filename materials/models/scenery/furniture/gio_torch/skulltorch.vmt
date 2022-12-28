@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/furniture/gio_torch/skulltorch"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/furniture/gio_torch/skulltorch_ref"
+	"$selfillum" "1"
+}

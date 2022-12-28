@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "drapery/stkcurtaina"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_50"
+	"$envmaptint" "[0.65 0.5 0.0]"
+}

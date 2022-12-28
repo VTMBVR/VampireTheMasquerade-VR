@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"tile\twrbllflra"
+	"$envmap" 		"env_cubemap"
+	"$envmapmask" 	"tile/twrbllflra_ref"
+	"$surfaceprop" 	"tile"
+}

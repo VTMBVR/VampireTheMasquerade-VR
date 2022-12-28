@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\clockdesktop\clockdesktop"
+	"$envmapmask" "models\scenery\furniture\clockdesktop\clockdesktop_ref"
+	/"$envmap"	"envmap/havenrm"
+	"$envmap" "env_cubemap"
+	"$envmapmode" "1"
+
+}

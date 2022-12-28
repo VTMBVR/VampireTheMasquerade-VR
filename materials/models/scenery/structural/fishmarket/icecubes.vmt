@@ -1,0 +1,10 @@
+"refract"
+{
+	"$dudvmap"	"models\scenery\structural\fishmarket\icecubes_dudv"
+	"$refractamount" ".5"
+	"$model" "1"
+	"$normalmap" "models\scenery\structural\fishmarket\icecubes_normal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.5 .6 1]"
+
+}

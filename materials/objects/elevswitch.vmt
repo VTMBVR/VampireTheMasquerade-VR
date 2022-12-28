@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "objects/elevswitch"
+	"$selfillum" "1"
+}

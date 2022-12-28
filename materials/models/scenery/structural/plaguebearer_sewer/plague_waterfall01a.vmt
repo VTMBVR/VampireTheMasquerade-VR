@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\plaguebearer_sewer\plague_waterfall01a"
+	"$surfaceprop" "stone"
+
+}

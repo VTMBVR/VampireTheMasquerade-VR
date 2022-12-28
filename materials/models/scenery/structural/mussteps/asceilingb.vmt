@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "plaster/asceilingb"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"concrete"
+}

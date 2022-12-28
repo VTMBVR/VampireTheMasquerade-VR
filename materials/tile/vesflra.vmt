@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "tile/vesflra"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_50"
+	"$surfaceprop" "tile"
+}

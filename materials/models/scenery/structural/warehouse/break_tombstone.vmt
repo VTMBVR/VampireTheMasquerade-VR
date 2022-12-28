@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\warehouse\break_tombstone"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\warehouse\break_tombstone_ref"
+
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/redspot/cigdispenser"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/structural/redspot/cigdispenser_ref"
+}

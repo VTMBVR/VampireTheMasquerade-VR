@@ -1,0 +1,7 @@
+"WorldVertexTransition" 
+{ 
+     "$basetexture" "ground/holgrassa" 
+     "$basetexture2" "ground/holgrassb" 
+	"%detailtype" "grassweeds"
+} 
+

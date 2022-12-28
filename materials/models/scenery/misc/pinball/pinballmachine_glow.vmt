@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\misc\pinball\pinballmachine_glow"
+	"$surfaceprop" "plastic"
+	"$selfillum" "1"
+}

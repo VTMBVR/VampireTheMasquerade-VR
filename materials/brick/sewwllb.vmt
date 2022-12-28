@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "brick/sewwllb"
+	"$surfaceprop" "brick"
+	"$bumpmap" "brick/sewwllb_normal"
+}

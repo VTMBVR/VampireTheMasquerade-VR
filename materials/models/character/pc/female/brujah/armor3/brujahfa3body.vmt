@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models/character/pc/female/brujah/armor3/BrujahFA3Body"
+	"$envmap"	"env_cubemap"
+	"$envmapmask"	"models/character/pc/female/brujah/armor3/BrujahFA3env"
+}

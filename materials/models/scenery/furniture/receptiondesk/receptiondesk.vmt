@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/furniture/ReceptionDesk/ReceptionDesk"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/furniture/ReceptionDesk/ReceptionDesk_ref"
+}

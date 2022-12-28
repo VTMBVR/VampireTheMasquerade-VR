@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTexture
+	"$basetexture" "objects\file_cabinet_side"
+	"$surfaceprop" "metal"
+}

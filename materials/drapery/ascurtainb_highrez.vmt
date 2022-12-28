@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "drapery/ascurtainb_highrez"
+	"$translucent" 1
+	"%compilePassBullets" 1 
+}

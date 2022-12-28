@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTimesLightmapAlphaBlend
+	"$translucent" 1
+	"$basetexture" "Tools/toolsareaportal"
+	"%compileNoLight" 1
+	"%keywords" "Tools"
+}

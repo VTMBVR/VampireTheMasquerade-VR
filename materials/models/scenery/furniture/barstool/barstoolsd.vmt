@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery\furniture\barstool\barstoolsd"
+//	"$envmap" "envmap/asylum"
+	"$envmapmask" "models/scenery\furniture\barstool\barstoolsd_ref"
+	"$surfaceprop"				"wood"
+	"$envmap" 				"env_cubemap"
+}

@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\medicalchest\medicalchest"
+	"$envmapmask" "models\scenery\furniture\medicalchest\medicalchest_ref"
+	/"$envmap"	"envmap/havenrm"
+	"$envmap" "env_cubemap"
+	"$envmapmode" "1"
+
+}

@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "models\scenery\plants\saguaro\pot"
+	"$surfaceprop" "brick"
+}

@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\structural\parkingd"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" ".25"
+	"$envmap" "envmap/pier"
+	"$envmapmask" "asphalt/asphalta_ref"
+}

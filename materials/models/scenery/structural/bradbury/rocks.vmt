@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"models\scenery\structural\bradbury\rocks"
+	"$surfaceprop" "stone"
+	"$model" 1
+}

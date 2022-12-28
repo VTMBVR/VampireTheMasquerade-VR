@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\observatorysign\sign_illum"
+	"$selfillum" "1"
+	"$surfaceprop" "metal"
+
+}

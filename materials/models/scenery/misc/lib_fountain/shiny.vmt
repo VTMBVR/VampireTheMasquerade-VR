@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/misc/lib_fountain/shiny"
+//	"$envmap" "envmap/havenrm"
+	"$envmapmask" "effects/ref_75"
+	"$surfaceprop" "metal"
+	"$envmap" 				"env_cubemap"
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\steamertrunk\steamertrunkkoa"
+	"$surfaceprop" "wood"
+
+}

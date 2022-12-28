@@ -1,0 +1,7 @@
+"WorldVertexTransition" 
+{ 
+     "$basetexture" "ground/piersandc" 
+     "$basetexture2" "effects/black" 
+	"$surfaceprop" "dirt"
+} 
+

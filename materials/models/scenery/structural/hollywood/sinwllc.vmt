@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "brick\sinwllc"
+	"$surfaceprop" "brick"
+	"$selfillum" "1"
+}

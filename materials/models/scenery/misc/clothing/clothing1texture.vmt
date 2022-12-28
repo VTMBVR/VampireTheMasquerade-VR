@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\clothing\clothing1texture"
+	"$surfaceprop" "default"
+
+}

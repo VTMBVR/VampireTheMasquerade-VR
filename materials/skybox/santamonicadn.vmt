@@ -1,0 +1,5 @@
+"UnlitGeneric" 
+{ 
+     "$basetexture" "skybox/santamonicadn"
+     "$nofog" 1
+}

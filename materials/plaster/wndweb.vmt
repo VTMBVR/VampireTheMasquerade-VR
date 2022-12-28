@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "plaster/wndweblit"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "plaster/wndweb_ref"
+	"$surfaceprop" "plaster"
+}

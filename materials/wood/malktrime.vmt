@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "wood/malktrime"
+	"$surfaceprop" "wood"
+	"$alphatest" "1"
+}

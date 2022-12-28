@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\condiment\fish"
+	"$nocull"			1
+
+}

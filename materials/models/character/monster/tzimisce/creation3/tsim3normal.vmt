@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\monster\tzimisce\creation3\tsim3normal"
+	"$normalmapalphaenvmapmask"	"1"
+
+}

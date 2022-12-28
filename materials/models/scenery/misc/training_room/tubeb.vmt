@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/misc/training_room/tubeb"
+	"$surfaceprop" "metal"
+}

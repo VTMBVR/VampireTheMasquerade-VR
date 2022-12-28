@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\observatory\telescope"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\observatory\telescope_ref"
+
+}

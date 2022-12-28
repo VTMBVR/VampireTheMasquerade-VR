@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\subway\cement_mixer"
+	"$bumpmap" "models\scenery\structural\subway\cement_mixer_normal"
+	"$surfaceprop" "metal"
+
+}

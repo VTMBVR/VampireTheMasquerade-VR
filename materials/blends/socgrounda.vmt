@@ -1,0 +1,6 @@
+"WorldVertexTransition" 
+{
+     "$basetexture" "ground/dirtb"
+     "$basetexture2" "blends/groundb" 
+	"%detailtype" "grass" 
+}

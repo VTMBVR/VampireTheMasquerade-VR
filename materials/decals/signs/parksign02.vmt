@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\signs\parksign02"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.21"
+	"$surfaceprop" "concrete"
+
+}

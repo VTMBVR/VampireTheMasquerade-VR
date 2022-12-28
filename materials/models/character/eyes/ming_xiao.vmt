@@ -1,0 +1,6 @@
+"unLitGeneric"
+{
+	"$baseTexture" "models/character/eyes/ming_xiao"
+	"$selfillum"	"1"
+	"$model" 1
+}

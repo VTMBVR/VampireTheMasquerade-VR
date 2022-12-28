@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/furniture/light_bulb/light_bulb"
+	"$selfillum" "1"
+	"$surfaceprop" "glass"
+}

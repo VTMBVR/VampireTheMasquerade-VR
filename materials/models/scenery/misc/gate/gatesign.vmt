@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\gate\gatesign"
+	"$nocull" "1"
+	"$surfaceprop" "metal"
+
+}

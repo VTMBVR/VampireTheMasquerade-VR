@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"plaster\ocedra"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "plaster/ocedra_ref"
+	"$surfaceprop" "wood"
+
+}

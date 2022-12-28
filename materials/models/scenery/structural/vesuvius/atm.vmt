@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/vesuvius/atm"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/structural/vesuvius/atm_ref"
+	"$selfillum" "1"
+}

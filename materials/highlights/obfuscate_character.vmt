@@ -1,0 +1,13 @@
+"Refract"
+{
+	 $dudvmap	"effects/Ripples_dudv"
+//	 $dudvmap	"march/smudges_dudv"
+	 $refracttint	"[1 1 1]"
+	 $refractamount "10"
+	 $model		"1"
+	 
+	 $normalmap	"effects/Ripples_normal"
+//	 $normalmap	"march/smudges_normal"
+//	 $envmap	"env_cubemap"
+//	 $envmaptint	"[1 1 1]"
+}

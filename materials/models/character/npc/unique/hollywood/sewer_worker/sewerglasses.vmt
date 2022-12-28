@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\hollywood\sewer_worker\sewerglasses"
+	"$envmapmask"	"models\character\npc\unique\hollywood\sewer_worker\sewerglassesSpec"
+	"$envmap" 	"env_cubemap"
+}

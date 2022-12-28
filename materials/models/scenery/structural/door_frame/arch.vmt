@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\structural\door_frame\arch"
+//	"$envmap" "envmap/havenrm"
+	"$envmapmask" "effects/ref_25"
+	"$surfaceprop" "concrete"
+	"$envmap" 				"env_cubemap"
+
+}

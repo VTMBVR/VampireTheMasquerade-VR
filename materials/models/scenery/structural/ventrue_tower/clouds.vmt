@@ -1,0 +1,8 @@
+UnLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\ventrue_tower\clouds"
+	"$translucent" 	"1"
+	"$nofog" 		"1"
+	"$model" 		"1"
+
+}

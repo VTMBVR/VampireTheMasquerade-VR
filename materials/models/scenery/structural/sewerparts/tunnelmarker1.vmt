@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\sewerparts\tunnelmarker1"
+	"$surfaceprop" "metal"
+
+}

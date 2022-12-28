@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/furniture/lightc/lightcmountsd"
+	"$surfaceprop" "metal"
+	"$model" "1"
+}

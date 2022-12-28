@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "stone/bar"
+	"$bumpmap" "stone/bar_normal"
+}

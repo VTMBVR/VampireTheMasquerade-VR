@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\chinatown\wong_ho\wonglens"
+	"$translucent" "1"
+
+}

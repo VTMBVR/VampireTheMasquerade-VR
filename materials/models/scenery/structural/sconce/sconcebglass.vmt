@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/sconce/sconceb"
+	"$surfaceprop" "glass"
+ 	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_75"	
+	"$additive" 1	
+	"$nocull" 1
+}

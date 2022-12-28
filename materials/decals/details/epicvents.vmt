@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\details\epicvents"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.200"
+
+}

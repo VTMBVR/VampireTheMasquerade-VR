@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\ankh\ankh2"
+	"$surfaceprop" "metal"
+
+}

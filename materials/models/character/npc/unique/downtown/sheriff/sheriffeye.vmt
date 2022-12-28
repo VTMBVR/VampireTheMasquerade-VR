@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\eyes\sheriffeye"
+	"$selfillum"	"1"
+
+}

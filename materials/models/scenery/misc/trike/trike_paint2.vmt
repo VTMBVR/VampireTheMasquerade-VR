@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+
+	"$baseTexture"				"models/scenery/misc/trike/trike_paint2"
+	"$translucent"				0
+	"$alpha"				1
+	"$surfaceprop"				"metal"
+	"$envmapmask" "effects/ref_100"
+	"$envmap" 				"env_cubemap"
+}

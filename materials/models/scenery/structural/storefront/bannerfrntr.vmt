@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/structural/storefront/bannerfrntr"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"carpet"
+}

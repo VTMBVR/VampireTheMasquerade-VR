@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\pictures\drag008"
+	"$decal" "1"
+	"$decalscale" "0.200"
+	"$translucent" "1"
+}

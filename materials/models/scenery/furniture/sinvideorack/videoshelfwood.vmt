@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+
+	"$baseTexture"	"/models/scenery/furniture/sinvideorack/videoshelfwood"
+	"$surfaceprop"	"wood"
+}

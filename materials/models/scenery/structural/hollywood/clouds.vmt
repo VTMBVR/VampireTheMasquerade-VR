@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models\scenery\structural\hollywood\clouds"
+	"$translucent" "1"
+	"$model" "1"
+}

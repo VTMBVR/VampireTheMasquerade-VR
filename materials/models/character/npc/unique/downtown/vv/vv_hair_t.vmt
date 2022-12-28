@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\downtown\VV\VV_hair"
+	"$translucent" "1"
+}	
+

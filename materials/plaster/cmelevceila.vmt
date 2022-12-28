@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "plaster/cmelevceila"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "plaster/cmelevceila_ref"
+	"$surfaceprop" glass
+	"$selfillum" "1"
+}

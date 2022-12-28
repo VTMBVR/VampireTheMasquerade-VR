@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\common\shovelhead\shovelheadface"
+	"$alphatest" "1"
+
+}

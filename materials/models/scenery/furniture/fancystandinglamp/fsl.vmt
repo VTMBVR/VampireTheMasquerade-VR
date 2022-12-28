@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/furniture/fancystandinglamp/fsl"
+	"$selfillum"	"1"
+	"$envmapmask" "models/scenery/furniture/fancystandinglamp/fsl_env"
+	"$envmap" 				"env_cubemap"
+//	"$envmap" 				"envmap/asylum"
+	"$surfaceprop"				"wood"
+
+}

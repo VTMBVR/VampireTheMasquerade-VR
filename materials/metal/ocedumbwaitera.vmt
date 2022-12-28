@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"metal\ocedumbwaitera"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "metal\ocedumbwaitera_ref"
+	"$surfaceprop" "metal"
+
+}

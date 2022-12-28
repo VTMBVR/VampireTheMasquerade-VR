@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\items\occult_gargoyle\necklace"
+	"$surfaceprop" "metal"
+
+}

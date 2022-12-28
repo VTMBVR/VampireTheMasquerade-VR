@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\downtown\VV\VV_body"
+	"$bumpmap"	"models\character\npc\unique\downtown\VV\skin_normal"
+	//"$envmap"	"envmap\specmap"
+	//"$normalmapalphaenvmapmask" "1"
+	
+	//"$selfillum"	"1"
+}	
+

@@ -1,0 +1,11 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\pictures\parkposter02"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.250"
+	"$envmap" ""
+	"$envmapmask" "decals\pictures\parkposter02_ref"
+	"$surfaceprop" "cardboard"
+
+}

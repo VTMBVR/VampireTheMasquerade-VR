@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\signs\parkingexitb"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.500"
+	"$surfaceprop" "metal"
+
+}

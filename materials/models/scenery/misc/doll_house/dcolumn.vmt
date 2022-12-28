@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+
+	"$color"				"[1 1 1]"
+	"$baseTexture"				"/models/scenery/misc/Doll_house/dcolumn"
+	"$surfaceprop"				"cardboard"
+}

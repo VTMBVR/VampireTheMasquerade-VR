@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/structural/elevator_dial/dial"
+	"$surfaceprop" "metal"
+	"$translucent" "1"
+}

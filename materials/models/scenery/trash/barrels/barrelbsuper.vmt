@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/trash/barrels/barrelbsuper"
+	"$surfaceprop" "metal"
+	"$envmapmask" "models/scenery/trash/barrels/barrelbsuper_ref"
+	"$envmap" 		"env_cubemap"
+	"$nocull"	"1"
+}

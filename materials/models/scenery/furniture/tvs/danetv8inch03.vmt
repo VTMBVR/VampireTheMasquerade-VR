@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+
+	"$baseTexture"				"/models/scenery/furniture/tvs/daneTV8inch03"
+	"$surfaceprop"				"computer"
+
+}

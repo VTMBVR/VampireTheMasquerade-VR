@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"wood\temwllb"
+	"$translucent" "1"
+	"$alphatest" "1"
+
+}

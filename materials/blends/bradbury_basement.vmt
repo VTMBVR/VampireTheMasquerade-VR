@@ -1,0 +1,9 @@
+"WorldVertexTransition" 
+{ 
+	"$basetexture"		"blends/bloody_ground" 
+	"$basetexture2"		"blends/groundc" 
+//	"$basetexture2"		"blends/soctunnelb" 
+//	"%detailtype"		"bradbury_basement"
+	"%detailtype"		"bodyparts"
+} 
+

@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+
+	"$color"				"[1 1 1]"
+	"$baseTexture"				"/models/scenery/furniture/candelabra/candle"
+	"$selfIllum"				0
+	"$translucent"				0
+	"$alpha"				1
+
+	"$surfaceprop"				"plastic"
+}

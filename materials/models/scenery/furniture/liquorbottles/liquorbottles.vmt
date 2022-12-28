@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\liquorbottles\liquorbottles"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\furniture\liquorbottles\liquorbottles_ref"
+
+}

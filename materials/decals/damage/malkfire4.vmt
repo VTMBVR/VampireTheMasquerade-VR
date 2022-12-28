@@ -1,0 +1,7 @@
+"unlitGeneric"
+{
+	"$baseTexture" "decals/damage/malkfire4"
+	"$translucent" 1
+	"$decal" 1
+	"$decalscale" 0.35
+}

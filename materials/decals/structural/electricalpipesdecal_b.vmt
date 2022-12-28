@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "decals/structural/ElectricalPipesDecal_b_CLR"
+	"$decal" 1
+	"$decalscale" 0.25
+}

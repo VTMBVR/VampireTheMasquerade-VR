@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "decals/pictures/muspicb"
+	"$decal" 1
+	"$decalscale" 0.25
+	"$translucent" 1
+	"$envmap" "env_cubemap"
+	"$envmapmask" "decals/pictures/muspicb_ref"
+	"$surfaceprop" "glass"
+}

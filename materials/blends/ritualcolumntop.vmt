@@ -1,0 +1,6 @@
+"WorldVertexTransition" 
+
+{
+	"$baseTexture" "blends/ritualcolumna"
+	"$baseTexture2" "blends/ritualcolumnb"
+}

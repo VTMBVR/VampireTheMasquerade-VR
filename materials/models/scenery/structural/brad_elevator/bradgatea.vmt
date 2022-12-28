@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "metal/bradgatea"
+	"$translucent" 1
+	"$surfaceprop" "metal"
+}

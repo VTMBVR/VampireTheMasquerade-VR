@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "plaster/malkwndwi"
+	"$surfaceprop" "plaster"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "plaster/malkwndwi_ref"
+	"$selfillum" "1"
+}

@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "ground/shrubberye"
+	//"%detailtype" "branchesgr"
+	"$surfaceprop" "dirt"
+}

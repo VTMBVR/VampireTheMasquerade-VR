@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/structural/asphole/bilboardh"
+	"$surfaceprop"	"plaster"
+	"$selfillum" "1"
+}

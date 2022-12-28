@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\malkavian\malk_teslacoil"
+	"$bumpmap" 	"models\scenery\structural\malkavian\malk_teslacoil_normal"
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" 	"env_cubemap"
+	"$envmaptint" "[ 1.0 0.75 0.0 ]"
+	"$surfaceprop" "wood"
+
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\common\goth_kids\female\gothfbody"
+	"$surfaceprop" "flesh"
+
+}

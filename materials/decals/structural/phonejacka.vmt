@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "decals/structural/phonejacka"
+	"$decal" 1
+	"$decalscale" 0.18
+	"$translucent" 1
+}

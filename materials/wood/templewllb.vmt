@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "wood/templewllb"
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "wood/templewllb_ref"
+}

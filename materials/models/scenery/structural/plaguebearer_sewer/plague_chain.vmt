@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\plaguebearer_sewer\plague_chain"
+	"$surfaceprop" "metal"
+	"$MinLight"			.1
+	"$MaxLight"			1
+	"$alphatest"			1
+}

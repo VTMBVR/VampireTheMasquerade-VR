@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\items\rings\ventrue_female_ring"
+	"$envmapmask"	"models\items\rings\ventrue_female_ring_ref"
+	"$envmap"	"envmap/havenrm"
+	"$envmapmode" "1"
+	"$nocull" "1"
+
+}

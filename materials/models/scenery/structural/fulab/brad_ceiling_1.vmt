@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "stone/Brad_Ceiling_1"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\fulab\Brad_Ceiling_1_ref"
+}

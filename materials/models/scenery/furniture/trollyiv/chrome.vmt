@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery\furniture\drum_kit\chrome"
+//	"$envmap" "envmap/havbthrm"
+	"$envmapmask" "effects/ref_75"
+	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"metal"
+}

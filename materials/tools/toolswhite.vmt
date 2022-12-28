@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "tools/toolswhite"
+	"$selfillum" 1
+	"$surfaceprop" "glass"
+	"$nodecal" "1"
+	"%keywords" "Tools"
+}

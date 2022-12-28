@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\signs\pedcros"
+	"$surfaceprop" "metal"
+//	"$envmap" "envmap/hav"
+	"$envmapmask" "models\scenery\signs\pedcros_ref"
+	"$envmap" 				"env_cubemap"
+
+}

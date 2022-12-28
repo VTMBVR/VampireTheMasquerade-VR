@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "metal/musraila"
+	"$surfaceprop" "metal"
+	"$translucent" "1"
+	"$model" "1"
+}

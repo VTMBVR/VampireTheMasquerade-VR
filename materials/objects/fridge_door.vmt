@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "objects\fridge_door"
+	"$surfaceprop" "metal"
+}

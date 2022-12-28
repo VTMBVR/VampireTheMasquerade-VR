@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\pebble\pebbletexture05"
+	"$surfaceprop" "default"
+
+}

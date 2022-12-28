@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"		"models/weapons/bushhook/hook01"
+	"$envmapmask"		"models/weapons/bushhook/hook01_spec"
+	"$envmap"	   "envmap/havenrm"
+	"$envmapmode" "1"
+}

@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$baseTexture" "decals/stains/puda"
+	"$decal" 1
+	"$decalscale" 0.25
+	"$envmap" "envmap/hav"
+//	"$envmap" "env_cubemap"
+	"$envmapmask" "decals/stains/puda_ref"
+}

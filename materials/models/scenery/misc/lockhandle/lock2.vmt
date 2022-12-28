@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$color"				"[100 99 45]"
+	"$basetexture"	"models\scenery\misc\lockhandle\lock2"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\misc\lockhandle\lock2_ref"
+	"$surfaceprop" "metal"
+
+}

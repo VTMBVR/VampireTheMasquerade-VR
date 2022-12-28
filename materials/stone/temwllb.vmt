@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"stone\temwllb"
+	"$bumpmap" "stone/temwllb_normal"
+	"$surfaceprop" "stone"
+	"$envmap" "envmap/temple3"
+	"$normalmapalphaenvmapmask" "1"
+
+}

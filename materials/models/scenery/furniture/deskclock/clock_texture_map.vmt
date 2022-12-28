@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"/models/scenery/furniture/DeskClock/Clock_texture_map"
+	"$envmap" 		"env_cubemap"
+	"$envmapmask" 	"/models/scenery/furniture/DeskClock/Clock_texturemap__envmask"
+	"$surfaceprop"	"concrete"
+}

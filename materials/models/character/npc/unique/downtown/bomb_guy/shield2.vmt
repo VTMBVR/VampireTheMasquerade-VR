@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\downtown\bomb_guy\shield2"
+	"$translucent" "1"
+
+}

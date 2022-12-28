@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "metal/doora"
+//	"$bumpmap" "metal/doora_normal"
+	"$surfaceprop" "metalpanel"
+}

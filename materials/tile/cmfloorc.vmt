@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "tile/cmfloorc"
+	"$surfaceprop" "brick"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "tile/cmfloorc_ref"
+}

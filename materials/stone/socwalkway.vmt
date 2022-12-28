@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "stone/socwalkway"
+	"$surfaceprop" "stone"
+	"$translucent" "1"
+}

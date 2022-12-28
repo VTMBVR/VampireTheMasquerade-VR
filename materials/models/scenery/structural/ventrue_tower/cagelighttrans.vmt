@@ -1,0 +1,7 @@
+"UnLitGeneric"
+{
+	"$baseTexture" 	"models/scenery/structural/Ventrue_Tower/cagelight"
+	"$alphatest" 	"1"
+	"$nocull" 		"1"
+	"$model" 		"1"
+}

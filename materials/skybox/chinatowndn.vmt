@@ -1,0 +1,5 @@
+UnlitGeneric
+{
+	"$basetexture"	"skybox\chinatowndn"
+     "$nofog" 1
+}

@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/scenery\structural\brad_rails\trntrim"
+	"$translucent" 0
+	"$nocull" 0
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"metal"
+}

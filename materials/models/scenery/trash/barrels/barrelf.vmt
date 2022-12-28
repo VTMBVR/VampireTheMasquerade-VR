@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\trash\barrels\barrelf"
+	"$surfaceprop" "metal"
+	"$alphatest"		1
+}

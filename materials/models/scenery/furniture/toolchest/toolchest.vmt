@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\toolchest\toolchest"
+	"$envmap" "env_cubemap"
+	//"$envmap"	"envmap/havenrm"
+	"$envmapmask" "models\scenery\furniture\toolchest\toolchest_ref"
+
+}

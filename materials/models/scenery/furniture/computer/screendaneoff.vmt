@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+
+	"$baseTexture"			"/models/scenery/furniture/computer/ScreenDaneOFF"
+	"$surfaceprop"			"computer"
+	"$selfillum"			"1"
+}

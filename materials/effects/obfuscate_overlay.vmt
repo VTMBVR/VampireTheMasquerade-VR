@@ -1,0 +1,9 @@
+"ScreenFeedback"
+{
+	"$modintensity"	"0"
+	"$blur"		"1"
+	"$contrast"	".9"
+	"$desaturate"	"0"
+	"$masktexture"	"effects/Obfuscate_overlay"
+//	"$antitexture"	"effects/noise_gray50_gaussian8"
+}

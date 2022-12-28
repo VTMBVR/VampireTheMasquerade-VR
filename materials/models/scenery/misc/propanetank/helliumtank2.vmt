@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\propanetank\helliumtank2"
+	"$nocull" "1"
+	"$surfaceprop" "metal"
+
+}

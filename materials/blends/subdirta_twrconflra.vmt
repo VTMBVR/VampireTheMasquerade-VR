@@ -1,0 +1,8 @@
+"WorldVertexTransition" 
+{ 
+	"$basetexture" "ground/subdirta" 
+	"$basetexture2" "concrete/twrconflra"
+
+	"$surfaceprop" "dirt"
+} 
+

@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+	"$basetexture"	"models\scenery\vehicles\train\traindoor"
+	"$surfaceprop" "metal"
+
+}

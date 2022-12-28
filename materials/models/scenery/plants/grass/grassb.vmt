@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models\scenery\plants\grass\grassb"
+	"$surfaceprop" "grass"
+	//"$nocull" "1"
+	"$translucent" 1
+	"$model" 1
+}

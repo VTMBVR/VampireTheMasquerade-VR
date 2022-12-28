@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery\structural\brad_light\brad_mtllight"
+	"$selfillum" 0
+	//"$envmap" "envmap/brass"
+	//"$envmapmask" "models/scenery\structural\brad_light\ceiling_fan_blade_envmask"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"default"
+}

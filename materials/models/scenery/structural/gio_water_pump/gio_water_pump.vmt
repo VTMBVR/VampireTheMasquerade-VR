@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\gio_water_pump\gio_water_pump"
+	"$surfaceprop" "metal"
+
+}

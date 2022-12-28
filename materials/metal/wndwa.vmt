@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "metal/wndwa"
+	"$surfaceprop" "metalpanel"
+	"$selfillum" "1"
+	"$envmap" 	"env_cubemap"
+	"$envmapmask" "metal/wndwa_ref"
+}

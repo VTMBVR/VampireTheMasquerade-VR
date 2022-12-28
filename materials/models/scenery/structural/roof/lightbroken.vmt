@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\roof\lightbroken"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\roof\light_ref"
+	"$surfaceprop" "metal"
+
+}

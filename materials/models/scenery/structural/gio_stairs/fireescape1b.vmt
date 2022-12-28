@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "metal/FireEscape1b_CLR"
+	"$surfaceprop" "metalgrate"
+}

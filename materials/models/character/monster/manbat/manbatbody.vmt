@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\monster\manbat\manbatbody"
+	"$bumpmap"	"models\character\monster\manbat\manbat_normal"
+}

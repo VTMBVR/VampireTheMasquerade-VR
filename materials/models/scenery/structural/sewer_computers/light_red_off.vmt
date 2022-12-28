@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\scenery\structural\sewer_computers\light_red_off"
+	"$surfaceprop" "metal"
+
+}

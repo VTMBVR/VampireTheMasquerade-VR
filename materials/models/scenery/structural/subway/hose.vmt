@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\subway\hose"
+	"$surfaceprop" "rubber"
+
+}

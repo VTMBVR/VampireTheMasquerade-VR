@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"wood\bchhs_ex_windowalit"
+	"$selfillum" "1"
+	"$surfaceprop" "glass"
+
+}

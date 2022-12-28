@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/sewergatea"
+	"$surfaceprop" "metal"
+	"$alphatest" 1
+	"%compilePassBullets" 1
+}

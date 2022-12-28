@@ -1,0 +1,7 @@
+"unlitgeneric"
+{
+	"$basetexture"	"objects\oilrigb"
+	"$translucent" 1
+	"$additive" 1
+
+}

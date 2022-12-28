@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\theater\storage_1"
+//	"$envmap" "envmap\theater_1"
+	\\"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"metal"
+}

@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"objects\elevpanel_inside"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "objects\elevpanel_inside_ref"
+	"$surfaceprop" "metal"
+
+}

@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\3leg_table\3legtable"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/furniture/3leg_table/3legtable_ref"
+	"$surfaceprop" "wood"
+
+}

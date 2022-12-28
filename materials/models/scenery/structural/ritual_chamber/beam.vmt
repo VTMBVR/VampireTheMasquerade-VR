@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\ritual_chamber\beam"
+	"$additive" "1"
+	"$selfillum" "1"
+	"$nocull" "1"
+
+}

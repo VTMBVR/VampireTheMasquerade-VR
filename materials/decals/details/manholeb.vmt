@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "decals/details/manholeb"
+	"$envmap"	"env_cubemap"
+	"$envmapmask"	"decals/details/manholeb_ref"
+	"$decal" 1
+	"$decalscale" 0.10
+}

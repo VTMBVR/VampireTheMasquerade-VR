@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\cars\yugo"
+	"$selfillum" "0"
+}

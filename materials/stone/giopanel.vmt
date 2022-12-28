@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"stone\giopanel"
+	"$surfaceprop" "concrete"
+	"$envmap" "envmap/gioint"
+	"$envmapmask" "effects/ref_25"
+
+
+}

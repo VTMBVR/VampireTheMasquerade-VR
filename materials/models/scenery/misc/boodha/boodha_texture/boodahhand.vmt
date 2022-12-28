@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\boodha\boodha_texture\boodahhand"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\misc\boodha\boodha_texture\boodahhand_ref"
+	"$surfaceprop" "metal"
+	"$envmaptint" "[ 1.0 0.5 0.0 ]"
+
+}

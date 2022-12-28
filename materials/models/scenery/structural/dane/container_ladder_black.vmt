@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\dane\container_ladder_black"
+	"$surfaceprop" "metal"
+
+}

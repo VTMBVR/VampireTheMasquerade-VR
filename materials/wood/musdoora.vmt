@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "wood\musdoora"
+	"$surfaceprop" "wood"
+	"$translucent" 1
+	"$envmap" "envmap/havenrm"
+	"$envmapmask" "wood\musdoora_ref"
+}

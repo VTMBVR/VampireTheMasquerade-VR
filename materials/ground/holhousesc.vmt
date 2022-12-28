@@ -1,0 +1,6 @@
+"unlitgeneric"
+{
+	"$basetexture" "ground/holhousesc"
+	"$surfaceprop" "concrete"
+	"$alphatest" 1
+}

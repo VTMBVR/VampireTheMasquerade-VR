@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"stone\obs_wina"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "stone\obs_wina_ref"
+	"$surfaceprop" "stone"
+
+}

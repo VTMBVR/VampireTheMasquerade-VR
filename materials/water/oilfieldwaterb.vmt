@@ -1,0 +1,19 @@
+"Water" 
+{ 
+     "$basetexture" "water/oilfieldwatera" 
+     "$envmap" "envmap/havdrk" 
+     "%compilewater" 1 
+     "$watertimefreq1" 0.4 
+     "$watertimefreq2" 0.62 
+     "$waterwaveheight" 0
+     "$waterwavelength" 1024
+     "$waterdepth" 64 
+     "$waterspecularmin" 0.1 
+     "$waterspecularmax" 0.55 
+     "$watercolor" "[ 0.3 0.3 0.3 ]" 
+     "$watermurkiness" 1
+     "$waterbasefactor" 1
+     "$waterbasemovementdist" 0.05 
+     "$waterbasemovementfreq" 40 
+     "$surfaceprop" "water"
+} 

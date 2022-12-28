@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\items\vacuumtubes\vacuumtubestexturebox"
+	"$nocull" "1"
+	"$surfaceprop" "default"
+
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/misc/wall_clock/clocktrim"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_100"
+	"$surfaceprop"				"wood"
+}

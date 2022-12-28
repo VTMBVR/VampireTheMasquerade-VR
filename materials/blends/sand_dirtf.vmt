@@ -1,0 +1,8 @@
+"WorldVertexTransition" 
+{ 
+     	"$basetexture" "ground/piersandb" 
+     	"$basetexture2" "ground/dirtf"
+	"$surfaceprop" "dirt"
+	"%detailtype" "grass"
+} 
+

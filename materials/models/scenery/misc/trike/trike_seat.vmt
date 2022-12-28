@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+
+	"$baseTexture"				"models/scenery/misc/trike/trike_seat"
+	"$translucent"				0
+	"$alpha"				1
+	"$envmapmask" "effects/ref_50"
+	"$envmap" 				"env_cubemap"
+}

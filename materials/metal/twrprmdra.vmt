@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "metal/twrprmdra"
+	"$envmapmask" "metal/twrprmdra_ref"
+	"$surfaceprop" "metal"
+	"$envmap" 	"env_cubemap"
+}

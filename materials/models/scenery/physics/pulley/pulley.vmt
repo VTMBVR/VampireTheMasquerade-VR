@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/physics/pulley/pulley"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"metal"
+}

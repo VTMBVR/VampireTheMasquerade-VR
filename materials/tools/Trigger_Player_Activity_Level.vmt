@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+	"$basetexture"	"tools\trigger_player_activity_level"
+	"$translucent" "1"
+
+}

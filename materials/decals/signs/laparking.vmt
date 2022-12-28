@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\signs\laparking"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.400"
+	"$surfaceprop" "wood"
+
+}

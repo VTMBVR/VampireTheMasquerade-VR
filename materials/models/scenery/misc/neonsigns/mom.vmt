@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\neonsigns\mom"
+	"$nocull"			1
+
+}

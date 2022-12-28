@@ -1,0 +1,5 @@
+"UnlitGeneric" 
+{ 
+     "$basetexture" "skybox/holylightDN"
+     "$nofog" 1
+}

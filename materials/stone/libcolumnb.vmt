@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "stone/libcolumnb"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_50"
+	"$surfaceprop" "concrete"
+}

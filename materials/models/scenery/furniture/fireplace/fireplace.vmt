@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\furniture\fireplace\fireplace"
+//	"$envmap" "envmap/havenrm"
+	"$envmapmask" "effects/ref_25"
+	"$surfaceprop" "concrete"
+	"$envmap" 				"env_cubemap"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/plants/palmtree/palmtree"
+	"$surfaceprop" "wood"
+	"$alphatest" "1"
+}

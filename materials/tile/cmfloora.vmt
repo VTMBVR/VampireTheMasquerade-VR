@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "tile/cmfloora"
+	"$surfaceprop" "tile"
+	//"$envmap" "env_cubemap"
+	//"$envmapmask" "tile/cmfloora_ref"
+}

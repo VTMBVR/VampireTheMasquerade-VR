@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\Pipes\metal_pipe_green01"
+	"$selfillum" "0"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"metal"
+}

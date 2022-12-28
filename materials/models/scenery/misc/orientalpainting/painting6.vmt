@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\orientalpainting\painting6"
+	"$surfaceprop" "default"
+
+}

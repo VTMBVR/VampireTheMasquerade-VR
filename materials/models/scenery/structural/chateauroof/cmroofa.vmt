@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "tile/cmroofa"
+	"$surfaceprop" "brick"
+}

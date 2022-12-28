@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\gate\whole"
+	"$nocull"			1
+
+}

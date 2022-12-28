@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "tile/libfloorb"
+	"$surfaceprop" "tile"
+	"$envmap" "envmap/pwnshpcntr"
+	"$envmapmask" "tile/libfloora_ref"
+}

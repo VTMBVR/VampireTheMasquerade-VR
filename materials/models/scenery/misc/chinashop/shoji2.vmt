@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\chinashop\shoji2"
+	"$nocull" "1"
+
+}

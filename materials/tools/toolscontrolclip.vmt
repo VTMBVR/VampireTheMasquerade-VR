@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "Tools/toolscontrolclip"
+	"%compileplayercontrolclip" 1
+	"$surfaceprop" "player_control_clip"
+	"%keywords" "Tools"
+}

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/furniture/toilet2/toiletarod2"
+	"$surfaceprop"				"metal"
+}

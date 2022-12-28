@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\ceilinglightb\ceilinglight"
+	"$selfillum" "1"
+
+}

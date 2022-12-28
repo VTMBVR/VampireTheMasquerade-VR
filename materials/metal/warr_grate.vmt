@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture" "metal/warr_grate"
+	"$surfaceprop" "metalgrate"
+	"$alphatest" 1
+	"%compilePassBullets" 1
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\downtown\VV\VV_face"
+	//"$selfillum"	"1"
+}	
+

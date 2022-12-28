@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\gibs\tsimbodytexture3"
+	"$bumpmap"	"models\character\monster\tzimisce\creation3\tsim3normal"
+	"$envmap"	"envmap\asylum"
+	"$surfaceprop" "flesh"
+
+}

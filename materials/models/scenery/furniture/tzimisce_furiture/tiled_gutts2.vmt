@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\tzimisce_furiture\tiled_gutts2"
+	"$translucent" "1"
+	"$surfaceprop" "default"
+
+}

@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "ground/ritualgroundc"
+	"$envmap" "envmap/blood"
+	"$envmapmask" "ground/ritualgroundc_ref"
+	"$surfaceprop" "brick"
+
+}

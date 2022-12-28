@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+	"$basetexture"	"hud\itemframe"
+	"$translucent" "1"
+	"$additive" "1"
+	"$ignorez" "1"
+
+}

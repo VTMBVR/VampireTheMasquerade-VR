@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\monster\manbat\backhairandtongue"
+	"$translucent"	"1"
+	"$nocull" "1"
+}

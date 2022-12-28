@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "plaster/manwndwa"
+	"$surfaceprop" "plaster"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "plaster/manwndwa_ref"
+	"$selfillum" "1"
+}

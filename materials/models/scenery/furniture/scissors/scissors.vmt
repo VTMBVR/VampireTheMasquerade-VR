@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\scissors\scissors"
+	"$surfaceprop" "metal"
+
+}

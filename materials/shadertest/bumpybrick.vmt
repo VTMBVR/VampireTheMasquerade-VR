@@ -1,0 +1,5 @@
+"WorldDiffuseBumpmap"
+{
+	"$basetexture" "shadertest/WorldDiffuseBumpmap"
+	"$bumpmap" "shadertest/WorldDiffuseBumpmap_normal"
+}

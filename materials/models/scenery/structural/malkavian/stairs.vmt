@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/malkavian/stairs"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/structural/malkavian/stairs_ref"
+	"$alphatest" "1"
+	"$nocull" "1"
+}

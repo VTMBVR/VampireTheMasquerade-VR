@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\society\pedestal"
+	"$envmapmask" "models\scenery\structural\society\pedestal_spec"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "wood"
+
+
+
+}

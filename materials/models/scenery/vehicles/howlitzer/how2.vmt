@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\vehicles\howlitzer\how2"
+//	"$nocull"			1
+
+}

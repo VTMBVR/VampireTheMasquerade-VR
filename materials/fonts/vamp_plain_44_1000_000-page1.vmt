@@ -1,0 +1,9 @@
+UnlitGeneric
+{
+      "$basetexture"   "fonts\Vamp_Plain_44_1000_000-page1"
+      "$ignorez" "1"
+      "$translucent" "1"
+      "$vertexcolor" "1"
+      "$vertexalpha" "1"
+      "$no_fullbright" "1"
+}

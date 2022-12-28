@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\kitchen_knife\kitchen_knife"
+	"$surfaceprop" "metal"
+
+}

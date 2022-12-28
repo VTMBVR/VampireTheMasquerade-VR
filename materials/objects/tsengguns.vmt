@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"objects\tsengguns"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "objects\tsengguns_ref"
+	"$surfaceprop" "wood"
+
+}

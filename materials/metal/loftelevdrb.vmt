@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"metal\loftelevdrb"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "metal\loftelevdrb_ref"
+	"$surfaceprop" "metal"
+
+}

@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$surfaceprop" "concrete"
+	"$basetexture" "concrete/libfloora"
+	"$envmap" "envmap/havbthrm"
+	"$envmapmask" "concrete/libfloora_ref"
+	"$surfaceprop" "concrete"
+}

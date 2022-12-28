@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/furniture/securitycam/black_trim"
+	"$envmap" "envmap/asylum"
+	"$envmapmask" "effects/ref_12"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"metal"
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\monster\mingxiao\babymingxiao"
+	"$envmap" "envmap\asylum"
+	"$bumpmap"	"models\character\monster\mingxiao\babymingxiaonormal"
+
+}

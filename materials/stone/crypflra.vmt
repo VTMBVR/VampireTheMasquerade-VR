@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "stone/crypflra"
+	"$bumpmap" "stone/crypflra_normal"
+}

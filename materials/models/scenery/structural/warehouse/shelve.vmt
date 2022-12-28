@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/warehouse/shelve"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/structural/warehouse/shelve_ref"
+}

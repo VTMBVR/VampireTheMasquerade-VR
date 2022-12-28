@@ -1,0 +1,25 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "water/socwatera"
+	"$envmap" "env_cubemap"	
+	"$envmapmask" "effects/ref_100"
+	"$bumpmap" "dev/water_dudv"
+	//"$bumpmap" "water/soc_normal"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$bumpmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumpoffset"
+			"texturescrollrate" .1
+			"texturescrollangle" 45.00
+		}
+	}
+}

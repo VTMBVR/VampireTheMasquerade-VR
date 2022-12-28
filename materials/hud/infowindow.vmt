@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+	"$basetexture"	"hud\infowindow"
+	"$translucent" "1"
+	"$ignorez" "1"
+
+}

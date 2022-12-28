@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\museum_lab_props\pl_bag_64"
+	"$envmapmask" "effects/ref_25"
+	"$envmap" 				"env_cubemap"
+	
+	"$surfaceprop" "default"
+
+}

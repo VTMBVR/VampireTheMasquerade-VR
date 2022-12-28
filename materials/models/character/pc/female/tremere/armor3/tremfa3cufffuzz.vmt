@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\pc\female\tremere\armor3\tremfa3cufffuzz"
+	"$translucent" "1"
+
+}

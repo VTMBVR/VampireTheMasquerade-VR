@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "stone/libcolumnc"
+	"$envmap" "envmap/havbthrm"
+	"$envmapmask" "stone/libcolumnc_ref"
+	"$surfaceprop" "concrete"
+	\\"$bumpmap" "stone/libcolumnc_normal"
+	\\"$normalmapalphaenvmapmask" 1
+}
+

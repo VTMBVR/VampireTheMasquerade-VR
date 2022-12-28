@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "metal/lawelevdrs"
+	"$surfaceprop" "metal"
+	"$envmap" "envmap/pwnshpcntr"
+	"$envmapmask" "metal/lawelevdrs_ref"
+}

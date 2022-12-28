@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "plaster/sntawndwa"
+	"$surfaceprop" "plaster"
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "plaster/sntawndwa_ref"
+}

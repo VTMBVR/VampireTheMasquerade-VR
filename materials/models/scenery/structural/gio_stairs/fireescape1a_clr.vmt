@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	\\"$translucent" 1
+	"$alphatest" 1
+	"$basetexture" "metal/FireEscape1a_CLR"
+	"%compilePassBullets" 1
+}

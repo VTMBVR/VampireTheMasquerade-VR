@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/character/pc/male/nosferatu/armor3/Nos3MBody"
+	"$envmapmask"	"models/character/pc/male/nosferatu/armor3/Nos3MBodySpec"
+	"$envmap" 	"env_cubemap"
+}

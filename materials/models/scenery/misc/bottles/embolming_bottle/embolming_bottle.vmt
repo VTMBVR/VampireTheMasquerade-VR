@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\bottles\embolming_bottle\embolming_bottle"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\misc\bottles\embolming_bottle\embolming_bottle_envmap"
+	"$surfaceprop" "default"
+
+}

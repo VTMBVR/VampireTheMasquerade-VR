@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/misc/water_heater/tank"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "metal"
+	"$envmapmask" "models/scenery/misc/water_heater/tank_ref"
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\items\occult\amber"
+	"$surfaceprop" "default"
+
+}

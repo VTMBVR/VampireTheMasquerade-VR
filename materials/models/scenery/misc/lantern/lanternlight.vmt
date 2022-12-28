@@ -1,0 +1,6 @@
+UnLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\lantern\lanternlight"
+	"$surfaceprop" "default"
+	"$model"        "1"
+}

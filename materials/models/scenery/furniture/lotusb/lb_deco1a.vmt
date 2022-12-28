@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery\furniture\LotusB/lb_deco1a"
+	"$alphatest" 1
+	"$surfaceprop" "wood"
+}

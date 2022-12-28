@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"objects\freezerwlla"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "objects\freezerwlla_ref"
+	"$surfaceprop" "metal"
+
+}

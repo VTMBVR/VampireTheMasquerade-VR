@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\tzimisce_furiture\blood_pole"
+	"$surfaceprop" "default"
+
+}

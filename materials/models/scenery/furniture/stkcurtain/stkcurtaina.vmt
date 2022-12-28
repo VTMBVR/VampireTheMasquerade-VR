@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "drapery/stkcurtaina"
+	"$translucent" 1
+	"$nocull" 1
+}

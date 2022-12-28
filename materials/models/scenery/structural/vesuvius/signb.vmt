@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"models\scenery\structural\vesuvius\signb"
+	"$alphatest" "1"
+	"$surfaceprop" 	"metal"
+}

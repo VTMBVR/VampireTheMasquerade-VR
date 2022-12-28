@@ -1,0 +1,10 @@
+LightMappedGeneric
+{
+	"$basetexture"	"decals\structural\twrbllflra"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.5"
+	"$envmap" "envmap/ballroom" 
+	"$envmapmask" "decals/structural/twrbllflra_ref"
+
+}

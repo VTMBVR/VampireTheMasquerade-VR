@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\vehicles\taxi\taxicab_windows_broken"
+	"$translucent" "1"
+
+}

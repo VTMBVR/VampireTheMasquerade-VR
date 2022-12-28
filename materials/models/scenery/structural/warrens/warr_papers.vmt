@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+	"$basetexture"	"models\scenery\structural\warrens\warr_papers"
+	"$model" 			"1"
+	"$surfaceprop" "paper"
+
+}

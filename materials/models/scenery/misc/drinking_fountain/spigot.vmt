@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/misc/lib_fountain/spigot"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_75"
+	"$surfaceprop" "metal"
+
+}

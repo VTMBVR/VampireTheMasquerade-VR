@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/misc/bones/skull"
+	"$envmapmask" "effects/ref_25"
+	"$envmap" 				"env_cubemap"
+}

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/street/phonebooth/PhoneboothPhone"
+	"$selfIllum"				1
+}

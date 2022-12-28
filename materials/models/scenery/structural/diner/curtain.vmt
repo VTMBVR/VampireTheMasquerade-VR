@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/diner/curtain"
+	"$translucent" 1
+	"$nocull" "1"
+}

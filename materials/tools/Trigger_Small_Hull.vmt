@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"tools\trigger_small_hull"
+	"$translucent" "1"
+}

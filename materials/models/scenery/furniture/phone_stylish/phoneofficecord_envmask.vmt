@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"				"/models/scenery/furniture/phone_stylish/phoneofficecord_envmask"
+	"$selfIllum"				0
+	"$translucent"				0
+	"$alpha"				1
+	"$normalmapalphaenvmapmask" 		1
+	"$bumpMap"				"/models/scenery/furniture/Phone_stylish/phoneofficecord_normal"
+	"$envmap" 				"env_cubemap"
+//	"$envmap" 				"/envmap/asylum"
+	"$surfaceprop"				"plastic"
+}

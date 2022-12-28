@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "objects/sewersign"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_25"
+}

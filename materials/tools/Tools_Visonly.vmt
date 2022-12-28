@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Tools/tools_visonly"
+	"$surfaceprop" "default_silent"
+	"%compilenodraw" 1
+	"%compilelightpass" 1
+
+}

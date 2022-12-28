@@ -1,0 +1,9 @@
+"WorldVertexTransition" 
+{ 
+     	"$basetexture" "ground/piersandb" 
+     	"$basetexture2" "grass/grassa"
+	"$surfaceprop" "dirt"
+	"%detailtype" "grassonly"
+
+} 
+

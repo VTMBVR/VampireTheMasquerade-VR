@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/blackrails"
+	"%compilePassBullets" 1
+	"$alphatest" 1
+}

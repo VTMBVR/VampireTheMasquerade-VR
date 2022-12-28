@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\items\kamikazizen\kamikazizen"
+	"$surfaceprop" "default"
+
+}

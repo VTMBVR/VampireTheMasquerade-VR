@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/character/pc/male/malkavian/armor3/MalkMA3fur"
+	"$translucent"	"1"
+	"$fuzztexture" "models/character/pc/male/malkavian/armor3/MalkMA3fur"
+	"$fuzzoffset"	".7"
+	"$fuzzedgeopacity"	"1"
+	"$fuzzfaceopacity"	"2"
+	
+
+}
+	

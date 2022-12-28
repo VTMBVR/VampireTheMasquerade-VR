@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/vehicles/Helicopter/canopy"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/vehicles/Helicopter/canopy_ref"
+	"$Translucent"	"1"
+}

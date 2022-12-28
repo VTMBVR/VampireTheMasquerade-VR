@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\tseng\scale"
+	"$envmap" 		"env_cubemap"
+	"$envmapmask" 	"models\scenery\structural\tseng\scale_ref"
+	"$surfaceprop" 	"metal"
+	"$translucent" 	"1"
+	"$nocull" 		"1"
+
+}

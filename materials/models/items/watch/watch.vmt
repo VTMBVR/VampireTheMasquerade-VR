@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\items\watch\watch"
+	"$envmapmask"	"models\items\watch\watch_ref"
+	"$envmap"	"envmap/havenrm"
+	"$envmapmode" "1"
+
+}

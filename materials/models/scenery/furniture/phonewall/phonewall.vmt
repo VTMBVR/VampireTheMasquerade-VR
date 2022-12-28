@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/furniture/PhoneWall/PhoneWall"
+	"$envmap" "env_cubemap"	
+	"$envmapmask" "models/scenery/furniture/PhoneWall/PhoneWall_ref"
+}

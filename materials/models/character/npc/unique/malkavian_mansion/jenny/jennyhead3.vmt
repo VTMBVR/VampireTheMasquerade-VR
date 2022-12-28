@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\malkavian_mansion\jenny\jennyhead3"
+	"$translucent" "1"
+
+}

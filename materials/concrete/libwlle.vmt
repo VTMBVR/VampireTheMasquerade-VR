@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$surfaceprop" "concrete"
+	"$basetexture" "concrete/libwlle"
+	"$surfaceprop" "concrete"
+	"$bumpmap" "concrete/libwlle_normal"
+}

@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/pipes/rusty_pipes/ducta"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/pipes/rusty_pipes/ducta_ref"
+	"$surfaceprop" "metal"
+
+}

@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\items\locket\locket"
+	//"$envmap" "env_cubemap"
+	"$envmap"	"envmap/havenrm"
+	"$envmapmask" "models\items\locket\locket_ref"
+
+}

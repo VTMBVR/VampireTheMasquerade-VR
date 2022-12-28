@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/chelevdoorsa"
+	"$surfaceprop" "metal"
+	"$envmap" "envmap/asylum"
+	"$envmapmask" "metal/elevdoorsa_ref"
+}

@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\malkavian\loungechair"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\malkavian\loungechair_ref"
+	"$surfaceprop" "cloth"
+
+}

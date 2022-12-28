@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery\furniture\ascandle\ascndlwx"
+	"$selfillum" "1"
+	"$surfaceprop"				"plastic"
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\intercom2\intercom2"
+	"$surfaceprop" "default"
+
+}

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/plants/populus/low_trans"
+	"$translucent" 1
+}

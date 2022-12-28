@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\vanity\vanity"
+	"$envmapmask" "models\scenery\furniture\vanity\vanity_ref"
+	/"$envmap"	"envmap/havenrm"
+	"$envmap" "env_cubemap"
+	"$envmapmode" "1"
+	"$SelfIllum"	"1"
+
+}

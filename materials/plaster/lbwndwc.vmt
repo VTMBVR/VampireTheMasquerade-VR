@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "plaster/lbwndwc"
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "plaster/lbwndwc_ref"
+	"$surfaceprop" "plaster"
+	"$selfillum" "1"
+}

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/character/pc/female/tremere/armor0/Trem_femamor0misc"
+	"$translucent" 1
+}

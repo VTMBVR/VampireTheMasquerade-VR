@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\mailbox2\mailbox"
+	"$nocull" "1"
+	"$surfaceprop" "metal"
+
+}

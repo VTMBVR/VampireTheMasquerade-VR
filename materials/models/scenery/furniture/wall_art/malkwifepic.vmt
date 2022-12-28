@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\wall_art\malkwifepic"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\furniture\wall_art\malkwifepic_ref"
+	"$surfaceprop" "cloth"
+
+}

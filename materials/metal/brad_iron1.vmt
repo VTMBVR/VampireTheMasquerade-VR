@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/brad_iron1"
+	"$translucent" 1
+	"%compilePassBullets" 1
+}

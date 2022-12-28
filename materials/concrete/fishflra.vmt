@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"concrete\fishflra"
+	"$envmap" "env_cubemap"
+	"$bumpmap" "concrete\fishflra_normal"
+	"$normalmapalphaenvmapmask" "1"
+	"$surfaceprop" "concrete"
+
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\liquidcooler\cooler3"
+	"$nocull" "1"
+	"$surfaceprop" "metal"
+
+}

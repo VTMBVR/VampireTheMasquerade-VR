@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\common\corpse\torsoback"
+	"$surfaceprop" "default"
+
+}

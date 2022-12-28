@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/structural/italian/tablecloth"
+	"$surfaceprop" "cloth"
+	"$nocull" "1"
+}

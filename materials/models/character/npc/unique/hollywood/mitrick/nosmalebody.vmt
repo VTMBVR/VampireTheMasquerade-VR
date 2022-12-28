@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\hollywood\mitrick\nosmalebody"
+	"$envmapmask"	"models\character\npc\unique\hollywood\mitrick\nosmalebodySpec"
+	"$envmap" 	"env_cubemap"
+}

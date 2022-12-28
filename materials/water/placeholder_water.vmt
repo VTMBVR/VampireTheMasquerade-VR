@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{ 
+	"$basetexture" "water/oilfieldwatera" 
+	"$envmap" "env_cubemap"
+	"$translucent" 1
+	"$surfaceprop" "water"
+
+} 

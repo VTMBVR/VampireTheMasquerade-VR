@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\malkavian\malk_candle"
+	"$surfaceprop" "metal"
+
+}

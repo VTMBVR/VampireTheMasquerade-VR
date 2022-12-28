@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{	
+	"$basetexture" "models/scenery/furniture/Computer_New/LCD"
+	"$color"				"[1 1 1]"
+//	"$envmap" "envmap/asylum"
+	"$alpha"				1
+//	"$envmapmask" "effects/ref_100"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"plastic"
+	"$selfIllum"				1
+}

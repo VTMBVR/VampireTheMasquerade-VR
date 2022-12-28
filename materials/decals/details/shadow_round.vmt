@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+	"$basetexture"	"decals\details\shadow_round"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.250"
+
+}

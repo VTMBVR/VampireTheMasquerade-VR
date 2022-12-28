@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ground/streetb"
+	"$surfaceprop" "rock"
+     "%detailtype" "trash" 
+	"$envmap" "env_cubemap"
+	"$envmapmask" "ground/streetb_ref"
+}

@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\structural\parkingb"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" ".25"
+
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery\signs\asylum\asylumfrnt"
+	"$selfillum" "1"
+	"$surfaceprop" "glass"
+}

@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "Decals/stains/sewersludgea"
+	"$decal" 1
+	"$decalscale" 0.25
+	//"$envmap" "envmap/hav"
+	//"$envmapmask" "Decals/stains/sewersludgea_ref"
+}

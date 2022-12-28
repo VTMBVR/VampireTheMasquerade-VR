@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/character/eyes/tsimcreat1R"
+	"$selfillum"	"1"
+	"nomip"
+}

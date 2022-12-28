@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\prep_room_curtain\prep_room_curtain"
+	"$surfaceprop" "cloth"
+
+}

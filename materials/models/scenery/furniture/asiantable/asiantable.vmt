@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\asiantable\asiantable"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/furniture/asiantable/asiantable_ref"
+
+}

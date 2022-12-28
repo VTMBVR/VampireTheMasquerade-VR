@@ -7,7 +7,7 @@ Layer0
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "vpkcontent/materials/asphalt/tut_asphalt.tga"
+	TextureColor "materials/asphalt/tut_asphalt.tga"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
@@ -23,7 +23,7 @@ Layer0
 	g_flMetalness "0.000"
 
 	//---- Normal ----
-	TextureNormal "vpkcontent/materials/asphalt/asphalta_normal.tga"
+	TextureNormal "materials/materials/asphalt/asphalta_normal.tga"
 
 	//---- Roughness ----
 	TextureRoughness "materials/default/default_rough.tga"

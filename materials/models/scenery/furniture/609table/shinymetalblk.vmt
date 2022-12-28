@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/furniture/609table/shinymetalblk"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_25"
+}

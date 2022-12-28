@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "stone/gioflra"
+	"$surfaceprop" "concrete"
+	"$envmap" "envmap/gioint"
+	"$envmapmask" "effects/ref_50"
+}

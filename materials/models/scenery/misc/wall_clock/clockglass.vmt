@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/misc/wall_clock/clockglass"
+	"$envmap" "env_cubemap"
+	"$translucent" 1
+	"$surfaceprop" "glass"
+}

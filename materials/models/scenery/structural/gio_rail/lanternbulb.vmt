@@ -1,0 +1,9 @@
+"unLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/gio_rail/lanternbulb"
+	"$envmap" "env_cubemap"
+//	"$translucent" 1
+	"$surfaceprop" "glass"
+	"$envmapmask" "effects/ref_25"
+	"$model" 1
+}

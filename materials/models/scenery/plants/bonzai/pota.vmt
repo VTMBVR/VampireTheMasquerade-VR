@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\plants\bonzai\pota"
+	"$surfaceprop"				"brick"
+}

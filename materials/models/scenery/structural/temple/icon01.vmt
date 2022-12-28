@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\temple\icon01"
+	"$surfaceprop" "stone"
+
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\dragon\claw"
+	"$selfillum" "1"
+
+}

@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/street/lamppost/lamppostglss"
+	"$additive" 1
+//	"$envmap" "envmap/pwnshpcntr"
+	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"glass"
+}

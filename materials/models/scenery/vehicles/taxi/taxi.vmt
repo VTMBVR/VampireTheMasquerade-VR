@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"		"models\scenery\vehicles\taxi\taxi"
+	"$selfillum"		"1"
+//	"$envmap"		"envmap/sewer"
+	"$envmap"		"env_cubemap"
+	"$envmapmask"		"models\scenery\vehicles\taxi\taxi_ref"
+	"$surfaceprop"		"metal"
+
+}

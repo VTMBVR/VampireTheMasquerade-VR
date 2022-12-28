@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/structural/storefront/bara"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"metal"
+}

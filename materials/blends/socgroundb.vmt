@@ -1,0 +1,5 @@
+"WorldVertexTransition" 
+{
+     "$basetexture" "ground/dirtb"
+     "$basetexture2" "blends/groundc" 
+}

@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"plaster\netceila"
+	"$selfillum" "1"
+	"$surfaceprop" "plaster"
+
+}

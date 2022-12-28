@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "concrete/musbasea"
+	"$surfaceprop" "brick"
+}

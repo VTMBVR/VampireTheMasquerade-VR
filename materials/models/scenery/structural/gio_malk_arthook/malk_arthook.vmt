@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\gio_malk_arthook\malk_arthook"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\gio_malk_arthook\malk_arthook_envmap"
+	"$surfaceprop" "metal"
+
+}

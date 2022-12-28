@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\controlpanel\chainlinka"
+	"$nocull" 				1
+	"$alphatest"				1
+}

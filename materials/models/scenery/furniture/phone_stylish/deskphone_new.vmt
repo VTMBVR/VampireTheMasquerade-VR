@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/furniture/phone_stylish/deskphone_new"
+	"$envmapmask" "effects/ref_25"
+	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"plastic"
+	"$selfIllum"				1
+}

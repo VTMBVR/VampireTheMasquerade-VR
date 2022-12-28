@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/pipes/rusty_pipes/rustycornera"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$surfaceprop" "metal"
+	"$bumpmap" "models/scenery/pipes/rusty_pipes/rustycornera_normal"
+}

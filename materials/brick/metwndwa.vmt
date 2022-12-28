@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"brick\metwndwa"
+	"$selfillum" "1"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "brick\metwndwa_ref"
+	"$surfaceprop" "brick"
+
+}

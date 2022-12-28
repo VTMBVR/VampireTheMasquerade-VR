@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/physics/plank/plank"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"wood"
+}

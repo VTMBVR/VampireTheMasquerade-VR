@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\signs\speed"
+	"$surfaceprop" "metal"
+//	"$envmap" "envmap/hav"
+	"$envmapmask" "models\scenery\signs\speed_ref"
+	"$envmap" 				"env_cubemap"
+
+}

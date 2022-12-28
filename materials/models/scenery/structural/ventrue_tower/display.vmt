@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\ventrue_tower\display"
+	"$selfillum" "1"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\ventrue_tower\display_ref"
+	"$surfaceprop" "plaster"
+
+}

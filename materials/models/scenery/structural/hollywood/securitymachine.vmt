@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/hollywood/securitymachine"
+	"$surfaceprop"	"metalpanel"
+	"$envmap" 		"env_cubemap"
+	"$envmapmask" 	"models/scenery/structural/hollywood/securitymachine_ref"
+}

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "wood/boardwalka"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "wood/boardwalka_ref"
+	"$surfaceprop" "wood"
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\tzimisce_furiture\ceiling_guts2"
+	"$translucent" "1"
+
+}

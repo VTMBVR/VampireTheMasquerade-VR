@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\fishtank\shells"
+	/"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\furniture\fishtank\shells_ref"
+	"$envmap"	"envmap/havenrm"
+
+}

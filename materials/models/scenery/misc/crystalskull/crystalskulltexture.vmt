@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\crystalskull\crystalskulltexture"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\misc\crystalskull\crystalskulltexture_ref"
+	"$surfaceprop" "glass"
+
+}

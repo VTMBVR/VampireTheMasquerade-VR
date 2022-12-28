@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"wood\hotdra"
+	"$selfillum" "1"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "wood\hotdra_ref"
+	"$surfaceprop" "wood"
+
+}

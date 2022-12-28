@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+	"$basetexture"	"models\character\monster\animalism_raven\animalism_raven"
+	"$alphatest" "1"
+	"$model"	"1"
+	"$nocull"	"1"
+
+}

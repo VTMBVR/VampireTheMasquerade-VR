@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\laundry\dryer"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\furniture\laundry\dryer_ref"
+	"$surfaceprop" "metal"
+
+}

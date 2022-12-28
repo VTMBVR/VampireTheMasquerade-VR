@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery\structural\ceiling_fan\ceiling_fan_bladew"
+//	"$envmap" "envmap/brass"
+	"$envmapmask" "models/scenery\structural\ceiling_fan\ceiling_fan_blade_envmask"
+	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"wood"
+}

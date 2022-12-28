@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\bio_container\bio_container"
+	"$surfaceprop" "plastic"
+
+}

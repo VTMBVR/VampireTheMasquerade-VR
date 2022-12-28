@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\tseng\stringlights"
+	"$translucent" "1"
+	"$surfaceprop" "cloth"
+	"$nocull" 	"1"
+
+}

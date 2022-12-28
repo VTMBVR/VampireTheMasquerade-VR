@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "plaster\hotdra"
+	"$surfaceprop" "plaster"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "plaster\hotdra_ref"
+	"$selfillum" "1"
+}

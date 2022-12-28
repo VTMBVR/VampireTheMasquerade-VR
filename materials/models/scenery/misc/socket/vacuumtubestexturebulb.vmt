@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\items\vacuumtubes\vacuumtubestexturebulb"
+	"$translucent" 1
+//	"$nocull" "1"
+	"$alpha"				"1"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\items\vacuumtubes\vacuumtubestexturebulb_ref"
+//	"$envmap"				"envmap/haven"
+//	"$envmapmask"				"effects/ref_75"
+	"$surfaceprop" "default"
+
+}

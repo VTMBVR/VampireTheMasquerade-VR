@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "metal/BlackSteelPatern_CLR"
+	"$surfaceprop" "metalgrate"
+}

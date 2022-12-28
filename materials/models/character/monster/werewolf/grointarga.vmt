@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\monster\werewolf\grointarga"
+	"$translucent" "1"
+
+}

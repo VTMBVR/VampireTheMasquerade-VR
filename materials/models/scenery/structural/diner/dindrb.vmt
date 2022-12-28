@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "plaster/dindrb"
+	"$surfaceprop" "plaster"
+	"$selfillum" "1"
+}

@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "wood/temgatedoor"
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "wood/temgatedoor_ref"
+}

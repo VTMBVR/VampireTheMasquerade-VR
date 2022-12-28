@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/jewelry/ceilingarchdetail"
+	"$surfaceprop" "plaster"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/structural/jewelry/ceilingarchdetail_ref"
+	"$envmaptint" "[0.52 0.36 0.25]"
+}

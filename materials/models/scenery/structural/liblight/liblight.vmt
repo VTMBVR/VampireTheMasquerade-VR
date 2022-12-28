@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/liblight/liblight"
+//	"$envmap" "envmap/havenrm"
+	"$envmapmask" "effects/ref_25"
+      "$surfaceprop" "metal"
+	"$envmap" 				"env_cubemap"
+
+}

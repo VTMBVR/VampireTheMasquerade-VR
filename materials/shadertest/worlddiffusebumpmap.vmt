@@ -1,0 +1,8 @@
+"WorldDiffuseBumpmap"
+{
+	"$basetexture" "shadertest/WorldDiffuseBumpmap"
+	"$bumpmap" "shadertest/WorldDiffuseBumpmap_normal"
+	"$envmap" "shadertest/cubemap"
+	"$envmapmask" "shadertest/spheremask"
+	"$envmaptint" "[ 0.30 0.30 0.30 ]"
+}

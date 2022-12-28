@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\temple\pedestaltop"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/structural/temple/pedestaltop_ref"
+
+}

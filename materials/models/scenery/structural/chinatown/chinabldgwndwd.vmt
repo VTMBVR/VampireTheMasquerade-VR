@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"building\chinabldgwndwd"
+	"$surfaceprop" "plaster"
+
+}

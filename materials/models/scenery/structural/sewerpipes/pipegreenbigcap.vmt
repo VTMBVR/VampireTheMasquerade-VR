@@ -1,0 +1,15 @@
+
+"VertexLitGeneric"
+{
+
+	"$color"				"[1 1 1]"
+	"$baseTexture"				"/models/scenery/structural/sewerpipes/pipegreenbigcap"
+	"$selfIllum"				0
+	"$translucent"				0
+//	"$alpha"				1
+//	"$normalmapalphaenvmapmask" 		1
+//	"$bumpMap"				"/models/scenery/structural/sewerpipes/PipeBigCap_Normal"
+//	"$envmap" 				"env_cubemap"
+//	"$envmap" 				"/envmap/asylum"
+	"$surfaceprop"				"metal"
+}

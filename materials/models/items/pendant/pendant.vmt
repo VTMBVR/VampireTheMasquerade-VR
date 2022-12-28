@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\items\pendant\pendant"
+	"$envmapmask" "models\items\pendant\pendant_ref"
+	"$envmap"	"envmap/havenrm"
+	"$envmapmode" "1"
+
+}

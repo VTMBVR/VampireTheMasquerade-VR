@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\fetishstatue\fetishtexture"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\misc\fetishstatue\fetishtexture_ref"
+	"$surfaceprop" "metal"
+
+}

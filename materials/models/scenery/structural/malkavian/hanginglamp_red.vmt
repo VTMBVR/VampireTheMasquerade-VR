@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/malkavian/hanginglamp_red"
+	"$surfaceprop" "metal"
+	"$nocull" "1"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/structural/malkavian/hanginglamp_ref"
+	"$selfillum" "1"
+}

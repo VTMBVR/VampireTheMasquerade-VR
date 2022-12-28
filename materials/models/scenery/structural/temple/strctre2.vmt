@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\temple\strctre2"
+	"$surfaceprop" "metal"
+
+}

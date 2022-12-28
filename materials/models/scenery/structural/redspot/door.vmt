@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/redspot/door"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/structural/redspot/door_ref"
+	"$translucent" 1
+	"$surfaceprop" "glass"
+}

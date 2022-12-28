@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/misc/wall_clock/hands"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"metal"
+}

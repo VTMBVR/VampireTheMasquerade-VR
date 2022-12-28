@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "building/wrhsbldgg"
+	"$surfaceprop" "metalpanel"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "building/wrhsbldgg_ref"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/medical/stairs"
+	"$envmap" 		"env_cubemap"
+	"$envmapmask" 	"models/scenery/structural/medical/stairs_ref"
+}

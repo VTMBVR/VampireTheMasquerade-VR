@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/redspot/redspotlights"
+	"$surfaceprop" "glass"
+	"$selfillum" "1"
+}

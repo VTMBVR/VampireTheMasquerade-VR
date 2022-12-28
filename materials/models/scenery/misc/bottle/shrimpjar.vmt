@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+
+	"$color"				"[1 1 1]"
+	"$baseTexture"				"/models/scenery/misc/bottle/shrimpjar"
+	"$selfIllum"				0
+	"$translucent"				1
+	"$alpha"				1
+//	"$envmap" "envmap/haven"
+	"$envmapmask" "effects/ref_25"
+	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"glass"
+}
