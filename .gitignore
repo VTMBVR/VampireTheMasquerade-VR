@@ -3,8 +3,7 @@ sounds/music/
 *.tth
 *.ttz
 *.vtf
-*.mdl
-*.phy
+*.vmt
 *.vtx
 VpkContent.rar
 materials_manual.rar
