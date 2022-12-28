@@ -1,0 +1,20 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\santa_monica\ghost\ghost_hair2"
+//	"$translucent" "1"
+	"$selfillum"	"1"
+	"$additive"	"1" 
+	"Proxies"
+	{
+		// This sine proxy will put its result in $temp
+		"Sine"
+		{
+			"resultVar"	"$selfillumtint"
+			"sineperiod"	2
+			"sinemin"	0
+			"sinemax"	1
+			"timeoffset"	3
+		}
+
+	}
+}

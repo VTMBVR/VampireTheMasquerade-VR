@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$basetexture" "building/labldg47"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "building/labldg47_ref"
+	"$selfillum" 1
+}

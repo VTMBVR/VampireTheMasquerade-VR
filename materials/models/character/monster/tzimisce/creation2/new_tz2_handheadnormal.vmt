@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\monster\tzimisce\creation2\new_tz2_handheadnormal"
+	"$bumpmap" "models\character\monster\tzimisce\creation2\new_tz2_handheadnormal_normal"
+
+}

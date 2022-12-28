@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\lampfancyhotel\lfh"
+	"$selfIllum"				1
+	"$nocull"				1
+
+}

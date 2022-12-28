@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\controlpanel\controlpanel3"
+	"$nocull" "1"
+
+}

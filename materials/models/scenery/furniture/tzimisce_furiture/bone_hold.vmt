@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\tzimisce_furiture\bone_hold"
+	"$surfaceprop" "bone"
+
+}

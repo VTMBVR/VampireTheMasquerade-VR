@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\boiler\boiler6"
+	"$nocull"			1
+
+}

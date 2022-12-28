@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\elephantboodha\elephantbase1"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\misc\elephantboodha\elephantbase1_ref"
+	"$surfaceprop" "metal"
+
+}

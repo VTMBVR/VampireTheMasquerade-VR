@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+
+	"$color"				"[1 1 1]"
+	"$baseTexture"				"/models/scenery/furniture/nightstand/nightstandnoalpha"
+	"$selfIllum"				0
+	"$translucency"				0
+	"$alpha"				1
+	"$surfaceprop"				"wood"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_12"
+}

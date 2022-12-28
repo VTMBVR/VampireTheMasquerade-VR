@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\monster\animalism_beetle\animalism_beetle"
+	"$selfillum" "1"
+
+}

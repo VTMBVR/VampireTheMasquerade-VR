@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "brick/trnwina"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "brick/trnwina_ref"
+}

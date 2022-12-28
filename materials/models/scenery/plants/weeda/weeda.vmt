@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models\scenery\plants\weeda\weeda"
+	"$surfaceprop" "dirt"
+	"$translucent" 1
+	"$model" 1
+}

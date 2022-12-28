@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\tzimisce_furiture\tz_creature"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\furniture\tzimisce_furiture\TZ_creature_env"
+	"$surfaceprop" "bone"
+
+}

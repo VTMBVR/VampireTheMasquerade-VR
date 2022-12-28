@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\sconce\s_arm2"
+	"$nocull" "1"
+
+}

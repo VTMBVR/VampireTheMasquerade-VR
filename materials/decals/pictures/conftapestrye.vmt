@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "decals/pictures/conftapestrye"
+	"$surfaceprop" "carpet"
+	"$translucent" "1"
+	"$decal" 1
+	"$decalscale" 0.25
+}

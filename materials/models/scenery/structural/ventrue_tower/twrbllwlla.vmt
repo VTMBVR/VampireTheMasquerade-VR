@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"				"plaster\twrbllwlla"
+	\\"$bumpmap" 				"plaster/twrbllwlla_normal"
+	"$surfaceprop" 				"plaster"
+	"$envmapmask" 				"plaster/twrbllwlla_ref"
+	\\"$envmap" 				"env_cubemap"
+	\\"$normalmapalphaenvmapmask" 	"1"
+}

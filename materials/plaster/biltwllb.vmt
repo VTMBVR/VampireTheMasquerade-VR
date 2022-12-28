@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "plaster/biltwllb"
+	"$surfaceprop" "plaster"
+	"$envmap" "envmap/havenrm"
+	"$envmapmask" "plaster\princepanela_ref"
+}

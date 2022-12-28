@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\stealtable\steelatable"
+	"$nocull"			1
+
+}

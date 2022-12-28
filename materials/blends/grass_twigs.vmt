@@ -1,0 +1,7 @@
+"WorldVertexTransition" 
+{ 
+     "$basetexture" "grass/grassa"
+     "$basetexture2" "ground/dirtc"
+	"%detailtype" "dweed"
+} 
+

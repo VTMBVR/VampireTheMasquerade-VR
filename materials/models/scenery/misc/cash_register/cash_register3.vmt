@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\cash_register\cash_register3"
+	"$surfaceprop" "default"
+
+}

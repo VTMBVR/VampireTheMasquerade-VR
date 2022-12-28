@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	// Original shader: BaseTimesVertexColorAlphaTest
+	"$basetexture" "effects/fleck_wood1"
+	"$alphatest" 1
+	"$model" 0
+}

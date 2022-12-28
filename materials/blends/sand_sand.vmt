@@ -1,0 +1,6 @@
+"WorldVertexTransition" 
+{ 
+     "$basetexture" "ground/piersand"
+     "$basetexture2" "ground/piersandb"
+} 
+

@@ -1,0 +1,12 @@
+"Refract"
+{
+	$dudvmap 		"models/scenery/structural/ventrue_tower/plasticwall_dudv"
+	$refractamount 	"2"
+	$model 		"1"
+	$normalmap 		"models/scenery/structural/ventrue_tower/plasticwall_normal"
+	$envmap "env_cubemap"
+	$envmaptint "[.1  .1  .1]"
+
+}
+
+

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "stone/cemdrg"
+	"$surfaceprop" "stone"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "stone/cemdrg_ref"
+}

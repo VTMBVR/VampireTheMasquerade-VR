@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\ritual_chamber\skull"
+	"$selfillum" "1"
+
+}

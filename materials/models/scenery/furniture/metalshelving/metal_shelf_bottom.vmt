@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/furniture/metalshelving/metal_shelf_bottom"
+	"$envmap" "envmap/havbthrm"
+	"$envmapmask" "effects/ref_25"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"concrete"
+}

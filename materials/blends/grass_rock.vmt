@@ -1,0 +1,6 @@
+"WorldVertexTransition" 
+{ 
+     "$basetexture" "ground/pierrocka"
+     "$basetexture2" "ground/dirtb"
+} 
+

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/structural/angel/angel"
+	"$surfaceprop"	"concrete"
+}

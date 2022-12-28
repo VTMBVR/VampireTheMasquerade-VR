@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\controlpanel\sewflra"
+	"$nocull" "1"
+	"$alphatest"				1
+
+}

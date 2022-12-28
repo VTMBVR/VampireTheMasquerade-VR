@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"decals\damage\pillarbase"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.2"
+	"$surfaceprop" "concrete"
+
+}

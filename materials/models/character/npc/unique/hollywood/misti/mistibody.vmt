@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\hollywood\misti\mistibody"
+	"$envmapmask"	"models\character\npc\unique\hollywood\misti\mistibodySpec"
+	"$envmap" 	"env_cubemap"
+}

@@ -1,0 +1,5 @@
+"DecalModulate"
+{
+	"$basetexture" "Decals/hits/concrete/SHOT1"
+	"$decalscale" 0.10
+}

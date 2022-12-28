@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+// "LightmappedGeneric"
+{
+	"$model" "1"
+	// Original shader: BaseTexture
+	"$basetexture" "models\scenery\misc\paint_bucket_brush\paintbucket"
+	"$surfaceprop" "metal"
+}

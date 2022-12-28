@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "decals/signs/MoneyOrder"
+	"$decal" 1
+	"$decalscale" 0.20
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\chinatown\jiwenja\vb_cg_jiwenja_shades"
+	"$translucent" "1"
+
+}

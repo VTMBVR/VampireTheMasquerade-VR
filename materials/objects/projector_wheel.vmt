@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "objects\projector_wheel"
+	"$surfaceprop" "wood"
+ "Proxies"
+ {
+  "AnimatedTexture"
+  {
+      "animatedTextureVar" "$basetexture"
+    "animatedTextureFrameNumVar" "$frame"
+    "animatedTextureFrameRate" "10"
+  }
+ }
+
+}

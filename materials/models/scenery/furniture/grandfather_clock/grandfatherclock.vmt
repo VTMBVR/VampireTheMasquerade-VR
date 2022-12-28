@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\grandfather_clock\grandfatherclock"
+	"$surfaceprop" "wood"
+
+}

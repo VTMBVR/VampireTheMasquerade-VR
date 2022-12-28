@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/weapons/katana/KantanaTsubla_Clr_View"
+	"$envmap" "envmap/asylum"
+//	"$envmapmask" "models/KantanaBlade_EnvM_View"
+	"$envmaptint" "[ 1 .8 0 ]"
+//	"$envmapmode" 1
+//	"$multipass" 1
+}

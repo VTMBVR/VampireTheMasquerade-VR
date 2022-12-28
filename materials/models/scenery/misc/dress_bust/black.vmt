@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+
+	"$color"				"[1 1 1]"
+	"$baseTexture"				"/models/scenery/misc/dress_bust/black"
+	"$surfaceprop"				"metal"
+}

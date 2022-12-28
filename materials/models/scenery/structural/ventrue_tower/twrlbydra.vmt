@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "stone/twrlbydra"
+	"$surfaceprop" "concrete"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "stone/twrlbydra_ref"
+}

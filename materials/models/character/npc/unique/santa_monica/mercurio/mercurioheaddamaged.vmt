@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/character/npc/unique/Santa_Monica/Mercurio/MercurioHeadDamaged"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/character/npc/unique/Santa_Monica/Mercurio/MercurioHeadDamagedSpec"
+	"$envmaptint" "[ 1.0 0.0 0.0 ]"
+}

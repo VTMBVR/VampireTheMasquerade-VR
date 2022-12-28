@@ -1,0 +1,6 @@
+LightmappedGeneric
+{
+	"$basetexture"	"tools\trigger_hurt"
+	"$translucent" "1"
+
+}

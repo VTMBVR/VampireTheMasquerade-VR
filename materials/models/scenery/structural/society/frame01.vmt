@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\society\frame01"
+	"$translucent" "1"
+
+}

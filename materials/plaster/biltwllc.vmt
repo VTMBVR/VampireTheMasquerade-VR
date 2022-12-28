@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "plaster/biltwllc"
+	"$surfaceprop" "plaster"
+	"$envmap" "env_cubemap"	
+	"$envmapmask" "plaster\biltwllc_ref"
+}

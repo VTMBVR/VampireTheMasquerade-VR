@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/furniture/ModernSculpture/ModernSculpture"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/furniture/ModernSculpture/ModernSculpture_ref"
+}

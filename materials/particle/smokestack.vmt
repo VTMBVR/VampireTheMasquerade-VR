@@ -1,0 +1,12 @@
+"ParticleSphere"
+{
+	"$bumpmap" "particle/BillowNormalMap"
+	"$basetexture" "particle/SmokeStackFallback"
+	"Proxies"
+	{
+		"ParticleSphereProxy"
+		{
+			"direction" "0 0 1"
+		}
+	}
+}

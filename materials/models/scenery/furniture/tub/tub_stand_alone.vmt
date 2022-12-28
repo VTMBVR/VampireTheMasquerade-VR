@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+// "LightmappedGeneric"
+{
+	"$model" "1"
+	// Original shader: BaseTexture
+	"$basetexture" "models\scenery\furniture\tub\tub_stand_alone"
+	"$surfaceprop" "metal"
+}

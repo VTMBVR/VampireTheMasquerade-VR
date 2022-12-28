@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\retro_chair\retro_chair"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\furniture\retro_chair\retro_chair_envmap"
+	"$surfaceprop" "metal"
+
+}

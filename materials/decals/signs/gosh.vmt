@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "decals/signs/gosh"
+	"$decal" 1
+	"$decalscale" .20
+	"$translucent" 1
+}

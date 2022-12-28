@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery\furniture\LotusB/Table1"
+	"$surfaceprop" "wood"
+}

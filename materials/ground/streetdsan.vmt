@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"ground\streetdsan"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "ground\streetdsan_ref"
+	"$surfaceprop" "concrete"
+
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/furniture/coffeetable1/chanttbl"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_50"
+	"$surfaceprop" "wood"
+}

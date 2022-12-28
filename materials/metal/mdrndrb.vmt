@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/mdrndrb"
+	"$surfaceprop" "metal"
+	"$envmap" "envmap/hav"
+	"$envmapmask" "metal/mdrndrb_ref"
+}

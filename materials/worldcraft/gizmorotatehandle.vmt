@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	// Original shader: BaseTimesVertexColor
+	"$basetexture" "worldcraft/GizmoRotateHandle"
+	"$vertexcolor" 1
+	"$nocull" 1
+}

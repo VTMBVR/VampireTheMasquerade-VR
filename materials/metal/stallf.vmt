@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "metal/stallf"
+	"$surfaceprop" "metal"
+	"$envmap" "envmap/pwnbthrm"
+	"$envmapmask" "metal/stallf_ref"
+}

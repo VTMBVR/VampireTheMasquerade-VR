@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/furniture/cashregister_old/cashregister_oldside"
+	"$surfaceprop" "metal"
+}

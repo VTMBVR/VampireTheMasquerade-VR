@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "decals/damage/dinbrickc"
+	"$decal" 1
+	"$decalscale" 0.25
+	"$translucent" 1
+}

@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "models\scenery\structural\oilfield\druma"
+	"$surfaceprop" "metal"
+}

@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"metal\obs_trima"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "metal\obs_trima_ref"
+	"$surfaceprop" "metal"
+
+}

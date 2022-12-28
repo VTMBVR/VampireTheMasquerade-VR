@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+
+	"$baseTexture"	"/models/scenery/furniture/sinvideorack/sinvideorack"
+	"$surfaceprop"	"plastic"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_50"
+}

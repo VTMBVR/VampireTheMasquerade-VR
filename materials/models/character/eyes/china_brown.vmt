@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/character/eyes/China_brown"
+	"$selfillum"	"1"
+	"nomip"
+}

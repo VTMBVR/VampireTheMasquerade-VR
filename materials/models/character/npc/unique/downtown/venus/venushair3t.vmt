@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\downtown\venus\venushair3t"
+	"$translucent" "1"
+
+}

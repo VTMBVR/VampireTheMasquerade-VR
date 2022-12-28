@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/Malkavian/malkcolumnb"
+	"$surfaceprop" "metal" 
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/structural/Malkavian/malkcolumnb_ref"
+}

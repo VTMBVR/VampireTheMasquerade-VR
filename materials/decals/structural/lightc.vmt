@@ -1,0 +1,7 @@
+"UnLitGeneric"
+{
+	"$translucent" 	"1"
+	"$basetexture" 	"decals/structural/lightc"
+	"$decal" 		"1"
+	"$decalscale" 	"0.25"
+}

@@ -1,0 +1,7 @@
+"DesaturateSpotlight"
+{
+	"$spotlightmask" "effects/spotlight"
+	"$model" "1"
+	"$alphatest" "1"
+	"$keepcolor" "1"
+}

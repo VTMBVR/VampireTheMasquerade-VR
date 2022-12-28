@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"concrete\parkingceiling"
+	"$selfillum" "1"
+	"$surfaceprop" "concrete"
+
+}

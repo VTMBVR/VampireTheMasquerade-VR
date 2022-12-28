@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\massagetable\bar"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\furniture\massagetable\bar_ref"
+	"$surfaceprop" "metal"
+
+}

@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\items\cashbox\cashbox"
+	"$envmapmask" "models\items\cashbox\cashbox_ref"
+	"$envmap"	"envmap/havenrm"
+	"$envmapmode" "1"
+
+}

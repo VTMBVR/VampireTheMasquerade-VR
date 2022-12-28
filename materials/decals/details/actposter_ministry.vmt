@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\details\actposter_ministry"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.200"
+
+}

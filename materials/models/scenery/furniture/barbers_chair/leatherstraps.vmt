@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery\furniture\barbers_chair\LeatherStraps"
+//	"$envmap" "envmap/asylum"
+//	"$envmap" 				"env_cubemap"
+//	"$envmapmask" "effects/ref_100"
+	"$surfaceprop"				"default"
+}

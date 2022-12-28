@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "tile/countertopc"
+	"$envmapmask" "effects/ref_50"
+	"$surfaceprop" "concrete"
+	"$envmap" 				"env_cubemap"
+}

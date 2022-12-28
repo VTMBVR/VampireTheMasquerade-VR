@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\beachhouse\syringe"
+	"$translucent" "1"
+	"$envmapmode" "1"
+}

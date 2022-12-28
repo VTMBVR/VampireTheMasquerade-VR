@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"/models/scenery/misc/jewelry/necklacedisplay"
+	"$surfaceprop"	"cloth"
+	"$nocull" 		"1"
+}

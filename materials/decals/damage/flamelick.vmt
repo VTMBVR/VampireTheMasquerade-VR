@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\damage\flamelick"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.250"
+	"$nocull" "1"
+
+}

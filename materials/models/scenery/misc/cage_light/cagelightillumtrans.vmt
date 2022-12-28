@@ -1,0 +1,10 @@
+"UnLitGeneric"
+{
+	"$baseTexture" "models/scenery/misc/cage_light/cagelight"
+	"$surfaceprop" "glass"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/misc/cage_light/cagelight_ref"
+	\\"$selfillum" "1"
+	"$additive" "1"
+	"$model" "1"
+}

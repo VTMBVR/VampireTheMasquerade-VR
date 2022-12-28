@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\lampoffice\lamp"
+	"$nocull"			1
+
+}

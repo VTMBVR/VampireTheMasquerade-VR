@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/Ventrue_Tower/metaldetector"
+	"$envmap" 		"env_cubemap"
+	"$envmapmask" 	"models/scenery/structural/Ventrue_Tower/metaldetector_ref"
+}

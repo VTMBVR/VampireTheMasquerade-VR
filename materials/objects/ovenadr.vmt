@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "objects\ovenadr"
+	"$envmap" "envmap/havenrm"
+	"$envmapmask" "objects\ovenadr_ref"
+}

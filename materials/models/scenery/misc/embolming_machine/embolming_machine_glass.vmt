@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\embolming_machine\embolming_machine_glass"
+	"$translucent" "1"
+	"$surfaceprop" "glass"
+
+}

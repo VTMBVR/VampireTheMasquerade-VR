@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "metal\MetalOx_fancy"
+	"$envmap" 				"env_cubemap"
+//	"$envmap" "envmap/theater_1"
+	"$envmapmask" "metal/MetalOx_ENVMask"
+	"$surfaceprop"				"metal"
+}

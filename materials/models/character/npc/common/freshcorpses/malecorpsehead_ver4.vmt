@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\common\freshcorpses\malecorpsehead_ver4"
+	"$surfaceprop" "default"
+
+}

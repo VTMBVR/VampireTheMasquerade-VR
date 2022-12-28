@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "plaster/pierwlla"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "plaster/pierwlla_ref"
+	"$surfaceprop" "plaster"
+	"$selfillum" "1"
+}

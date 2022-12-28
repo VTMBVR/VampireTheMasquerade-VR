@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/misc/pool_ladder/steps"
+	"$envmapmask" "effects/ref_50"
+	"$surfaceprop" "metal"
+	"$envmap" 				"env_cubemap"
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/609sconce/shinymetal"
+	"$envmapmask" "effects/ref_75"
+	"$surfaceprop" "metal"
+	"$envmap" 				"env_cubemap"
+}

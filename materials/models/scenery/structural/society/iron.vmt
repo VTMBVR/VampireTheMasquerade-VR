@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/soc_stairs/iron"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_12"
+}

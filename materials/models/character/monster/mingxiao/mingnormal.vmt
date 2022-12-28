@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\monster\mingxiao\mingnormal"
+	"$normalmapalphaenvmapmask" "1"
+
+}

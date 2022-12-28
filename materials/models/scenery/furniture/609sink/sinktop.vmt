@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/furniture/609sink/sinktop"
+	"$envmapmask" "effects/ref_75"
+	"$surfaceprop" "metal"
+	"$envmap" 				"env_cubemap"
+}

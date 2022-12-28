@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\bradbury\coffin01"
+	"$surfaceprop" "metal"
+	"$envmapmask"	"models\scenery\structural\bradbury\coffin01_ref"
+	"$envmap"	"env_cubemap"
+}

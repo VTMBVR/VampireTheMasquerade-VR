@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/structural/crypt/handle"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/structural/crypt/handle_ref"
+	"$surfaceprop" "metal"
+}

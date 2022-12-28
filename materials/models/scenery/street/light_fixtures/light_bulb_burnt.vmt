@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\street\light_fixtures\light_bulb_burnt"
+	"$nocull" "1"
+
+}

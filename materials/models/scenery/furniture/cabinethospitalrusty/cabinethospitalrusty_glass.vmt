@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\cabinethospitalrusty\cabinethospitalrusty_glass"
+	"$envmap" "env_cubemap"
+
+}

@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\clock_wall\clock_wall"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\misc\clock_wall\clock_wall_envmap"
+	"$surfaceprop" "plastic"
+
+}

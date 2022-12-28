@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+
+	"$color"				"[1 1 1]"
+	"$baseTexture"		"models/weapons/tireiron/tireiron01"
+	"$envmapmask"		"models/weapons/tireiron/tireiron01_spec"
+	"$envmap"	   "envmap/havenrm"
+	"$envmapmode" "1"
+}

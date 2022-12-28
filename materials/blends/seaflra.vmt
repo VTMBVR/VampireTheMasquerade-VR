@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+     "$basetexture" "blends/seaflra" 
+	"$BUMPMAP"  "blends/seaflra_normal" 
+}

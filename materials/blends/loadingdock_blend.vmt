@@ -1,0 +1,6 @@
+"WorldVertexTransition" 
+{ 
+	"$basetexture2" "concrete/concrete_floor_alt"      
+	"$basetexture" "ground/dirtc_a" 
+} 
+

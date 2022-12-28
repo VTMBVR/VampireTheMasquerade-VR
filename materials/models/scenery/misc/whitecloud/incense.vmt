@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\whitecloud\incense"
+	"$selfillum" "1"
+
+}

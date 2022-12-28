@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\zhaos\rollerrack"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\zhaos\rollerrack_ref"
+
+}

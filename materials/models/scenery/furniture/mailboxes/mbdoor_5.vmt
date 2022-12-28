@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\mailboxes\mbdoor_5"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\furniture\mailboxes\mbdoor_5_ref"
+
+}

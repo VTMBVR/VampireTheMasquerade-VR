@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/misc/dolly/dolly"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_25"
+	"$surfaceprop"				"metal"
+}

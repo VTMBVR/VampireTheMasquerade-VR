@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"models/weapons/sledgehammer/hammer01"
+	"$envmapmask"			"models/weapons/sledgehammer/hammer01_spec"
+	"$envmap"	   "envmap/havenrm"
+	"$envmapmode" "1"
+}

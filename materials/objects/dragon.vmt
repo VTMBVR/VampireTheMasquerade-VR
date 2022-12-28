@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "objects/dragon"
+	"$translucent" 1
+}

@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/ventc"
+	"$surfaceprop" "metal"
+	"$translucent" "1"
+}

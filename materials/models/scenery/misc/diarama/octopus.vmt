@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\misc\diarama\octopus"
+	"$surfaceprop" "plastic"
+	"$envmap" "env_cubemap"
+}

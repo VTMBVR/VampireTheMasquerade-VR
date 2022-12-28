@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "wood/malkdormerfront"
+	"$translucent" 1
+	"$surfaceprop" "wood"
+}

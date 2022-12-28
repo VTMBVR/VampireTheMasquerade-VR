@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/reddra"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "metal/reddra_ref"
+	"$surfaceprop" "glass"
+}

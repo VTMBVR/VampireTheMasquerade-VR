@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\items\astrolite\astrolite"
+	"$envmapmask"   "models\items\astrolite\astrolite_ref"
+	"$envmap"	"envmap/havenrm"
+	"$envmapmode" "1"
+
+}

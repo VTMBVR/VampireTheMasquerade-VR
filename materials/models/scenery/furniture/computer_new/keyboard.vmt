@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/furniture/Computer_New/keyboard"
+//	"$envmap" "envmap/asylum"
+	"$envmapmask" "effects/ref_12"
+	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"plastic"
+//	"$bumpMap"				"/models/scenery/furniture/Computer_New/keyboard_Normal"
+//	"$normalmapalphaenvmapmask" 		1
+}

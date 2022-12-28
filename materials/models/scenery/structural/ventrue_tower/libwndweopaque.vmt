@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "glass/libwndwe"
+	"$surfaceprop" "glass"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "glass/libwndwd_ref"
+}

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "brick/musdoora"
+	"$envmap" "envmap/hav"
+	"$envmapmask" "brick/musdoora_ref"
+	"$translucent" 1
+}

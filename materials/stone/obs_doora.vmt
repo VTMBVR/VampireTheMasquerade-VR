@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"stone\obs_doora"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "stone\obs_doora_ref"
+
+}

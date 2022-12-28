@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/sewer/supportb"
+	"$surfaceprop" "metal"
+	"$envmapmask" "effects/ref_12"
+	"$envmap" "env_cubemap"
+}

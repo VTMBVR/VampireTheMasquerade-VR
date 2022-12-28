@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "wood/jewdrb"
+	"$surfaceprop" "wood"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "wood/jewdrb_ref"
+	"$envmaptint" "[0.52 0.36 0.25]"
+}

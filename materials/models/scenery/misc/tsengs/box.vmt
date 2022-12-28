@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\tsengs\box"
+	"$nocull" "0"
+	"$surfaceprop" "default"
+
+}

@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "wood/chstairrise2"
+	"$selfIllum"				1
+}

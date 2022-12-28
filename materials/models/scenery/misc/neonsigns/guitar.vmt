@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\neonsigns\guitar"
+	"$nocull"			1
+}

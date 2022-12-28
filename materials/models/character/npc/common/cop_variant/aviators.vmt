@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\common\Cop_Variant\aviators"
+	"$envmap"	"envmap\specmap"
+	
+	//"$selfillum"	"1"
+}	
+

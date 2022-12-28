@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\foldingchair\chair"
+	"$nocull"			1
+
+}

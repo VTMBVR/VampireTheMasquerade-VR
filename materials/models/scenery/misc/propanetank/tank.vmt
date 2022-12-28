@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\propanetank\tank"
+	"$alphatest" "1"
+	"$nocull" "1"
+	"$surfaceprop" "metal"
+
+}

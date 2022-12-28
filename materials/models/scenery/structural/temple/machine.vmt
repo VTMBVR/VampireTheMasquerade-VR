@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\temple\machine"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/structural/temple/machine_ref"
+
+}

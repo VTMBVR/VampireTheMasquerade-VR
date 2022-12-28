@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "wood/theatpanla"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "wood/theatpanla_ref"
+	"$surfaceprop" "glass"
+}

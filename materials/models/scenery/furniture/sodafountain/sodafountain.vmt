@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/furniture/SodaFountain/SodaFountain"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/furniture/SodaFountain/SodaFountain_ref"
+	"$SelfIllum"	"1"
+}

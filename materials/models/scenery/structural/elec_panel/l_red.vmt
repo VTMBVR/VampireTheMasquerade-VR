@@ -1,0 +1,30 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/structural/elec_panel/L1"
+	"$surfaceprop"				"glass"
+	"$translucent" 1
+
+	"$alpha" 1
+
+	"$color"	"[0.0 0.0 0.0]"
+
+	"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar"	"$color[0]"
+			"sinemin" 0.0
+			"sinemax" 1.0
+			"sineperiod" .7
+		}
+
+		"Sine"
+		{
+			"resultVar"	"$alpha"
+			"sinemin" 0.0
+			"sinemax" 1.0
+			"sineperiod" .7
+		}
+	}
+}
+

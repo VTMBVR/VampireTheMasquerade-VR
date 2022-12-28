@@ -1,0 +1,6 @@
+"WorldVertexTransition" 
+{ 
+     "$basetexture" "ground/dirtc" 
+     "$basetexture2" "stone/Bluff_Top" 
+} 
+

@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "wood/malkceilingd"
+	"$bumpmap" "wood/malkceilingd_normal"
+	"$surfaceprop" "wood"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+}

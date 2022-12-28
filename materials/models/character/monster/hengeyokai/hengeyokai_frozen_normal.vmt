@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\monster\hengeyokai\hengeyokai_frozen_normal"
+	"$normalmapalphaenvmapmask" "1"
+
+}

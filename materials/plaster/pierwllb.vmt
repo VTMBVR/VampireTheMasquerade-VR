@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "plaster/pierwllb"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "plaster/pierwllb_ref"
+	"$surfaceprop" "plaster"
+}

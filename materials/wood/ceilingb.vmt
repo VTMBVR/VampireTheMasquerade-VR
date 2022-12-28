@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "wood/ceilingb"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_25"
+	"$surfaceprop" "wood"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\misc\coaster\coastera"
+	"$surfaceprop" "metal"
+	"$translucent" 1
+}

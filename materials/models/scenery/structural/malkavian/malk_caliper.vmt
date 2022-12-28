@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\malkavian\malk_caliper"
+	"$envmapmask" "models\scenery\structural\malkavian\malk_caliper_spec"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "metal"
+
+}

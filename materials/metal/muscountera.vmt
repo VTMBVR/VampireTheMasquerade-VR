@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/muscountera"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_50"
+}

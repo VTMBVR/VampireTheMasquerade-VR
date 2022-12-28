@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\chinashop\umbrella"
+	"$nocull" "1"
+	"$surfaceprop" "paper"
+
+}

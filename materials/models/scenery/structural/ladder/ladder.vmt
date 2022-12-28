@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\ladder\ladder"
+	"$surfaceprop" "metal"
+
+}

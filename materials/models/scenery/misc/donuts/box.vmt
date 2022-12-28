@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/misc/donuts/box"
+//	"$envmap" "envmap/asylum"
+//	"$envmapmask" "effects/ref_100"
+	"$surfaceprop" "defualt
+	"$envmap" 				"env_cubemap"
+}

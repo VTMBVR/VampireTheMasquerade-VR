@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"highlights/insight"
+	"$selfillum"		"1"
+	"$selfillumtint"	"[1,1,1]"
+	"$additive"		"1"
+	"$translucent"		1
+	"$alpha"		"0.0"
+	"$vertexcolor"		1
+//	"$ignorez"		1
+	"$envmap"		"envmap/havenrm"
+	"$envmapmode"		"1"
+}

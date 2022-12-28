@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\hollywood\imalia\nosskirt"
+	"$alphatest" "1"
+	"$nocull" "1"
+}

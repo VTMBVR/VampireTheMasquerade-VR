@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/misc/halolights/halolight"
+	"$selfIllum" 1
+	"$envmapmask" "models/scenery/misc/halolights/halolight_ref"
+	"$surfaceprop" "glass"
+	"$envmap" 				"env_cubemap"
+
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+
+	"$baseTexture"				"models/scenery/misc/trike/trike_wheel"
+	"$translucent"				0
+	"$alpha"				1
+}

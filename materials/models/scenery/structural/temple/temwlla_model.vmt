@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"stone\temwlla"
+	"$surfaceprop" "stone"
+	"$bumpmap" "stone/temwlla_normal"
+	"$envmap" "envmap/temple3"
+	"$normalmapalphaenvmapmask" "1"
+
+}

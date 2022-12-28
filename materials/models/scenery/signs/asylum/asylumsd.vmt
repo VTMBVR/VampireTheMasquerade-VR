@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery\signs\asylum\asylumsd"
+	"$surfaceprop" "metal"
+}

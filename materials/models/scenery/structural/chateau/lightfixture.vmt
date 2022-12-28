@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/chateau/lightfixture"
+	"$surfaceprop" "glass"
+	"$nocull" "1"
+	"$selfillum" "1"
+}

@@ -1,0 +1,5 @@
+"WorldVertexTransition" 
+{
+     "$basetexture" "models/scenery/misc/rocks/rocka"
+     "$basetexture2" "blends/groundb"  
+}

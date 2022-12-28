@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\zhaos\stairsa"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\zhaos\stairsa_ref"
+
+}

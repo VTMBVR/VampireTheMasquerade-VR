@@ -1,0 +1,6 @@
+"WorldVertexTransition" 
+{ 
+     "$basetexture" "stone/warrceilinga" 
+     "$basetexture2" "ground/warrfloorc" 
+} 
+

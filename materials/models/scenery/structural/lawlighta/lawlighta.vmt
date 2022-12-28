@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\structural\lawlighta\lawlighta"
+	"$surfaceprop" "glass"
+	"$selfillum" "1"
+}

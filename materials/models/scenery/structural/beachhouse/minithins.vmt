@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\beachhouse\minithins"
+	"$envmapmode" "1"
+}

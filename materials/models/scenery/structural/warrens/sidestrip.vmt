@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/warrens/sidestrip"
+	"$envmap"	   "env_cubemap"
+	"$envmapmask"  "models/scenery/structural/warrens/sidestrip_ref"
+	"$envmapmode"  0
+
+}

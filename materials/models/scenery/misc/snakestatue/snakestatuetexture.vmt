@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\snakestatue\snakestatuetexture"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\misc\snakestatue\snakestatuetexture_ref"
+	"$surfaceprop" "metal"
+
+}

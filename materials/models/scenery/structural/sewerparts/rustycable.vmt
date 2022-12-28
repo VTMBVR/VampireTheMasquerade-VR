@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\sewerparts\rustycable"
+	"$surfaceprop" "metal"
+
+}

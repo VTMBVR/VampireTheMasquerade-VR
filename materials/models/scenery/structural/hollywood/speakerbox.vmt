@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/hollywood/speakerbox"
+	"$surfaceprop" "metal"
+	"$selfillum" "1"
+}

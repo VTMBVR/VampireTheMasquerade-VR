@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/furniture/cmcurtaina/cmcurtaina"
+	"$translucent" 1
+	"$nocull" 1
+}

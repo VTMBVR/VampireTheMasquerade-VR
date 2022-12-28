@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"carpet\biltcrptd"
+	"$selfillum" "1"
+	"$surfaceprop" "carpet"
+
+}

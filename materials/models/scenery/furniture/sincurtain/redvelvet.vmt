@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+
+	"$baseTexture"				"/models/scenery/furniture/sincurtain/redvelvet"
+	"$surfaceprop"				"cloth"
+}

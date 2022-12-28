@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1	
+	"$baseTexture" "decals/damage/malkfire"
+	"$decal" 1
+	"$decalscale" 0.35
+}

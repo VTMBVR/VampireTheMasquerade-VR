@@ -1,0 +1,8 @@
+"lightmappedGeneric"
+{	
+	"$basetexture" "wood/manroofa"
+	"$surfaceprop" "wood"
+	"$envmap" "env_cubemap"	
+	"$envmapmask" "wood/manroofa_ref"
+	"$envmaptint" "[0.55 0.13 0.12]"
+}

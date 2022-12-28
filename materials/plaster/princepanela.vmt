@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "plaster/princepanela"
+	"$surfaceprop" "plaster"
+	"$envmap" "env_cubemap"
+	"$envmaptint"	"[0.74 0.57 0.31]"
+	"$envmapmask" "plaster\princepanela_ref"
+}

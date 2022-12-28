@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	// Original shader: AdditiveVertexColor
+	"$additive" 1
+	"$vertexcolor" 1
+}

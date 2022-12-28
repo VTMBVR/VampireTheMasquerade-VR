@@ -1,0 +1,8 @@
+"Vertexlitgeneric"
+{
+	// Original shader: AddTexture
+	"$basetexture" "effects/blood2"
+	"$additive" 0
+	"$translucent" 1
+
+}

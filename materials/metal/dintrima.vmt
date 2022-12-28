@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "metal/dintrima"
+	"$surfaceprop"	"metal"
+	"$envmap" 		"env_cubemap"
+	"$envmapmask" 	"metal/dintrima_ref"
+}

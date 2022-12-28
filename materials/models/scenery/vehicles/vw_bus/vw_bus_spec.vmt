@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\vehicles\vw_bus\vw_bus_spec"
+	"$envmapmask" "models\scenery\vehicles\vw_bus\VW_bus_spec"
+	"$envmap" "env_cubemap"
+//	"$envmap" "envmap/haven"
+//	"$envmaptint" "[ 0.0 0.0 0.0 ]"
+}

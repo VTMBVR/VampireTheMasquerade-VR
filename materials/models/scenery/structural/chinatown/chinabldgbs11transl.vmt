@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\chinatown\chinabldgbs11transl"
+	"$translucent" 	"1"
+	"$surfaceprop" 	"metal"
+	%compilePassBullets 	"1" 
+
+}

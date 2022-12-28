@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	// Original shader: BaseTimesLightmapSelfIllum
+	"$basetexture" "Lights/texlight_yellow"
+	"$selfillum" "1"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"glass"
+}

@@ -1,0 +1,9 @@
+UnlitGeneric
+{
+      "$basetexture"   "fonts\Tahoma_25_500_002-page0"
+      "$ignorez" "1"
+      "$translucent" "1"
+      "$vertexcolor" "1"
+      "$vertexalpha" "1"
+      "$no_fullbright" "1"
+}

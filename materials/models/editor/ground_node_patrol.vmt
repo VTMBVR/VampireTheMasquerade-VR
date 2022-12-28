@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\editor\ground_node_patrol"
+	"$translucent" "1"
+
+}

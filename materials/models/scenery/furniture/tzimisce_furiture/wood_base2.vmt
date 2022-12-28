@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\tzimisce_furiture\wood_base2"
+	"$surfaceprop" "default"
+
+}

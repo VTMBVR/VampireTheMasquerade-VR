@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"plaster\ocewlle"
+	"$surfaceprop" 	"plaster"
+	"$envmap" 		"env_cubemap"
+	"$envmapmask" 	"plaster/ocewlle_ref"
+}

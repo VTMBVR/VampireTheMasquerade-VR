@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/structural/chinese/lantern"
+	"$surfaceprop" "paper"
+	"$nocull" "1"
+}

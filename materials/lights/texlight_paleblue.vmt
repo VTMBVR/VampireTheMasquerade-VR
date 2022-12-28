@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "Lights/texlight_paleblue"
+	"$selfillum" "1"
+}

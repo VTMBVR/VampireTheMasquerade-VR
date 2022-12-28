@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "drapery/biltcrtna"
+	"$translucent" 1
+	"%compilePassBullets" 1 
+}

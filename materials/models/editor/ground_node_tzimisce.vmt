@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\editor\ground_node_tzimisce"
+	"$translucent" "1"
+
+}

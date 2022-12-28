@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\changemachine\changemachine"
+	"$surfaceprop" "metal"
+
+}

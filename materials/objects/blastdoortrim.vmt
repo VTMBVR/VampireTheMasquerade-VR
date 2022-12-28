@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"objects\blastdoortrim"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "objects\blastdoortrim_ref"
+	"$surfaceprop" "metal"
+
+}

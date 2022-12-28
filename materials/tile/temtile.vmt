@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "tile/temtile"
+	"$bumpmap" "tile/temtile_normal"
+	"$surfaceprop" "tile"
+	"$envmap" "envmap/temple2"
+	"$normalmapalphaenvmapmask" "1"
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\chinatown_sewer\chinatown_support_ceiling"
+	"$surfaceprop" "stone"
+
+}

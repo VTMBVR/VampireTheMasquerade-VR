@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"wood\bchhs_ex_windowa"
+//	"$translucent"     "1" 
+	"$envmap" "env_cubemap"
+	"$envmapmask" "wood/BchHs_Ex_WindowA_ref"
+
+}

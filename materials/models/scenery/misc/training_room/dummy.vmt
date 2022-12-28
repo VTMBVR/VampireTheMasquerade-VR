@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/misc/training_room/dummy"
+	"$surfaceprop" "cloth"
+}

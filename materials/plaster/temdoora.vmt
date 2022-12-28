@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "plaster/temdoora"
+	"$envmap" "env_cubemap" 
+	"$envmapmask" "plaster/temdoor_ref"
+}

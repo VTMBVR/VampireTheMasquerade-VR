@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\common\blood_doll\bd_asp\blooddollhair2asp"
+	"$translucent" "1"
+
+}

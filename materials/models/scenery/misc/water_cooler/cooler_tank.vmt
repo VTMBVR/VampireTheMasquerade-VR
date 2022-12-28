@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/misc/water_cooler/cooler_tank"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_50"
+	"$translucent" 1
+	"$surfaceprop"				"plastic"
+}

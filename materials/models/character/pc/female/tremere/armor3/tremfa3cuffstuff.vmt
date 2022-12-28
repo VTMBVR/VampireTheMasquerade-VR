@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\pc\female\tremere\armor3\tremfa3cuffstuff"
+	"$alphatest" "1"
+	"$nocull" "1"
+
+}

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "brick/sntawndwc"
+	"$surfaceprop" "brick"
+	"$envmap" "envmap/hav"
+	"$envmapmask" "brick/sntawndwc_ref"
+}

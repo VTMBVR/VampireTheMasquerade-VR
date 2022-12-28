@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\giovanni_mansion\chang_brothers\chang2\chang2headmisc"
+	"$envmapmask"	"models\character\npc\unique\giovanni_mansion\chang_brothers\chang2\chang2headmisc_ref"
+	"$envmap" 	"env_cubemap"
+}

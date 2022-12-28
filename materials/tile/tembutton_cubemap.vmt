@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"tile\tembutton"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "tile/tembutton_ref"
+	"$surfaceprop" "stone"
+
+}

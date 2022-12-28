@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/temple/entrance"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/structural/temple/entrance_ref"
+}

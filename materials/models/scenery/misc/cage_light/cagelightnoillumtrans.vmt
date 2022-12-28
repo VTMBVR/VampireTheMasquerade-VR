@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/misc/cage_light/cagelight_nolight"
+	"$translucent" "1"
+	"$surfaceprop" "glass"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/misc/cage_light/cagelight_ref"
+	"$model" "1"
+}

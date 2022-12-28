@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/physics/hanglight/hang_lamp_3pc"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"metal"
+}

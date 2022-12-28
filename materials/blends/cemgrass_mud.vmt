@@ -1,0 +1,8 @@
+"WorldVertexTransition" 
+{ 
+     "$basetexture" "ground/dirtb" 
+     "$basetexture2" "ground/cemmuda" 
+	"$surfaceprop" "dirt"
+	"%detailtype" "grassweeds"
+} 
+

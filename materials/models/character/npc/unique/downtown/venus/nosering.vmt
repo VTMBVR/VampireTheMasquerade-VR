@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\downtown\venus\nosering"
+	"$surfaceprop" "metal"
+    "$envmap"	   "env_cubemap"
+}

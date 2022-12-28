@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\items\businesscard\card"
+	"$surfaceprop" "default"
+
+}

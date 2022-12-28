@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "asphalt/Asphalt"
+	//"$bumpmap" "asphalt/asphalt_normal"
+	"$surfaceprop" "concrete"
+	//"$specularfocus" "5"
+	//"$specular" "1"
+}

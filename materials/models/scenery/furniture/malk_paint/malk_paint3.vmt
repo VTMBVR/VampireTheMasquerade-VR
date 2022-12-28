@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery\furniture\Malk_Paint/Malk_Paint3"
+	"$surfaceprop" "wood"
+}

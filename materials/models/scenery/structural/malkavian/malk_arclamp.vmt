@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\malkavian\malk_arclamp"
+	"$envmapmask" "models\scenery\structural\malkavian\malk_arclamp_spec"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ 1.0 0.75 0.0 ]"
+	"$surfaceprop" "metal"
+
+}

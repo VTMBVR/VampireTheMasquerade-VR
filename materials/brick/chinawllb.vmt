@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"brick\chinawllb"
+	"$translucent" "1"
+	"%compilePassBullets"
+
+}

@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "Decals/stains/bloodpuddleb"
+	"$envmap" "envmap/blood"
+	"$envmapmask" "effects/ref_50"
+	"$envmapmode" "0"
+	"$decal" 1
+	"$decalscale" 0.15
+}

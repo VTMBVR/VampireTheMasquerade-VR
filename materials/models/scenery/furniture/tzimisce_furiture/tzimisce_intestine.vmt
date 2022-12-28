@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\tzimisce_furiture\tzimisce_intestine"
+	"$surfaceprop" "default"
+
+}

@@ -1,0 +1,7 @@
+vertexlitGeneric
+{
+	"$basetexture"	"models\scenery\structural\bradbury\hangingflesh3"
+	"$alphatest" "1"
+	"$nocull" "1"
+	"$model" 1
+}

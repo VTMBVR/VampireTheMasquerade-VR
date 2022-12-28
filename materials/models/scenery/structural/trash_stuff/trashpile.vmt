@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture"		"/models/scenery/structural/trash_stuff/trashpile"
+	"$model" 			"1"
+	"$surfaceprop"		"paper"
+}

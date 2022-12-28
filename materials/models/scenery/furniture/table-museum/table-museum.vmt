@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\table-museum\table-museum"
+	"$surfaceprop" "wood"
+
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\monster\werewolf\new_ww_body2"
+	"$bumpmap"	"models\character\monster\werewolf\werewolf_normal"
+
+}

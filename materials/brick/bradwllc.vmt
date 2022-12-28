@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "brick\bradwllc"
+	"$surfaceprop" "brick"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "brick\bradwllc_ref"
+	"$selfillum" "1"
+}

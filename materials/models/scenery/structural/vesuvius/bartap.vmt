@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/vesuvius/bartap"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/structural/vesuvius/bartap_ref"
+}

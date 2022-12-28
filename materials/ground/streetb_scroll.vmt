@@ -1,0 +1,17 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"ground/streetb"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" 4.0
+			"texturescrollangle" 0.00
+		}
+	}
+
+
+}
+

@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\monster\hengeyokai\hengeyokai_frozenfinal"
+	"$selfillum" "1"
+	"$envmap"	"envmap\asylum"
+	"$bumpmap"	"models\character\monster\hengeyokai\hengeyokai_frozen_normal"
+	"$normalmapalphaenvmapmask" "1"
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\items\newspaper\newspaper_clipped1"
+	"$surfaceprop" "default"
+
+}

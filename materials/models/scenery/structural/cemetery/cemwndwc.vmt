@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/cemetery/cemwndwc"
+	"$additive" "1"
+	"$nocull" "1"
+	\\"$model" "1"
+}

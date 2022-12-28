@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+	"$basetexture"	"decals\details\temlighta"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.300000.3"
+
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\beachhouse\picketfence"
+	"$surfaceprop" "wood"
+
+}

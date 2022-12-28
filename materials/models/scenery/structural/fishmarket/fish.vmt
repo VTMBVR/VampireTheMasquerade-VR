@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\fishmarket\fish"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\fishmarket\fish_ref"
+	"$nocull" "1"
+	"$alphatest" "1"
+
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\dane\container_red"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\dane\container_ref"
+
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/furniture/CandyDisplay/CandyDisplay"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/furniture/CandyDisplay/CandyDisplay_ref"
+}

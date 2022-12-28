@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture" "stone/confwndwa"
+	"$selfillum" "1"
+}

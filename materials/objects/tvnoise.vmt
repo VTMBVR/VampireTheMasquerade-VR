@@ -1,0 +1,28 @@
+VertexLitGeneric
+{
+	"$basetexture"	"objects\tvnoise"
+	"$translate" "[ 0 0 ]"
+	
+	"Proxies"
+	{
+		"UniformNoise"
+		{
+			"minVal"	0
+			"maxVal"	128
+			"resultVar"	"$translate[0]"
+		}
+
+		"UniformNoise"
+		{
+			"minVal"	0
+			"maxVal"	128
+			"resultVar"	"$translate[1]"
+		}
+
+		"TextureTransform"
+		{
+			"resultVar" "$baseTextureTransform"
+			"translateVar" "$translate"
+		}
+	}
+}

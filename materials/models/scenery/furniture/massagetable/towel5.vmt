@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\massagetable\towel5"
+	"$surfaceprop" "default"
+
+}

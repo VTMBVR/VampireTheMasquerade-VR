@@ -1,0 +1,6 @@
+"unlitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/redspot/redspot"
+	"$surfaceprop" "glass"
+	"$model" "1"
+}

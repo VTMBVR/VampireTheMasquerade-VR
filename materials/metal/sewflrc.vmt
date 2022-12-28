@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "metal/sewflra"
+	"$surfaceprop" "metalpanel"
+//	"$translucent" "1"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "metal/sewflra_ref"
+	"$alphatest" 1
+	"%compilePassBullets" 1
+}

@@ -1,0 +1,7 @@
+"WorldVertexTransition" 
+{
+     "$basetexture" "ground/vesrocklava" 
+     "$basetexture2" "ground/vesrock"
+	"$BUMPMAP"  "ground/vesrocklava_normal" 
+	"$bumpbasetexture2withbumpmap" "1"
+}

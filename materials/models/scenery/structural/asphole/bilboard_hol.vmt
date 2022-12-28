@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/structural/asphole/bilboard_hol"
+	"$surfaceprop"	"paper"
+	"$selfillum" "1"
+}

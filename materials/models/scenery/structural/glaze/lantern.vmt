@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\glaze\lantern"
+	"$selfillum" "1"
+	"$nocull" "1"
+
+}

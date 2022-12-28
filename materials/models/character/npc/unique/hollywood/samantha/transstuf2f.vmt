@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\hollywood\samantha\transstuf2f"
+	"$alphatest" "1"
+	"$nocull" "1"
+}

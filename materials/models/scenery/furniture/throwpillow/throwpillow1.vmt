@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\furniture\throwpillow\throwpillow1"
+//	"$envmap" "envmap/asylum"
+	"$envmapmask" "models\scenery\furniture\throwpillow\throwpillow1_ref"
+	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"carpet"
+}

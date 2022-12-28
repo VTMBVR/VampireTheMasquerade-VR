@@ -1,0 +1,11 @@
+UnlitGeneric
+{
+	"$basetexture"	"models\scenery\structural\vesuvius\screen"
+	"$model" "1"
+	"Proxies"
+	{
+		"TextConsole"
+		{
+		}
+	}
+}

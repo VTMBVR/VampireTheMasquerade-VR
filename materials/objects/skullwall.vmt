@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "objects/skullwall"
+	"$bumpmap" "objects/skullwall_normal"
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\pier\desertcliff"
+	"$surfaceprop" "rock"
+
+}

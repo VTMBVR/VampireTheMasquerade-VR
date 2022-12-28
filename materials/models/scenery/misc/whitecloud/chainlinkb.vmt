@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\whitecloud\chainlinkb"
+	"$alphatest" "1"
+	"$nomip" "1"
+	"$nocull" "1"
+	"$surfaceprop" "metal"
+	
+
+}

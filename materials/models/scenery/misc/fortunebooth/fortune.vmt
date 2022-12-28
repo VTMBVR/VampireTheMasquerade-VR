@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\fortunebooth\fortune"
+	"$nocull" "1"
+	"$surfaceprop" "default"
+
+}

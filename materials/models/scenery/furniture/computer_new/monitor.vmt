@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/furniture/Computer_New/monitor"
+//	"$envmap" "envmap/asylum"
+	"$envmapmask" "effects/ref_50"
+	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"metal"
+}

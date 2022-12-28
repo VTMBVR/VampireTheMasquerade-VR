@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\santa_monica\lily\lilyhair"
+	"$translucent" "1"
+
+}

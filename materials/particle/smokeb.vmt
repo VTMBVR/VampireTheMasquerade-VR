@@ -1,0 +1,5 @@
+"Sprite"
+{
+	"$basetexture" "particle/smokeb"
+	"$translucent" 1
+ }

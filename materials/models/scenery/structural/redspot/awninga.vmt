@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/redspot/awninga"
+	"$nocull" "1"
+	"$surfaceprop" "cloth"
+	"$selfillum" "1"
+}

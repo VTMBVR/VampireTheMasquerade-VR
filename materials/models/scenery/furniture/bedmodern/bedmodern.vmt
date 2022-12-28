@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/furniture/bedmodern/bedmodern"
+	"$envmapmask" "models/scenery/furniture/bedmodern/bedmodern_env"
+	"$envmap" 				"env_cubemap"
+//	"$envmap" 				"envmap/asylum"
+	"$surfaceprop"				"wood"
+}

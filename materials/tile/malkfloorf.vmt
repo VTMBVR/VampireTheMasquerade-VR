@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"tile\malkfloorf"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "tile\musfloore_ref"
+	"$surfaceprop" "stone"
+
+}

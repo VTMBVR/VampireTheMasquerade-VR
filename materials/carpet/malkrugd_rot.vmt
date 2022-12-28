@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "carpet/malkrugd_rot"
+	"$decal" 1
+	"$decalscale" 0.20
+	"$translucent" 1
+}

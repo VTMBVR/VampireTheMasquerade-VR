@@ -1,0 +1,7 @@
+"WorldVertexTransition" 
+{ 
+     "$basetexture" "dirt/dirt01" 
+     "$basetexture2" "ground/streeta" 
+	"$surfaceprop" "dirt"
+} 
+

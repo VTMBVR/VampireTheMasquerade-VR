@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/furniture/Long_dining_table/table"
+//	"$envmap" "envmap/asylum"
+	"$envmapmask" "effects/ref_50"
+	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"wood"
+}

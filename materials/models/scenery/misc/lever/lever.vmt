@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\lever\lever"
+	"$surfaceprop" "metal"
+
+}

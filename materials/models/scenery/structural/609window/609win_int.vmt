@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/609window/609win_int"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/structural/609window/609window_ref"
+}

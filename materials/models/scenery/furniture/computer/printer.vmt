@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\computer\printer"
+	"$envmap" "envmap\specmap"
+	"$envmapmask" "models\scenery\furniture\computer\printer_ref"
+	"$surfaceprop" "plastic"
+
+}

@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "stone/lawwndwc"
+	"$envmap" "envmap/hav"
+	"$envmapmask" "stone/lawwndwc_ref"
+	"$surfaceprop" "glass"
+}

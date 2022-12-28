@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/structural/chinese/lantern_jade"
+	"$surfaceprop" "paper"
+	"$selfillum" "1"
+}

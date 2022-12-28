@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery\furniture\drum_kit\black_leather"
+	"$surfaceprop"				"wood"
+
+}

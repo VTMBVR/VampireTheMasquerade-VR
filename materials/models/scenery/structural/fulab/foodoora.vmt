@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"concrete\foodoora"
+	"$surfaceprop" "metal"
+
+}

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\dome\Theater_dome"
+	"$selfillum" "0"
+}

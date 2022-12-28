@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\railing\railingtexture"
+	"$surfaceprop" "metal"
+
+}

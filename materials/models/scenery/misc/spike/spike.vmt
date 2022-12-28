@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/misc/spike/spike"
+	"$envmapmask" "models/scenery/misc/spike/spike_ref"
+	"$envmap" 				"env_cubemap"
+//	"$envmapmode" "0"
+}

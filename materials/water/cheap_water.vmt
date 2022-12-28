@@ -1,0 +1,38 @@
+"LightmappedGeneric"
+{
+
+	"$forcecheap" "1"
+	"$baseTexture" "water/cheap_water"
+	"$bumpmap"			"dev/water_normal"
+	"$envmap"			"env_cubemap"
+	"$envmapmask" "effects/ref_75"
+	"$bumpframe"			"0"
+	"$bumpoffset"			"[0 0]"
+	"$envmaptint" "[.2 0 0]"
+	"$scale" "[0.5 0.5]"
+	"%compilewater" "1"
+	"$bottommaterial" "dev/dev_waterbeneath2"
+	"$surfaceprop" "water"
+	"$translucent"   "1"
+	"$fogenable" "1"
+	"$fogcolor" "{22 20 10}"
+	"$fogstart" "1.00"
+	"$fogend" "400.00"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$bumpmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" "20.00"
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumpoffset"
+			"texturescrollrate" ".02"
+			"texturescrollangle" "45.00"
+		}
+	}
+}

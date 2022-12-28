@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"models\scenery\structural\vesuvius\signc"
+	"$selfillum" "1"
+	"$surfaceprop" 	"plastic"
+}

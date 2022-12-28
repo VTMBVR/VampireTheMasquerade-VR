@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "brick/muswllg"
+	"$surfaceprop" "brick"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "brick/muswllg_ref"
+	"$translucent" 1
+}

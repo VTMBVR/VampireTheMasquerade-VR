@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\malkavian\desk"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\malkavian\desk_ref"
+	"$surfaceprop" "wood"
+
+}

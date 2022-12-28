@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "tile/musfloorc"
+	"$surfaceprop" "tile"
+//	"$envmap" "envmap/pwnshpcntr"
+	"$envmapmask" "tile/libfloora_ref"
+	"$envmap" 				"env_cubemap"
+
+}

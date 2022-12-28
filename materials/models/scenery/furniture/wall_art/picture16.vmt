@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/furniture/wall_art/picture16"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"carpet"
+}
+

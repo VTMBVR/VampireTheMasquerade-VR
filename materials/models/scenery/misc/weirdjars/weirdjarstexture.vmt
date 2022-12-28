@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\weirdjars\weirdjarstexture"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\misc\weirdjars\weirdjarstexture_ref"
+	"$surfaceprop" "glass"
+
+}

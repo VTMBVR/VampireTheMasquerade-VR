@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\vehicles\taxi\interior"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\vehicles\taxi\interior_ref"
+
+}

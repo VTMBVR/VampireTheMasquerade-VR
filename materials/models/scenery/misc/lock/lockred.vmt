@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\lock\lockred"
+	"$selfillum" "1"
+
+}

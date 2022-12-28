@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\vice\vice"
+	//"$envmap" "env_cubemap"
+	"$envmap"	"envmap/havenrm"
+	"$envmapmask" "models\scenery\furniture\vice\vice_ref"
+
+}

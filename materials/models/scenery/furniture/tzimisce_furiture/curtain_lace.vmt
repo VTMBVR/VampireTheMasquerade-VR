@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\tzimisce_furiture\curtain_lace"
+	"$translucent" "1"
+	"$surfaceprop" "default"
+
+}

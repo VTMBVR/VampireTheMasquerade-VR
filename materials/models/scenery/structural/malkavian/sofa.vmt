@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\malkavian\sofa"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\malkavian\sofa_ref"
+	"$surfaceprop" "leather"
+
+}

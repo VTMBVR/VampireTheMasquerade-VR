@@ -1,0 +1,7 @@
+"WorldVertexTransition" 
+{ 
+     	"$basetexture" "ground/shrubberyc"
+     	"$basetexture2" "ground/shrubberye"
+	"%detailtype" "branchesgr"
+} 
+

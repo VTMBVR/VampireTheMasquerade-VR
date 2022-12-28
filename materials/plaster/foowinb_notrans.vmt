@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"plaster\foowinb"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "plaster\foowinb_ref"
+	"$surfaceprop" "glass"
+
+}

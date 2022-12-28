@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\condiment\can1top"
+	"$nocull"				1
+
+}

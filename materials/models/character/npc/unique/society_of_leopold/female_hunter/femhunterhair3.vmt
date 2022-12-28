@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\Society_of_Leopold\Female_Hunter\femhunterhair"
+	"$translucent" "1"
+	"$nocull" 1
+}

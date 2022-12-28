@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\tzimisce_furiture\blood_well"
+	
+	"$envmap" "envmap/havenrm"	
+	"$envmapmask" "models\scenery\furniture\TZIMISCE_FURITURE\blood_well_ref"
+	
+	"$surfaceprop" "stone"
+
+}

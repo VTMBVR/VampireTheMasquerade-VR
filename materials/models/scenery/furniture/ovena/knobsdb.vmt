@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/furniture/ovena/knobsdb"
+//	"$envmap" "envmap/havenrm"
+	"$envmapmask" "effects/ref_25"
+	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"metal"
+}

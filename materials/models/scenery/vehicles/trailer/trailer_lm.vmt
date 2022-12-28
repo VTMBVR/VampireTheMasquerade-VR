@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+
+	"$color"				"[1 1 1]"
+	"$baseTexture"				"/models/scenery/vehicles/trailer/trailer"
+	"$selfIllum"				0
+	"$translucency"				0
+	"$alpha"				1
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"metal"
+}

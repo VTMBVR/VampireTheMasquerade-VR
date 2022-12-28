@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\plants\pottedplanthotel\large3"
+	"$alphatest" "1"
+	"$nocull" "1"
+
+
+}

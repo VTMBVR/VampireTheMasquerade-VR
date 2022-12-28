@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\signs\roofheli"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.75"
+	"$surfaceprop" "asphalt"
+
+}

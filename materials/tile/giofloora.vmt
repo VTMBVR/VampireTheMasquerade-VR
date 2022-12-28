@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "tile/giofloora"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "tile/giofloora_ref"
+	"$surfaceprop" "tile"
+}

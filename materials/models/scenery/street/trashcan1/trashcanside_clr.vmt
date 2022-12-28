@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+
+	"$color"				"[1 1 1]"
+	"$baseTexture"				"/models/scenery/street/trashcan1/trashcanside_clr"
+	"$selfIllum"				0
+	"$translucence"				0
+	"$alpha"				1
+//	"$envmap" "envmap/asylum"
+	"$envmapmask" "models/scenery/street/TrashCan1/TrashCanSide_REF"
+//	"$bumpmap" "models/scenery/street/TrashCan1/TrashCanSide_Normal"
+	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"metal"
+}

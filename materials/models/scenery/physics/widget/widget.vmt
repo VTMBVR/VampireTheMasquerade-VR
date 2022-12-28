@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	$model 1
+	"$basetexture" "models/scenery/physics/widget/widget"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"metal"
+}

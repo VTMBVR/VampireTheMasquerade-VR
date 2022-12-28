@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/furniture/heater/heatersd"
+	"$surfaceprop"				"metal"
+
+}

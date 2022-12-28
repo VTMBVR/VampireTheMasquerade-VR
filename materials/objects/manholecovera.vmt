@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "objects\manholecovera"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	"$normalalphaenvmapmask" 1
+	"$bumpmap" "objects\manholecovera_normal" 
+}

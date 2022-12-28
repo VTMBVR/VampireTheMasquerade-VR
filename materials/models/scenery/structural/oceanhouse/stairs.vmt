@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\oceanhouse\stairs"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\oceanhouse\stairs_ref"
+	"$surfaceprop" "metal"
+
+}

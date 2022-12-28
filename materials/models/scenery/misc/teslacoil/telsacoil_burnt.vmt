@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\teslacoil\telsacoil_burnt"
+	"$alphatest" "1"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\misc\teslacoil\telsacoil_ref"
+
+}

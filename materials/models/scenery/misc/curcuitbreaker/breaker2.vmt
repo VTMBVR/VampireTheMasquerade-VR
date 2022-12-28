@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\curcuitbreaker\breaker2"
+	"$surfaceprop" "metal"
+
+}

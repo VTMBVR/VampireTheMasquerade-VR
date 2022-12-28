@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\common\dancer\female_1\dancer"
+	"$surfaceprop" "default"
+
+}

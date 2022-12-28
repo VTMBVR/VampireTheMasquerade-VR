@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "plaster/musceilinga"
+	"$surfaceprop" "plaster"
+	"$bumpmap" "plaster/musceilinga_normal"
+}

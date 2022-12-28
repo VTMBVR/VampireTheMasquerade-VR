@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\dane\crate01"
+	"$surfaceprop" "wood"
+
+}

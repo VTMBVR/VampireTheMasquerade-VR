@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\signs\signbacka"
+	"$surfaceprop" "metal"
+//	"$envmap" "envmap/hav"
+	"$envmapmask" "models\scenery\signs\signbacka_ref"
+	"$envmap" 				"env_cubemap"
+
+}

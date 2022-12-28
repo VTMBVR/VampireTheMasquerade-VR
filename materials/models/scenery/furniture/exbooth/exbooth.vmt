@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\exbooth\exbooth"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\furniture\exbooth\exbooth_ref"
+	"$surfaceprop" "wood"
+
+}

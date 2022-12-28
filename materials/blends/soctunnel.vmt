@@ -1,0 +1,5 @@
+"WorldVertexTransition" 
+{
+     "$basetexture" "blends/soctunnelb"
+     "$basetexture2" "blends/soctunnela" 
+}

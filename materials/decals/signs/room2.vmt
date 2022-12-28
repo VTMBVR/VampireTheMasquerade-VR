@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\signs\room2"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.150"
+
+}

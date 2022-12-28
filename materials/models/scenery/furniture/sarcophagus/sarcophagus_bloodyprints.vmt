@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\sarcophagus\sarcophagus_bloodyprints"
+	"$bumpmap"	"models\scenery\furniture\sarcophagus\sarcophagusnormal"
+	"$normalmapalphaenvmapmask" "1"
+
+}

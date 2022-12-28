@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\plants\Oak_Tree\CG_OakTree_base_01"
+	"$surfaceprop" "wood"
+	\\"$bumpmap"	"models\scenery\plants\Oak_Tree"
+	"$translucent" 				1
+	"$alpha"				1
+}

@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\tseng\cabinetb"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\tseng\cabinetb_ref"
+	"$surfaceprop" "wood"
+
+}

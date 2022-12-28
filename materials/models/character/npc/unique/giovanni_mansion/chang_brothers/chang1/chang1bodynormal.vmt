@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\giovanni_mansion\chang_brothers\chang1\chang1bodynormal"
+	"$normalmapalphaenvmapmask" "1"
+
+}

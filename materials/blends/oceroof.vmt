@@ -1,0 +1,7 @@
+"WorldVertexTransition" 
+{ 
+     	"$basetexture" 		"tile/roofa" 
+     	"$basetexture2" 	"tile/roofb"
+		"$surfaceprop"		"stone"
+} 
+

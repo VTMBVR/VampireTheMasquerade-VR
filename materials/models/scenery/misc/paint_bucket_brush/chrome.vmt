@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery\furniture\drum_kit\chrome"
+//	"$envmap" "envmap/asylum"
+//	"$envmapmask" "envmap/asylum"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"wood"
+}

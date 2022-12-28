@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\milkcrate\milkcrate"
+	"$nocull"			1
+
+}

@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+	"$basetexture"	"decals\details\blood_spill"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.250"
+
+}

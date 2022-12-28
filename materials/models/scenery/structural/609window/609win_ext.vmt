@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/609window/609win_ext"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/structural/609window/609window_ref"
+	"$selfillum" "1"
+}

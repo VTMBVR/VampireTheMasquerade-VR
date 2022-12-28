@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTexture
+	"$basetexture" "objects\tools2"
+	"$surfaceprop" "wood"
+}

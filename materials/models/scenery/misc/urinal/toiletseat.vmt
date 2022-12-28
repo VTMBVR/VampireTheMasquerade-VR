@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\urinal\toiletseat"
+	"$envmapmask" "models/scenery/misc/urinal/toiletseat_env"
+	"$envmap" 				"env_cubemap"
+//	"$envmap" 				"envmap/asylum"
+	"$surfaceprop"				"metal"
+
+}

@@ -1,0 +1,12 @@
+"UnLitGeneric"
+{
+	"$basetexture" "Tools/toolsinvisible"
+	"%compilenodraw" 1
+	"$bottommaterial" "water/invisible_water"
+	"$translucent" 1
+	"$fogenable" "1"
+	"$fogcolor" "{22 20 10}"
+	"$fogstart" "1.00"
+	"$fogend" "400.00"
+ 	"%compileWater" 1
+}

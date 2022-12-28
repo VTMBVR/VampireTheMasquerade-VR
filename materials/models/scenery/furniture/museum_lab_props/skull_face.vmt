@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\museum_lab_props\skull_face"
+	"$surfaceprop" "bone"
+
+}

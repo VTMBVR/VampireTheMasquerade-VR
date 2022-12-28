@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/furniture/Gong/Gong"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/furniture/Gong/Gong_ref"
+}

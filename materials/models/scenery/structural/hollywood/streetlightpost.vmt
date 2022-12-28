@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/structural/hollywood/streetlightpost"
+	"$surfaceprop" "metal"
+	"$selfillum" "1"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/physics/dummy/128lowcontrast"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"wood"
+}

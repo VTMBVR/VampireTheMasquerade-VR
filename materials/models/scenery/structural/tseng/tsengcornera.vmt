@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\tseng\tsengcornera"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects\ref_12"
+	"$surfaceprop" "wood"
+
+}

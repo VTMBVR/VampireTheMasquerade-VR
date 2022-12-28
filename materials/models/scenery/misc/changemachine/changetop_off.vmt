@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\changemachine\changetop"
+	"$selfillum" "0"
+	"$nocull" "1"
+	"$surfaceprop" "metal"
+
+}

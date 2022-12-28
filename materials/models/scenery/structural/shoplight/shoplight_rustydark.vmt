@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"models\scenery\structural\shoplight\shoplight_rusty"
+	"$surfaceprop" 	"glass"
+//	"$selfillum"	"1"
+}

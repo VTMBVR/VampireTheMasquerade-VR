@@ -1,0 +1,16 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "stone/warewllh"
+	"$surfaceprop" "stone"
+	
+"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" 8.0
+			"texturescrollangle" 0.00
+		}
+	}
+
+}

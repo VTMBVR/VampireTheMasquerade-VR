@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"wood\libceilinga"
+	"$surfaceprop" 	"wood"
+	"$bumpmap" 		"wood/tsewoodc_normal"
+
+}

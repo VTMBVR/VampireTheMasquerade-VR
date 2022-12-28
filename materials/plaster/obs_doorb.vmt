@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"plaster\obs_doorb"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "stone/obs_doora_ref"
+
+}

@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "drapery/web_2"
+	"$additive" 1
+	"%compileNonsolid" 1 
+}

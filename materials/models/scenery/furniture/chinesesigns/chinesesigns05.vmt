@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\chinesesigns\chinesesigns05"
+	"$selfillum" "1"
+
+}

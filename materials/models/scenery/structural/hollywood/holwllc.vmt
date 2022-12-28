@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "stone/holwllc"
+	"$surfaceprop" "wood"
+	"$selfillum" "1"
+}

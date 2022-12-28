@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\boodha\boodha_texture\boodahsphere2"
+	"$surfaceprop" "metal"
+
+}

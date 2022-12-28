@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/609sconce/illum"
+	"$selfillum" "1"
+}

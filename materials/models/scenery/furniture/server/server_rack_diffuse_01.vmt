@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\server\server_rack_diffuse_01"
+	"$surfaceprop" "default"
+
+}

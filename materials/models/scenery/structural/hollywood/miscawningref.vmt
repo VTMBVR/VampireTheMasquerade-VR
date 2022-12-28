@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/structural/hollywood/miscawning"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_50"
+	"$surfaceprop" "plastic"
+	"$nocull" "1"
+}

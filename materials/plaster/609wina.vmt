@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "plaster/609wina"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "plaster/609wina_ref"
+}

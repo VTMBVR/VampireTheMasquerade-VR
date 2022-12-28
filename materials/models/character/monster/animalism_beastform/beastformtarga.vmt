@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\monster\animalism_beastform\beastformtarga"
+	"$bumpmap"	"models\character\monster\animalism_beastform\animalism_beastform_normal2"
+}

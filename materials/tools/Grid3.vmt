@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "TOOLS/grid3"
+	"$selfillum" "1"
+}

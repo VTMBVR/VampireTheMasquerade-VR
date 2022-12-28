@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\society\nightstand"
+	"$envmapmask" "nightstand_spec"
+	"$surfaceprop" "wood"
+//	"$envmap" "env_cubemap"
+	"$envmap" "envmap/smokeshop"
+	"$envmaptint" "[ 0.0 0.0 0.0 ]"
+}

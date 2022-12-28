@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\santa_monica\stan_gimble\gimbleclaw"
+	"$envmapmask"	"models\character\npc\unique\santa_monica\stan_gimble\gimbleclawSpec"
+	"$envmap" 	"env_cubemap"
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\vehicles\subwaycar\subway3"
+	"$selfillum" "1"
+	"$surfaceprop" "metal"
+
+}

@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"metal\fishbeamsa"
+	"$alphatest" "1"
+	"$surfaceprop" "metal"
+
+}

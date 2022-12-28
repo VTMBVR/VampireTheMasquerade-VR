@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\soapdispenser\soapdispenser1b"
+	"$envmapmask" "models/scenery/misc/soapdispenser/soapdispenser1b_env"
+	"$envmap" 				"env_cubemap"
+//	"$envmap" 				"envmap/asylum"
+	"$surfaceprop"				"metal"
+
+}

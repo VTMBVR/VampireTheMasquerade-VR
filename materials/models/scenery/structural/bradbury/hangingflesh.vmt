@@ -1,0 +1,7 @@
+unlitGeneric
+{
+	"$basetexture"	"models\scenery\structural\bradbury\hangingflesh"
+	"$alphatest" "1"
+	"$nocull" "1"
+	"$model" 1
+}

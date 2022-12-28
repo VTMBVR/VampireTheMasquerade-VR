@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+
+	"$color"				"[1 1 1]"
+	"$baseTexture"				"/models/scenery/misc/dress_bust/copper"
+	"$envmapmask" "effects/ref_50"
+	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"metal"
+}

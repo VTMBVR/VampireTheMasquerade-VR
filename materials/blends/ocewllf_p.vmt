@@ -1,0 +1,7 @@
+"WorldVertexTransition" 
+{ 
+     	"$basetexture" 	"plaster/ocewllf" 
+     	"$basetexture2" 	"plaster/ocewllp"
+	"$surfaceprop" 	"plaster"
+} 
+

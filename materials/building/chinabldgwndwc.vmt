@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"building\chinabldgwndwc"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "building\chinabldgwndwc_ref"
+	"$surfaceprop" "plaster"
+
+}

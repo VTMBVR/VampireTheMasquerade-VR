@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"/models/scenery/furniture/soc_bed/soc_bed"
+	"$surfaceprop"	"wood"
+}

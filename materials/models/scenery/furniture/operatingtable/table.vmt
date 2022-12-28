@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\operatingtable\table"
+	"$nocull"			1
+
+}

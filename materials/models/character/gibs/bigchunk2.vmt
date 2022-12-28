@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\gibs\bigchunk2"
+	"$envmap" "envmap\blood"
+	"$envmapmask" "models\character\gibs\bigchunk2envmask"
+
+}

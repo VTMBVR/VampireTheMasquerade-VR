@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\plants\bark_1"
+	//"$bumpmap"	"models\scenery\plants\bark_1_normal"
+}

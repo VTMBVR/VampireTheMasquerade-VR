@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/stake/hotel_sign"
+	"$selfIllum"				1
+
+}

@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTexture
+	"$basetexture" "Tools\grid"
+	"$model" 0
+}

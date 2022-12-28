@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"metal\danebutt"
+	"$surfaceprop" "metal"
+	"$envmap"  "env_cubemap"
+	"$envmapmask"  "metal\danebutt_ref"
+
+}

@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	// Original shader: BaseTexture
+	"$basetexture" "a_basetexture"
+	"$model" 0
+}

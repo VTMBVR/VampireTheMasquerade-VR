@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "drapery/neta"
+	"$translucent" 1
+	"$model=1"
+	"%compilePassBullets" 1 
+}

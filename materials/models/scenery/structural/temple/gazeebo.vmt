@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/temple/gazeebo"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/structural/temple/gazeebo_ref"
+
+}

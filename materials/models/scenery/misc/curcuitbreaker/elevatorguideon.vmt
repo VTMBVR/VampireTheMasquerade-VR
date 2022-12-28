@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\curcuitbreaker\elevatorguideon"
+	"$selfillum" "1"
+
+}

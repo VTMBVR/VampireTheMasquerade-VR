@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+
+	"$color"				"[1 1 1]"
+	"$baseTexture"				"/models/scenery/misc/dress_bust/inner"
+	"$envmapmask" "effects/ref_100"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"metal"
+}

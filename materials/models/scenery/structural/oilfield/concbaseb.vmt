@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\structural\oilfield\concbaseb"
+	"$surfaceprop" "concrete"
+	"$model" "1"
+}

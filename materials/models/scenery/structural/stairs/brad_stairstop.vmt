@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/structural/stairs/brad_stairstop"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"defualt"
+}

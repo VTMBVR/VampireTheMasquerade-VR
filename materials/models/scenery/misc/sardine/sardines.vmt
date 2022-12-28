@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\sardine\sardines"
+	"$selfillum" "1"
+	"$nocull" "1"
+	"$surfaceprop" "metal"
+
+}

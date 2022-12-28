@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\malkavian\malk_phrenology"
+	"$bumpmap" 	"models\scenery\structural\malkavian\malk_phrenology_normal"
+	"$normalmapalphaenvmapmask" 1
+//	"$envmapmask" "models\scenery\structural\malkavian\malk_phrenology_spec"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "stone"
+
+}

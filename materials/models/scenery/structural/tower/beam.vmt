@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\tower\beam"
+	"$additive" "1"
+	"$translucent"	"1"
+
+}

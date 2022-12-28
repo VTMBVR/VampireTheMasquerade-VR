@@ -1,0 +1,5 @@
+"Modulate"
+{
+	"$basetexture" "effects/noise_gray50_gaussian8"
+	"$mod2x" "1"
+}

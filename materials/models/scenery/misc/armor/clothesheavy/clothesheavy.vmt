@@ -1,0 +1,6 @@
+UnlitGeneric
+{
+	"$basetexture"	"models\scenery\misc\armor\clothesheavy\clothesheavy"
+	"$translucent" "1"
+	"$model" "1"
+}

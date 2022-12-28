@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "highlights/physics"
+	"$selfillum" "1"
+	"$selfillumtint" "1.0"
+	"$additive"	"1"
+
+	"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar" "$alpha"
+			"sinemin" 0
+			"sinemax" 0.1
+			"sineperiod" 2
+		}
+	}
+
+}

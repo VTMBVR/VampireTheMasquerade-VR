@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/furniture/securitycam/cam_blownUP"
+	"$envmapmask" "effects/ref_12"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"plastic"
+}

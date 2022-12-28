@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/misc/soc/cross"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_12"
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/warrens/tire"
+	"$envmap"	   "env_cubemap"
+	"$envmapmask"  "models/scenery/structural/warrens/tire_ref"
+
+}

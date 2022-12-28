@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/structural/stake/gas_meter_face"
+	"$surfaceprop" "metal"
+}

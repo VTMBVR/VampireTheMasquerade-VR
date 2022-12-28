@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/character/monster/tzimisce/creation1/TzimCreat1shreds"
+	"$translucent"	"1"
+}

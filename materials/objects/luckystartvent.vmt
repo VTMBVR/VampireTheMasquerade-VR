@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"objects\luckystartvent"
+	"$translucent" "1"
+	"$surfaceprop" "metal"
+
+}

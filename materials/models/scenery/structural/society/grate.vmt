@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/structural/society/grate"
+	"$surfaceprop" "metal"
+	"$alphatest" "1"
+}

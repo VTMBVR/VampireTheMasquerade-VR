@@ -1,0 +1,18 @@
+"UnlitGeneric"
+{
+	"$translucent" 1
+	"$additive" 1
+	"$basetexture" "objects/frame"
+	"$decal" 1
+	"$decalscale" 0.60
+ "Proxies"
+ {
+  "AnimatedTexture"
+  {
+      "animatedTextureVar" "$basetexture"
+    "animatedTextureFrameNumVar" "$frame"
+    "animatedTextureFrameRate" "7"
+  }
+ }
+
+}

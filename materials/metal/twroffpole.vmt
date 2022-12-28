@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "metal/twroffpole"
+	\\"$envmapmask" "effects/ref_25"
+	"$surfaceprop" "metal"
+	\\"$envmap" 	"env_cubemap"
+
+}

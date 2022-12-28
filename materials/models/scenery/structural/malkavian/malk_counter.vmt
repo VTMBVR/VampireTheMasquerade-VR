@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\malkavian\malk_counter"
+	"$envmapmask" "models\scenery\structural\malkavian\malk_counter_spec"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ 0.75 0.75 0.75 ]"
+	"$surfaceprop" "wood"
+
+}

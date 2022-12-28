@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/furniture/standinglamp/standinglamp2"
+	"$envmapmask" "effects/ref_75"
+//	"$envmap" 				"env_cubemap"
+	"$envmap" 				"envmap/asylum"
+	"$surfaceprop"				"metal"
+	"$envmaptint" "[ 1.0 0.9 0.6342 ]"
+}

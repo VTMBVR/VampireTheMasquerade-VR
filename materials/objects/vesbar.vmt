@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "objects/vesbar"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "glass"
+	"$envmapmask" "objects/vesbar_ref"
+//	"$envmaptint" "[0.0 0.9 0.25]"
+	"$selfillum" "1"
+
+}

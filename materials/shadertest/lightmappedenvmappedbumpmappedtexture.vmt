@@ -1,0 +1,9 @@
+"LightmappedEnvmappedBumpmappedTexture"
+{
+	"$basetexture" "shadertest/WorldDiffuseBumpmap"
+	"$bumpmap" "shadertest/sphere"
+	"$bumpscale" 0.50
+	"$envmap" "shadertest/cubemap"
+	"$envmapmask" "shadertest/spheremask"
+	"$envmaptint" "[ 0.50 0.50 0.50 ]"
+}

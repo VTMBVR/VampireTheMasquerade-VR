@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\misc\bottles\cantpa"
+	"$surfaceprop" "metalvent"
+//	"$envmap" "envmap/havenrm"	
+	"$envmapmask" "models\scenery\misc\bottles\cantpa_ref"
+	"$envmap" 				"env_cubemap"
+}

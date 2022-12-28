@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\metal_chair\gio_metal_chair"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\furniture\metal_chair\gio_metal_chair_envmap"
+
+}

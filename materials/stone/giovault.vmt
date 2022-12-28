@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "stone/giovault"
+	"$surfaceprop" "brick" 
+	"$bumpmap" "stone/giovault_normal"
+}

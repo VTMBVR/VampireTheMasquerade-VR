@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\embolming_machine\embolming_machine"
+	"$surfaceprop" "metal"
+
+}

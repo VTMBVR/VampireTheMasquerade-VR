@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/misc/magazines/cover4"
+//	"$envmap" "envmap/asylum"
+//	"$envmapmask" "effects/ref_100"
+	"$surfaceprop" "defualt
+//	"$envmap" 				"env_cubemap"
+}

@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/street/pierlight/lightsuper"
+	"$selfillum" "1"
+	"$surfaceprop" "metal"
+	"$envmapmask" "models/scenery/street/pierlight/lightsuper_ref"
+	"$envmap" 		"env_cubemap"
+}

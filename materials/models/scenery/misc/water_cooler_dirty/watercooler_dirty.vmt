@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\water_cooler_dirty\watercooler_dirty"
+	"$surfaceprop" "default"
+
+}

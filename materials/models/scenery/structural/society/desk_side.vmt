@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	// Original shader: BaseTexture
+	"$basetexture" "wood\desk_side"
+	"$surfaceprop" "wood"
+}

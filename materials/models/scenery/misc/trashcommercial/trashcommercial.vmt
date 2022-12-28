@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\trashcommercial\trashcommercial"
+	"$envmapmask" "models/scenery/misc/trashcommercial/trashcommercial_env"
+	"$envmap" 				"env_cubemap"
+//	"$envmap" 				"envmap/asylum"
+	"$surfaceprop"				"plastic"
+
+
+}

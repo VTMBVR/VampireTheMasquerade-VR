@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "objects\sewerladdera"
+	"$surfaceprop" "metal"
+	"$alphatest" "1"
+}

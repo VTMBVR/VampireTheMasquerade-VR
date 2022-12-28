@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "stone/jewdra"
+	"$surfaceprop" "wood"
+	"$envmap" "env_cubemap"	
+	"$envmapmask" "stone/jewdra_ref"
+}

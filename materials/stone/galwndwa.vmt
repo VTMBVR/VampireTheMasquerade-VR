@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "stone/galwndwa"
+	"$surfaceprop" "stone"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "stone/galwndwa_ref"
+	"$selfillum" "1"
+}

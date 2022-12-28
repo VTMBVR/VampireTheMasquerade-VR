@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/giocolumn/marble"
+	"$envmapmask" "effects/ref_50"
+	"$envmap" "env_cubemap"
+}

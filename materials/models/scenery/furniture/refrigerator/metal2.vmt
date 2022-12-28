@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\refrigerator\metal2"
+	"$nocull"			1
+	"$envmapmask" "models/scenery/furniture/refrigerator/metal_env"
+	"$envmap" 				"env_cubemap"
+//	"$envmap" 				"envmap/asylum"
+	"$surfaceprop"				"metal"
+
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/plants/tree/treesuper"
+	"$nocull" 1
+	"$alphatest" 1
+}

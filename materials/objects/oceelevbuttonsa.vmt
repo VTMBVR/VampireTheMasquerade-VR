@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"objects\oceelevbuttonsa"
+	"$surfaceprop" 	"metal"
+	"$envmap"		"env_cubemap"
+	"$envmapmask" 	"effects/ref_50"
+}

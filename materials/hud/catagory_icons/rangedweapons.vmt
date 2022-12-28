@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+	"$basetexture"	"hud\catagory_icons\rangedweapons"
+	"$translucent" "1"
+	"$ignorez" "1"
+
+}

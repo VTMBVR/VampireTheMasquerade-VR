@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"metal\danewllc"
+	"$surfaceprop" "metal"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "metal\danewllc_ref"
+}

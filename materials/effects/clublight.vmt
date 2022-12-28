@@ -1,0 +1,16 @@
+"UnlitGeneric_dx6"
+{
+	"$translucent" 1
+	"$additive" 1
+	"$basetexture" "effects\clublight"
+ "Proxies"
+ {
+  "AnimatedTexture"
+  {
+      "animatedTextureVar" "$basetexture"
+    "animatedTextureFrameNumVar" "$frame"
+    "animatedTextureFrameRate" "30"
+  }
+ }
+
+}

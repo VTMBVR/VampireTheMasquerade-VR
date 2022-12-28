@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$surfaceprop" "concrete"
+	"$basetexture" "concrete/twrprmflra"
+	"$surfaceprop" "concrete"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "concrete/twrprmflra_ref"
+}

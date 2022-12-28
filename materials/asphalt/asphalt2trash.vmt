@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "asphalt/Asphalt2"
+	"$surfaceprop" "concrete"
+     "%detailtype" "trash"
+}

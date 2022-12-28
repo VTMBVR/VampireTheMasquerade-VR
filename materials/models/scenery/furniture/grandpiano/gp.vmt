@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/furniture/Grandpiano/GP"
+	"$envmapmask" "models/scenery/furniture/Grandpiano/GP_env"
+	"$envmap" 				"env_cubemap"
+//	"$envmap" 				"envmap/asylum"
+	"$surfaceprop"				"wood"
+
+}

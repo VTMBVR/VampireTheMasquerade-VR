@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\common\shovelhead\shovelhead_l_eye"
+	"$selfillum" "1"
+
+}

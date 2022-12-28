@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\beachhouse\bchhs_ex_overhang"
+	"$selfillum" "1"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\beachhouse\bchhs_ex_overhang_ref"
+
+}

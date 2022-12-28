@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\vehicles\steamengine\engine17"
+	"$surfaceprop" "metal"
+
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\rifle_rem700\rifle_stock"
+	"$bumpmap"	"models\weapons\rifle_rem700\rifle_stock_normal"
+	"$envmap"	"envmap\specmap"
+	"$normalmapalphaenvmapmask" "1"
+}

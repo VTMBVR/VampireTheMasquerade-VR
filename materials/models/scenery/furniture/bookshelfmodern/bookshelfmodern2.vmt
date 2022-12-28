@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\bookshelfmodern\bookshelfmodern2"
+	"$nocull" "1"
+
+}

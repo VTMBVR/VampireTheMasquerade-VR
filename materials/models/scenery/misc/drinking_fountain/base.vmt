@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/misc/drinking_fountain/base"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_50"
+	"$surfaceprop" "metal"
+
+}

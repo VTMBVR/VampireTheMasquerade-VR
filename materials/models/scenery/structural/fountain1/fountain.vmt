@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\scenery\structural\fountain1\fountain"
+	"$envmap" 				"env_cubemap"
+	"$envmapmask" "models\scenery\structural\fountain1\fountain_ref"
+	"$surfaceprop"				"concrete"
+}

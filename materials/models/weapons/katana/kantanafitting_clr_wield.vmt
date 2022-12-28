@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"		"models/weapons/katana/KantanaFitting_Clr_Wield"
+	"$envmapmask"		"models/weapons/katana/KantanaFitting_spec_wield"
+	"$envmap"	   "envmap/havenrm"
+	"$envmapmode" "1"
+}

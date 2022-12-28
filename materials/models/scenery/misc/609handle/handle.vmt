@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/misc/609handle/handle"
+	"$envmapmask" "effects/ref_50"
+	"$surfaceprop" "metal"
+	"$envmap" 				"env_cubemap"
+}

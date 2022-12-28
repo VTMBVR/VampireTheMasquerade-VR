@@ -1,0 +1,14 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "effects/SlideShow/slide"
+//	"$selfillum" "1"
+
+ "Proxies"
+ {
+  "AnimatedTexture"
+  {
+    "animatedTextureVar" "$basetexture"
+    "animatedTextureFrameNumVar" "$frame"
+    "animatedTextureFrameRate" ".125"
+  }
+ }

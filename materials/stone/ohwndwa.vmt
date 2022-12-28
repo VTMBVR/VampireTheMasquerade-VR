@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "stone/ohwndwa"
+	"$envmap" "envmap/hav"
+	"$envmapmask" "stone/ohwndwa_ref"
+}

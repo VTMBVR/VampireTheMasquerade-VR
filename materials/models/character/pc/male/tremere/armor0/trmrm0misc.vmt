@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\pc\male\tremere\armor0\trmrm0misc"
+	"$surfaceprop" "metal"
+
+}

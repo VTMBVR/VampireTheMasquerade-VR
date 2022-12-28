@@ -1,0 +1,8 @@
+"UnLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/sewer/volume"
+	"$translucent"				1
+	"$model"				1
+//	"$nocull"	1
+//	"$additive"	1
+}

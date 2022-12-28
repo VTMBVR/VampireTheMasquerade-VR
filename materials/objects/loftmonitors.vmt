@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"objects\loftmonitors"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "objects\loftmonitors_ref"
+	"$surfaceprop" "glass"
+
+}

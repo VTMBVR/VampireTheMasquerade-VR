@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/scenery/structural/cemetery/vasewall"
+	"$surfaceprop"	"metal"
+	"$envmap" "env_cubemap"	
+	"$envmapmask" "models/scenery/structural/cemetery/vasewall_ref"
+	"$model" 1
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\pc\male\malkavian\armor0\malk0mbody"
+	"$surfaceprop" "default"
+
+}

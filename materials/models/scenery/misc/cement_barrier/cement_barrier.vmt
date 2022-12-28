@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\cement_barrier\cement_barrier"
+	"$surfaceprop" "stone"
+
+}

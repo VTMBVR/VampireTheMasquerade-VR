@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/furniture/ovena/rangetop"
+//	"$envmap" "envmap/havenrm"
+	"$envmapmask" "models/scenery/furniture/ovena/rangetop_ref"
+	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"metal"
+}

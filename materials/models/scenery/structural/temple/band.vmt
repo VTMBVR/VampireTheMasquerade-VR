@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\temple\band"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" 0.1
+			"texturescrollangle" 180.00
+		}
+	}
+
+
+}

@@ -1,0 +1,7 @@
+"WorldVertexTransition" 
+{ 
+     "$basetexture" "ground/dirtc_a" 
+     "$basetexture2" "stone/Bluff_wall_bottom2"
+     "%detailtype" "weeds" 
+} 
+

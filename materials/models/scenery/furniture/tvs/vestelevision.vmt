@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/furniture/TVs/vestelevision"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/furniture/tvs/vestelevision_ref"
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/weapons/submachine_mac10/mac10_map"
+	"$envmapmask"	"models/weapons/submachine_mac10/mac10_map_env"
+	"$envmap"	   "envmap/havenrm"
+	"$envmapmode" "1"
+}

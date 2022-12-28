@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\observatory\obsstairs3"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\observatory\obsstairs3_ref"
+
+}

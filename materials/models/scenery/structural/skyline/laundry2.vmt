@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\skyline\laundry2"
+	"$alphatest" "1"
+
+}

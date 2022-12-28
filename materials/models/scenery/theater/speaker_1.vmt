@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\theater\speaker_1"
+	"$surfaceprop"				"wood"
+}

@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "plaster/ohdoorb"
+	"$surfaceprop" "wood"
+	"$envmap" "envmap/hav"
+	"$envmapmask" "plaster/ohdoorb_ref"
+	"$selfillum" "1"
+}

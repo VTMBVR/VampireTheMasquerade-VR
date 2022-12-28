@@ -1,0 +1,13 @@
+"UnlitGeneric"
+{
+	"$basetexture" "objects/asmonitorb"
+
+ "Proxies"
+ {
+  "AnimatedTexture"
+  {
+    "animatedTextureVar" "$basetexture"
+    "animatedTextureFrameNumVar" "$frame"
+    "animatedTextureFrameRate" "25"
+  }
+ }

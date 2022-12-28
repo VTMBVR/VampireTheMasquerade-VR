@@ -1,0 +1,6 @@
+"WorldVertexTransition" 
+{ 
+     "$basetexture" "ground/holgrnda" 
+     "$basetexture2" "ground/holgrndb" 
+} 
+

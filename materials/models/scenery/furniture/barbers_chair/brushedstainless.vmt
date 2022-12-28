@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "metal\BrushedStainless"
+//	"$envmap" "envmap/theater_1"
+	"$envmap" 				"env_cubemap"
+	"$envmapmask" "metal/BrushedStainless_ENVMask"
+	"$surfaceprop"				"metal"
+}

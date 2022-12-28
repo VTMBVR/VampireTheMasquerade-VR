@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "plaster/malkburnt-wall1"
+	"$selfillum" 1
+}

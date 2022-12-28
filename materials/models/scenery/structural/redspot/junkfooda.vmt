@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/redspot/junkfooda"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/structural/redspot/junkfooda_ref"
+}

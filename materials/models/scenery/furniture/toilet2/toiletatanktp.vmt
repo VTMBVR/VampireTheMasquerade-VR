@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/furniture/toileta/toiletatanktp"
+	"$envmap" "envmap/havbthrm"
+	"$envmapmask" "effects/ref_25"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"concrete"
+}

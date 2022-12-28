@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\beachhouse\3beamscale"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\beachhouse\3beamscale_ref"
+	"$surfaceprop" "metal"
+	"$envmapmode" "1"
+
+}

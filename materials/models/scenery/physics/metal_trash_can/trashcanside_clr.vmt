@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/physics/metal_trash_can/TrashCanSide_CLR"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"metal"
+}

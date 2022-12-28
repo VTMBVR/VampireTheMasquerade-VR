@@ -1,0 +1,7 @@
+"WorldVertexTransition" 
+{ 
+//	"$basetexture" "blends/bloody_ground" 
+	"$basetexture2" "blends/groundc" 
+	"$basetexture" "blends/soctunnelb" 
+} 
+

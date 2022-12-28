@@ -1,0 +1,9 @@
+UnlitGeneric
+{
+      "$basetexture"   "fonts\Vamp_Dialog_Base_19_900_000-page0"
+      "$ignorez" "1"
+      "$translucent" "1"
+      "$vertexcolor" "1"
+      "$vertexalpha" "1"
+      "$no_fullbright" "1"
+}

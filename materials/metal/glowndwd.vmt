@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"metal\glowndwd"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "metal\glowndwd_ref"
+	"$surfaceprop" "metal"
+
+}

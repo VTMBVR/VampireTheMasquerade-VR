@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\pc\female\gangrel\armor1\gangfa1body"
+	"$surfaceprop" "flesh"
+
+}

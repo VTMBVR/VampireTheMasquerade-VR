@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"		"models\scenery\vehicles\limo\limo"
+	"$envmap"		"env_cubemap"
+//	"$envmap"		"envmap/sewer"
+	"$envmapmask"		"models\scenery\vehicles\limo\limo_ref"
+	"$surfaceprop"		"metal"
+
+}

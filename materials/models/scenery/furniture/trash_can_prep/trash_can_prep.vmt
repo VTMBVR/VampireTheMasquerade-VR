@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\trash_can_prep\trash_can_prep"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_25"
+	"$surfaceprop" "metal"
+
+}

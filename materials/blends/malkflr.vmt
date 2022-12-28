@@ -1,0 +1,7 @@
+"WorldVertexTransition" 
+{ 
+	"$basetexture" "tile/malkfloorb" 
+	"$basetexture2" "tile/malkfloorbburnt" 
+	"$surfaceprop" "tile"
+} 
+

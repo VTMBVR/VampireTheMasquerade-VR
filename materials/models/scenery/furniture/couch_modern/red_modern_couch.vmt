@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+// "LightmappedGeneric"
+{
+	"$model" "1"
+	// Original shader: BaseTexture
+	"$basetexture" "models/scenery\furniture\couch_modern\red_modern_couch"
+	"$surfaceprop" "metal"
+}

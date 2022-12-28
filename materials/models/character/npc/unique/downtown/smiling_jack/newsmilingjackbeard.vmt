@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\downtown\smiling_jack\newsmilingjackbeard"
+	"$alphatest" "1"
+	"$nocull" "1"
+
+}

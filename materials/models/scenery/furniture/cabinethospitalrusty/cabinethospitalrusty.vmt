@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\cabinethospitalrusty\cabinethospitalrusty"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\furniture\cabinethospitalrusty\cabinethospitalrusty_envmap"
+	"$surfaceprop" "metal"
+
+}

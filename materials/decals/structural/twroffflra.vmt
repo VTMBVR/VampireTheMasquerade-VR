@@ -1,0 +1,11 @@
+LightmappedGeneric
+{
+	"$basetexture"	"decals\structural\twroffflra"
+	"$translucent" "1"
+	"$decal" "1"
+	"$decalscale" "0.50"
+	"$envmap" "envmap/ventrueoffices"
+	"$envmapmask" "decals/structural/twroffflra_ref"
+	"$surfaceprop" "tile"
+
+}

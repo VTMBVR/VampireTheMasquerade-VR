@@ -1,0 +1,10 @@
+LightmappedGeneric
+{
+	"$basetexture"	"concrete\sewer_sm_hole"
+//	"$envmap"	"cubemap"
+	"$bumpmap"	"concrete\sewer_SM_hole_normal"
+	"$surfaceprop"	"concrete"
+	"$envmap" "envmap/smsewer"
+	"$normalmapalphaenvmapmask" "1"
+
+}

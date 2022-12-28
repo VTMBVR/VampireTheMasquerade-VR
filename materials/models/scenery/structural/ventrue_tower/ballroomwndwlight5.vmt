@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/ventrue_tower/ballroomwndwlight"
+	"$additive" "1"
+	"$nocull" "1"
+
+	"Proxies"
+	{
+		"Sine"
+		{
+			// This is the data for the sine proxy, notice no '$' on the proxy variables!
+			"alpha" 		0
+			"resultVar"		"$alpha"
+			"sineperiod"	6
+			"sinemin"		0
+			"sinemax"		3
+			"timeoffset"	2
+		}
+
+
+	}
+
+}

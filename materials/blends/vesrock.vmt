@@ -1,0 +1,5 @@
+"WorldVertexTransition" 
+{
+     "$basetexture" "ground/vesrock" 
+     "$basetexture2" "wood/galply"
+}

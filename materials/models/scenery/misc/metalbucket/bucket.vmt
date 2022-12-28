@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\metalbucket\bucket"
+	"$nocull"			1
+
+}

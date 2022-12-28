@@ -1,0 +1,46 @@
+"Water"
+{
+	"%tooltexture" "dev/water_normal"
+	"$refracttexture" "_rt_WaterRefraction"
+	"$refractamount" "40.0"
+	"$refracttint" "[0.5 0.5 0.5]"
+
+	"$reflecttexture" "_rt_WaterReflection"
+	"$reflectamount" "100.0"
+	"$reflecttint" "[1.0 1.0 1.0]"
+
+	"$scale" "[1 1]"
+
+	"$bumpmap" "dev/water_dudv"
+	"$normalmap" "dev/water_normal"
+
+	"%compilewater" 1
+	"$surfaceprop" "water"
+	"$bottommaterial" "dev/dev_waterbeneath2"
+	"$subdivsize" 64
+	"$bumpframe" "0"
+
+	"$fogenable" 1
+	"$fogcolor" "{0 15 8}"
+	"$fogstart" 1.00
+	"$fogend" 1000.00
+
+	"$bumpoffset" "[0 0]"
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$bumpmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 10.00
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumpoffset"
+			"texturescrollrate" .05
+			"texturescrollangle" 45.00
+		}
+	}
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\items\chewinggum\chewinggum"
+	"$surfaceprop" "default"
+
+}

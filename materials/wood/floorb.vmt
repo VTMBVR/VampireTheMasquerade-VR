@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "wood/floorb"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "wood/floorb_ref"
+	"$surfaceprop" "wood"
+}

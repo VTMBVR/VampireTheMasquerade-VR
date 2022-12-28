@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\bradbury\sconce_lit"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\bradbury\sconce_ref"
+	"$selfillum"  "1"
+}

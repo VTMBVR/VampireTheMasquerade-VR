@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "blends/warrgrounda"
+	"$basetexture2" "blends/pile"
+      "%detailtype" "trashpile"	
+	"$surfaceprop" "concrete"
+	"$BUMPMAP"  "blends/warrwlla_normal" 
+	"$bumpbasetexture2withbumpmap" 0
+}

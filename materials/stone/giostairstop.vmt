@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "stone/giostairstop"
+	"$envmap" "envmap/gioint"
+	"$envmapmask" "effects/ref_50"
+	"$trilinear" "1"
+}

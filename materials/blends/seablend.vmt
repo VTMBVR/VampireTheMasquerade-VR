@@ -1,0 +1,7 @@
+"WorldVertexTransition" 
+{
+     "$basetexture" "blends/searocka" 
+     "$basetexture2" "blends/seaflra"
+	"$BUMPMAP"  "blends/searocka_normal" 
+	"$bumpbasetexture2withbumpmap" "1"
+}

@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\temple\corner"
+	"$translucent" "1"
+	"$alphatest" "1"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\temple\corner_ref"
+
+}

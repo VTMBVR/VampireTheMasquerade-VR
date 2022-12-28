@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\items\carstereo\carstereo"
+	"$envmapmask"	"models\items\carstereo\carstereo_ref"
+	"$envmap"	"envmap/havenrm"
+	"$envmapmode" "1"
+
+}

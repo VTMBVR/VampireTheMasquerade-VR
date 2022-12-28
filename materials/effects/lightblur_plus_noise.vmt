@@ -1,0 +1,6 @@
+"ScreenFeedback"
+{
+	"$blur" "1"
+	"$modintensity" "1"
+	"$antitexture" "effects/noise19"
+}

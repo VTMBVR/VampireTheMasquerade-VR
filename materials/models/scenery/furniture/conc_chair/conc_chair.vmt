@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery/furniture/conc_chair/conc_chair"
+	"$surfaceprop"				"wood"
+}

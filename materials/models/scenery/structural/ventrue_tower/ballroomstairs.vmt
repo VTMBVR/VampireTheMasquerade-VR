@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\ventrue_tower\ballroomstairs"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/structural/ventrue_tower/ballroomstairs_ref"
+
+}

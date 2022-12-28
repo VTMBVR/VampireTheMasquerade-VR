@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\theater\stage_box_1"
+	"$selfillum" "0"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"wood"
+}

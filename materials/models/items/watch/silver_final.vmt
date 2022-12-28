@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\items\watch\silver_final"
+	"$envmapmask"	"models\items\watch\silver_final_ref"
+	"$envmap"	"envmap/havenrm"
+	"$envmapmode" "1"
+	"$nocull" "1"
+
+
+}

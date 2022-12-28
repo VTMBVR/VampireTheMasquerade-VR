@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+
+	"$color"				"[1 1 1]"
+	"$baseTexture"				"/models/scenery/misc/microscope/microscope_map"
+	"$selfIllum"				0
+	"$translucent"				0
+	"$alpha"				1
+	"$envmap" 				"env_cubemap"
+//	"$envmap" 				"/envmap/asylum"
+	"$envmapmask" 				"/models/scenery/misc/microscope/microscope_map_envmask"
+	"$surfaceprop"				"metal"
+}

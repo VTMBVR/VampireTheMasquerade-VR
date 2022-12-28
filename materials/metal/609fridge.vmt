@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "metal/609fridge"
+	"$envmapmask" "effects/ref_50"
+	"$surfaceprop" "metal"
+	"$envmap" 				"env_cubemap"
+
+}

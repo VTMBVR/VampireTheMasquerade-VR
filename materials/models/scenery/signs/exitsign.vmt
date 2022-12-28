@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\signs\exitsign"
+	"$surfaceprop" "metal"
+//	"$envmap" 				"env_cubemap"
+}

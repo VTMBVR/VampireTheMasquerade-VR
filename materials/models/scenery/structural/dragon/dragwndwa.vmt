@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"plaster\dragwndwa"
+	"$selfillum" "1"
+	"$surfaceprop" "plaster"
+
+}

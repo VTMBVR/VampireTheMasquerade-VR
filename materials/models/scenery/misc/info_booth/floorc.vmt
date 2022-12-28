@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "wood\floorc"
+	"$surfaceprop" "wood"
+//	"$envmap" "envmap/havenrm"	
+//	"$envmapmask" "models\scenery\misc\bottles\bttla_ref"
+	"$envmap" 				"env_cubemap"
+}

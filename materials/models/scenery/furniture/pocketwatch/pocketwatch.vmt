@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\pocketwatch\pocketwatch"
+	"$envmapmask" "models\scenery\furniture\pocketwatch\pocketwatch_ref"
+	/"$envmap"	"envmap/havenrm"
+	"$envmap" "env_cubemap"
+	"$envmapmode" "1"
+
+}

@@ -1,0 +1,15 @@
+"Shadow"
+{
+//	"$basetexture" "Decals/simpleshadow"
+	"$soft" 1
+	"$no_fullbright" 1
+	"$decal" 1
+	"$vertexcolor" 1
+
+	"Proxies"
+	{		
+		"Shadow"
+		{
+		}
+	}
+}

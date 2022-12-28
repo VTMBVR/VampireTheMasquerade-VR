@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/musrailing/musrailing"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "effects/ref_25"
+	"$surfaceprop" "metal"
+}

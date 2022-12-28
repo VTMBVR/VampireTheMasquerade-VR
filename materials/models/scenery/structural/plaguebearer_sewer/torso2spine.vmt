@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\plaguebearer_sewer\torso2spine"
+	"$surfaceprop" "flesh"
+
+}

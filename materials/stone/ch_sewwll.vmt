@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	"$basetexture"	"stone\ch_sewwll"
+	"$bumpmap" "stone\ch_sewwll_normal"
+	"$surfaceprop" "stone"
+
+}

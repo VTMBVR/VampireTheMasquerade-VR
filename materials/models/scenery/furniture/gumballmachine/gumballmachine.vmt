@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/furniture/GumballMachine/GumballMachine"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/furniture/GumballMachine/GumballMachine_REF"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/redspot/aisle"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/scenery/structural/redspot/aisle_ref"
+}

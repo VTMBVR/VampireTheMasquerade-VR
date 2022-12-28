@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\signs\nopark"
+	"$surfaceprop" "metal"
+//	"$envmap" "envmap/hav"
+	"$envmapmask" "models\scenery\signs\nopark_ref"
+	"$envmap" 				"env_cubemap"
+
+}

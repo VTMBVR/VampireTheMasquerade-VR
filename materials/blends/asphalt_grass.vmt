@@ -1,0 +1,7 @@
+"WorldVertexTransition" 
+{ 	
+     	"$basetexture" "asphalt/asphalta" 
+     	"$basetexture2" "grass/grassa"
+	"%detailtype" "grass"
+} 
+

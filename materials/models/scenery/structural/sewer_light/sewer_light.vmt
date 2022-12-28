@@ -1,0 +1,11 @@
+
+"VertexLitGeneric"
+{
+
+	
+	"$baseTexture"	"/models/scenery/structural/sewer_light/sewer_light"
+	"$selfillum" 1
+	"$envmap" "env_cubemap"
+	"$envmapmask" "/models/scenery/structural/sewer_light/sewer_light_ref"
+	"$surfaceprop" "glass"
+}

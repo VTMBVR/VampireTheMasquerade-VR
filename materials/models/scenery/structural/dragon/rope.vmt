@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\dragon\rope"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\dragon\rope_ref"
+	"$envmaptint" "[0.65 0.5 0.0]"
+}

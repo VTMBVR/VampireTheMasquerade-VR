@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "building/BuildingFront1_CLR"
+	"$surfaceprop" "brick"
+}

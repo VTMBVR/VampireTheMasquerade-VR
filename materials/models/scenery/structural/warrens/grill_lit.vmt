@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/warrens/grill"
+	"$envmap"	   "env_cubemap"
+	"$envmapmask"  "models/scenery/structural/warrens/grill_ref"
+	"$surfaceprop" "metalpanel"
+	"$selfillum"   1
+}

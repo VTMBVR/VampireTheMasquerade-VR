@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+	\\"$model"	"1"
+	"$basetexture"	"models\scenery\structural\malkavian\sconce"
+	"$envmap"	"env_cubemap"
+	"$envmapmask"	"models\scenery\structural\malkavian\sconce_ref"
+	"$surfaceprop"	"glass"
+	"$translucent"	"1"
+	\\"$additive"	"1"
+	
+
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\xray\xray"
+	"$selfIllum"				1
+
+}

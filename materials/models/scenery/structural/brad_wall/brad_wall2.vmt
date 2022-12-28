@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/scenery\structural\brad_wall\brad_wall2"
+	"$selfillum" 0
+	//"$envmap" "envmap/brass"
+	//"$envmapmask" "models/scenery\structural\brad_wall\ceiling_fan_blade_envmask"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"concrete"
+}

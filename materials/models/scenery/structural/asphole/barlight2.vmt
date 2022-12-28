@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/scenery/structural/asphole/barlight2"
+	"$surfaceprop"	"metal"
+	"$selfillum" "1"
+}

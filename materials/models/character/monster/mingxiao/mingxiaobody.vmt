@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\monster\mingxiao\mingxiaobody"
+	"$bumpmap"	"models\character\monster\mingxiao\mingnormal"
+	"$envmap"	"envmap\asylum"
+	"$selfillum"	"1"
+
+}

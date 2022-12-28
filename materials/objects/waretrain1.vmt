@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "objects/waretrain1"
+	"$translucent" 1
+	"$surfaceprop" "metal"
+}

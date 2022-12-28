@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\tzimisce_furiture\vile_bone2"
+	"$surfaceprop" "cloth"
+
+}

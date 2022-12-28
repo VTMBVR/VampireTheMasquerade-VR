@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\scenery\plants\bark_2"
+	"$bumpmap"	"models\scenery\plants\bark_1_normal"
+//	"$envmap" 				"env_cubemap"
+	"$surfaceprop"				"dirt"
+}

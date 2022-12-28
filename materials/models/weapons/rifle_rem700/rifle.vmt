@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\rifle_rem700\rifle"
+	"$bumpmap"	"models\weapons\rifle_rem700\rifle_normal"
+	//"$envmap"	"envmap\sewer"
+	"$normalmapalphaenvmapmask" "1"
+	//"$envmapmask"   "models\weapons\rifle_rem700\rifle_ref"
+	"$envmap"        "env_cubemap"
+}

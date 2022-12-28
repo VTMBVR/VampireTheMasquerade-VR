@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\employee\employee"
+	"$surfaceprop" "default"
+
+}

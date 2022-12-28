@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "stone/doord"
+	"$surfaceprop" "wood"
+	"$envmap" "envmap/hav"
+	"$envmapmask" "stone/doord_ref"
+	"$selfillum" "1"
+}

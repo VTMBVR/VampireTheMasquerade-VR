@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\bradbury\coffin_brace"
+	"$surfaceprop" "wood"
+
+}

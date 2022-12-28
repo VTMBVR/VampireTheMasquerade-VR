@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\chinatown\ming-xiao\minghair"
+	"$translucent" "1"
+	"$nocull" "1"
+
+}

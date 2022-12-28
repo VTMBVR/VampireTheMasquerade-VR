@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "ground/ritualgroundb"
+	"$bumpmap" "ground/ritualgroundb_normal"
+	"$envmap" "envmap/blood"
+	"$normalmapalphaenvmapmask" 1
+}

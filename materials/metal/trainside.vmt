@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "metal/trainside"
+	"$translucent" 0
+}

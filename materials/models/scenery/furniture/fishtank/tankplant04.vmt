@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\fishtank\tankplant04"
+	"$translucent" "1"
+
+}

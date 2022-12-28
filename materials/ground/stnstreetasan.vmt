@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "ground/stnstreeta"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "ground/stnstreeta_ref"
+	"$surfaceprop" "tile"
+}

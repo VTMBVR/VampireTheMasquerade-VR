@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\ventrue_tower\promstairs"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\ventrue_tower\promstairs_ref"
+	"$surfaceprop" "tile"
+
+}

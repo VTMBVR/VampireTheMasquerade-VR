@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\smsewer\map"
+	"$selfillum" "1"
+	"$envmap" "envmap/smsewer"
+	"$envmapmask" "models/scenery/structural/smsewer/map_ref"
+
+}

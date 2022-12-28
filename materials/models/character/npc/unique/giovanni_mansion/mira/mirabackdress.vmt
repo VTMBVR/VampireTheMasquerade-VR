@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\character\npc\unique\giovanni_mansion\mira\mirabackdress"
+	"$translucent" "1"
+
+}

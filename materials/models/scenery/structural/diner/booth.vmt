@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/scenery/structural/diner/booth"
+	"$surfaceprop"	"plastic"
+	"$envmap" 		"env_cubemap"
+	"$envmapmask" 	"models/scenery/structural/diner/booth_ref"
+}

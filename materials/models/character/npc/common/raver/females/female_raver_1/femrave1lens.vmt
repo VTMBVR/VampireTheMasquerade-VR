@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+//	"$color"				"1 .7 0"
+	"$baseTexture" "models/character/npc/common/raver/females/female_raver_1/FemRave1lens"
+	"$translucent"								"1"
+	"$envmap" "env_cubemap"
+//	"$envmap" "envmap/asylum"
+//	"$envmapmask" "effects\ref_100"				
+}

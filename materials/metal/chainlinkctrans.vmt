@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "metal\chainlinkc"
+	"$surfaceprop" "plastic"
+	"%compilePassBullets" 1
+}

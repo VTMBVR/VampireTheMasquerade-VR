@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "decals/signs/pawnshop2"
+	"$decal" 1
+	"$decalscale" 0.65
+	"$translucent" 1
+}

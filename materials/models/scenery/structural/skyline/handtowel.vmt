@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\skyline\handtowel"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\scenery\structural\skyline\handtowel_ref"
+	"$nocull" "1"
+
+}

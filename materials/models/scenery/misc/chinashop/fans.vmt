@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\misc\chinashop\fans"
+	"$nocull" "1"
+	"$surfaceprop" "default"
+
+}

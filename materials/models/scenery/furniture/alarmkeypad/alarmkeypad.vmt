@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\alarmkeypad\alarmkeypad"
+	"$envmapmask" "models\scenery\furniture\alarmkeypad\alarmkeypad_ref"
+	/"$envmap"	"envmap/havenrm"
+	"$envmap" "env_cubemap"
+	"$envmapmode" "1"	
+
+
+}

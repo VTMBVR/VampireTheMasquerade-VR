@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\furniture\lampfloor02\lampfloor02"
+	"$envmapmask" "models\scenery\furniture\lampfloor02\lampfloor02_ref"
+	"$envmap"	"envmap/havenrm"
+	/"$envmap" "env_cubemap"
+	"$envmapmode" "1"
+	"$SelfIllum"	"1"
+
+}

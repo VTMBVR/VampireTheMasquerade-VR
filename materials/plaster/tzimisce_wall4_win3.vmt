@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"plaster\tzimisce_wall4_win3"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "plaster\tzimisce_wall4_Win3_ref"
+	"$surfaceprop" "glass"
+
+}

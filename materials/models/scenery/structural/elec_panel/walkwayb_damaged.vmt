@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\scenery\structural\elec_panel\walkwayb_damaged"
+	"$surfaceprop" "metal"
+
+}
