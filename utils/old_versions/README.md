@@ -1,0 +1,1 @@
+These are old versions of the scripts, kept here for compatibility reasons or otherwise. Eventually these will dissapear, but are kept around for reference and are not required to run the current versions in the root folder.
