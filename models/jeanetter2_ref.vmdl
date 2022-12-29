@@ -15,31 +15,31 @@
 						[
 							{
 								from = "jeanette_body.vmat"
-								to = "vpkcontent/materials/models/character/npc/unique/santa_monica/jeanette/jeanette_body.vmat"
+								to = "materials/models/character/npc/unique/santa_monica/jeanette/jeanette_body.vmat"
 							},
 							{
 								from = "jeanette_face.vmat"
-								to = "vpkcontent/materials/models/character/npc/unique/santa_monica/jeanette/jeanette_face.vmat"
+								to = "materials/models/character/npc/unique/santa_monica/jeanette/jeanette_face.vmat"
 							},
 							{
 								from = "jeanette_hair_1.vmat"
-								to = "vpkcontent/materials/models/character/npc/unique/santa_monica/jeanette/jeanette_hair_1.vmat"
+								to = "materials/models/character/npc/unique/santa_monica/jeanette/jeanette_hair_1.vmat"
 							},
 							{
 								from = "jeanette_skirt.vmat"
-								to = "vpkcontent/materials/models/character/npc/unique/santa_monica/jeanette/jeanette_skirt.vmat"
+								to = "materials/models/character/npc/unique/santa_monica/jeanette/jeanette_skirt.vmat"
 							},
 							{
 								from = "jeanette_hair_2.vmat"
-								to = "vpkcontent/materials/models/character/npc/unique/santa_monica/jeanette/jeanette_hair_2.vmat"
+								to = "materials/models/character/npc/unique/santa_monica/jeanette/jeanette_hair_2.vmat"
 							},
 							{
 								from = "jeanette_hair_3.vmat"
-								to = "vpkcontent/materials/models/character/npc/unique/santa_monica/jeanette/jeanette_hair_3.vmat"
+								to = "materials/models/character/npc/unique/santa_monica/jeanette/jeanette_hair_3.vmat"
 							},
 							{
 								from = "jeanette_hair_4.vmat"
-								to = "vpkcontent/materials/models/character/npc/unique/santa_monica/jeanette/jeanette_hair_4.vmat"
+								to = "materials/models/character/npc/unique/santa_monica/jeanette/jeanette_hair_4.vmat"
 							},
 							{
 								from = "jeanette_hair_6.vmat"
@@ -47,43 +47,43 @@
 							},
 							{
 								from = "jeanette_hair_7.vmat"
-								to = "vpkcontent/materials/models/character/npc/unique/santa_monica/jeanette/jeanette_hair_2.vmat"
+								to = "materials/models/character/npc/unique/santa_monica/jeanette/jeanette_hair_7.vmat"
 							},
 							{
 								from = "jeanette_hair_9.vmat"
-								to = "vpkcontent/materials/models/character/npc/unique/santa_monica/jeanette/jeanette_hair_2.vmat"
+								to = "materials/models/character/npc/unique/santa_monica/jeanette/jeanette_hair_9.vmat"
 							},
 							{
 								from = "jeanette_hair_5.vmat"
-								to = "vpkcontent/materials/models/character/npc/unique/santa_monica/jeanette/jeanette_hair_5.vmat"
+								to = "materials/models/character/npc/unique/santa_monica/jeanette/jeanette_hair_5.vmat"
 							},
 							{
 								from = "eyeball_l.vmat"
-								to = "vpkcontent/materials/models/character/npc/unique/santa_monica/jeanette/eyeball_r.vmat"
+								to = "materials/models/character/npc/unique/hollywood/andrei/eyeball_r.vmat"
 							},
 							{
 								from = "eyeball_r.vmat"
-								to = "vpkcontent/materials/models/character/npc/unique/santa_monica/jeanette/eyeball_r.vmat"
+								to = "materials/models/character/npc/unique/hollywood/andrei/eyeball_r.vmat"
 							},
 							{
 								from = "lowerteeth.vmat"
-								to = "vpkcontent/materials/models/character/teeth/lowerteeth.vmat"
+								to = "materials/models/character/teeth/lowerteeth.vmat"
 							},
 							{
 								from = "tongue.vmat"
-								to = "vpkcontent/materials/models/character/teeth/tongue.vmat"
+								to = "materials/models/character/teeth/tongue.vmat"
 							},
 							{
 								from = "upperteeth.vmat"
-								to = "vpkcontent/materials/models/character/teeth/upperteeth.vmat"
+								to = "materials/models/character/teeth/upperteeth.vmat"
 							},
 							{
 								from = "molar.vmat"
-								to = "vpkcontent/materials/models/character/teeth/molar.vmat"
+								to = "materials/models/character/teeth/molar.vmat"
 							},
 							{
 								from = "mouth.vmat"
-								to = "vpkcontent/materials/models/character/teeth/mouth.vmat"
+								to = "materials/models/character/teeth/mouth.vmat"
 							},
 						]
 						use_global_default = false
