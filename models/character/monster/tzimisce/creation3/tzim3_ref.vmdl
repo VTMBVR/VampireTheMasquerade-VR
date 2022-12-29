@@ -15,7 +15,7 @@
 						[
 							{
 								from = "eyeball_l.vmat"
-								to = "materials/models/character/npc/unique/hollywood/andrei/eyeball_l.vmat"
+								to = "materials/models/character/monster/tzimisce/creation3/eyeball_l.vmat"
 							},
 							{
 								from = "eyeball_r.vmat"
@@ -23,7 +23,7 @@
 							},
 							{
 								from = "tsimbodytexture2.vmat"
-								to = "vpkcontent/materials/models/character/monster/tzimisce/creation3/tsimbodytexture2.vmat"
+								to = "materials/models/character/monster/tzimisce/creation3/tsimbodytexture2.vmat"
 							},
 						]
 						use_global_default = false
