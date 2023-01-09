@@ -1,0 +1,11 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\scenery\structural\vesuvius\marqueebulb1_color.tga"
+	F_SELF_ILLUM 1
+	TextureSelfIllumMask "materials\models\scenery\structural\vesuvius\marqueebulb1_selfillum.tga"
+	g_vColorTint "[1.0 1.0 1.0 0.0]"
+}
