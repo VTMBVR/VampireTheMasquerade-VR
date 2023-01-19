@@ -39,6 +39,39 @@
 					},
 				]
 			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = "static_prop"
+						surface_prop = "prop.wood_chair"
+						collision_prop = "default"
+						origin = [ -10.161673, 0.530143, 9.050278 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 4.548468, 28.896812, 19.100555 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = "static_prop"
+						surface_prop = "prop.wood_chair"
+						collision_prop = "default"
+						origin = [ 10.880432, 2.342627, 9.064814 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 2.450722, 33.207939, 19.129627 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = "static_prop"
+						surface_prop = "prop.wood_chair"
+						collision_prop = "default"
+						origin = [ -7.171968, 0.868958, 24.144505 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 0.948532, 34.517933, 49.289009 ]
+					},
+				]
+			},
 		]
 		model_archetype = ""
 		primary_associated_entity = ""
