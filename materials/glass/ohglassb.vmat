@@ -1,0 +1,10 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\glass\ohglassb_color.tga"
+	F_TRANSLUCENT 1
+	TextureTranslucency "materials\glass\ohglassb_trans.tga"
+}

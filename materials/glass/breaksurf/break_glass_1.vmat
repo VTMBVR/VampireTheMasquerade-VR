@@ -1,0 +1,10 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\glass\breaksurf\break_glass_1_color.tga"
+	F_TRANSLUCENT 1
+	TextureTranslucency "materials\glass\breaksurf\break_glass_1_trans.tga"
+}
