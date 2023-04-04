@@ -599,6 +599,25 @@
 					{
 						_class = "AnimFile"
 						name = "misc_cellphone_idle"
+						children = 
+						[
+							{
+								_class = "ActivityModifier"
+								activity_name = "ACT_IDLE"
+								activity_weight = 1
+							},
+							{
+								_class = "ExtractMotion"
+								extract_tx = true
+								extract_ty = true
+								extract_tz = false
+								extract_rz = false
+								linear = false
+								quadratic = false
+								root_bone_name = ""
+								motion_type = "Uniform"
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -982,6 +1001,6 @@
 		]
 		model_archetype = "generic_actor_model"
 		primary_associated_entity = "generic_actor"
-		anim_graph_name = ""
+		anim_graph_name = "animgraphs/therese_1.vanmgrph"
 	}
 }
