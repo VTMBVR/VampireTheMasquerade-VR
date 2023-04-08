@@ -39,6 +39,21 @@
 					},
 				]
 			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = "static_prop"
+						surface_prop = "prop.wood_furniture"
+						collision_prop = "default"
+						origin = [ 0.33568, -11.370486, -3.381077 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 1.67136, 23.740973, 7.762154 ]
+					},
+				]
+			},
 		]
 		model_archetype = "static_prop_model"
 		primary_associated_entity = "prop_static"
