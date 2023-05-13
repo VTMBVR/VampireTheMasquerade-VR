@@ -434,8 +434,8 @@
 						cloth_collision_layer3 = true
 						cloth_stickiness = 0.0
 						cloth_collision_priority = 0
-						dimensions = [ 2.0, 4.0, 8.0 ]
-						origin = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 5.806342, 18.974648, 25.161238 ]
+						origin = [ 1.903171, -0.181765, 0.291224 ]
 						angles = [ 0.0, 0.0, 0.0 ]
 					},
 				]
