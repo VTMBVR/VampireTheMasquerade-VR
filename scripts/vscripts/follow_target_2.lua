@@ -122,7 +122,7 @@ function TargetThinkFunc()
 	local placeOfInterest = Entities:FindByName(nil,"int_place_2")
 
 	if placeOfInterest == nil then
-		print("interesting place is 0")
+		print("interesting place is 0 or not found")
 	end
 
 	if placeOfInterest ~= nil then
@@ -135,6 +135,7 @@ function TargetThinkFunc()
 		local flDistToPlayer = ( placeOfInterest:GetAbsOrigin() - thisEntity:GetAbsOrigin() ):Length()
 
 		if ( flDistToPlayer < flMinPlayerDist ) and ( thisEntity:NpcNavGoalActive() ) then
+				print("achived goal")
 				thisEntity:NpcNavClearGoal()
 		end
 
@@ -197,21 +198,25 @@ end
 function CreatePathToInterestingPlace()
     print("2nd target: try to route to interesting place")
     local placeOfInterest = Entities:FindByName(nil,"int_place_2")
-    print("2nd target is :")
-	print(placeOfInterest)
+    print("2nd target is :", placeOfInterest)
+	--print(placeOfInterest)
 
 	-- Find the vector from this entity to the player
 	local vVecToPlayerNorm = ( placeOfInterest:GetAbsOrigin() - thisEntity:GetAbsOrigin() ):Normalized()
+	print("vector is: ",vVecToPlayerNorm)
 
 	-- Then find the point along that vector that is flMinPlayerDist from the player
 	local vGoalPos = placeOfInterest:GetAbsOrigin() - ( vVecToPlayerNorm * flMinPlayerDist );
+	print("goal position: ", vGoalPos)
 
 	-- Create a path to that goal.  This will replace any existing path
 	-- The path gets sent to the AnimGraph, and its up to the graph to make the character
 	-- walk along the path
 	thisEntity:NpcForceGoPosition( vGoalPos, bShouldRun, flNavGoalTolerance )
+	print("setted path")
 
 	flLastPathTime = Time()
+	print("created path to int place")
 end
 
 

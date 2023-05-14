@@ -402,14 +402,14 @@
 				[
 					{
 						_class = "PhysicsMeshFile"
-						name = "jeanette_physics"
-						parent_bone = "bip01_pelvis"
-						surface_prop = "player"
+						name = "JeanetteR2_REF"
+						parent_bone = ""
+						surface_prop = "npc_creature_flesh"
 						collision_prop = "default"
 						recenter_on_parent_bone = false
 						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
-						filename = "models/character/npc/unique/santa_monica/jeanette/jeanette_physics.smd"
+						filename = "models/character/npc/unique/santa_monica/jeanette/JeanetteR2_REF.smd"
 						import_scale = 1.0
 						maxMeshVertices = 0
 						qemError = 0.0
