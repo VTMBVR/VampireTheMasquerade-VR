@@ -135,7 +135,7 @@
 				}
 				m_networkMode = "ServerAuthoritative"
 				m_tagSpans = [  ]
-				m_sequenceName = "misc_hunt_walk"
+				m_sequenceName = "hunt_walk"
 				m_playbackSpeed = 1.0
 				m_bLoop = true
 			}
@@ -581,7 +581,7 @@
 				}
 				m_networkMode = "ServerAuthoritative"
 				m_tagSpans = [  ]
-				m_sequenceName = "misc_hunt_walk"
+				m_sequenceName = "hunt_walk"
 				m_playbackSpeed = 1.0
 				m_bLoop = false
 			}
@@ -1075,7 +1075,7 @@
 				}
 				m_networkMode = "ServerAuthoritative"
 				m_tagSpans = [  ]
-				m_sequenceName = "misc_laugh_idle"
+				m_sequenceName = "laugh_into"
 				m_playbackSpeed = 0.86
 				m_bLoop = true
 			}
