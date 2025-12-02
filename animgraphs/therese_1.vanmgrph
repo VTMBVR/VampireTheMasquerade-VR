@@ -107,7 +107,7 @@
 				}
 				m_networkMode = "ServerAuthoritative"
 				m_tagSpans = [  ]
-				m_sequenceName = "misc_cellphone_idle"
+				m_sequenceName = "cellphone_idle"
 				m_playbackSpeed = 1.0
 				m_bLoop = true
 			}

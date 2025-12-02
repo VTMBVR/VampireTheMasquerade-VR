@@ -133,7 +133,7 @@
 				}
 				m_networkMode = "ServerAuthoritative"
 				m_tagSpans = [  ]
-				m_sequenceName = "move_and_ranged_walk_0"
+				m_sequenceName = "walk_0"
 				m_playbackSpeed = 1.0
 				m_bLoop = true
 			}
@@ -579,7 +579,7 @@
 				}
 				m_networkMode = "ServerAuthoritative"
 				m_tagSpans = [  ]
-				m_sequenceName = "move_and_ranged_walk_90"
+				m_sequenceName = "walk_90"
 				m_playbackSpeed = 1.0
 				m_bLoop = false
 			}
@@ -1073,7 +1073,7 @@
 				}
 				m_networkMode = "ServerAuthoritative"
 				m_tagSpans = [  ]
-				m_sequenceName = "misc_dance01"
+				m_sequenceName = "dance01"
 				m_playbackSpeed = 0.86
 				m_bLoop = true
 			}
@@ -1094,7 +1094,7 @@
 				}
 				m_networkMode = "ServerAuthoritative"
 				m_tagSpans = [  ]
-				m_sequenceName = "move_and_ranged_walk_45"
+				m_sequenceName = "walk_45"
 				m_playbackSpeed = 1.0
 				m_bLoop = false
 			}

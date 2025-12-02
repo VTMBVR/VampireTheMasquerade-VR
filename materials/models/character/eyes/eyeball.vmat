@@ -1,8 +1,32 @@
-// Converted with vmt_to_vmat.py
+// THIS FILE IS AUTO-GENERATED
 
 Layer0
 {
-	shader "vr_complex.vfx"
+	shader "vr_eyeball.vfx"
 
-	TextureColor "materials\models\character\eyes\eyeball.tga"
+	//---- Color ----
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureColor "materials/models/character/eyes/grey.tga"
+
+	//---- Iris ----
+	g_flIrisBumpStrength "1.258"
+	g_flParallaxStrength "0.137"
+	IrisNormal "materials/default/default_eyes_normal.psd"
+	IrisRoughness "materials/default/default_rough.tga"
+	TextureIrisMask "materials/models/character/eyes/green_med.tga"
+
+	//---- Lighting ----
+	g_vReflectanceRange "[0.000 0.000]"
+	TextureReflectance "materials/default/default_refl.tga"
+
+	//---- Normal ----
+	g_flCorneaScleraBumpStrength "1.000"
+	g_flScleraDiffuseExponent "1.500"
+	g_flScleraDiffuseWrap "0.300"
+	TextureNormal "materials/default/default_normal.tga"
+
+	//---- Occlusion ----
+	g_flOcclusionStrength "0.238"
+	g_flOcclusionWidth "1.210"
+	TextureOcclusion "[0.925490 0.925490 0.925490 1.000000]"
 }
