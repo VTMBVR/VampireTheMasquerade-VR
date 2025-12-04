@@ -1,37 +1,15 @@
 <root>
-  <!-- Стили -->
-  <styles>
-    <include src="file://{resources}/styles/custom_game/dialog_alyx.css" />
-  </styles>
+	<styles>
+		<include src="s2r://panorama/styles/base_styles.vcss_c" />
+		<include src="s2r://panorama/styles/custom_game/dialog_alyx.vcss_c" />
+    <include src="s2r://panorama/styles/language_shared.vcss_c" />
+	</styles>
 
-  <!-- Скрипт -->
-  <scripts>
-    <include src="file://{resources}/scripts/custom_game/dialog_alyx.js" />
-  </scripts>
-
-  <!-- UI -->
-  <Panel class="DialogWindow">
-      <!-- Заголовок -->
-      <Panel class="Header" id="DlgTitle">
-          <Label class="Title" text="#HalfLife_Alyx_Dialog_Title" />
-      </Panel>
-
-      <!-- Текст диалога (будет обновляться в JS) -->
-      <Panel class="Body" id="DlgTextWrapper">
-          <Label class="BodyText" id="DlgText" text="«...»" />
-      </Panel>
-
-      <!-- Варианты ответов – список кнопок -->
-      <Panel class="Options" id="OptsGroup">
-          <Button id="A" class="AnswerBtn" onactivate="ShowAnswer( 'A' )">
-              <Label text="#HalfLife_Alyx_OptA" />
-          </Button>
-          <Button id="B" class="AnswerBtn" onactivate="ShowAnswer( 'B' )">
-              <Label text="#HalfLife_Alyx_OptB" />
-          </Button>
-          <Button id="C" class="AnswerBtn" onactivate="ShowAnswer( 'C' )">
-              <Label text="#HalfLife_Alyx_OptC" />
-          </Button>
-      </Panel>
-  </Panel>
+	<Panel class="TextContainer">
+		<Panel id="TutorialText01" class="TextLine">
+			<Panel class="TextBox">
+				<Label text="Here is some example text and stuff" />
+			</Panel>
+		</Panel>
+	</Panel>
 </root>
