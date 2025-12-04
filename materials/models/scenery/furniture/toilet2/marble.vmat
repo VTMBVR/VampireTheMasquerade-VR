@@ -1,0 +1,8 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	g_vColorTint "[1.0 1.0 1.0 0.0]"
+}

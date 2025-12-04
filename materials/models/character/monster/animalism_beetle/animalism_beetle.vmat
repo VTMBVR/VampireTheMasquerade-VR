@@ -1,0 +1,9 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	F_SELF_ILLUM 1
+	TextureSelfIllumMask "materials\models\character\monster\animalism_beetle\animalism_beetle_selfillum.tga"
+}

@@ -1,0 +1,9 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\character\npc\unique\downtown\vv\vv_body_color.tga"
+	TextureNormal "materials\models\character\npc\unique\downtown\vv\vv_body_normal.tga"
+}

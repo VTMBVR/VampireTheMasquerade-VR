@@ -1,0 +1,10 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	TextureColor "materials\models\character\npc\unique\santa_monica\ghost\eyeball_r_color.tga"
+	F_SELF_ILLUM 1
+	TextureSelfIllumMask "materials\models\character\npc\unique\santa_monica\ghost\eyeball_r_selfillum.tga"
+}

@@ -1,0 +1,9 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	F_ALPHA_TEST 1
+	TextureTranslucency "materials\models\character\npc\common\freshcorpses\hangmanintestines_trans.tga"
+}

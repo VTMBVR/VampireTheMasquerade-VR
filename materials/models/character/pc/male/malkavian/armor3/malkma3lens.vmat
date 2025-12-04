@@ -1,0 +1,9 @@
+// Converted with vmt_to_vmat.py
+
+Layer0
+{
+	shader "vr_complex.vfx"
+
+	F_TRANSLUCENT 1
+	TextureTranslucency "materials\models\character\pc\male\malkavian\armor3\malkma3lens_trans.tga"
+}
