@@ -1,0 +1,15 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/base_styles.css" />
+		<include src="file://{resources}/styles/info_panels.css" />
+	</styles>
+
+	<ClientUIDialogPanel class="InWorldInfoPanel">
+		<Panel class="Page" id="YourAddonName_Welcome">
+			<Panel class="TextArea">
+				<Label class="Title" text="#YourAddonName_Welcome_Title" />
+				<Label class="Desc Big" text="#YourAddonName_Welcome_Desc" />
+			</Panel>
+		</Panel>
+	</ClientUIDialogPanel>
+</root>

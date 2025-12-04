@@ -1,0 +1,37 @@
+<root>
+  <!-- Стили -->
+  <styles>
+    <include src="file://{resources}/styles/custom_destination/dialog_alyx.css" />
+  </styles>
+
+  <!-- Скрипт -->
+  <scripts>
+    <include src="file://{resources}/scripts/custom_destination/dialog_alyx.js" />
+  </scripts>
+
+  <!-- UI -->
+  <Panel class="DialogWindow">
+      <!-- Заголовок -->
+      <Panel class="Header" id="DlgTitle">
+          <Label class="Title" text="#HalfLife_Alyx_Dialog_Title" />
+      </Panel>
+
+      <!-- Текст диалога (будет обновляться в JS) -->
+      <Panel class="Body" id="DlgTextWrapper">
+          <Label class="BodyText" id="DlgText" text="«...»" />
+      </Panel>
+
+      <!-- Варианты ответов – список кнопок -->
+      <Panel class="Options" id="OptsGroup">
+          <Button id="A" class="AnswerBtn" onactivate="ShowAnswer( 'A' )">
+              <Label text="#HalfLife_Alyx_OptA" />
+          </Button>
+          <Button id="B" class="AnswerBtn" onactivate="ShowAnswer( 'B' )">
+              <Label text="#HalfLife_Alyx_OptB" />
+          </Button>
+          <Button id="C" class="AnswerBtn" onactivate="ShowAnswer( 'C' )">
+              <Label text="#HalfLife_Alyx_OptC" />
+          </Button>
+      </Panel>
+  </Panel>
+</root>

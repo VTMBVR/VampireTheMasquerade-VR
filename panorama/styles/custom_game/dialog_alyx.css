@@ -1,0 +1,13 @@
+.DialogWindow {
+    width:48px; height:32px;
+}
+
+.Title { font-size:24px; color:#ffcc00; }
+.BodyText { font-size:18px; margin-top:4px; }
+
+.AnswerBtn {
+    width:12px; height:6px; background-color:#006600; 
+    margin-left:2px; margin-right:2px;
+}
+
+.AnswerBtn:hover { background-color:#009900; }
