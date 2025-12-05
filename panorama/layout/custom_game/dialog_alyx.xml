@@ -11,11 +11,19 @@
 				<Label text="Here is some example text and stuff" />
 			</Panel>
 		</Panel>
-            <Panel id="TutorialText02" class="TextLine">
+          <Panel id="TutorialText02" class="TextLine">
 			<Panel class="TextBox">
 				<Label text="Here is TutorialText02" />
 			</Panel>
-		    </Panel>
+            	<Panel class="TextBox">
+				<Label text="Here is TutorialText02 second text" />
+			    </Panel>
+                <Panel class="AnswerButtons" flow-children="right">
+                <Button id="btn1" class="AnswerBtn">
+                <Label text="Button Text Label" />
+                </Button>
+                </Panel>
+		  </Panel>
 
 	</Panel>
 
