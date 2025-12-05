@@ -15,6 +15,8 @@
 	border-style: solid;
 	border-color: blue;
 	border-width: 1px;
+
+    /*flow-children:down-wrap; */
 }
 
 .TextLine
@@ -52,6 +54,12 @@
 	opacity: 1;
 }
 
+.ShowTutorialText01 #TutorialText02
+
+{
+	opacity: 1;
+}
+
 .HideTutorialText01 #TutorialText01
 
 {
@@ -61,39 +69,10 @@
 }
 
 
-.BodyText { font-size:18px; margin-top:4px; }
+.HideTutorialText01 #TutorialText02
 
-.Body { 
-    opacity: 1;
-    margin-top:4px;
-    	font-family: Raju;
-	font-size: 200px;
-	font-weight: semi-bold;
-
-    color: #ff0000;
- }
-
-.TextString {
-	horizontal-align: center;
-	vertical-align: center;
-	flow-children: down;
-
-	opacity: 1;
-	
+{
+	opacity: 0;
 	transition-property: opacity; 
-	transition-duration: 3s; 
-	border: 1px solid blue;
-}
-
-.AnswerBtn {
-    width:12%; height:6%; background-color:#006600; 
-    margin-left:2px; margin-right:2px;
-    font-size: 200px;
-}
-
-.AnswerBtn:hover { background-color:#009900; }
-
-.DialogWindow {
-    width:48%; height:32%;
-    color: #00ff73;
+	transition-duration: 2s; 
 }

@@ -11,33 +11,12 @@
 				<Label text="Here is some example text and stuff" />
 			</Panel>
 		</Panel>
+            <Panel id="TutorialText02" class="TextLine">
+			<Panel class="TextBox">
+				<Label text="Here is TutorialText02" />
+			</Panel>
+		    </Panel>
+
 	</Panel>
-    <!--  TODO : BUG -->
-      <!-- Текст диалога (будет обновляться в JS) -->
-      <!--
-      <Panel class="TextContainer" id="DlgTextWrapper">
-        <Panel class = "TextString">
-            <Panel class="TextBox">
-          <Label text="«this is dialog text»" />
-          </Panel>
-        </Panel>
-      </Panel>
-      -->
 
-      <!-- Варианты ответов – список кнопок -->
-<!--
-      <Panel class="Options" id="OptsGroup">
-          <Button id="A" class="AnswerBtn" >
-              <Label text="Option 1" />
-          </Button>
-          <Button id="B" class="AnswerBtn" >
-              <Label text="OptB" />
-          </Button>
-          <Button id="C" class="AnswerBtn" >
-              <Label text="Opt C" />
-          </Button>
-      </Panel>
-
-  </Panel>
-  -->
 </root>
