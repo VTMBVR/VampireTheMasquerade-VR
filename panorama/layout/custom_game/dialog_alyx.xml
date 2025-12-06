@@ -1,0 +1,30 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/base_styles.vcss_c" />
+		<include src="s2r://panorama/styles/custom_game/dialog_alyx.vcss_c" />
+    <include src="s2r://panorama/styles/language_shared.vcss_c" />
+	</styles>
+
+	<Panel class="TextContainer">
+		<Panel id="TutorialText01" class="TextLine">
+			<Panel class="TextBox">
+				<Label text="Here is some example text and stuff" />
+			</Panel>
+		</Panel>
+          <Panel id="TutorialText02" class="TextLine">
+			<Panel class="TextBox">
+				<Label text="Here is TutorialText02" />
+			</Panel>
+            	<Panel class="TextBox">
+				<Label text="Here is TutorialText02 second text" />
+			    </Panel>
+                <Panel class="AnswerButtons" flow-children="right">
+                <Button id="btn1" class="AnswerBtn">
+                <Label text="Button Text Label" />
+                </Button>
+                </Panel>
+		  </Panel>
+
+	</Panel>
+
+</root>
