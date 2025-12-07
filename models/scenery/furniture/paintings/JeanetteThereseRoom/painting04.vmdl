@@ -15,7 +15,7 @@
 						[
 							{
 								from = "frames.vmat"
-								to = "models/windows/materials/window_industrial_frames_01.vmat"
+								to = "materials/models/scenery/furniture/paintings/jeanettethereseroom/frame.vmat"
 							},
 							{
 								from = "painting_04.vmat"
