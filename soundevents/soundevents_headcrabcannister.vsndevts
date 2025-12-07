@@ -1,0 +1,289 @@
+// THIS FILE IS AUTO-GENERATED
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{	sfx.headcrab_canister_ambient4 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_ambient4.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_open1 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_open1.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_ambient4 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_ambient4.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_open1 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_open1.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_ambient4 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_ambient4.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_ambient2 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_ambient2.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_open1 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_open1.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_ambient4 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_ambient4.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_ambient2 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_ambient2.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_open1 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_open1.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_ambient6 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_ambient6.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_ambient4 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_ambient4.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_ambient2 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_ambient2.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_open1 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_open1.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_ambient6 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_ambient6.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_ambient3 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_ambient3.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_ambient5 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_ambient5.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_ambient1 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_ambient1.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_ambient4 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_ambient4.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_ambient2 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_ambient2.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_open1 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_open1.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_ambient6 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_ambient6.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_ambient3 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_ambient3.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_ambient5 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_ambient5.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_ambient1 =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_ambient1.vsnd",
+	    ]
+	}
+	sfx.headcrab_canister_ambient4_alt =
+	{
+	    type = "hlvr_default_3d"
+	    volume = 1.000000
+	    use_hrtf = 1.000000
+	    mixgroup = "world"
+	    vsnd_files = 
+	    [
+	        "sounds/levels/canals/headcrab_canister_ambient4_alt.vsnd",
+	    ]
+	}
+}
