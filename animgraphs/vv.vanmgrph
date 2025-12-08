@@ -126,14 +126,14 @@
 			{
 				_class = "CSequenceAnimNode"
 				m_sName = "walk1"
-				m_vecPosition = [ -271.0, -312.0 ]
+				m_vecPosition = [ -318.0, -326.0 ]
 				m_nNodeID = 
 				{
 					m_id = 142481039
 				}
 				m_networkMode = "ServerAuthoritative"
 				m_tagSpans = [  ]
-				m_sequenceName = "move_and_ranged_walk_0"
+				m_sequenceName = "hunt_walk"
 				m_playbackSpeed = 1.0
 				m_bLoop = true
 			}
@@ -147,7 +147,7 @@
 			{
 				_class = "CTurnHelperAnimNode"
 				m_sName = "Turn Helpers"
-				m_vecPosition = [ -1434.0, -179.0 ]
+				m_vecPosition = [ -1260.0, -69.0 ]
 				m_nNodeID = 
 				{
 					m_id = 286035428
@@ -155,7 +155,7 @@
 				m_networkMode = "ServerAuthoritative"
 				m_childID = 
 				{
-					m_id = 4294967295
+					m_id = 1929887969
 				}
 				m_facingTarget = "LookHeading"
 				m_turnStartTime = 0.0
@@ -174,7 +174,7 @@
 			{
 				_class = "CTurnHelperAnimNode"
 				m_sName = "Turn Helpers"
-				m_vecPosition = [ -1433.0, -80.0 ]
+				m_vecPosition = [ -1259.0, 30.0 ]
 				m_nNodeID = 
 				{
 					m_id = 428404215
@@ -182,7 +182,7 @@
 				m_networkMode = "ServerAuthoritative"
 				m_childID = 
 				{
-					m_id = 4294967295
+					m_id = 1929887969
 				}
 				m_facingTarget = "LookHeading"
 				m_turnStartTime = 0.0
@@ -201,7 +201,7 @@
 			{
 				_class = "CStateMachineAnimNode"
 				m_sName = "Standing Turns"
-				m_vecPosition = [ -752.0, -263.0 ]
+				m_vecPosition = [ -493.0, 69.0 ]
 				m_nNodeID = 
 				{
 					m_id = 527830271
@@ -566,34 +566,13 @@
 		{
 			key = 
 			{
-				m_id = 994811996
-			}
-			value = 
-			{
-				_class = "CSequenceAnimNode"
-				m_sName = "turn_right_90"
-				m_vecPosition = [ -1822.0, -315.0 ]
-				m_nNodeID = 
-				{
-					m_id = 994811996
-				}
-				m_networkMode = "ServerAuthoritative"
-				m_tagSpans = [  ]
-				m_sequenceName = "move_and_ranged_walk_90"
-				m_playbackSpeed = 1.0
-				m_bLoop = false
-			}
-		},
-		{
-			key = 
-			{
 				m_id = 1078453154
 			}
 			value = 
 			{
 				_class = "CStateMachineAnimNode"
 				m_sName = "Movement"
-				m_vecPosition = [ 394.5, -107.0 ]
+				m_vecPosition = [ 398.0, -53.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1078453154
@@ -955,7 +934,7 @@
 			{
 				_class = "CTurnHelperAnimNode"
 				m_sName = "Turn Helpers"
-				m_vecPosition = [ -1432.0, -226.0 ]
+				m_vecPosition = [ -1258.0, -116.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1097575780
@@ -963,7 +942,7 @@
 				m_networkMode = "ServerAuthoritative"
 				m_childID = 
 				{
-					m_id = 1501818873
+					m_id = 1251807033
 				}
 				m_facingTarget = "LookHeading"
 				m_turnStartTime = 0.0
@@ -982,7 +961,7 @@
 			{
 				_class = "CCommentAnimNode"
 				m_sName = "Start and End States"
-				m_vecPosition = [ -993.0, -542.0 ]
+				m_vecPosition = [ -841.0, -196.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1228302265
@@ -996,13 +975,34 @@
 		{
 			key = 
 			{
+				m_id = 1251807033
+			}
+			value = 
+			{
+				_class = "CSequenceAnimNode"
+				m_sName = "Unnamed"
+				m_vecPosition = [ -2000.0, -154.0 ]
+				m_nNodeID = 
+				{
+					m_id = 1251807033
+				}
+				m_networkMode = "ServerAuthoritative"
+				m_tagSpans = [  ]
+				m_sequenceName = "hunt_walk_lookright"
+				m_playbackSpeed = 1.0
+				m_bLoop = false
+			}
+		},
+		{
+			key = 
+			{
 				m_id = 1270251190
 			}
 			value = 
 			{
 				_class = "CFollowPathAnimNode"
 				m_sName = "Unnamed"
-				m_vecPosition = [ -35.0, -165.0 ]
+				m_vecPosition = [ -10.0, -111.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1270251190
@@ -1010,7 +1010,7 @@
 				m_networkMode = "ServerAuthoritative"
 				m_childID = 
 				{
-					m_id = 142481039
+					m_id = 1813207905
 				}
 				m_flBlendOutTime = 0.3
 				m_bBlockNonPathMovement = false
@@ -1046,7 +1046,7 @@
 			{
 				_class = "CCommentAnimNode"
 				m_sName = "Turn Helpers"
-				m_vecPosition = [ -1623.0, -468.0 ]
+				m_vecPosition = [ -1449.0, -358.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1328133352
@@ -1066,37 +1066,16 @@
 			{
 				_class = "CSequenceAnimNode"
 				m_sName = "Unnamed"
-				m_vecPosition = [ -224.0, -396.0 ]
+				m_vecPosition = [ -101.0, -277.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1479098888
 				}
 				m_networkMode = "ServerAuthoritative"
 				m_tagSpans = [  ]
-				m_sequenceName = "Idle"
+				m_sequenceName = "dance01"
 				m_playbackSpeed = 0.86
 				m_bLoop = true
-			}
-		},
-		{
-			key = 
-			{
-				m_id = 1501818873
-			}
-			value = 
-			{
-				_class = "CSequenceAnimNode"
-				m_sName = "Unnamed"
-				m_vecPosition = [ -1825.0, -227.0 ]
-				m_nNodeID = 
-				{
-					m_id = 1501818873
-				}
-				m_networkMode = "ServerAuthoritative"
-				m_tagSpans = [  ]
-				m_sequenceName = "move_and_ranged_walk_45"
-				m_playbackSpeed = 1.0
-				m_bLoop = false
 			}
 		},
 		{
@@ -1108,7 +1087,7 @@
 			{
 				_class = "CTurnHelperAnimNode"
 				m_sName = "Turn Helpers"
-				m_vecPosition = [ -1435.0, -129.0 ]
+				m_vecPosition = [ -1261.0, -19.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1574393767
@@ -1116,7 +1095,7 @@
 				m_networkMode = "ServerAuthoritative"
 				m_childID = 
 				{
-					m_id = 4294967295
+					m_id = 1929887969
 				}
 				m_facingTarget = "LookHeading"
 				m_turnStartTime = 0.0
@@ -1135,7 +1114,7 @@
 			{
 				_class = "CTurnHelperAnimNode"
 				m_sName = "Turn Helpers"
-				m_vecPosition = [ -1431.0, -320.0 ]
+				m_vecPosition = [ -1257.0, -210.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1644059547
@@ -1143,7 +1122,7 @@
 				m_networkMode = "ServerAuthoritative"
 				m_childID = 
 				{
-					m_id = 4294967295
+					m_id = 1251807033
 				}
 				m_facingTarget = "LookHeading"
 				m_turnStartTime = 0.0
@@ -1162,7 +1141,7 @@
 			{
 				_class = "CTurnHelperAnimNode"
 				m_sName = "Turn Helpers"
-				m_vecPosition = [ -1433.0, -272.0 ]
+				m_vecPosition = [ -1259.0, -162.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1699813283
@@ -1170,7 +1149,7 @@
 				m_networkMode = "ServerAuthoritative"
 				m_childID = 
 				{
-					m_id = 994811996
+					m_id = 1251807033
 				}
 				m_facingTarget = "LookHeading"
 				m_turnStartTime = 0.0
@@ -1183,13 +1162,57 @@
 		{
 			key = 
 			{
+				m_id = 1813207905
+			}
+			value = 
+			{
+				_class = "CSetFacingAnimNode"
+				m_sName = "Unnamed"
+				m_vecPosition = [ -177.0, -149.0 ]
+				m_nNodeID = 
+				{
+					m_id = 1813207905
+				}
+				m_networkMode = "ServerAuthoritative"
+				m_childID = 
+				{
+					m_id = 142481039
+				}
+				m_facingMode = "FacingMode_LookTarget"
+				m_bResetChild = true
+			}
+		},
+		{
+			key = 
+			{
+				m_id = 1929887969
+			}
+			value = 
+			{
+				_class = "CSequenceAnimNode"
+				m_sName = "Unnamed"
+				m_vecPosition = [ -1971.0, 36.0 ]
+				m_nNodeID = 
+				{
+					m_id = 1929887969
+				}
+				m_networkMode = "ServerAuthoritative"
+				m_tagSpans = [  ]
+				m_sequenceName = "hunt_walk_lookleft"
+				m_playbackSpeed = 1.0
+				m_bLoop = false
+			}
+		},
+		{
+			key = 
+			{
 				m_id = 1944813602
 			}
 			value = 
 			{
 				_class = "CCommentAnimNode"
 				m_sName = "Adding the Turn state"
-				m_vecPosition = [ 310.5, -453.0 ]
+				m_vecPosition = [ 314.0, -399.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1944813602
