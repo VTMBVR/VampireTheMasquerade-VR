@@ -17,6 +17,10 @@
 								from = "diningroom_chairs.vmat"
 								to = "materials/models/scenery/furniture/diningroom_chairs/diningroom_chairs.vmat"
 							},
+							{
+								from = "null.vmat"
+								to = "materials/dev/black_unlit_no_fog.vmat"
+							},
 						]
 						use_global_default = false
 						global_default_material = ""

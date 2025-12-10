@@ -505,7 +505,7 @@
 				}
 				m_networkMode = "ServerAuthoritative"
 				m_tagSpans = [  ]
-				m_sequenceName = "walkn"
+				m_sequenceName = "Walk"
 				m_playbackSpeed = 1.0
 				m_bLoop = true
 			}
@@ -2888,7 +2888,7 @@
 				}
 				m_networkMode = "ServerAuthoritative"
 				m_tagSpans = [  ]
-				m_sequenceName = "idle"
+				m_sequenceName = "tzim3_idle"
 				m_playbackSpeed = 1.0
 				m_bLoop = true
 			}
@@ -3750,7 +3750,7 @@
 				}
 				m_networkMode = "ServerAuthoritative"
 				m_tagSpans = [  ]
-				m_sequenceName = "idle"
+				m_sequenceName = "tzim3_idle"
 				m_playbackSpeed = 1.0
 				m_bLoop = false
 			}
@@ -5647,13 +5647,13 @@
 						m_id = 1530684744
 					},
 					{
-						m_id = 45192130
+						m_id = 4294967295
 					},
 					{
-						m_id = 554935209
+						m_id = 4294967295
 					},
 					{
-						m_id = 1851828504
+						m_id = 4294967295
 					},
 				]
 				m_tags = 
@@ -7486,7 +7486,7 @@
 				}
 				m_networkMode = "ServerAuthoritative"
 				m_tagSpans = [  ]
-				m_sequenceName = "idle"
+				m_sequenceName = "tzim3_idle"
 				m_playbackSpeed = 1.0
 				m_bLoop = true
 			}
@@ -9201,7 +9201,7 @@
 				}
 				m_networkMode = "ServerAuthoritative"
 				m_tagSpans = [  ]
-				m_sequenceName = "walkn"
+				m_sequenceName = "Walk"
 				m_playbackSpeed = 1.0
 				m_bLoop = true
 			}

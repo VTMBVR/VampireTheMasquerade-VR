@@ -1010,7 +1010,7 @@
 				m_networkMode = "ServerAuthoritative"
 				m_childID = 
 				{
-					m_id = 1813207905
+					m_id = 142481039
 				}
 				m_flBlendOutTime = 0.3
 				m_bBlockNonPathMovement = false
@@ -1026,7 +1026,7 @@
 				{
 					m_id = 4294967295
 				}
-				m_flTurnToFaceOffset = 0.0
+				m_flTurnToFaceOffset = -90.0
 				m_damping = 
 				{
 					_class = "CAnimInputDamping"
@@ -1157,29 +1157,6 @@
 				m_bMatchChildDuration = true
 				m_bUseManualTurnOffset = false
 				m_manualTurnOffset = 0.0
-			}
-		},
-		{
-			key = 
-			{
-				m_id = 1813207905
-			}
-			value = 
-			{
-				_class = "CSetFacingAnimNode"
-				m_sName = "Unnamed"
-				m_vecPosition = [ -177.0, -149.0 ]
-				m_nNodeID = 
-				{
-					m_id = 1813207905
-				}
-				m_networkMode = "ServerAuthoritative"
-				m_childID = 
-				{
-					m_id = 142481039
-				}
-				m_facingMode = "FacingMode_LookTarget"
-				m_bResetChild = true
 			}
 		},
 		{

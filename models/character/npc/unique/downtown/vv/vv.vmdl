@@ -2978,7 +2978,7 @@
 						anim_markup_ordered = false
 						disable_compression = false
 						source_filename = "models/character/shared/female/misc_anims/hunt_walk_lookleft.smd"
-						start_frame = -1
+						start_frame = 0
 						end_frame = -1
 						framerate = -1.0
 						reverse = false
