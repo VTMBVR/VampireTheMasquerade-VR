@@ -6,60 +6,6 @@
 		children = 
 		[
 			{
-				_class = "MaterialGroupList"
-				children = 
-				[
-					{
-						_class = "DefaultMaterialGroup"
-						remaps = 
-						[
-							{
-								from = "lowerteeth_white.vmat"
-								to = "materials/models/character/teeth/lowerteeth_white.vmat"
-							},
-							{
-								from = "molar.vmat"
-								to = "materials/models/character/teeth/molar.vmat"
-							},
-							{
-								from = "tongue.vmat"
-								to = "materials/models/character/teeth/tongue.vmat"
-							},
-							{
-								from = "upperteeth_white.vmat"
-								to = "materials/models/character/teeth/upperteeth_white.vmat"
-							},
-							{
-								from = "vv_body.vmat"
-								to = "materials/models/character/npc/unique/downtown/vv/vv_body.vmat"
-							},
-							{
-								from = "vv_face.vmat"
-								to = "materials/models/character/npc/unique/downtown/vv/vv_face.vmat"
-							},
-							{
-								from = "vv_hair.vmat"
-								to = "materials/models/character/npc/unique/downtown/vv/vv_hair.vmat"
-							},
-							{
-								from = "vv_hair_t.vmat"
-								to = "materials/models/character/npc/unique/downtown/vv/vv_hair_t.vmat"
-							},
-							{
-								from = "eyeball_l.vmat"
-								to = "materials/models/character/npc/unique/downtown/damsel/eyeball_l.vmat"
-							},
-							{
-								from = "eyeball_r.vmat"
-								to = "materials/models/character/npc/unique/downtown/damsel/eyeball_r.vmat"
-							},
-						]
-						use_global_default = false
-						global_default_material = ""
-					},
-				]
-			},
-			{
 				_class = "RenderMeshList"
 				children = 
 				[
@@ -2912,29 +2858,8 @@
 								extract_rz = false
 								linear = false
 								quadratic = false
-								root_bone_name = "bip01_pelvis"
+								root_bone_name = "root"
 								motion_type = "Uniform"
-							},
-							{
-								_class = "MovementSettings"
-								movementsettings = 
-								{
-									name = ""
-									speeds = [  ]
-									runspeed = 200.0
-									walkspeed = 100.0
-									maxSpringTension = 100.0
-									springConstant = 10.0
-									useSmoothPaths = true
-									useMotionDamping = false
-									sharpStartAngle = 180.0
-									m_vTraceScale = [ 1.1, 1.0, 1.0 ]
-								}
-							},
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
 						activity_name = "ACT_WALK"
@@ -2949,7 +2874,7 @@
 						anim_markup_ordered = false
 						disable_compression = false
 						source_filename = "models/character/shared/female/misc_anims/hunt_walk.smd"
-						start_frame = -1
+						start_frame = 0
 						end_frame = -1
 						framerate = -1.0
 						reverse = false
@@ -2991,20 +2916,6 @@
 					{
 						_class = "AnimFile"
 						name = "hunt_walk_lookright"
-						children = 
-						[
-							{
-								_class = "ExtractMotion"
-								extract_tx = true
-								extract_ty = true
-								extract_tz = false
-								extract_rz = true
-								linear = false
-								quadratic = false
-								root_bone_name = "bip01_pelvis"
-								motion_type = "Uniform"
-							},
-						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -6194,11 +6105,6 @@
 								root_bone_name = "bip01_pelvis"
 								motion_type = "Uniform"
 							},
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
 						]
 						activity_name = ""
 						activity_weight = 1
@@ -7002,9 +6908,21 @@
 				]
 				default_root_bone_name = ""
 			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
 		]
 		model_archetype = "default"
 		primary_associated_entity = ""
-		anim_graph_name = "animgraphs/vv.vanmgrph"
+		anim_graph_name = "animgraphs/vv2.vanmgrph"
 	}
 }
