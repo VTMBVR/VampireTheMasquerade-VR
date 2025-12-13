@@ -5719,23 +5719,808 @@
 				children = 
 				[
 					{
-						_class = "PhysicsMeshFile"
+						_class = "PhysicsHullFile"
 						name = "JeanetteR2_REF"
 						parent_bone = ""
-						surface_prop = "npc_creature_flesh"
+						surface_prop = "player"
 						collision_prop = "default"
 						recenter_on_parent_bone = false
 						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
 						filename = "models/character/npc/unique/santa_monica/jeanette/JeanetteR2_REF.smd"
 						import_scale = 1.0
-						maxMeshVertices = 0
-						qemError = 0.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
 						import_filter = 
 						{
 							exclude_by_default = false
 							exception_list = [  ]
 						}
+					},
+				]
+			},
+			{
+				_class = "JiggleBoneList"
+				children = 
+				[
+					{
+						_class = "JiggleBone"
+						jiggle_root_bone = "bone01"
+						jiggle_type = 1
+						has_yaw_constraint = true
+						has_pitch_constraint = true
+						has_angle_constraint = true
+						has_base_spring = false
+						allow_flex_length = true
+						invert_axes = false
+						has_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						length = 5.0
+						tip_mass = 0.0
+						angle_limit = 30.0
+						min_yaw = -90.0
+						max_yaw = 90.0
+						yaw_friction = 0.0
+						yaw_bounce = 0.0
+						min_pitch = -90.0
+						max_pitch = 90.0
+						pitch_friction = 0.0
+						pitch_bounce = 0.0
+						base_mass = 0.0
+						base_stiffness = 0.0
+						base_damping = 0.0
+						base_left_min = 0.0
+						base_left_max = 0.0
+						base_left_friction = 0.0
+						base_up_min = 0.0
+						base_up_max = 0.0
+						base_up_friction = 0.0
+						base_forward_min = 0.0
+						base_forward_max = 0.0
+						base_forward_friction = 0.0
+						yaw_stiffness = 100.0
+						yaw_damping = 8.0
+						pitch_stiffness = 100.0
+						pitch_damping = 8.0
+						along_stiffness = 100.0
+						along_damping = 8.0
+						radius0 = 1.0
+						radius1 = 1.0
+						point0 = [ 0.0, 0.0, 0.0 ]
+						point1 = [ 1.914001, 0.0, 0.0 ]
+					},
+					{
+						_class = "JiggleBone"
+						jiggle_root_bone = "bone09"
+						jiggle_type = 1
+						has_yaw_constraint = true
+						has_pitch_constraint = true
+						has_angle_constraint = true
+						has_base_spring = false
+						allow_flex_length = true
+						invert_axes = false
+						has_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						length = 5.0
+						tip_mass = 0.0
+						angle_limit = 30.0
+						min_yaw = -90.0
+						max_yaw = 90.0
+						yaw_friction = 0.0
+						yaw_bounce = 0.0
+						min_pitch = -90.0
+						max_pitch = 90.0
+						pitch_friction = 0.0
+						pitch_bounce = 0.0
+						base_mass = 0.0
+						base_stiffness = 0.0
+						base_damping = 0.0
+						base_left_min = 0.0
+						base_left_max = 0.0
+						base_left_friction = 0.0
+						base_up_min = 0.0
+						base_up_max = 0.0
+						base_up_friction = 0.0
+						base_forward_min = 0.0
+						base_forward_max = 0.0
+						base_forward_friction = 0.0
+						yaw_stiffness = 100.0
+						yaw_damping = 8.0
+						pitch_stiffness = 100.0
+						pitch_damping = 8.0
+						along_stiffness = 100.0
+						along_damping = 8.0
+						radius0 = 1.0
+						radius1 = 1.0
+						point0 = [ 0.0, 0.0, 0.0 ]
+						point1 = [ 1.914001, 0.0, 0.0 ]
+					},
+					{
+						_class = "JiggleBone"
+						jiggle_root_bone = "bone03"
+						jiggle_type = 1
+						has_yaw_constraint = true
+						has_pitch_constraint = true
+						has_angle_constraint = true
+						has_base_spring = false
+						allow_flex_length = true
+						invert_axes = false
+						has_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						length = 5.0
+						tip_mass = 0.0
+						angle_limit = 30.0
+						min_yaw = -90.0
+						max_yaw = 90.0
+						yaw_friction = 0.0
+						yaw_bounce = 0.0
+						min_pitch = -90.0
+						max_pitch = 90.0
+						pitch_friction = 0.0
+						pitch_bounce = 0.0
+						base_mass = 0.0
+						base_stiffness = 0.0
+						base_damping = 0.0
+						base_left_min = 0.0
+						base_left_max = 0.0
+						base_left_friction = 0.0
+						base_up_min = 0.0
+						base_up_max = 0.0
+						base_up_friction = 0.0
+						base_forward_min = 0.0
+						base_forward_max = 0.0
+						base_forward_friction = 0.0
+						yaw_stiffness = 100.0
+						yaw_damping = 8.0
+						pitch_stiffness = 100.0
+						pitch_damping = 8.0
+						along_stiffness = 100.0
+						along_damping = 8.0
+						radius0 = 1.0
+						radius1 = 1.0
+						point0 = [ 0.0, 0.0, 0.0 ]
+						point1 = [ 1.914001, 0.0, 0.0 ]
+					},
+					{
+						_class = "JiggleBone"
+						jiggle_root_bone = "bone10"
+						jiggle_type = 1
+						has_yaw_constraint = true
+						has_pitch_constraint = true
+						has_angle_constraint = true
+						has_base_spring = false
+						allow_flex_length = true
+						invert_axes = false
+						has_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						length = 5.0
+						tip_mass = 0.0
+						angle_limit = 30.0
+						min_yaw = -90.0
+						max_yaw = 90.0
+						yaw_friction = 0.0
+						yaw_bounce = 0.0
+						min_pitch = -90.0
+						max_pitch = 90.0
+						pitch_friction = 0.0
+						pitch_bounce = 0.0
+						base_mass = 0.0
+						base_stiffness = 0.0
+						base_damping = 0.0
+						base_left_min = 0.0
+						base_left_max = 0.0
+						base_left_friction = 0.0
+						base_up_min = 0.0
+						base_up_max = 0.0
+						base_up_friction = 0.0
+						base_forward_min = 0.0
+						base_forward_max = 0.0
+						base_forward_friction = 0.0
+						yaw_stiffness = 100.0
+						yaw_damping = 8.0
+						pitch_stiffness = 100.0
+						pitch_damping = 8.0
+						along_stiffness = 100.0
+						along_damping = 8.0
+						radius0 = 1.0
+						radius1 = 1.0
+						point0 = [ 0.0, 0.0, 0.0 ]
+						point1 = [ 1.914001, 0.0, 0.0 ]
+					},
+					{
+						_class = "JiggleBone"
+						jiggle_root_bone = "bone12"
+						jiggle_type = 1
+						has_yaw_constraint = true
+						has_pitch_constraint = true
+						has_angle_constraint = true
+						has_base_spring = false
+						allow_flex_length = true
+						invert_axes = false
+						has_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						length = 5.0
+						tip_mass = 0.0
+						angle_limit = 30.0
+						min_yaw = -90.0
+						max_yaw = 90.0
+						yaw_friction = 0.0
+						yaw_bounce = 0.0
+						min_pitch = -90.0
+						max_pitch = 90.0
+						pitch_friction = 0.0
+						pitch_bounce = 0.0
+						base_mass = 0.0
+						base_stiffness = 0.0
+						base_damping = 0.0
+						base_left_min = 0.0
+						base_left_max = 0.0
+						base_left_friction = 0.0
+						base_up_min = 0.0
+						base_up_max = 0.0
+						base_up_friction = 0.0
+						base_forward_min = 0.0
+						base_forward_max = 0.0
+						base_forward_friction = 0.0
+						yaw_stiffness = 100.0
+						yaw_damping = 8.0
+						pitch_stiffness = 100.0
+						pitch_damping = 8.0
+						along_stiffness = 100.0
+						along_damping = 8.0
+						radius0 = 1.0
+						radius1 = 1.0
+						point0 = [ 0.0, 0.0, 0.0 ]
+						point1 = [ 1.914001, 0.0, 0.0 ]
+					},
+					{
+						_class = "JiggleBone"
+						jiggle_root_bone = "bone13"
+						jiggle_type = 1
+						has_yaw_constraint = true
+						has_pitch_constraint = true
+						has_angle_constraint = true
+						has_base_spring = false
+						allow_flex_length = true
+						invert_axes = false
+						has_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						length = 5.0
+						tip_mass = 0.0
+						angle_limit = 30.0
+						min_yaw = -90.0
+						max_yaw = 90.0
+						yaw_friction = 0.0
+						yaw_bounce = 0.0
+						min_pitch = -90.0
+						max_pitch = 90.0
+						pitch_friction = 0.0
+						pitch_bounce = 0.0
+						base_mass = 0.0
+						base_stiffness = 0.0
+						base_damping = 0.0
+						base_left_min = 0.0
+						base_left_max = 0.0
+						base_left_friction = 0.0
+						base_up_min = 0.0
+						base_up_max = 0.0
+						base_up_friction = 0.0
+						base_forward_min = 0.0
+						base_forward_max = 0.0
+						base_forward_friction = 0.0
+						yaw_stiffness = 100.0
+						yaw_damping = 8.0
+						pitch_stiffness = 100.0
+						pitch_damping = 8.0
+						along_stiffness = 100.0
+						along_damping = 8.0
+						radius0 = 1.0
+						radius1 = 1.0
+						point0 = [ 0.0, 0.0, 0.0 ]
+						point1 = [ 1.914001, 0.0, 0.0 ]
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								name = "bip01_spine"
+								parent_bone = "bip01_spine"
+								hitbox_mins = [ -0.5, -3.738442, -4.814708 ]
+								hitbox_maxs = [ 8.289909, 3.948305, 4.814692 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_spine1"
+								parent_bone = "bip01_spine1"
+								hitbox_mins = [ -1.273273, -4.296924, -7.14872 ]
+								hitbox_maxs = [ 8.306217, 4.54145, 7.148879 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_spine2"
+								parent_bone = "bip01_spine2"
+								hitbox_mins = [ -0.5, -3.903448, -6.99592 ]
+								hitbox_maxs = [ 7.860806, 3.12049, 6.995678 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_neck"
+								parent_bone = "bip01_neck"
+								hitbox_mins = [ -1.813881, -1.989094, -2.128824 ]
+								hitbox_maxs = [ 2.6796, 2.773585, 2.305076 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_head"
+								parent_bone = "bip01_head"
+								hitbox_mins = [ -1.470573, -5.139723, -3.528275 ]
+								hitbox_maxs = [ 7.694271, 4.758301, 3.511635 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bone01"
+								parent_bone = "bone01"
+								hitbox_mins = [ -0.5, -2.422585, -0.909882 ]
+								hitbox_maxs = [ 3.535566, 0.813164, 1.380019 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bone03"
+								parent_bone = "bone03"
+								hitbox_mins = [ -1.101685, -2.166579, -0.909882 ]
+								hitbox_maxs = [ 2.279102, 0.875952, 1.380018 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bone05"
+								parent_bone = "bone05"
+								hitbox_mins = [ -0.602028, -1.815519, -0.909881 ]
+								hitbox_maxs = [ 2.915989, 1.33033, 1.464118 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bone06"
+								parent_bone = "bone06"
+								hitbox_mins = [ -0.711891, -1.125569, -0.906083 ]
+								hitbox_maxs = [ 4.55714, 1.566877, 1.464118 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bone09"
+								parent_bone = "bone09"
+								hitbox_mins = [ -0.5, -1.516045, -1.932307 ]
+								hitbox_maxs = [ 3.540695, 0.826889, 0.780094 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bone10"
+								parent_bone = "bone10"
+								hitbox_mins = [ -1.083374, -2.209858, -2.132276 ]
+								hitbox_maxs = [ 2.420986, 1.193289, 0.856998 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bone11"
+								parent_bone = "bone11"
+								hitbox_mins = [ -0.702831, -1.568569, -2.132276 ]
+								hitbox_maxs = [ 3.166893, 1.734617, 0.856997 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bone12"
+								parent_bone = "bone12"
+								hitbox_mins = [ -0.5, -1.195276, -1.913097 ]
+								hitbox_maxs = [ 4.82267, 1.716537, 0.692701 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_l_clavicle"
+								parent_bone = "bip01_l_clavicle"
+								hitbox_mins = [ -0.5, -2.141667, -0.598686 ]
+								hitbox_maxs = [ 5.779304, 2.074567, 1.756252 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_l_upperarm"
+								parent_bone = "bip01_l_upperarm"
+								hitbox_mins = [ -1.925819, -2.553092, -2.326496 ]
+								hitbox_maxs = [ 12.269632, 1.899508, 1.509109 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_l_forearm"
+								parent_bone = "bip01_l_forearm"
+								hitbox_mins = [ -0.5, -1.599092, -1.639561 ]
+								hitbox_maxs = [ 11.571056, 1.461419, 1.253689 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_l_hand"
+								parent_bone = "bip01_l_hand"
+								hitbox_mins = [ -0.886671, -0.88625, -2.007139 ]
+								hitbox_maxs = [ 4.245707, 0.985378, 1.291933 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_l_finger4"
+								parent_bone = "bip01_l_finger4"
+								hitbox_mins = [ -0.5, -0.5, -0.5 ]
+								hitbox_maxs = [ 0.700941, 0.5, 0.5 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_l_finger41"
+								parent_bone = "bip01_l_finger41"
+								hitbox_mins = [ -0.5, -0.5, -0.5 ]
+								hitbox_maxs = [ 0.933617, 0.5, 0.5 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_l_finger3"
+								parent_bone = "bip01_l_finger3"
+								hitbox_mins = [ -0.5, -0.5, -0.5 ]
+								hitbox_maxs = [ 1.399509, 0.5, 0.5 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_l_finger31"
+								parent_bone = "bip01_l_finger31"
+								hitbox_mins = [ -0.5, -0.5, -0.5 ]
+								hitbox_maxs = [ 1.128153, 0.5, 0.5 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_l_finger2"
+								parent_bone = "bip01_l_finger2"
+								hitbox_mins = [ -0.5, -0.5, -0.538383 ]
+								hitbox_maxs = [ 1.516144, 0.5, 0.58029 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_l_finger21"
+								parent_bone = "bip01_l_finger21"
+								hitbox_mins = [ -0.5, -0.5, -0.552282 ]
+								hitbox_maxs = [ 1.279991, 0.5, 0.520368 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_l_finger1"
+								parent_bone = "bip01_l_finger1"
+								hitbox_mins = [ -0.5, -0.5, -0.5 ]
+								hitbox_maxs = [ 1.273497, 0.5, 0.5 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_l_finger11"
+								parent_bone = "bip01_l_finger11"
+								hitbox_mins = [ -0.5, -0.5, -0.5 ]
+								hitbox_maxs = [ 1.220186, 0.5, 0.5 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_l_finger0"
+								parent_bone = "bip01_l_finger0"
+								hitbox_mins = [ -0.5, -0.5, -0.5 ]
+								hitbox_maxs = [ 2.344412, 0.5, 0.5 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_l_finger01"
+								parent_bone = "bip01_l_finger01"
+								hitbox_mins = [ -0.5, -0.5, -0.5 ]
+								hitbox_maxs = [ 1.072712, 0.5, 0.5 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_r_clavicle"
+								parent_bone = "bip01_r_clavicle"
+								hitbox_mins = [ -0.5, -2.141656, -1.756252 ]
+								hitbox_maxs = [ 5.779474, 2.076302, 0.604637 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_r_upperarm"
+								parent_bone = "bip01_r_upperarm"
+								hitbox_mins = [ -1.925892, -2.553375, -1.50948 ]
+								hitbox_maxs = [ 12.269695, 1.899686, 2.326561 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_r_forearm"
+								parent_bone = "bip01_r_forearm"
+								hitbox_mins = [ -0.5, -1.599453, -1.253941 ]
+								hitbox_maxs = [ 11.5711, 1.461756, 1.639858 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_r_hand"
+								parent_bone = "bip01_r_hand"
+								hitbox_mins = [ -0.886715, -0.886208, -1.291989 ]
+								hitbox_maxs = [ 4.245747, 0.985416, 2.00708 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_r_finger4"
+								parent_bone = "bip01_r_finger4"
+								hitbox_mins = [ -0.5, -0.5, -0.5 ]
+								hitbox_maxs = [ 0.700975, 0.5, 0.5 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_r_finger41"
+								parent_bone = "bip01_r_finger41"
+								hitbox_mins = [ -0.5, -0.5, -0.5 ]
+								hitbox_maxs = [ 0.933653, 0.5, 0.5 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_r_finger3"
+								parent_bone = "bip01_r_finger3"
+								hitbox_mins = [ -0.5, -0.5, -0.5 ]
+								hitbox_maxs = [ 1.399553, 0.5, 0.5 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_r_finger31"
+								parent_bone = "bip01_r_finger31"
+								hitbox_mins = [ -0.5, -0.5, -0.5 ]
+								hitbox_maxs = [ 1.128136, 0.5, 0.5 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_r_finger2"
+								parent_bone = "bip01_r_finger2"
+								hitbox_mins = [ -0.5, -0.5, -0.580339 ]
+								hitbox_maxs = [ 1.516191, 0.5, 0.536797 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_r_finger21"
+								parent_bone = "bip01_r_finger21"
+								hitbox_mins = [ -0.5, -0.5, -0.520414 ]
+								hitbox_maxs = [ 1.280043, 0.5, 0.551838 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_r_finger1"
+								parent_bone = "bip01_r_finger1"
+								hitbox_mins = [ -0.5, -0.5, -0.5 ]
+								hitbox_maxs = [ 1.273636, 0.5, 0.5 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_r_finger11"
+								parent_bone = "bip01_r_finger11"
+								hitbox_mins = [ -0.5, -0.5, -0.5 ]
+								hitbox_maxs = [ 1.22027, 0.5, 0.5 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_r_finger0"
+								parent_bone = "bip01_r_finger0"
+								hitbox_mins = [ -0.5, -0.5, -0.5 ]
+								hitbox_maxs = [ 2.34443, 0.5, 0.5 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_r_finger01"
+								parent_bone = "bip01_r_finger01"
+								hitbox_mins = [ -0.5, -0.5, -0.5 ]
+								hitbox_maxs = [ 1.072742, 0.5, 0.5 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "left_breast"
+								parent_bone = "left_breast"
+								hitbox_mins = [ -0.5, -3.078789, -2.893218 ]
+								hitbox_maxs = [ 4.676252, 2.740063, 2.516482 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "right_breast"
+								parent_bone = "right_breast"
+								hitbox_mins = [ -0.5, -3.078354, -2.516436 ]
+								hitbox_maxs = [ 4.702707, 2.737652, 2.860557 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_l_thigh"
+								parent_bone = "bip01_l_thigh"
+								hitbox_mins = [ -3.586391, -7.565912, -4.210724 ]
+								hitbox_maxs = [ 20.357203, 9.145285, 3.666227 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_l_calf"
+								parent_bone = "bip01_l_calf"
+								hitbox_mins = [ -3.021856, -2.421372, -2.275339 ]
+								hitbox_maxs = [ 21.022982, 2.948212, 2.235756 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_r_thigh"
+								parent_bone = "bip01_r_thigh"
+								hitbox_mins = [ -3.586384, -7.4871, -3.666033 ]
+								hitbox_maxs = [ 20.35721, 9.145067, 4.210639 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+							{
+								_class = "Hitbox"
+								name = "bip01_r_calf"
+								parent_bone = "bip01_r_calf"
+								hitbox_mins = [ -3.021847, -2.421376, -2.235793 ]
+								hitbox_maxs = [ 21.022984, 2.948205, 2.275281 ]
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+							},
+						]
 					},
 				]
 			},
