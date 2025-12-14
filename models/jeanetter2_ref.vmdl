@@ -5715,33 +5715,6 @@
 				]
 			},
 			{
-				_class = "PhysicsShapeList"
-				children = 
-				[
-					{
-						_class = "PhysicsHullFile"
-						name = "JeanetteR2_REF"
-						parent_bone = ""
-						surface_prop = "player"
-						collision_prop = "default"
-						recenter_on_parent_bone = false
-						offset_origin = [ 0.0, 0.0, 0.0 ]
-						offset_angles = [ 0.0, 0.0, 0.0 ]
-						filename = "models/character/npc/unique/santa_monica/jeanette/JeanetteR2_REF.smd"
-						import_scale = 1.0
-						faceMergeAngle = 10.0
-						maxHullVertices = 0
-						import_mode = "SingleHull"
-						optimization_algorithm = "QEM"
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-				]
-			},
-			{
 				_class = "JiggleBoneList"
 				children = 
 				[
@@ -5755,7 +5728,7 @@
 						has_base_spring = false
 						allow_flex_length = true
 						invert_axes = false
-						has_collision = false
+						has_collision = true
 						cloth_collision_layer0 = true
 						cloth_collision_layer1 = true
 						cloth_collision_layer2 = true
@@ -5765,7 +5738,7 @@
 						angle_limit = 30.0
 						min_yaw = -90.0
 						max_yaw = 90.0
-						yaw_friction = 0.0
+						yaw_friction = 20.0
 						yaw_bounce = 0.0
 						min_pitch = -90.0
 						max_pitch = 90.0
@@ -5804,7 +5777,7 @@
 						has_base_spring = false
 						allow_flex_length = true
 						invert_axes = false
-						has_collision = false
+						has_collision = true
 						cloth_collision_layer0 = true
 						cloth_collision_layer1 = true
 						cloth_collision_layer2 = true
@@ -5814,7 +5787,7 @@
 						angle_limit = 30.0
 						min_yaw = -90.0
 						max_yaw = 90.0
-						yaw_friction = 0.0
+						yaw_friction = 20.0
 						yaw_bounce = 0.0
 						min_pitch = -90.0
 						max_pitch = 90.0
@@ -5853,7 +5826,7 @@
 						has_base_spring = false
 						allow_flex_length = true
 						invert_axes = false
-						has_collision = false
+						has_collision = true
 						cloth_collision_layer0 = true
 						cloth_collision_layer1 = true
 						cloth_collision_layer2 = true
@@ -5863,7 +5836,7 @@
 						angle_limit = 30.0
 						min_yaw = -90.0
 						max_yaw = 90.0
-						yaw_friction = 0.0
+						yaw_friction = 20.0
 						yaw_bounce = 0.0
 						min_pitch = -90.0
 						max_pitch = 90.0
@@ -5902,7 +5875,7 @@
 						has_base_spring = false
 						allow_flex_length = true
 						invert_axes = false
-						has_collision = false
+						has_collision = true
 						cloth_collision_layer0 = true
 						cloth_collision_layer1 = true
 						cloth_collision_layer2 = true
@@ -5912,7 +5885,7 @@
 						angle_limit = 30.0
 						min_yaw = -90.0
 						max_yaw = 90.0
-						yaw_friction = 0.0
+						yaw_friction = 20.0
 						yaw_bounce = 0.0
 						min_pitch = -90.0
 						max_pitch = 90.0
@@ -5951,7 +5924,7 @@
 						has_base_spring = false
 						allow_flex_length = true
 						invert_axes = false
-						has_collision = false
+						has_collision = true
 						cloth_collision_layer0 = true
 						cloth_collision_layer1 = true
 						cloth_collision_layer2 = true
@@ -5961,7 +5934,7 @@
 						angle_limit = 30.0
 						min_yaw = -90.0
 						max_yaw = 90.0
-						yaw_friction = 0.0
+						yaw_friction = 20.0
 						yaw_bounce = 0.0
 						min_pitch = -90.0
 						max_pitch = 90.0
@@ -6000,7 +5973,7 @@
 						has_base_spring = false
 						allow_flex_length = true
 						invert_axes = false
-						has_collision = false
+						has_collision = true
 						cloth_collision_layer0 = true
 						cloth_collision_layer1 = true
 						cloth_collision_layer2 = true
@@ -6010,7 +5983,7 @@
 						angle_limit = 30.0
 						min_yaw = -90.0
 						max_yaw = 90.0
-						yaw_friction = 0.0
+						yaw_friction = 20.0
 						yaw_bounce = 0.0
 						min_pitch = -90.0
 						max_pitch = 90.0
