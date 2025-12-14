@@ -19,7 +19,7 @@
 							},
 							{
 								from = "eyeball_r.vmat"
-								to = "vpkcontent/materials/models/character/monster/tzimisce/creation3/eyeball_l.vmat"
+								to = "materials/models/character/monster/tzimisce/creation1/eyeball_l.vmat"
 							},
 							{
 								from = "tsimbodytexture2.vmat"

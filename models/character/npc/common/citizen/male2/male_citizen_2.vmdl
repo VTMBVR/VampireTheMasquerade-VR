@@ -11,6 +11,7 @@
 				[
 					{
 						_class = "DefaultMaterialGroup"
+						note = "change eyballs and upperteah"
 						remaps = 
 						[
 							{
@@ -19,31 +20,31 @@
 							},
 							{
 								from = "eyeball_l.vmat"
-								to = "vpkcontent/materials/models/character/npc/unique/santa_monica/jeanette/eyeball_r.vmat"
+								to = "materials/models/character/npc/unique/santa_monica/knox/eyeball_l.vmat"
 							},
 							{
 								from = "eyeball_r.vmat"
-								to = "vpkcontent/materials/models/character/npc/unique/santa_monica/jeanette/eyeball_r.vmat"
+								to = "materials/models/character/npc/unique/downtown/damsel/eyeball_r.vmat"
 							},
 							{
 								from = "lowerteeth.vmat"
-								to = "vpkcontent/materials/models/character/teeth/lowerteeth.vmat"
+								to = "materials/models/character/teeth/lowerteeth.vmat"
 							},
 							{
 								from = "molar.vmat"
-								to = "vpkcontent/materials/models/character/teeth/molar.vmat"
+								to = "materials/models/character/teeth/molar.vmat"
 							},
 							{
 								from = "mouth.vmat"
-								to = "vpkcontent/materials/models/character/teeth/mouth.vmat"
+								to = "materials/models/character/teeth/mouth.vmat"
 							},
 							{
 								from = "tongue.vmat"
-								to = "vpkcontent/materials/models/character/teeth/tongue.vmat"
+								to = "materials/models/character/teeth/tongue.vmat"
 							},
 							{
 								from = "upperteeth.vmat"
-								to = "vpkcontent/materials/models/character/teeth/upperteeth.vmat"
+								to = "materials/models/character/teeth/upperteeth.vmat"
 							},
 						]
 						use_global_default = false
