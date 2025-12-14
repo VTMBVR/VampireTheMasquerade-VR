@@ -7907,11 +7907,6 @@
 						_class = "Prefab"
 						target_file = "models/character/npc/unique/santa_monica/jeanette/prefabs/phys_jiggle_breasts.vmdl_prefab"
 					},
-					{
-						_class = "Prefab"
-						disabled = true
-						target_file = "models/character/npc/unique/santa_monica/jeanette/prefabs/phys_jiggle_skirt_proto.vmdl_prefab"
-					},
 				]
 			},
 			{
