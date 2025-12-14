@@ -25,7 +25,7 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						length = 5.0
-						tip_mass = 0.0
+						tip_mass = 200.0
 						angle_limit = 30.0
 						min_yaw = -90.0
 						max_yaw = 90.0
@@ -74,7 +74,7 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						length = 5.0
-						tip_mass = 0.0
+						tip_mass = 200.0
 						angle_limit = 30.0
 						min_yaw = -90.0
 						max_yaw = 90.0
@@ -123,7 +123,7 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						length = 5.0
-						tip_mass = 0.0
+						tip_mass = 200.0
 						angle_limit = 30.0
 						min_yaw = -90.0
 						max_yaw = 90.0
@@ -172,7 +172,7 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						length = 5.0
-						tip_mass = 0.0
+						tip_mass = 200.0
 						angle_limit = 30.0
 						min_yaw = -90.0
 						max_yaw = 90.0
@@ -221,7 +221,7 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						length = 5.0
-						tip_mass = 0.0
+						tip_mass = 200.0
 						angle_limit = 30.0
 						min_yaw = -90.0
 						max_yaw = 90.0
@@ -270,7 +270,7 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						length = 5.0
-						tip_mass = 0.0
+						tip_mass = 200.0
 						angle_limit = 30.0
 						min_yaw = -90.0
 						max_yaw = 90.0
@@ -319,7 +319,7 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						length = 5.0
-						tip_mass = 0.0
+						tip_mass = 200.0
 						angle_limit = 30.0
 						min_yaw = -90.0
 						max_yaw = 90.0
@@ -368,7 +368,7 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						length = 5.0
-						tip_mass = 0.0
+						tip_mass = 200.0
 						angle_limit = 30.0
 						min_yaw = -90.0
 						max_yaw = 90.0
@@ -417,7 +417,7 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						length = 5.0
-						tip_mass = 0.0
+						tip_mass = 200.0
 						angle_limit = 30.0
 						min_yaw = -90.0
 						max_yaw = 90.0
@@ -466,7 +466,7 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						length = 5.0
-						tip_mass = 0.0
+						tip_mass = 200.0
 						angle_limit = 30.0
 						min_yaw = -90.0
 						max_yaw = 90.0
@@ -515,7 +515,7 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						length = 5.0
-						tip_mass = 0.0
+						tip_mass = 200.0
 						angle_limit = 30.0
 						min_yaw = -90.0
 						max_yaw = 90.0
@@ -564,7 +564,7 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						length = 5.0
-						tip_mass = 0.0
+						tip_mass = 200.0
 						angle_limit = 30.0
 						min_yaw = -90.0
 						max_yaw = 90.0
