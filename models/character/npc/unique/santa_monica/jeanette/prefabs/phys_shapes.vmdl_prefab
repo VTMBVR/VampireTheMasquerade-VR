@@ -1,0 +1,135 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = "bip01_spine"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						origin = [ 2.434813, 0.923115, 0.569275 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 5.869627, 6.611638, 9.100238 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = "bip01_spine1"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						origin = [ 2.14062, -1.449671, -0.175512 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 6.927193, 5.86133, 9.901587 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = "bip01_spine2"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						origin = [ 3.156081, -1.234496, -0.05919 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 7.312162, 6.106794, 10.364054 ]
+					},
+					{
+						_class = "PhysicsShapeSphere"
+						parent_bone = "bip01_head"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						radius = 4.229454
+						center = [ 2.713508, 0.647073, -0.067209 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "bip01_l_upperarm"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						radius = 1.899474
+						point0 = [ 0.0, 0.0, 0.0 ]
+						point1 = [ 10.368916, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "bip01_l_forearm"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						radius = 2.366062
+						point0 = [ 0.0, 0.0, 0.0 ]
+						point1 = [ 15.210127, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "bip01_r_upperarm"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						radius = 1.726456
+						point0 = [ 0.0, 0.0, 0.0 ]
+						point1 = [ 9.929264, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "bip01_r_forearm"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						radius = 1.759892
+						point0 = [ 0.0, 0.0, 0.0 ]
+						point1 = [ 15.783928, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = "bip01_pelvis"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						origin = [ 1.851142, -0.181595, -0.430304 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 2.971838, 9.364602, 13.593123 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "bip01_l_thigh"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						radius = 3.727264
+						point0 = [ 0.0, 0.0, 0.0 ]
+						point1 = [ 12.421097, 1.461271, 0.206352 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "bip01_l_calf"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						radius = 3.083884
+						point0 = [ -1.872618, 1.072029, 0.550419 ]
+						point1 = [ 15.86886, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "bip01_r_thigh"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						radius = 3.691945
+						point0 = [ 0.0, 0.0, 0.0 ]
+						point1 = [ 11.572819, 1.368715, -0.139431 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "bip01_r_calf"
+						surface_prop = "flesh"
+						collision_prop = "default"
+						radius = 3.152287
+						point0 = [ -1.076807, 0.0, 0.0 ]
+						point1 = [ 15.889442, 0.050766, 0.744472 ]
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

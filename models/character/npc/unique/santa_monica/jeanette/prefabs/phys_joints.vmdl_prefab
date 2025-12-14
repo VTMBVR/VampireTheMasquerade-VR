@@ -1,0 +1,199 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "PhysicsJointList"
+				children = 
+				[
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "bip01_spine1"
+						child_body = "bip01_spine"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ -90.0, 0.0, 0.0 ]
+						collision_enabled = true
+						friction = 0.0
+						enable_swing_limit = true
+						swing_limit = 16.299999
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -30.0
+						max_twist_angle = 30.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "bip01_spine"
+						child_body = "bip01_pelvis"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ -90.0, 0.0, 0.0 ]
+						collision_enabled = true
+						friction = 0.0
+						enable_swing_limit = true
+						swing_limit = 16.299999
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = false
+						min_twist_angle = -30.0
+						max_twist_angle = 30.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "bip01_pelvis"
+						child_body = "bip01_l_thigh"
+						anchor_origin = [ -0.000001, 0.000009, 3.622983 ]
+						anchor_angles = [ -90.0, 0.0, 0.0 ]
+						collision_enabled = true
+						friction = 0.0
+						enable_swing_limit = true
+						swing_limit = 16.299999
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -30.0
+						max_twist_angle = 30.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "bip01_pelvis"
+						child_body = "bip01_r_thigh"
+						anchor_origin = [ 0.000001, -0.000009, -3.452645 ]
+						anchor_angles = [ -90.0, 0.0, 0.0 ]
+						collision_enabled = true
+						friction = 0.0
+						enable_swing_limit = true
+						swing_limit = 16.299999
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -30.0
+						max_twist_angle = 30.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "bip01_l_thigh"
+						child_body = "bip01_l_calf"
+						anchor_origin = [ 13.587188, 1.156151, -0.479611 ]
+						anchor_angles = [ 90.0, 0.0, 0.0 ]
+						collision_enabled = true
+						friction = 0.0
+						enable_swing_limit = true
+						swing_limit = 16.360001
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -30.0
+						max_twist_angle = 30.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "bip01_r_thigh"
+						child_body = "bip01_r_calf"
+						anchor_origin = [ 14.353425, 1.221239, -0.22595 ]
+						anchor_angles = [ 90.0, 0.0, 0.0 ]
+						collision_enabled = true
+						friction = 0.0
+						enable_swing_limit = true
+						swing_limit = 16.299999
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -30.0
+						max_twist_angle = 30.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "bip01_spine2"
+						child_body = "bip01_spine1"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ -90.0, 0.0, 0.0 ]
+						collision_enabled = true
+						friction = 0.0
+						enable_swing_limit = true
+						swing_limit = 16.299999
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -30.0
+						max_twist_angle = 30.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "bip01_head"
+						child_body = "bip01_spine2"
+						anchor_origin = [ 0.0, 0.0, 0.0 ]
+						anchor_angles = [ -90.0, 0.0, 0.0 ]
+						collision_enabled = true
+						friction = 0.0
+						enable_swing_limit = true
+						swing_limit = 16.299999
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -30.0
+						max_twist_angle = 30.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "bip01_spine2"
+						child_body = "bip01_l_upperarm"
+						anchor_origin = [ 3.492504, -1.588751, 5.620214 ]
+						anchor_angles = [ 0.836187, 104.268921, -35.229729 ]
+						collision_enabled = true
+						friction = 0.0
+						enable_swing_limit = true
+						swing_limit = 16.299999
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -30.0
+						max_twist_angle = 30.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "bip01_spine2"
+						child_body = "bip01_r_upperarm"
+						anchor_origin = [ 3.147855, 0.834903, -5.843163 ]
+						anchor_angles = [ -28.821199, -148.131348, 171.608276 ]
+						collision_enabled = true
+						friction = 0.0
+						enable_swing_limit = true
+						swing_limit = 16.299999
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -30.0
+						max_twist_angle = 30.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "bip01_r_upperarm"
+						child_body = "bip01_r_forearm"
+						anchor_origin = [ 8.368498, 0.92747, 0.298793 ]
+						anchor_angles = [ 63.308613, -89.804199, -83.248955 ]
+						collision_enabled = true
+						friction = 0.0
+						enable_swing_limit = true
+						swing_limit = 16.299999
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -30.0
+						max_twist_angle = 30.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "bip01_l_upperarm"
+						child_body = "bip01_l_forearm"
+						anchor_origin = [ 10.295389, 0.183452, 0.080838 ]
+						anchor_angles = [ 87.58136, -24.058344, -25.055565 ]
+						collision_enabled = true
+						friction = 0.0
+						enable_swing_limit = true
+						swing_limit = 16.299999
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -30.0
+						max_twist_angle = 30.0
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}
