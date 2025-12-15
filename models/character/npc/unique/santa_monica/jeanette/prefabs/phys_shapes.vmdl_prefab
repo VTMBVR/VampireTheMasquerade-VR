@@ -85,9 +85,9 @@
 						parent_bone = "bip01_pelvis"
 						surface_prop = "flesh"
 						collision_prop = "default"
-						origin = [ 1.851142, -0.181595, -0.430304 ]
+						origin = [ 1.851142, 0.355952, -0.430304 ]
 						angles = [ 0.0, 0.0, 0.0 ]
-						dimensions = [ 2.971838, 9.364602, 13.593123 ]
+						dimensions = [ 2.971838, 8.289505, 13.593123 ]
 					},
 					{
 						_class = "PhysicsShapeCapsule"
