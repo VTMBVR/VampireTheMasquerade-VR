@@ -8405,10 +8405,10 @@
 						cloth_collision_layer3 = true
 						cloth_stickiness = 0.0
 						cloth_collision_priority = 0
-						radius0 = 3.21339
-						radius1 = 1.0
-						point0 = [ -1.103854, 0.917212, 0.184292 ]
-						point1 = [ 12.074212, 0.917212, 0.184292 ]
+						radius0 = 4.467043
+						radius1 = 4.016713
+						point0 = [ -0.924812, 0.697599, 0.268734 ]
+						point1 = [ 12.111584, 1.357714, 0.36478 ]
 					},
 					{
 						_class = "ClothShapeCapsule"
@@ -8419,10 +8419,10 @@
 						cloth_collision_layer3 = true
 						cloth_stickiness = 0.0
 						cloth_collision_priority = 0
-						radius0 = 3.17456
-						radius1 = 1.827785
+						radius0 = 4.188472
+						radius1 = 4.00947
 						point0 = [ -1.0, 0.0, 0.0 ]
-						point1 = [ 11.094114, 0.0, 0.0 ]
+						point1 = [ 10.84057, 0.629622, -0.829861 ]
 					},
 				]
 			},
@@ -8450,8 +8450,8 @@
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
-						is_static_node = false
+						collision_radius = 1.5
+						is_static_node = true
 						allow_rotation = true
 						super_damping = 0.0
 					},
@@ -8468,14 +8468,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -8493,14 +8493,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 1.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -8518,14 +8518,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -8552,7 +8552,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -8564,7 +8564,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothNode"
@@ -8579,14 +8579,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -8604,14 +8604,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -8629,14 +8629,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -8654,14 +8654,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -8676,7 +8676,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -8688,7 +8688,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -8700,7 +8700,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothNode"
@@ -8715,14 +8715,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -8740,14 +8740,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -8765,14 +8765,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -8787,7 +8787,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -8799,7 +8799,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothNode"
@@ -8814,14 +8814,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -8839,14 +8839,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -8864,14 +8864,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -8889,14 +8889,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -8911,7 +8911,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -8923,7 +8923,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -8935,7 +8935,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothNode"
@@ -8950,14 +8950,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -8975,14 +8975,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9000,14 +9000,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9025,14 +9025,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9047,7 +9047,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -9059,7 +9059,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -9071,7 +9071,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothNode"
@@ -9086,14 +9086,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9111,14 +9111,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9136,14 +9136,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9161,14 +9161,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9183,7 +9183,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -9195,7 +9195,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -9207,7 +9207,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothNode"
@@ -9222,14 +9222,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9247,14 +9247,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9272,14 +9272,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9297,14 +9297,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9319,7 +9319,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -9331,7 +9331,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -9343,7 +9343,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothNode"
@@ -9358,14 +9358,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9383,14 +9383,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9408,14 +9408,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9433,14 +9433,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9455,7 +9455,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -9467,7 +9467,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -9479,7 +9479,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothNode"
@@ -9494,14 +9494,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9519,14 +9519,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9544,14 +9544,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9569,14 +9569,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9591,7 +9591,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -9603,7 +9603,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -9615,7 +9615,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothNode"
@@ -9630,14 +9630,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9655,14 +9655,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9680,14 +9680,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9705,14 +9705,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9727,7 +9727,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -9739,7 +9739,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -9751,7 +9751,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothNode"
@@ -9766,14 +9766,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9791,14 +9791,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9816,14 +9816,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9841,14 +9841,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9863,7 +9863,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -9875,7 +9875,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -9887,7 +9887,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothNode"
@@ -9902,14 +9902,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9927,14 +9927,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9952,14 +9952,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9977,14 +9977,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -9999,7 +9999,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -10011,7 +10011,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -10023,7 +10023,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothNode"
@@ -10038,14 +10038,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -10063,14 +10063,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -10088,14 +10088,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -10113,14 +10113,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -10135,7 +10135,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -10147,7 +10147,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -10159,7 +10159,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothNode"
@@ -10174,14 +10174,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -10199,14 +10199,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -10224,14 +10224,14 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
+						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.3
+						goal_damping = 0.5
 						mass = 1.0
 						friction = 0.0
 						stray_radius = 0.3
 						stray_radius_relaxation_factor = 0.3
-						collision_radius = 0.1
+						collision_radius = 1.2
 						is_static_node = false
 						allow_rotation = true
 						super_damping = 0.0
@@ -10246,7 +10246,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 					{
 						_class = "ClothSpring"
@@ -10258,7 +10258,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 0
+						extra_iterations = 32
 					},
 				]
 				stiffness_on_ragdoll = 0.0
