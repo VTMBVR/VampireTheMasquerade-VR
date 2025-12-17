@@ -8398,20 +8398,6 @@
 				[
 					{
 						_class = "ClothShapeCapsule"
-						parent_bone = "bip01_l_thigh"
-						cloth_collision_layer0 = true
-						cloth_collision_layer1 = true
-						cloth_collision_layer2 = true
-						cloth_collision_layer3 = true
-						cloth_stickiness = 0.0
-						cloth_collision_priority = 0
-						radius0 = 4.467043
-						radius1 = 4.016713
-						point0 = [ -0.924812, 0.697599, 0.268734 ]
-						point1 = [ 12.111584, 1.357714, 0.36478 ]
-					},
-					{
-						_class = "ClothShapeCapsule"
 						parent_bone = "bip01_r_thigh"
 						cloth_collision_layer0 = true
 						cloth_collision_layer1 = true
@@ -8419,10 +8405,24 @@
 						cloth_collision_layer3 = true
 						cloth_stickiness = 0.0
 						cloth_collision_priority = 0
-						radius0 = 4.188472
-						radius1 = 4.00947
-						point0 = [ -1.0, 0.0, 0.0 ]
-						point1 = [ 10.84057, 0.629622, -0.829861 ]
+						radius0 = 3.59195
+						radius1 = 3.59195
+						point0 = [ 0.0, 0.0, 0.0 ]
+						point1 = [ 11.572819, 1.368715, -0.139431 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						parent_bone = "bip01_l_thigh"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_stickiness = 0.0
+						cloth_collision_priority = 0
+						radius0 = 3.84324
+						radius1 = 3.84324
+						point0 = [ 0.0, 0.0, 0.0 ]
+						point1 = [ 12.421097, 1.461271, 0.206352 ]
 					},
 				]
 			},
@@ -8442,17 +8442,17 @@
 						cloth_collision_layer1 = true
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
-						transform_alignment = 0
-						gravity_z = 2.0
-						goal_strength = 0.3
+						transform_alignment = 1
+						gravity_z = 1.0
+						goal_strength = 0.05
 						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.5
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
 						is_static_node = true
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -8467,17 +8467,17 @@
 						cloth_collision_layer1 = true
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
-						transform_alignment = 0
+						transform_alignment = 1
 						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_strength = 0.8
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -8495,14 +8495,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
-						friction = 1.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -8520,14 +8520,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -8552,7 +8552,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -8564,7 +8564,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothNode"
@@ -8578,17 +8578,17 @@
 						cloth_collision_layer1 = true
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
-						transform_alignment = 0
+						transform_alignment = 1
 						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_strength = 0.05
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
-						is_static_node = false
-						allow_rotation = true
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -8603,17 +8603,17 @@
 						cloth_collision_layer1 = true
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
-						transform_alignment = 0
+						transform_alignment = 1
 						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_strength = 0.8
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -8628,17 +8628,17 @@
 						cloth_collision_layer1 = true
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
-						transform_alignment = 0
+						transform_alignment = 1
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -8653,17 +8653,17 @@
 						cloth_collision_layer1 = true
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
-						transform_alignment = 0
+						transform_alignment = 1
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -8676,7 +8676,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -8688,7 +8688,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -8700,7 +8700,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothNode"
@@ -8714,17 +8714,17 @@
 						cloth_collision_layer1 = true
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
-						transform_alignment = 0
+						transform_alignment = 1
 						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_strength = 0.05
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
-						is_static_node = false
-						allow_rotation = true
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -8742,14 +8742,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -8767,14 +8767,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -8787,7 +8787,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -8799,7 +8799,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothNode"
@@ -8813,17 +8813,17 @@
 						cloth_collision_layer1 = true
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
-						transform_alignment = 0
+						transform_alignment = 1
 						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_strength = 0.05
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
-						is_static_node = false
-						allow_rotation = true
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -8840,15 +8840,15 @@
 						cloth_collision_layer3 = true
 						transform_alignment = 0
 						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_strength = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -8866,14 +8866,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -8891,14 +8891,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -8911,7 +8911,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -8923,7 +8923,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -8935,7 +8935,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothNode"
@@ -8951,15 +8951,15 @@
 						cloth_collision_layer3 = true
 						transform_alignment = 0
 						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_strength = 0.05
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
-						is_static_node = false
-						allow_rotation = true
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
+						is_static_node = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -8977,14 +8977,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9002,14 +9002,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9027,14 +9027,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9047,7 +9047,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -9059,7 +9059,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -9071,7 +9071,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothNode"
@@ -9087,15 +9087,15 @@
 						cloth_collision_layer3 = true
 						transform_alignment = 0
 						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_strength = 0.05
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
-						is_static_node = false
-						allow_rotation = true
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
+						is_static_node = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9113,14 +9113,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9138,14 +9138,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9163,14 +9163,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9183,7 +9183,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -9195,7 +9195,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -9207,7 +9207,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothNode"
@@ -9223,15 +9223,15 @@
 						cloth_collision_layer3 = true
 						transform_alignment = 0
 						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_strength = 0.05
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
-						is_static_node = false
-						allow_rotation = true
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
+						is_static_node = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9249,14 +9249,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9274,14 +9274,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9299,14 +9299,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9319,7 +9319,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -9331,7 +9331,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -9343,7 +9343,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothNode"
@@ -9359,15 +9359,15 @@
 						cloth_collision_layer3 = true
 						transform_alignment = 0
 						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_strength = 0.05
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
-						is_static_node = false
-						allow_rotation = true
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9385,14 +9385,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9410,14 +9410,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9435,14 +9435,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9455,7 +9455,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -9467,7 +9467,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -9479,7 +9479,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothNode"
@@ -9496,14 +9496,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
-						is_static_node = false
-						allow_rotation = true
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
+						is_static_node = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9521,14 +9521,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9546,14 +9546,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9568,17 +9568,17 @@
 						cloth_collision_layer1 = true
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
-						transform_alignment = 0
+						transform_alignment = 1
 						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_strength = 0.05
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9591,7 +9591,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -9603,7 +9603,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -9615,7 +9615,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothNode"
@@ -9632,14 +9632,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
-						is_static_node = false
-						allow_rotation = true
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
+						is_static_node = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9657,14 +9657,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9682,14 +9682,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9707,14 +9707,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9727,7 +9727,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -9739,7 +9739,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -9751,7 +9751,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothNode"
@@ -9768,14 +9768,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
-						is_static_node = false
-						allow_rotation = true
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9793,14 +9793,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9818,14 +9818,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9843,14 +9843,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9863,7 +9863,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -9875,7 +9875,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -9887,7 +9887,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothNode"
@@ -9904,14 +9904,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
-						is_static_node = false
-						allow_rotation = true
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
+						is_static_node = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9929,14 +9929,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9954,14 +9954,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9979,14 +9979,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -9999,7 +9999,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -10011,7 +10011,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -10023,7 +10023,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothNode"
@@ -10040,14 +10040,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
-						is_static_node = false
-						allow_rotation = true
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -10065,14 +10065,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -10090,14 +10090,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -10115,14 +10115,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -10135,7 +10135,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -10147,7 +10147,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -10159,7 +10159,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothNode"
@@ -10176,14 +10176,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
-						is_static_node = false
-						allow_rotation = true
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
+						is_static_node = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -10201,14 +10201,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -10226,14 +10226,14 @@
 						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
-						goal_damping = 0.5
+						goal_damping = 0.3
 						mass = 1.0
 						friction = 0.0
-						stray_radius = 0.3
-						stray_radius_relaxation_factor = 0.3
-						collision_radius = 1.2
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
 						is_static_node = false
-						allow_rotation = true
+						allow_rotation = false
 						super_damping = 0.0
 					},
 					{
@@ -10246,7 +10246,7 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
 					},
 					{
 						_class = "ClothSpring"
@@ -10258,7 +10258,371 @@
 						is_length_explicit = false
 						min_length = 0.0
 						max_length = 0.0
-						extra_iterations = 32
+						extra_iterations = 0
+					},
+					{
+						_class = "Prefab"
+						target_file = "models/character/npc/unique/santa_monica/jeanette/prefabs/skirt_phys_triangle1.vmdl_prefab"
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_054_clothNode_shirt_007_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_054_clothNode"
+						cloth_node_2 = "shirt_007_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_054_clothNode_shirt_006_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_054_clothNode"
+						cloth_node_2 = "shirt_006_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_054_clothNode_shirt_002_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_054_clothNode"
+						cloth_node_2 = "shirt_002_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_054_clothNode_shirt_001_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_054_clothNode"
+						cloth_node_2 = "shirt_001_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_007_clothNode_shirt_006_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_007_clothNode"
+						cloth_node_2 = "shirt_006_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_007_clothNode_shirt_002_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_007_clothNode"
+						cloth_node_2 = "shirt_002_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_007_clothNode_shirt_001_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_007_clothNode"
+						cloth_node_2 = "shirt_001_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_006_clothNode_shirt_002_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_006_clothNode"
+						cloth_node_2 = "shirt_002_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_006_clothNode_shirt_001_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_006_clothNode"
+						cloth_node_2 = "shirt_001_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_002_clothNode_shirt_001_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_002_clothNode"
+						cloth_node_2 = "shirt_001_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_054_clothNode_shirt_007_clothNode_shirt_006_clothNode"
+						cloth_node_0 = "shirt_054_clothNode"
+						cloth_node_1 = "shirt_007_clothNode"
+						cloth_node_2 = "shirt_006_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_054_clothNode_shirt_007_clothNode_shirt_002_clothNode"
+						cloth_node_0 = "shirt_054_clothNode"
+						cloth_node_1 = "shirt_007_clothNode"
+						cloth_node_2 = "shirt_002_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_054_clothNode_shirt_007_clothNode_shirt_001_clothNode"
+						cloth_node_0 = "shirt_054_clothNode"
+						cloth_node_1 = "shirt_007_clothNode"
+						cloth_node_2 = "shirt_001_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_054_clothNode_shirt_006_clothNode_shirt_002_clothNode"
+						cloth_node_0 = "shirt_054_clothNode"
+						cloth_node_1 = "shirt_006_clothNode"
+						cloth_node_2 = "shirt_002_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_054_clothNode_shirt_006_clothNode_shirt_001_clothNode"
+						cloth_node_0 = "shirt_054_clothNode"
+						cloth_node_1 = "shirt_006_clothNode"
+						cloth_node_2 = "shirt_001_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_054_clothNode_shirt_002_clothNode_shirt_001_clothNode"
+						cloth_node_0 = "shirt_054_clothNode"
+						cloth_node_1 = "shirt_002_clothNode"
+						cloth_node_2 = "shirt_001_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_007_clothNode_shirt_006_clothNode_shirt_002_clothNode"
+						cloth_node_0 = "shirt_007_clothNode"
+						cloth_node_1 = "shirt_006_clothNode"
+						cloth_node_2 = "shirt_002_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_007_clothNode_shirt_006_clothNode_shirt_001_clothNode"
+						cloth_node_0 = "shirt_007_clothNode"
+						cloth_node_1 = "shirt_006_clothNode"
+						cloth_node_2 = "shirt_001_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_007_clothNode_shirt_002_clothNode_shirt_001_clothNode"
+						cloth_node_0 = "shirt_007_clothNode"
+						cloth_node_1 = "shirt_002_clothNode"
+						cloth_node_2 = "shirt_001_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_006_clothNode_shirt_002_clothNode_shirt_001_clothNode"
+						cloth_node_0 = "shirt_006_clothNode"
+						cloth_node_1 = "shirt_002_clothNode"
+						cloth_node_2 = "shirt_001_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_047_clothNode_shirt_046_clothNode_shirt_055_clothNode"
+						cloth_node_0 = "shirt_047_clothNode"
+						cloth_node_1 = "shirt_046_clothNode"
+						cloth_node_2 = "shirt_055_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_047_clothNode_shirt_046_clothNode_shirt_054_clothNode"
+						cloth_node_0 = "shirt_047_clothNode"
+						cloth_node_1 = "shirt_046_clothNode"
+						cloth_node_2 = "shirt_054_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_047_clothNode_shirt_046_clothNode_shirt_050_clothNode"
+						cloth_node_0 = "shirt_047_clothNode"
+						cloth_node_1 = "shirt_046_clothNode"
+						cloth_node_2 = "shirt_050_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_047_clothNode_shirt_046_clothNode_shirt_049_clothNode"
+						cloth_node_0 = "shirt_047_clothNode"
+						cloth_node_1 = "shirt_046_clothNode"
+						cloth_node_2 = "shirt_049_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_047_clothNode_shirt_055_clothNode_shirt_054_clothNode"
+						cloth_node_0 = "shirt_047_clothNode"
+						cloth_node_1 = "shirt_055_clothNode"
+						cloth_node_2 = "shirt_054_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_047_clothNode_shirt_055_clothNode_shirt_050_clothNode"
+						cloth_node_0 = "shirt_047_clothNode"
+						cloth_node_1 = "shirt_055_clothNode"
+						cloth_node_2 = "shirt_050_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_047_clothNode_shirt_055_clothNode_shirt_049_clothNode"
+						cloth_node_0 = "shirt_047_clothNode"
+						cloth_node_1 = "shirt_055_clothNode"
+						cloth_node_2 = "shirt_049_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_047_clothNode_shirt_054_clothNode_shirt_050_clothNode"
+						cloth_node_0 = "shirt_047_clothNode"
+						cloth_node_1 = "shirt_054_clothNode"
+						cloth_node_2 = "shirt_050_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_047_clothNode_shirt_054_clothNode_shirt_049_clothNode"
+						cloth_node_0 = "shirt_047_clothNode"
+						cloth_node_1 = "shirt_054_clothNode"
+						cloth_node_2 = "shirt_049_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_047_clothNode_shirt_050_clothNode_shirt_049_clothNode"
+						cloth_node_0 = "shirt_047_clothNode"
+						cloth_node_1 = "shirt_050_clothNode"
+						cloth_node_2 = "shirt_049_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_046_clothNode_shirt_055_clothNode_shirt_054_clothNode"
+						cloth_node_0 = "shirt_046_clothNode"
+						cloth_node_1 = "shirt_055_clothNode"
+						cloth_node_2 = "shirt_054_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_046_clothNode_shirt_055_clothNode_shirt_050_clothNode"
+						cloth_node_0 = "shirt_046_clothNode"
+						cloth_node_1 = "shirt_055_clothNode"
+						cloth_node_2 = "shirt_050_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_046_clothNode_shirt_055_clothNode_shirt_049_clothNode"
+						cloth_node_0 = "shirt_046_clothNode"
+						cloth_node_1 = "shirt_055_clothNode"
+						cloth_node_2 = "shirt_049_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_046_clothNode_shirt_054_clothNode_shirt_050_clothNode"
+						cloth_node_0 = "shirt_046_clothNode"
+						cloth_node_1 = "shirt_054_clothNode"
+						cloth_node_2 = "shirt_050_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_046_clothNode_shirt_054_clothNode_shirt_049_clothNode"
+						cloth_node_0 = "shirt_046_clothNode"
+						cloth_node_1 = "shirt_054_clothNode"
+						cloth_node_2 = "shirt_049_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_046_clothNode_shirt_050_clothNode_shirt_049_clothNode"
+						cloth_node_0 = "shirt_046_clothNode"
+						cloth_node_1 = "shirt_050_clothNode"
+						cloth_node_2 = "shirt_049_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_054_clothNode_shirt_050_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_054_clothNode"
+						cloth_node_2 = "shirt_050_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_054_clothNode_shirt_049_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_054_clothNode"
+						cloth_node_2 = "shirt_049_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_050_clothNode_shirt_049_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_050_clothNode"
+						cloth_node_2 = "shirt_049_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_054_clothNode_shirt_050_clothNode_shirt_049_clothNode"
+						cloth_node_0 = "shirt_054_clothNode"
+						cloth_node_1 = "shirt_050_clothNode"
+						cloth_node_2 = "shirt_049_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
 					},
 				]
 				stiffness_on_ragdoll = 0.0
