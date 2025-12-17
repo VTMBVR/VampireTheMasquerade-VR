@@ -8405,7 +8405,7 @@
 						cloth_collision_layer3 = true
 						cloth_stickiness = 0.0
 						cloth_collision_priority = 0
-						radius0 = 3.59195
+						radius0 = 3.249064
 						radius1 = 3.59195
 						point0 = [ 0.0, 0.0, 0.0 ]
 						point1 = [ 11.572819, 1.368715, -0.139431 ]
@@ -8419,9 +8419,9 @@
 						cloth_collision_layer3 = true
 						cloth_stickiness = 0.0
 						cloth_collision_priority = 0
-						radius0 = 3.84324
-						radius1 = 3.84324
-						point0 = [ 0.0, 0.0, 0.0 ]
+						radius0 = 2.498669
+						radius1 = 2.55
+						point0 = [ 2.43608, 1.85112, -0.367657 ]
 						point1 = [ 12.421097, 1.461271, 0.206352 ]
 					},
 				]
@@ -8467,7 +8467,7 @@
 						cloth_collision_layer1 = true
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
-						transform_alignment = 1
+						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.8
 						goal_damping = 0.3
@@ -8603,7 +8603,7 @@
 						cloth_collision_layer1 = true
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
-						transform_alignment = 1
+						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.8
 						goal_damping = 0.3
@@ -8628,7 +8628,7 @@
 						cloth_collision_layer1 = true
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
-						transform_alignment = 1
+						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
 						goal_damping = 0.3
@@ -8653,7 +8653,7 @@
 						cloth_collision_layer1 = true
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
-						transform_alignment = 1
+						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.3
 						goal_damping = 0.3
@@ -8714,7 +8714,7 @@
 						cloth_collision_layer1 = true
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
-						transform_alignment = 1
+						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.05
 						goal_damping = 0.3
@@ -8723,7 +8723,7 @@
 						stray_radius = 0.0
 						stray_radius_relaxation_factor = 1.0
 						collision_radius = 0.0
-						is_static_node = true
+						is_static_node = false
 						allow_rotation = false
 						super_damping = 0.0
 					},
@@ -9568,7 +9568,7 @@
 						cloth_collision_layer1 = true
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
-						transform_alignment = 1
+						transform_alignment = 0
 						gravity_z = 1.0
 						goal_strength = 0.05
 						goal_damping = 0.3
@@ -10046,7 +10046,7 @@
 						stray_radius = 0.0
 						stray_radius_relaxation_factor = 1.0
 						collision_radius = 0.0
-						is_static_node = true
+						is_static_node = false
 						allow_rotation = false
 						super_damping = 0.0
 					},
@@ -10182,7 +10182,7 @@
 						stray_radius = 0.0
 						stray_radius_relaxation_factor = 1.0
 						collision_radius = 1.0
-						is_static_node = true
+						is_static_node = false
 						allow_rotation = false
 						super_damping = 0.0
 					},
@@ -10262,367 +10262,7 @@
 					},
 					{
 						_class = "Prefab"
-						target_file = "models/character/npc/unique/santa_monica/jeanette/prefabs/skirt_phys_triangle1.vmdl_prefab"
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_055_clothNode_shirt_054_clothNode_shirt_007_clothNode"
-						cloth_node_0 = "shirt_055_clothNode"
-						cloth_node_1 = "shirt_054_clothNode"
-						cloth_node_2 = "shirt_007_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_055_clothNode_shirt_054_clothNode_shirt_006_clothNode"
-						cloth_node_0 = "shirt_055_clothNode"
-						cloth_node_1 = "shirt_054_clothNode"
-						cloth_node_2 = "shirt_006_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_055_clothNode_shirt_054_clothNode_shirt_002_clothNode"
-						cloth_node_0 = "shirt_055_clothNode"
-						cloth_node_1 = "shirt_054_clothNode"
-						cloth_node_2 = "shirt_002_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_055_clothNode_shirt_054_clothNode_shirt_001_clothNode"
-						cloth_node_0 = "shirt_055_clothNode"
-						cloth_node_1 = "shirt_054_clothNode"
-						cloth_node_2 = "shirt_001_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_055_clothNode_shirt_007_clothNode_shirt_006_clothNode"
-						cloth_node_0 = "shirt_055_clothNode"
-						cloth_node_1 = "shirt_007_clothNode"
-						cloth_node_2 = "shirt_006_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_055_clothNode_shirt_007_clothNode_shirt_002_clothNode"
-						cloth_node_0 = "shirt_055_clothNode"
-						cloth_node_1 = "shirt_007_clothNode"
-						cloth_node_2 = "shirt_002_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_055_clothNode_shirt_007_clothNode_shirt_001_clothNode"
-						cloth_node_0 = "shirt_055_clothNode"
-						cloth_node_1 = "shirt_007_clothNode"
-						cloth_node_2 = "shirt_001_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_055_clothNode_shirt_006_clothNode_shirt_002_clothNode"
-						cloth_node_0 = "shirt_055_clothNode"
-						cloth_node_1 = "shirt_006_clothNode"
-						cloth_node_2 = "shirt_002_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_055_clothNode_shirt_006_clothNode_shirt_001_clothNode"
-						cloth_node_0 = "shirt_055_clothNode"
-						cloth_node_1 = "shirt_006_clothNode"
-						cloth_node_2 = "shirt_001_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_055_clothNode_shirt_002_clothNode_shirt_001_clothNode"
-						cloth_node_0 = "shirt_055_clothNode"
-						cloth_node_1 = "shirt_002_clothNode"
-						cloth_node_2 = "shirt_001_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_054_clothNode_shirt_007_clothNode_shirt_006_clothNode"
-						cloth_node_0 = "shirt_054_clothNode"
-						cloth_node_1 = "shirt_007_clothNode"
-						cloth_node_2 = "shirt_006_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_054_clothNode_shirt_007_clothNode_shirt_002_clothNode"
-						cloth_node_0 = "shirt_054_clothNode"
-						cloth_node_1 = "shirt_007_clothNode"
-						cloth_node_2 = "shirt_002_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_054_clothNode_shirt_007_clothNode_shirt_001_clothNode"
-						cloth_node_0 = "shirt_054_clothNode"
-						cloth_node_1 = "shirt_007_clothNode"
-						cloth_node_2 = "shirt_001_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_054_clothNode_shirt_006_clothNode_shirt_002_clothNode"
-						cloth_node_0 = "shirt_054_clothNode"
-						cloth_node_1 = "shirt_006_clothNode"
-						cloth_node_2 = "shirt_002_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_054_clothNode_shirt_006_clothNode_shirt_001_clothNode"
-						cloth_node_0 = "shirt_054_clothNode"
-						cloth_node_1 = "shirt_006_clothNode"
-						cloth_node_2 = "shirt_001_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_054_clothNode_shirt_002_clothNode_shirt_001_clothNode"
-						cloth_node_0 = "shirt_054_clothNode"
-						cloth_node_1 = "shirt_002_clothNode"
-						cloth_node_2 = "shirt_001_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_007_clothNode_shirt_006_clothNode_shirt_002_clothNode"
-						cloth_node_0 = "shirt_007_clothNode"
-						cloth_node_1 = "shirt_006_clothNode"
-						cloth_node_2 = "shirt_002_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_007_clothNode_shirt_006_clothNode_shirt_001_clothNode"
-						cloth_node_0 = "shirt_007_clothNode"
-						cloth_node_1 = "shirt_006_clothNode"
-						cloth_node_2 = "shirt_001_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_007_clothNode_shirt_002_clothNode_shirt_001_clothNode"
-						cloth_node_0 = "shirt_007_clothNode"
-						cloth_node_1 = "shirt_002_clothNode"
-						cloth_node_2 = "shirt_001_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_006_clothNode_shirt_002_clothNode_shirt_001_clothNode"
-						cloth_node_0 = "shirt_006_clothNode"
-						cloth_node_1 = "shirt_002_clothNode"
-						cloth_node_2 = "shirt_001_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_047_clothNode_shirt_046_clothNode_shirt_055_clothNode"
-						cloth_node_0 = "shirt_047_clothNode"
-						cloth_node_1 = "shirt_046_clothNode"
-						cloth_node_2 = "shirt_055_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_047_clothNode_shirt_046_clothNode_shirt_054_clothNode"
-						cloth_node_0 = "shirt_047_clothNode"
-						cloth_node_1 = "shirt_046_clothNode"
-						cloth_node_2 = "shirt_054_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_047_clothNode_shirt_046_clothNode_shirt_050_clothNode"
-						cloth_node_0 = "shirt_047_clothNode"
-						cloth_node_1 = "shirt_046_clothNode"
-						cloth_node_2 = "shirt_050_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_047_clothNode_shirt_046_clothNode_shirt_049_clothNode"
-						cloth_node_0 = "shirt_047_clothNode"
-						cloth_node_1 = "shirt_046_clothNode"
-						cloth_node_2 = "shirt_049_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_047_clothNode_shirt_055_clothNode_shirt_054_clothNode"
-						cloth_node_0 = "shirt_047_clothNode"
-						cloth_node_1 = "shirt_055_clothNode"
-						cloth_node_2 = "shirt_054_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_047_clothNode_shirt_055_clothNode_shirt_050_clothNode"
-						cloth_node_0 = "shirt_047_clothNode"
-						cloth_node_1 = "shirt_055_clothNode"
-						cloth_node_2 = "shirt_050_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_047_clothNode_shirt_055_clothNode_shirt_049_clothNode"
-						cloth_node_0 = "shirt_047_clothNode"
-						cloth_node_1 = "shirt_055_clothNode"
-						cloth_node_2 = "shirt_049_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_047_clothNode_shirt_054_clothNode_shirt_050_clothNode"
-						cloth_node_0 = "shirt_047_clothNode"
-						cloth_node_1 = "shirt_054_clothNode"
-						cloth_node_2 = "shirt_050_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_047_clothNode_shirt_054_clothNode_shirt_049_clothNode"
-						cloth_node_0 = "shirt_047_clothNode"
-						cloth_node_1 = "shirt_054_clothNode"
-						cloth_node_2 = "shirt_049_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_047_clothNode_shirt_050_clothNode_shirt_049_clothNode"
-						cloth_node_0 = "shirt_047_clothNode"
-						cloth_node_1 = "shirt_050_clothNode"
-						cloth_node_2 = "shirt_049_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_046_clothNode_shirt_055_clothNode_shirt_054_clothNode"
-						cloth_node_0 = "shirt_046_clothNode"
-						cloth_node_1 = "shirt_055_clothNode"
-						cloth_node_2 = "shirt_054_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_046_clothNode_shirt_055_clothNode_shirt_050_clothNode"
-						cloth_node_0 = "shirt_046_clothNode"
-						cloth_node_1 = "shirt_055_clothNode"
-						cloth_node_2 = "shirt_050_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_046_clothNode_shirt_055_clothNode_shirt_049_clothNode"
-						cloth_node_0 = "shirt_046_clothNode"
-						cloth_node_1 = "shirt_055_clothNode"
-						cloth_node_2 = "shirt_049_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_046_clothNode_shirt_054_clothNode_shirt_050_clothNode"
-						cloth_node_0 = "shirt_046_clothNode"
-						cloth_node_1 = "shirt_054_clothNode"
-						cloth_node_2 = "shirt_050_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_046_clothNode_shirt_054_clothNode_shirt_049_clothNode"
-						cloth_node_0 = "shirt_046_clothNode"
-						cloth_node_1 = "shirt_054_clothNode"
-						cloth_node_2 = "shirt_049_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_046_clothNode_shirt_050_clothNode_shirt_049_clothNode"
-						cloth_node_0 = "shirt_046_clothNode"
-						cloth_node_1 = "shirt_050_clothNode"
-						cloth_node_2 = "shirt_049_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_055_clothNode_shirt_054_clothNode_shirt_050_clothNode"
-						cloth_node_0 = "shirt_055_clothNode"
-						cloth_node_1 = "shirt_054_clothNode"
-						cloth_node_2 = "shirt_050_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_055_clothNode_shirt_054_clothNode_shirt_049_clothNode"
-						cloth_node_0 = "shirt_055_clothNode"
-						cloth_node_1 = "shirt_054_clothNode"
-						cloth_node_2 = "shirt_049_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_055_clothNode_shirt_050_clothNode_shirt_049_clothNode"
-						cloth_node_0 = "shirt_055_clothNode"
-						cloth_node_1 = "shirt_050_clothNode"
-						cloth_node_2 = "shirt_049_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
-					},
-					{
-						_class = "ClothTri"
-						name = "shirt_054_clothNode_shirt_050_clothNode_shirt_049_clothNode"
-						cloth_node_0 = "shirt_054_clothNode"
-						cloth_node_1 = "shirt_050_clothNode"
-						cloth_node_2 = "shirt_049_clothNode"
-						stiffness = 1.0
-						extra_iterations = 0
+						target_file = "models/character/npc/unique/santa_monica/jeanette/prefabs/skirt_quads_cloth.vmdl_prefab"
 					},
 				]
 				stiffness_on_ragdoll = 0.0
