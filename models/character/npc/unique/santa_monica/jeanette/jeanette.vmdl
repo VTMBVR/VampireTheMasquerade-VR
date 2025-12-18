@@ -8406,7 +8406,7 @@
 						cloth_collision_layer3 = true
 						cloth_stickiness = 0.0
 						cloth_collision_priority = 0
-						radius0 = 3.249064
+						radius0 = 4.661542
 						radius1 = 3.59195
 						point0 = [ 0.0, 0.0, 0.0 ]
 						point1 = [ 11.572819, 1.368715, -0.139431 ]
@@ -8420,10 +8420,23 @@
 						cloth_collision_layer3 = true
 						cloth_stickiness = 0.0
 						cloth_collision_priority = 0
-						radius0 = 2.498669
+						radius0 = 3.780043
 						radius1 = 2.868645
-						point0 = [ 2.43608, 1.85112, -0.367657 ]
-						point1 = [ 12.421097, 1.461271, 0.206352 ]
+						point0 = [ -1.2429, 0.189822, 0.016782 ]
+						point1 = [ 13.180429, 2.307067, 0.550415 ]
+					},
+					{
+						_class = "ClothShapeBox"
+						parent_bone = "bip01_pelvis"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_stickiness = 0.0
+						cloth_collision_priority = 0
+						dimensions = [ 13.720352, 5.969671, 8.0 ]
+						origin = [ -2.493655, 0.984835, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
 					},
 				]
 			},
