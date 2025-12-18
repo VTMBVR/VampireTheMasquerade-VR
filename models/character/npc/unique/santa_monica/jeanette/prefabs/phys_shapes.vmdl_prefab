@@ -14,9 +14,9 @@
 						parent_bone = "bip01_spine"
 						surface_prop = "flesh"
 						collision_prop = "default"
-						origin = [ 2.434813, 0.923115, 0.569275 ]
+						origin = [ 2.434813, 0.541887, 0.569275 ]
 						angles = [ 0.0, 0.0, 0.0 ]
-						dimensions = [ 5.869627, 6.611638, 9.100238 ]
+						dimensions = [ 5.869627, 5.849181, 9.100238 ]
 					},
 					{
 						_class = "PhysicsShapeBox"
@@ -85,16 +85,16 @@
 						parent_bone = "bip01_pelvis"
 						surface_prop = "flesh"
 						collision_prop = "default"
-						origin = [ 1.851142, -0.181595, -0.430304 ]
+						origin = [ 1.851142, 0.959835, -0.163255 ]
 						angles = [ 0.0, 0.0, 0.0 ]
-						dimensions = [ 2.971838, 9.364602, 13.593123 ]
+						dimensions = [ 2.971838, 5.805661, 10.889956 ]
 					},
 					{
 						_class = "PhysicsShapeCapsule"
 						parent_bone = "bip01_l_thigh"
-						surface_prop = "flesh"
+						surface_prop = "player"
 						collision_prop = "default"
-						radius = 3.727264
+						radius = 3.84324
 						point0 = [ 0.0, 0.0, 0.0 ]
 						point1 = [ 12.421097, 1.461271, 0.206352 ]
 					},
@@ -112,7 +112,7 @@
 						parent_bone = "bip01_r_thigh"
 						surface_prop = "flesh"
 						collision_prop = "default"
-						radius = 3.691945
+						radius = 3.59195
 						point0 = [ 0.0, 0.0, 0.0 ]
 						point1 = [ 11.572819, 1.368715, -0.139431 ]
 					},

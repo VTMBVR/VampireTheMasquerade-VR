@@ -23,11 +23,11 @@
 							},
 							{
 								from = "mouth.vmat"
-								to = "vpkcontent/materials/models/character/teeth/mouth.vmat"
+								to = "materials/models/character/teeth/mouth.vmat"
 							},
 							{
 								from = "lowerteeth.vmat"
-								to = "vpkcontent/materials/models/character/teeth/lowerteeth.vmat"
+								to = "materials/models/character/teeth/lowerteeth.vmat"
 							},
 							{
 								from = "cigar.vmat"
@@ -43,7 +43,7 @@
 							},
 							{
 								from = "upperteeth.vmat"
-								to = "vpkcontent/materials/models/character/teeth/upperteeth.vmat"
+								to = "materials/models/character/teeth/upperteeth.vmat"
 							},
 						]
 						use_global_default = false

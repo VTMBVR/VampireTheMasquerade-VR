@@ -1,0 +1,381 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "Softbody"
+				children = 
+				[
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_054_clothNode_shirt_007_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_054_clothNode"
+						cloth_node_2 = "shirt_007_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_054_clothNode_shirt_006_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_054_clothNode"
+						cloth_node_2 = "shirt_006_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_054_clothNode_shirt_002_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_054_clothNode"
+						cloth_node_2 = "shirt_002_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_054_clothNode_shirt_001_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_054_clothNode"
+						cloth_node_2 = "shirt_001_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_007_clothNode_shirt_006_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_007_clothNode"
+						cloth_node_2 = "shirt_006_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_007_clothNode_shirt_002_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_007_clothNode"
+						cloth_node_2 = "shirt_002_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_007_clothNode_shirt_001_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_007_clothNode"
+						cloth_node_2 = "shirt_001_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_006_clothNode_shirt_002_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_006_clothNode"
+						cloth_node_2 = "shirt_002_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_006_clothNode_shirt_001_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_006_clothNode"
+						cloth_node_2 = "shirt_001_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_002_clothNode_shirt_001_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_002_clothNode"
+						cloth_node_2 = "shirt_001_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_054_clothNode_shirt_007_clothNode_shirt_006_clothNode"
+						cloth_node_0 = "shirt_054_clothNode"
+						cloth_node_1 = "shirt_007_clothNode"
+						cloth_node_2 = "shirt_006_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_054_clothNode_shirt_007_clothNode_shirt_002_clothNode"
+						cloth_node_0 = "shirt_054_clothNode"
+						cloth_node_1 = "shirt_007_clothNode"
+						cloth_node_2 = "shirt_002_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_054_clothNode_shirt_007_clothNode_shirt_001_clothNode"
+						cloth_node_0 = "shirt_054_clothNode"
+						cloth_node_1 = "shirt_007_clothNode"
+						cloth_node_2 = "shirt_001_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_054_clothNode_shirt_006_clothNode_shirt_002_clothNode"
+						cloth_node_0 = "shirt_054_clothNode"
+						cloth_node_1 = "shirt_006_clothNode"
+						cloth_node_2 = "shirt_002_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_054_clothNode_shirt_006_clothNode_shirt_001_clothNode"
+						cloth_node_0 = "shirt_054_clothNode"
+						cloth_node_1 = "shirt_006_clothNode"
+						cloth_node_2 = "shirt_001_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_054_clothNode_shirt_002_clothNode_shirt_001_clothNode"
+						cloth_node_0 = "shirt_054_clothNode"
+						cloth_node_1 = "shirt_002_clothNode"
+						cloth_node_2 = "shirt_001_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_007_clothNode_shirt_006_clothNode_shirt_002_clothNode"
+						cloth_node_0 = "shirt_007_clothNode"
+						cloth_node_1 = "shirt_006_clothNode"
+						cloth_node_2 = "shirt_002_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_007_clothNode_shirt_006_clothNode_shirt_001_clothNode"
+						cloth_node_0 = "shirt_007_clothNode"
+						cloth_node_1 = "shirt_006_clothNode"
+						cloth_node_2 = "shirt_001_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_007_clothNode_shirt_002_clothNode_shirt_001_clothNode"
+						cloth_node_0 = "shirt_007_clothNode"
+						cloth_node_1 = "shirt_002_clothNode"
+						cloth_node_2 = "shirt_001_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_006_clothNode_shirt_002_clothNode_shirt_001_clothNode"
+						cloth_node_0 = "shirt_006_clothNode"
+						cloth_node_1 = "shirt_002_clothNode"
+						cloth_node_2 = "shirt_001_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_047_clothNode_shirt_046_clothNode_shirt_055_clothNode"
+						cloth_node_0 = "shirt_047_clothNode"
+						cloth_node_1 = "shirt_046_clothNode"
+						cloth_node_2 = "shirt_055_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_047_clothNode_shirt_046_clothNode_shirt_054_clothNode"
+						cloth_node_0 = "shirt_047_clothNode"
+						cloth_node_1 = "shirt_046_clothNode"
+						cloth_node_2 = "shirt_054_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_047_clothNode_shirt_046_clothNode_shirt_050_clothNode"
+						cloth_node_0 = "shirt_047_clothNode"
+						cloth_node_1 = "shirt_046_clothNode"
+						cloth_node_2 = "shirt_050_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_047_clothNode_shirt_046_clothNode_shirt_049_clothNode"
+						cloth_node_0 = "shirt_047_clothNode"
+						cloth_node_1 = "shirt_046_clothNode"
+						cloth_node_2 = "shirt_049_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_047_clothNode_shirt_055_clothNode_shirt_054_clothNode"
+						cloth_node_0 = "shirt_047_clothNode"
+						cloth_node_1 = "shirt_055_clothNode"
+						cloth_node_2 = "shirt_054_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_047_clothNode_shirt_055_clothNode_shirt_050_clothNode"
+						cloth_node_0 = "shirt_047_clothNode"
+						cloth_node_1 = "shirt_055_clothNode"
+						cloth_node_2 = "shirt_050_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_047_clothNode_shirt_055_clothNode_shirt_049_clothNode"
+						cloth_node_0 = "shirt_047_clothNode"
+						cloth_node_1 = "shirt_055_clothNode"
+						cloth_node_2 = "shirt_049_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_047_clothNode_shirt_054_clothNode_shirt_050_clothNode"
+						cloth_node_0 = "shirt_047_clothNode"
+						cloth_node_1 = "shirt_054_clothNode"
+						cloth_node_2 = "shirt_050_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_047_clothNode_shirt_054_clothNode_shirt_049_clothNode"
+						cloth_node_0 = "shirt_047_clothNode"
+						cloth_node_1 = "shirt_054_clothNode"
+						cloth_node_2 = "shirt_049_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_047_clothNode_shirt_050_clothNode_shirt_049_clothNode"
+						cloth_node_0 = "shirt_047_clothNode"
+						cloth_node_1 = "shirt_050_clothNode"
+						cloth_node_2 = "shirt_049_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_046_clothNode_shirt_055_clothNode_shirt_054_clothNode"
+						cloth_node_0 = "shirt_046_clothNode"
+						cloth_node_1 = "shirt_055_clothNode"
+						cloth_node_2 = "shirt_054_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_046_clothNode_shirt_055_clothNode_shirt_050_clothNode"
+						cloth_node_0 = "shirt_046_clothNode"
+						cloth_node_1 = "shirt_055_clothNode"
+						cloth_node_2 = "shirt_050_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_046_clothNode_shirt_055_clothNode_shirt_049_clothNode"
+						cloth_node_0 = "shirt_046_clothNode"
+						cloth_node_1 = "shirt_055_clothNode"
+						cloth_node_2 = "shirt_049_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_046_clothNode_shirt_054_clothNode_shirt_050_clothNode"
+						cloth_node_0 = "shirt_046_clothNode"
+						cloth_node_1 = "shirt_054_clothNode"
+						cloth_node_2 = "shirt_050_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_046_clothNode_shirt_054_clothNode_shirt_049_clothNode"
+						cloth_node_0 = "shirt_046_clothNode"
+						cloth_node_1 = "shirt_054_clothNode"
+						cloth_node_2 = "shirt_049_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_046_clothNode_shirt_050_clothNode_shirt_049_clothNode"
+						cloth_node_0 = "shirt_046_clothNode"
+						cloth_node_1 = "shirt_050_clothNode"
+						cloth_node_2 = "shirt_049_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_054_clothNode_shirt_050_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_054_clothNode"
+						cloth_node_2 = "shirt_050_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_054_clothNode_shirt_049_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_054_clothNode"
+						cloth_node_2 = "shirt_049_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_055_clothNode_shirt_050_clothNode_shirt_049_clothNode"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_050_clothNode"
+						cloth_node_2 = "shirt_049_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothTri"
+						name = "shirt_054_clothNode_shirt_050_clothNode_shirt_049_clothNode"
+						cloth_node_0 = "shirt_054_clothNode"
+						cloth_node_1 = "shirt_050_clothNode"
+						cloth_node_2 = "shirt_049_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
+				]
+				stiffness_on_ragdoll = 0.0
+				cloth_sleep_enabled = false
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}
