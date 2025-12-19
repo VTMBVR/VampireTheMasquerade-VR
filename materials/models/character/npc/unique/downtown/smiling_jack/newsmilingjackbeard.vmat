@@ -2,14 +2,12 @@
 
 Layer0
 {
-	shader "vr_complex.vfx"
+	shader "vr_hair.vfx"
 
 	//---- Translucent ----
 	F_ALPHA_TEST 1
 
 	//---- Ambient Occlusion ----
-	g_flAmbientOcclusionDirectDiffuse "0.000"
-	g_flAmbientOcclusionDirectSpecular "0.000"
 	TextureAmbientOcclusion "materials/default/default_ao.tga"
 
 	//---- Color ----
@@ -19,9 +17,6 @@ Layer0
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
-
-	//---- Fog ----
-	g_bFogEnabled "1"
 
 	//---- Lighting ----
 	g_flDirectionalLightmapMinZ "0.050"
@@ -44,7 +39,6 @@ Layer0
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
 
 	//---- Translucent ----
-	g_flAlphaTestReference "0.500"
-	g_flAntiAliasedEdgeStrength "1.000"
+	g_flOpacityScale "1.000"
 	TextureTranslucency "materials/models/character/npc/unique/downtown/smiling_jack/sjbeard_trans.tga"
 }

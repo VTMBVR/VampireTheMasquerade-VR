@@ -74,6 +74,14 @@
 					{
 						_class = "AnimFile"
 						name = "ragdoll"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -94,6 +102,14 @@
 					{
 						_class = "AnimFile"
 						name = "Sabbat_Shooting_And_Laughing"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -114,6 +130,14 @@
 					{
 						_class = "AnimFile"
 						name = "Sabbat_Shooting_In_The_Air"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -134,6 +158,14 @@
 					{
 						_class = "AnimFile"
 						name = "alert_180_into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -154,6 +186,14 @@
 					{
 						_class = "AnimFile"
 						name = "alert_180_outof"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -174,6 +214,14 @@
 					{
 						_class = "AnimFile"
 						name = "alert_fidget_lookaround"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -194,6 +242,14 @@
 					{
 						_class = "AnimFile"
 						name = "alert_front_into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -214,6 +270,14 @@
 					{
 						_class = "AnimFile"
 						name = "alert_front_outof"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -234,6 +298,14 @@
 					{
 						_class = "AnimFile"
 						name = "alert_l45_into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -254,6 +326,14 @@
 					{
 						_class = "AnimFile"
 						name = "alert_l45_outof"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -274,6 +354,14 @@
 					{
 						_class = "AnimFile"
 						name = "alert_l90_into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -294,6 +382,14 @@
 					{
 						_class = "AnimFile"
 						name = "alert_l90_outof"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -314,6 +410,14 @@
 					{
 						_class = "AnimFile"
 						name = "alert_l135_into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -334,6 +438,14 @@
 					{
 						_class = "AnimFile"
 						name = "alert_l135_outof"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -354,6 +466,14 @@
 					{
 						_class = "AnimFile"
 						name = "alert_r45_into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -374,6 +494,14 @@
 					{
 						_class = "AnimFile"
 						name = "alert_r45_outof"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -394,6 +522,14 @@
 					{
 						_class = "AnimFile"
 						name = "alert_r90_into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -414,6 +550,14 @@
 					{
 						_class = "AnimFile"
 						name = "alert_r90_outof"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -434,6 +578,14 @@
 					{
 						_class = "AnimFile"
 						name = "alert_r135_into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -454,6 +606,14 @@
 					{
 						_class = "AnimFile"
 						name = "alert_r135_outof"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -474,6 +634,14 @@
 					{
 						_class = "AnimFile"
 						name = "ArmsCrossed_Fidget"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -494,6 +662,14 @@
 					{
 						_class = "AnimFile"
 						name = "ArmsCrossed_Idle"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -514,6 +690,14 @@
 					{
 						_class = "AnimFile"
 						name = "Bed_Left_Idle"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -534,6 +718,14 @@
 					{
 						_class = "AnimFile"
 						name = "Bed_Left_Outof"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -554,6 +746,14 @@
 					{
 						_class = "AnimFile"
 						name = "Bed_Right_Idle"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -574,6 +774,14 @@
 					{
 						_class = "AnimFile"
 						name = "Bed_Right_Outof"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -594,6 +802,14 @@
 					{
 						_class = "AnimFile"
 						name = "bleedingeyes_getout"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -614,6 +830,14 @@
 					{
 						_class = "AnimFile"
 						name = "bleedingeyes_idle"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -634,6 +858,14 @@
 					{
 						_class = "AnimFile"
 						name = "bleedingeyes_into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -654,6 +886,14 @@
 					{
 						_class = "AnimFile"
 						name = "bleedingeyes_pre_into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -674,6 +914,14 @@
 					{
 						_class = "AnimFile"
 						name = "Cards_sitforward_Left_Fidget"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -694,6 +942,14 @@
 					{
 						_class = "AnimFile"
 						name = "Cards_sitforward_Left_Idle"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -714,6 +970,14 @@
 					{
 						_class = "AnimFile"
 						name = "Cards_sitforward_Left_Play"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -734,6 +998,14 @@
 					{
 						_class = "AnimFile"
 						name = "Cards_sitforward_Right_Fidget"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -754,6 +1026,14 @@
 					{
 						_class = "AnimFile"
 						name = "Cards_sitforward_Right_Idle"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -774,6 +1054,14 @@
 					{
 						_class = "AnimFile"
 						name = "Cards_sitforward_Right_Play"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -794,6 +1082,14 @@
 					{
 						_class = "AnimFile"
 						name = "cellphone"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -814,6 +1110,14 @@
 					{
 						_class = "AnimFile"
 						name = "cellphone_idle"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -834,6 +1138,14 @@
 					{
 						_class = "AnimFile"
 						name = "cellphone_into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -854,6 +1166,14 @@
 					{
 						_class = "AnimFile"
 						name = "cellphone_outof"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -874,6 +1194,14 @@
 					{
 						_class = "AnimFile"
 						name = "choking"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -894,6 +1222,14 @@
 					{
 						_class = "AnimFile"
 						name = "Cigarette_Idle"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -914,6 +1250,14 @@
 					{
 						_class = "AnimFile"
 						name = "Cigarette_Inhale"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -934,6 +1278,14 @@
 					{
 						_class = "AnimFile"
 						name = "Cigarette_Into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -954,6 +1306,14 @@
 					{
 						_class = "AnimFile"
 						name = "CoinMachine"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -974,6 +1334,14 @@
 					{
 						_class = "AnimFile"
 						name = "comfort_idle"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -994,6 +1362,14 @@
 					{
 						_class = "AnimFile"
 						name = "comfort_into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1014,6 +1390,14 @@
 					{
 						_class = "AnimFile"
 						name = "comfort_outof"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1034,6 +1418,14 @@
 					{
 						_class = "AnimFile"
 						name = "comfort2_idle"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1054,6 +1446,14 @@
 					{
 						_class = "AnimFile"
 						name = "comfort2_into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1074,6 +1474,14 @@
 					{
 						_class = "AnimFile"
 						name = "comfort2_outof"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1094,6 +1502,14 @@
 					{
 						_class = "AnimFile"
 						name = "CouchTV_Idle_01"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1114,6 +1530,14 @@
 					{
 						_class = "AnimFile"
 						name = "CouchTV_Into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1134,6 +1558,14 @@
 					{
 						_class = "AnimFile"
 						name = "CouchTV_outof"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1154,6 +1586,14 @@
 					{
 						_class = "AnimFile"
 						name = "cower_idle"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1174,6 +1614,14 @@
 					{
 						_class = "AnimFile"
 						name = "cower_into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1194,6 +1642,14 @@
 					{
 						_class = "AnimFile"
 						name = "cower_outof"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1214,6 +1670,14 @@
 					{
 						_class = "AnimFile"
 						name = "cower2_idle"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1234,6 +1698,14 @@
 					{
 						_class = "AnimFile"
 						name = "cower2_into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1254,6 +1726,14 @@
 					{
 						_class = "AnimFile"
 						name = "cower2_outof"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1274,6 +1754,14 @@
 					{
 						_class = "AnimFile"
 						name = "cower3_idle"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1294,6 +1782,14 @@
 					{
 						_class = "AnimFile"
 						name = "cower3_into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1314,6 +1810,14 @@
 					{
 						_class = "AnimFile"
 						name = "cower3_outof"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1334,6 +1838,14 @@
 					{
 						_class = "AnimFile"
 						name = "dance01"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1354,6 +1866,14 @@
 					{
 						_class = "AnimFile"
 						name = "dance02"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1374,6 +1894,14 @@
 					{
 						_class = "AnimFile"
 						name = "dance03"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1394,6 +1922,14 @@
 					{
 						_class = "AnimFile"
 						name = "death01"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1414,6 +1950,14 @@
 					{
 						_class = "AnimFile"
 						name = "death02"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1434,6 +1978,14 @@
 					{
 						_class = "AnimFile"
 						name = "disoriented"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1454,6 +2006,14 @@
 					{
 						_class = "AnimFile"
 						name = "doorknock"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1474,6 +2034,14 @@
 					{
 						_class = "AnimFile"
 						name = "Drink_Idle"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1494,6 +2062,14 @@
 					{
 						_class = "AnimFile"
 						name = "Drink_Into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1514,6 +2090,14 @@
 					{
 						_class = "AnimFile"
 						name = "Drink_LookAround"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1534,6 +2118,14 @@
 					{
 						_class = "AnimFile"
 						name = "Drink_Outof"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1554,6 +2146,14 @@
 					{
 						_class = "AnimFile"
 						name = "Drink_Take"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1574,6 +2174,14 @@
 					{
 						_class = "AnimFile"
 						name = "falling"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1594,6 +2202,14 @@
 					{
 						_class = "AnimFile"
 						name = "fidget01"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1614,6 +2230,14 @@
 					{
 						_class = "AnimFile"
 						name = "fidget02"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1634,6 +2258,14 @@
 					{
 						_class = "AnimFile"
 						name = "fidget03"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1654,6 +2286,14 @@
 					{
 						_class = "AnimFile"
 						name = "forgetit"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1674,6 +2314,14 @@
 					{
 						_class = "AnimFile"
 						name = "graffiti_idle01"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1694,6 +2342,14 @@
 					{
 						_class = "AnimFile"
 						name = "graffiti_idle02"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1714,6 +2370,14 @@
 					{
 						_class = "AnimFile"
 						name = "graffiti_idle03"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1734,6 +2398,14 @@
 					{
 						_class = "AnimFile"
 						name = "graffiti_idle04"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1754,6 +2426,14 @@
 					{
 						_class = "AnimFile"
 						name = "graffiti_idle05"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1774,6 +2454,14 @@
 					{
 						_class = "AnimFile"
 						name = "graffiti_idle06"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1794,6 +2482,14 @@
 					{
 						_class = "AnimFile"
 						name = "graffiti_into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1814,6 +2510,14 @@
 					{
 						_class = "AnimFile"
 						name = "graffiti_outof"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1834,6 +2538,14 @@
 					{
 						_class = "AnimFile"
 						name = "howl"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1867,6 +2579,11 @@
 								root_bone_name = ""
 								motion_type = "Single"
 							},
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
 						]
 						activity_name = ""
 						activity_weight = 1
@@ -1888,6 +2605,14 @@
 					{
 						_class = "AnimFile"
 						name = "idle_player_in_face"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1908,6 +2633,14 @@
 					{
 						_class = "AnimFile"
 						name = "idle01"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1928,6 +2661,14 @@
 					{
 						_class = "AnimFile"
 						name = "jump"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1948,6 +2689,14 @@
 					{
 						_class = "AnimFile"
 						name = "laugh_getout"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1968,6 +2717,14 @@
 					{
 						_class = "AnimFile"
 						name = "laugh_idle"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -1988,6 +2745,14 @@
 					{
 						_class = "AnimFile"
 						name = "laugh_into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2008,6 +2773,14 @@
 					{
 						_class = "AnimFile"
 						name = "laugh_pre_into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2028,6 +2801,14 @@
 					{
 						_class = "AnimFile"
 						name = "lost"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2061,6 +2842,11 @@
 								root_bone_name = ""
 								motion_type = "Single"
 							},
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
 						]
 						activity_name = ""
 						activity_weight = 1
@@ -2082,6 +2868,14 @@
 					{
 						_class = "AnimFile"
 						name = "party_drinking"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2102,6 +2896,14 @@
 					{
 						_class = "AnimFile"
 						name = "party_idle"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2122,6 +2924,14 @@
 					{
 						_class = "AnimFile"
 						name = "party_laugh"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2142,6 +2952,14 @@
 					{
 						_class = "AnimFile"
 						name = "party_listen_idle1"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2162,6 +2980,14 @@
 					{
 						_class = "AnimFile"
 						name = "party_listen_idle2"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2182,6 +3008,14 @@
 					{
 						_class = "AnimFile"
 						name = "party_listen_idle3"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2202,6 +3036,14 @@
 					{
 						_class = "AnimFile"
 						name = "party_look_around"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2222,6 +3064,14 @@
 					{
 						_class = "AnimFile"
 						name = "party_talk_idle1"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2242,6 +3092,14 @@
 					{
 						_class = "AnimFile"
 						name = "Piss_Idle"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2262,6 +3120,14 @@
 					{
 						_class = "AnimFile"
 						name = "Piss_Into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2282,6 +3148,14 @@
 					{
 						_class = "AnimFile"
 						name = "Piss_Outof"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2302,6 +3176,14 @@
 					{
 						_class = "AnimFile"
 						name = "place_bomb"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2322,6 +3204,14 @@
 					{
 						_class = "AnimFile"
 						name = "pray"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2342,6 +3232,14 @@
 					{
 						_class = "AnimFile"
 						name = "sit_barstool_idle"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2362,6 +3260,14 @@
 					{
 						_class = "AnimFile"
 						name = "sit_barstool_into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2382,6 +3288,14 @@
 					{
 						_class = "AnimFile"
 						name = "sit_barstool_outof"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2402,6 +3316,14 @@
 					{
 						_class = "AnimFile"
 						name = "sobbing"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2422,6 +3344,14 @@
 					{
 						_class = "AnimFile"
 						name = "stunned"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2442,6 +3372,14 @@
 					{
 						_class = "AnimFile"
 						name = "vomit_getout"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2462,6 +3400,14 @@
 					{
 						_class = "AnimFile"
 						name = "vomit_idle"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2482,6 +3428,14 @@
 					{
 						_class = "AnimFile"
 						name = "vomit_into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2502,6 +3456,14 @@
 					{
 						_class = "AnimFile"
 						name = "vomit_pre_into"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2522,6 +3484,14 @@
 					{
 						_class = "AnimFile"
 						name = "whistling_fidget"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2542,6 +3512,14 @@
 					{
 						_class = "AnimFile"
 						name = "whistling_idle"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2562,6 +3540,14 @@
 					{
 						_class = "AnimFile"
 						name = "wine_drink"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2582,6 +3568,14 @@
 					{
 						_class = "AnimFile"
 						name = "shovelhead_combatmove_0"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2602,6 +3596,14 @@
 					{
 						_class = "AnimFile"
 						name = "shovelhead_combatmove_45"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2622,6 +3624,14 @@
 					{
 						_class = "AnimFile"
 						name = "shovelhead_combatmove_90"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2642,6 +3652,14 @@
 					{
 						_class = "AnimFile"
 						name = "shovelhead_combatmove_135"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2662,6 +3680,14 @@
 					{
 						_class = "AnimFile"
 						name = "shovelhead_combatmove_180"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2682,6 +3708,14 @@
 					{
 						_class = "AnimFile"
 						name = "shovelhead_combatmove_225"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2702,6 +3736,14 @@
 					{
 						_class = "AnimFile"
 						name = "shovelhead_combatmove_270"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2722,6 +3764,14 @@
 					{
 						_class = "AnimFile"
 						name = "shovelhead_combatmove_315"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2742,6 +3792,14 @@
 					{
 						_class = "AnimFile"
 						name = "shovelhead_short_combatmove_0"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2762,6 +3820,14 @@
 					{
 						_class = "AnimFile"
 						name = "shovelhead_short_combatmove_45"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2782,6 +3848,14 @@
 					{
 						_class = "AnimFile"
 						name = "shovelhead_short_combatmove_90"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2802,6 +3876,14 @@
 					{
 						_class = "AnimFile"
 						name = "shovelhead_short_combatmove_135"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2822,6 +3904,14 @@
 					{
 						_class = "AnimFile"
 						name = "shovelhead_short_combatmove_180"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2842,6 +3932,14 @@
 					{
 						_class = "AnimFile"
 						name = "shovelhead_short_combatmove_225"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2862,6 +3960,14 @@
 					{
 						_class = "AnimFile"
 						name = "shovelhead_short_combatmove_270"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -2882,6 +3988,14 @@
 					{
 						_class = "AnimFile"
 						name = "shovelhead_short_combatmove_315"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
