@@ -73,6 +73,7 @@
 				[
 					{
 						_class = "DefaultMaterialGroup"
+						note = "rework hair\n"
 						remaps = 
 						[
 							{

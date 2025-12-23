@@ -11,6 +11,7 @@
 				[
 					{
 						_class = "DefaultMaterialGroup"
+						note = "rework eyes, add jiggle bones to hair and beard\n"
 						remaps = 
 						[
 							{

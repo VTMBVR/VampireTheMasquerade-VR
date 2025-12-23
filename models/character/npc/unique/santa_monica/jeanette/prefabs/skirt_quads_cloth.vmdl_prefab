@@ -261,6 +261,15 @@
 						stiffness = 1.0
 						extra_iterations = 0
 					},
+					{
+						_class = "ClothQuad"
+						cloth_node_0 = "shirt_003_clothNode"
+						cloth_node_1 = "shirt_055_clothNode"
+						cloth_node_2 = "shirt_057_clothNode"
+						cloth_node_3 = "shirt_069_clothNode"
+						stiffness = 1.0
+						extra_iterations = 0
+					},
 				]
 				stiffness_on_ragdoll = 0.0
 				cloth_sleep_enabled = false

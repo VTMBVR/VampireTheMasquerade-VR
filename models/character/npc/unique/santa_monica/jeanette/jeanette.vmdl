@@ -97,7 +97,44 @@
 				[
 					{
 						_class = "RenderMeshFile"
+						name = "rework_2"
+						disabled = true
+						filename = "models/character/npc/unique/santa_monica/jeanette/skirt_rebuild/JeanetteR2_REF.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rework_1"
+						disabled = true
 						filename = "models/character/npc/unique/santa_monica/jeanette/skirt/JeanetteR2_REF.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rework_3"
+						disabled = true
+						filename = "models/character/npc/unique/santa_monica/jeanette/skirt_rebuild/v1/JeanetteR2_REF.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rework_4"
+						filename = "models/character/npc/unique/santa_monica/jeanette/skirt_rebuild/v3/JeanetteR2_REF.smd"
 						import_scale = 1.0
 						import_filter = 
 						{
@@ -7860,6 +7897,34 @@
 						framerate = -1.0
 						reverse = false
 					},
+					{
+						_class = "AnimFile"
+						name = "jeanette_anim_ragdoll"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/character/npc/unique/santa_monica/jeanette/jeanette_anim_ragdoll.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
 				]
 				default_root_bone_name = ""
 			},
@@ -8406,7 +8471,7 @@
 						cloth_collision_layer3 = true
 						cloth_stickiness = 0.0
 						cloth_collision_priority = 0
-						radius0 = 4.661542
+						radius0 = 3.80326
 						radius1 = 3.59195
 						point0 = [ 0.0, 0.0, 0.0 ]
 						point1 = [ 11.572819, 1.368715, -0.139431 ]
@@ -8420,9 +8485,9 @@
 						cloth_collision_layer3 = true
 						cloth_stickiness = 0.0
 						cloth_collision_priority = 0
-						radius0 = 3.780043
+						radius0 = 3.242592
 						radius1 = 2.868645
-						point0 = [ -1.2429, 0.189822, 0.016782 ]
+						point0 = [ -1.293888, 0.801738, 0.053503 ]
 						point1 = [ 13.180429, 2.307067, 0.550415 ]
 					},
 					{
@@ -8434,8 +8499,8 @@
 						cloth_collision_layer3 = true
 						cloth_stickiness = 0.0
 						cloth_collision_priority = 0
-						dimensions = [ 13.720352, 5.969671, 8.0 ]
-						origin = [ -2.493655, 0.984835, 0.0 ]
+						dimensions = [ 8.737122, 5.969671, 8.0 ]
+						origin = [ -0.002038, 0.984835, 0.0 ]
 						angles = [ 0.0, 0.0, 0.0 ]
 					},
 				]

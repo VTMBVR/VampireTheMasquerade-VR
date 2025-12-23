@@ -1839,6 +1839,80 @@
 						max_length = 0.0
 						extra_iterations = 0
 					},
+					{
+						_class = "ClothNode"
+						name = "shirt_069_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "shirt_069"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						gravity_z = 1.0
+						goal_strength = 0.5
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
+						is_static_node = false
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothSpring"
+						name = "shirt_055_clothLink"
+						cloth_node_0 = "shirt_055_clothNode"
+						cloth_node_1 = "shirt_069_clothNode"
+						stiffness = 1.0
+						enable_advanced_parameters = false
+						is_length_explicit = false
+						min_length = 0.0
+						max_length = 0.0
+						extra_iterations = 0
+					},
+					{
+						_class = "ClothNode"
+						name = "shirt_057_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "shirt_057"
+						has_stray_radius = false
+						has_world_collision = true
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						gravity_z = 1.0
+						goal_strength = 0.5
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 2.0
+						is_static_node = false
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothSpring"
+						name = "shirt_003_clothLink"
+						cloth_node_0 = "shirt_003_clothNode"
+						cloth_node_1 = "shirt_057_clothNode"
+						stiffness = 1.0
+						enable_advanced_parameters = false
+						is_length_explicit = false
+						min_length = 0.0
+						max_length = 0.0
+						extra_iterations = 0
+					},
 				]
 				stiffness_on_ragdoll = 0.0
 				cloth_sleep_enabled = false

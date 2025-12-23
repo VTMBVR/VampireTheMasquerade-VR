@@ -5,7 +5,7 @@ Layer0
 	shader "vr_hair.vfx"
 
 	//---- Translucent ----
-	F_TRANSLUCENT 1
+	F_ALPHA_TEST 1
 
 	//---- Ambient Occlusion ----
 	TextureAmbientOcclusion "materials/default/default_ao.tga"
@@ -29,7 +29,7 @@ Layer0
 	TextureNormal "materials/default/default_normal.tga"
 
 	//---- Roughness ----
-	TextureRoughness "materials/default/default_rough.tga"
+	TextureRoughness "materials/models/character/npc/common/goth_kids/female/gothfhairtendrilst.tga"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"
@@ -39,6 +39,6 @@ Layer0
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
 
 	//---- Translucent ----
-	g_flOpacityScale "0.963"
-	TextureTranslucency "materials/default/default_trans.tga"
+	g_flOpacityScale "1.000"
+	TextureTranslucency "materials/models/character/npc/common/goth_kids/female/gothfhairtendrils_trans.tga"
 }

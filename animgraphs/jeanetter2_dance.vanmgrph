@@ -50,7 +50,7 @@
 	}
 	m_previewModels = 
 	[
-		"models/jeanetter2_ref.vmdl",
+		"models/character/npc/unique/santa_monica/jeanette/jeanette.vmdl",
 	]
 	m_nodes = 
 	[
@@ -70,7 +70,7 @@
 				}
 				m_networkMode = "ServerAuthoritative"
 				m_tagSpans = [  ]
-				m_sequenceName = "dance01"
+				m_sequenceName = "dance02"
 				m_playbackSpeed = 0.8
 				m_bLoop = true
 			}
