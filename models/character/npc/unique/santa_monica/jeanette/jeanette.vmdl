@@ -97,57 +97,9 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						name = "rework_2"
-						disabled = true
-						filename = "models/character/npc/unique/santa_monica/jeanette/skirt_rebuild/JeanetteR2_REF.smd"
-						import_scale = 1.0
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-					{
-						_class = "RenderMeshFile"
 						name = "rework_1"
 						disabled = true
 						filename = "models/character/npc/unique/santa_monica/jeanette/skirt/JeanetteR2_REF.smd"
-						import_scale = 1.0
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-					{
-						_class = "RenderMeshFile"
-						name = "rework_3"
-						disabled = true
-						filename = "models/character/npc/unique/santa_monica/jeanette/skirt_rebuild/v1/JeanetteR2_REF.smd"
-						import_scale = 1.0
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-					{
-						_class = "RenderMeshFile"
-						name = "rework_4"
-						disabled = true
-						filename = "models/character/npc/unique/santa_monica/jeanette/skirt_rebuild/v3/JeanetteR2_REF.smd"
-						import_scale = 1.0
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-					{
-						_class = "RenderMeshFile"
-						name = "rework_5"
-						disabled = true
-						filename = "models/character/npc/unique/santa_monica/jeanette/skirt_rebuild/v4/JeanetteR2_REF.smd"
 						import_scale = 1.0
 						import_filter = 
 						{
