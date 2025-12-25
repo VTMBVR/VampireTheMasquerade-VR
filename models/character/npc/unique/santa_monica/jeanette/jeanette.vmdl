@@ -63,7 +63,7 @@
 							},
 							{
 								from = "eyeball_r.vmat"
-								to = "materials/models/character/npc/common/sabbat_henchman/eyeball_r.vmat"
+								to = "materials/models/character/npc/unique/downtown/damsel/eyeball_l.vmat"
 							},
 							{
 								from = "lowerteeth.vmat"
@@ -8509,7 +8509,7 @@
 						cloth_collision_layer3 = true
 						cloth_stickiness = 0.0
 						cloth_collision_priority = 0
-						radius0 = 3.411046
+						radius0 = 3.31105
 						radius1 = 2.868645
 						point0 = [ -1.073345, 0.610113, -0.107944 ]
 						point1 = [ 13.180429, 2.307067, 0.550415 ]
@@ -8523,9 +8523,33 @@
 						cloth_collision_layer3 = true
 						cloth_stickiness = 0.0
 						cloth_collision_priority = 0
-						dimensions = [ 8.737122, 4.374241, 11.090137 ]
-						origin = [ -0.002038, 1.530559, -0.25606 ]
+						dimensions = [ 8.737122, 5.848757, 10.616774 ]
+						origin = [ -0.002038, 1.135057, -0.01938 ]
 						angles = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "ClothShapeSphere"
+						parent_bone = "bip01_r_thigh"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_stickiness = 0.0
+						cloth_collision_priority = 0
+						radius = 3.398427
+						center = [ 0.999278, -0.658712, -0.621384 ]
+					},
+					{
+						_class = "ClothShapeSphere"
+						parent_bone = "bip01_l_thigh"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_stickiness = 0.0
+						cloth_collision_priority = 0
+						radius = 3.659638
+						center = [ 0.303815, 0.076233, 0.830723 ]
 					},
 				]
 			},
