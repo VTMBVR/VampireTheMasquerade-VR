@@ -134,6 +134,7 @@
 					{
 						_class = "RenderMeshFile"
 						name = "rework_4"
+						disabled = true
 						filename = "models/character/npc/unique/santa_monica/jeanette/skirt_rebuild/v3/JeanetteR2_REF.smd"
 						import_scale = 1.0
 						import_filter = 
@@ -147,6 +148,17 @@
 						name = "rework_5"
 						disabled = true
 						filename = "models/character/npc/unique/santa_monica/jeanette/skirt_rebuild/v4/JeanetteR2_REF.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "rework_6"
+						filename = "models/character/npc/unique/santa_monica/jeanette/skirt_rebuild/v5/JeanetteR2_REF.smd"
 						import_scale = 1.0
 						import_filter = 
 						{
@@ -8483,9 +8495,9 @@
 						cloth_collision_layer3 = true
 						cloth_stickiness = 0.0
 						cloth_collision_priority = 0
-						radius0 = 3.80326
+						radius0 = 3.0
 						radius1 = 3.59195
-						point0 = [ 0.0, 0.0, 0.0 ]
+						point0 = [ -0.145433, 1.204057, -0.175461 ]
 						point1 = [ 11.572819, 1.368715, -0.139431 ]
 					},
 					{
@@ -8497,9 +8509,9 @@
 						cloth_collision_layer3 = true
 						cloth_stickiness = 0.0
 						cloth_collision_priority = 0
-						radius0 = 3.242592
+						radius0 = 3.411046
 						radius1 = 2.868645
-						point0 = [ -1.293888, 0.801738, 0.053503 ]
+						point0 = [ -1.073345, 0.610113, -0.107944 ]
 						point1 = [ 13.180429, 2.307067, 0.550415 ]
 					},
 					{
@@ -8511,8 +8523,8 @@
 						cloth_collision_layer3 = true
 						cloth_stickiness = 0.0
 						cloth_collision_priority = 0
-						dimensions = [ 8.737122, 5.969671, 8.0 ]
-						origin = [ -0.002038, 0.984835, 0.0 ]
+						dimensions = [ 8.737122, 4.374241, 11.090137 ]
+						origin = [ -0.002038, 1.530559, -0.25606 ]
 						angles = [ 0.0, 0.0, 0.0 ]
 					},
 				]
