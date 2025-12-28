@@ -37,7 +37,7 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models/scenery/furniture/vanity/Vanity_REF.smd"
+						filename = "models/scenery/furniture/vanity/vanity.fbx"
 						import_scale = 1.0
 						import_filter = 
 						{
@@ -52,18 +52,20 @@
 				children = 
 				[
 					{
-						_class = "PhysicsMeshFile"
-						name = "Vanity_REF"
-						parent_bone = "static_prop"
-						surface_prop = "prop.wood_furniture"
+						_class = "PhysicsHullFile"
+						name = "Vanity"
+						parent_bone = ""
+						surface_prop = "default"
 						collision_prop = "default"
 						recenter_on_parent_bone = false
 						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
-						filename = "models/scenery/furniture/vanity/Vanity_REF.smd"
+						filename = "models/scenery/furniture/vanity/Vanity.fbx"
 						import_scale = 1.0
-						maxMeshVertices = 0
-						qemError = 0.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
 						import_filter = 
 						{
 							exclude_by_default = false
