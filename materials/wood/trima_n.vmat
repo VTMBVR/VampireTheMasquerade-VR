@@ -4,6 +4,10 @@ Layer0
 {
 	shader "vr_complex.vfx"
 
+	//---- PBR ----
+	F_RETRO_REFLECTIVE 1
+	F_SPECULAR 1
+
 	//---- Ambient Occlusion ----
 	g_flAmbientOcclusionDirectDiffuse "0.000"
 	g_flAmbientOcclusionDirectSpecular "0.000"
@@ -29,6 +33,9 @@ Layer0
 
 	//---- Normal ----
 	TextureNormal "materials/default/default_normal.tga"
+
+	//---- Retro-Reflective ----
+	g_flRetroReflectivity "1.000"
 
 	//---- Roughness ----
 	TextureRoughness "materials/wood/trima_ref.tga"
