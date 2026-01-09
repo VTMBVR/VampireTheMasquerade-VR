@@ -6,6 +6,7 @@ Layer0
 
 	//---- Translucent ----
 	F_ALPHA_TEST 1
+	F_PREPASS_ALPHA_TEST 1
 
 	//---- Ambient Occlusion ----
 	TextureAmbientOcclusion "materials/default/default_ao.tga"

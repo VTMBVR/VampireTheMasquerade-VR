@@ -95,6 +95,7 @@
 		"models/character/npc/common/goth_kids/female/goth_female.vmdl",
 		"models/character/npc/common/shovelhead/shovelhead.vmdl",
 		"models/character/npc/common/sabbat_henchman/sabbat_henchman.vmdl",
+		"models/character/npc/common/goth_kids/male/goth_male.vmdl",
 	]
 	m_nodes = 
 	[

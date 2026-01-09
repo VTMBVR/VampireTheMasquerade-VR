@@ -2722,7 +2722,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = ""
+						activity_name = "ACT_BUSY"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -2750,7 +2750,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = ""
+						activity_name = "ACT_DANCE2"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -2778,7 +2778,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = ""
+						activity_name = "ACT_DANCE3"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -5923,7 +5923,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = ""
+						activity_name = "ACT_BUSY_SIT_CHAIR"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -5951,7 +5951,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = ""
+						activity_name = "ACT_BUSY_SIT_CHAIR_ENTRY"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -6007,7 +6007,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = ""
+						activity_name = "ACT_BUSY_SIT_CHAIR_EXIT"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -10284,6 +10284,28 @@
 								group_id = 0
 							},
 						]
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "MovementSettings"
+						movementsettings = 
+						{
+							name = ""
+							speeds = [  ]
+							runspeed = 150.0
+							walkspeed = 75.0
+							maxSpringTension = 100.0
+							springConstant = 10.0
+							useSmoothPaths = true
+							useMotionDamping = false
+							sharpStartAngle = 180.0
+							m_vTraceScale = [ 0.1, 1.0, 1.0 ]
+						}
 					},
 				]
 			},

@@ -17,7 +17,7 @@
 						has_pitch_constraint = true
 						has_angle_constraint = true
 						has_base_spring = false
-						allow_flex_length = true
+						allow_flex_length = false
 						invert_axes = false
 						has_collision = true
 						cloth_collision_layer0 = true

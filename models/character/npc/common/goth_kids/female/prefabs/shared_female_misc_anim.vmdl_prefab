@@ -2652,7 +2652,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = ""
+						activity_name = "ACT_DANCE1"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -2680,7 +2680,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = ""
+						activity_name = "ACT_DANCE2"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -2708,7 +2708,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = ""
+						activity_name = "ACT_DANCE3"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -3970,8 +3970,8 @@
 								extract_rz = false
 								linear = false
 								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
+								root_bone_name = "bip01"
+								motion_type = "Uniform"
 							},
 							{
 								_class = "AnimOffset"
@@ -4006,10 +4006,10 @@
 								extract_tx = true
 								extract_ty = true
 								extract_tz = false
-								extract_rz = false
+								extract_rz = true
 								linear = false
 								quadratic = false
-								root_bone_name = ""
+								root_bone_name = "bip01"
 								motion_type = "Single"
 							},
 							{
@@ -4113,7 +4113,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = ""
+						activity_name = "ACT_IDLE"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -4141,7 +4141,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = ""
+						activity_name = "ACT_JUMP"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -7545,7 +7545,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = ""
+						activity_name = "ACT_BUSY_LEAN_LEFT"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -7573,7 +7573,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = ""
+						activity_name = "ACT_BUSY_LEAN_LEFT_ENTRY"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -7601,7 +7601,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = ""
+						activity_name = "ACT_BUSY_LEAN_LEFT_EXIT"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2

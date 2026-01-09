@@ -52,9 +52,9 @@
 					m_facingDamping = 
 					{
 						_class = "CAnimInputDamping"
-						m_speedFunction = "NoDamping"
-						m_fSpeedScale = 1.0
-						m_fMinSpeed = 10.0
+						m_speedFunction = "Spring"
+						m_fSpeedScale = 2.0
+						m_fMinSpeed = 75.0
 						m_fMaxTension = 1000.0
 					}
 					m_bLockToPath = true
@@ -133,7 +133,7 @@
 				}
 				m_networkMode = "ServerAuthoritative"
 				m_tagSpans = [  ]
-				m_sequenceName = "walk_0"
+				m_sequenceName = "hunt_walk"
 				m_playbackSpeed = 1.0
 				m_bLoop = true
 			}

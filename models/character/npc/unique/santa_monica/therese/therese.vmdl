@@ -1999,7 +1999,7 @@
 					{
 						_class = "AnimFile"
 						name = "dance01"
-						activity_name = ""
+						activity_name = "ACT_BUSY"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -2019,7 +2019,7 @@
 					{
 						_class = "AnimFile"
 						name = "dance02"
-						activity_name = ""
+						activity_name = "ACT_DANCE2"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -2039,7 +2039,7 @@
 					{
 						_class = "AnimFile"
 						name = "dance03"
-						activity_name = ""
+						activity_name = "ACT_DANCE3"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -3061,7 +3061,7 @@
 					{
 						_class = "AnimFile"
 						name = "idle01"
-						activity_name = ""
+						activity_name = "ACT_IDLE"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -4317,7 +4317,7 @@
 					{
 						_class = "AnimFile"
 						name = "sit_barstool_idle"
-						activity_name = ""
+						activity_name = "ACT_BUSY_SIT_CHAIR"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -4337,7 +4337,7 @@
 					{
 						_class = "AnimFile"
 						name = "sit_barstool_into"
-						activity_name = ""
+						activity_name = "ACT_BUSY_SIT_CHAIR_ENTRY"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -4377,7 +4377,7 @@
 					{
 						_class = "AnimFile"
 						name = "sit_barstool_outof"
-						activity_name = ""
+						activity_name = "ACT_BUSY_SIT_CHAIR_EXIT"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -5696,6 +5696,28 @@
 					},
 				]
 				default_root_bone_name = ""
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "MovementSettings"
+						movementsettings = 
+						{
+							name = ""
+							speeds = [  ]
+							runspeed = 150.0
+							walkspeed = 75.0
+							maxSpringTension = 100.0
+							springConstant = 10.0
+							useSmoothPaths = true
+							useMotionDamping = false
+							sharpStartAngle = 180.0
+							m_vTraceScale = [ 1.0, 1.0, 1.0 ]
+						}
+					},
+				]
 			},
 		]
 		model_archetype = "generic_actor_model"

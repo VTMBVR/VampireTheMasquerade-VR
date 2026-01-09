@@ -23,18 +23,18 @@
 						parent_bone = "bip01_spine1"
 						surface_prop = "flesh"
 						collision_prop = "default"
-						origin = [ 2.14062, -1.449671, -0.175512 ]
+						origin = [ 4.262121, -2.070784, -0.175512 ]
 						angles = [ 0.0, 0.0, 0.0 ]
-						dimensions = [ 6.927193, 5.86133, 9.901587 ]
+						dimensions = [ 11.170197, 7.103556, 9.901587 ]
 					},
 					{
 						_class = "PhysicsShapeBox"
 						parent_bone = "bip01_spine2"
 						surface_prop = "flesh"
 						collision_prop = "default"
-						origin = [ 3.156081, -1.234496, -0.05919 ]
+						origin = [ 3.156081, -0.750705, -0.05919 ]
 						angles = [ 0.0, 0.0, 0.0 ]
-						dimensions = [ 7.312162, 6.106794, 10.364054 ]
+						dimensions = [ 7.312162, 7.074376, 10.364054 ]
 					},
 					{
 						_class = "PhysicsShapeSphere"

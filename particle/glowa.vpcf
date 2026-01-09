@@ -16,7 +16,7 @@
 				m_flInputMin = 1.0
 				m_flProxyRadius = 64.0
 			}
-			m_hTexture = resource:"particles/glow.vtex"
+			m_hTexture = resource:"materials/particle/particle_glow_05.vtex"
 		},
 	]
 	m_Initializers = 

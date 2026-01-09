@@ -31,7 +31,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/alert_180_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/alert_180_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -59,7 +59,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/alert_180_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/alert_180_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -87,7 +87,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/alert_fidget_lookaround.smd"
+						source_filename = "models/character/shared/female/misc_anims/alert_fidget_lookaround.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -115,7 +115,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/alert_front_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/alert_front_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -143,7 +143,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/alert_front_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/alert_front_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -171,7 +171,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/alert_l45_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/alert_l45_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -199,7 +199,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/alert_l45_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/alert_l45_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -227,7 +227,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/alert_l90_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/alert_l90_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -255,7 +255,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/alert_l90_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/alert_l90_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -283,7 +283,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/alert_l135_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/alert_l135_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -311,7 +311,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/alert_l135_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/alert_l135_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -339,7 +339,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/alert_r45_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/alert_r45_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -367,7 +367,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/alert_r45_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/alert_r45_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -395,7 +395,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/alert_r90_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/alert_r90_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -423,7 +423,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/alert_r90_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/alert_r90_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -451,7 +451,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/alert_r135_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/alert_r135_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -479,7 +479,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/alert_r135_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/alert_r135_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -507,7 +507,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/animalism_bats.smd"
+						source_filename = "models/character/shared/female/misc_anims/animalism_bats.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -535,7 +535,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/animalism_pestilence_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/animalism_pestilence_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -563,7 +563,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/animalism_pestilence_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/animalism_pestilence_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -591,7 +591,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/animalism_pestilence_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/animalism_pestilence_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -619,7 +619,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/animalism_ravens_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/animalism_ravens_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -647,7 +647,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/animalism_ravens_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/animalism_ravens_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -675,7 +675,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/animalism_ravens_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/animalism_ravens_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -703,7 +703,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/animalism_spectralwolves_break.smd"
+						source_filename = "models/character/shared/female/misc_anims/animalism_spectralwolves_break.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -731,7 +731,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/animalism_spectralwolves_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/animalism_spectralwolves_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -759,7 +759,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/animalism_spectralwolves_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/animalism_spectralwolves_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -787,7 +787,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/animalism_spectralwolves_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/animalism_spectralwolves_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -815,7 +815,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/ArmsCrossed_Fidget.smd"
+						source_filename = "models/character/shared/female/misc_anims/ArmsCrossed_Fidget.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -843,7 +843,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/ArmsCrossed_Idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/ArmsCrossed_Idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -871,7 +871,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Bed_Left_Idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/Bed_Left_Idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -899,7 +899,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Bed_Left_Outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/Bed_Left_Outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -927,7 +927,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Bed_Right_Idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/Bed_Right_Idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -955,7 +955,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Bed_Right_Outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/Bed_Right_Outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -983,7 +983,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/bleedingeyes_getout.smd"
+						source_filename = "models/character/shared/female/misc_anims/bleedingeyes_getout.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1011,7 +1011,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/bleedingeyes_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/bleedingeyes_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1039,7 +1039,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/bleedingeyes_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/bleedingeyes_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1067,7 +1067,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/bleedingeyes_pre_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/bleedingeyes_pre_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1095,7 +1095,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/burning_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/burning_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1123,7 +1123,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/burning_loop.smd"
+						source_filename = "models/character/shared/female/misc_anims/burning_loop.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1151,7 +1151,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/burning_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/burning_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1179,7 +1179,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Cards_sitforward_Left_Fidget.smd"
+						source_filename = "models/character/shared/female/misc_anims/Cards_sitforward_Left_Fidget.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1207,7 +1207,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Cards_sitforward_Left_Idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/Cards_sitforward_Left_Idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1235,7 +1235,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Cards_sitforward_Left_Play.smd"
+						source_filename = "models/character/shared/female/misc_anims/Cards_sitforward_Left_Play.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1263,7 +1263,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Cards_sitforward_Right_Fidget.smd"
+						source_filename = "models/character/shared/female/misc_anims/Cards_sitforward_Right_Fidget.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1291,7 +1291,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Cards_sitforward_Right_Idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/Cards_sitforward_Right_Idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1319,7 +1319,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Cards_sitforward_Right_Play.smd"
+						source_filename = "models/character/shared/female/misc_anims/Cards_sitforward_Right_Play.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1347,7 +1347,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/cauldron.smd"
+						source_filename = "models/character/shared/female/misc_anims/cauldron.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1375,7 +1375,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/cauldron_death.smd"
+						source_filename = "models/character/shared/female/misc_anims/cauldron_death.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1403,7 +1403,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/cauldron_pre.smd"
+						source_filename = "models/character/shared/female/misc_anims/cauldron_pre.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1431,7 +1431,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/cellphone.smd"
+						source_filename = "models/character/shared/female/misc_anims/cellphone.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1459,7 +1459,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/cellphone_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/cellphone_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1487,7 +1487,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/cellphone_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/cellphone_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1515,7 +1515,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/cellphone_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/cellphone_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1543,7 +1543,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/choking.smd"
+						source_filename = "models/character/shared/female/misc_anims/choking.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1571,7 +1571,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Cigarette_Idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/Cigarette_Idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1599,7 +1599,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Cigarette_Inhale.smd"
+						source_filename = "models/character/shared/female/misc_anims/Cigarette_Inhale.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1627,7 +1627,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Cigarette_Into.smd"
+						source_filename = "models/character/shared/female/misc_anims/Cigarette_Into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1655,7 +1655,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/CoinMachine.smd"
+						source_filename = "models/character/shared/female/misc_anims/CoinMachine.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1683,7 +1683,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/comatose_getout.smd"
+						source_filename = "models/character/shared/female/misc_anims/comatose_getout.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1711,7 +1711,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/comatose_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/comatose_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1739,7 +1739,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/comatose_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/comatose_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1767,7 +1767,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/comatose_pre_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/comatose_pre_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1795,7 +1795,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/comfort_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/comfort_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1823,7 +1823,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/comfort_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/comfort_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1851,7 +1851,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/comfort_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/comfort_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1879,7 +1879,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/comfort2_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/comfort2_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1907,7 +1907,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/comfort2_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/comfort2_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1935,7 +1935,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/comfort2_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/comfort2_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1963,7 +1963,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/CouchTV_Idle_01.smd"
+						source_filename = "models/character/shared/female/misc_anims/CouchTV_Idle_01.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -1991,7 +1991,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/CouchTV_Idle_02.smd"
+						source_filename = "models/character/shared/female/misc_anims/CouchTV_Idle_02.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2019,7 +2019,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/CouchTV_Into.smd"
+						source_filename = "models/character/shared/female/misc_anims/CouchTV_Into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2047,7 +2047,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/CouchTV_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/CouchTV_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2075,7 +2075,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/cower_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/cower_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2103,7 +2103,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/cower_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/cower_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2131,7 +2131,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/cower_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/cower_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2159,7 +2159,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/cower2_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/cower2_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2187,7 +2187,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/cower2_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/cower2_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2215,7 +2215,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/cower2_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/cower2_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2243,7 +2243,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/cower3_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/cower3_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2271,7 +2271,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/cower3_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/cower3_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2299,7 +2299,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/cower3_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/cower3_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2327,7 +2327,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/d_thaum_cast_charge.smd"
+						source_filename = "models/character/shared/female/misc_anims/d_thaum_cast_charge.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2355,7 +2355,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/d_thaum_cast_charge_layer.smd"
+						source_filename = "models/character/shared/female/misc_anims/d_thaum_cast_charge_layer.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2383,7 +2383,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/d_thaum_cast_chargehold.smd"
+						source_filename = "models/character/shared/female/misc_anims/d_thaum_cast_chargehold.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2411,7 +2411,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/d_thaum_cast_chargehold_layer.smd"
+						source_filename = "models/character/shared/female/misc_anims/d_thaum_cast_chargehold_layer.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2439,7 +2439,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/d_thaum_cast_continue.smd"
+						source_filename = "models/character/shared/female/misc_anims/d_thaum_cast_continue.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2467,7 +2467,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/d_thaum_cast_continue_layer.smd"
+						source_filename = "models/character/shared/female/misc_anims/d_thaum_cast_continue_layer.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2495,7 +2495,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/d_thaum_cast_hold.smd"
+						source_filename = "models/character/shared/female/misc_anims/d_thaum_cast_hold.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2523,7 +2523,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/d_thaum_cast_hold_layer.smd"
+						source_filename = "models/character/shared/female/misc_anims/d_thaum_cast_hold_layer.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2551,7 +2551,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/d_thaum_cast_reset.smd"
+						source_filename = "models/character/shared/female/misc_anims/d_thaum_cast_reset.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2579,7 +2579,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/d_thaum_cast_reset_layer.smd"
+						source_filename = "models/character/shared/female/misc_anims/d_thaum_cast_reset_layer.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2607,7 +2607,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/d_thaum_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/d_thaum_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2635,7 +2635,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/d_thaum_idle_layer.smd"
+						source_filename = "models/character/shared/female/misc_anims/d_thaum_idle_layer.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2652,7 +2652,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = "ACT_DANCE1"
+						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -2663,7 +2663,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/dance01.smd"
+						source_filename = "models/character/shared/female/misc_anims/dance01.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2680,7 +2680,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = "ACT_DANCE2"
+						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -2691,7 +2691,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/dance02.smd"
+						source_filename = "models/character/shared/female/misc_anims/dance02.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2708,7 +2708,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = "ACT_DANCE3"
+						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -2719,7 +2719,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/dance03.smd"
+						source_filename = "models/character/shared/female/misc_anims/dance03.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2747,7 +2747,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/death01.smd"
+						source_filename = "models/character/shared/female/misc_anims/death01.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2775,7 +2775,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/death02.smd"
+						source_filename = "models/character/shared/female/misc_anims/death02.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2803,7 +2803,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/disoriented.smd"
+						source_filename = "models/character/shared/female/misc_anims/disoriented.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2831,7 +2831,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/disposition_beatendown.smd"
+						source_filename = "models/character/shared/female/misc_anims/disposition_beatendown.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2859,7 +2859,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/disposition_coy.smd"
+						source_filename = "models/character/shared/female/misc_anims/disposition_coy.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2887,7 +2887,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/disposition_jittery.smd"
+						source_filename = "models/character/shared/female/misc_anims/disposition_jittery.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2915,7 +2915,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/disposition_pissed.smd"
+						source_filename = "models/character/shared/female/misc_anims/disposition_pissed.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2943,7 +2943,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/dive_left.smd"
+						source_filename = "models/character/shared/female/misc_anims/dive_left.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2971,7 +2971,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/dive_right.smd"
+						source_filename = "models/character/shared/female/misc_anims/dive_right.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -2999,7 +2999,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/doorknock.smd"
+						source_filename = "models/character/shared/female/misc_anims/doorknock.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3027,7 +3027,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Drag_FromBehind.smd"
+						source_filename = "models/character/shared/female/misc_anims/Drag_FromBehind.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3055,7 +3055,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Drink_Idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/Drink_Idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3083,7 +3083,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Drink_Into.smd"
+						source_filename = "models/character/shared/female/misc_anims/Drink_Into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3111,7 +3111,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Drink_LookAround.smd"
+						source_filename = "models/character/shared/female/misc_anims/Drink_LookAround.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3139,7 +3139,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Drink_Outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/Drink_Outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3167,7 +3167,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Drink_Take.smd"
+						source_filename = "models/character/shared/female/misc_anims/Drink_Take.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3195,7 +3195,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/falling.smd"
+						source_filename = "models/character/shared/female/misc_anims/falling.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3223,7 +3223,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/fidget01.smd"
+						source_filename = "models/character/shared/female/misc_anims/fidget01.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3251,7 +3251,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/fidget02.smd"
+						source_filename = "models/character/shared/female/misc_anims/fidget02.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3279,7 +3279,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/fidget03.smd"
+						source_filename = "models/character/shared/female/misc_anims/fidget03.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3296,7 +3296,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = "ACT_FORGET"
+						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -3307,7 +3307,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/forgetit.smd"
+						source_filename = "models/character/shared/female/misc_anims/forgetit.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3335,7 +3335,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/getup_back.smd"
+						source_filename = "models/character/shared/female/misc_anims/getup_back.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3363,231 +3363,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/getup_front.smd"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "graffiti_idle01"
-						children = 
-						[
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/graffiti_idle01.smd"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "graffiti_idle02"
-						children = 
-						[
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/graffiti_idle02.smd"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "graffiti_idle03"
-						children = 
-						[
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/graffiti_idle03.smd"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "graffiti_idle04"
-						children = 
-						[
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/graffiti_idle04.smd"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "graffiti_idle05"
-						children = 
-						[
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/graffiti_idle05.smd"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "graffiti_idle06"
-						children = 
-						[
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/graffiti_idle06.smd"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "graffiti_into"
-						children = 
-						[
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = false
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/graffiti_into.smd"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "graffiti_outof"
-						children = 
-						[
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = false
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/graffiti_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/getup_front.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3615,7 +3391,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/hit_head_back.smd"
+						source_filename = "models/character/shared/female/misc_anims/hit_head_back.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3643,7 +3419,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/hit_head_front.smd"
+						source_filename = "models/character/shared/female/misc_anims/hit_head_front.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3671,7 +3447,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/hit_head_left.smd"
+						source_filename = "models/character/shared/female/misc_anims/hit_head_left.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3699,7 +3475,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/hit_head_right.smd"
+						source_filename = "models/character/shared/female/misc_anims/hit_head_right.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3727,7 +3503,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/hit_stepback.smd"
+						source_filename = "models/character/shared/female/misc_anims/hit_stepback.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3755,7 +3531,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/hit_torso_back.smd"
+						source_filename = "models/character/shared/female/misc_anims/hit_torso_back.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3783,7 +3559,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/hit_torso_back_left.smd"
+						source_filename = "models/character/shared/female/misc_anims/hit_torso_back_left.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3811,7 +3587,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/hit_torso_back_right.smd"
+						source_filename = "models/character/shared/female/misc_anims/hit_torso_back_right.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3839,7 +3615,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/hit_torso_front.smd"
+						source_filename = "models/character/shared/female/misc_anims/hit_torso_front.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3867,7 +3643,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/hit_torso_front_left.smd"
+						source_filename = "models/character/shared/female/misc_anims/hit_torso_front_left.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3895,7 +3671,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/hit_torso_front_right.smd"
+						source_filename = "models/character/shared/female/misc_anims/hit_torso_front_right.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3923,7 +3699,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/hit_torso_left.smd"
+						source_filename = "models/character/shared/female/misc_anims/hit_torso_left.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3951,7 +3727,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/hit_torso_right.smd"
+						source_filename = "models/character/shared/female/misc_anims/hit_torso_right.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -3979,7 +3755,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/holy_light_cast.smd"
+						source_filename = "models/character/shared/female/misc_anims/holy_light_cast.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4007,7 +3783,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/holy_light_cast_layer.smd"
+						source_filename = "models/character/shared/female/misc_anims/holy_light_cast_layer.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4035,7 +3811,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/holy_light_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/holy_light_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4063,7 +3839,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/holy_light_idle_layer.smd"
+						source_filename = "models/character/shared/female/misc_anims/holy_light_idle_layer.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4091,7 +3867,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/hop.smd"
+						source_filename = "models/character/shared/female/misc_anims/hop.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4119,7 +3895,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/hop_down.smd"
+						source_filename = "models/character/shared/female/misc_anims/hop_down.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4147,7 +3923,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/hop_up.smd"
+						source_filename = "models/character/shared/female/misc_anims/hop_up.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4175,7 +3951,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/howl.smd"
+						source_filename = "models/character/shared/female/misc_anims/howl.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4214,7 +3990,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/hunt_walk.smd"
+						source_filename = "models/character/shared/female/misc_anims/hunt_walk.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4253,7 +4029,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/hunt_walk_lookleft.smd"
+						source_filename = "models/character/shared/female/misc_anims/hunt_walk_lookleft.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4292,7 +4068,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/hunt_walk_lookright.smd"
+						source_filename = "models/character/shared/female/misc_anims/hunt_walk_lookright.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4320,7 +4096,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/idle_player_in_face.smd"
+						source_filename = "models/character/shared/female/misc_anims/idle_player_in_face.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4348,7 +4124,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/idle01.smd"
+						source_filename = "models/character/shared/female/misc_anims/idle01.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4365,7 +4141,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = "ACT_JUMP"
+						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -4376,7 +4152,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/jump.smd"
+						source_filename = "models/character/shared/female/misc_anims/jump.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4404,7 +4180,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/jump_forward.smd"
+						source_filename = "models/character/shared/female/misc_anims/jump_forward.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4432,7 +4208,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/jump_long.smd"
+						source_filename = "models/character/shared/female/misc_anims/jump_long.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4460,7 +4236,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/jump_to_death.smd"
+						source_filename = "models/character/shared/female/misc_anims/jump_to_death.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4488,7 +4264,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/ladder_down.smd"
+						source_filename = "models/character/shared/female/misc_anims/ladder_down.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4516,7 +4292,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/ladder_up.smd"
+						source_filename = "models/character/shared/female/misc_anims/ladder_up.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4544,7 +4320,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/land.smd"
+						source_filename = "models/character/shared/female/misc_anims/land.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4572,7 +4348,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/land_crouched.smd"
+						source_filename = "models/character/shared/female/misc_anims/land_crouched.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4600,7 +4376,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/land_hard.smd"
+						source_filename = "models/character/shared/female/misc_anims/land_hard.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4628,7 +4404,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/laugh_getout.smd"
+						source_filename = "models/character/shared/female/misc_anims/laugh_getout.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4656,7 +4432,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/laugh_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/laugh_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4684,7 +4460,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/laugh_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/laugh_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4712,7 +4488,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/laugh_pre_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/laugh_pre_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4740,7 +4516,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/leap.smd"
+						source_filename = "models/character/shared/female/misc_anims/leap.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4768,7 +4544,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/leap_ascend.smd"
+						source_filename = "models/character/shared/female/misc_anims/leap_ascend.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4796,7 +4572,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/leap_descend.smd"
+						source_filename = "models/character/shared/female/misc_anims/leap_descend.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4824,7 +4600,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/lockpick.smd"
+						source_filename = "models/character/shared/female/misc_anims/lockpick.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4852,7 +4628,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/look_out_window.smd"
+						source_filename = "models/character/shared/female/misc_anims/look_out_window.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4880,7 +4656,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/lost.smd"
+						source_filename = "models/character/shared/female/misc_anims/lost.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4908,7 +4684,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/madness_getout.smd"
+						source_filename = "models/character/shared/female/misc_anims/madness_getout.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4936,7 +4712,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/madness_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/madness_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4964,7 +4740,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/madness_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/madness_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -4992,7 +4768,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/madness_pre_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/madness_pre_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5020,7 +4796,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/mesmerized.smd"
+						source_filename = "models/character/shared/female/misc_anims/mesmerized.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5048,7 +4824,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/mesmerized_pre_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/mesmerized_pre_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5076,7 +4852,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/onehanded_crouch_relaxed.smd"
+						source_filename = "models/character/shared/female/misc_anims/onehanded_crouch_relaxed.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5104,7 +4880,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/operate_computer.smd"
+						source_filename = "models/character/shared/female/misc_anims/operate_computer.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5132,7 +4908,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/operate_panel.smd"
+						source_filename = "models/character/shared/female/misc_anims/operate_panel.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5171,7 +4947,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/panic_run.smd"
+						source_filename = "models/character/shared/female/misc_anims/panic_run.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5210,7 +4986,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/panic_run_lookleft.smd"
+						source_filename = "models/character/shared/female/misc_anims/panic_run_lookleft.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5249,7 +5025,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/panic_run_lookright.smd"
+						source_filename = "models/character/shared/female/misc_anims/panic_run_lookright.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5288,7 +5064,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/panic_run_trip.smd"
+						source_filename = "models/character/shared/female/misc_anims/panic_run_trip.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5316,7 +5092,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/party_drinking.smd"
+						source_filename = "models/character/shared/female/misc_anims/party_drinking.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5344,7 +5120,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/party_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/party_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5372,7 +5148,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/party_laugh.smd"
+						source_filename = "models/character/shared/female/misc_anims/party_laugh.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5400,7 +5176,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/party_listen_idle1.smd"
+						source_filename = "models/character/shared/female/misc_anims/party_listen_idle1.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5428,7 +5204,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/party_listen_idle2.smd"
+						source_filename = "models/character/shared/female/misc_anims/party_listen_idle2.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5456,7 +5232,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/party_listen_idle3.smd"
+						source_filename = "models/character/shared/female/misc_anims/party_listen_idle3.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5484,7 +5260,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/party_look_around.smd"
+						source_filename = "models/character/shared/female/misc_anims/party_look_around.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5512,7 +5288,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/party_talk_idle1.smd"
+						source_filename = "models/character/shared/female/misc_anims/party_talk_idle1.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5540,7 +5316,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/payphone_hangup.smd"
+						source_filename = "models/character/shared/female/misc_anims/payphone_hangup.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5568,7 +5344,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/payphone_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/payphone_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5596,7 +5372,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/payphone_pickup.smd"
+						source_filename = "models/character/shared/female/misc_anims/payphone_pickup.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5624,7 +5400,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/pinball_idle01.smd"
+						source_filename = "models/character/shared/female/misc_anims/pinball_idle01.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5652,7 +5428,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/pinball_idle02.smd"
+						source_filename = "models/character/shared/female/misc_anims/pinball_idle02.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5680,7 +5456,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/pinball_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/pinball_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5708,7 +5484,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/pinball_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/pinball_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5736,7 +5512,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Piss_Idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/Piss_Idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5764,7 +5540,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Piss_Into.smd"
+						source_filename = "models/character/shared/female/misc_anims/Piss_Into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5792,7 +5568,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Piss_Outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/Piss_Outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5820,7 +5596,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/place_bomb.smd"
+						source_filename = "models/character/shared/female/misc_anims/place_bomb.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5848,7 +5624,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/pray.smd"
+						source_filename = "models/character/shared/female/misc_anims/pray.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5876,7 +5652,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/praying_begin.smd"
+						source_filename = "models/character/shared/female/misc_anims/praying_begin.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5904,7 +5680,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/praying_end.smd"
+						source_filename = "models/character/shared/female/misc_anims/praying_end.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5932,7 +5708,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/praying_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/praying_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5960,7 +5736,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/pre_choking.smd"
+						source_filename = "models/character/shared/female/misc_anims/pre_choking.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5988,7 +5764,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/presence.smd"
+						source_filename = "models/character/shared/female/misc_anims/presence.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6016,7 +5792,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Scripted_BackHit.smd"
+						source_filename = "models/character/shared/female/misc_anims/Scripted_BackHit.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6044,7 +5820,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/shared_pre_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/shared_pre_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6061,7 +5837,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = "ACT_BUSY_SIT_CHAIR"
+						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -6072,7 +5848,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sit_barstool_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/sit_barstool_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6089,7 +5865,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = "ACT_BUSY_SIT_CHAIR_ENTRY"
+						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -6100,7 +5876,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sit_barstool_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/sit_barstool_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6128,7 +5904,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sit_barstool_into_alt.smd"
+						source_filename = "models/character/shared/female/misc_anims/sit_barstool_into_alt.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6145,7 +5921,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = "ACT_BUSY_SIT_CHAIR_EXIT"
+						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -6156,7 +5932,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sit_barstool_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/sit_barstool_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6184,7 +5960,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitback_idle_left.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitback_idle_left.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6212,7 +5988,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitback_idle_left_deep.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitback_idle_left_deep.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6240,7 +6016,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitback_idle_right.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitback_idle_right.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6268,7 +6044,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitback_idle_right_deep.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitback_idle_right_deep.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6296,7 +6072,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitback_left.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitback_left.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6324,7 +6100,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitback_left_deep.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitback_left_deep.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6352,7 +6128,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitback_right.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitback_right.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6380,7 +6156,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitback_right_deep.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitback_right_deep.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6408,7 +6184,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitback_upfast_left.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitback_upfast_left.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6436,7 +6212,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitback_upfast_left_deep.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitback_upfast_left_deep.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6464,7 +6240,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitback_upfast_right.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitback_upfast_right.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6492,7 +6268,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitback_upfast_right_deep.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitback_upfast_right_deep.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6520,7 +6296,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitforward_idle_left.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitforward_idle_left.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6548,7 +6324,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitforward_idle_left_deep.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitforward_idle_left_deep.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6576,7 +6352,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitforward_idle_right.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitforward_idle_right.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6604,7 +6380,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitforward_idle_right_deep.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitforward_idle_right_deep.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6632,7 +6408,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitforward_left.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitforward_left.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6660,7 +6436,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitforward_left_deep.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitforward_left_deep.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6688,7 +6464,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitforward_right.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitforward_right.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6716,7 +6492,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitforward_right_deep.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitforward_right_deep.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6744,7 +6520,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitforward_upfast_left.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitforward_upfast_left.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6772,7 +6548,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitforward_upfast_left_deep.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitforward_upfast_left_deep.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6800,7 +6576,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitforward_upfast_right.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitforward_upfast_right.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -6828,231 +6604,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sitforward_upfast_right_deep.smd"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "Sitlow_Idle"
-						children = 
-						[
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Sitlow_Idle.smd"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "Sitlow_Into"
-						children = 
-						[
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = false
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Sitlow_Into.smd"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "Sitlow_Out_Left"
-						children = 
-						[
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = false
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Sitlow_Out_Left.smd"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "Sitlow_Out_Right"
-						children = 
-						[
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = false
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Sitlow_Out_Right.smd"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "Sitneutral_Idle"
-						children = 
-						[
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Sitneutral_Idle.smd"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "Sitneutral_Into"
-						children = 
-						[
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = false
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Sitneutral_Into.smd"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "Sitneutral_Out_Left"
-						children = 
-						[
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = false
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Sitneutral_Out_Left.smd"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						reverse = false
-					},
-					{
-						_class = "AnimFile"
-						name = "Sitneutral_Out_Right"
-						children = 
-						[
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = false
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Sitneutral_Out_Right.smd"
+						source_filename = "models/character/shared/female/misc_anims/sitforward_upfast_right_deep.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7080,7 +6632,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sleep_fall_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/sleep_fall_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7108,7 +6660,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sleep_getup.smd"
+						source_filename = "models/character/shared/female/misc_anims/sleep_getup.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7136,7 +6688,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sleep_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/sleep_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7164,7 +6716,91 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sleep_pre_fall_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/sleep_pre_fall_into.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "SM_Huddle"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/character/shared/female/misc_anims/SM_Huddle.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "SM_HuddleGetup"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/character/shared/female/misc_anims/SM_HuddleGetup.smd"
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "SM_MutilationAction"
+						children = 
+						[
+							{
+								_class = "AnimOffset"
+								translation = [ 0.0, 0.0, 0.0 ]
+								rotation_xyz = [ 0.0, 0.0, -90.0 ]
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/character/shared/female/misc_anims/SM_MutilationAction.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7192,7 +6828,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sobbing.smd"
+						source_filename = "models/character/shared/female/misc_anims/sobbing.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7220,7 +6856,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sobbing_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/sobbing_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7248,7 +6884,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sobbing_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/sobbing_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7276,7 +6912,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sobbing_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/sobbing_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7304,7 +6940,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/sobbing_pre_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/sobbing_pre_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7332,7 +6968,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/spellhit.smd"
+						source_filename = "models/character/shared/female/misc_anims/spellhit.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7360,7 +6996,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/stake_target.smd"
+						source_filename = "models/character/shared/female/misc_anims/stake_target.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7388,7 +7024,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/stunned.smd"
+						source_filename = "models/character/shared/female/misc_anims/stunned.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7416,7 +7052,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/stunned_recover.smd"
+						source_filename = "models/character/shared/female/misc_anims/stunned_recover.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7444,7 +7080,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/surprised_by_window.smd"
+						source_filename = "models/character/shared/female/misc_anims/surprised_by_window.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7472,7 +7108,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/swim.smd"
+						source_filename = "models/character/shared/female/misc_anims/swim.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7500,7 +7136,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/thaumaturgy_cast.smd"
+						source_filename = "models/character/shared/female/misc_anims/thaumaturgy_cast.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7528,7 +7164,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/thaumaturgy_cast_layer.smd"
+						source_filename = "models/character/shared/female/misc_anims/thaumaturgy_cast_layer.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7556,7 +7192,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/thaumaturgy_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/thaumaturgy_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7584,7 +7220,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/thaumaturgy_idle_layer.smd"
+						source_filename = "models/character/shared/female/misc_anims/thaumaturgy_idle_layer.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7612,7 +7248,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/theft_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/theft_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7640,7 +7276,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/theft_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/theft_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7668,7 +7304,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/theft_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/theft_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7696,7 +7332,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/theft_pre_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/theft_pre_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7724,7 +7360,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/treadwater.smd"
+						source_filename = "models/character/shared/female/misc_anims/treadwater.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7752,7 +7388,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/twohanded_crouch_relaxed.smd"
+						source_filename = "models/character/shared/female/misc_anims/twohanded_crouch_relaxed.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7780,7 +7416,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/vision_of_death.smd"
+						source_filename = "models/character/shared/female/misc_anims/vision_of_death.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7808,7 +7444,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/vomit_getout.smd"
+						source_filename = "models/character/shared/female/misc_anims/vomit_getout.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7836,7 +7472,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/vomit_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/vomit_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7864,7 +7500,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/vomit_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/vomit_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7892,7 +7528,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/vomit_pre_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/vomit_pre_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7909,7 +7545,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = "ACT_BUSY_LEAN_LEFT"
+						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -7920,7 +7556,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Wall_Lean_idle_01.smd"
+						source_filename = "models/character/shared/female/misc_anims/Wall_Lean_idle_01.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7937,7 +7573,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = "ACT_BUSY_LEAN_LEFT_ENTRY"
+						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -7948,7 +7584,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Wall_Lean_into.smd"
+						source_filename = "models/character/shared/female/misc_anims/Wall_Lean_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -7964,24 +7600,8 @@
 								translation = [ 0.0, 0.0, 0.0 ]
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
-							{
-								_class = "MovementSettings"
-								movementsettings = 
-								{
-									name = ""
-									speeds = [  ]
-									runspeed = 150.0
-									walkspeed = 75.0
-									maxSpringTension = 100.0
-									springConstant = 10.0
-									useSmoothPaths = true
-									useMotionDamping = false
-									sharpStartAngle = 180.0
-									m_vTraceScale = [ 1.0, 1.0, 1.0 ]
-								}
-							},
 						]
-						activity_name = "ACT_BUSY_LEAN_LEFT_EXIT"
+						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -7992,7 +7612,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/Wall_Lean_outof.smd"
+						source_filename = "models/character/shared/female/misc_anims/Wall_Lean_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -8020,7 +7640,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/waveover01.smd"
+						source_filename = "models/character/shared/female/misc_anims/waveover01.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -8048,7 +7668,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/waveover02.smd"
+						source_filename = "models/character/shared/female/misc_anims/waveover02.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -8056,7 +7676,7 @@
 					},
 					{
 						_class = "AnimFile"
-						name = "whistling_fidget"
+						name = "whistling_Fidget"
 						children = 
 						[
 							{
@@ -8076,7 +7696,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/whistling_fidget.smd"
+						source_filename = "models/character/shared/female/misc_anims/whistling_Fidget.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -8084,7 +7704,7 @@
 					},
 					{
 						_class = "AnimFile"
-						name = "whistling_idle"
+						name = "whistling_Idle"
 						children = 
 						[
 							{
@@ -8104,7 +7724,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/whistling_idle.smd"
+						source_filename = "models/character/shared/female/misc_anims/whistling_Idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -8132,7 +7752,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/male/misc_anims/wine_drink.smd"
+						source_filename = "models/character/shared/female/misc_anims/wine_drink.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0

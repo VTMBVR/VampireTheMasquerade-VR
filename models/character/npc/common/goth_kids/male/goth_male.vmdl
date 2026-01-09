@@ -724,6 +724,6 @@
 		]
 		model_archetype = "default"
 		primary_associated_entity = ""
-		anim_graph_name = ""
+		anim_graph_name = "animgraphs/male_shared.vanmgrph"
 	}
 }

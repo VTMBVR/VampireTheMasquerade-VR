@@ -87,6 +87,10 @@
 						_class = "Prefab"
 						target_file = "models/character/npc/common/goth_kids/female/prefabs/shared_female_misc_anim.vmdl_prefab"
 					},
+					{
+						_class = "Prefab"
+						target_file = "models/character/shared/prefabs/female/move_n_run.vmdl_prefab"
+					},
 				]
 				default_root_bone_name = ""
 			},
@@ -101,13 +105,13 @@
 							name = ""
 							speeds = [  ]
 							runspeed = 150.0
-							walkspeed = 75.0
+							walkspeed = 80.0
 							maxSpringTension = 100.0
 							springConstant = 10.0
 							useSmoothPaths = true
 							useMotionDamping = false
 							sharpStartAngle = 180.0
-							m_vTraceScale = [ 1.0, 1.0, 1.0 ]
+							m_vTraceScale = [ 0.1, 1.0, 1.0 ]
 						}
 					},
 				]

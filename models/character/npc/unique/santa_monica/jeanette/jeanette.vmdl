@@ -98,7 +98,6 @@
 					{
 						_class = "RenderMeshFile"
 						name = "rework_1"
-						disabled = true
 						filename = "models/character/npc/unique/santa_monica/jeanette/skirt/JeanetteR2_REF.smd"
 						import_scale = 1.0
 						import_filter = 
@@ -110,6 +109,7 @@
 					{
 						_class = "RenderMeshFile"
 						name = "rework_6"
+						disabled = true
 						filename = "models/character/npc/unique/santa_monica/jeanette/skirt_rebuild/v5/JeanetteR2_REF.smd"
 						import_scale = 1.0
 						import_filter = 
@@ -7946,7 +7946,6 @@
 					},
 					{
 						_class = "Prefab"
-						disabled = true
 						target_file = "models/character/npc/unique/santa_monica/jeanette/prefabs/phys_jiggle_breasts.vmdl_prefab"
 					},
 				]
