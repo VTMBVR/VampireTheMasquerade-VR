@@ -33,7 +33,7 @@ function NodeRouteThinkFunc()
        
        h2 = GetEntByClassName("ai_hint")
        h3 = GetEntByName("dance_spot")
-       hintNodes = h1
+       hintNodes = h2
     end
 
 
@@ -67,7 +67,7 @@ function NodeRouteThinkFunc()
 
     -- Get the current hint node handle
 
-    local currHint = hintNodes[nCurrentHintIdx]
+    local currHint = hintNodes
    --local currHint = hintNodes.Next(nCurrentHintIdx)
     --local check_first_element = hintNodes.First()
     print ("check: ", currHint)
@@ -108,11 +108,11 @@ function NodeRouteThinkFunc()
     end
 
     -- Advance index for next tick, wrap around when reaching end of array
-nCurrentHintIdx = nCurrentHintIdx % #hintNodes + 1
+--nCurrentHintIdx = nCurrentHintIdx % #hintNodes + 1
 
 -- Play animation while on target
 -- TODO: this is slop.
-thisEntity:SetSequence("dance01")
+--thisEntity:SetSequence("dance01")
 
     return 0.1
 end
