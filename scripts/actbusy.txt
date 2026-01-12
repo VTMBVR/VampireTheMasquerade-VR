@@ -81,7 +81,8 @@
 
    "Dance01"
    {
-		"busy_anim" 		"ACT_DANCE1"
+		//"busy_anim" 		"ACT_DANCE1"
+		"busy_sequence"		"dance01"
 		"min_time"			"45"	//"Minimum time to spend in this busy anim"
 		"max_time"			"90"		//"Maximum time to spend in this busy anim"	 //0 = only stop when interrupted by external event
 		"interrupts"		"BA_INT_NONE"
@@ -90,7 +91,8 @@
 
     "Dance02"
    {
-		"busy_anim" 		"ACT_DANCE2"
+		//"busy_anim" 		"ACT_DANCE2"
+		"busy_sequence"		"dance02"
 		"min_time"			"45"
 		"max_time"			"90"
 		"interrupts"		"BA_INT_NONE"
@@ -99,7 +101,8 @@
 
     "Dance03"
    {
-		"busy_anim" 		"ACT_DANCE3"
+		//"busy_anim" 		"ACT_DANCE3"
+		"busy_sequence"		"dance03"
 		"min_time"			"45"
 		"max_time"			"90"
 		"interrupts"		"BA_INT_NONE"

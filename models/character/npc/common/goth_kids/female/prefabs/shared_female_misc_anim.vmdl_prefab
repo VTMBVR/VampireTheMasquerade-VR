@@ -2651,8 +2651,13 @@
 								translation = [ 0.0, 0.0, 0.0 ]
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
+							{
+								_class = "ActivityModifier"
+								activity_name = "ACT_DANCE1"
+								activity_weight = 1
+							},
 						]
-						activity_name = "ACT_DANCE1"
+						activity_name = "ACT_BUSY"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
