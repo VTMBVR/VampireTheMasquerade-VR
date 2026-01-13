@@ -116,9 +116,24 @@
 					},
 				]
 			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "forward"
+						parent_bone = ""
+						relative_origin = [ 5.677422, -2.860916, -2.816528 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
 		]
-		model_archetype = "default"
-		primary_associated_entity = ""
+		model_archetype = "generic_actor_model"
+		primary_associated_entity = "generic_actor"
 		anim_graph_name = "animgraphs/goth_female.vanmgrph"
 	}
 }

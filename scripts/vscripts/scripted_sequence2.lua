@@ -86,9 +86,10 @@ local origin = thisEntity:GetAbsOrigin()
 function MainThinkFunc() 
 	FindSequence()
 	if anim_seq ~= nil then
-		EntFireByHandle(thisEntity, anim_seq,"BeginSequence")
+		ent = anim_seq[1]
+		EntFireByHandle(thisEntity, ent,"BeginSequence")
 	-- Return the amount of time to wait before calling this function again.
-	return 0.1
+	return 100
 	end
 	if anim_seq == nil then
 		print ("can't find anim seq node", anim_seq)
@@ -98,9 +99,10 @@ end
 
 
 function FindSequence() 
-anim_seq = Entities:FindByClassnameWithin(nil, "scripted_sequence", thisEntity:GetAbsOrigin(), 500) 
-print ("found sequence by name!")
-print("seq node: ", anim_seq)
+	origin = thisEntity:GetAbsOrigin()
+	anim_seq = Entities:FindAllByNameWithin("dance_spot3",origin , 500)
+	print("find sequence in radius")
+	print(#anim_seq)
 	if anim_seq == nil then
 	print ("can't find scripted sequence!")
 	end

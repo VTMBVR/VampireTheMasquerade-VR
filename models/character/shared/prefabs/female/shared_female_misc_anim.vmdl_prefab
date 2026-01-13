@@ -2680,7 +2680,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = ""
+						activity_name = "ACT_DANCE2"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -3970,8 +3970,8 @@
 								extract_rz = false
 								linear = false
 								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
+								root_bone_name = "bip01_l_foot"
+								motion_type = "Uniform"
 							},
 							{
 								_class = "AnimOffset"
