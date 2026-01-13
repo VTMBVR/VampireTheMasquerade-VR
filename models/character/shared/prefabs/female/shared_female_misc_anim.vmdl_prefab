@@ -2652,7 +2652,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = ""
+						activity_name = "ACT_BUSY"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2
@@ -4113,7 +4113,7 @@
 								rotation_xyz = [ 0.0, 0.0, -90.0 ]
 							},
 						]
-						activity_name = ""
+						activity_name = "ACT_IDLE"
 						activity_weight = 1
 						weight_list_name = ""
 						fade_in_time = 0.2

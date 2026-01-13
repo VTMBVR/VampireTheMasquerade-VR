@@ -9,6 +9,7 @@
 function Spawn() 
 	-- Registers a function to get called each time the entity updates, or "thinks"
 	thisEntity:SetContextThink(nil, MainThinkFunc, 0)
+    origin = thisEntity:GetAbsOrigin()
 end
 
 --=============================
@@ -22,12 +23,12 @@ function Activate()
 	-- because the AnimGraph has not been loaded yet when Spawn is called
 	thisEntity:RegisterAnimTagListener( AnimTagListener )
 
-	anim_seq = Entities:FindByName(nil,"dance_spot1")
-	print ("script activated!")
-	print("seq node: ", anim_seq)
-	if anim_seq == nil then
-		print ("can't find sequence node!")
-	end
+	--anim_seq = Entities:FindByName(nil,"dance_spot1")
+	--print ("script activated!")
+	--print("seq node: ", anim_seq)
+	--if anim_seq == nil then
+	--	print ("can't find sequence node!")
+	--end
 end
 
 --=============================
@@ -74,6 +75,8 @@ local bShouldRun = false
 
 local anim_seq = nil
 
+local origin = thisEntity:GetAbsOrigin()
+
 
 
 
@@ -95,11 +98,26 @@ end
 
 
 function FindSequence() 
-anim_seq = Entities:FindByName(nil,"dance_spot1")
---print ("found sequence!")
---print("seq node: ", anim_seq)
+anim_seq = Entities:FindByClassnameWithin(nil, "scripted_sequence", thisEntity:GetAbsOrigin(), 500) 
+print ("found sequence by name!")
+print("seq node: ", anim_seq)
 	if anim_seq == nil then
-	print ("can't find sequence node!")
+	print ("can't find scripted sequence!")
 	end
 end
 
+
+function GetAllEntByClassName(classname)
+    hintNodes = nil
+    if hintNodes == nil then
+        hintNodes = Entities:FindAllByClassname(classname)
+        print("hint nodes:",hintNodes)
+        return hintNodes
+    end
+
+    -- If we still have no nodes, nothing to do
+    if hintNodes == nil then
+        print("no hints by FindAllByClassName")
+        return 0
+    end
+end
