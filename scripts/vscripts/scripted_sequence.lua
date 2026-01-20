@@ -95,7 +95,7 @@ end
 
 
 function FindSequence() 
-anim_seq = Entities:FindByName(nil,"dance_spot1")
+anim_seq = Entities:FindByName(nil,"dance_spot3")
 --print ("found sequence!")
 --print("seq node: ", anim_seq)
 	if anim_seq == nil then

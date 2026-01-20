@@ -98,6 +98,7 @@
 					{
 						_class = "RenderMeshFile"
 						name = "rework_1"
+						disabled = true
 						filename = "models/character/npc/unique/santa_monica/jeanette/skirt/JeanetteR2_REF.smd"
 						import_scale = 1.0
 						import_filter = 
@@ -111,6 +112,16 @@
 						name = "rework_6"
 						disabled = true
 						filename = "models/character/npc/unique/santa_monica/jeanette/skirt_rebuild/v5/JeanetteR2_REF.smd"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						filename = "models/character/npc/unique/santa_monica/jeanette/skirt_rebuild/klim/JeanetteR2_REF_fixed_v1.smd"
 						import_scale = 1.0
 						import_filter = 
 						{
@@ -1371,6 +1382,6 @@
 		]
 		model_archetype = "generic_actor_model"
 		primary_associated_entity = "generic_actor"
-		anim_graph_name = "animgraphs/shared_female.vanmgrph"
+		anim_graph_name = "animgraphs/jeanetter2_dance.vanmgrph"
 	}
 }

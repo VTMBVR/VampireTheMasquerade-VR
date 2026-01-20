@@ -35,6 +35,15 @@
 				m_DebugAnimSourceString = ""
 				m_BoneName = "bip01_r_ankle"
 			},
+			{
+				_class = "CTaskStatusAnimTag"
+				m_name = "Unnamed Tag"
+				m_tagID = 
+				{
+					m_id = 138824285
+				}
+				m_identifierString = ""
+			},
 		]
 	}
 	m_pMovementManager = 
@@ -84,7 +93,108 @@
 	m_pActivityValuesList = 
 	{
 		_class = "CActivityValueList"
-		m_activities = [  ]
+		m_activities = 
+		[
+			{
+				_class = "CActivityValues"
+				m_values = 
+				[
+					{
+						_class = "CParameterValue"
+						m_id = 
+						{
+							m_id = 4294967295
+						}
+						m_value = 
+						{
+							m_nType = 0
+						}
+					},
+				]
+				m_activityName = "ACT_BUSY"
+			},
+			{
+				_class = "CActivityValues"
+				m_values = [  ]
+				m_activityName = "ACT_DANCE1"
+			},
+			{
+				_class = "CActivityValues"
+				m_values = [  ]
+				m_activityName = "ACT_DANCE2"
+			},
+			{
+				_class = "CActivityValues"
+				m_values = [  ]
+				m_activityName = "ACT_DANCE3"
+			},
+			{
+				_class = "CActivityValues"
+				m_values = [  ]
+				m_activityName = "ACT_IDLE"
+			},
+			{
+				_class = "CActivityValues"
+				m_values = [  ]
+				m_activityName = "ACT_JUMP"
+			},
+			{
+				_class = "CActivityValues"
+				m_values = 
+				[
+					{
+						_class = "CParameterValue"
+						m_id = 
+						{
+							m_id = 4294967295
+						}
+						m_value = 
+						{
+							m_nType = 0
+						}
+					},
+				]
+				m_activityName = "ACT_BUSY_LEAN_LEFT"
+			},
+			{
+				_class = "CActivityValues"
+				m_values = [  ]
+				m_activityName = "ACT_BUSY_LEAN_LEFT_ENTRY"
+			},
+			{
+				_class = "CActivityValues"
+				m_values = [  ]
+				m_activityName = "ACT_BUSY_LEAN_LEFT_EXIT"
+			},
+			{
+				_class = "CActivityValues"
+				m_values = [  ]
+				m_activityName = "ACT_BUSY_SIT_CHAIR_ENTRY"
+			},
+			{
+				_class = "CActivityValues"
+				m_values = [  ]
+				m_activityName = "ACT_BUSY_SIT_CHAIR_EXIT"
+			},
+			{
+				_class = "CActivityValues"
+				m_values = 
+				[
+					{
+						_class = "CParameterValue"
+						m_id = 
+						{
+							m_id = 4294967295
+						}
+						m_value = 
+						{
+							m_nType = 0
+						}
+					},
+				]
+				m_activityName = "ACT_BUSY_SIT_CHAIR"
+			},
+		]
 	}
 	m_rootNodeID = 
 	{
@@ -92,7 +202,7 @@
 	}
 	m_previewModels = 
 	[
-		"models/character/npc/common/goth_kids/female/goth_female.vmdl",
+		"models/character/npc/unique/santa_monica/therese/therese.vmdl",
 	]
 	m_nodes = 
 	[
@@ -126,7 +236,7 @@
 			{
 				_class = "CRootAnimNode"
 				m_sName = "Unnamed"
-				m_vecPosition = [ 1231.5, -58.0 ]
+				m_vecPosition = [ 1548.0, -67.0 ]
 				m_nNodeID = 
 				{
 					m_id = 109167154
@@ -136,6 +246,27 @@
 				{
 					m_id = 564353207
 				}
+			}
+		},
+		{
+			key = 
+			{
+				m_id = 132689617
+			}
+			value = 
+			{
+				_class = "CSequenceAnimNode"
+				m_sName = "Unnamed"
+				m_vecPosition = [ 794.0, -231.0 ]
+				m_nNodeID = 
+				{
+					m_id = 132689617
+				}
+				m_networkMode = "ServerAuthoritative"
+				m_tagSpans = [  ]
+				m_sequenceName = "dance03"
+				m_playbackSpeed = 1.0
+				m_bLoop = false
 			}
 		},
 		{
@@ -570,7 +701,7 @@
 			{
 				_class = "CDirectPlaybackAnimNode"
 				m_sName = "Unnamed"
-				m_vecPosition = [ 899.5, -65.0 ]
+				m_vecPosition = [ 1238.0, -74.0 ]
 				m_nNodeID = 
 				{
 					m_id = 564353207
@@ -582,6 +713,27 @@
 				}
 				m_bFinishEarly = false
 				m_bResetOnFinish = true
+			}
+		},
+		{
+			key = 
+			{
+				m_id = 626734012
+			}
+			value = 
+			{
+				_class = "CSequenceAnimNode"
+				m_sName = "Unnamed"
+				m_vecPosition = [ 803.0, -285.0 ]
+				m_nNodeID = 
+				{
+					m_id = 626734012
+				}
+				m_networkMode = "ServerAuthoritative"
+				m_tagSpans = [  ]
+				m_sequenceName = "dance02"
+				m_playbackSpeed = 1.0
+				m_bLoop = true
 			}
 		},
 		{
@@ -1055,6 +1207,27 @@
 				m_sequenceName = "walk_45"
 				m_playbackSpeed = 1.0
 				m_bLoop = false
+			}
+		},
+		{
+			key = 
+			{
+				m_id = 1209670010
+			}
+			value = 
+			{
+				_class = "CSequenceAnimNode"
+				m_sName = "Unnamed"
+				m_vecPosition = [ 798.0, -334.0 ]
+				m_nNodeID = 
+				{
+					m_id = 1209670010
+				}
+				m_networkMode = "ServerAuthoritative"
+				m_tagSpans = [  ]
+				m_sequenceName = "dance01"
+				m_playbackSpeed = 1.0
+				m_bLoop = true
 			}
 		},
 		{

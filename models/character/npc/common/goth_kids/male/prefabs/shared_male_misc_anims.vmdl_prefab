@@ -4194,8 +4194,8 @@
 								extract_rz = false
 								linear = false
 								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
+								root_bone_name = "bip01_l_foot"
+								motion_type = "Uniform"
 							},
 							{
 								_class = "AnimOffset"
