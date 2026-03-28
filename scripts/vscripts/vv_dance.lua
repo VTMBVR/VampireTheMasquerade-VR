@@ -36,10 +36,10 @@ end
 --=============================
 function MainThinkFunc() 
 	-- Find the trigger entity named 'dance_trigger'
-	danceTrigger = Entities:FindByName(nil,"dance_trigger")
+	danceTrigger = Entities:FindByName(nil,"dance_spot4")
 	
 	if not danceTrigger then
-		print("Error: Dance trigger 'dance_trigger' not found.")
+		print("Error: Dance trigger 'dance_spot4' not found.")
 		return 0.1 -- Return time to wait before calling again
 	end
 
@@ -54,13 +54,13 @@ function MainThinkFunc()
 	-- If the character is far from the trigger, move towards it.
 	if dist > 10 then -- Move if more than 10 units away
 
-		local vVecToTargetNorm = ( targetPos - thisEntity:GetAbsOrigin() ):Normalized()
+		local vVecToPlayerNorm = ( targetPos - thisEntity:GetAbsOrigin() ):Normalized()
 			-- Find the vector from this entity to the player
 	
-	print("vector is: ",vVecToTargetNorm)
+	print("vector is: ",vVecToPlayerNorm)
 
 	-- Then find the point along that vector that is flMinPlayerDist from the player
-	local vGoalPos = targetPos - ( vVecToTargetNorm * 100 );
+	local vGoalPos = targetPos - ( vVecToPlayerNorm * 100 );
 	print("goal position: ", vGoalPos)
 
 

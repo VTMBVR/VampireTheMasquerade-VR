@@ -38,6 +38,8 @@
 					"dance01",
 					"dance02",
 					"dance03",
+					"cellphone_idle",
+					"howl",
 				]
 			},
 		]
@@ -73,10 +75,19 @@
 			},
 			{
 				_class = "CTaskStatusAnimTag"
-				m_name = "Unnamed Tag"
+				m_name = "Idle"
 				m_tagID = 
 				{
 					m_id = 138824285
+				}
+				m_identifierString = ""
+			},
+			{
+				_class = "CTaskStatusAnimTag"
+				m_name = "dance_complete"
+				m_tagID = 
+				{
+					m_id = 2077358415
 				}
 				m_identifierString = ""
 			},
@@ -184,7 +195,20 @@
 			},
 			{
 				_class = "CActivityValues"
-				m_values = [  ]
+				m_values = 
+				[
+					{
+						_class = "CParameterValue"
+						m_id = 
+						{
+							m_id = 4294967295
+						}
+						m_value = 
+						{
+							m_nType = 0
+						}
+					},
+				]
 				m_activityName = "ACT_JUMP"
 			},
 			{
@@ -830,6 +854,27 @@
 		{
 			key = 
 			{
+				m_id = 1044169480
+			}
+			value = 
+			{
+				_class = "CSequenceAnimNode"
+				m_sName = "Unnamed"
+				m_vecPosition = [ -141.0, 57.0 ]
+				m_nNodeID = 
+				{
+					m_id = 1044169480
+				}
+				m_networkMode = "ServerAuthoritative"
+				m_tagSpans = [  ]
+				m_sequenceName = "howl"
+				m_playbackSpeed = 1.0
+				m_bLoop = false
+			}
+		},
+		{
+			key = 
+			{
 				m_id = 1078453154
 			}
 			value = 
@@ -952,8 +997,13 @@
 								m_bDisabled = false
 							},
 						]
-						m_tags = [  ]
-						m_tagBehaviors = [  ]
+						m_tags = 
+						[
+							{
+								m_id = 138824285
+							},
+						]
+						m_tagBehaviors = [ 0 ]
 						m_name = "Idle"
 						m_childNodeID = 
 						{
@@ -963,7 +1013,7 @@
 						{
 							m_id = 733696740
 						}
-						m_position = [ -346.0, -13.0 ]
+						m_position = [ -553.0, 34.0 ]
 						m_bIsStartState = true
 						m_bIsEndtState = false
 						m_bIsPassthrough = false
@@ -1090,7 +1140,7 @@
 						{
 							m_id = 720971063
 						}
-						m_position = [ -26.0, -6.0 ]
+						m_position = [ 241.0, 7.0 ]
 						m_bIsStartState = false
 						m_bIsEndtState = false
 						m_bIsPassthrough = false
@@ -1149,11 +1199,116 @@
 										m_optionToCheck = "PathStatus_HasPath"
 										m_bComparisonValue = false
 									},
+									{
+										_class = "CParameterAnimCondition"
+										m_comparisonOp = 0
+										m_paramID = 
+										{
+											m_id = 2062641689
+										}
+										m_comparisonValue = 
+										{
+											m_nType = 2
+											m_data = 0
+										}
+									},
 								]
 								m_blendDuration = 0.4
 								m_destState = 
 								{
 									m_id = 509876389
+								}
+								m_bReset = true
+								m_resetCycleOption = "Beginning"
+								m_flFixedCycleValue = 0.0
+								m_blendCurve = 
+								{
+									m_vControlPoint1 = [ 0.5, 0.0 ]
+									m_vControlPoint2 = [ 0.5, 1.0 ]
+								}
+								m_bForceFootPlant = false
+								m_bDisabled = false
+							},
+							{
+								_class = "CAnimStateTransition"
+								m_conditions = 
+								[
+									{
+										_class = "CPathStatusCondition"
+										m_comparisonOp = 0
+										m_optionToCheck = "PathStatus_HasPath"
+										m_bComparisonValue = false
+									},
+									{
+										_class = "CFinishedCondition"
+										m_comparisonOp = 0
+										m_option = "FinishedConditionOption_OnFinished"
+										m_bIsFinished = true
+									},
+									{
+										_class = "CParameterAnimCondition"
+										m_comparisonOp = 0
+										m_paramID = 
+										{
+											m_id = 2062641689
+										}
+										m_comparisonValue = 
+										{
+											m_nType = 2
+											m_data = 3
+										}
+									},
+								]
+								m_blendDuration = 0.2
+								m_destState = 
+								{
+									m_id = 1929708378
+								}
+								m_bReset = true
+								m_resetCycleOption = "Beginning"
+								m_flFixedCycleValue = 0.0
+								m_blendCurve = 
+								{
+									m_vControlPoint1 = [ 0.5, 0.0 ]
+									m_vControlPoint2 = [ 0.5, 1.0 ]
+								}
+								m_bForceFootPlant = false
+								m_bDisabled = false
+							},
+							{
+								_class = "CAnimStateTransition"
+								m_conditions = 
+								[
+									{
+										_class = "CPathStatusCondition"
+										m_comparisonOp = 0
+										m_optionToCheck = "PathStatus_HasPath"
+										m_bComparisonValue = false
+									},
+									{
+										_class = "CParameterAnimCondition"
+										m_comparisonOp = 0
+										m_paramID = 
+										{
+											m_id = 2062641689
+										}
+										m_comparisonValue = 
+										{
+											m_nType = 2
+											m_data = 4
+										}
+									},
+									{
+										_class = "CFinishedCondition"
+										m_comparisonOp = 0
+										m_option = "FinishedConditionOption_OnFinished"
+										m_bIsFinished = true
+									},
+								]
+								m_blendDuration = 0.2
+								m_destState = 
+								{
+									m_id = 582227876
 								}
 								m_bReset = true
 								m_resetCycleOption = "Beginning"
@@ -1222,6 +1377,40 @@
 								m_bForceFootPlant = false
 								m_bDisabled = false
 							},
+							{
+								_class = "CAnimStateTransition"
+								m_conditions = 
+								[
+									{
+										_class = "CParameterAnimCondition"
+										m_comparisonOp = 0
+										m_paramID = 
+										{
+											m_id = 2062641689
+										}
+										m_comparisonValue = 
+										{
+											m_nType = 2
+											m_data = 3
+										}
+									},
+								]
+								m_blendDuration = 0.2
+								m_destState = 
+								{
+									m_id = 1929708378
+								}
+								m_bReset = true
+								m_resetCycleOption = "Beginning"
+								m_flFixedCycleValue = 0.0
+								m_blendCurve = 
+								{
+									m_vControlPoint1 = [ 0.5, 0.0 ]
+									m_vControlPoint2 = [ 0.5, 1.0 ]
+								}
+								m_bForceFootPlant = false
+								m_bDisabled = false
+							},
 						]
 						m_tags = [  ]
 						m_tagBehaviors = [  ]
@@ -1234,7 +1423,55 @@
 						{
 							m_id = 1368204466
 						}
-						m_position = [ -181.0, -150.0 ]
+						m_position = [ -165.0, -149.0 ]
+						m_bIsStartState = false
+						m_bIsEndtState = false
+						m_bIsPassthrough = false
+						m_bIsRootMotionExclusive = false
+					},
+					{
+						_class = "CAnimState"
+						m_transitions = 
+						[
+							{
+								_class = "CAnimStateTransition"
+								m_conditions = 
+								[
+									{
+										_class = "CTimeCondition"
+										m_comparisonOp = 3
+										m_comparisonValue = 5.0
+									},
+								]
+								m_blendDuration = 0.2
+								m_destState = 
+								{
+									m_id = 733696740
+								}
+								m_bReset = true
+								m_resetCycleOption = "Beginning"
+								m_flFixedCycleValue = 0.0
+								m_blendCurve = 
+								{
+									m_vControlPoint1 = [ 0.5, 0.0 ]
+									m_vControlPoint2 = [ 0.5, 1.0 ]
+								}
+								m_bForceFootPlant = false
+								m_bDisabled = false
+							},
+						]
+						m_tags = [  ]
+						m_tagBehaviors = [  ]
+						m_name = "Dance"
+						m_childNodeID = 
+						{
+							m_id = 1209670010
+						}
+						m_stateID = 
+						{
+							m_id = 509876389
+						}
+						m_position = [ -377.0, -300.0 ]
 						m_bIsStartState = false
 						m_bIsEndtState = false
 						m_bIsPassthrough = false
@@ -1273,16 +1510,64 @@
 						]
 						m_tags = [  ]
 						m_tagBehaviors = [  ]
-						m_name = "Dance"
+						m_name = "Cellphone"
 						m_childNodeID = 
 						{
-							m_id = 1209670010
+							m_id = 1404102826
 						}
 						m_stateID = 
 						{
-							m_id = 509876389
+							m_id = 1929708378
 						}
-						m_position = [ -377.0, -300.0 ]
+						m_position = [ -83.0, -329.0 ]
+						m_bIsStartState = false
+						m_bIsEndtState = false
+						m_bIsPassthrough = false
+						m_bIsRootMotionExclusive = false
+					},
+					{
+						_class = "CAnimState"
+						m_transitions = 
+						[
+							{
+								_class = "CAnimStateTransition"
+								m_conditions = 
+								[
+									{
+										_class = "CTimeCondition"
+										m_comparisonOp = 3
+										m_comparisonValue = 3.0
+									},
+								]
+								m_blendDuration = 0.2
+								m_destState = 
+								{
+									m_id = 733696740
+								}
+								m_bReset = true
+								m_resetCycleOption = "Beginning"
+								m_flFixedCycleValue = 0.0
+								m_blendCurve = 
+								{
+									m_vControlPoint1 = [ 0.5, 0.0 ]
+									m_vControlPoint2 = [ 0.5, 1.0 ]
+								}
+								m_bForceFootPlant = false
+								m_bDisabled = false
+							},
+						]
+						m_tags = [  ]
+						m_tagBehaviors = [  ]
+						m_name = "Howl"
+						m_childNodeID = 
+						{
+							m_id = 1044169480
+						}
+						m_stateID = 
+						{
+							m_id = 582227876
+						}
+						m_position = [ -48.0, -286.0 ]
 						m_bIsStartState = false
 						m_bIsEndtState = false
 						m_bIsPassthrough = false
@@ -1371,7 +1656,7 @@
 			{
 				_class = "CSequenceAnimNode"
 				m_sName = "Unnamed"
-				m_vecPosition = [ 69.0, -18.0 ]
+				m_vecPosition = [ 51.0, -41.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1209670010
@@ -1484,6 +1769,27 @@
 				m_networkMode = "ServerAuthoritative"
 				m_tagSpans = [  ]
 				m_sequenceName = "walk_90"
+				m_playbackSpeed = 1.0
+				m_bLoop = false
+			}
+		},
+		{
+			key = 
+			{
+				m_id = 1404102826
+			}
+			value = 
+			{
+				_class = "CSequenceAnimNode"
+				m_sName = "Unnamed"
+				m_vecPosition = [ 86.0, 132.0 ]
+				m_nNodeID = 
+				{
+					m_id = 1404102826
+				}
+				m_networkMode = "ServerAuthoritative"
+				m_tagSpans = [  ]
+				m_sequenceName = "cellphone_idle"
 				m_playbackSpeed = 1.0
 				m_bLoop = false
 			}
@@ -1605,7 +1911,7 @@
 					m_id = 1944813602
 				}
 				m_networkMode = "ServerAuthoritative"
-				m_commentText = "The new Turn state in the state maching has multiple transitions to and from both Idle and Move, each with multiple conditions.  Conditions on the same transition must all be true for the transition to be taken, and since we want to trigger a turn when the look target is less than -50 degress OR greater than 50 degrees (which can\'t BOTH be true at the same time) we use two transitions.  \n\nThe Turn state has the Exclusive Root Motion option enabled.  This is because we want to make sure that we don\'t blend the root motion from the Idle or Move states when turning; otherwise the amount that the character turns would not be enough.  "
+				m_commentText = "State machine where we can compare enum or other parameters with input from game code"
 				m_size = [ 439.0, 486.0 ]
 				m_color = [ 100, 149, 237, 255 ]
 			}

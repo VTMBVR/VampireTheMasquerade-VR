@@ -47,11 +47,11 @@
 						base_forward_min = 0.0
 						base_forward_max = 0.0
 						base_forward_friction = 0.0
-						yaw_stiffness = 100.0
+						yaw_stiffness = 60.0
 						yaw_damping = 8.0
-						pitch_stiffness = 100.0
+						pitch_stiffness = 60.0
 						pitch_damping = 8.0
-						along_stiffness = 100.0
+						along_stiffness = 60.0
 						along_damping = 8.0
 						radius0 = 1.0
 						radius1 = 2.884589

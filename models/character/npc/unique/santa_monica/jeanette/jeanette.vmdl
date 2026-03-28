@@ -1382,6 +1382,6 @@
 		]
 		model_archetype = "generic_actor_model"
 		primary_associated_entity = "generic_actor"
-		anim_graph_name = "animgraphs/jeanetter2_dance.vanmgrph"
+		anim_graph_name = "animgraphs/shared_female.vanmgrph"
 	}
 }
