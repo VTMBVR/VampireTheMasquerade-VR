@@ -1,0 +1,7 @@
+1. Add animation clip to animgraph
+2. Add new value for misc_anim_clip (enum)
+3. Create new state in state machine 
+4. Create new transition in state machine (else if no code)
+5. Connect anim clip with input at state machine
+6. Place trigger_multiply on map
+7. On start touching must fire event to !caller with SetAnimGraphParameter and overwrite with misc_anim_clip=%anim_clip_name%
