@@ -276,6 +276,7 @@
 	m_previewModels = 
 	[
 		"models/character/npc/unique/santa_monica/therese/therese.vmdl",
+		"models/character/npc/unique/santa_monica/jeanette/jeanette.vmdl",
 	]
 	m_nodes = 
 	[
@@ -1440,7 +1441,7 @@
 									{
 										_class = "CTimeCondition"
 										m_comparisonOp = 3
-										m_comparisonValue = 5.0
+										m_comparisonValue = 10.0
 									},
 								]
 								m_blendDuration = 0.2
