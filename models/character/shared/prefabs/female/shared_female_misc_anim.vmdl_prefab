@@ -3968,9 +3968,9 @@
 								extract_ty = true
 								extract_tz = false
 								extract_rz = false
-								linear = false
+								linear = true
 								quadratic = false
-								root_bone_name = "bip01_l_foot"
+								root_bone_name = "bip01_pelvis"
 								motion_type = "Uniform"
 							},
 							{

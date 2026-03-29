@@ -325,7 +325,7 @@
 							useSmoothPaths = true
 							useMotionDamping = false
 							sharpStartAngle = 180.0
-							m_vTraceScale = [ 1.0, 1.0, 1.0 ]
+							m_vTraceScale = [ 5.0, 1.0, 1.0 ]
 						}
 					},
 				]

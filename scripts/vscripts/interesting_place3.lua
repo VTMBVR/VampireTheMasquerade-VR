@@ -3,6 +3,26 @@
 -- This script makes the character 'therese_dance' move to dance spots when it enters an Idle state.
 ----------------------------------------------------------------------------------------------------
 
+
+
+
+local flRepathTime = 1.0
+
+-- The last game time a new path was created
+local flLastPathTime = 0.0
+
+-- The closest that the entity should get to the player
+local flMinPlayerDist = 100
+
+-- The farthest the entity should get to the player
+local flMaxPlayerDist = 250
+
+-- The maximum distance away from the navigation goal that a path can be considered successful
+local flNavGoalTolerance = 250
+
+
+
+
 --=============================
 -- Spawn is called by the engine whenever a new instance of an entity is created.  
 -- Any setup code specific to this entity can go here
@@ -46,7 +66,7 @@ end
 --=============================
 function MoveToNextSpot()
     -- Find all dance spots within a radius of our current position
-    local nearbySpots = Entities:FindAllByNameWithin("iplace_*", thisEntity:GetAbsOrigin(), 500)
+    local nearbySpots = Entities:FindAllByNameWithin("iplace_*", thisEntity:GetAbsOrigin(), 1000)
     
     if #nearbySpots == 0 then
         print("No dance spots found within 1000 units.")
@@ -93,12 +113,17 @@ function MoveToNextSpot()
                 
                 -- Set the target position to this spot
                 local targetPosition = spot:GetAbsOrigin()
+
+                	-- Find the vector from this entity to the target
+	                local vVecToTargetNorm = ( spot:GetAbsOrigin() - thisEntity:GetAbsOrigin() ):Normalized()
                 
                 -- Move towards the target position using pathfinding
                 local bShouldRun = false -- Whether to run or walk
-                local flNavGoalTolerance = 250.0 -- How close we need to be to consider it a success
+                --local flNavGoalTolerance = 250 -- How close we need to be to consider it a success
                 
-                thisEntity:NpcForceGoPosition(targetPosition, bShouldRun, flNavGoalTolerance)
+                local vGoalPos = spot:GetAbsOrigin() - ( vVecToTargetNorm * flMinPlayerDist );
+
+                thisEntity:NpcForceGoPosition(vGoalPos, bShouldRun, flNavGoalTolerance)
                 
                 -- Perform the action at this spot (e.g., dance, wave)
                 --PerformAction()
