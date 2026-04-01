@@ -1,155 +1,188 @@
 ----------------------------------------------------------------------------------------------------
--- Example script for a character's self-control in HL:A Workshop sample content
--- This script makes the character 'therese_dance' move to dance spots when it enters an Idle state.
+-- Super-debug script: logs every variable and condition
 ----------------------------------------------------------------------------------------------------
 
+function Spawn() end
 
-
-
-local flRepathTime = 1.0
-
--- The last game time a new path was created
-local flLastPathTime = 0.0
-
--- The closest that the entity should get to the target
-local flMinPlayerDist = 1
-
--- The farthest the entity should get to the player
-local flMaxPlayerDist = 250
-
--- The maximum distance away from the navigation goal that a path can be considered successful
-local flNavGoalTolerance = 250
-
-
-
-
---=============================
--- Spawn is called by the engine whenever a new instance of an entity is created.  
--- Any setup code specific to this entity can go here
---=============================
-function Spawn() 
-    -- We don't need a think function because we're not constantly checking for conditions.
-end
-
---=============================
--- Activate is called by the engine after Spawn() and, if Spawn() occurred 
--- during a map's initial load, after all other entities have been spawned too.  
--- Any setup code that requires interacting with other entities should go here
---=============================
 function Activate()
-    -- Register a function to receive callbacks from the AnimGraph of this entity
-    -- This is called directly on 'thisEntity' because it inherits from CBaseAnimating.
-    thisEntity:RegisterAnimTagListener( AnimTagListener )
-end
-
---=============================
--- Callback function for AnimGraph Tag events.
--- This is where you get notified when an AnimTag fires in the AnimGraph.
--- We are only interested in the "Idle" tag to start our patrol.
---=============================
-function AnimTagListener( sTagName, nStatus )
-    -- Check if the 'Idle' tag fired
-    if sTagName == "Idle" and nStatus == 1 then
-        -- The character has entered or is currently in the Idle state.
-        -- This is a good time to start our patrol logic after a delay.
-        
-        print("Character entered Idle state. Starting patrol sequence...")
-        
-        -- Use SetContextThink to call MoveToNextSpot() after 3 seconds.
-        -- A negative value for 'delay' means "call this function in X seconds".
-        thisEntity:SetContextThink(nil, MoveToNextSpot, 3.0)
-    end
-end
-
---=============================
--- Function to move to the next target spot in the patrol list
---=============================
-function MoveToNextSpot()
-    -- Find all dance spots within a radius of our current position
-    local nearbySpots = Entities:FindAllByNameWithin("iplace_*", thisEntity:GetAbsOrigin(), 1000)
+    thisEntity:RegisterAnimTagListener(AnimTagListener)
+    print("[DEBUG] ========== NPC ACTIVATED ==========")
+    print("[DEBUG] NPC name: " .. thisEntity:GetName())
+    print("[DEBUG] NPC class: " .. thisEntity:GetClassname())
+    print("[DEBUG] NPC position: " .. tostring(thisEntity:GetAbsOrigin()))
     
-    if #nearbySpots == 0 then
-        print("No dance spots found within 1000 units.")
-        
-        -- If no spots are near, go back to idle and try again later
-        return
+    -- AI status
+    if thisEntity.IsAIEnabled then
+        print("[DEBUG] AI enabled: " .. tostring(thisEntity:IsAIEnabled()))
+    else
+        print("[DEBUG] IsAIEnabled method not available.")
     end
-
-    -- Loop through the nearby spots to find one that is not already close
-    for i, spot in ipairs(nearbySpots) do
-        local dist = (spot:GetAbsOrigin() - thisEntity:GetAbsOrigin()):Length()
-        
-        -- If we are more than 10 units away from a dance spot, it's a valid target.
-        if dist > 5 then
-            print("Found nearby dance spot: " .. spot:GetName())
-            
-            -- Check if any npc is at this spot
-            local npcs = Entities:FindAllByClassname("generic_actor")
-            
-            -- Loop through all players to see if one is close to the target spot
-            for _, player in ipairs(npcs) do
-                local playerDist = (spot:GetAbsOrigin() - player:GetAbsOrigin()):Length()
-                
-                -- If a player is within 5 units of the dance spot, it's occupied.
-                if playerDist < 2 then
-                    print("The spot is occupied by a player. Skipping...")
-                    break
-                end
-            end
-            
-            -- Check if we broke out of the inner loop due to an occupied spot
-            local isOccupied = false
-            for _, player in ipairs(npcs) do
-                local playerDist = (spot:GetAbsOrigin() - player:GetAbsOrigin()):Length()
-                if playerDist < 5 then
-                    isOccupied = true
-                    break
-                end
-            end
-            
-            -- If the spot is not occupied, proceed with moving to it.
-            if not isOccupied then
-                print("The spot is clear! Moving to " .. spot:GetName())
-                
-                -- Set the target position to this spot
-                local targetPosition = spot:GetAbsOrigin()
-
-                	-- Find the vector from this entity to the target
-	                local vVecToTargetNorm = ( spot:GetAbsOrigin() - thisEntity:GetAbsOrigin() ):Normalized()
-                
-                -- Move towards the target position using pathfinding
-                local bShouldRun = false -- Whether to run or walk
-                --local flNavGoalTolerance = 250 -- How close we need to be to consider it a success
-                
-                local vGoalPos = spot:GetAbsOrigin() - ( vVecToTargetNorm * flMinPlayerDist );
-
-                thisEntity:NpcForceGoPosition(vGoalPos, bShouldRun, flNavGoalTolerance)
-                
-                -- Perform the action at this spot (e.g., dance, wave)
-                --PerformAction()
-                
-                -- We found a valid spot, so break out of the loop
-                return
+    if thisEntity.SetAIEnabled then
+        print("[DEBUG] SetAIEnabled method exists.")
+    end
+    
+    -- Movement method dump
+    print("[DEBUG] --- Movement method dump ---")
+    local foundMethods = {}
+    for k, v in pairs(thisEntity) do
+        if type(v) == "function" then
+            local name = string.lower(k)
+            if name:find("move") or name:find("go") or name:find("task") or name:find("position") or name:find("walk") or name:find("run") then
+                table.insert(foundMethods, k)
+                print("[DEBUG] Found method: " .. k)
             end
         end
     end
-
-    -- If we get here, it means all nearby dance spots are either too close or occupied.
-    print("All nearby dance spots are within 10 units or occupied. No action needed.")
+    if #foundMethods == 0 then
+        print("[DEBUG] No movement-related methods found!")
+    end
+    
+    print("[DEBUG] NpcForceGoPosition exists: " .. tostring(thisEntity.NpcForceGoPosition ~= nil))
+    print("[DEBUG] SetGoalPosition exists: " .. tostring(thisEntity.SetGoalPosition ~= nil))
+    print("[DEBUG] AddTask exists: " .. tostring(thisEntity.AddTask ~= nil))
+    print("[DEBUG] MoveToPosition exists: " .. tostring(thisEntity.MoveToPosition ~= nil))
+    print("[DEBUG] --- End method dump ---")
+    
+    -- NavMesh check
+    if NavMesh then
+        print("[DEBUG] NavMesh global exists.")
+        if NavMesh.IsPointOnNavMesh then
+            local onNav = NavMesh.IsPointOnNavMesh(thisEntity:GetAbsOrigin())
+            print("[DEBUG] NPC on nav mesh: " .. tostring(onNav))
+        else
+            print("[DEBUG] NavMesh.IsPointOnNavMesh not available.")
+        end
+    else
+        print("[DEBUG] NavMesh global not available.")
+    end
+    
+    -- Movement type
+    if thisEntity.GetMoveType then
+        print("[DEBUG] Move type: " .. tostring(thisEntity:GetMoveType()))
+    end
+    if thisEntity.GetMaxSpeed then
+        print("[DEBUG] Max speed: " .. tostring(thisEntity:GetMaxSpeed()))
+    end
+    if thisEntity.GetVelocity then
+        print("[DEBUG] Current velocity: " .. tostring(thisEntity:GetVelocity()))
+    end
+    
+    print("[DEBUG] ========== END ACTIVATE ==========")
 end
 
+function AnimTagListener(sTagName, nStatus)
+    print("[DEBUG] AnimTagListener: tag=" .. sTagName .. ", status=" .. nStatus)
+    if sTagName == "Idle" and nStatus == 1 then
+        print("[DEBUG] NPC entered Idle state. Starting patrol...")
+        thisEntity:SetContextThink(nil, MoveToNextSpot, 0.1)
+    end
+end
 
-
---=============================
--- Function to perform an action at the current spot (e.g., dance, wave)
---=============================
-function PerformAction()
-    -- This is where you would play a specific animation based on the spot's action.
-    -- For example:
-    thisEntity:SetGraphParameter("misc_anim_clip", "dance01")
+function MoveToNextSpot()
+    print("[DEBUG] ========== MoveToNextSpot called ==========")
+    local myPos = thisEntity:GetAbsOrigin()
+    print("[DEBUG] myPos = " .. tostring(myPos))
     
-    -- Set a flag to indicate the action is complete after a short delay.
-    timer.Simple(5.0, function() 
-        print("Action completed.")
-    end)
+    -- Find spots
+    local nearbySpots = Entities:FindAllByNameWithin("iplace_*", myPos, 1000)
+    print("[DEBUG] #nearbySpots = " .. #nearbySpots)
+    for i, spot in ipairs(nearbySpots) do
+        print("[DEBUG] Spot " .. i .. ": " .. spot:GetName() .. " at " .. tostring(spot:GetAbsOrigin()))
+    end
+    
+    if #nearbySpots == 0 then
+        print("[DEBUG] No spots found, returning 1.0")
+        return 1.0
+    end
+
+    local npcs = Entities:FindAllByClassname("generic_actor")
+    print("[DEBUG] #npcs = " .. #npcs)
+    
+    for _, spot in ipairs(nearbySpots) do
+        local spotPos = spot:GetAbsOrigin()
+        local dist = (spotPos - myPos):Length()
+        print("[DEBUG] Checking spot " .. spot:GetName() .. ", dist=" .. dist)
+        
+        if dist > 10.0 then
+            print("[DEBUG] Spot is far enough (dist > 10).")
+            local occupied = false
+            for _, other in ipairs(npcs) do
+                if other ~= thisEntity then
+                    local otherPos = other:GetAbsOrigin()
+                    local otherDist = (spotPos - otherPos):Length()
+                    print("[DEBUG]   Other NPC " .. other:GetName() .. " distance to spot: " .. otherDist)
+                    if otherDist < 50.0 then
+                        occupied = true
+                        print("[DEBUG]   -> Spot occupied by " .. other:GetName())
+                        break
+                    end
+                end
+            end
+            if not occupied then
+                print("[DEBUG] Spot is free. Attempting to move to " .. spot:GetName() .. " at " .. tostring(spotPos))
+                
+                -- Try methods in order
+                local success = false
+                if thisEntity.MoveToPosition then
+                    print("[DEBUG] Trying MoveToPosition")
+                    thisEntity:MoveToPosition(spotPos)
+                    success = true
+                    print("[DEBUG] MoveToPosition called")
+                elseif thisEntity.SetGoalPosition then
+                    print("[DEBUG] Trying SetGoalPosition")
+                    thisEntity:SetGoalPosition(spotPos)
+                    success = true
+                    print("[DEBUG] SetGoalPosition called")
+                elseif thisEntity.AddTask then
+                    print("[DEBUG] Trying AddTask")
+                    thisEntity:AddTask("MoveTo", { target = spotPos, tolerance = 50.0 })
+                    success = true
+                    print("[DEBUG] AddTask called")
+                elseif thisEntity.NpcForceGoPosition then
+                    print("[DEBUG] Trying NpcForceGoPosition")
+                    local result = thisEntity:NpcForceGoPosition(spotPos, false, 50.0)
+                    print("[DEBUG] NpcForceGoPosition returned: " .. tostring(result))
+                    success = true
+                end
+                
+                if not success then
+                    print("[ERROR] No movement method worked!")
+                    return 1.0
+                end
+                
+                -- Check arrival
+                print("[DEBUG] Setting up arrival check")
+                thisEntity:SetContextThink("CheckArrival", function()
+                    local curPos = thisEntity:GetAbsOrigin()
+                    local d = (curPos - spotPos):Length()
+                    print("[DEBUG] Arrival check: distance = " .. d)
+                    if d <= 50.0 then
+                        print("[DEBUG] Arrived at " .. spot:GetName())
+                        PerformAction()
+                        return nil
+                    end
+                    return 0.5
+                end, 0.5)
+                print("[DEBUG] Arrival check scheduled")
+                return nil
+            else
+                print("[DEBUG] Spot occupied, skipping")
+            end
+        else
+            print("[DEBUG] Spot too close (dist <= 10), skipping")
+        end
+    end
+    
+    print("[DEBUG] No suitable spot found, returning 1.0")
+    return 1.0
+end
+
+function PerformAction()
+    print("[DEBUG] Dancing...")
+    thisEntity:SetGraphParameter("misc_anim_clip", "dance01")
+    thisEntity:SetContextThink("FinishAction", function()
+        print("[DEBUG] Dance finished.")
+        thisEntity:SetContextThink(nil, MoveToNextSpot, 0.1)
+        return nil
+    end, 5.0)
 end
