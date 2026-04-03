@@ -1,155 +1,192 @@
 ----------------------------------------------------------------------------------------------------
--- Example script for a character's self-control in HL:A Workshop sample content
--- This script makes the character 'therese_dance' move to dance spots when it enters an Idle state.
+-- HL:A Lua 5.1 SAFE VERSION
 ----------------------------------------------------------------------------------------------------
 
-
-
-
-local flRepathTime = 1.0
-
--- The last game time a new path was created
-local flLastPathTime = 0.0
-
--- The closest that the entity should get to the target
 local flMinPlayerDist = 1
-
--- The farthest the entity should get to the player
-local flMaxPlayerDist = 250
-
--- The maximum distance away from the navigation goal that a path can be considered successful
 local flNavGoalTolerance = 250
+local bIsMoving = false
 
 
-
-
---=============================
--- Spawn is called by the engine whenever a new instance of an entity is created.  
--- Any setup code specific to this entity can go here
---=============================
-function Spawn() 
-    -- We don't need a think function because we're not constantly checking for conditions.
+function Spawn()
+    print("[Spawn] " .. thisEntity:GetName())
 end
 
---=============================
--- Activate is called by the engine after Spawn() and, if Spawn() occurred 
--- during a map's initial load, after all other entities have been spawned too.  
--- Any setup code that requires interacting with other entities should go here
---=============================
+
 function Activate()
-    -- Register a function to receive callbacks from the AnimGraph of this entity
-    -- This is called directly on 'thisEntity' because it inherits from CBaseAnimating.
-    thisEntity:RegisterAnimTagListener( AnimTagListener )
+    print("[Activate] " .. thisEntity:GetName())
+    CheckAINodesForDuplicateIDs()
+    thisEntity:RegisterAnimTagListener(AnimTagListener)
 end
 
---=============================
--- Callback function for AnimGraph Tag events.
--- This is where you get notified when an AnimTag fires in the AnimGraph.
--- We are only interested in the "Idle" tag to start our patrol.
---=============================
-function AnimTagListener( sTagName, nStatus )
-    -- Check if the 'Idle' tag fired
-    if sTagName == "Idle" and nStatus == 1 then
-        -- The character has entered or is currently in the Idle state.
-        -- This is a good time to start our patrol logic after a delay.
-        
-        print("Character entered Idle state. Starting patrol sequence...")
-        
-        -- Use SetContextThink to call MoveToNextSpot() after 3 seconds.
-        -- A negative value for 'delay' means "call this function in X seconds".
-        thisEntity:SetContextThink(nil, MoveToNextSpot, 3.0)
+
+function CheckAINodesForDuplicateIDs()
+
+    local aNodes = {}
+    local classesToCheck = { "ai_basenode", "ai_node", "npc_ai_node", "node" }
+
+    for _, className in ipairs(classesToCheck) do
+        local nodes = Entities:FindAllByClassname(className)
+        for _, node in ipairs(nodes) do
+            table.insert(aNodes, node)
+        end
+    end
+
+    local namedNodes = Entities:FindAllByName("node_*")
+    for _, node in ipairs(namedNodes) do
+        table.insert(aNodes, node)
+    end
+
+    local nodeIDs = {}
+
+    for _, node in ipairs(aNodes) do
+
+        local nodeID = nil
+
+        if node.GetNodeID then
+            nodeID = node:GetNodeID()
+        elseif node.m_iNodeID then
+            nodeID = node.m_iNodeID
+        elseif node.GetGraphNodeID then
+            nodeID = node:GetGraphNodeID()
+        end
+
+        if nodeID then
+            if nodeIDs[nodeID] then
+                print("[WARNING] Duplicate nodeID: " .. nodeID)
+            else
+                nodeIDs[nodeID] = node
+            end
+        end
     end
 end
 
---=============================
--- Function to move to the next target spot in the patrol list
---=============================
+
+function AnimTagListener(sTagName, nStatus)
+
+    if sTagName == "Idle" and nStatus == 1 then
+        thisEntity:SetContextThink("MoveToNextSpotThink", MoveToNextSpotThink, 3.0)
+    end
+
+    if sTagName == "Idle" and nStatus == 0 then
+        bIsMoving = false
+    end
+end
+
+
+function MoveToNextSpotThink()
+    MoveToNextSpot()
+    return nil
+end
+
+
 function MoveToNextSpot()
-    -- Find all dance spots within a radius of our current position
-    local nearbySpots = Entities:FindAllByNameWithin("iplace_*", thisEntity:GetAbsOrigin(), 1000)
-    
-    if #nearbySpots == 0 then
-        print("No dance spots found within 1000 units.")
-        
-        -- If no spots are near, go back to idle and try again later
+
+    if bIsMoving then
         return
     end
 
-    -- Loop through the nearby spots to find one that is not already close
-    for i, spot in ipairs(nearbySpots) do
-        local dist = (spot:GetAbsOrigin() - thisEntity:GetAbsOrigin()):Length()
-        
-        -- If we are more than 10 units away from a dance spot, it's a valid target.
-        if dist > 5 then
-            print("Found nearby dance spot: " .. spot:GetName())
-            
-            -- Check if any npc is at this spot
-            local npcs = Entities:FindAllByClassname("generic_actor")
-            
-            -- Loop through all players to see if one is close to the target spot
-            for _, player in ipairs(npcs) do
-                local playerDist = (spot:GetAbsOrigin() - player:GetAbsOrigin()):Length()
-                
-                -- If a player is within 5 units of the dance spot, it's occupied.
-                if playerDist < 2 then
-                    print("The spot is occupied by a player. Skipping...")
-                    break
-                end
-            end
-            
-            -- Check if we broke out of the inner loop due to an occupied spot
+    local nearbySpots = Entities:FindAllByNameWithin(
+        "iplace_*",
+        thisEntity:GetAbsOrigin(),
+        1000
+    )
+
+    if #nearbySpots == 0 then
+        thisEntity:SetContextThink("RetryMoveThink", RetryMoveThink, 5.0)
+        return
+    end
+
+    local selectedSpot = nil
+
+    for _, spot in ipairs(nearbySpots) do
+
+        local spotPos = spot:GetAbsOrigin()
+        local distToSpot = (spotPos - thisEntity:GetAbsOrigin()):Length()
+
+        if distToSpot > 5 then
+
+            local allNPCs = Entities:FindAllByClassname("generic_actor")
             local isOccupied = false
-            for _, player in ipairs(npcs) do
-                local playerDist = (spot:GetAbsOrigin() - player:GetAbsOrigin()):Length()
-                if playerDist < 5 then
-                    isOccupied = true
-                    break
+
+            for _, npc in ipairs(allNPCs) do
+                if npc ~= thisEntity then
+                    local npcPos = npc:GetAbsOrigin()
+                    local d = (spotPos - npcPos):Length()
+                    if d < 5 then
+                        isOccupied = true
+                        break
+                    end
                 end
             end
-            
-            -- If the spot is not occupied, proceed with moving to it.
+
             if not isOccupied then
-                print("The spot is clear! Moving to " .. spot:GetName())
-                
-                -- Set the target position to this spot
-                local targetPosition = spot:GetAbsOrigin()
-
-                	-- Find the vector from this entity to the target
-	                local vVecToTargetNorm = ( spot:GetAbsOrigin() - thisEntity:GetAbsOrigin() ):Normalized()
-                
-                -- Move towards the target position using pathfinding
-                local bShouldRun = false -- Whether to run or walk
-                --local flNavGoalTolerance = 250 -- How close we need to be to consider it a success
-                
-                local vGoalPos = spot:GetAbsOrigin() - ( vVecToTargetNorm * flMinPlayerDist );
-
-                thisEntity:NpcForceGoPosition(vGoalPos, bShouldRun, flNavGoalTolerance)
-                
-                -- Perform the action at this spot (e.g., dance, wave)
-                --PerformAction()
-                
-                -- We found a valid spot, so break out of the loop
-                return
+                selectedSpot = spot
+                break
             end
         end
     end
 
-    -- If we get here, it means all nearby dance spots are either too close or occupied.
-    print("All nearby dance spots are within 10 units or occupied. No action needed.")
+    if not selectedSpot then
+        thisEntity:SetContextThink("RetryMoveThink", RetryMoveThink, 5.0)
+        return
+    end
+
+    local targetPos = selectedSpot:GetAbsOrigin()
+    local dir = (targetPos - thisEntity:GetAbsOrigin()):Normalized()
+    local goalPos = targetPos - (dir * flMinPlayerDist)
+
+    bIsMoving = true
+
+    local result = thisEntity:NpcForceGoPosition(goalPos, false, flNavGoalTolerance)
+
+    if result then
+        thisEntity:SetContextThink("CheckArrivalThink", CheckArrivalThink, 0.5)
+    else
+        bIsMoving = false
+        thisEntity:SetContextThink("RetryMoveThink", RetryMoveThink, 5.0)
+    end
 end
 
 
+function RetryMoveThink()
+    MoveToNextSpot()
+    return nil
+end
 
---=============================
--- Function to perform an action at the current spot (e.g., dance, wave)
---=============================
-function PerformAction()
-    -- This is where you would play a specific animation based on the spot's action.
-    -- For example:
+
+function CheckArrivalThink()
+    return CheckArrival(CurrentSpot)
+end
+
+
+function CheckArrival(spot)
+
+    if not spot or not spot:IsValid() then
+        bIsMoving = false
+        return nil
+    end
+
+    local dist = (spot:GetAbsOrigin() - thisEntity:GetAbsOrigin()):Length()
+
+    if dist < flMinPlayerDist + 10 then
+        PerformAction(spot)
+        bIsMoving = false
+        return nil
+    end
+
+    return 0.5
+end
+
+
+function PerformAction(spot)
+
     thisEntity:SetGraphParameter("misc_anim_clip", "dance01")
-    
-    -- Set a flag to indicate the action is complete after a short delay.
-    timer.Simple(5.0, function() 
-        print("Action completed.")
-    end)
+
+    thisEntity:SetContextThink("FinishActionThink", FinishActionThink, 5.0)
+end
+
+
+function FinishActionThink()
+    thisEntity:SetGraphParameter("misc_anim_clip", "")
+    return nil
 end
