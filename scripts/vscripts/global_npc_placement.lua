@@ -18,12 +18,11 @@ function Spawn()
 end
 
 --=============================
--- Activate is called by the engine after Spawn() and, if Spawn() occurred 
--- during a map's initial load, after all other entities have been spawned too.  
--- Any setup code that requires interacting with other entities should go here
+-- Activate is called by the engine after Spawn() and during map load if Spawn() occurred 
+-- during a map's initial loading phase. Any setup code requiring other entities should go here
 --=============================
 function Activate()
-    -- For global scripts, we might want to do some initialization here as well
+    -- For global scripts, this might be used for additional initialization
     print("Global NPC Placement Script activated.")
 end
 
@@ -34,15 +33,15 @@ end
 function InitializeNPCPlacement()
     print("Starting global NPC placement...")
     
-    -- Get all NPCs in the map (generic_actor class)
-    local npcs = Entities:FindAllByClassname("generic_actor")
+    -- Get all NPCs in the map (entities with names starting with "npc_")
+    local npcs = Entities:FindAllByName("npc_*")
     print("Found " .. #npcs .. " NPCs.")
     
     -- Get all interesting places (entities with names starting with "iplace_")
     local interestingPlaces = Entities:FindAllByName("iplace_*")
     print("Found " .. #interestingPlaces .. " interesting places.")
     
-    -- If we have both NPCs and interesting places, assign them
+    -- If we have both NPCs and places, assign them
     if #npcs > 0 and #interestingPlaces > 0 then
         AssignNPCsToPlaces(npcs, interestingPlaces)
     else
@@ -61,35 +60,31 @@ function AssignNPCsToPlaces(npcs, places)
     
     -- Loop through all NPCs and assign them to available places
     for i, npc in ipairs(npcs) do
-        -- Skip if this entity is not a valid NPC or already has an interesting place assigned
-        if npc:GetClassname() == "generic_actor" then
+        -- Get the current position of this NPC (we'll use it for reference)
+        local npcPos = npc:GetAbsOrigin()
+        
+        -- Check if we've run out of places to assign - cycle back to beginning
+        if placeIndex > #places then
+            placeIndex = 1
+        end
+        
+        -- Get the current place to assign
+        local targetPlace = places[placeIndex]
+        
+        -- Check if this place is already occupied by another NPC or player
+        -- This is a basic check - you might want to enhance this based on your needs
+        local isOccupied = IsPlaceOccupied(targetPlace, npcPos)
+        
+        if not isOccupied then
+            print("Assigning NPC " .. npc:GetName() .. " to place: " .. targetPlace:GetName())
             
-            -- Get the current position of this NPC (we'll use it for reference)
-            local npcPos = npc:GetAbsOrigin()
+            -- Move the NPC to the target place
+            MoveNPCToPlace(npc, targetPlace)
             
-            -- Check if we've run out of places to assign - cycle back to beginning
-            if placeIndex > #places then
-                placeIndex = 1
-            end
-            
-            -- Get the current place to assign
-            local targetPlace = places[placeIndex]
-            
-            -- Check if this place is already occupied by another NPC or player
-            -- This is a basic check - you might want to enhance this based on your needs
-            local isOccupied = IsPlaceOccupied(targetPlace, npcPos)
-            
-            if not isOccupied then
-                print("Assigning NPC " .. npc:GetName() .. " to place: " .. targetPlace:GetName())
-                
-                -- Move the NPC to the target place
-                MoveNPCToPlace(npc, targetPlace)
-                
-                -- Increment for next assignment (round-robin style)
-                placeIndex = placeIndex + 1
-            else
-                print("Place " .. targetPlace:GetName() .. " is occupied. Skipping...")
-            end
+            -- Increment for next assignment (round-robin style)
+            placeIndex = placeIndex + 1
+        else
+            print("Place " .. targetPlace:GetName() .. " is occupied. Skipping...")
         end
     end
     
@@ -100,15 +95,18 @@ end
 -- Check if a place is already occupied by another NPC or player
 --=============================
 function IsPlaceOccupied(place, npcPosition)
-    -- Basic check: if there's an NPC within 10 units of the target position,
-    -- assume it might be occupying the spot
+    -- Basic check: look for any NPCs within 5 units of the target position,
+    -- but exclude the current NPC being assigned
     
-    local nearbyNPCs = Entities:FindAllByClassnameWithin("generic_actor", place:GetAbsOrigin(), 250)
+    local nearbyNPCs = Entities:FindAllByName("npc_*")
     
-    for _, npc in ipairs(nearbyNPCs) do
-        local dist = (npc:GetAbsOrigin() - place:GetAbsOrigin()):Length()
-        if dist < 10 then -- If within 10 units, consider it occupied
-            return true
+    for _, entity in ipairs(nearbyNPCs) do
+        if entity:GetName() ~= "" then  -- Make sure it has a name
+            local dist = (entity:GetAbsOrigin() - place:GetAbsOrigin()):Length()
+            -- If within 5 units, consider the place occupied
+            if dist < 5 and entity ~= nil then 
+                return true
+            end
         end
     end
     
@@ -126,10 +124,10 @@ function MoveNPCToPlace(npc, place)
           math.floor(targetPosition.x) .. ", " .. math.floor(targetPosition.y) .. ", " .. math.floor(targetPosition.z) .. ")")
     
     -- Use pathfinding with a reasonable goal tolerance
-    local bShouldRun = false -- Whether to run or walk (can be changed as needed)
-    local flNavGoalTolerance = 100.0 -- How close we need to be to consider it a success
+    local shouldRun = false -- Whether to run or walk (can be changed as needed)
+    local navGoalTolerance = 5.0 -- How close we need to get before considering it reached
     
-    npc:NpcForceGoPosition(targetPosition, bShouldRun, flNavGoalTolerance)
+    npc:NpcForceGoPosition(targetPosition, shouldRun, navGoalTolerance)
     
     -- Optionally set the NPC's animation or state
     -- For example:
@@ -142,7 +140,7 @@ end
 function ReassignNPCs()
     print("Reassigning all NPCs...")
     
-    local npcs = Entities:FindAllByClassname("generic_actor")
+    local npcs = Entities:FindAllByClassname("npc_*")
     local interestingPlaces = Entities:FindAllByName("iplace_*")
     
     if #npcs > 0 and #interestingPlaces > 0 then
@@ -158,7 +156,7 @@ end
 function ListNPCAssignments()
     print("Listing NPC assignments...")
     
-    local npcs = Entities:FindAllByClassname("generic_actor")
+    local npcs = Entities:FindAllByName("npc_*")
     
     for i, npc in ipairs(npcs) do
         if npc:GetName() then
@@ -182,7 +180,14 @@ function SetupGlobalNPCPlacement()
     InitializeNPCPlacement()
 end
 
--- Register the global function for external access
+--=============================
+-- Function to get all NPCs by name pattern (can be used for validation)
+--=============================
+function GetNPCsByNamePattern(pattern)
+    return Entities:FindAllByName(pattern)
+end
+
+-- Register the global functions for external access
 _G.GlobalNPCPlacement = {
     AssignNPCsToPlaces = AssignNPCsToPlaces,
     MoveNPCToPlace = MoveNPCToPlace,
