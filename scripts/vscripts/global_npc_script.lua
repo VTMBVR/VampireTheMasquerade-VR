@@ -1,161 +1,208 @@
---Global Reference Tables
-local npc_master_registry = {}
-local target_node_map = {}
-local active_state_map = {}
-local position_tracking_cache = {}
+----------------------------------------------------------------------------------------------------
+-- Global NPC Placement Script
+-- This script finds all NPCs and interesting places on the map and forces NPCs to move to their positions.
+----------------------------------------------------------------------------------------------------
 
---Optimization Tuning
-local BATCH_SIZE = 4                --Number of NPCs to process per tick(VR Stability)
-local THINK_INTERVAL = 0.5          --Frequency of logic execution in seconds
-local current_cycle_index = 0       --Pointer for staggered iteration
+--=============================
+-- Spawn is called by the engine whenever a new instance of an entity is created.
+-- For global scripts, this might be called for the script's own entity or during initialization
+--=============================
+function Spawn()
+    -- Register a function to run once all entities are activated
+    -- This will happen after Activate() on all entities in the map
+    print("Global NPC Placement Script initialized.")
 
--- Logic Thresholds(Hammer Units)
-local ARRIVAL_TOLERANCE_SQ = 2304   -- 48 units squared(Optimized distance check)
-local STUCK_VELOCITY_MIN = 0.1      --Minimum speed to be considered 'moving'
-local STUCK_TIME_LIMIT = 5.0        --Seconds before forcing a path recalculation
-local IDLE_WAIT_LIMIT = 10.0        --Seconds an NPC stays at a spot before cycling
-
--- [[ HELPER:DEFENSIVE ENTITY VALIDATION ]]
-function IsValidNPC(ent)
-return ent and not ent:IsNull() and ent : IsAlive() and ent : GetHealth() > 0
+    -- FIX: timer.Simple() is a Garry's Mod function and does not exist in Source 2 VScript.
+    -- Replaced with SetContextThink which is the correct Source 2 equivalent.
+    thisEntity:SetContextThink("InitializeNPCPlacement", InitializeNPCPlacement, 1.0)
 end
 
--- [[ STAGE 1:DYNAMIC ENTITY REGISTRY ]]
-function RefreshNPCHandles()
-npc_master_registry = {}
-local ent = Entities:FindByName(nil, "npc_vampire_*")
-while ent do
-if IsValidNPC(ent) then
-table.insert(npc_master_registry, ent)
-end
-ent = Entities : FindByName(ent, "npc_vampire_*")
-end
+--=============================
+-- Activate is called by the engine after Spawn() and during map load if Spawn() occurred
+-- during a map's initial loading phase. Any setup code requiring other entities should go here
+--=============================
+function Activate()
+    -- For global scripts, this might be used for additional initialization
+    print("Global NPC Placement Script activated.")
 end
 
--- [[ STAGE 2:NODE MAP SYNCHRONIZATION ]]
-function RefreshNodeRegistry()
-target_node_map = {}
-local node = Entities:FindByName(nil, "interesting_place_*")
-while node do
-table.insert(target_node_map, node)
-node = Entities : FindByName(node, "interesting_place_*")
-end
+--=============================
+-- Main function to initialize NPC placement
+-- This will be called after all entities have been loaded and activated
+--=============================
+function InitializeNPCPlacement()
+    print("Starting global NPC placement...")
+
+    -- Get all NPCs in the map (entities with names starting with "npc_")
+    local npcs = Entities:FindAllByName("npc_*")
+    print("Found " .. #npcs .. " NPCs.")
+
+    -- Get all interesting places (entities with names starting with "iplace_")
+    local interestingPlaces = Entities:FindAllByName("iplace_*")
+    print("Found " .. #interestingPlaces .. " interesting places.")
+
+    -- If we have both NPCs and places, assign them
+    if #npcs > 0 and #interestingPlaces > 0 then
+        AssignNPCsToPlaces(npcs, interestingPlaces)
+    else
+        print("Not enough entities to proceed with NPC placement.")
+    end
+
+    -- Return nil to stop the think from firing again
+    return nil
 end
 
--- [[ STAGE 3:PATHING & STUCK VALIDATOR ]]
-function ValidateNPCMovement(npc, state, idx)
-local current_pos = npc:GetAbsOrigin()
-local dist_sq = (state.goal_pos - current_pos) : LengthSqr()
+--=============================
+-- Function to assign NPCs to interesting places
+--=============================
+function AssignNPCsToPlaces(npcs, places)
+    print("Assigning " .. #npcs .. " NPCs to " .. #places .. " interesting places...")
 
---Check for Arrival
-if dist_sq < ARRIVAL_TOLERANCE_SQ then
-    state.status = "WAITING"
-    state.timestamp = Time()
-else
---Temporal Stuck Detection(Fix for 'HasPath' hangup)
-local velocity = npc:GetVelocity() : Length()
-if velocity < STUCK_VELOCITY_MIN then
-    if not position_tracking_cache[idx] then
-        position_tracking_cache[idx] = { last_pos = current_pos, last_time = Time() }
-        elseif(Time() - position_tracking_cache[idx].last_time) > STUCK_TIME_LIMIT then
-        -- Re - issue pathing if NPC hasn't moved 5 units in 5 seconds
-        if (current_pos - position_tracking_cache[idx].last_pos) : Length() < 5.0 then
-            npc : MoveToPosition(state.goal_pos)
+    -- Create a simple assignment system by cycling through the places for each NPC
+    local placeIndex = 1
+
+    -- Loop through all NPCs and assign them to available places
+    for i, npc in ipairs(npcs) do
+        -- Get the current position of this NPC (we'll use it for reference)
+        local npcPos = npc:GetAbsOrigin()
+
+        -- Check if we've run out of places to assign - cycle back to beginning
+        if placeIndex > #places then
+            placeIndex = 1
+        end
+
+        -- Get the current place to assign
+        local targetPlace = places[placeIndex]
+
+        -- Check if this place is already occupied by another NPC or player
+        -- This is a basic check - you might want to enhance this based on your needs
+        local isOccupied = IsPlaceOccupied(targetPlace, npcPos)
+
+        if not isOccupied then
+            print("Assigning NPC " .. npc:GetName() .. " to place: " .. targetPlace:GetName())
+
+            -- Move the NPC to the target place
+            MoveNPCToPlace(npc, targetPlace)
+
+            -- Increment for next assignment (round-robin style)
+            placeIndex = placeIndex + 1
+        else
+            print("Place " .. targetPlace:GetName() .. " is occupied. Skipping...")
+        end
+    end
+
+    print("NPC placement complete.")
+end
+
+--=============================
+-- Check if a place is already occupied by another NPC or player
+--=============================
+function IsPlaceOccupied(place, npcPosition)
+    -- Basic check: look for any NPCs within 5 units of the target position,
+    -- but exclude the current NPC being assigned
+
+    local nearbyNPCs = Entities:FindAllByName("npc_*")
+
+    for _, entity in ipairs(nearbyNPCs) do
+        -- FIX: original checked entity:GetName() ~= "" but never guarded against IsNull.
+        -- Check IsNull first before calling any methods on the entity.
+        if not entity:IsNull() then
+            local dist = (entity:GetAbsOrigin() - place:GetAbsOrigin()):Length()
+            -- If within 5 units, consider the place occupied
+            if dist < 5 then
+                return true
             end
-            position_tracking_cache[idx] = { last_pos = current_pos, last_time = Time() }
-            end
-            end
-            end
-            end
+        end
+    end
 
-            -- [[ STAGE 4:MASTER LOGIC ENGINE ]]
-            function ProcessGlobalBatch()
-            local total_count = #npc_master_registry
-            if total_count == 0 then return end
-                if #target_node_map == 0 then RefreshNodeRegistry() end
+    return false
+end
 
-                    -- Batch Processing(Staggered frame execution)
-                    for i = 1, BATCH_SIZE do
-                        current_cycle_index = (current_cycle_index % total_count) + 1
-                        local npc = npc_master_registry[current_cycle_index]
+--=============================
+-- Move an NPC to a specific place using pathfinding
+--=============================
+function MoveNPCToPlace(npc, place)
+    local targetPosition = place:GetAbsOrigin()
 
-                        if IsValidNPC(npc) then
-                            local e_idx = npc:GetEntityIndex()
+    -- Print information about the move
+    print("Moving NPC " .. npc:GetName() .. " to position: (" ..
+          math.floor(targetPosition.x) .. ", " .. math.floor(targetPosition.y) .. ", " .. math.floor(targetPosition.z) .. ")")
 
-                            --Assignment Handshake(Anti - Overlap)
-                            if not active_state_map[e_idx] then
-                                for _, node in ipairs(target_node_map) do
-                                    if not node.is_occupied then
-                                        node.is_occupied = true
-                                        active_state_map[e_idx] = {
-                                            target = node,
-                                            goal_pos = node:GetAbsOrigin(),
-                                            status = "MOVING",
-                                            timestamp = Time()
-                                    }
-                                -- NEW: Move the NPC to its target position with run flag and tolerance
-                                local bShouldRun = false   -- walk or run? 0=walk, 1=run
-                                local flNavGoalTolerance = 250.0
-                                npc:NpcForceGoPosition(active_state_map[e_idx].goal_pos, bShouldRun, flNavGoalTolerance)
-                                break
-                            end
-                        end
-                        else
-                                        --Execute State Logic
-                                        local state = active_state_map[e_idx]
-                                        if state.status == "MOVING" then
-                                            ValidateNPCMovement(npc, state, e_idx)
-                                            elseif state.status == "WAITING" then
-                                            if (Time() - state.timestamp) > IDLE_WAIT_LIMIT then
-                                                state.target.is_occupied = false --Release node
-                                                active_state_map[e_idx] = nil
-                                                position_tracking_cache[e_idx] = nil
-                                                end
-                                                end
-                                                end
-                                                end
-                                                end
-                                                end
+    -- Use pathfinding with a reasonable goal tolerance
+    local shouldRun = false -- Whether to run or walk (can be changed as needed)
+    local navGoalTolerance = 5.0 -- How close we need to get before considering it reached
 
-                                                -- [[ STAGE 5:LIFECYCLE MEMORY CLEANUP ]]
-                                                function CleanupOrphanHandles()
-                                                for i = #npc_master_registry, 1, -1 do
-                                                    local unit = npc_master_registry[i]
-                                                    if not unit or unit:IsNull() or not unit : IsAlive() then
-                                                        local id = unit : GetEntityIndex()
-                                                        if active_state_map[id] then
-                                                            active_state_map[id].target.is_occupied = false
-                                                            active_state_map[id] = nil
-                                                            end
-                                                            table.remove(npc_master_registry, i)
-                                                            end
-                                                            end
-                                                            end
+    -- FIX: NpcForceGoPosition is the correct Source 2 method. MoveToPosition does not exist.
+    npc:NpcForceGoPosition(targetPosition, shouldRun, navGoalTolerance)
 
-                                                            -- [[ STAGE 6:ENGINE ENTRY POINT ]]
-                                                            function GlobalManagerThink()
-                                                            if #npc_master_registry == 0 then RefreshNPCHandles() end
+    -- Optionally set the NPC's animation or state
+    -- For example:
+    -- npc:SetGraphParameter("misc_anim_clip", "idle")
+end
 
-                                                                CleanupOrphanHandles()
+--=============================
+-- Optional: Function to reassign NPCs if needed (can be called externally)
+--=============================
+function ReassignNPCs()
+    print("Reassigning all NPCs...")
 
-                                                                --Protected execution to ensure zero runtime crashes
-                                                                local ok, err = pcall(ProcessGlobalBatch)
-                                                                if not ok then
-                                                                    print(">>> [NPC_MANAGER_CRITICAL] Logic Fault: " ..tostring(err))
-                                                                    end
+    -- FIX: was FindAllByClassname("npc_*") â€” wildcards only work with FindAllByName.
+    -- FindAllByClassname does exact matching so "npc_*" would silently return nothing.
+    local npcs = Entities:FindAllByName("npc_*")
+    local interestingPlaces = Entities:FindAllByName("iplace_*")
 
-                                                                    return THINK_INTERVAL
-                                                                    end
+    if #npcs > 0 and #interestingPlaces > 0 then
+        AssignNPCsToPlaces(npcs, interestingPlaces)
+    else
+        print("Not enough entities to reassign NPCs.")
+    end
+end
 
-                                                                    -- Hook for Level Transition to purge global heap
-                                                                    function OnLevelShutdown()
-                                                                    npc_master_registry = {}
-                                                                    active_state_map = {}
-                                                                    position_tracking_cache = {}
-                                                                    print(">>> [SYSTEM] NPC Global Registry successfully purged.")
-                                                                    end
+--=============================
+-- Optional: Function to list all assigned NPCs and their places
+--=============================
+function ListNPCAssignments()
+    print("Listing NPC assignments...")
 
-                                                                    -- Initialize System
-                                                                    print(">>> [NPC MANAGER] Online. Running initial entity scan...")
-                                                                    RefreshNPCHandles()
-                                                                    RefreshNodeRegistry()
+    local npcs = Entities:FindAllByName("npc_*")
+
+    for i, npc in ipairs(npcs) do
+        if npc:GetName() then
+            print("NPC: " .. npc:GetName())
+        end
+    end
+
+    local places = Entities:FindAllByName("iplace_*")
+
+    for i, place in ipairs(places) do
+        if place:GetName() then
+            print("Place: " .. place:GetName())
+        end
+    end
+end
+
+--=============================
+-- Additional initialization function that can be called externally if needed
+--=============================
+function SetupGlobalNPCPlacement()
+    InitializeNPCPlacement()
+end
+
+--=============================
+-- Function to get all NPCs by name pattern (can be used for validation)
+--=============================
+function GetNPCsByNamePattern(pattern)
+    return Entities:FindAllByName(pattern)
+end
+
+-- Register the global functions for external access
+_G.GlobalNPCPlacement = {
+    AssignNPCsToPlaces = AssignNPCsToPlaces,
+    MoveNPCToPlace = MoveNPCToPlace,
+    IsPlaceOccupied = IsPlaceOccupied,
+    ReassignNPCs = ReassignNPCs,
+    ListNPCAssignments = ListNPCAssignments,
+    SetupGlobalNPCPlacement = SetupGlobalNPCPlacement
+}
+
+print("Global NPC Placement module loaded successfully.")
