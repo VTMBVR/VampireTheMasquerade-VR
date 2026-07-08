@@ -3975,7 +3975,7 @@
 								extract_rz = false
 								linear = false
 								quadratic = false
-								root_bone_name = "bip01"
+								root_bone_name = "bip01_l_foot"
 								motion_type = "Uniform"
 							},
 							{

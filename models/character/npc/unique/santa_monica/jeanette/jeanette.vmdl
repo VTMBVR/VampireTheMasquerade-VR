@@ -110,7 +110,6 @@
 					{
 						_class = "RenderMeshFile"
 						name = "rework_6"
-						disabled = true
 						filename = "models/character/npc/unique/santa_monica/jeanette/skirt_rebuild/v5/JeanetteR2_REF.smd"
 						import_scale = 1.0
 						import_filter = 
@@ -121,6 +120,7 @@
 					},
 					{
 						_class = "RenderMeshFile"
+						disabled = true
 						filename = "models/character/npc/unique/santa_monica/jeanette/skirt_rebuild/klim/JeanetteR2_REF_fixed_v1.smd"
 						import_scale = 1.0
 						import_filter = 
@@ -773,7 +773,7 @@
 							name = ""
 							speeds = [  ]
 							runspeed = 150.0
-							walkspeed = 77.0
+							walkspeed = 90.0
 							maxSpringTension = 100.0
 							springConstant = 10.0
 							useSmoothPaths = true

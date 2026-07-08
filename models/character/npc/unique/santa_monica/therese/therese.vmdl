@@ -319,7 +319,7 @@
 							name = ""
 							speeds = [  ]
 							runspeed = 150.0
-							walkspeed = 75.0
+							walkspeed = 92.0
 							maxSpringTension = 100.0
 							springConstant = 10.0
 							useSmoothPaths = true
@@ -327,6 +327,21 @@
 							sharpStartAngle = 180.0
 							m_vTraceScale = [ 5.0, 1.0, 1.0 ]
 						}
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "forward"
+						parent_bone = ""
+						relative_origin = [ 9.484741, -5.643082, -3.841721 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
 					},
 				]
 			},

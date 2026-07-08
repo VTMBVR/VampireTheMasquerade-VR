@@ -22,7 +22,7 @@
 								extract_rz = true
 								linear = false
 								quadratic = false
-								root_bone_name = "bip01_spine2"
+								root_bone_name = "bip01_l_foot"
 								motion_type = "Uniform"
 							},
 							{
@@ -412,7 +412,7 @@
 								extract_rz = false
 								linear = false
 								quadratic = false
-								root_bone_name = "bip01_spine2"
+								root_bone_name = "bip01_l_foot"
 								motion_type = "Uniform"
 							},
 							{
@@ -451,7 +451,7 @@
 								extract_rz = true
 								linear = false
 								quadratic = false
-								root_bone_name = "bip01_spine2"
+								root_bone_name = "bip01_l_foot"
 								motion_type = "Uniform"
 							},
 							{
@@ -490,7 +490,7 @@
 								extract_rz = true
 								linear = false
 								quadratic = false
-								root_bone_name = "bip01_spine2"
+								root_bone_name = "bip01_l_foot"
 								motion_type = "Uniform"
 							},
 							{
@@ -529,7 +529,7 @@
 								extract_rz = true
 								linear = false
 								quadratic = false
-								root_bone_name = "bip01_spine2"
+								root_bone_name = "bip01_l_foot"
 								motion_type = "Uniform"
 							},
 							{
@@ -568,7 +568,7 @@
 								extract_rz = true
 								linear = false
 								quadratic = false
-								root_bone_name = "bip01_spine2"
+								root_bone_name = "bip01_r_foot"
 								motion_type = "Uniform"
 							},
 							{
@@ -607,7 +607,7 @@
 								extract_rz = true
 								linear = false
 								quadratic = false
-								root_bone_name = "bip01_spine2"
+								root_bone_name = "bip01_l_foot"
 								motion_type = "Uniform"
 							},
 							{
@@ -646,7 +646,7 @@
 								extract_rz = true
 								linear = false
 								quadratic = false
-								root_bone_name = "bip01_spine2"
+								root_bone_name = "bip01_l_foot"
 								motion_type = "Uniform"
 							},
 							{
