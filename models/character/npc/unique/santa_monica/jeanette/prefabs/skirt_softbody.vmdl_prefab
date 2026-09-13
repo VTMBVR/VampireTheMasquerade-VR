@@ -11,31 +11,6 @@
 				[
 					{
 						_class = "ClothNode"
-						name = "shirt_clothNode"
-						origin = [ 0.0, 0.0, 0.0 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-						cloth_node_root_bone = "shirt"
-						has_stray_radius = false
-						has_world_collision = true
-						cloth_collision_layer0 = true
-						cloth_collision_layer1 = true
-						cloth_collision_layer2 = true
-						cloth_collision_layer3 = true
-						transform_alignment = 0
-						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
-						mass = 1.0
-						friction = 1.0
-						stray_radius = 0.0
-						stray_radius_relaxation_factor = 1.0
-						collision_radius = 1.0
-						is_static_node = false
-						allow_rotation = false
-						super_damping = 0.0
-					},
-					{
-						_class = "ClothNode"
 						name = "shirt_001_clothNode"
 						origin = [ 0.0, 0.0, 0.0 ]
 						angles = [ 0.0, 0.0, 0.0 ]
@@ -119,31 +94,6 @@
 						min_length = 0.0
 						max_length = 0.0
 						extra_iterations = 0
-					},
-					{
-						_class = "ClothNode"
-						name = "shirt_004_clothNode"
-						origin = [ 0.0, 0.0, 0.0 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-						cloth_node_root_bone = "shirt_004"
-						has_stray_radius = false
-						has_world_collision = true
-						cloth_collision_layer0 = true
-						cloth_collision_layer1 = true
-						cloth_collision_layer2 = true
-						cloth_collision_layer3 = true
-						transform_alignment = 0
-						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
-						mass = 1.0
-						friction = 1.0
-						stray_radius = 0.0
-						stray_radius_relaxation_factor = 1.0
-						collision_radius = 1.0
-						is_static_node = false
-						allow_rotation = false
-						super_damping = 0.0
 					},
 					{
 						_class = "ClothNode"
@@ -233,31 +183,6 @@
 					},
 					{
 						_class = "ClothNode"
-						name = "shirt_008_clothNode"
-						origin = [ 0.0, 0.0, 0.0 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-						cloth_node_root_bone = "shirt_008"
-						has_stray_radius = false
-						has_world_collision = true
-						cloth_collision_layer0 = true
-						cloth_collision_layer1 = true
-						cloth_collision_layer2 = true
-						cloth_collision_layer3 = true
-						transform_alignment = 0
-						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
-						mass = 1.0
-						friction = 1.0
-						stray_radius = 0.0
-						stray_radius_relaxation_factor = 1.0
-						collision_radius = 0.0
-						is_static_node = false
-						allow_rotation = false
-						super_damping = 0.0
-					},
-					{
-						_class = "ClothNode"
 						name = "shirt_010_clothNode"
 						origin = [ 0.0, 0.0, 0.0 ]
 						angles = [ 0.0, 0.0, 0.0 ]
@@ -304,31 +229,6 @@
 						min_length = 0.0
 						max_length = 0.0
 						extra_iterations = 0
-					},
-					{
-						_class = "ClothNode"
-						name = "shirt_012_clothNode"
-						origin = [ 0.0, 0.0, 0.0 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-						cloth_node_root_bone = "shirt_012"
-						has_stray_radius = false
-						has_world_collision = true
-						cloth_collision_layer0 = true
-						cloth_collision_layer1 = true
-						cloth_collision_layer2 = true
-						cloth_collision_layer3 = true
-						transform_alignment = 0
-						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
-						mass = 1.0
-						friction = 1.0
-						stray_radius = 0.0
-						stray_radius_relaxation_factor = 1.0
-						collision_radius = 1.0
-						is_static_node = false
-						allow_rotation = false
-						super_damping = 0.0
 					},
 					{
 						_class = "ClothNode"
@@ -418,31 +318,6 @@
 					},
 					{
 						_class = "ClothNode"
-						name = "shirt_016_clothNode"
-						origin = [ 0.0, 0.0, 0.0 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-						cloth_node_root_bone = "shirt_016"
-						has_stray_radius = false
-						has_world_collision = true
-						cloth_collision_layer0 = true
-						cloth_collision_layer1 = true
-						cloth_collision_layer2 = true
-						cloth_collision_layer3 = true
-						transform_alignment = 0
-						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
-						mass = 1.0
-						friction = 1.0
-						stray_radius = 0.0
-						stray_radius_relaxation_factor = 1.0
-						collision_radius = 1.0
-						is_static_node = false
-						allow_rotation = false
-						super_damping = 0.0
-					},
-					{
-						_class = "ClothNode"
 						name = "shirt_017_clothNode"
 						origin = [ 0.0, 0.0, 0.0 ]
 						angles = [ 0.0, 0.0, 0.0 ]
@@ -526,31 +401,6 @@
 						min_length = 0.0
 						max_length = 0.0
 						extra_iterations = 0
-					},
-					{
-						_class = "ClothNode"
-						name = "shirt_020_clothNode"
-						origin = [ 0.0, 0.0, 0.0 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-						cloth_node_root_bone = "shirt_020"
-						has_stray_radius = false
-						has_world_collision = true
-						cloth_collision_layer0 = true
-						cloth_collision_layer1 = true
-						cloth_collision_layer2 = true
-						cloth_collision_layer3 = true
-						transform_alignment = 0
-						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
-						mass = 1.0
-						friction = 1.0
-						stray_radius = 0.0
-						stray_radius_relaxation_factor = 1.0
-						collision_radius = 1.0
-						is_static_node = false
-						allow_rotation = false
-						super_damping = 0.0
 					},
 					{
 						_class = "ClothNode"
@@ -640,31 +490,6 @@
 					},
 					{
 						_class = "ClothNode"
-						name = "shirt_024_clothNode"
-						origin = [ 0.0, 0.0, 0.0 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-						cloth_node_root_bone = "shirt_024"
-						has_stray_radius = false
-						has_world_collision = true
-						cloth_collision_layer0 = true
-						cloth_collision_layer1 = true
-						cloth_collision_layer2 = true
-						cloth_collision_layer3 = true
-						transform_alignment = 0
-						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
-						mass = 1.0
-						friction = 1.0
-						stray_radius = 0.0
-						stray_radius_relaxation_factor = 1.0
-						collision_radius = 1.0
-						is_static_node = false
-						allow_rotation = false
-						super_damping = 0.0
-					},
-					{
-						_class = "ClothNode"
 						name = "shirt_025_clothNode"
 						origin = [ 0.0, 0.0, 0.0 ]
 						angles = [ 0.0, 0.0, 0.0 ]
@@ -748,31 +573,6 @@
 						min_length = 0.0
 						max_length = 0.0
 						extra_iterations = 0
-					},
-					{
-						_class = "ClothNode"
-						name = "shirt_028_clothNode"
-						origin = [ 0.0, 0.0, 0.0 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-						cloth_node_root_bone = "shirt_028"
-						has_stray_radius = false
-						has_world_collision = true
-						cloth_collision_layer0 = true
-						cloth_collision_layer1 = true
-						cloth_collision_layer2 = true
-						cloth_collision_layer3 = true
-						transform_alignment = 0
-						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
-						mass = 1.0
-						friction = 1.0
-						stray_radius = 0.0
-						stray_radius_relaxation_factor = 1.0
-						collision_radius = 1.0
-						is_static_node = false
-						allow_rotation = false
-						super_damping = 0.0
 					},
 					{
 						_class = "ClothNode"
@@ -862,31 +662,6 @@
 					},
 					{
 						_class = "ClothNode"
-						name = "shirt_032_clothNode"
-						origin = [ 0.0, 0.0, 0.0 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-						cloth_node_root_bone = "shirt_032"
-						has_stray_radius = false
-						has_world_collision = true
-						cloth_collision_layer0 = true
-						cloth_collision_layer1 = true
-						cloth_collision_layer2 = true
-						cloth_collision_layer3 = true
-						transform_alignment = 0
-						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
-						mass = 1.0
-						friction = 1.0
-						stray_radius = 0.0
-						stray_radius_relaxation_factor = 1.0
-						collision_radius = 1.0
-						is_static_node = false
-						allow_rotation = false
-						super_damping = 0.0
-					},
-					{
-						_class = "ClothNode"
 						name = "shirt_033_clothNode"
 						origin = [ 0.0, 0.0, 0.0 ]
 						angles = [ 0.0, 0.0, 0.0 ]
@@ -970,31 +745,6 @@
 						min_length = 0.0
 						max_length = 0.0
 						extra_iterations = 0
-					},
-					{
-						_class = "ClothNode"
-						name = "shirt_036_clothNode"
-						origin = [ 0.0, 0.0, 0.0 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-						cloth_node_root_bone = "shirt_036"
-						has_stray_radius = false
-						has_world_collision = true
-						cloth_collision_layer0 = true
-						cloth_collision_layer1 = true
-						cloth_collision_layer2 = true
-						cloth_collision_layer3 = true
-						transform_alignment = 0
-						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
-						mass = 1.0
-						friction = 1.0
-						stray_radius = 0.0
-						stray_radius_relaxation_factor = 1.0
-						collision_radius = 1.0
-						is_static_node = false
-						allow_rotation = false
-						super_damping = 0.0
 					},
 					{
 						_class = "ClothNode"
@@ -1084,31 +834,6 @@
 					},
 					{
 						_class = "ClothNode"
-						name = "shirt_040_clothNode"
-						origin = [ 0.0, 0.0, 0.0 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-						cloth_node_root_bone = "shirt_040"
-						has_stray_radius = false
-						has_world_collision = true
-						cloth_collision_layer0 = true
-						cloth_collision_layer1 = true
-						cloth_collision_layer2 = true
-						cloth_collision_layer3 = true
-						transform_alignment = 0
-						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
-						mass = 1.0
-						friction = 1.0
-						stray_radius = 0.0
-						stray_radius_relaxation_factor = 1.0
-						collision_radius = 1.0
-						is_static_node = false
-						allow_rotation = false
-						super_damping = 0.0
-					},
-					{
-						_class = "ClothNode"
 						name = "shirt_041_clothNode"
 						origin = [ 0.0, 0.0, 0.0 ]
 						angles = [ 0.0, 0.0, 0.0 ]
@@ -1192,31 +917,6 @@
 						min_length = 0.0
 						max_length = 0.0
 						extra_iterations = 0
-					},
-					{
-						_class = "ClothNode"
-						name = "shirt_044_clothNode"
-						origin = [ 0.0, 0.0, 0.0 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-						cloth_node_root_bone = "shirt_044"
-						has_stray_radius = false
-						has_world_collision = true
-						cloth_collision_layer0 = true
-						cloth_collision_layer1 = true
-						cloth_collision_layer2 = true
-						cloth_collision_layer3 = true
-						transform_alignment = 0
-						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
-						mass = 1.0
-						friction = 1.0
-						stray_radius = 0.0
-						stray_radius_relaxation_factor = 1.0
-						collision_radius = 1.0
-						is_static_node = false
-						allow_rotation = false
-						super_damping = 0.0
 					},
 					{
 						_class = "ClothNode"
@@ -1306,56 +1006,6 @@
 					},
 					{
 						_class = "ClothNode"
-						name = "shirt_048_clothNode"
-						origin = [ 0.0, 0.0, 0.0 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-						cloth_node_root_bone = "shirt_048"
-						has_stray_radius = false
-						has_world_collision = true
-						cloth_collision_layer0 = true
-						cloth_collision_layer1 = true
-						cloth_collision_layer2 = true
-						cloth_collision_layer3 = true
-						transform_alignment = 0
-						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
-						mass = 1.0
-						friction = 1.0
-						stray_radius = 0.0
-						stray_radius_relaxation_factor = 1.0
-						collision_radius = 1.0
-						is_static_node = false
-						allow_rotation = false
-						super_damping = 0.0
-					},
-					{
-						_class = "ClothNode"
-						name = "shirt_049_clothNode"
-						origin = [ 0.0, 0.0, 0.0 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-						cloth_node_root_bone = "shirt_049"
-						has_stray_radius = false
-						has_world_collision = true
-						cloth_collision_layer0 = true
-						cloth_collision_layer1 = true
-						cloth_collision_layer2 = true
-						cloth_collision_layer3 = true
-						transform_alignment = 0
-						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
-						mass = 1.0
-						friction = 1.0
-						stray_radius = 0.0
-						stray_radius_relaxation_factor = 1.0
-						collision_radius = 1.0
-						is_static_node = false
-						allow_rotation = false
-						super_damping = 0.0
-					},
-					{
-						_class = "ClothNode"
 						name = "shirt_050_clothNode"
 						origin = [ 0.0, 0.0, 0.0 ]
 						angles = [ 0.0, 0.0, 0.0 ]
@@ -1414,31 +1064,6 @@
 						min_length = 0.0
 						max_length = 0.0
 						extra_iterations = 0
-					},
-					{
-						_class = "ClothNode"
-						name = "shirt_052_clothNode"
-						origin = [ 0.0, 0.0, 0.0 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-						cloth_node_root_bone = "shirt_052"
-						has_stray_radius = false
-						has_world_collision = true
-						cloth_collision_layer0 = true
-						cloth_collision_layer1 = true
-						cloth_collision_layer2 = true
-						cloth_collision_layer3 = true
-						transform_alignment = 0
-						gravity_z = 1.0
-						goal_strength = 0.3
-						goal_damping = 0.5
-						mass = 1.0
-						friction = 1.0
-						stray_radius = 0.0
-						stray_radius_relaxation_factor = 1.0
-						collision_radius = 1.0
-						is_static_node = false
-						allow_rotation = false
-						super_damping = 0.0
 					},
 					{
 						_class = "ClothNode"
@@ -1585,8 +1210,8 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
-						goal_strength = 0.1
+						gravity_z = 1.5
+						goal_strength = 0.2
 						goal_damping = 0.5
 						mass = 1.0
 						friction = 1.0
@@ -1610,8 +1235,8 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
-						goal_strength = 0.1
+						gravity_z = 1.5
+						goal_strength = 0.2
 						goal_damping = 0.5
 						mass = 1.0
 						friction = 1.0
@@ -1635,8 +1260,8 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
-						goal_strength = 0.1
+						gravity_z = 1.5
+						goal_strength = 0.2
 						goal_damping = 0.5
 						mass = 1.0
 						friction = 1.0
@@ -1660,8 +1285,8 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
-						goal_strength = 0.1
+						gravity_z = 1.5
+						goal_strength = 0.2
 						goal_damping = 0.5
 						mass = 1.0
 						friction = 1.0
@@ -1685,8 +1310,8 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
-						goal_strength = 0.1
+						gravity_z = 1.5
+						goal_strength = 0.2
 						goal_damping = 0.5
 						mass = 1.0
 						friction = 1.0
@@ -1710,8 +1335,8 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
-						goal_strength = 0.1
+						gravity_z = 1.5
+						goal_strength = 0.2
 						goal_damping = 0.5
 						mass = 1.0
 						friction = 1.0
@@ -1735,8 +1360,8 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
-						goal_strength = 0.1
+						gravity_z = 1.5
+						goal_strength = 0.2
 						goal_damping = 0.5
 						mass = 1.0
 						friction = 1.0
@@ -1760,8 +1385,8 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
-						goal_strength = 0.1
+						gravity_z = 1.5
+						goal_strength = 0.2
 						goal_damping = 0.5
 						mass = 1.0
 						friction = 1.0
@@ -1785,8 +1410,8 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
-						goal_strength = 0.1
+						gravity_z = 1.5
+						goal_strength = 0.2
 						goal_damping = 0.5
 						mass = 1.0
 						friction = 1.0
@@ -1810,8 +1435,8 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
-						goal_strength = 0.1
+						gravity_z = 1.5
+						goal_strength = 0.2
 						goal_damping = 0.5
 						mass = 1.0
 						friction = 1.0
@@ -1835,8 +1460,8 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
-						goal_strength = 0.1
+						gravity_z = 1.5
+						goal_strength = 0.2
 						goal_damping = 0.5
 						mass = 1.0
 						friction = 1.0
@@ -1860,8 +1485,8 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
-						goal_strength = 0.1
+						gravity_z = 1.5
+						goal_strength = 0.2
 						goal_damping = 0.5
 						mass = 1.0
 						friction = 1.0
@@ -1885,8 +1510,8 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
-						goal_strength = 0.1
+						gravity_z = 1.5
+						goal_strength = 0.2
 						goal_damping = 0.5
 						mass = 1.0
 						friction = 1.0
@@ -1910,8 +1535,390 @@
 						cloth_collision_layer2 = true
 						cloth_collision_layer3 = true
 						transform_alignment = 0
-						gravity_z = 2.0
-						goal_strength = 0.1
+						gravity_z = 1.5
+						goal_strength = 0.2
+						goal_damping = 0.5
+						mass = 1.0
+						friction = 1.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
+						is_static_node = false
+						allow_rotation = false
+						super_damping = 0.0
+					},
+				]
+			},
+			{
+				_class = "Folder"
+				name = "top_ring"
+				children = 
+				[
+					{
+						_class = "ClothNode"
+						name = "shirt_052_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "shirt_052"
+						has_stray_radius = false
+						has_world_collision = true
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						gravity_z = 1.0
+						goal_strength = 0.8
+						goal_damping = 0.5
+						mass = 1.0
+						friction = 1.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
+						is_static_node = false
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "shirt_049_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "shirt_049"
+						has_stray_radius = false
+						has_world_collision = true
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						gravity_z = 1.0
+						goal_strength = 0.4
+						goal_damping = 0.6
+						mass = 1.0
+						friction = 1.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
+						is_static_node = false
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "shirt_048_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "shirt_048"
+						has_stray_radius = false
+						has_world_collision = true
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						gravity_z = 1.0
+						goal_strength = 0.8
+						goal_damping = 0.5
+						mass = 1.0
+						friction = 1.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
+						is_static_node = false
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "shirt_044_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "shirt_044"
+						has_stray_radius = false
+						has_world_collision = true
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						gravity_z = 1.0
+						goal_strength = 0.5
+						goal_damping = 0.7
+						mass = 1.0
+						friction = 1.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
+						is_static_node = false
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "shirt_040_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "shirt_040"
+						has_stray_radius = false
+						has_world_collision = true
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						gravity_z = 1.0
+						goal_strength = 0.5
+						goal_damping = 0.7
+						mass = 1.0
+						friction = 1.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
+						is_static_node = false
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "shirt_036_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "shirt_036"
+						has_stray_radius = false
+						has_world_collision = true
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						gravity_z = 1.0
+						goal_strength = 0.5
+						goal_damping = 0.7
+						mass = 1.0
+						friction = 1.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
+						is_static_node = false
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "shirt_032_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "shirt_032"
+						has_stray_radius = false
+						has_world_collision = true
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						gravity_z = 1.0
+						goal_strength = 0.5
+						goal_damping = 0.7
+						mass = 1.0
+						friction = 1.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
+						is_static_node = false
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "shirt_028_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "shirt_028"
+						has_stray_radius = false
+						has_world_collision = true
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						gravity_z = 1.0
+						goal_strength = 0.5
+						goal_damping = 0.7
+						mass = 1.0
+						friction = 1.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
+						is_static_node = false
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "shirt_024_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "shirt_024"
+						has_stray_radius = false
+						has_world_collision = true
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						gravity_z = 1.0
+						goal_strength = 0.5
+						goal_damping = 0.7
+						mass = 1.0
+						friction = 1.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
+						is_static_node = false
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "shirt_020_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "shirt_020"
+						has_stray_radius = false
+						has_world_collision = true
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						gravity_z = 1.0
+						goal_strength = 0.5
+						goal_damping = 0.7
+						mass = 1.0
+						friction = 1.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
+						is_static_node = false
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "shirt_008_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "shirt_008"
+						has_stray_radius = false
+						has_world_collision = true
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						gravity_z = 1.0
+						goal_strength = 0.8
+						goal_damping = 0.5
+						mass = 1.0
+						friction = 1.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = false
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "shirt_004_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "shirt_004"
+						has_stray_radius = false
+						has_world_collision = true
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						gravity_z = 1.0
+						goal_strength = 0.8
+						goal_damping = 0.5
+						mass = 1.0
+						friction = 1.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
+						is_static_node = false
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "shirt_012_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "shirt_012"
+						has_stray_radius = false
+						has_world_collision = true
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						gravity_z = 1.0
+						goal_strength = 0.8
+						goal_damping = 0.5
+						mass = 1.0
+						friction = 1.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
+						is_static_node = false
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "shirt_016_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "shirt_016"
+						has_stray_radius = false
+						has_world_collision = true
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						gravity_z = 1.0
+						goal_strength = 0.8
+						goal_damping = 0.5
+						mass = 1.0
+						friction = 1.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 1.0
+						is_static_node = false
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "shirt_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "shirt"
+						has_stray_radius = false
+						has_world_collision = true
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						gravity_z = 1.0
+						goal_strength = 0.8
 						goal_damping = 0.5
 						mass = 1.0
 						friction = 1.0
