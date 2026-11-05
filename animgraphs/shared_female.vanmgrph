@@ -42,6 +42,7 @@
 					"howl",
 					"party_idle",
 					"armsCrossed",
+					"fidget01",
 				]
 			},
 		]
@@ -280,6 +281,12 @@
 		"models/character/npc/unique/santa_monica/therese/therese.vmdl",
 		"models/character/npc/unique/santa_monica/jeanette/jeanette.vmdl",
 		"models/character/npc/unique/downtown/vv/vv.vmdl",
+		"models/character/npc/unique/santa_monica/therese/therese.vmdl",
+		"models/character/npc/unique/downtown/damsel/damsel.vmdl",
+		"models/character/npc/common/blood_doll/bd_asylum/blood_dollasylum.vmdl",
+		"models/character/npc/unique/downtown/vv/vv.vmdl",
+		"models/character/npc/common/goth_kids/female/goth_female.vmdl",
+		"models/character/npc/unique/santa_monica/jeanette/jeanette.vmdl",
 	]
 	m_nodes = 
 	[
@@ -1457,6 +1464,52 @@
 								m_bForceFootPlant = false
 								m_bDisabled = false
 							},
+							{
+								_class = "CAnimStateTransition"
+								m_conditions = 
+								[
+									{
+										_class = "CPathStatusCondition"
+										m_comparisonOp = 0
+										m_optionToCheck = "PathStatus_HasPath"
+										m_bComparisonValue = false
+									},
+									{
+										_class = "CParameterAnimCondition"
+										m_comparisonOp = 0
+										m_paramID = 
+										{
+											m_id = 2062641689
+										}
+										m_comparisonValue = 
+										{
+											m_nType = 2
+											m_data = 7
+										}
+									},
+									{
+										_class = "CFinishedCondition"
+										m_comparisonOp = 0
+										m_option = "FinishedConditionOption_OnFinished"
+										m_bIsFinished = true
+									},
+								]
+								m_blendDuration = 0.2
+								m_destState = 
+								{
+									m_id = 1558435716
+								}
+								m_bReset = true
+								m_resetCycleOption = "Beginning"
+								m_flFixedCycleValue = 0.0
+								m_blendCurve = 
+								{
+									m_vControlPoint1 = [ 0.5, 0.0 ]
+									m_vControlPoint2 = [ 0.5, 1.0 ]
+								}
+								m_bForceFootPlant = false
+								m_bDisabled = false
+							},
 						]
 						m_tags = [  ]
 						m_tagBehaviors = [  ]
@@ -1715,6 +1768,80 @@
 						m_bIsPassthrough = false
 						m_bIsRootMotionExclusive = false
 					},
+					{
+						_class = "CAnimState"
+						m_transitions = 
+						[
+							{
+								_class = "CAnimStateTransition"
+								m_conditions = 
+								[
+									{
+										_class = "CTimeCondition"
+										m_comparisonOp = 3
+										m_comparisonValue = 10.0
+									},
+								]
+								m_blendDuration = 0.2
+								m_destState = 
+								{
+									m_id = 733696740
+								}
+								m_bReset = true
+								m_resetCycleOption = "Beginning"
+								m_flFixedCycleValue = 0.0
+								m_blendCurve = 
+								{
+									m_vControlPoint1 = [ 0.5, 0.0 ]
+									m_vControlPoint2 = [ 0.5, 1.0 ]
+								}
+								m_bForceFootPlant = false
+								m_bDisabled = false
+							},
+							{
+								_class = "CAnimStateTransition"
+								m_conditions = 
+								[
+									{
+										_class = "CTimeCondition"
+										m_comparisonOp = 3
+										m_comparisonValue = 10.0
+									},
+								]
+								m_blendDuration = 0.2
+								m_destState = 
+								{
+									m_id = 733696740
+								}
+								m_bReset = true
+								m_resetCycleOption = "Beginning"
+								m_flFixedCycleValue = 0.0
+								m_blendCurve = 
+								{
+									m_vControlPoint1 = [ 0.5, 0.0 ]
+									m_vControlPoint2 = [ 0.5, 1.0 ]
+								}
+								m_bForceFootPlant = false
+								m_bDisabled = false
+							},
+						]
+						m_tags = [  ]
+						m_tagBehaviors = [  ]
+						m_name = "fidget01"
+						m_childNodeID = 
+						{
+							m_id = 1762424800
+						}
+						m_stateID = 
+						{
+							m_id = 1558435716
+						}
+						m_position = [ 195.0, -329.0 ]
+						m_bIsStartState = false
+						m_bIsEndtState = false
+						m_bIsPassthrough = false
+						m_bIsRootMotionExclusive = false
+					},
 				]
 				m_bBlockWaningTags = false
 				m_bLockStateWhenWaning = false
@@ -1860,7 +1987,7 @@
 			{
 				_class = "CFollowPathAnimNode"
 				m_sName = "Unnamed"
-				m_vecPosition = [ -35.0, -165.0 ]
+				m_vecPosition = [ -36.0, -165.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1270251190
@@ -2035,6 +2162,27 @@
 		{
 			key = 
 			{
+				m_id = 1686790549
+			}
+			value = 
+			{
+				_class = "CSequenceAnimNode"
+				m_sName = "Unnamed"
+				m_vecPosition = [ 73.993362, 324.852478 ]
+				m_nNodeID = 
+				{
+					m_id = 1686790549
+				}
+				m_networkMode = "ServerAuthoritative"
+				m_tagSpans = [  ]
+				m_sequenceName = "cellphone_idle"
+				m_playbackSpeed = 1.0
+				m_bLoop = false
+			}
+		},
+		{
+			key = 
+			{
 				m_id = 1699813283
 			}
 			value = 
@@ -2057,6 +2205,27 @@
 				m_bMatchChildDuration = true
 				m_bUseManualTurnOffset = false
 				m_manualTurnOffset = 0.0
+			}
+		},
+		{
+			key = 
+			{
+				m_id = 1762424800
+			}
+			value = 
+			{
+				_class = "CSequenceAnimNode"
+				m_sName = "Unnamed"
+				m_vecPosition = [ -67.235901, 220.418976 ]
+				m_nNodeID = 
+				{
+					m_id = 1762424800
+				}
+				m_networkMode = "ServerAuthoritative"
+				m_tagSpans = [  ]
+				m_sequenceName = "fidget01"
+				m_playbackSpeed = 1.0
+				m_bLoop = false
 			}
 		},
 		{
