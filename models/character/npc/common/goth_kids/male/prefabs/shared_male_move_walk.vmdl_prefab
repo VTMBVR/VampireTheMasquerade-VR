@@ -673,83 +673,75 @@
 						reverse = false
 					},
 					{
-						_class = "AnimFile"
-						name = "walk_45"
-						children = 
-						[
-							{
-								_class = "ExtractMotion"
-								extract_tx = true
-								extract_ty = true
-								extract_tz = false
-								extract_rz = false
-								linear = false
-								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
-							},
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/character/shared/male/move_and_ranged_anims/walk_45.smd"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						reverse = false
-					},
+	_class = "AnimFile"
+	name = "walk_45"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = true
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/move_and_ranged_anims/walk_45.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
 					{
-						_class = "AnimFile"
-						name = "walk_90"
-						children = 
-						[
-							{
-								_class = "ExtractMotion"
-								extract_tx = true
-								extract_ty = true
-								extract_tz = false
-								extract_rz = false
-								linear = false
-								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
-							},
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/character/shared/male/move_and_ranged_anims/walk_90.smd"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						reverse = false
-					},
+	_class = "AnimFile"
+	name = "walk_90"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = true
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/move_and_ranged_anims/walk_90.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
 					{
 						_class = "AnimFile"
 						name = "walk_135"
@@ -790,44 +782,40 @@
 						reverse = false
 					},
 					{
-						_class = "AnimFile"
-						name = "walk_180"
-						children = 
-						[
-							{
-								_class = "ExtractMotion"
-								extract_tx = true
-								extract_ty = true
-								extract_tz = false
-								extract_rz = false
-								linear = false
-								quadratic = false
-								root_bone_name = ""
-								motion_type = "Single"
-							},
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
-						]
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = true
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/character/shared/male/move_and_ranged_anims/walk_180.smd"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						reverse = false
-					},
+	_class = "AnimFile"
+	name = "walk_180"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = true
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/move_and_ranged_anims/walk_180.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
 					{
 						_class = "AnimFile"
 						name = "walk_225"

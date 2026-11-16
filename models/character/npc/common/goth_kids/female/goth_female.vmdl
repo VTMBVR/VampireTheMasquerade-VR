@@ -91,7 +91,43 @@
 						_class = "Prefab"
 						target_file = "models/character/shared/prefabs/female/move_n_run.vmdl_prefab"
 					},
-				]
+
+{
+	_class = "AnimFile"
+	name = "wave_greeting"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/female/misc_anims/waveover01.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+]
 				default_root_bone_name = ""
 			},
 			{
@@ -129,7 +165,25 @@
 						weight = 1.0
 						ignore_rotation = false
 					},
-				]
+
+{
+	_class = "Attachment"
+	name = "r_hand"
+	parent_bone = "bip01_r_hand"
+	relative_origin = [
+		0.0,
+		0.0,
+		0.0,
+	]
+	relative_angles = [
+		0.0,
+		0.0,
+		0.0,
+	]
+	weight = 1.0
+	ignore_rotation = false
+},
+]
 			},
 		]
 		model_archetype = "generic_actor_model"

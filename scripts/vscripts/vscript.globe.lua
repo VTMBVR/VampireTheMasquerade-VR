@@ -70,7 +70,8 @@ end
 -- [[ STAGE 3: PATHING & STUCK VALIDATOR ]]
 function ValidateNPCMovement(npc, state, idx)
     local current_pos = npc:GetAbsOrigin()
-    local dist_sq = (state.goal_pos - current_pos):LengthSqr()
+    local offset = state.goal_pos - current_pos
+    local dist_sq = offset.x * offset.x + offset.y * offset.y + offset.z * offset.z
 
     -- Check for Arrival
     if dist_sq < ARRIVAL_TOLERANCE_SQ then
