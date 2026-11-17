@@ -11,3 +11,5 @@ VpkContent.rar
 materials_manual.rar
 _bakeresourcecache/
 _buildcubemaps/
+__pycache__/
+*.py[cod]

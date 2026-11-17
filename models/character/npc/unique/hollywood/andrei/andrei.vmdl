@@ -383,12 +383,1496 @@
 						framerate = -1.0
 						reverse = false
 					},
-				]
+
+{
+	_class = "AnimFile"
+	name = "dance01"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = true
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/dance01.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "dance02"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = true
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/dance02.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "dance03"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = true
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/dance03.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "ArmsCrossed_Idle"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = true
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/ArmsCrossed_Idle.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "ArmsCrossed_Fidget"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/ArmsCrossed_Fidget.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "fidget01"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/fidget01.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "fidget02"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/fidget02.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "fidget03"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/fidget03.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "party_idle"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = true
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/party_idle.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "party_laugh"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/party_laugh.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "party_listen_idle1"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = true
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/party_listen_idle1.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "party_listen_idle2"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = true
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/party_listen_idle2.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "party_listen_idle3"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = true
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/party_listen_idle3.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "party_look_around"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/party_look_around.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "party_talk_idle1"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = true
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/party_talk_idle1.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "waveover01"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/waveover01.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "waveover02"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/waveover02.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "cellphone_into"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/cellphone_into.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "cellphone_idle"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = true
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/cellphone_idle.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "cellphone_outof"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/cellphone_outof.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "Cigarette_Into"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/Cigarette_Into.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "Cigarette_Idle"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = true
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/Cigarette_Idle.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "Cigarette_Inhale"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/Cigarette_Inhale.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "Drink_Into"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/Drink_Into.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "Drink_Idle"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = true
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/Drink_Idle.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "Drink_Take"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/Drink_Take.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "Drink_LookAround"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/Drink_LookAround.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "Drink_Outof"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/Drink_Outof.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "Wall_Lean_into"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/Wall_Lean_into.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "Wall_Lean_idle_01"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = true
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/Wall_Lean_idle_01.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "Wall_Lean_outof"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/Wall_Lean_outof.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "sit_barstool_into"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/furniture_runtime/sit_barstool_into.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "sit_barstool_idle"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = true
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/furniture_runtime/sit_barstool_idle.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "sit_barstool_outof"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/furniture_runtime/sit_barstool_outof.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "idle01"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = true
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/idle01.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "hunt_walk"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = true
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/hunt_walk.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "walk_45"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = true
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/move_and_ranged_anims/walk_45.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "walk_90"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = true
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/move_and_ranged_anims/walk_90.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "walk_180"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = true
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/move_and_ranged_anims/walk_180.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "howl"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/howl.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+{
+	_class = "AnimFile"
+	name = "wave_greeting"
+	children = [
+		{
+			_class = "AnimOffset"
+			translation = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			rotation_xyz = [
+				0.0,
+				0.0,
+				-90.0,
+			]
+		},
+	]
+	activity_name = ""
+	activity_weight = 1
+	weight_list_name = ""
+	fade_in_time = 0.2
+	fade_out_time = 0.2
+	looping = false
+	delta = false
+	worldSpace = false
+	hidden = false
+	anim_markup_ordered = false
+	disable_compression = false
+	source_filename = "models/character/shared/male/misc_anims/waveover01.smd"
+	start_frame = -1
+	end_frame = -1
+	framerate = -1.0
+	reverse = false
+},
+]
 				default_root_bone_name = ""
 			},
-		]
+
+{
+	_class = "AttachmentList"
+	children = [
+		{
+			_class = "Attachment"
+			name = "r_hand"
+			parent_bone = "bip01_r_hand"
+			relative_origin = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			relative_angles = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			weight = 1.0
+			ignore_rotation = false
+		},
+	]
+},
+{
+	_class = "GameDataList"
+	children = [
+		{
+			_class = "MovementSettings"
+			movementsettings = {
+				name = ""
+				speeds = [
+				]
+				runspeed = 150.0
+				walkspeed = 90.0
+				maxSpringTension = 100.0
+				springConstant = 10.0
+				useSmoothPaths = true
+				useMotionDamping = false
+				sharpStartAngle = 179.0
+				m_vTraceScale = [
+					1.0,
+					0.1,
+					1.0,
+				]
+			}
+		},
+	]
+},
+]
 		model_archetype = "generic_actor_model"
 		primary_associated_entity = "generic_actor"
-		anim_graph_name = "animgraphs/andrei.vanmgrph"
+		anim_graph_name = "animgraphs/male_shared.vanmgrph"
 	}
 }

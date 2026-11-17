@@ -20,3 +20,5 @@ You may add your work for this repository throught pull requests
 
 Source <3
 
+NPC animation setup and Asylum interaction zones: [working notes](docs/npc_animations.md).
+

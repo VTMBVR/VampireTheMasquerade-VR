@@ -5836,12 +5836,20 @@
 						name = "sit_barstool_idle"
 						children = 
 						[
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
-						]
+	{
+		_class = "AnimOffset"
+		translation = [
+			0.0,
+			0.0,
+			0.0,
+		]
+		rotation_xyz = [
+			0.0,
+			0.0,
+			-90.0,
+		]
+	},
+]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -5853,7 +5861,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/female/misc_anims/sit_barstool_idle.smd"
+						source_filename = "models/character/shared/female/furniture_runtime/sit_barstool_idle.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5864,12 +5872,20 @@
 						name = "sit_barstool_into"
 						children = 
 						[
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
-						]
+	{
+		_class = "AnimOffset"
+		translation = [
+			0.0,
+			0.0,
+			0.0,
+		]
+		rotation_xyz = [
+			0.0,
+			0.0,
+			-90.0,
+		]
+	},
+]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -5881,7 +5897,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/female/misc_anims/sit_barstool_into.smd"
+						source_filename = "models/character/shared/female/furniture_runtime/sit_barstool_into.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
@@ -5920,12 +5936,20 @@
 						name = "sit_barstool_outof"
 						children = 
 						[
-							{
-								_class = "AnimOffset"
-								translation = [ 0.0, 0.0, 0.0 ]
-								rotation_xyz = [ 0.0, 0.0, -90.0 ]
-							},
-						]
+	{
+		_class = "AnimOffset"
+		translation = [
+			0.0,
+			0.0,
+			0.0,
+		]
+		rotation_xyz = [
+			0.0,
+			0.0,
+			-90.0,
+		]
+	},
+]
 						activity_name = ""
 						activity_weight = 1
 						weight_list_name = ""
@@ -5937,7 +5961,7 @@
 						hidden = false
 						anim_markup_ordered = false
 						disable_compression = false
-						source_filename = "models/character/shared/female/misc_anims/sit_barstool_outof.smd"
+						source_filename = "models/character/shared/female/furniture_runtime/sit_barstool_outof.smd"
 						start_frame = -1
 						end_frame = -1
 						framerate = -1.0
