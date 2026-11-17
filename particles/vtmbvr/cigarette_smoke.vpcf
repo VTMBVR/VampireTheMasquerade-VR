@@ -1,0 +1,84 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_nBehaviorVersion = 9
+	m_nMaxParticles = 48
+	m_Emitters = [
+		{
+			_class = "C_OP_ContinuousEmitter"
+			m_flEmitRate = 9.0
+		},
+	]
+	m_Initializers = [
+		{
+			_class = "C_INIT_CreateWithinSphere"
+			m_fRadiusMax = 0.08
+		},
+		{
+			_class = "C_INIT_RandomRadius"
+			m_flRadiusMin = 0.16
+			m_flRadiusMax = 0.3
+		},
+		{
+			_class = "C_INIT_RandomLifeTime"
+			m_fLifetimeMin = 1.1
+			m_fLifetimeMax = 2.0
+		},
+		{
+			_class = "C_INIT_RandomAlpha"
+			m_nAlphaMin = 40
+			m_nAlphaMax = 85
+		},
+		{
+			_class = "C_INIT_RandomSequence"
+			m_nSequenceMax = 1
+		},
+		{
+			_class = "C_INIT_RandomYawFlip"
+		},
+	]
+	m_Operators = [
+		{
+			_class = "C_OP_BasicMovement"
+			m_Gravity = [
+				0.25,
+				-0.12,
+				5.5,
+			]
+		},
+		{
+			_class = "C_OP_Decay"
+		},
+		{
+			_class = "C_OP_FadeInSimple"
+			m_flFadeInTime = 0.12
+		},
+		{
+			_class = "C_OP_FadeOutSimple"
+			m_flFadeOutTime = 0.65
+		},
+		{
+			_class = "C_OP_InterpolateRadius"
+			m_flEndScale = 4.0
+			m_flBias = 0.35
+		},
+	]
+	m_Renderers = [
+		{
+			_class = "C_OP_RenderSprites"
+			m_nOrientationType = 1
+			m_flAnimationRate = 0.55
+			m_bAdditive = false
+			m_hTexture = resource:"materials/particle/simulated/smoke/steam/steam.vtex"
+			m_nAnimationType = "ANIMATION_TYPE_FIT_LIFETIME"
+			m_vecColorScale = {
+				m_nType = "PVEC_TYPE_LITERAL_COLOR"
+				m_LiteralColor = [
+					190,
+					190,
+					190,
+				]
+			}
+		},
+	]
+}
