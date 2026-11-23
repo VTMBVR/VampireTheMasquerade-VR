@@ -4,6 +4,8 @@
 	[
 		[
 			"soundevents/vamprirethemasquerade_soundevents.vsndevts",
+			"soundevents/vtmbvr_dialogue.vsndevts",
+			"soundevents/vtmbvr_asylum.vsndevts",
 		],
 	]
 }

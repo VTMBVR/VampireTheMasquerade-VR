@@ -1,0 +1,7 @@
+<root>
+    <ClientUIDialogPanel hittest="true" hittestchildren="true" style="width: 512px; height: 128px;">
+        <Button hittest="true" style="width: 100%; height: 100%; background-color: #211b20ee; border: 2px solid #b78e61;" onactivate="$.DispatchEvent('ClientUI_FireOutput', $.GetContextPanel(), 0)">
+            <Label hittest="false" style="horizontal-align: center; vertical-align: center; font-family: Arial; font-size: 38px; color: #eed9b7;" text="Жанетт · Поговорить" />
+        </Button>
+    </ClientUIDialogPanel>
+</root>

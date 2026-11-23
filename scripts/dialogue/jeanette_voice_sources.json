@@ -1,0 +1,82 @@
+[
+  {
+    "node": "welcome",
+    "line": 701,
+    "source": "Vampire/pack012.vpk:sound/character/dlg/santa monica/jeanette/line701_col_e.mp3",
+    "originalText": "Hello, kitten.",
+    "sourceSha256": "e79013ca1a0e3d9909bc824087e6f8b11cc4ca6559723120f9c2c38d222babcf",
+    "wavSha256": "252fa6aaa368d43e883854499062b425fa268a915595100c45972b3906746a28"
+  },
+  {
+    "node": "club",
+    "line": 551,
+    "source": "Vampire/pack012.vpk:sound/character/dlg/santa monica/jeanette/line551_col_e.mp3",
+    "originalText": "Should I draw a map for you? The gallery's right down the street.",
+    "sourceSha256": "e521407daf505b293cae00795ce9e88dcf52c6c6b6a822eb6818749bdedb428e",
+    "wavSha256": "9a5147361bb93510fa6991720f2376fc7e575d045c0ea347604b471a81302ecd"
+  },
+  {
+    "node": "looking",
+    "line": 491,
+    "source": "Vampire/pack012.vpk:sound/character/dlg/santa monica/jeanette/line491_col_e.mp3",
+    "originalText": "The tide goes out, the tide comes in, and then it waves goodbye again. It'll take me a few years to wake this city up.",
+    "sourceSha256": "ad8f107783cc19e05f01a8e47013354deea97e7c5d03373fd53f8c7a075562ae",
+    "wavSha256": "e3f5db874697977f8489e1b36fcce24d41d78eee24a8827ad3c9f444a52b3a3b"
+  },
+  {
+    "node": "dance",
+    "line": 511,
+    "source": "Vampire/pack012.vpk:sound/character/dlg/santa monica/jeanette/line511_col_e.mp3",
+    "originalText": "Oh, sweetheart, desperately, these nights. I'm just a lonely, little girl on a rainy day. Know any games we can play?",
+    "sourceSha256": "8769c6d16c32ea4ad326ae13999546867322ad8ad9c249304f1018a9278ee373",
+    "wavSha256": "176ef10c95ab5d76ccbdac5986cf28a62a8fca4dd681e05df867b30f5cc6e197"
+  },
+  {
+    "node": "owner",
+    "line": 21,
+    "source": "Vampire/pack012.vpk:sound/character/dlg/santa monica/jeanette/line21_col_e.mp3",
+    "originalText": "[Giggles]I can tell you and I are going to get along just like fire hoses.",
+    "sourceSha256": "3a4c455e061404a0a3b11ea6a5025058fe8710e338c78fcc4d90854a142d7299",
+    "wavSha256": "cacf6627ffd79def6967fca4b173d954c4aa93c3f892333809bfffe85295eab4"
+  },
+  {
+    "node": "rules",
+    "line": 61,
+    "source": "Vampire/pack012.vpk:sound/character/dlg/santa monica/jeanette/line61_col_e.mp3",
+    "originalText": "So's the world, but we all keep riding on this moonlit carousel regardless.",
+    "sourceSha256": "cb91a78c16730c33516a22cf739940f9d087729308e8ffed7e9066604bf44c18",
+    "wavSha256": "69e7856256aa105439f859e11871a37f635cc860d1eed8ef5be320b161690cd6"
+  },
+  {
+    "node": "guests",
+    "line": 591,
+    "source": "Vampire/pack012.vpk:sound/character/dlg/santa monica/jeanette/line591_col_e.mp3",
+    "originalText": "On the inside, we're all dead meat, kitten.",
+    "sourceSha256": "a3cfb9b3c92b4320acf22ad39efd701e561befecabdc27a87e76c47127c6339b",
+    "wavSha256": "47da5fb21646207c8e4b2a2f11e8d1311ac580b8bf5ae82fcc94b28def5a0070"
+  },
+  {
+    "node": "secrets",
+    "line": 201,
+    "source": "Vampire/pack012.vpk:sound/character/dlg/santa monica/jeanette/line201_col_e.mp3",
+    "originalText": "That was cliché and predictable, but you can say it anytime and I'll act like you were the first and only.",
+    "sourceSha256": "ac65e07b8cb0d419b72327551576a326834e718d3529f5dc1abf032ec7183cd9",
+    "wavSha256": "cbd1870f358900d37264eaa614c1186af381d5450038ad455eaeb77536a904f1"
+  },
+  {
+    "node": "challenge",
+    "line": 521,
+    "source": "Vampire/pack012.vpk:sound/character/dlg/santa monica/jeanette/line521_col_e.mp3",
+    "originalText": "Think harder and dirtier.",
+    "sourceSha256": "1e4a6b67abcc53a80ab2dd621deebdabf1a6539e4230e559f0448f69c5f783fd",
+    "wavSha256": "a8215184fb9e94c8dc763d4bb1bdf32cdb319e6960ad01aa680ec472e72cc973"
+  },
+  {
+    "node": "goodbye",
+    "line": 811,
+    "source": "Vampire/pack012.vpk:sound/character/dlg/santa monica/jeanette/line811_col_e.mp3",
+    "originalText": "Oh, and there was something about the paintings.... [Thinking to self]Hmm, what was it...? [gives up]I can't remember. Oh well, have fun, duckling!",
+    "sourceSha256": "6ccc6fe10611ac984dce6f56414daf149c32e980d5bd2732d7781fe1185ca40b",
+    "wavSha256": "20f6c48db93b55bad2e1f583ceb38dfe61b9facc86aa515d010d0feca87d8e9a"
+  }
+]
