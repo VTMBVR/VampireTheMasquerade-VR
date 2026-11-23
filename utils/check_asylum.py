@@ -14,6 +14,7 @@ import tempfile
 import wave
 
 from bloodlines_assets import Assets, asset_path, dialogue
+from alyx_sdk import resolve_addon
 
 
 def check_readers():
@@ -128,6 +129,7 @@ def main():
     parser.add_argument('--bloodlines-root', type=Path, required=True)
     parser.add_argument('--raw-output', type=Path, required=True)
     parser.add_argument('--alyx-root', type=Path, required=True)
+    parser.add_argument('--addon', help='SDK addon folder; detected from the checkout when omitted')
     parser.add_argument('--lua-runtime', type=Path, help='Directory containing the optional lupa test package')
     args = parser.parse_args()
     if args.lua_runtime:
@@ -153,7 +155,7 @@ def main():
         actual = {a['source'] for a in manifest['audio'] if a['character'] == character}
         assert expected == actual, 'Incomplete dialogue audio: '+character
         assert not catalog['unresolvedTargets'], character
-    runtime = args.alyx_root/'game/hlvr_addons/vtmbvr'
+    runtime = resolve_addon(args.alyx_root, checkout, args.addon).runtime
     events = (checkout/'soundevents/vtmbvr_asylum.vsndevts').read_text(encoding='utf8')
     for record in manifest['audio']:
         file = checkout/record['audio']

@@ -10,10 +10,11 @@ not implement Bloodlines quest progression or replace the map's NPC layout.
 
 ## Build
 
-The checkout must be the SDK's `content/hlvr_addons/vtmbvr`, with compiled
-resources in `game/hlvr_addons/vtmbvr`. Local testing needs the existing Asylum
-assets as well as this repository. Set the installation paths below to your
-own directories.
+Put or link the checkout under the SDK's `content/hlvr_addons/<addon-name>`.
+The builders detect that folder and write compiled resources to the matching
+`game/hlvr_addons/<addon-name>`; names such as `vampirethemasquerade` and `vtmbvr`
+both work. Local testing needs the existing Asylum assets as well as this
+repository. Set the installation paths below to your own directories.
 
 ```powershell
 $alyx = "E:\SteamLibrary\steamapps\common\Half-Life Alyx"
@@ -21,6 +22,13 @@ $bloodlines = "E:\Vampire - The Masquerade Bloodlines"
 
 python utils/build_dialogue.py --alyx-root $alyx
 node utils/check_dialogue.js
+```
+
+If multiple SDK folders point to the same checkout, select the intended mount
+explicitly. The same option works with `build_asylum.py` and `check_asylum.py`:
+
+```powershell
+python utils/build_dialogue.py --alyx-root $alyx --addon vampirethemasquerade
 ```
 
 This compiles the example's audio, sound events, UI, facial graph, Jeanette
