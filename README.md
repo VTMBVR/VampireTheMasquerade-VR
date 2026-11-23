@@ -22,3 +22,6 @@ Source <3
 
 NPC animation setup and Asylum interaction zones: [working notes](docs/npc_animations.md).
 
+Jeanette dialogue, facial controls and the original Asylum source library:
+[setup and build commands](docs/dialogue.md).
+

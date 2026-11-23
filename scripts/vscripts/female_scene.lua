@@ -43,6 +43,8 @@ local function tailDuration(s)
 end
 
 function Precache(context)
+    PrecacheResource("soundfile","soundevents/vtmbvr_dialogue.vsndevts",context)
+    PrecacheResource("soundfile","soundevents/vtmbvr_asylum.vsndevts",context)
     for _,m in pairs(heldProps.models) do PrecacheModel(m,context) end
     PrecacheResource("particle",heldProps.smoke.effect,context)
     for model in pairs(maleCatalog.models) do PrecacheModel(model,context) end
@@ -166,6 +168,9 @@ end
 local function animTag(s,name,status)
     local catalog=s.catalog
     if (name=="female:complete" or name=="male:complete") and status==1 then
+        -- An interrupted outgoing state can finish while the next conversation
+        -- gesture is entering. It must not complete the new request.
+        if s.dialogueOwner and (not s.started or Time()-(s.clipStarted or Time())<.25) then return end
         s.completed=true;s.completedAt=Time()
         log("GRAPH_COMPLETE actor="..s.actor:GetName().." action="..tostring(s.action))
     elseif name=="Idle" and status==1 and s.started and s.phase=="acting" and not s.chain then
@@ -247,6 +252,10 @@ local function initialize()
     end
     booted=true
     log("READY")
+    -- Conversation interaction is map-local and uses this same actor owner.
+    if NpcDialogClose then NpcDialogClose() end
+    DoIncludeScript("npc_dialog",thisEntity:GetPrivateScriptScope())
+    NpcDialogInstall()
 end
 
 local function choose(s)
@@ -275,6 +284,18 @@ local function update(s)
     local e=s.actor
     local catalog=s.catalog
     if not valid(e) then release(s,"deleted");return end
+    if s.dialogueOwner then
+        e:NpcNavClearGoal()
+        if valid(s.dialogueTarget) then e:SetGraphLookTarget(s.dialogueTarget:EyePosition()) end
+        if s.dialogueUntil and (s.completed or Time() >= s.dialogueUntil) then
+            setbool(e,"action_ready",false)
+            e:SetGraphParameterEnum("misc_anim_clip",0)
+            clearProp(s)
+            s.dialogueUntil=nil
+            log("DIALOGUE_IDLE actor="..e:GetName())
+        end
+        return
+    end
     furnitureMotion(s)
     if s.phase=="idle" then
         if Time()>=s.nextAt then choose(s) end
@@ -401,3 +422,50 @@ NpcSceneAssign=FemaleAssign
 NpcScenePreview=FemalePreview
 NpcSceneStatus=FemaleSceneStatus
 MalePreview=FemalePreview
+
+-- Dialogue borrows an actor from this owner; ambient routing never competes
+-- with conversation actions, and closing releases the actor back to the scene.
+function NpcSceneBeginDialogue(actor,owner,target)
+    local s=lookup(actor)
+    if not s or (s.dialogueOwner and s.dialogueOwner~=owner) then return false end
+    release(s,"dialogue_begin")
+    restoreNavigationOrigin(s)
+    s.dialogueOwner=owner;s.dialogueTarget=target;s.dialogueUntil=nil
+    s.phase="dialogue"
+    return true
+end
+
+function NpcSceneDialogueAction(actor,owner,clip,holdSeconds)
+    local s=lookup(actor)
+    local c=s and s.catalog.byName[clip]
+    -- Furniture needs an authored place/trajectory; conversation gestures use
+    -- the ambient catalog and stay at the actor's actual conversation position.
+    if not s or s.dialogueOwner~=owner or not c or c.family~="ambient" then return false end
+    setbool(actor,"action_ready",false)
+    clearProp(s)
+    s.action=clip;s.chain=false;s.started=false;s.completed=false;s.completedAt=nil
+    s.tags={};s.lastClip=nil;s.startedAt=Time();s.motion=nil
+    if not attachProp(s) then return false end
+    setbool(actor,"action_align",false);setbool(actor,"action_sequence",false);setbool(actor,"action_exit",false)
+    actor:SetGraphParameterEnum("misc_anim_clip",0)
+    s.dialogueGeneration=(s.dialogueGeneration or 0)+1
+    local generation=s.dialogueGeneration
+    thisEntity:SetContextThink("NpcDialogueAction"..actor:GetEntityIndex(),function()
+        if not valid(actor) or s.dialogueOwner~=owner or s.dialogueGeneration~=generation then return nil end
+        actor:SetGraphParameterEnum("misc_anim_clip",c.index)
+        setbool(actor,"action_ready",true)
+        return nil
+    end,.25)
+    s.dialogueUntil=Time()+math.max(c.duration+.5,holdSeconds or 0)
+    log("DIALOGUE_ACTION actor="..actor:GetName().." clip="..clip)
+    return true
+end
+
+function NpcSceneEndDialogue(actor,owner)
+    local s=lookup(actor)
+    if not s or s.dialogueOwner~=owner then return false end
+    s.dialogueOwner=nil;s.dialogueTarget=nil;s.dialogueUntil=nil
+    release(s,"dialogue_end")
+    s.nextAt=Time()+2
+    return true
+end

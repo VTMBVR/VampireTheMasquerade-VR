@@ -5,6 +5,10 @@
 		_class = "RootNode"
 		children = 
 		[
+            {_class="WeightListList" children=[{_class="WeightList"
+                name="dialogue_face_only" default_weight=0.0 weights=[]
+                master_morph_weight=1.0 morph_weights=[]}]},
+
 			{
 				_class = "MaterialGroupList"
 				children = 
@@ -67,23 +71,23 @@
 							},
 							{
 								from = "lowerteeth.vmat"
-								to = "materials/models/character/teeth/lowerteeth.vmat"
+								to = "materials/models/character/npc/unique/santa_monica/jeanette/jeanette_lowerteeth.vmat"
 							},
 							{
 								from = "tongue.vmat"
-								to = "materials/models/character/teeth/tongue.vmat"
+								to = "materials/models/character/npc/unique/santa_monica/jeanette/jeanette_tongue.vmat"
 							},
 							{
 								from = "upperteeth.vmat"
-								to = "materials/models/character/teeth/upperteeth.vmat"
+								to = "materials/models/character/npc/unique/santa_monica/jeanette/jeanette_upperteeth.vmat"
 							},
 							{
 								from = "molar.vmat"
-								to = "materials/models/character/teeth/molar.vmat"
+								to = "materials/models/character/npc/unique/santa_monica/jeanette/jeanette_molar.vmat"
 							},
 							{
 								from = "mouth.vmat"
-								to = "materials/models/character/teeth/mouth.vmat"
+								to = "materials/models/character/npc/unique/santa_monica/jeanette/jeanette_mouth.vmat"
 							},
 						]
 						use_global_default = false
@@ -110,13 +114,20 @@
 					{
 						_class = "RenderMeshFile"
 						name = "rework_6"
-						filename = "models/character/npc/unique/santa_monica/jeanette/skirt_rebuild/v5/JeanetteR2_REF.smd"
+						filename = "models/character/npc/unique/santa_monica/jeanette/jeanette_body.smd"
 						import_scale = 1.0
 						import_filter = 
 						{
 							exclude_by_default = false
 							exception_list = [  ]
 						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "dialogue_face"
+						filename = "models/character/npc/unique/santa_monica/jeanette/jeanette_face.dmx"
+						import_scale = 1.0
+						import_filter = { exclude_by_default = false exception_list = [] }
 					},
 					{
 						_class = "RenderMeshFile"
@@ -135,6 +146,7 @@
 				_class = "AnimationList"
 				children = 
 				[
+ { _class = "Prefab" target_file = "models/character/npc/unique/santa_monica/jeanette/prefabs/dialogue_face_channels.vmdl_prefab" },
 					{
 						_class = "AnimFile"
 						name = "jeanette_anim_Jeanette_Line1_Col_E"
@@ -1383,6 +1395,8 @@
 {
 	_class = "AttachmentList"
 	children = [
+		{ _class = "Attachment" name = "eyes" parent_bone = "bip01_head" relative_origin = [3.800002, 3.5, 0] relative_angles = [0,0,0] weight = 1.0 ignore_rotation = false },
+		{ _class = "Attachment" name = "mouth" parent_bone = "bip01_head" relative_origin = [1.4, 4.5, 0] relative_angles = [0,0,0] weight = 1.0 ignore_rotation = false },
 		{
 			_class = "Attachment"
 			name = "r_hand"
@@ -1405,6 +1419,6 @@
 ]
 		model_archetype = "generic_actor_model"
 		primary_associated_entity = "generic_actor"
-		anim_graph_name = "animgraphs/shared_female.vanmgrph"
+		anim_graph_name = "animgraphs/jeanette_dialogue.vanmgrph"
 	}
 }

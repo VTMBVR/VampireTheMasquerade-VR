@@ -1,0 +1,86 @@
+{
+  "vertices": 1975,
+  "triangles": 3060,
+  "bones": 127,
+  "mappedFaceVertices": 1975,
+  "maxMappingDistance": 0.03208210663283099,
+  "morphs": 53,
+  "materials": {
+    "jeanette_face": 2136,
+    "mouth": 70,
+    "upperteeth": 279,
+    "molar": 300,
+    "lowerteeth": 237,
+    "tongue": 38
+  },
+  "sources": [
+    {
+      "source": "Unofficial_Patch/models/character/npc/unique/santa_monica/jeanette/jeanette.mdl",
+      "sha256": "5a26f8cc4d0d090f4c917ee36af78d36923090265bc8653cd8ac1a65ab05c444"
+    },
+    {
+      "source": "Vampire/pack007.vpk:expressions/jeanette_phonemes.txt",
+      "sha256": "d7138cac72324bb8123d81646064aab85281e31cae1db0584d716f4e2958e580"
+    },
+    {
+      "source": "Vampire/pack101.vpk:sound/character/dlg/santa monica/jeanette/line701_col_e.lip",
+      "sha256": "88549cf87c030d7b9c53224c52d79d4d24851cb51988f7c746f3b42c6e56f23c"
+    },
+    {
+      "source": "Vampire/pack101.vpk:sound/character/dlg/santa monica/jeanette/line551_col_e.lip",
+      "sha256": "089a19fc6ce2416bb38e803b22d7784c1ca7122ba9971cea72918f9aad36b7a1"
+    },
+    {
+      "source": "Vampire/pack101.vpk:sound/character/dlg/santa monica/jeanette/line491_col_e.lip",
+      "sha256": "75940a77a44430de15c102d3cd40ac8b8421fea9636f0abdd5315341d6388fb4"
+    },
+    {
+      "source": "Vampire/pack101.vpk:sound/character/dlg/santa monica/jeanette/line511_col_e.lip",
+      "sha256": "7379b63f7e803066e7e6711a9be97029662ab37008e7dc3029d485bb11592bea"
+    },
+    {
+      "source": "Vampire/pack101.vpk:sound/character/dlg/santa monica/jeanette/line21_col_e.lip",
+      "sha256": "04385d9b0d0af2f00b4317026260bc7b2434f613b612bbc9655b686d368889ea"
+    },
+    {
+      "source": "Vampire/pack101.vpk:sound/character/dlg/santa monica/jeanette/line61_col_e.lip",
+      "sha256": "4cd320327d8ae5f07e40b6630732b652ca3a24706cdcd2615443bd70c1551e70"
+    },
+    {
+      "source": "Vampire/pack101.vpk:sound/character/dlg/santa monica/jeanette/line591_col_e.lip",
+      "sha256": "c5aeb655800aa70ea7769572ebf9d22ded6979a915d29df26958d485ae9dccaa"
+    },
+    {
+      "source": "Unofficial_Patch/sound/character/dlg/santa monica/jeanette/line201_col_e.lip",
+      "sha256": "009d9530697d943c3be34a242b822b23628e04d9de852d0917b2abd0106a3efb"
+    },
+    {
+      "source": "Vampire/pack101.vpk:sound/character/dlg/santa monica/jeanette/line521_col_e.lip",
+      "sha256": "cbb481a667de473273db464766f63b2d81e87f5ff799accb12fd87d4007e8af6"
+    },
+    {
+      "source": "Unofficial_Patch/sound/character/dlg/santa monica/jeanette/line811_col_e.lip",
+      "sha256": "624955aeabff1a631bba631feffb35cf07cc6a66c64a874967b93b89df2ec91a"
+    }
+  ],
+  "sourceVertices": 6157,
+  "sourceTriangles": 9146,
+  "bodyImporter": "original SMD, triangle rows and all skin weights retained verbatim",
+  "speechControllers": 21,
+  "nodes": 10,
+  "morphEncoding": "MDL2531 native direction offsets, position magnitude 8/255, normal magnitude 2/255",
+  "faceControllers": 53,
+  "eyelidRules": 4,
+  "phonemes": {
+    "welcome": 9,
+    "club": 37,
+    "looking": 72,
+    "dance": 73,
+    "owner": 46,
+    "rules": 53,
+    "guests": 26,
+    "secrets": 64,
+    "challenge": 18,
+    "goodbye": 65
+  }
+}

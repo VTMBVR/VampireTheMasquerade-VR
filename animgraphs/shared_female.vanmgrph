@@ -4854,6 +4854,37 @@
 					{
 						_class = "CAnimState"
 						m_transitions = [
+                            // Explicit cancellation also interrupts a looping ambient action.
+                            {
+								_class = "CAnimStateTransition"
+								m_conditions = [
+									{
+                                    _class = "CParameterAnimCondition"
+                                    m_comparisonOp = 0
+                                    m_paramID = { m_id = 211160001 }
+                                    m_comparisonValue = { m_nType = 1 m_data = 0 }
+                                },
+								]
+								m_blendDuration = 0.18
+								m_destState = {
+									m_id = 211165000
+								}
+								m_bReset = true
+								m_resetCycleOption = "Beginning"
+								m_flFixedCycleValue = 0.0
+								m_blendCurve = {
+									m_vControlPoint1 = [
+										0.5,
+										0.0,
+									]
+									m_vControlPoint2 = [
+										0.5,
+										1.0,
+									]
+								}
+								m_bForceFootPlant = false
+								m_bDisabled = false
+							},
 							{
 								_class = "CAnimStateTransition"
 								m_conditions = [
