@@ -7,6 +7,7 @@ import subprocess
 
 from bloodlines_assets import write_json
 from build_jeanette_face import lua
+from alyx_sdk import compiled_relative, install_manifest_alias, resolve_addon
 
 
 def generate(checkout):
@@ -79,32 +80,33 @@ def generate(checkout):
 
 
 def compile_assets(checkout, sdk, addon, log_path):
-    source = sdk/'content/hlvr_addons'/addon
-    runtime = sdk/'game/hlvr_addons'/addon
-    if source.resolve() != checkout.resolve():
-        raise ValueError('The SDK content addon must point to this checkout')
+    paths = resolve_addon(sdk, checkout, addon)
+    source, runtime = paths.source, paths.runtime
+    print('Building SDK addon: '+paths.name, flush=True)
     manifest = json.loads((checkout/'scripts/dialogue/asylum/manifest.json').read_text(encoding='utf8'))
-    resources = [a['audio'] for a in manifest['audio']]+['soundevents/vtmbvr_asylum.vsndevts']
+    resources = [a['audio'] for a in manifest['audio']]+['soundevents/vtmbvr_asylum.vsndevts',
+                                                        'resourcemanifests/vtmbvr_addon_resources.vrman']
     if not resources:
         raise ValueError('No imported resources')
     list_file = log_path.with_suffix('.inputs.txt')
     list_file.write_text('\n'.join(str(source/r) for r in resources)+'\n', encoding='utf8')
-    before = {r: (runtime/Path(r).with_suffix('.vsnd_c' if r.endswith('.wav') else '.vsndevts_c')).stat().st_mtime_ns
-              if (runtime/Path(r).with_suffix('.vsnd_c' if r.endswith('.wav') else '.vsndevts_c')).exists() else None
+    before = {r: (runtime/compiled_relative(r)).stat().st_mtime_ns
+              if (runtime/compiled_relative(r)).exists() else None
               for r in resources}
     with log_path.open('w', encoding='utf8') as stream:
-        result = subprocess.run([str(sdk/'game/bin/win64/resourcecompiler.exe'), '-filelist', str(list_file),
+        result = subprocess.run([str(paths.compiler), '-filelist', str(list_file),
                                  '-game', str(sdk/'game/hlvr'), '-nop4', '-f'],
                                 stdout=stream, stderr=subprocess.STDOUT,
                                 creationflags=getattr(subprocess, 'CREATE_NO_WINDOW', 0))
     report = log_path.read_text(encoding='utf8', errors='replace')
     failures = []
     for r in resources:
-        target = runtime/Path(r).with_suffix('.vsnd_c' if r.endswith('.wav') else '.vsndevts_c')
+        target = runtime/compiled_relative(r)
         if not target.is_file() or target.stat().st_size == 0 or target.stat().st_mtime_ns == before[r]:
             failures.append(r)
     if result.returncode or '0 failed' not in report or failures:
         raise RuntimeError('Native resource build failed; inspect '+str(log_path)+'; missing/stale '+str(failures[:10]))
+    install_manifest_alias(paths)
     return len(resources)
 
 
@@ -112,7 +114,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output-root', type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument('--alyx-root', type=Path)
-    parser.add_argument('--addon', default='vtmbvr')
+    parser.add_argument('--addon', help='SDK addon folder; detected from the checkout when omitted')
     parser.add_argument('--compile-log', type=Path)
     args = parser.parse_args()
     manifest, audit = generate(args.output_root)

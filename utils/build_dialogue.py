@@ -4,6 +4,7 @@ from pathlib import Path
 import subprocess
 import json
 import wave
+from alyx_sdk import compiled_relative, install_manifest_alias, resolve_addon
 
 def generate_data(checkout):
     data = json.loads((checkout / 'scripts/dialogue/jeanette.json').read_text(encoding='utf8'))
@@ -62,25 +63,21 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--alyx-root', required=True, type=Path,
                         help='Half-Life Alyx installation directory')
-    parser.add_argument('--addon', default='vtmbvr')
+    parser.add_argument('--addon', help='SDK addon folder; detected from this checkout when omitted')
     args = parser.parse_args()
     sdk = args.alyx_root.resolve()
-    compiler = sdk / 'game/bin/win64/resourcecompiler.exe'
-    source = sdk / 'content/hlvr_addons' / args.addon
-    runtime = sdk / 'game/hlvr_addons' / args.addon
     checkout = Path(__file__).resolve().parents[1]
-    if not compiler.is_file():
-        parser.error('Alyx Workshop Tools resourcecompiler.exe was not found')
-    if not source.is_dir() or source.resolve() != checkout:
-        parser.error('The SDK content addon must point to this checkout')
+    try:
+        paths = resolve_addon(sdk, checkout, args.addon)
+    except ValueError as error:
+        parser.error(str(error))
+    compiler, source, runtime = paths.compiler, paths.source, paths.runtime
+    print('Building SDK addon: '+paths.name)
     data = generate_data(checkout)
     audio = [node['audio'] for node in data['nodes'].values() if node.get('audio')]
     resources = audio + ['soundevents/vtmbvr_dialogue.vsndevts'] + list(ASSETS)
     for relative in resources:
-        suffix = Path(relative).suffix
-        compiled = {'.wav': '.vsnd_c', '.vsndevts': '.vsndevts_c', '.vrman': '.vrman_c',
-                    '.vmdl': '.vmdl_c', '.vanmgrph': '.vanmgrph_c'}.get(suffix, '.v' + suffix[1:] + '_c')
-        target = runtime / str(Path(relative).with_suffix(compiled))
+        target = runtime / compiled_relative(relative)
         before = target.stat().st_mtime_ns if target.exists() else None
         result = subprocess.run([str(compiler), '-i', str(source / relative),
                                  '-game', str(sdk / 'game/hlvr'), '-nop4', '-f'],
@@ -90,6 +87,7 @@ def main():
         # the newly written compiled resource rather than trusting the exit code.
         if result.returncode or '0 failed' not in result.stdout or not target.is_file() or target.stat().st_mtime_ns == before:
             raise SystemExit('Compile failed or output was not updated: ' + relative + '\n' + result.stderr)
+    install_manifest_alias(paths)
     print('Dialogue assets compiled: ' + str(runtime / 'panorama'))
 
 if __name__ == '__main__':
