@@ -2783,6 +2783,7 @@
       "reason": "invalid_original_interval"
     }
   ],
-  "questLogicPorted": false,
+  "sourceDialogueRuntimeAvailable": true,
+  "campaignWorldEffectsComplete": false,
   "nativePlaybackVerified": false
 }

@@ -1,0 +1,110 @@
+<!-- dmx encoding keyvalues2 1 format model 22 -->
+"DmElement"
+{
+	"id" "elementid" "af58a51d-fb33-586f-be63-f01cccc8684c"
+	"name" "string" "facial ramp"
+	"skeleton" "element" "c012f9bf-c73d-5e05-a236-5ae68880d2e4"
+	"animationList" "element" "825093b8-e4bd-550b-8468-2edc6ac006d0"
+}
+"DmeModel"
+{
+	"id" "elementid" "c012f9bf-c73d-5e05-a236-5ae68880d2e4"
+	"name" "string" "skeleton"
+	"transform" "element" "c0a4ff3f-147d-55ad-b645-6d80094238bb"
+	"axisSystem" "element" "50993f86-c99a-5c1a-91a4-41e307a5e07e"
+	"children" "element_array"
+	[
+	]
+	"jointList" "element_array"
+	[
+	]
+	"baseStates" "element_array"
+	[
+	]
+}
+"DmeTransform"
+{
+	"id" "elementid" "c0a4ff3f-147d-55ad-b645-6d80094238bb"
+	"name" "string" "root"
+	"position" "vector3" "0 0 0"
+	"orientation" "quaternion" "0 0 0 1"
+}
+"DmeAxisSystem"
+{
+	"id" "elementid" "50993f86-c99a-5c1a-91a4-41e307a5e07e"
+	"name" "string" "axisSystem"
+	"upAxis" "int" "3"
+	"forwardParity" "int" "1"
+	"coordSys" "int" "0"
+}
+"DmeAnimationList"
+{
+	"id" "elementid" "825093b8-e4bd-550b-8468-2edc6ac006d0"
+	"name" "string" "animations"
+	"animations" "element_array"
+	[
+		"element" "b38c4fd5-c825-5227-8ea5-8d8056ab117c"
+	]
+}
+"DmeChannelsClip"
+{
+	"id" "elementid" "b38c4fd5-c825-5227-8ea5-8d8056ab117c"
+	"name" "string" "AU24Frame42"
+	"timeFrame" "element" "75daebbb-a16f-5315-b98a-3cd205c97050"
+	"frameRate" "float" "24"
+	"channels" "element_array"
+	[
+		"element" "68c9f34d-3018-565a-8833-0b4fa48ca486"
+	]
+}
+"DmeTimeFrame"
+{
+	"id" "elementid" "75daebbb-a16f-5315-b98a-3cd205c97050"
+	"name" "string" "time"
+	"start" "time" "0"
+	"duration" "time" "0.0416667"
+	"offset" "time" "0"
+	"scale" "float" "1"
+}
+"DmeChannel"
+{
+	"id" "elementid" "68c9f34d-3018-565a-8833-0b4fa48ca486"
+	"name" "string" "AU24Frame42"
+	"toElement" "element" "b1062cfd-e970-5898-92f9-717544d8479d"
+	"toAttribute" "string" "flexWeight"
+	"toIndex" "int" "0"
+	"mode" "int" "3"
+	"log" "element" "4e54025a-564f-5b0f-a4ae-ee180c86b44a"
+}
+"DmeElement"
+{
+	"id" "elementid" "b1062cfd-e970-5898-92f9-717544d8479d"
+	"name" "string" "AU24Frame42"
+	"flexWeight" "float" "0"
+}
+"DmeFloatLog"
+{
+	"id" "elementid" "4e54025a-564f-5b0f-a4ae-ee180c86b44a"
+	"name" "string" "weight"
+	"layers" "element_array"
+	[
+		"element" "abe8cbc9-5d4a-540a-9af8-a3f51e367c24"
+	]
+	"defaultvalue" "float" "0"
+	"usedefaultvalue" "bool" "0"
+}
+"DmeFloatLogLayer"
+{
+	"id" "elementid" "abe8cbc9-5d4a-540a-9af8-a3f51e367c24"
+	"name" "string" "weight"
+	"times" "time_array"
+	[
+		"0",
+		"0.0416667"
+	]
+	"values" "float_array"
+	[
+		"0",
+		"1"
+	]
+}

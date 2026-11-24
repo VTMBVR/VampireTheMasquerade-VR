@@ -1,0 +1,461 @@
+{
+  "order": [
+    "item_g_driver_license_gimble",
+    "item_g_ghost_pendant",
+    "item_g_oh_diary",
+    "item_k_oceanhouse_sewer_key",
+    "item_w_knife",
+    "item_w_thirtyeight"
+  ],
+  "items": {
+    "item_g_driver_license_gimble": {
+      "model": "models/items/asylum/item_g_driver_license_gimble/item.vmdl",
+      "name": "Водительские права",
+      "description": "Водительские права штата Калифорния. Выданы на имя Bерджила Крамба.",
+      "mass": 0.02,
+      "sourceModel": "models/items/license/ground/license.mdl",
+      "minimum": [
+        -1.87500012,
+        -3.0,
+        0.0
+      ],
+      "maximum": [
+        1.87500012,
+        3.0,
+        0.075000003
+      ],
+      "radius": 3.0,
+      "source": {
+        "path": "vdata/items/item_g_driver_license_gimble.txt",
+        "source": "Unofficial_Patch/vdata/items/item_g_driver_license_gimble.txt",
+        "bytes": 1049,
+        "sha256": "9491b109e585fe9f7c3947cdd8490f3b4aa141e71bc4ed73e93add4f439915fb"
+      },
+      "modelSource": {
+        "path": "models/items/license/ground/license.mdl",
+        "source": "Vampire/pack008.vpk:models/items/license/ground/license.mdl",
+        "bytes": 3472,
+        "sha256": "cf0c762faaed1545def0fffe709312d00c998c28ce2bc29b61ecf9b2aad7ca93"
+      },
+      "triangles": 44
+    },
+    "item_g_ghost_pendant": {
+      "model": "models/items/asylum/item_g_ghost_pendant/item.vmdl",
+      "name": "Медальон",
+      "description": "Этот изящный медальон кажется гладко отполированным, хотя был найден среди обугленных обломков в отеле \"Ocean House\". Стоит на несколько секунд зажать его в ладони, и вас переполняет чувство глубокой печали.",
+      "mass": 0.12,
+      "sourceModel": "models/items/pendant/ground/pendant.mdl",
+      "minimum": [
+        -2.53979993,
+        -7.20489979,
+        -0.475899994
+      ],
+      "maximum": [
+        2.53979993,
+        7.20489979,
+        0.468899995
+      ],
+      "radius": 7.20489979,
+      "source": {
+        "path": "vdata/items/item_g_ghost_pendant.txt",
+        "source": "Unofficial_Patch/vdata/items/item_g_ghost_pendant.txt",
+        "bytes": 1246,
+        "sha256": "710abee75d32895824bcce4e45b4f2d1a8d93eb8dcdf078d777011b7f12b96e0"
+      },
+      "modelSource": {
+        "path": "models/items/pendant/ground/pendant.mdl",
+        "source": "Vampire/pack003.vpk:models/items/pendant/ground/pendant.mdl",
+        "bytes": 248008,
+        "sha256": "1979ea108e7c697707588a2d177e1355b7aeb02401e29c22bcda18d01890598d"
+      },
+      "triangles": 1582
+    },
+    "item_g_oh_diary": {
+      "model": "models/items/asylum/item_g_oh_diary/item.vmdl",
+      "name": "Дневник",
+      "description": "Это обугленные останки чего-то, похожего на дневник:\r\n\r\n\t\t\t30/05/1958 - Только что приехали сюда, в \"Ocean House\". Проводим недельный отпуск в Санта-Монике, и Эд заказал номер к открытию отеля. Это чудесное место, почти волшебное. Дети весь день купались.\r\n\r\n\t\t\t31/05/1958 - Первые два дня почти безупречны, разве что Эд постоянно допытывается насчет медальона, который мне прислала мать. Похоже, он считает, что это подарок поклонника. Обычно Эд славный, но иногда его заносит от ревности. Надеюсь, завтра он успокоится.\r\n\t\t\t\r\n\t\t\t01/06/1958 - Сегодня солнечно, на небе ни облачка. Эд слегка на взводе, продолжает гадать, кто этот мой \"новый приятель\". Глупенький Эд.\r\n\t\t\t\r\n\t\t\t03/06/1958 - Утром был пикник для постояльцев отеля... просто впечатляющее мероприятие. Эд снова не в духе. Не знаю даже, как убедить его, что он моя единственная любовь. Он только однажды повеселел - при разговоре с дворником. Мальчишки и их игрушки...\r\n\t\t\t\r\n\t\t\t04/06/1958 - Нам осталось всего два дня, и слава богу, что мы, наконец, едем домой. Эд не разговаривает со мной и детьми, и я неоднократно видела, как он стоит в ванной, уставившись на медальон в руке. Боюсь, у него какой-то психоз. Я говорила, что мы можем вернуться домой, но он только качает головой. Даже не смотрит на меня. Я просто хочу вернуться домой.\r\n\t\t\t\r\n\t\t\t05/06/1958 - Эд ушел рано этим утром, и с тех пор я его не видела. Еще час, и придется звать менеджера отеля. Несмотря на мои возражения, Эд-младший отправился поискать его в подвале. Надо будет отправить за ним Тиффани, если... постой... кто-то стучит в дверь...\r\n\r\n\t\t\tО боже, Эд весь в крови... идет убить меня... заперлась в ванной... он свихнулся... непрестанно орет мы будем вместе вечно и он не даст мне уйти... кто-нибудь пожалуйста помо... (запись обрывается).",
+      "mass": 0.35,
+      "sourceModel": "models/items/diary/ground/diary.mdl",
+      "minimum": [
+        -3.35879993,
+        -2.48350024,
+        -0.445199996
+      ],
+      "maximum": [
+        3.35879993,
+        2.48350024,
+        0.445199996
+      ],
+      "radius": 3.35879993,
+      "source": {
+        "path": "vdata/items/item_g_oh_diary.txt",
+        "source": "Unofficial_Patch/vdata/items/item_g_oh_diary.txt",
+        "bytes": 2761,
+        "sha256": "63d835033595b924f1416cdb3acb6d348ad428d3429efa1f4897448499058945"
+      },
+      "modelSource": {
+        "path": "models/items/diary/ground/diary.mdl",
+        "source": "Vampire/pack002.vpk:models/items/diary/ground/diary.mdl",
+        "bytes": 4668,
+        "sha256": "a3425449a4628098eed7ab190fdf2fe3a3e6d880c1a44877aabec07684ab976b"
+      },
+      "triangles": 96
+    },
+    "item_k_oceanhouse_sewer_key": {
+      "model": "models/items/asylum/item_k_oceanhouse_sewer_key/item.vmdl",
+      "name": "Ключ от канализации отеля",
+      "description": "Похоже на чей-то запасной ключ.",
+      "mass": 0.05,
+      "sourceModel": "models/items/key/ground/key.mdl",
+      "minimum": [
+        -5.31169987,
+        -2.41940022,
+        -0.432999998
+      ],
+      "maximum": [
+        5.32409954,
+        2.42850018,
+        0.697499961
+      ],
+      "radius": 5.32409954,
+      "source": {
+        "path": "vdata/items/item_k_oceanhouse_sewer_key.txt",
+        "source": "Unofficial_Patch/vdata/items/item_k_oceanhouse_sewer_key.txt",
+        "bytes": 1075,
+        "sha256": "ebca5bb0ed7e62ab486610cfe4962d4d145cdd244c9ed8d85b5785389ba20bb9"
+      },
+      "modelSource": {
+        "path": "models/items/key/ground/key.mdl",
+        "source": "Vampire/pack001.vpk:models/items/key/ground/key.mdl",
+        "bytes": 18772,
+        "sha256": "3fff7b5874d4dfe40ae90a0cb554426550a51dc2dbfb5c3a08ca2e34c97cb71e"
+      },
+      "triangles": 924
+    },
+    "item_w_knife": {
+      "model": "models/items/asylum/item_w_knife/item.vmdl",
+      "name": "Нож",
+      "description": "Некоторые ножи в течение всего срока своего существования ни разу не используются для злонамеренной цели. Этот - не из них.",
+      "mass": 0.45,
+      "sourceModel": "models/weapons/knife/world/g_knife.mdl",
+      "minimum": [
+        -8.89435005,
+        -1.50314999,
+        -0.42425999
+      ],
+      "maximum": [
+        8.89434946,
+        1.50314989,
+        0.424259977
+      ],
+      "radius": 8.89435005,
+      "source": {
+        "path": "vdata/items/item_w_knife.txt",
+        "source": "Unofficial_Patch/vdata/items/item_w_knife.txt",
+        "bytes": 3913,
+        "sha256": "2d7525b61260c39283a109d440a2434902150c4822170977c5ba3eaea3cb5278"
+      },
+      "modelSource": {
+        "path": "models/weapons/knife/world/g_knife.mdl",
+        "source": "Vampire/pack001.vpk:models/weapons/knife/world/g_knife.mdl",
+        "bytes": 14600,
+        "sha256": "9844b72a32174c0842811ddc2e1a2cbfa401f0f3c7157bfc791a20d237e77651"
+      },
+      "triangles": 250
+    },
+    "item_w_thirtyeight": {
+      "model": "models/items/asylum/item_w_thirtyeight/item.vmdl",
+      "name": "Тридцать восьмой",
+      "description": "Это дешевый мелкокалиберный револьвер, используемый мелкой шпаной в темных переулках. Также известен как дамский пистолет.",
+      "mass": 0.8,
+      "sourceModel": "models/weapons/thirtyeight/ground/g_thirtyeight.mdl",
+      "minimum": [
+        -3.83530045,
+        -4.04570007,
+        -0.964999974
+      ],
+      "maximum": [
+        3.83530045,
+        4.04570007,
+        0.965000093
+      ],
+      "radius": 4.04570007,
+      "source": {
+        "path": "vdata/items/item_w_thirtyeight.txt",
+        "source": "Unofficial_Patch/vdata/items/item_w_thirtyeight.txt",
+        "bytes": 7712,
+        "sha256": "beabf22c5f621060fccc91f1e12efd8da221e01ef57d2f9b686207641ff3d4d7"
+      },
+      "modelSource": {
+        "path": "models/weapons/thirtyeight/ground/g_thirtyeight.mdl",
+        "source": "Vampire/pack001.vpk:models/weapons/thirtyeight/ground/g_thirtyeight.mdl",
+        "bytes": 27548,
+        "sha256": "ff1763ad79558a35dc843f62f36e3c7804051a0d1fbc15860d3c977dbf41f7bf"
+      },
+      "triangles": 937
+    }
+  },
+  "sceneGun": {
+    "model": "models/items/asylum/tourette_handgun/gun.vmdl",
+    "attachment": "r_hand",
+    "muzzle": [
+      13.0,
+      1.7499982118606567,
+      2.75
+    ],
+    "source": {
+      "path": "models/weapons/thirtyeight/wield/w_f_thirtyeight.mdl",
+      "source": "Vampire/pack001.vpk:models/weapons/thirtyeight/wield/w_f_thirtyeight.mdl",
+      "bytes": 71432,
+      "sha256": "96f713e73b603b26de20c18491a3b442cfc58d9d39bf6b4221af43b1945d65f1"
+    }
+  },
+  "sourceAssets": {
+    "vdata/items/item_g_driver_license_gimble.txt": {
+      "path": "vdata/items/item_g_driver_license_gimble.txt",
+      "source": "Unofficial_Patch/vdata/items/item_g_driver_license_gimble.txt",
+      "bytes": 1049,
+      "sha256": "9491b109e585fe9f7c3947cdd8490f3b4aa141e71bc4ed73e93add4f439915fb"
+    },
+    "models/items/license/ground/license.mdl": {
+      "path": "models/items/license/ground/license.mdl",
+      "source": "Vampire/pack008.vpk:models/items/license/ground/license.mdl",
+      "bytes": 3472,
+      "sha256": "cf0c762faaed1545def0fffe709312d00c998c28ce2bc29b61ecf9b2aad7ca93"
+    },
+    "models/items/license/ground/license.dx80.vtx": {
+      "path": "models/items/license/ground/license.dx80.vtx",
+      "source": "Vampire/pack008.vpk:models/items/license/ground/license.dx80.vtx",
+      "bytes": 512,
+      "sha256": "c518311d0c5205c50a2ecd126e2616cd20067bc9af711edcd056e01504d20e93"
+    },
+    "materials/models/items/license/license.vmt": {
+      "path": "materials/models/items/license/license.vmt",
+      "source": "Vampire/pack007.vpk:materials/models/items/license/license.vmt",
+      "bytes": 74,
+      "sha256": "418b31a10f1ae6f1f92585aa4a440a234a51af29a4f77ba6ebf80f91c74747b0"
+    },
+    "materials/models/items/license/license.tth": {
+      "path": "materials/models/items/license/license.tth",
+      "source": "Unofficial_Patch/materials/models/items/license/license.tth",
+      "bytes": 292,
+      "sha256": "21b37bfdb91931ddbd80d5fe5ec5d8aeae2895c9634b6cf93381b6648592ca2a"
+    },
+    "materials/models/items/license/license.ttz": {
+      "path": "materials/models/items/license/license.ttz",
+      "source": "Unofficial_Patch/materials/models/items/license/license.ttz",
+      "bytes": 87569,
+      "sha256": "3b504f0f536214579b8df08dec3097d28fd01983ea1ce60e7c9801888d0a4c24"
+    },
+    "vdata/items/item_g_ghost_pendant.txt": {
+      "path": "vdata/items/item_g_ghost_pendant.txt",
+      "source": "Unofficial_Patch/vdata/items/item_g_ghost_pendant.txt",
+      "bytes": 1246,
+      "sha256": "710abee75d32895824bcce4e45b4f2d1a8d93eb8dcdf078d777011b7f12b96e0"
+    },
+    "models/items/pendant/ground/pendant.mdl": {
+      "path": "models/items/pendant/ground/pendant.mdl",
+      "source": "Vampire/pack003.vpk:models/items/pendant/ground/pendant.mdl",
+      "bytes": 248008,
+      "sha256": "1979ea108e7c697707588a2d177e1355b7aeb02401e29c22bcda18d01890598d"
+    },
+    "models/items/pendant/ground/pendant.dx80.vtx": {
+      "path": "models/items/pendant/ground/pendant.dx80.vtx",
+      "source": "Vampire/pack003.vpk:models/items/pendant/ground/pendant.dx80.vtx",
+      "bytes": 58788,
+      "sha256": "db5be44a29b3b25e8f90d1aff5063964f46fb3a3484b66a8f64c66984dc91b29"
+    },
+    "materials/models/items/pendant/pendant.vmt": {
+      "path": "materials/models/items/pendant/pendant.vmt",
+      "source": "Vampire/pack003.vpk:materials/models/items/pendant/pendant.vmt",
+      "bytes": 174,
+      "sha256": "4de6bd5c781ccf70870f78cf5428d0de61410407725a779c38dce630847cf375"
+    },
+    "materials/models/items/pendant/pendant.tth": {
+      "path": "materials/models/items/pendant/pendant.tth",
+      "source": "Vampire/pack003.vpk:materials/models/items/pendant/pendant.tth",
+      "bytes": 308,
+      "sha256": "8be5c610b66f65529346a8feaab88636a39fb620c112b024f33e9e30577d86b1"
+    },
+    "materials/models/items/pendant/pendant.ttz": {
+      "path": "materials/models/items/pendant/pendant.ttz",
+      "source": "Vampire/pack003.vpk:materials/models/items/pendant/pendant.ttz",
+      "bytes": 20640,
+      "sha256": "b0c0a28fc2a70ff15407d9589d3cd6179fc4e27a97bf81ad71b03c9f5d0d98d2"
+    },
+    "vdata/items/item_g_oh_diary.txt": {
+      "path": "vdata/items/item_g_oh_diary.txt",
+      "source": "Unofficial_Patch/vdata/items/item_g_oh_diary.txt",
+      "bytes": 2761,
+      "sha256": "63d835033595b924f1416cdb3acb6d348ad428d3429efa1f4897448499058945"
+    },
+    "models/items/diary/ground/diary.mdl": {
+      "path": "models/items/diary/ground/diary.mdl",
+      "source": "Vampire/pack002.vpk:models/items/diary/ground/diary.mdl",
+      "bytes": 4668,
+      "sha256": "a3425449a4628098eed7ab190fdf2fe3a3e6d880c1a44877aabec07684ab976b"
+    },
+    "models/items/diary/ground/diary.dx80.vtx": {
+      "path": "models/items/diary/ground/diary.dx80.vtx",
+      "source": "Vampire/pack002.vpk:models/items/diary/ground/diary.dx80.vtx",
+      "bytes": 924,
+      "sha256": "d3d99f689a5a56bf2d96c257ab0ebc28393db33252afb7eee10282065b4d2353"
+    },
+    "materials/models/items/diary/diary.vmt": {
+      "path": "materials/models/items/diary/diary.vmt",
+      "source": "Vampire/pack002.vpk:materials/models/items/diary/diary.vmt",
+      "bytes": 70,
+      "sha256": "b755ebce18a7e0e0f9e48a1b89a696d08b56fad21c3af1a836f1de2e8db9295f"
+    },
+    "materials/models/items/diary/diary.tth": {
+      "path": "materials/models/items/diary/diary.tth",
+      "source": "Vampire/pack002.vpk:materials/models/items/diary/diary.tth",
+      "bytes": 308,
+      "sha256": "2629ca86e9169015708ce7edcd5034b327e25a5dc110721301b262fd257ac6b6"
+    },
+    "materials/models/items/diary/diary.ttz": {
+      "path": "materials/models/items/diary/diary.ttz",
+      "source": "Vampire/pack002.vpk:materials/models/items/diary/diary.ttz",
+      "bytes": 34669,
+      "sha256": "4ed94fd7c2d87a144505ae2aa5ab4fd3534b479abdcb2c6769a1f7a291fb73dd"
+    },
+    "vdata/items/item_k_oceanhouse_sewer_key.txt": {
+      "path": "vdata/items/item_k_oceanhouse_sewer_key.txt",
+      "source": "Unofficial_Patch/vdata/items/item_k_oceanhouse_sewer_key.txt",
+      "bytes": 1075,
+      "sha256": "ebca5bb0ed7e62ab486610cfe4962d4d145cdd244c9ed8d85b5785389ba20bb9"
+    },
+    "models/items/key/ground/key.mdl": {
+      "path": "models/items/key/ground/key.mdl",
+      "source": "Vampire/pack001.vpk:models/items/key/ground/key.mdl",
+      "bytes": 18772,
+      "sha256": "3fff7b5874d4dfe40ae90a0cb554426550a51dc2dbfb5c3a08ca2e34c97cb71e"
+    },
+    "models/items/key/ground/key.dx80.vtx": {
+      "path": "models/items/key/ground/key.dx80.vtx",
+      "source": "Vampire/pack002.vpk:models/items/key/ground/key.dx80.vtx",
+      "bytes": 7108,
+      "sha256": "307c50fbe6fb16f7c9894be16d3c1871a44a137dfe29abdafeb27785a053c07e"
+    },
+    "materials/models/items/key/key.vmt": {
+      "path": "materials/models/items/key/key.vmt",
+      "source": "Unofficial_Patch/materials/models/items/key/key.vmt",
+      "bytes": 161,
+      "sha256": "9a80cda34534f1781daa5a01bdc326ef15727b9682d58c78fa267eb37a4f846b"
+    },
+    "materials/models/items/key/key.tth": {
+      "path": "materials/models/items/key/key.tth",
+      "source": "Vampire/pack002.vpk:materials/models/items/key/key.tth",
+      "bytes": 300,
+      "sha256": "dbfd5096ac38f807934645a04834bcd48208ba402dbe4a6f580e0e8e8eb0b895"
+    },
+    "materials/models/items/key/key.ttz": {
+      "path": "materials/models/items/key/key.ttz",
+      "source": "Vampire/pack002.vpk:materials/models/items/key/key.ttz",
+      "bytes": 6363,
+      "sha256": "7b94c51812347850e7893659f0d31820d43c73d79bf1083e6c0e410df419d73f"
+    },
+    "materials/models/items/key/keychain.vmt": {
+      "path": "materials/models/items/key/keychain.vmt",
+      "source": "Unofficial_Patch/materials/models/items/key/keychain.vmt",
+      "bytes": 199,
+      "sha256": "dc74072b6f77468be7f9729da62c24faecd3cc5a1f07dc6f271e00145803e2ac"
+    },
+    "materials/models/items/key/keychain.tth": {
+      "path": "materials/models/items/key/keychain.tth",
+      "source": "Vampire/pack002.vpk:materials/models/items/key/keychain.tth",
+      "bytes": 268,
+      "sha256": "1f2e55cee0da6a75b7579e44c0861c46bb03402dde887648546256dd28697f79"
+    },
+    "materials/models/items/key/keychain.ttz": {
+      "path": "materials/models/items/key/keychain.ttz",
+      "source": "Vampire/pack002.vpk:materials/models/items/key/keychain.ttz",
+      "bytes": 53782,
+      "sha256": "09fb7aa53bcfe32d9db40f3d8ccd8925f0eabefb6f024aea8ab6b1c7cca6b70e"
+    },
+    "vdata/items/item_w_knife.txt": {
+      "path": "vdata/items/item_w_knife.txt",
+      "source": "Unofficial_Patch/vdata/items/item_w_knife.txt",
+      "bytes": 3913,
+      "sha256": "2d7525b61260c39283a109d440a2434902150c4822170977c5ba3eaea3cb5278"
+    },
+    "models/weapons/knife/world/g_knife.mdl": {
+      "path": "models/weapons/knife/world/g_knife.mdl",
+      "source": "Vampire/pack001.vpk:models/weapons/knife/world/g_knife.mdl",
+      "bytes": 14600,
+      "sha256": "9844b72a32174c0842811ddc2e1a2cbfa401f0f3c7157bfc791a20d237e77651"
+    },
+    "models/weapons/knife/world/g_knife.dx80.vtx": {
+      "path": "models/weapons/knife/world/g_knife.dx80.vtx",
+      "source": "Vampire/pack002.vpk:models/weapons/knife/world/g_knife.dx80.vtx",
+      "bytes": 2518,
+      "sha256": "63cc69584ed8b2215234993bfb8e7b498649cad9cac4235e691a11d6c4a245c3"
+    },
+    "materials/models/weapons/knife/knife01.vmt": {
+      "path": "materials/models/weapons/knife/knife01.vmt",
+      "source": "Vampire/pack002.vpk:materials/models/weapons/knife/knife01.vmt",
+      "bytes": 204,
+      "sha256": "532f1bf1e243d6d680e129a8f242ed87a99b02289bfbd98837d51b45565841a1"
+    },
+    "materials/models/weapons/knife/knife01.tth": {
+      "path": "materials/models/weapons/knife/knife01.tth",
+      "source": "Vampire/pack002.vpk:materials/models/weapons/knife/knife01.tth",
+      "bytes": 308,
+      "sha256": "7f7d84b40e50b0d2cf6afe963238ddfcaa6c66972e4670bd7ae2d39ca3c6d419"
+    },
+    "materials/models/weapons/knife/knife01.ttz": {
+      "path": "materials/models/weapons/knife/knife01.ttz",
+      "source": "Vampire/pack002.vpk:materials/models/weapons/knife/knife01.ttz",
+      "bytes": 35690,
+      "sha256": "a1f22fb0a9009a8f6c1bcb8d218f6cb23ebb076828ed8b9f8b90a4e55bf6bc8b"
+    },
+    "vdata/items/item_w_thirtyeight.txt": {
+      "path": "vdata/items/item_w_thirtyeight.txt",
+      "source": "Unofficial_Patch/vdata/items/item_w_thirtyeight.txt",
+      "bytes": 7712,
+      "sha256": "beabf22c5f621060fccc91f1e12efd8da221e01ef57d2f9b686207641ff3d4d7"
+    },
+    "models/weapons/thirtyeight/ground/g_thirtyeight.mdl": {
+      "path": "models/weapons/thirtyeight/ground/g_thirtyeight.mdl",
+      "source": "Vampire/pack001.vpk:models/weapons/thirtyeight/ground/g_thirtyeight.mdl",
+      "bytes": 27548,
+      "sha256": "ff1763ad79558a35dc843f62f36e3c7804051a0d1fbc15860d3c977dbf41f7bf"
+    },
+    "models/weapons/thirtyeight/ground/g_thirtyeight.dx80.vtx": {
+      "path": "models/weapons/thirtyeight/ground/g_thirtyeight.dx80.vtx",
+      "source": "Vampire/pack002.vpk:models/weapons/thirtyeight/ground/g_thirtyeight.dx80.vtx",
+      "bytes": 7864,
+      "sha256": "05dfd48f13848e38d9237d83598f207bdd3717ed5709cca367c798a593367c16"
+    },
+    "materials/models/weapons/thirtyeight/new_service.vmt": {
+      "path": "materials/models/weapons/thirtyeight/new_service.vmt",
+      "source": "Vampire/pack001.vpk:materials/models/weapons/thirtyeight/new_service.vmt",
+      "bytes": 180,
+      "sha256": "e7e159054d343c427955c4d2e0336281d093dbd0936078bde3dbbb11ebff8f70"
+    },
+    "materials/models/weapons/thirtyeight/new_service.tth": {
+      "path": "materials/models/weapons/thirtyeight/new_service.tth",
+      "source": "Vampire/pack001.vpk:materials/models/weapons/thirtyeight/new_service.tth",
+      "bytes": 316,
+      "sha256": "e0944062d08e0eca8cb60c4ed6179c5fc50aa4b4e36aa96b83ceb5303036009c"
+    },
+    "materials/models/weapons/thirtyeight/new_service.ttz": {
+      "path": "materials/models/weapons/thirtyeight/new_service.ttz",
+      "source": "Vampire/pack001.vpk:materials/models/weapons/thirtyeight/new_service.ttz",
+      "bytes": 138300,
+      "sha256": "ef84cc01ca516bbdd21a6dfd3dd8e957cf147e41ac1372282e96f0195c79d3b6"
+    },
+    "models/weapons/thirtyeight/wield/w_f_thirtyeight.mdl": {
+      "path": "models/weapons/thirtyeight/wield/w_f_thirtyeight.mdl",
+      "source": "Vampire/pack001.vpk:models/weapons/thirtyeight/wield/w_f_thirtyeight.mdl",
+      "bytes": 71432,
+      "sha256": "96f713e73b603b26de20c18491a3b442cfc58d9d39bf6b4221af43b1945d65f1"
+    },
+    "models/weapons/thirtyeight/wield/w_f_thirtyeight.dx80.vtx": {
+      "path": "models/weapons/thirtyeight/wield/w_f_thirtyeight.dx80.vtx",
+      "source": "Vampire/pack003.vpk:models/weapons/thirtyeight/wield/w_f_thirtyeight.dx80.vtx",
+      "bytes": 18474,
+      "sha256": "0c5d65ec975f92073d6c1663673483e8de44ddd0779932ddc40ad65d73ee1103"
+    }
+  }
+}

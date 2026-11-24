@@ -1,0 +1,5 @@
+Layer0
+{
+	shader "vr_complex.vfx"
+	TextureColor "models/items/asylum/item_g_ghost_pendant/materials/Pendant_color.png"
+}

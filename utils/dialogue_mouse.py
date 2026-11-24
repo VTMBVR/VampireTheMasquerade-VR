@@ -267,6 +267,7 @@ class Mouse:
         self.press = None
         self.clicks = []
         self.sequence = 0
+        self.use_requested = False
         self.pending = None
         self.pending_since = 0
         self.last_move = 0
@@ -277,8 +278,10 @@ class Mouse:
         if not U.RegisterClassW(c.byref(self.wc)):
             raise c.WinError(c.get_last_error())
         self.window = U.CreateWindowExW(0, self.name, '', 0, 0, 0, 0, 0, w.HWND(-3), None, self.instance, None)
-        device = RawDevice(1, 2, 0x100, self.window)  # Mouse only; no global keyboard capture.
-        if not self.window or not U.RegisterRawInputDevices(c.byref(device), 1, c.sizeof(device)):
+        # Only consume E from the foreground game; retain key-down edges so a
+        # short press cannot fall between two GetAsyncKeyState polling ticks.
+        devices=(RawDevice*2)(RawDevice(1,2,0x100,self.window),RawDevice(1,6,0x100,self.window))
+        if not self.window or not U.RegisterRawInputDevices(devices, 2, c.sizeof(RawDevice)):
             raise c.WinError(c.get_last_error())
 
     def emit(self, focused=True):
@@ -289,13 +292,17 @@ class Mouse:
 
     def _message(self, hwnd, message, wp, lp):
         try:
-            if message == 0xFF and self.enabled and int(U.GetForegroundWindow() or 0) == self.game:
+            if message == 0xFF and int(U.GetForegroundWindow() or 0) == self.game:
                 size = w.UINT()
                 U.GetRawInputData(w.HANDLE(lp), 0x10000003, None, c.byref(size), 24)
-                if size.value >= 48:
+                if size.value >= 40:
                     buffer = c.create_string_buffer(size.value)
                     got = U.GetRawInputData(w.HANDLE(lp), 0x10000003, buffer, c.byref(size), 24)
-                    if got == size.value and struct.unpack_from('<I', buffer.raw)[0] == 0:
+                    kind=struct.unpack_from('<I',buffer.raw)[0]
+                    if got==size.value and kind==1 and size.value>=40:
+                        flags,key=struct.unpack_from('<H2xH',buffer.raw,26)
+                        if key==0x45 and not flags&1:self.use_requested=True
+                    if got == size.value and kind == 0 and size.value>=48 and self.enabled:
                         flags, buttons, _, _, dx, dy, _ = struct.unpack_from('<H2xHHIiiI', buffer.raw, 24)
                         if flags & 1:
                             # Absolute devices (including injected Win32 test input)
@@ -365,8 +372,8 @@ class Mouse:
             raise self.failure
 
     def close(self):
-        device = RawDevice(1, 2, 1, None)  # RIDEV_REMOVE, this process only.
-        U.RegisterRawInputDevices(c.byref(device), 1, c.sizeof(device))
+        devices=(RawDevice*2)(RawDevice(1,2,1,None),RawDevice(1,6,1,None))
+        U.RegisterRawInputDevices(devices, 2, c.sizeof(RawDevice))
         U.DestroyWindow(self.window)
         U.UnregisterClassW(self.name, self.instance)
 
@@ -404,6 +411,7 @@ def run(open_dialogue, keyboard=False, listen=None):
             next_status, next_refresh = time.monotonic() + 1, time.monotonic() + .2
             while not console.closed and U.IsWindow(hwnd):
                 console.poll()
+                mouse.pump()
                 if listen:
                     if console.panel_open != mouse.enabled:
                         mouse.x, mouse.y = 512.0, 384.0
@@ -412,10 +420,10 @@ def run(open_dialogue, keyboard=False, listen=None):
                         mouse.dirty = True
                         mouse.enabled = console.panel_open
                     use = int(U.GetForegroundWindow() or 0) == hwnd and bool(U.GetAsyncKeyState(0x45) & 0x8000)
-                    if use and not last_use and not console.panel_open:
+                    if (mouse.use_requested or (use and not last_use)) and not console.panel_open:
                         console.send('ent_fire globe_script_logic RunScriptCode "if NpcDialogDesktopInteract then NpcDialogDesktopInteract(' + str(session) + ') end"')
                     last_use = use
-                mouse.pump()
+                    mouse.use_requested=False
                 now = time.monotonic()
                 if now >= next_status:
                     status = 'NpcDialogListenerHeartbeat' if listen else 'NpcDialogDesktopStatus'

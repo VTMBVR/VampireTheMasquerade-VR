@@ -4,7 +4,7 @@
     "expressionGain": 0.03,
     "jawGain": 0.81,
     "smoothRelease": 0.005,
-    "speechGain": 0.11,
+    "speechGain": 0.1,
     "expressionFade": 0.05
   },
   "tuningLimits": {

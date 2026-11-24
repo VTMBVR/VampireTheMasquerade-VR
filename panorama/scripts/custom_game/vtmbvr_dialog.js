@@ -4,22 +4,29 @@ var VTMBVRDialog = (function () {
     var current = data.start;
     var lastReply = "";
     var answerList = [];
+    var sourceText="",sourceSpeaker="";
+    var speechColor="#d0a82c";
+    function draw(id,text,size,color,family) {
+        if(typeof VTMBVRBitmapFont!=="undefined") VTMBVRBitmapFont.set($("#"+id),text,size,color,family);
+        else $("#"+id).text=text;
+    }
 
     function render() {
         var node = data.nodes[current];
         answerList = node.answers === "back" ? data.backAnswers : node.answers;
-        $("#DialogueSpeaker").text = data.speaker;
-        $("#DialogueText").text = node.text;
-        $("#DialogueLastReply").text = lastReply;
+        draw("DialogueSpeaker",data.speaker,32,"#e6b773","heading");
+        draw("DialogueText",node.text,28,speechColor);
+        draw("DialogueLastReply",lastReply,18,"#ac9a8e");
         root.SetHasClass("DialogueEnded", answerList.length === 0);
         for (var i = 0; i < 4; i++) {
             var answer = answerList[i];
             $("#DialogueChoice" + (i + 1)).visible = !!answer;
-            $("#DialogueAnswer" + (i + 1)).text = answer ? (i + 1) + ".  " + answer.text : "";
+            draw("DialogueAnswer"+(i+1),answer ? (i+1)+".  "+answer.text : "",28,"#ffffff");
         }
         $.Msg("[VTMBVR_DIALOG] node=" + current + " choices=" + answerList.length);
     }
     function choose(index) {
+        if(hasSignal("SourceDialogue")) { $.DispatchEvent("ClientUI_FireOutput",root,index);return; }
         var answer = answerList[index];
         if (!answer || !data.nodes[answer.next]) { return; }
         $.Msg("[VTMBVR_DIALOG] choice=" + (index + 1) + " from=" + current + " to=" + answer.next);
@@ -28,9 +35,38 @@ var VTMBVRDialog = (function () {
         render();
         $.DispatchEvent("ClientUI_FireOutput", root, index);
     }
-    function restart() { current = data.start; lastReply = ""; render(); $.DispatchEvent("ClientUI_FireOutput", root, 4); }
+    function restart() { if(!hasSignal("SourceDialogue")){current = data.start; lastReply = ""; render();} $.DispatchEvent("ClientUI_FireOutput", root, 4); }
     function close() { $.DispatchEvent("ClientUI_FireOutput", root, 5); }
     function tool(slot) { $.DispatchEvent("ClientUI_FireOutput", root, slot); }
+
+    function sourceInput() {
+        if(!hasSignal("SourceDialogue")||typeof VTMBVRSourceDialogue==="undefined")return;
+        var name=VTMBVRSourceDialogue.order[numberSignal("SourceCharacter",4)-1];
+        var character=VTMBVRSourceDialogue.characters[name];
+        if(!character)return;
+        var female=hasSignal("SourceFemale"),malkavian=hasSignal("SourceMalkavian");
+        function text(row){return !row?"":(row.kind==="player"&&malkavian&&row.textMalkavian?row.textMalkavian:(female?(row.textFemale||row.textMale):row.textMale));}
+        sourceText=text(character.rows[String(numberSignal("SourceLine",11))]);sourceSpeaker=character.speaker;
+        draw("DialogueSpeaker",sourceSpeaker,32,"#e6b773","heading");draw("DialogueText",sourceText,28,speechColor);
+        var previous=text(character.rows[String(numberSignal("SourceLast",11))]);
+        draw("DialogueLastReply",previous?"Вы: «"+previous+"»":"",17,"#ac9a8e");
+        // Original TrackerScheme palette; gates stay server owned.
+        var colors={seduction:"#ff6dff",persuasion:"#0078ff",intimidate:"#00ff51",dominate:"#ff0000",dementation:"#ff0000",thaumaturgy:"#ff0000"};
+        var sizes={seduction:36,persuasion:29,intimidate:28,dominate:32,dementation:28};
+        var pages=numberSignal("SourcePages",4),page=numberSignal("SourcePage",4);
+        answerList=[];root.SetHasClass("DialogueEnded",false);
+        for(var i=1;i<=4;i++) {
+            var id=numberSignal("SourceChoice"+i,11),row=character.rows[String(id)];
+            $("#DialogueChoice"+i).visible=!!row;
+            if(row)answerList.push(row);
+            var family=row&&row.style;
+            if(family==="thaumaturgy")family="dominate";
+            if(malkavian&&family==="normal")family="malkavian";
+            draw("DialogueAnswer"+i,row?(page*4+i)+".  "+text(row):"",sizes[family]||28,colors[row&&row.style]||"#ffffff",family);
+        }
+        $("#DialoguePage").visible=pages>1;
+        draw("DialoguePageText","Другие ответы · "+(page+1)+" / "+pages,24,speechColor);
+    }
 
     function faceEditorInput() {
         var opened = hasSignal("FaceEditorOpen");
@@ -42,7 +78,8 @@ var VTMBVRDialog = (function () {
         $("#FacePage").text = shapes ? (page + 1) + " / " + Math.ceil(spec.channels.length / layout.rows) : "";
         $("#FacePrev").visible = shapes && page > 0;
         $("#FaceNext").visible = shapes && (page + 1) * layout.rows < spec.channels.length;
-        $("#FaceEditorLine").text = "Реплика: " + data.nodes[current].text;
+        $("#FaceEditorLine").text = "Реплика: " + (hasSignal("SourceDialogue")?sourceText:data.nodes[current].text);
+        if(typeof VTMBVRSourceDialogue!=="undefined")$("#FaceEditorTitle").text="МИМИКА · "+(hasSignal("SourceDialogue")?sourceSpeaker:data.speaker);
         $("#FaceLoopText").text = hasSignal("FaceEditorLoop") ? "■ Остановить повтор реплики" : "▶ Повторять эту реплику";
         var states = ["Изменения видны сразу. Сохраните подходящие значения.", "Сохранение…", "Сохранено в файлы мода.", "Не удалось сохранить. Проверьте окно помощника.", "Возвращены сохранённые значения."];
         $("#FaceStatus").text = states[numberSignal("FaceStatus", 3)] || states[0];
@@ -71,6 +108,11 @@ var VTMBVRDialog = (function () {
             return result;
         }
         result.push($("#DialogueTuning"));
+        if(hasSignal("SourceDialogue")) {
+            for(var n=1;n<=4;n++)if($("#DialogueChoice"+n).visible)result.push($("#DialogueChoice"+n));
+            if($("#DialoguePage").visible)result.push($("#DialoguePage"));
+            return result;
+        }
         if (answerList.length === 0) { result.push($("#DialogueRestart")); }
         else {
             for (var i = 0; i < answerList.length; i++) { result.push($("#DialogueChoice" + (i + 1))); }
@@ -140,6 +182,7 @@ var VTMBVRDialog = (function () {
     // The world-panel entity can request the same Activated event as a physical
     // button press. This also makes the PoC usable in the non-VR tools preview.
     function readInput() {
+        sourceInput();
         faceEditorInput();
         for (var i = 1; i <= 4; i++) {
             var name = "DialogueChoose" + i;

@@ -1,0 +1,79 @@
+{
+  "source": {
+    "path": "python/santamonica/santamonica.py",
+    "source": "Unofficial_Patch/python/santamonica/santamonica.py",
+    "bytes": 82725,
+    "sha256": "5f62a97ba59c997fdc5df6befe9203f8d28e6261001b35d7b98f3aecc6c3daf4"
+  },
+  "functions": {
+    "chunkDancing": "def chunkDancing():\r\n    chunk = Find(\"Chunk\")\r\n    if(chunk and G.Chunk_Dominated == 2 and G.Story_State < 10 and G.Chunk_Dead == 0 and not __main__.IsDead(\"Chunk\")):\r\n        chunk.ScriptUnhide()\r\n    else:\r\n        chunk.ScriptHide()\r\n    if G.Danielle_Dead == 1:\r\n        danielle = Find(\"Danielle\")\r\n        if danielle: danielle.Kill()\r\n    if G.Doll1_Dead == 1:\r\n        doll1 = Find(\"Doll1\")\r\n        if doll1: doll1.Kill()\r\n\r\n#ASYLUM: Called after talking to Danielle, changed by wesp",
+    "danielleDialog": "def danielleDialog():\r\n    if(G.Vandal_Quest == 3 and not G.Patty_SM == 1 and not G.Gimble_Vandal == 1):\r\n        danielle = Find(\"Danielle\")\r\n        danielle.UseInteresting(1)\r\n        danielle.WillTalk(0)\r\n\r\n#ASYLUM: Plays the conversation between the Voermans the first time the PC uses the elevator, changed by vladdmaster",
+    "knoxPresence": "def knoxPresence():\r\n    IsDead = __main__.IsDead\r\n    if (G.Mercurio_Quest >= 2 and not IsDead(\"Knox\")):\r\n        if G.Patch_Plus == 1:\r\n            knox = Find(\"Knox_plus\")\r\n            if knox:\r\n                knox.ScriptUnhide()\r\n                knox.SetName(\"Knox\")\r\n        else:\r\n            knox = Find(\"Knox_basic\")\r\n            if knox:\r\n                knox.ScriptUnhide()\r\n                knox.SetName(\"Knox\")\r\n\r\n#ASYLUM: Called upon finishing dialogue with jeanette, changed by wesp",
+    "jeanetteDownstairs": "def jeanetteDownstairs():\r\n    npc = Find(\"Jeanette\")\r\n    interactions = npc.times_talked\r\n    trigger = Find(\"bring_Jeanette_down\")\r\n    npc.UseInteresting(0)\r\n    if (interactions == 0 and G.Therese_Quest < 2):\r\n        npc.SetDisposition(\"Flirtatious\", 1)\r\n        trigger.Teleport()\r\n        trigger = Find(\"Jeanette_dialog\")\r\n        trigger.Enable()\r\n        trigger = Find(\"wait_for_elevator_relay\")\r\n        trigger.Enable()\r\n    else:\r\n        guy = Find(\"jeanette_flirt_partner\")\r\n        guy.UseInteresting(1)\r\n\r\n#ASYLUM: Gets rid of Jeanette when she \"rides the elevator\" up to the office, changed by wesp",
+    "jeanetteGoesUp": "def jeanetteGoesUp():\r\n    if (G.Cal_Permission != 1 or G.Therese_Quest == 0):\r\n        npc = Find(\"Jeanette\")\r\n        teleport = Find(\"bring_Jeanette_up\")\r\n        teleport.Teleport()\r\n        npc.ScriptHide()\r\n\r\n#ASYLUM: Determines which version of Therese/Jeanette/Tourette to place in the office, changed by wesp",
+    "populateOffice": "def populateOffice():\r\n    therese = Find(\"Therese\")\r\n    jeanette = Find(\"Jeanette\")\r\n    tourette = Find(\"Tourette\")\r\n    jeanette_pc = Find(\"jeanette_pc_blocker\")\r\n    therese_pc = Find(\"therese_pc_blocker\")\r\n    trigger = Find(\"Therese_mad_trigger\")\r\n    pc = __main__.FindPlayer()\r\n    state_hotel = pc.GetQuestState(\"Hotel\")\r\n    state_slash = pc.GetQuestState(\"Slashterpiece\")\r\n    if (G.Therese_Quest < 2):\r\n        if(G.Jeanette_Know == 1):\r\n            jeanette.ScriptHide()\r\n            tourette.ScriptHide()\r\n            therese.ScriptUnhide()\r\n        else:\r\n            jeanette.ScriptUnhide()\r\n            tourette.ScriptHide()\r\n            therese.ScriptUnhide()\r\n    elif (G.Therese_Quest >= 2 and G.Therese_Quest < 3 and G.Jeanette_Quest < 2 and G.Jeanette_Refuse < 1):\r\n        jeanette.ScriptUnhide()\r\n        jeanette_pc.ScriptUnhide()\r\n        therese_pc.ScriptHide()\r\n        jeanette.UseInteresting(1)\r\n        tourette.ScriptHide()\r\n        therese.ScriptHide()\r\n    elif (G.Jeanette_Quest == 2 and G.Therese_Quest < 4):\r\n        jeanette.ScriptHide()\r\n        tourette.ScriptHide()\r\n        therese.ScriptUnhide()\r\n        jeanette_pc.ScriptHide()\r\n        therese_pc.ScriptUnhide()\r\n        trigger.Enable()\r\n    elif(state_hotel > 3 and state_hotel < 6 and state_slash == 0):\r\n        jeanette.ScriptHide()\r\n        tourette.ScriptHide()\r\n        therese.ScriptUnhide()\r\n        jeanette_pc.ScriptHide()\r\n        therese_pc.ScriptUnhide()\r\n        trigger.Enable()\r\n    elif (G.Jeanette_Refuse >= 1 and G.Jeanette_Fire < 3 and G.Therese_Quest < 3):\r\n        jeanette.ScriptHide()\r\n        tourette.ScriptHide()\r\n        therese.ScriptHide()\r\n        jeanette_pc.ScriptHide()\r\n        therese_pc.ScriptHide()\r\n    elif (G.Jeanette_Fire == 3 and G.Therese_Quest < 4):\r\n        jeanette.ScriptHide()\r\n        tourette.ScriptHide()\r\n        therese.ScriptUnhide()\r\n        jeanette_pc.ScriptHide()\r\n        therese_pc.ScriptUnhide()\r\n        trigger.Enable()\r\n    elif (G.Therese_Quest == 4 and not G.Tourette_Wins and not G.Therese_Dead and not G.Jeanette_Dead):\r\n        jeanette.ScriptHide()\r\n        tourette.ScriptUnhide()\r\n        jeanette_pc.ScriptUnhide()\r\n        therese_pc.ScriptUnhide()\r\n        trigger = Find(\"tourette_trigger\")\r\n        trigger.Enable()\r\n        relay = Find(\"tourette_sequence_relay\")\r\n        relay.Trigger()\r\n        therese.ScriptHide()\r\n    elif(G.Tourette_Wins == 1 or G.Therese_Dead == 1 or G.Jeanette_Dead == 1):\r\n        if(G.Story_State < 10):\r\n            jeanette.ScriptHide()\r\n            tourette.ScriptHide()\r\n            therese.ScriptHide()\r\n            jeanette_pc.ScriptHide()\r\n            therese_pc.ScriptHide()\r\n        elif (G.Tourette_Wins == 1):\r\n            jeanette.ScriptHide()\r\n            tourette.ScriptUnhide()\r\n            therese.ScriptHide()\r\n            jeanette_pc.ScriptUnhide()\r\n            therese_pc.ScriptUnhide()\r\n        elif (G.Jeanette_Dead == 1):\r\n            jeanette.ScriptHide()\r\n            tourette.ScriptHide()\r\n            therese.ScriptUnhide()\r\n            jeanette_pc.ScriptHide()\r\n            therese_pc.ScriptUnhide()\r\n        elif (G.Therese_Dead == 1):\r\n            jeanette_pc.ScriptUnhide()\r\n            therese_pc.ScriptHide()\r\n            jeanette.ScriptUnhide()\r\n            tourette.ScriptHide()\r\n            therese.ScriptHide()\r\n    else:\r\n        print \"Unaccounted for case:\"\r\n        print \"  Not sure who (Therese/Tourette/Jeanette)\"\r\n        print \"  should be in office\"\r\n    if(G.Vandal_Quest == 3 and not G.Patty_SM == 1 and not G.Gimble_Vandal == 1):\r\n        danielle = Find(\"Danielle\")\r\n        if danielle: danielle.Kill()\r\n\r\n#ASYLUM: Changes Tourette back to Therese if necessary, changed by wesp",
+    "touretteDialogueResults": "def touretteDialogueResults():\r\n    if(G.Jeanette_Dead == 1):\r\n        fade = Find(\"asylum_fade\")\r\n        fade.Fade()\r\n        print \"pre_switch\"\r\n        __main__.ScheduleTask(3.0, \"__main__.FindEntityByName(\\\"Tourette\\\").SetModel(\\\"models/character/npc/unique/Santa_Monica/Therese/Therese.mdl\\\")\")\r\n        print \"post_switch\"\r\n    elif(G.Tourette_Wins == 1):\r\n        tourette_gun = Find(\"Tourette_thirtyeight\")\r\n        if tourette_gun: tourette_gun.Kill()\r\n        __main__.ChangeMap(2.5, \"asylum1\", \"AsylumTeleport1\")\r\n\r\n#ASYLUM: Makes the muzzle flash"
+  },
+  "onMapLoad": [
+    {
+      "sourceId": 185,
+      "outputs": [
+        [
+          "OnMapLoad",
+          ",,,0,-1,calDialog(),"
+        ],
+        [
+          "OnMapLoad",
+          ",,,0,-1,chunkDancing(),"
+        ],
+        [
+          "OnMapLoad",
+          ",,,0,-1,jeanetteDownstairs(),"
+        ],
+        [
+          "OnMapLoad",
+          ",,,0,-1,populateOffice(),"
+        ],
+        [
+          "OnMapLoad",
+          "Cal,WillTalk,0,0,1,,"
+        ],
+        [
+          "OnMapLoad",
+          "Doll1,WillTalk,0,0,1,,"
+        ],
+        [
+          "OnMapLoad",
+          "Jeanette,WillTalk,1,0,-1,,"
+        ],
+        [
+          "OnMapLoad",
+          ",,,0,-1,finishElysiumTip(),"
+        ],
+        [
+          "OnMapLoad",
+          ",,,0,-1,knoxPresence(),"
+        ]
+      ]
+    },
+    {
+      "sourceId": 347,
+      "outputs": [
+        [
+          "OnMapLoad",
+          ",,,1.5,1,ccmd.wc_create,"
+        ]
+      ]
+    },
+    {
+      "sourceId": 363,
+      "outputs": [
+        [
+          "OnMapLoad",
+          ",,,0,-1,unhidePlus(),"
+        ]
+      ]
+    }
+  ],
+  "appliedToAlyxMap": false
+}

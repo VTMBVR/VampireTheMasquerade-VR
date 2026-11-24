@@ -1,0 +1,16 @@
+[
+  "sounds/ambience/asylum/location/sistersGunshot.wav",
+  "sounds/ambience/asylum/location/conversation1.wav",
+  "sounds/ambience/asylum/location/conversation4.wav",
+  "sounds/ambience/asylum/location/conversation5.wav",
+  "sounds/music/asylum/isolated.wav",
+  "sounds/ambience/asylum/location/whisper_calf.wav",
+  "sounds/ambience/asylum/location/whisper_blind.wav",
+  "sounds/ambience/asylum/location/whisper_mistress.wav",
+  "sounds/ambience/asylum/location/whisper_wishes_words.wav",
+  "sounds/ambience/asylum/location/whisper_child_moan.wav",
+  "sounds/ambience/asylum/location/whisper_man_moan.wav",
+  "sounds/ambience/asylum/location/whisper_woman_moan.wav",
+  "sounds/ambience/asylum/location/whisper_child_moan_alt3.wav",
+  "soundevents/vtmbvr_asylum_location.vsndevts"
+]

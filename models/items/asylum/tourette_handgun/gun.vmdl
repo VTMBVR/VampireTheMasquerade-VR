@@ -1,0 +1,55 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+"rootNode" = {
+"_class" = "RootNode"
+"children" = [
+{
+"_class" = "RenderMeshList"
+"children" = [
+{
+"_class" = "RenderMeshFile"
+"filename" = "models/items/asylum/tourette_handgun/hand_local.smd"
+"import_scale" = 1.0
+}
+]
+},
+{
+"_class" = "MaterialGroupList"
+"children" = [
+{
+"_class" = "DefaultMaterialGroup"
+"remaps" = [
+{
+"from" = "new_service.vmat"
+"to" = "models/items/asylum/item_w_thirtyeight/materials/new_service.vmat"
+}
+]
+}
+]
+},
+{
+"_class" = "AttachmentList"
+"children" = [
+{
+"_class" = "Attachment"
+"name" = "muzzle"
+"parent_bone" = "static_prop"
+"relative_origin" = [
+13.0,
+1.7499982118606567,
+2.75
+]
+"relative_angles" = [
+0.0,
+0.0,
+0.0
+]
+}
+]
+}
+]
+"model_archetype" = "generic_prop_model"
+"primary_associated_entity" = "prop_dynamic"
+"anim_graph_name" = ""
+}
+}

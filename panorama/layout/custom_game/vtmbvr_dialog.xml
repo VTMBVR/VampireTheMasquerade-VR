@@ -4,30 +4,39 @@
     </styles>
     <scripts>
         <include src="s2r://panorama/scripts/custom_game/vtmbvr_dialog_data.vjs_c" />
+        <include src="s2r://panorama/scripts/custom_game/vtmbvr_source_data.vjs_c" />
+        <include src="s2r://panorama/scripts/custom_game/vtmbvr_font_data.vjs_c" />
+        <include src="s2r://panorama/scripts/custom_game/vtmbvr_font.vjs_c" />
         <include src="s2r://panorama/scripts/custom_game/vtmbvr_dialog.vjs_c" />
     </scripts>
     <ClientUIDialogPanel class="DialogueRoot VTMBVRInput" hittest="true" hittestchildren="true">
-        <Panel hittest="false" hittestchildren="true" class="DialogueFrame">
-            <Panel hittest="false" hittestchildren="true" class="Heading">
+        <Panel id="DialogueFrame" hittest="false" hittestchildren="true" class="DialogueFrame">
+            <Panel class="OriginalFrameInset" hittest="false" />
+            <Image class="OriginalCornerTL" src="file://{images}/custom_game/vtmbvr/dialog_corner_tl.png" hittest="false" />
+            <Image class="OriginalCornerBR" src="file://{images}/custom_game/vtmbvr/dialog_corner_br.png" hittest="false" />
+            <Panel class="DialogueContent" hittest="false" hittestchildren="true">
+            <Panel id="DialogueHeading" hittest="false" hittestchildren="true" class="Heading">
                 <Label hittest="false" class="Kicker" text="THE ASYLUM" />
-                <Label hittest="false" id="DialogueSpeaker" class="Speaker" text="JEANETTE" />
+                <Panel hittest="false" id="DialogueSpeaker" class="Speaker" />
             </Panel>
-            <Label hittest="false" id="DialogueText" class="Speech" text="" />
-            <Label hittest="false" id="DialogueLastReply" class="LastReply" text="" />
+            <Panel hittest="false" id="DialogueText" class="Speech" />
+            <Panel hittest="false" id="DialogueLastReply" class="LastReply" />
             <Panel hittest="false" hittestchildren="true" id="DialogueChoices" class="Choices">
-                <Button hittest="true" id="DialogueChoice1" class="Choice" onactivate="VTMBVRDialog.choose(0)"><Label hittest="false" id="DialogueAnswer1" text="" /></Button>
-                <Button hittest="true" id="DialogueChoice2" class="Choice" onactivate="VTMBVRDialog.choose(1)"><Label hittest="false" id="DialogueAnswer2" text="" /></Button>
-                <Button hittest="true" id="DialogueChoice3" class="Choice" onactivate="VTMBVRDialog.choose(2)"><Label hittest="false" id="DialogueAnswer3" text="" /></Button>
-                <Button hittest="true" id="DialogueChoice4" class="Choice" onactivate="VTMBVRDialog.choose(3)"><Label hittest="false" id="DialogueAnswer4" text="" /></Button>
+                <Button hittest="true" id="DialogueChoice1" class="Choice" onactivate="VTMBVRDialog.choose(0)"><Panel hittest="false" id="DialogueAnswer1" /></Button>
+                <Button hittest="true" id="DialogueChoice2" class="Choice" onactivate="VTMBVRDialog.choose(1)"><Panel hittest="false" id="DialogueAnswer2" /></Button>
+                <Button hittest="true" id="DialogueChoice3" class="Choice" onactivate="VTMBVRDialog.choose(2)"><Panel hittest="false" id="DialogueAnswer3" /></Button>
+                <Button hittest="true" id="DialogueChoice4" class="Choice" onactivate="VTMBVRDialog.choose(3)"><Panel hittest="false" id="DialogueAnswer4" /></Button>
             </Panel>
+            <Button id="DialoguePage" class="Choice SourcePage" onactivate="VTMBVRDialog.tool(4)"><Panel id="DialoguePageText" hittest="false" /></Button>
             <Button hittest="true" id="DialogueRestart" class="Choice Restart" onactivate="VTMBVRDialog.restart()"><Label hittest="false" text="Начать разговор заново" /></Button>
-            <Label hittest="false" class="Footnote" text="Выберите ответ" />
+            <Label id="DialogueFootnote" hittest="false" class="Footnote" text="Выберите ответ" />
+            </Panel>
         </Panel>
 
-        <Button id="DialogueTuning" class="TuneToggle ToolButton" onactivate="VTMBVRDialog.tool(7)"><Label text="Настроить мимику" /></Button>
+        <Button id="DialogueTuning" class="TuneToggle ToolButton" onactivate="VTMBVRDialog.tool(7)"><Label text="⋯" /></Button>
         <Panel id="FaceEditor" class="FaceEditor" hittest="false" hittestchildren="true">
-            <Panel class="FaceEditorBackground" hittest="false" />
-            <Label class="FaceEditorTitle" text="МИМИКА ЖАНЕТТ" hittest="false" />
+            <Panel id="FaceEditorBackground" class="FaceEditorBackground" hittest="false" />
+            <Label id="FaceEditorTitle" class="FaceEditorTitle" text="МИМИКА" hittest="false" />
             <Label id="FaceEditorLine" class="FaceEditorLine" hittest="false" />
             <Button id="FaceMode" class="ToolButton FaceMode" onactivate="VTMBVRDialog.tool(2)"><Label id="FaceModeText" /></Button>
             <Button id="FacePrev" class="ToolButton FacePrev" onactivate="VTMBVRDialog.tool(0)"><Label text="‹" /></Button>

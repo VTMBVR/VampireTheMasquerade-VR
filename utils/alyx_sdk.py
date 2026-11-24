@@ -44,7 +44,8 @@ def resolve_addon(sdk, checkout, addon=None):
 def compiled_relative(relative):
     path = Path(relative)
     suffix = {'.wav': '.vsnd_c', '.vsndevts': '.vsndevts_c', '.vrman': '.vrman_c',
-              '.vmdl': '.vmdl_c', '.vanmgrph': '.vanmgrph_c'}.get(path.suffix, '.v'+path.suffix[1:]+'_c')
+              '.vmdl': '.vmdl_c', '.vanmgrph': '.vanmgrph_c'}.get(
+                  path.suffix, (path.suffix if path.suffix.startswith('.v') else '.v'+path.suffix[1:])+'_c')
     return path.with_suffix(suffix)
 
 
@@ -55,4 +56,16 @@ def install_manifest_alias(paths):
     target = paths.runtime/'resourcemanifests'/(paths.name+'_addon_resources.vrman_c')
     if source != target:
         shutil.copy2(source, target)
+    # A discoverable local addon can contain junctions to the runtime's child
+    # folders instead of being a root junction. Keep its named manifest current
+    # as well, but only when it shares this exact manifest directory.
+    for mount in paths.runtime.parent.iterdir():
+        manifests=mount/'resourcemanifests'
+        if mount.is_dir() and manifests.is_dir() and manifests.resolve()==source.parent.resolve():
+            alias=manifests/(mount.name+'_addon_resources.vrman_c')
+            if alias.resolve()!=source.resolve():shutil.copy2(source,alias)
+    # Local playable addons also need metadata in the runtime mount. Without
+    # it addon_play silently disables the addon and cannot find its map VPK.
+    metadata=paths.source/'addoninfo.txt'
+    if metadata.is_file():shutil.copy2(metadata,paths.runtime/'addoninfo.txt')
     return target

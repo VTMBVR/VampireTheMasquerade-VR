@@ -1,4 +1,4 @@
--- Imported phonemes and expression cues. Quest/Python events stay inert.
+-- Imported phonemes, expressions and explicitly mapped scene cues.
 local tuning = require("npc_dialog_lipsync")
 local M = {}
 local active = {}
@@ -25,18 +25,31 @@ function M.Stop(actor)
     local state=active[id]
     if not state then return end
     actor:SetContextThink(THINK,nil,0)
+    for _,sound in ipairs(state.sounds or {}) do StopSoundOn(sound,actor) end
     for _,parameter in ipairs(state.model.faceParameters) do actor:SetGraphParameterFloat(parameter,0) end
+    if state.model.bodyBindings and next(state.model.bodyBindings) then actor:SetGraphParameterEnum("dialogue_body_clip",0) end
     active[id]=nil
 end
 
-function M.Start(actor,line,model)
+function M.Reset(actor,model)
+    if not valid(actor) then return end
+    M.Stop(actor)
+    for _,parameter in ipairs(model.faceParameters) do
+        if type(actor:GetGraphParameter(parameter))=="number" then actor:SetGraphParameterFloat(parameter,0) end
+    end
+    if type(actor:GetGraphParameter("dialogue_body_clip"))=="number" then actor:SetGraphParameterEnum("dialogue_body_clip",0) end
+end
+
+function M.Start(actor,line,model,disposition,onEvent)
     if not valid(actor) then return false end
     for _,parameter in ipairs(model.faceParameters) do
         if type(actor:GetGraphParameter(parameter))~="number" then return false end
     end
     M.Stop(actor)
     tuning.Stop(actor)
-    local state={model=model,started=Time(),updated=Time(),smoothed={}}
+    local aliases={flirt="Flirtatious",flirtatious="Flirtatious",anger="Anger",pissed="Mad",joy="Joy",sad="Sad",apathy="Apathy",neutral="Neutral"}
+    local basePose=model.expressionPoses[aliases[tostring(disposition):lower()] or disposition or "Neutral"] or model.neutral
+    local state={model=model,started=Time(),updated=Time(),smoothed={},fired={},sounds={}}
     local id=actor:GetEntityIndex()
     for i=1,#model.faceControllers do state.smoothed[i]=0 end
     active[id]=state
@@ -44,7 +57,18 @@ function M.Start(actor,line,model)
         if not valid(actor) or active[id]~=state then active[id]=nil;return nil end
         local now=Time()
         local time=now-state.started
-        if time>line.duration+.5 then M.Stop(actor);return nil end
+        if time>(line.sceneDuration or line.duration)+.5 then M.Stop(actor);return nil end
+        for index,event in ipairs(line.timelineEvents or {}) do
+            if time>=event.start and not state.fired[index] then
+                state.fired[index]=true
+                if event.kind=="sound" then
+                    EmitSoundOn(event.sound,actor);state.sounds[#state.sounds+1]=event.sound
+                elseif event.kind=="world" and onEvent then
+                    local ok,handled=pcall(onEvent,event)
+                    if not ok then print("[ASYLUM_SOURCE] CUE_ERROR "..tostring(handled)) end
+                end
+            end
+        end
         local dt=math.min(.1,math.max(0,now-state.updated))
         state.updated=now
         local settings=tuning.GetSettings()
@@ -62,7 +86,7 @@ function M.Start(actor,line,model)
             end
         end
         local emotion={}
-        for i=1,#weights do emotion[i]=model.neutral[i] end
+        for i=1,#weights do emotion[i]=basePose[i] end
         for _,event in ipairs(line.expressions) do
             local amount=ramp(event.ramp,time-event.start,event.finish-event.start,config.expressionFade)
             if amount>0 then
@@ -73,6 +97,18 @@ function M.Start(actor,line,model)
         local blinkTime=time%3.2
         local blink=blinkTime>=2.7 and blinkTime<2.92 and math.min(1,(blinkTime-2.7)/.06,(2.92-blinkTime)/.13) or 0
         local fade=math.min(1,time/config.expressionFade)
+        if model.bodyBindings and next(model.bodyBindings) then
+            local body=0
+            if time>=.04 then
+                for _,event in ipairs(line.bodyEvents or {}) do
+                    if time>=event.start and time<=event["end"] then
+                        local clip=event.fields.param and event.fields.param[1]
+                        body=model.bodyBindings[clip] or body
+                    end
+                end
+            end
+            if body~=state.body then actor:SetGraphParameterEnum("dialogue_body_clip",body);state.body=body end
+        end
         for i,name in ipairs(model.faceControllers) do
             local gain=(name:match("^AU26") or name:match("^AU27")) and config.jawGain or config.speechGain
             local target=weights[i]/math.max(1,total)*gain

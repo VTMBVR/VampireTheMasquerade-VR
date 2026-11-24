@@ -1,10 +1,17 @@
--- Jeanette conversation. The scene owner lends us the actor for its lifetime.
+-- Source conversations borrow actors from the shared ambient scene owner.
 local data = require("npc_dialog_catalog")
 local lips = require("npc_dialog_lipsync")
 local faceEditor = require("npc_dialog_face_editor")
+local sourceDialogue = require("npc_dialog_source")
+local sourceFace = require("npc_source_performance")
+local vrInput = require("npc_dialog_vr_input")
+local windowGeometry = require("npc_dialog_panel")
+local sourceSession,sourceIndex,sourceDeadline
+local exampleMode=false
 local PANEL_NAME = "vtmbvr_dialog_panel"
 local INPUT_CLASSES = "DialogueChoose1 DialogueChoose2 DialogueChoose3 DialogueChoose4 DialogueReset"
 local panel = nil
+local panelAnchor=nil
 local previousKeys = nil
 local desktopSession = nil
 local desktopCamera = nil
@@ -17,16 +24,20 @@ local conversationActor = nil
 local currentNode = data.start
 local desktopNumber
 local activeSound = nil
-local prompt = nil
+local prompts = {}
 local listenerSession = nil
 local listenerHeartbeat = 0
-local panelCenter, panelRight = nil, nil
+local panelPose=nil
 local panelYaw = nil
 local vrDown, vrPress, vrSuppressed = {}, {}, {}
+local vrPointerHand=nil
 local VR_SESSION = 1073741825
 local vrSequence = 0
 local fakeDown = {}
+local windowProbe,resolveWindowProbe
+local windowProbeSequence=0
 local OWNER = "npc_dialog"
+local DESKTOP_PITCH = 18
 
 desktopNumber = function(name, value, bits)
     local old = desktopSignals[name] or 0
@@ -72,14 +83,47 @@ end
 
 local function stopVoice()
     if activeSound and exists(conversationActor) then StopSoundOn(activeSound,conversationActor) end
-    if exists(conversationActor) then lips.Stop(conversationActor) end
+    if exists(conversationActor) then sourceFace.Stop(conversationActor);lips.Stop(conversationActor) end
     activeSound=nil
 end
 
+local function sourceSignals()
+    if not sourceSession or not validPanel() then return end
+    panel:AddCSSClasses("SourceDialogue")
+    desktopNumber("SourceCharacter",sourceIndex,4)
+    desktopNumber("SourceLine",sourceSession.line,11)
+    desktopNumber("SourceLast",sourceSession.lastAnswer or 0,11)
+    desktopNumber("SourcePage",sourceSession.page,4)
+    desktopNumber("SourcePages",sourceSession.pages,4)
+    for i,id in ipairs(sourceSession:Visible()) do desktopNumber("SourceChoice"..i,id,11) end
+    local female,malkavian=sourceDialogue.Identity()
+    if female then panel:AddCSSClasses("SourceFemale") else panel:RemoveCSSClasses("SourceFemale") end
+    if malkavian then panel:AddCSSClasses("SourceMalkavian") else panel:RemoveCSSClasses("SourceMalkavian") end
+end
+
+local function lineDuration()
+    if sourceSession then local performance=sourceSession:Performance();return performance and (performance.sceneDuration or performance.duration) or .1 end
+    return data.nodes[currentNode].duration or 4
+end
+
 local function playNode()
-    local node=data.nodes[currentNode]
     stopVoice()
     if not exists(conversationActor) then return end
+    if sourceSession then
+        local performance,model=sourceSession:Performance()
+        sourceSignals()
+        if performance then
+            EmitSoundOn(performance.sound,conversationActor);activeSound=performance.sound
+            local face=sourceFace.Start(conversationActor,performance,model,sourceSession.disposition,function(event)
+                if AsylumLocationPerformanceEvent then return AsylumLocationPerformanceEvent(conversationActor,event) end
+                return false
+            end)
+            print("[VTMBVR_DIALOG] SOURCE_RESPONSE character="..sourceSession.character.." line="..sourceSession.line.." face="..tostring(face))
+        end
+        sourceDeadline=Time()+lineDuration()+.1
+        return
+    end
+    local node=data.nodes[currentNode]
     if not NpcSceneDialogueAction(conversationActor,OWNER,node.animation,node.duration or 4) then
         print("[VTMBVR_DIALOG] ACTION_FAILED node="..currentNode.." clip="..node.animation)
         return
@@ -92,59 +136,90 @@ local function playNode()
     print("[VTMBVR_DIALOG] RESPONSE node="..currentNode.." actor="..conversationActor:GetName().." animation="..node.animation.." sound="..tostring(node.sound or "none"))
 end
 
+function NpcDialogIsOpen() return validPanel() or desktopSession~=nil end
 function NpcDialogOpen(desktop,actor)
     local player = Entities:GetLocalPlayer()
     if not player then print("[VTMBVR_DIALOG] No local player") return false end
     if validPanel() or desktopSession then NpcDialogClose() end
+    actor=actor or Entities:FindByName(nil,data.actor)
     if actor and not NpcSceneBeginDialogue(actor,OWNER,player) then return false end
     conversationActor=actor
+    sourceDialogue.Bind(thisEntity)
+    local character,index=sourceDialogue.Character(actor)
+    sourceSession=not exampleMode and character and sourceDialogue.Open(character,actor) or nil
+    if sourceSession and AsylumLocationDialogueBegin then AsylumLocationDialogueBegin(actor,sourceSession) end
+    sourceIndex=index
     currentNode=data.start
     local existing = Entities:FindByName(nil, PANEL_NAME)
     if existing then UTIL_Remove(existing) end
     local facing = player:EyeAngles()
-    -- Keep the person visible beside the conversation. Desktop uses a temporary
-    -- offset camera; VR places the panel to the right without rotating the HMD.
-    if actor then facing.y=facing.y-(desktop and 15 or 25) end
+    -- The original dialogue occupies the lower view. Keep it centered below
+    -- the listener's gaze; VR never rotates or moves the HMD camera.
     panelYaw=facing.y
     local yaw = math.rad(facing.y)
-    local forward = Vector(math.cos(yaw), math.sin(yaw), 0)
+    local forward = desktop and QAngle(DESKTOP_PITCH,facing.y,0):Forward() or Vector(math.cos(yaw), math.sin(yaw), 0)
     -- Keep the same angular size, but put the desktop panel inside the player's
     -- collision radius so passing NPCs cannot walk between the camera and UI.
     local distance = desktop and 12 or 48
+    if not desktop then
+        local eye=player:EyePosition()
+        local trace={startpos=eye,endpos=eye+forward*distance,ignore=player}
+        TraceLine(trace)
+        if trace.hit and trace.pos then distance=math.max(16,math.min(distance,(trace.pos-eye):Length()-10)) end
+    end
     local scale = distance / 48
     local origin = player:EyePosition() + forward * distance
-    panelCenter=origin
-    panelRight=Vector(math.sin(yaw),-math.cos(yaw),0)
+    if not desktop then origin=origin-Vector(0,0,12*scale) end
+    panelPose=not desktop and windowGeometry.New(origin,facing.y,16/scale) or nil
+    if panelPose then
+        panelAnchor=SpawnEntityFromTableSynchronous("info_target",{targetname="vtmbvr_dialog_anchor",
+            origin=origin,angles=panelPose:Angles(),spawnflags="2"})
+        if not exists(panelAnchor) then NpcDialogClose();return false end
+    end
     panel = SpawnEntityFromTableSynchronous("point_clientui_world_panel", {
         targetname = PANEL_NAME,
         origin = origin,
-        angles = QAngle(0, facing.y + 180, 0),
-        dialog_layout_name = "file://{resources}/layout/custom_game/vtmbvr_dialog.xml",
+        angles = panelPose and panelPose:Angles() or QAngle(0, facing.y + 180, 0),
+        dialog_layout_name = "file://{resources}/layout/custom_game/"..
+            (desktop and "vtmbvr_dialog.xml" or "vtmbvr_dialog_world.xml"),
         width = 64 * scale,
         height = 48 * scale,
         panel_dpi = 16 / scale,
         horizontal_align = "1",
         vertical_align = "1",
-        orientation = "2",
+        orientation = desktop and "1" or "0",
+        ignore_depth = true,
+        render_backface = true,
         interact_distance = 160,
         ignore_input = 0,
         enabled = 1
     })
     if not validPanel() then NpcDialogClose();print("[VTMBVR_DIALOG] Panel spawn failed") return false end
+    if exists(panelAnchor) then
+        panel:SetParent(panelAnchor,"")
+        panel:SetLocalOrigin(Vector(0,0,0));panel:SetLocalAngles(0,0,0)
+    end
+    desktopSignals={}
     panel:AcceptUserInput()
     for i = 0, 9 do
         panel:RedirectOutput("CustomOutput" .. i, "NpcDialogOutput" .. i, thisEntity)
     end
     print("[VTMBVR_DIALOG] OPEN " .. tostring(origin))
-    if exists(prompt) then DoEntFireByInstanceHandle(prompt,"Disable","",0,nil,nil) end
+    for _,entry in pairs(prompts) do
+        if exists(entry.panel) then UTIL_Remove(entry.panel) end
+        _G[entry.callback]=nil
+    end
+    prompts={}
     playNode()
-    faceEditor.Bind(panel,desktopNumber,playNode,function() return data.nodes[currentNode].duration or 4 end,
+    faceEditor.Bind(panel,desktopNumber,playNode,lineDuration,
         function() return pointerSession or 0 end)
     if not desktop and player:GetHMDAvatar() then
         pointerSession=VR_SESSION
-        desktopSignals={};desktopPendingClick=nil
+        desktopPendingClick=nil
         panel:IgnoreUserInput()
         panel:AddCSSClasses("PointerMode")
+        panel:AddCSSClasses("VRWorldWindow")
+        vrSuppressed={[0]=true,[1]=true};vrPointerHand=nil
         print("[VTMBVR_DIALOG] VR_POINTER_READY")
     end
     return true
@@ -155,6 +230,7 @@ end
 for i = 0, 9 do
     local slot = i
     _G["NpcDialogOutput" .. slot] = function()
+        if windowProbe and (slot==8 or slot==9) then resolveWindowProbe(slot==8);return end
         if slot == 6 then
             if pointerSession and desktopPendingClick ~= nil then
                 print("[VTMBVR_DIALOG] POINTER_ACK session=" .. pointerSession .. " seq=" .. desktopPendingClick)
@@ -167,6 +243,13 @@ for i = 0, 9 do
         if faceEditor.opened and slot~=5 then faceEditor.Action(slot);return end
         if slot>=8 then return end
         if validPanel() then panel:RemoveCSSClasses(INPUT_CLASSES) end
+        if sourceSession and slot<5 then
+            if slot==4 then sourceSession:Page();sourceSignals();return end
+            if sourceSession:Choice(slot+1) then
+                if sourceSession.ended then NpcDialogClose() else playNode() end
+            end
+            return
+        end
         print("[VTMBVR_DIALOG] OUTPUT slot=" .. (slot + 1))
         if slot < 4 then
             local node=data.nodes[currentNode]
@@ -186,6 +269,9 @@ function NpcDialogChoose(index)
 end
 
 function NpcDialogRestart()
+    if sourceSession and validPanel() and not faceEditor.opened then
+        sourceSession=sourceDialogue.Open(sourceSession.character,conversationActor);playNode();return true
+    end
     if validPanel() and not faceEditor.opened then panel:AddCSSClasses("DialogueReset") return true end
     return false
 end
@@ -194,7 +280,10 @@ function NpcDialogClose()
     faceEditor.Close()
     stopVoice()
     if exists(conversationActor) then NpcSceneEndDialogue(conversationActor,OWNER) end
+    if sourceSession and AsylumLocationDialogueEnd then AsylumLocationDialogueEnd(conversationActor,sourceSession) end
     conversationActor=nil
+    if sourceSession then NpcDialogLastSourceEffects=sourceSession.effects end
+    sourceSession=nil;sourceIndex=nil;sourceDeadline=nil
     pointerSession=nil
     desktopSession = nil
     desktopSignals = {}
@@ -205,8 +294,11 @@ function NpcDialogClose()
     desktopControls = nil
     if validPanel() then UTIL_Remove(panel) end
     panel = nil
-    vrPress={};vrDown={};vrSuppressed={}
-    if exists(prompt) then DoEntFireByInstanceHandle(prompt,"Enable","",0,nil,nil) end
+    if exists(panelAnchor) then UTIL_Remove(panelAnchor) end
+    panelAnchor=nil
+    panelPose=nil
+    windowProbe=nil
+    vrPress={};vrDown={};vrSuppressed={};vrPointerHand=nil
     if previousKeys then
         for key, value in pairs(previousKeys) do bindKey(key, value) end
         previousKeys = nil
@@ -227,7 +319,6 @@ function NpcDialogEnableDesktop(session)
     local facing = player:EyeAngles()
     desktopSession = session
     pointerSession = session
-    desktopSignals = {}
     desktopPendingClick = nil
     panel:IgnoreUserInput() -- Suppress the engine's gaze selection in desktop mode.
     panel:AddCSSClasses("DesktopMode")
@@ -238,7 +329,7 @@ function NpcDialogEnableDesktop(session)
     })
     desktopCamera = SpawnEntityFromTableSynchronous("point_viewcontrol", {
         targetname = "vtmbvr_dialog_camera", origin = eye,
-        angles = QAngle(0, panelYaw or facing.y, 0), spawnflags = "140",
+        angles = QAngle(DESKTOP_PITCH, panelYaw or facing.y, 0), spawnflags = "140",
         fov = 75, fov_rate = 0, wait = 9999
     })
     if not exists(desktopControls) or not exists(desktopCamera) then
@@ -363,17 +454,33 @@ function NpcDialogListen(session)
     return true
 end
 
-local function actorInRay(origin,direction)
-    local actor=Entities:FindByName(nil,data.actor)
-    if not exists(actor) then return nil end
+local function dialogueActors()
+    local actors={}
+    for _,actor in ipairs(Entities:FindAllByClassname("generic_actor")) do
+        if actor:Attribute_GetIntValue("vtmbvr_talk_enabled",1)==1 and
+            ((exampleMode and actor:GetName()==data.actor) or (not exampleMode and sourceDialogue.Character(actor))) then actors[#actors+1]=actor end
+    end
+    return actors
+end
+
+local function visibleFrom(player,actor)
     local center=actor:GetAbsOrigin()+Vector(0,0,48)
-    local delta=center-origin
-    local t=delta:Dot(direction)
-    if t<0 or t>data.interactDistance or (delta-direction*t):Length()>26 then return nil end
-    local trace={startpos=origin,endpos=center,ignore=Entities:GetLocalPlayer()}
+    if (center-player:EyePosition()):Length()>data.interactDistance then return false end
+    local trace={startpos=player:EyePosition(),endpos=center,ignore=player}
     TraceLine(trace)
-    if trace.hit and trace.enthit~=actor and (not trace.pos or (trace.pos-center):Length()>26) then return nil end
-    return actor
+    return not trace.hit or (exists(trace.enthit) and trace.enthit:GetEntityIndex()==actor:GetEntityIndex()) or (trace.pos and (trace.pos-center):Length()<=26)
+end
+
+local function actorInRay(origin,direction)
+    -- Eligibility is measured from the eyes in visibleFrom(). A controller
+    -- behind the head can be farther from a valid NPC, especially over a bar.
+    local best,nearest=nil,math.huge
+    for _,actor in ipairs(dialogueActors()) do
+        local delta=actor:GetAbsOrigin()+Vector(0,0,48)-origin
+        local t=delta:Dot(direction)
+        if t>=0 and t<nearest and (delta-direction*t):Length()<=26 and visibleFrom(Entities:GetLocalPlayer(),actor) then best=actor;nearest=t end
+    end
+    return best
 end
 
 function NpcDialogDesktopInteract(session)
@@ -381,18 +488,98 @@ function NpcDialogDesktopInteract(session)
     local player=Entities:GetLocalPlayer()
     if not player then return false end
     local actor=actorInRay(player:EyePosition(),player:EyeAngles():Forward())
+    if not actor and AsylumLocationInteract then return AsylumLocationInteract(player:EyePosition(),player:EyeAngles():Forward(),true) end
     if not actor then print("[VTMBVR_DIALOG] INTERACT_MISS");return false end
     if not NpcDialogOpen(true,actor) then return false end
     return NpcDialogEnableDesktop(session)
 end
 
-function NpcDialogPromptInteract()
+function NpcDialogPromptInteract(actor)
     if validPanel() then return end
     local player=Entities:GetLocalPlayer()
-    local actor=Entities:FindByName(nil,data.actor)
-    if not player or not exists(actor) or (player:EyePosition()-actor:GetAbsOrigin()-Vector(0,0,48)):Length()>data.interactDistance then return end
+    if not player then return end
+    actor=actor or actorInRay(player:EyePosition(),player:EyeAngles():Forward())
+    if not player or not exists(actor) or not visibleFrom(player,actor) then return end
     local desktop=listenerSession~=nil and not player:GetHMDAvatar()
     if NpcDialogOpen(desktop,actor) and desktop then NpcDialogEnableDesktop(listenerSession) end
+end
+
+function NpcDialogConfigure(settings)
+    if validPanel() then return false end
+    sourceDialogue.Bind(thisEntity);sourceDialogue.Configure(settings);return true
+end
+function NpcDialogResetStory()
+    if validPanel() then return false end
+    sourceDialogue.Bind(thisEntity);sourceDialogue.Reset();return true
+end
+function NpcDialogStoryState() return sourceDialogue.Snapshot() end
+function NpcDialogPreset(name)
+    if validPanel() then return false end
+    local preset=require("npc_source_cast_data").profiles[name]
+    if not preset then return false end
+    sourceDialogue.Bind(thisEntity);sourceDialogue.Reset();sourceDialogue.Configure(preset)
+    print("[VTMBVR_DIALOG] STORY_PRESET "..name)
+    return true
+end
+
+function NpcDialogUseExample(enabled)
+    if validPanel() then NpcDialogClose() end
+    exampleMode=enabled==true
+end
+
+local function updatePrompts(player,preferred)
+    local eye,forward=player:EyePosition(),player:EyeAngles():Forward()
+    local target=preferred or actorInRay(eye,forward)
+    if not target and not validPanel() then
+        local nearest=data.interactDistance+1
+        for _,actor in ipairs(dialogueActors()) do
+            local delta=actor:GetAbsOrigin()+Vector(0,0,48)-eye
+            local distance=delta:Length()
+            if distance<nearest and delta:Dot(forward)>distance*.55 and visibleFrom(player,actor) then
+                target=actor;nearest=distance
+            end
+        end
+    end
+    local present={}
+    for _,actor in ipairs(dialogueActors()) do
+        local id=actor:GetEntityIndex()
+        local show=not validPanel() and target and target:GetEntityIndex()==id and visibleFrom(player,actor)
+        present[id]=show
+        local entry=prompts[id]
+        if show and (not entry or not exists(entry.panel)) then
+            local prompt=SpawnEntityFromTableSynchronous("point_clientui_world_panel",{
+                targetname="vtmbvr_talk_prompt_"..id,origin=actor:GetAbsOrigin()+Vector(0,0,56),
+                angles=QAngle(0,player:EyeAngles().y+180,0),
+                dialog_layout_name="file://{resources}/layout/custom_game/vtmbvr_dialog_prompt.xml",
+                width=6,height=6,panel_dpi=128/6,horizontal_align="1",vertical_align="1",orientation="2",
+                interact_distance=data.interactDistance,enabled=1,ignore_input=0})
+            if exists(prompt) then
+                prompt:AcceptUserInput()
+                local callback="NpcTalkPrompt"..id
+                _G[callback]=function() NpcDialogPromptInteract(actor) end
+                prompt:RedirectOutput("CustomOutput0",callback,thisEntity)
+                local name=sourceDialogue.Character(actor)
+                if name=="cal" or name=="chunk" or name=="knox" then prompt:AddCSSClasses("TalkMale") end
+                entry={panel=prompt,callback=callback};prompts[id]=entry
+            end
+        end
+        if show and entry then
+            -- Place beside the shoulder and towards the viewer. A head-height
+            -- icon was easy to miss against ceilings and could sit inside NPCs.
+            local delta=eye-actor:GetAbsOrigin();delta.z=0
+            local length=delta:Length()
+            if length>.01 then delta=delta/length else delta=Vector(1,0,0) end
+            local right=Vector(-delta.y,delta.x,0)
+            entry.panel:SetAbsOrigin(actor:GetAbsOrigin()+Vector(0,0,56)+delta*16+right*14)
+            entry.panel:AddCSSClasses("TalkFocused")
+        end
+    end
+    for id,entry in pairs(prompts) do
+        if not present[id] then
+            if exists(entry.panel) then UTIL_Remove(entry.panel) end
+            _G[entry.callback]=nil;prompts[id]=nil
+        end
+    end
 end
 
 local function handRay(hand)
@@ -405,97 +592,193 @@ local function handRay(hand)
     return hand:GetAbsOrigin(),hand:GetForwardVector()
 end
 
+function NpcDialogVRStatus()
+    local player=Entities:GetLocalPlayer()
+    local hmd=player and player:GetHMDAvatar()
+    local status={version="raw-trigger-v2",hmd=exists(hmd),fake=Convars:GetBool("vr_enable_fake_vr"),
+        open=NpcDialogIsOpen(),range=data.interactDistance,hands={}}
+    print("[VTMBVR_DIALOG] VR_STATUS version="..status.version.." hmd="..tostring(status.hmd)..
+        " fake="..tostring(status.fake).." open="..tostring(status.open).." range="..status.range)
+    if status.hmd then
+        for id=0,1 do
+            local hand=hmd:GetVRHand(id)
+            local row={tracked=exists(hand)}
+            if row.tracked then
+                local input=vrInput.Status(id) or {}
+                local origin,direction=handRay(hand)
+                local target=actorInRay(origin,direction)
+                row.input=input;row.target=target and target:GetName() or "none"
+                print("[VTMBVR_DIALOG] VR_STATUS hand="..id.." literal="..tostring(input.literal)..
+                    " source="..tostring(input.source).." pull="..tostring(input.pull)..
+                    " down="..tostring(input.down).." emulated="..tostring(input.emulated).." target="..row.target)
+            else print("[VTMBVR_DIALOG] VR_STATUS hand="..id.." tracked=false") end
+            status.hands[id]=row
+        end
+    end
+    return status
+end
+
 local function panelHit(origin,direction)
-    if not panelCenter or not panelRight then return nil end
-    -- Face User Upright follows the player's position, not their head rotation.
-    local facing=panelCenter-Entities:GetLocalPlayer():EyePosition()
-    facing.z=0
-    if facing:Length()>.01 then facing=facing:Normalized();panelRight=Vector(facing.y,-facing.x,0) end
-    local normal=Vector(-panelRight.y,panelRight.x,0)
-    local denominator=direction:Dot(normal)
-    if math.abs(denominator)<.001 then return nil end
-    local t=(panelCenter-origin):Dot(normal)/denominator
-    if t<0 or t>160 then return nil end
-    local hit=origin+direction*t
-    local delta=hit-panelCenter
-    local x=512+delta:Dot(panelRight)*16
-    local y=384-delta.z*16
-    if x<0 or x>1024 or y<0 or y>768 then return nil end
-    return math.floor(x),math.floor(y)
+    if panelPose then return panelPose:Hit(origin,direction) end
+end
+
+local function endPanelMove(hand)
+    if panelPose and panelPose:End(hand) then
+        if validPanel() then panel:RemoveCSSClasses("PanelDragging") end
+        print("[VTMBVR_DIALOG] WINDOW_MOVE_END")
+    end
+end
+
+local function windowClick(hand,press,x,y)
+    if press and x and not desktopPendingClick then
+        vrSequence=(vrSequence+1)%256
+        NpcDialogPointerClick(VR_SESSION,vrSequence,press[1],press[2],x,y)
+        print("[VTMBVR_DIALOG] VR_CLICK hand="..hand.." x="..x.." y="..y)
+    end
+end
+
+resolveWindowProbe=function(background)
+    local probe=windowProbe
+    if not probe then return end
+    windowProbe=nil
+    if not validPanel() then return end
+    panel:RemoveCSSClasses("WindowGrabProbe")
+    if background then
+        local input=vrInput.Status(probe.hand)
+        if not probe.released and input and input.down and panelPose:Begin(probe.hand,probe.direction,probe.x,probe.y,probe.distance,true) then
+            vrPress={};vrPointerHand=nil
+            panel:AddCSSClasses("PanelDragging");panel:RemoveCSSClasses("DPressed DFocused")
+            print("[VTMBVR_DIALOG] WINDOW_MOVE_BEGIN hand="..probe.hand)
+        else vrPress[probe.hand]=nil;vrPointerHand=nil end
+    elseif probe.released then
+        windowClick(probe.hand,vrPress[probe.hand],probe.upX,probe.upY)
+        vrPress[probe.hand]=nil;vrPointerHand=nil
+    end
+end
+
+local function probeWindow(hand,direction,x,y,distance)
+    windowProbeSequence=(windowProbeSequence+1)%256
+    windowProbe={hand=hand,direction=direction,x=x,y=y,distance=distance,started=Time()}
+    desktopNumber("WindowProbeX",x+32,11);desktopNumber("WindowProbeY",y+32,11)
+    desktopNumber("WindowProbeSequence",windowProbeSequence,8)
+    panel:AddCSSClasses("WindowGrabProbe")
+end
+
+local function cancelWindowProbe(hand)
+    if windowProbe and (hand==nil or windowProbe.hand==hand) then
+        windowProbe=nil
+        if validPanel() then panel:RemoveCSSClasses("WindowGrabProbe") end
+    end
 end
 
 local function interactionThink()
     local player=Entities:GetLocalPlayer()
     if not player then return .1 end
     if validPanel() then faceEditor.Think() end
+    if windowProbe and Time()-windowProbe.started>1 then resolveWindowProbe(false) end
     if listenerSession and Time()-listenerHeartbeat>4 then listenerSession=nil end
     if conversationActor and (not exists(conversationActor) or player:GetHealth()<=0 or (conversationActor:GetAbsOrigin()+Vector(0,0,48)-player:EyePosition()):Length()>180) then
         NpcDialogClose()
     end
-    local actor=Entities:FindByName(nil,data.actor)
-    if exists(actor) and not exists(prompt) then
-        prompt=SpawnEntityFromTableSynchronous("point_clientui_world_panel",{
-            targetname="vtmbvr_jeanette_prompt",origin=actor:GetAbsOrigin()+Vector(0,0,76),
-            dialog_layout_name="file://{resources}/layout/custom_game/vtmbvr_dialog_prompt.xml",
-            width=16,height=4,panel_dpi=32,horizontal_align="1",vertical_align="1",orientation="2",interact_distance=100,enabled=1
-        })
-        if exists(prompt) then prompt:RedirectOutput("CustomOutput0","NpcDialogPromptInteract",thisEntity) end
+    if sourceSession and sourceDeadline and Time()>=sourceDeadline and not faceEditor.opened then
+        if sourceSession.auto then
+            sourceSession:Automatic()
+            if sourceSession.ended then NpcDialogClose() else playNode() end
+        elseif #sourceSession.answers==0 then NpcDialogClose() end
     end
-    if exists(prompt) and exists(actor) then prompt:SetAbsOrigin(actor:GetAbsOrigin()+Vector(0,0,76)) end
     local hmd=player:GetHMDAvatar()
-    if not hmd then return .03 end
+    if not hmd then
+        endPanelMove()
+        cancelWindowProbe()
+        vrInput.Reset();vrDown={};vrPress={};vrSuppressed={};vrPointerHand=nil
+        updatePrompts(player);return .03
+    end
+    local promptActor
     local pointerVisible=false
     for _,id in ipairs({1,0}) do
         local hand=hmd:GetVRHand(id)
         if exists(hand) then
-            local down=player:IsDigitalActionOnForHand(1-id,3)
-            -- The retail FakeVR hands expose poses but do not update SteamVR's
-            -- digital-action API. Explicit emulator commands supply only the
-            -- trigger state; targeting still uses the engine hand's actual ray.
-            if Convars:GetBool("vr_enable_fake_vr") then down=down or fakeDown[id]==true end
+            local fake
+            if Convars:GetBool("vr_enable_fake_vr") then fake=fakeDown[id]==true end
+            local down,first,source,literal,pressed,released=vrInput.Read(player,hand,id,fake)
+            if first then
+                -- Tracking can reconnect with the trigger held. Require a
+                -- release and a fresh press, rather than opening/selecting.
+                vrDown[id]=down;vrPress[id]=nil;vrSuppressed[id]=nil
+                print("[VTMBVR_DIALOG] VR_INPUT hand="..id.." literal="..literal.." source="..source)
+            end
             local origin,direction=handRay(hand)
             if not validPanel() then
-                if down and not vrDown[id] then
-                    local target=actorInRay(origin,direction)
-                    if target and NpcDialogOpen(false,target) then
+                local target=actorInRay(origin,direction)
+                promptActor=promptActor or target
+                if pressed then
+                    local input=vrInput.Status(id) or {}
+                    print("[VTMBVR_DIALOG] VR_PRESS hand="..id.." literal="..literal.." source="..source..
+                        " pull="..tostring(input.pull).." emulated="..tostring(input.emulated)..
+                        " target="..(target and target:GetName() or "none"))
+                    if AsylumLocationInteract and AsylumLocationInteract(origin,direction,true) then
+                        vrSuppressed[id]=true
+                    elseif target and NpcDialogOpen(false,target) then
                         vrSuppressed[id]=true
                         print("[VTMBVR_DIALOG] VR_INTERACT hand="..id.." actor="..target:GetName())
+                    else
+                        print("[VTMBVR_DIALOG] VR_OPEN_REJECTED hand="..id.." reason="..
+                            (target and "scene_owner_or_panel" or "no_talk_target_in_ray"))
                     end
                 end
             elseif pointerSession==VR_SESSION then
-                if vrSuppressed[id] then
+                if panelPose and panelPose.grab then
+                    if panelPose.grab.hand==id then
+                        if down then
+                            panelPose:Move(id,origin,direction)
+                            panelAnchor:SetAbsOrigin(panelPose.center)
+                            local angles=panelPose:Angles();panelAnchor:SetAbsAngles(angles.x,angles.y,angles.z)
+                        else endPanelMove(id) end
+                    elseif down then vrSuppressed[id]=true end
+                    vrPress[id]=nil
+                elseif vrSuppressed[id] then
                     if not down then vrSuppressed[id]=nil end
-                else
-                    local x,y=panelHit(origin,direction)
+                elseif not vrPointerHand or vrPointerHand==id then
+                    local x,y,distance=panelHit(origin,direction)
+                    if pressed and x and not windowProbe and not desktopPendingClick then
+                        vrPointerHand=id;vrPress[id]={x,y};probeWindow(id,direction,x,y,distance)
+                    end
                     if x and (down or not pointerVisible) then
                         NpcDialogPointerMove(VR_SESSION,x,y,down and 1 or 0,1)
                         pointerVisible=true
                     end
-                    if down and not vrDown[id] then vrPress[id]=x and {x,y} or nil end
-                    if not down and vrDown[id] then
-                        local press=vrPress[id]
-                        if press and x and not desktopPendingClick then
-                            vrSequence=(vrSequence+1)%256
-                            NpcDialogPointerClick(VR_SESSION,vrSequence,press[1],press[2],x,y)
-                            print("[VTMBVR_DIALOG] VR_CLICK hand="..id.." x="..x.." y="..y)
+                    if released then
+                        if windowProbe and windowProbe.hand==id then
+                            windowProbe.released=true;windowProbe.upX=x;windowProbe.upY=y
+                        else
+                            windowClick(id,vrPress[id],x,y);vrPress[id]=nil
+                            if vrPointerHand==id then vrPointerHand=nil end
                         end
-                        vrPress[id]=nil
                     end
                 end
             end
             vrDown[id]=down
+        else
+            endPanelMove(id)
+            cancelWindowProbe(id)
+            vrInput.Forget(id);vrDown[id]=nil;vrPress[id]=nil;vrSuppressed[id]=nil
+            if vrPointerHand==id then vrPointerHand=nil end
         end
     end
+    updatePrompts(player,promptActor)
     if pointerSession==VR_SESSION and not pointerVisible then panel:RemoveCSSClasses("DFocused") end
     return .016
 end
 
 function NpcDialogInstall()
+    sourceDialogue.Bind(thisEntity)
     -- Entity Inputs survive a save while dynamically included Lua locals do
     -- not. Remove only our orphaned panel/controls before binding a fresh scope.
     if not validPanel() then
         local orphan=Entities:FindByName(nil,PANEL_NAME)
         if exists(orphan) then UTIL_Remove(orphan) end
+        local orphanAnchor=Entities:FindByName(nil,"vtmbvr_dialog_anchor")
+        if exists(orphanAnchor) then UTIL_Remove(orphanAnchor) end
         releaseControl("vtmbvr_dialog_camera","Disable")
         releaseControl("vtmbvr_dialog_controls","Deactivate")
         local actor=Entities:FindByName(nil,data.actor)
@@ -503,9 +786,22 @@ function NpcDialogInstall()
             lips.Stop(actor)
             for _,node in pairs(data.nodes) do if node.sound then StopSoundOn(node.sound,actor) end end
         end
+        for _,sourceActor in ipairs(dialogueActors()) do
+            local character=sourceDialogue.Character(sourceActor)
+            if character then
+                local bank=require("asylum_data/"..character)
+                sourceFace.Reset(sourceActor,bank)
+                for _,line in pairs(bank.lines) do
+                    StopSoundOn(line.sound,sourceActor)
+                    for _,event in ipairs(line.timelineEvents or {}) do if event.kind=="sound" then StopSoundOn(event.sound,sourceActor) end end
+                end
+            end
+        end
     end
-    if not exists(prompt) then prompt=Entities:FindByName(nil,"vtmbvr_jeanette_prompt") end
-    if exists(prompt) then prompt:RedirectOutput("CustomOutput0","NpcDialogPromptInteract",thisEntity) end
+    for _,entity in ipairs(Entities:FindAllByClassname("point_clientui_world_panel")) do
+        if entity:GetName():match("^vtmbvr_talk_prompt_") or entity:GetName()=="vtmbvr_jeanette_prompt" then UTIL_Remove(entity) end
+    end
+    prompts={}
     thisEntity:SetContextThink("NpcDialogueInteraction",function()
         local ok,result=pcall(interactionThink)
         if not ok then print("[VTMBVR_DIALOG] INTERACTION_ERROR "..tostring(result));return .5 end

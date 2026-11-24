@@ -1,0 +1,11 @@
+<root>
+    <styles><include src="s2r://panorama/styles/custom_game/vtmbvr_lift.vcss_c" /></styles>
+    <ClientUIDialogPanel class="LiftRoot" hittest="true" hittestchildren="true">
+        <Button class="LiftButton" onactivate="$.DispatchEvent('ClientUI_FireOutput', $.GetContextPanel(), 0)">
+            <Label class="LiftUp Arrow" text="▲" hittest="false" />
+            <Label class="LiftDownLabel Arrow" text="▼" hittest="false" />
+            <Label class="LiftUp Caption" text="ВВЕРХ" hittest="false" />
+            <Label class="LiftDownLabel Caption" text="ВНИЗ" hittest="false" />
+        </Button>
+    </ClientUIDialogPanel>
+</root>

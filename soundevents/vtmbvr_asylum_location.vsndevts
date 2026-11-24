@@ -1,0 +1,16 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+"VTMBVR.Asylum.Location.sistersGunshot" = { type = "hlvr_default_3d" volume = 0.65 volume_falloff_min = 40.0 volume_falloff_max = 260.0 vsnd_files = ["sounds/ambience/asylum/location/sistersGunshot.vsnd"] }
+"VTMBVR.Asylum.Location.conversation1" = { type = "hlvr_default_3d" volume = 0.28 volume_falloff_min = 40.0 volume_falloff_max = 260.0 vsnd_files = ["sounds/ambience/asylum/location/conversation1.vsnd"] }
+"VTMBVR.Asylum.Location.conversation4" = { type = "hlvr_default_3d" volume = 0.28 volume_falloff_min = 40.0 volume_falloff_max = 260.0 vsnd_files = ["sounds/ambience/asylum/location/conversation4.vsnd"] }
+"VTMBVR.Asylum.Location.conversation5" = { type = "hlvr_default_3d" volume = 0.28 volume_falloff_min = 40.0 volume_falloff_max = 260.0 vsnd_files = ["sounds/ambience/asylum/location/conversation5.vsnd"] }
+"VTMBVR.Asylum.Location.music" = { type = "hlvr_default_3d" volume = 0.14 volume_falloff_min = 40.0 volume_falloff_max = 260.0 vsnd_files = ["sounds/music/asylum/isolated.vsnd"] }
+"VTMBVR.Asylum.Location.whisper_calf" = { type = "hlvr_default_3d" volume = 0.65 volume_falloff_min = 40.0 volume_falloff_max = 260.0 vsnd_files = ["sounds/ambience/asylum/location/whisper_calf.vsnd"] }
+"VTMBVR.Asylum.Location.whisper_blind" = { type = "hlvr_default_3d" volume = 0.65 volume_falloff_min = 40.0 volume_falloff_max = 260.0 vsnd_files = ["sounds/ambience/asylum/location/whisper_blind.vsnd"] }
+"VTMBVR.Asylum.Location.whisper_mistress" = { type = "hlvr_default_3d" volume = 0.65 volume_falloff_min = 40.0 volume_falloff_max = 260.0 vsnd_files = ["sounds/ambience/asylum/location/whisper_mistress.vsnd"] }
+"VTMBVR.Asylum.Location.whisper_wishes_words" = { type = "hlvr_default_3d" volume = 0.65 volume_falloff_min = 40.0 volume_falloff_max = 260.0 vsnd_files = ["sounds/ambience/asylum/location/whisper_wishes_words.vsnd"] }
+"VTMBVR.Asylum.Location.whisper_child_moan" = { type = "hlvr_default_3d" volume = 0.65 volume_falloff_min = 40.0 volume_falloff_max = 260.0 vsnd_files = ["sounds/ambience/asylum/location/whisper_child_moan.vsnd"] }
+"VTMBVR.Asylum.Location.whisper_man_moan" = { type = "hlvr_default_3d" volume = 0.65 volume_falloff_min = 40.0 volume_falloff_max = 260.0 vsnd_files = ["sounds/ambience/asylum/location/whisper_man_moan.vsnd"] }
+"VTMBVR.Asylum.Location.whisper_woman_moan" = { type = "hlvr_default_3d" volume = 0.65 volume_falloff_min = 40.0 volume_falloff_max = 260.0 vsnd_files = ["sounds/ambience/asylum/location/whisper_woman_moan.vsnd"] }
+"VTMBVR.Asylum.Location.whisper_child_moan_alt3" = { type = "hlvr_default_3d" volume = 0.65 volume_falloff_min = 40.0 volume_falloff_max = 260.0 vsnd_files = ["sounds/ambience/asylum/location/whisper_child_moan_alt3.vsnd"] }
+}
