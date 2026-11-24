@@ -7,6 +7,8 @@ import wave
 from alyx_sdk import compiled_relative, install_manifest_alias, resolve_addon
 
 def generate_data(checkout):
+    from prepare_source_dialogue import generate
+    generate(checkout)
     data = json.loads((checkout / 'scripts/dialogue/jeanette.json').read_text(encoding='utf8'))
     from face_tuning import specifications
     data['faceEditor'] = specifications(checkout)
@@ -54,10 +56,31 @@ ASSETS = (
     'panorama/styles/custom_game/vtmbvr_dialog.css',
     'panorama/scripts/custom_game/vtmbvr_dialog_data.js',
     'panorama/scripts/custom_game/vtmbvr_dialog.js',
+    'panorama/scripts/custom_game/vtmbvr_source_data.js',
+    'panorama/scripts/custom_game/vtmbvr_font_data.js',
+    'panorama/scripts/custom_game/vtmbvr_font.js',
+    'panorama/layout/custom_game/vtmbvr_font_preload.xml',
     'panorama/layout/custom_game/vtmbvr_dialog.xml',
+    'panorama/layout/custom_game/vtmbvr_dialog_world.xml',
+    'panorama/styles/custom_game/vtmbvr_dialog_window.css',
+    'panorama/scripts/custom_game/vtmbvr_dialog_window.js',
     'panorama/layout/custom_game/vtmbvr_dialog_prompt.xml',
+    'panorama/layout/custom_game/vtmbvr_lift.xml',
+    'panorama/styles/custom_game/vtmbvr_lift.css',
     'resourcemanifests/vtmbvr_addon_resources.vrman',
 )
+
+def generate_world_layout(checkout):
+    """Share the original dialogue markup, adding only the world-window handle."""
+    source=checkout/'panorama/layout/custom_game/vtmbvr_dialog.xml'
+    text=source.read_text(encoding='utf8')
+    text=text.replace('</styles>', '    <include src="s2r://panorama/styles/custom_game/vtmbvr_dialog_window.vcss_c" />\n    </styles>',1)
+    text=text.replace('</scripts>', '    <include src="s2r://panorama/scripts/custom_game/vtmbvr_dialog_window.vjs_c" />\n    </scripts>',1)
+    handle='<Panel id="DialogueGrabHandle" class="WindowGrabHandle" hittest="false"><Panel id="DialogueGrabText" hittest="false" /></Panel>\n        '
+    text=text.replace('<Button id="DialogueTuning"',handle+'<Button id="DialogueTuning"',1)
+    target=source.with_name('vtmbvr_dialog_world.xml')
+    if not target.exists() or target.read_text(encoding='utf8')!=text:target.write_text(text,encoding='utf8')
+
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
@@ -74,20 +97,35 @@ def main():
     compiler, source, runtime = paths.compiler, paths.source, paths.runtime
     print('Building SDK addon: '+paths.name)
     data = generate_data(checkout)
+    generate_world_layout(checkout)
     audio = [node['audio'] for node in data['nodes'].values() if node.get('audio')]
     resources = audio + ['soundevents/vtmbvr_dialogue.vsndevts'] + list(ASSETS)
-    for relative in resources:
+    for filename in ('model_resources.json','crowd_resources.json','eye_resources.json','item_resources.json','location_resources.json'):
+        model_list=checkout/'scripts/dialogue/asylum'/filename
+        if model_list.exists(): resources=json.loads(model_list.read_text(encoding='utf8'))+resources
+    for relative in dict.fromkeys(resources):
         target = runtime / compiled_relative(relative)
         before = target.stat().st_mtime_ns if target.exists() else None
         result = subprocess.run([str(compiler), '-i', str(source / relative),
                                  '-game', str(sdk / 'game/hlvr'), '-nop4', '-f'],
-                                capture_output=True, text=True, errors='replace')
+                                capture_output=True, text=True, errors='replace',
+                                creationflags=getattr(subprocess,'CREATE_NO_WINDOW',0))
         print(result.stdout)
         # Some SDK failures still exit 0. Require both the success summary and
         # the newly written compiled resource rather than trusting the exit code.
-        if result.returncode or '0 failed' not in result.stdout or not target.is_file() or target.stat().st_mtime_ns == before:
+        if result.returncode or '0 failed' not in result.stdout or 'Error calling' in result.stdout or 'Error!' in result.stdout or not target.is_file() or target.stat().st_mtime_ns == before:
             raise SystemExit('Compile failed or output was not updated: ' + relative + '\n' + result.stderr)
     install_manifest_alias(paths)
+    # Dynamic glyph URLs are compiled through the build-only preload layout.
+    # Check the actual texture outputs: the SDK reports "0 failed" even when
+    # an unsupported direct PNG invocation compiled nothing.
+    image_root=source/'panorama/images/custom_game/vtmbvr'
+    if image_root.exists():
+        missing=[]
+        for png in image_root.rglob('*.png'):
+            texture=runtime/png.relative_to(source).with_name(png.stem+'_png.vtex_c')
+            if not texture.is_file() or not texture.stat().st_size:missing.append(str(texture))
+        if missing:raise SystemExit('Missing Panorama glyph/icon textures: '+str(missing[:10]))
     print('Dialogue assets compiled: ' + str(runtime / 'panorama'))
 
 if __name__ == '__main__':

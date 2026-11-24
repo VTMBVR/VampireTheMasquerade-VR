@@ -49,6 +49,8 @@ def check_lua(checkout, manifest):
     runtime.execute('''
         clock=0
         function Time() return clock end
+        function EmitSoundOn(sound,entity) end
+        function StopSoundOn(sound,entity) end
         settings={tuning={jawGain=.81,speechGain=.11,expressionGain=.03,smoothAttack=.005,smoothRelease=.005,expressionFade=.05},shapeGains={}}
         package.loaded.npc_dialog_lipsync={GetSettings=function() return settings end,Stop=function() end}
         actor={weights={},thinks={},writes=0}
@@ -58,6 +60,10 @@ def check_lua(checkout, manifest):
         function actor:SetGraphParameterFloat(name,value)
             assert(type(value)=='number' and value==value and value>=0 and value<=1)
             self.weights[name]=value;self.writes=self.writes+1
+        end
+        function actor:SetGraphParameterEnum(name,value)
+            assert(type(value)=='number' and value>=0 and value==math.floor(value))
+            self.enums=self.enums or {};self.enums[name]=value
         end
         function actor:SetContextThink(name,fn,delay) self.thinks[name]=fn end
         function actor:GetModelName() return 'models/character/npc/unique/santa_monica/jeanette/jeanette.vmdl' end
@@ -77,7 +83,7 @@ def check_lua(checkout, manifest):
             for _,line in pairs(model.lines) do
                 clock=0
                 assert(performance.Start(actor,line,model))
-                local times={0,.02,line.duration+.6}
+                local times={0,.02,(line.sceneDuration or line.duration)+.6}
                 for _,event in ipairs(line.phonemes) do times[#times+1]=(math.max(0,event[1])+event[2])/2 end
                 for _,event in ipairs(line.expressions) do times[#times+1]=(event.start+event.finish)/2 end
                 table.sort(times)
@@ -166,9 +172,16 @@ def main():
         compiled = runtime/Path(record['audio']).with_suffix('.vsnd_c')
         assert compiled.is_file() and compiled.stat().st_size > 0, record['audio']
         assert events.count(json.dumps(record['sound'])+' =') == 1
+    item_library=json.loads((source/'items.json').read_text(encoding='utf8'))
+    for name,record in item_library.get('sourceAssets',{}).items():
+        assert hashlib.sha256(assets.read(name)).hexdigest()==record['sha256'],name
+    for item in item_library['items'].values():
+        assert (runtime/Path(item['model']).with_suffix('.vmdl_c')).is_file(),item['model']
     accepted = check_lua(checkout, manifest)
     assert accepted == manifest['counts']['dialogueAudioFiles']
     result = {'sourceAssetsVerified': len(manifest['sourceAssets']), 'dialogueRowsVerified': rows_checked,
+              'itemSourceAssetsVerified':len(item_library.get('sourceAssets',{})),
+              'nativeItemModelsVerified':len(item_library['items'])+int('sceneGun' in item_library),
               'nativeAudioResourcesVerified': len(manifest['audio']), 'luaPerformancesExercised': accepted,
               'engineRenderingAndAudioOutputVerified': False, 'physicalVRVerified': False}
     print(json.dumps(result, indent=2), flush=True)

@@ -190,7 +190,7 @@ def eyelid_rules(raw):
 
 
 def facial_material(name):
-    return any(k in name.lower() for k in ('face', 'teeth', 'mouth', 'molar', 'tongue'))
+    return 'hair' not in name.lower() and any(k in name.lower() for k in ('face', 'head', 'teeth', 'mouth', 'molar', 'tongue'))
 
 
 def split_face(source, output, vertices, triangles):
@@ -458,10 +458,10 @@ def face_animation(path, controller):
     put(clip, 'channels', 'element_array', [channel]); dm.write(path)
 
 
-def face_graph(checkout, output, folder, controllers):
+def face_graph(checkout, output, folder, controllers, character='jeanette', shared_graph='shared_female'):
     """Derive Jeanette's graph, preserving shared female movement and actions."""
     folder = Path(folder)
-    graph = (checkout/'animgraphs/shared_female.vanmgrph').read_text(encoding='utf8')
+    graph = (checkout/('animgraphs/'+shared_graph+'.vanmgrph')).read_text(encoding='utf8')
     root_start = graph.index('_class = "CRootAnimNode"')
     root_end = graph.index('\n\t\t},', root_start)
     root = graph[root_start:root_end]
@@ -514,8 +514,8 @@ def face_graph(checkout, output, folder, controllers):
     graph = re.sub(r'(m_Parameters\s*=\s*\[)',lambda m:m[1]+'\n'+'\n'.join(params),graph,count=1)
     graph = re.sub(r'(m_nodes\s*=\s*\[)',lambda m:m[1]+'\n'+'\n'.join(nodes),graph,count=1)
     (output/'animgraphs').mkdir(parents=True,exist_ok=True)
-    (output/'animgraphs/jeanette_dialogue.vanmgrph').write_text(graph,encoding='utf8')
-    header = (checkout/folder/'jeanette.vmdl').read_text(encoding='utf8').split('\n',1)[0]
+    (output/('animgraphs/'+character+'_dialogue.vanmgrph')).write_text(graph,encoding='utf8')
+    header = (checkout/'models/character/npc/unique/santa_monica/jeanette/jeanette.vmdl').read_text(encoding='utf8').split('\n',1)[0]
     prefab = header+'\n{rootNode={_class="RootNode" children=[{_class="AnimationList" children=[\n'
     prefab += '''{_class="AnimFile" name="dialogue_face_reference" source_filename="%s"
         looping=false hidden=true start_frame=0 end_frame=0 framerate=24.0},\n''' % (
@@ -527,9 +527,11 @@ def face_graph(checkout, output, folder, controllers):
 
 
 def lua(value):
+    if value is None: return 'nil'
     if isinstance(value, dict): return '{'+','.join('['+lua(k)+']='+lua(v) for k, v in value.items())+'}'
     if isinstance(value, list): return '{'+','.join(lua(v) for v in value)+'}'
     if isinstance(value, str): return json.dumps(value, ensure_ascii=False)
+    if isinstance(value, bool): return 'true' if value else 'false'
     if isinstance(value, (int, float)): return str(value)
     raise ValueError('Unsupported Lua value')
 

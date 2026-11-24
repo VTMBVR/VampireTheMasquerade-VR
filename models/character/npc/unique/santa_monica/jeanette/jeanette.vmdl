@@ -63,11 +63,11 @@
 							},
 							{
 								from = "eyeball_l.vmat"
-								to = "materials/models/character/npc/unique/downtown/damsel/eyeball_l.vmat"
+								to = "models/character/npc/unique/santa_monica/jeanette/asylum_eyes/eyeball_l.vmat"
 							},
 							{
 								from = "eyeball_r.vmat"
-								to = "materials/models/character/npc/unique/downtown/damsel/eyeball_l.vmat"
+								to = "models/character/npc/unique/santa_monica/jeanette/asylum_eyes/eyeball_r.vmat"
 							},
 							{
 								from = "lowerteeth.vmat"

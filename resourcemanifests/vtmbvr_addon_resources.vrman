@@ -6,6 +6,7 @@
 			"soundevents/vamprirethemasquerade_soundevents.vsndevts",
 			"soundevents/vtmbvr_dialogue.vsndevts",
 			"soundevents/vtmbvr_asylum.vsndevts",
+			"soundevents/vtmbvr_asylum_location.vsndevts",
 		],
 	]
 }

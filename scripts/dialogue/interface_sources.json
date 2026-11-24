@@ -1,0 +1,309 @@
+{
+  "fontResolution": 1280,
+  "fonts": {
+    "normal": "materials/fonts/vamp_dialog_base_30_900_000.fnt",
+    "heading": "materials/fonts/vamp_mainfont_26_1000_000.fnt",
+    "seduction": "materials/fonts/vamp_dialog_seduction_41_900_000.fnt",
+    "persuasion": "materials/fonts/vamp_dialog_persuasion_31_900_000.fnt",
+    "intimidate": "materials/fonts/vamp_dialog_intimidate_25_900_000.fnt",
+    "dominate": "materials/fonts/vamp_dialog_domination_33_900_000.fnt",
+    "dementation": "materials/fonts/vamp_dialog_dementation_22_900_000.fnt",
+    "malkavian": "materials/fonts/vamp_dialog_malkavian_30_900_000.fnt"
+  },
+  "assets": [
+    {
+      "path": "resource/trackerscheme.res",
+      "source": "Unofficial_Patch/resource/trackerscheme.res",
+      "bytes": 44705,
+      "sha256": "19f797330424efd79d93c17713525edf2e9be342e57a19223fff28524e6e19fb"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_base_30_900_000.fnt",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_base_30_900_000.fnt",
+      "bytes": 8840,
+      "sha256": "cbce202425cd1da43ffd1c462f32f2d7b96e4733af6ee8d45a0749e99c30c7bc"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_base_30_900_000-page0.tth",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_base_30_900_000-page0.tth",
+      "bytes": 220,
+      "sha256": "741afcd5758a6b6391d664f6345a6e03e771f3f9e332f052997c18ca8ae4567a"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_base_30_900_000-page0.ttz",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_base_30_900_000-page0.ttz",
+      "bytes": 15142,
+      "sha256": "79998c0b0b0519923c0c0d0927148827365268a1468cf7a66ad98a1a10a3d6e4"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_base_30_900_000-page1.tth",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_base_30_900_000-page1.tth",
+      "bytes": 156,
+      "sha256": "def9e601a44494c860b8c62ed0e72b9e872fcd51b74e1184db4cf7727da8fd85"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_base_30_900_000-page1.ttz",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_base_30_900_000-page1.ttz",
+      "bytes": 7771,
+      "sha256": "c1eb47cfad6a9768da80f1beff0d4c7bc432fe1af4e9f410d2ab3bb23d13a51d"
+    },
+    {
+      "path": "materials/fonts/vamp_mainfont_26_1000_000.fnt",
+      "source": "Unofficial_Patch/materials/fonts/vamp_mainfont_26_1000_000.fnt",
+      "bytes": 8836,
+      "sha256": "891e8aaa44f7f427caea474dbbe316c066146d0ebae0651480fff1b68dcb23a0"
+    },
+    {
+      "path": "materials/fonts/vamp_mainfont_26_1000_000-page0.tth",
+      "source": "Unofficial_Patch/materials/fonts/vamp_mainfont_26_1000_000-page0.tth",
+      "bytes": 220,
+      "sha256": "de652577474093b89ad41db79f9981a121012fabbd896cdcf538991954a757a1"
+    },
+    {
+      "path": "materials/fonts/vamp_mainfont_26_1000_000-page0.ttz",
+      "source": "Unofficial_Patch/materials/fonts/vamp_mainfont_26_1000_000-page0.ttz",
+      "bytes": 13754,
+      "sha256": "6ae14438392d76648918a7df5b9b53642d772ab67a681cf2793aca6e8dce7ff3"
+    },
+    {
+      "path": "materials/fonts/vamp_mainfont_26_1000_000-page1.tth",
+      "source": "Unofficial_Patch/materials/fonts/vamp_mainfont_26_1000_000-page1.tth",
+      "bytes": 156,
+      "sha256": "680e3d8ea7071267a22f231caddfa47bcc5529f9e27641c1ce90ddc0b44ccdc9"
+    },
+    {
+      "path": "materials/fonts/vamp_mainfont_26_1000_000-page1.ttz",
+      "source": "Unofficial_Patch/materials/fonts/vamp_mainfont_26_1000_000-page1.ttz",
+      "bytes": 7384,
+      "sha256": "a16f4a8cb6c0f88e769212ef4c3e1c031ae6b313fbdaf17a24a4e1d8e1d2899c"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_seduction_41_900_000.fnt",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_seduction_41_900_000.fnt",
+      "bytes": 8905,
+      "sha256": "b8bf158fd97ed04d02da357c4520ef073bd60a1736cc2f0de9aca157ab63ddd0"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_seduction_41_900_000-page0.tth",
+      "source": "Vampire/pack007.vpk:materials/fonts/vamp_dialog_seduction_41_900_000-page0.tth",
+      "bytes": 256,
+      "sha256": "287be6f5ff5cb25f468310eb7bebbc7295e3af1ab456908d3c35243ffd690f10"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_seduction_41_900_000-page0.ttz",
+      "source": "Vampire/pack007.vpk:materials/fonts/vamp_dialog_seduction_41_900_000-page0.ttz",
+      "bytes": 32768,
+      "sha256": "5e289ee07332407b6281d47c1953bcfa8ca246a0dbb604636528b47d318e8c53"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_seduction_41_900_000-page1.tth",
+      "source": "Vampire/pack007.vpk:materials/fonts/vamp_dialog_seduction_41_900_000-page1.tth",
+      "bytes": 512,
+      "sha256": "f71fdf763b02a559392124680fdb77e5329714d654c054699905a640ce95b208"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_seduction_41_900_000-page1.ttz",
+      "source": "Vampire/pack007.vpk:materials/fonts/vamp_dialog_seduction_41_900_000-page1.ttz",
+      "bytes": 16384,
+      "sha256": "6df4be5a01ef6a0d74e83a2166c626c7f0183dc398f1f04e4a49f9affbe1061d"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_seduction_41_900_000-page2.tth",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_seduction_41_900_000-page2.tth",
+      "bytes": 156,
+      "sha256": "c5a04cbc706ce202570954db07547e925894ce84ab7453ebed4fd774b1ff5a33"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_seduction_41_900_000-page2.ttz",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_seduction_41_900_000-page2.ttz",
+      "bytes": 16911,
+      "sha256": "cddb1864f8f3de22088ea6a70b7c733438385766f3fdab5d180e6bea0f1c1e1c"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_persuasion_31_900_000.fnt",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_persuasion_31_900_000.fnt",
+      "bytes": 8852,
+      "sha256": "1f2437ea6a9b13f283b0f4260725293659ea133a7fa064a84be72ee9fc04f7bc"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_persuasion_31_900_000-page0.tth",
+      "source": "Vampire/pack007.vpk:materials/fonts/vamp_dialog_persuasion_31_900_000-page0.tth",
+      "bytes": 256,
+      "sha256": "c8374b584edbf25ddd974ae7f11864e7e4ecd5b49e32cc3f88e36435bfd000fc"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_persuasion_31_900_000-page0.ttz",
+      "source": "Vampire/pack007.vpk:materials/fonts/vamp_dialog_persuasion_31_900_000-page0.ttz",
+      "bytes": 32768,
+      "sha256": "919c5b691a30dec3b4fca7fc4976320cf1476942536933faff2170c63efd3386"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_persuasion_31_900_000-page1.tth",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_persuasion_31_900_000-page1.tth",
+      "bytes": 156,
+      "sha256": "f832ec84836d2337efb5cd1d4c53926207d1474cb22ebd1cb118d326d45a21cf"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_persuasion_31_900_000-page1.ttz",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_persuasion_31_900_000-page1.ttz",
+      "bytes": 13270,
+      "sha256": "6df24779878126bde2406490b85b7209f8960c6333fadf7cce87add0c76563ca"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_intimidate_25_900_000.fnt",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_intimidate_25_900_000.fnt",
+      "bytes": 8852,
+      "sha256": "34ebd3e88bbf2b383472d7cb24b7ba93a08b5ce95f714f1702036d724c4275d0"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_intimidate_25_900_000-page0.tth",
+      "source": "Vampire/pack007.vpk:materials/fonts/vamp_dialog_intimidate_25_900_000-page0.tth",
+      "bytes": 256,
+      "sha256": "e8b7a5a0b8d664ff8ef37b70b9caa56e0c0a77fa6bb40091ce6e580306883392"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_intimidate_25_900_000-page0.ttz",
+      "source": "Vampire/pack007.vpk:materials/fonts/vamp_dialog_intimidate_25_900_000-page0.ttz",
+      "bytes": 32768,
+      "sha256": "4d5266f3b2760e0974151d8c52b4c8fda302721389d1e325c45a5492d246c995"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_intimidate_25_900_000-page1.tth",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_intimidate_25_900_000-page1.tth",
+      "bytes": 156,
+      "sha256": "8f56eb28b7e26e13edad90ab59777c55209761bc58f7f643e07a9b0d9de83edc"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_intimidate_25_900_000-page1.ttz",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_intimidate_25_900_000-page1.ttz",
+      "bytes": 11420,
+      "sha256": "94a988c5d56f40486ee36b8c02431beb2c4b5f9c5785e34adec7dee7a0863971"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_domination_33_900_000.fnt",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_domination_33_900_000.fnt",
+      "bytes": 8852,
+      "sha256": "b1d9c7f7e7add90f3cbb0238864827553b5dde414abcac00edba107cc192b7ca"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_domination_33_900_000-page0.tth",
+      "source": "Vampire/pack007.vpk:materials/fonts/vamp_dialog_domination_33_900_000-page0.tth",
+      "bytes": 256,
+      "sha256": "c094aa61988261ace249864b19f2400008179f18ba3e39cc8b24709b46452321"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_domination_33_900_000-page0.ttz",
+      "source": "Vampire/pack007.vpk:materials/fonts/vamp_dialog_domination_33_900_000-page0.ttz",
+      "bytes": 32768,
+      "sha256": "71688c0c9d25794b48a97ab8b111da6832ed4bda5e4b4b78e15bb3945c7da045"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_domination_33_900_000-page1.tth",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_domination_33_900_000-page1.tth",
+      "bytes": 156,
+      "sha256": "758437c437cab7fd8f7aad0f749895caefc0bc3565019a15100b9812db7bf68e"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_domination_33_900_000-page1.ttz",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_domination_33_900_000-page1.ttz",
+      "bytes": 10151,
+      "sha256": "b49ff2aa62423c38ae72449cb474d71e2778010649a1a33e84b28f2d168cadac"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_dementation_22_900_000.fnt",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_dementation_22_900_000.fnt",
+      "bytes": 8854,
+      "sha256": "08a2a12d4c25adc69c92f71490370eb11aa8e8d71a7ba0a5f655364309eb90fa"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_dementation_22_900_000-page0.tth",
+      "source": "Vampire/pack007.vpk:materials/fonts/vamp_dialog_dementation_22_900_000-page0.tth",
+      "bytes": 256,
+      "sha256": "cfaec7e79cd1062c5130a58fce375020c29dee645600618c25809a0d4539c1f5"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_dementation_22_900_000-page0.ttz",
+      "source": "Vampire/pack007.vpk:materials/fonts/vamp_dialog_dementation_22_900_000-page0.ttz",
+      "bytes": 16384,
+      "sha256": "d62c1eed950fed7c903805fe65d4cb382ed5bf1482102e51dc929f49b13bf542"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_dementation_22_900_000-page1.tth",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_dementation_22_900_000-page1.tth",
+      "bytes": 156,
+      "sha256": "028f30b08739c24ea252283b6ae8bf5ab371b632dd00b4833f4be6ed1155df37"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_dementation_22_900_000-page1.ttz",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_dementation_22_900_000-page1.ttz",
+      "bytes": 6984,
+      "sha256": "9fde654e7751ef6367dd0e88b38519a4dbc0d597a6e2e0602077db92d59eaa4d"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_malkavian_30_900_000.fnt",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_malkavian_30_900_000.fnt",
+      "bytes": 8850,
+      "sha256": "e58cb83453777a6a726a101fb74b1cf23b495581fadf9111f5dbd581b5596fd4"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_malkavian_30_900_000-page0.tth",
+      "source": "Vampire/pack007.vpk:materials/fonts/vamp_dialog_malkavian_30_900_000-page0.tth",
+      "bytes": 256,
+      "sha256": "287be6f5ff5cb25f468310eb7bebbc7295e3af1ab456908d3c35243ffd690f10"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_malkavian_30_900_000-page0.ttz",
+      "source": "Vampire/pack007.vpk:materials/fonts/vamp_dialog_malkavian_30_900_000-page0.ttz",
+      "bytes": 32768,
+      "sha256": "15bfac0af1a9b6eae8de302cde126586d39ee519354a9129b2a33d47095f8267"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_malkavian_30_900_000-page1.tth",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_malkavian_30_900_000-page1.tth",
+      "bytes": 156,
+      "sha256": "6c4986bd599d17d3e877b2016592e7f2966775386b7d899cbf005ef411f13e84"
+    },
+    {
+      "path": "materials/fonts/vamp_dialog_malkavian_30_900_000-page1.ttz",
+      "source": "Unofficial_Patch/materials/fonts/vamp_dialog_malkavian_30_900_000-page1.ttz",
+      "bytes": 10796,
+      "sha256": "0d9dcad6899eb7ed7aa4753ab4855eb8e6878dfee19e61c92c3a514413066f4b"
+    },
+    {
+      "path": "materials/hud/context_icons/talk_female.tth",
+      "source": "Vampire/pack006.vpk:materials/hud/context_icons/talk_female.tth",
+      "bytes": 324,
+      "sha256": "fd5917ba17a45293d8bdfe90dba2bf51d91c4d06bb2c80614c67383add1b4b8b"
+    },
+    {
+      "path": "materials/hud/context_icons/talk_female.ttz",
+      "source": "Vampire/pack006.vpk:materials/hud/context_icons/talk_female.ttz",
+      "bytes": 9835,
+      "sha256": "d79e324de7a1eda0ef090cfa753aa9e5b5f3e9b457506659a13404bddd747dfd"
+    },
+    {
+      "path": "materials/hud/context_icons/talk_male.tth",
+      "source": "Vampire/pack007.vpk:materials/hud/context_icons/talk_male.tth",
+      "bytes": 324,
+      "sha256": "db68f25df5fe51ef54795f8bf4e6b997ebb85e78da0dae108401b13dcb4feba5"
+    },
+    {
+      "path": "materials/hud/context_icons/talk_male.ttz",
+      "source": "Vampire/pack007.vpk:materials/hud/context_icons/talk_male.ttz",
+      "bytes": 10054,
+      "sha256": "dabc791bd6c4e7f3ef95f04726cbcad16b3fcff9244f6c9ab78a28f76d951ec2"
+    },
+    {
+      "path": "materials/hud/dialogfrmcrnrs.tth",
+      "source": "Unofficial_Patch/materials/hud/dialogfrmcrnrs.tth",
+      "bytes": 220,
+      "sha256": "73fa716f98ca4bef91d4ecc964f899758362ce2d0a2f34fc3b758466640dd6b7"
+    },
+    {
+      "path": "materials/hud/dialogfrmcrnrs.ttz",
+      "source": "Unofficial_Patch/materials/hud/dialogfrmcrnrs.ttz",
+      "bytes": 4377,
+      "sha256": "5990b2651984bac08e7940b993c4a239c874a3d959c106aaf7c16da5d9c7f3f0"
+    }
+  ]
+}

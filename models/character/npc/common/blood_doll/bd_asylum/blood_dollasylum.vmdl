@@ -1,268 +1,162 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
 {
-	rootNode = 
-	{
-		_class = "RootNode"
-		children = 
-		[
-			{
-				_class = "LODGroupList"
-				children = 
-				[
-					{
-						_class = "LODGroup"
-						switch_threshold = 0.0
-						meshes = 
-						[
-							"unnamed_1",
-						]
-					},
-					{
-						_class = "LODGroup"
-						switch_threshold = 0.0
-						meshes = 
-						[
-							"unnamed_2",
-						]
-					},
-					{
-						_class = "LODGroup"
-						switch_threshold = 0.0
-						meshes = 
-						[
-							"unnamed_3",
-						]
-					},
-					{
-						_class = "LODGroup"
-						switch_threshold = 0.0
-						meshes = 
-						[
-							"unnamed_4",
-						]
-					},
-					{
-						_class = "LODGroup"
-						switch_threshold = 0.0
-						meshes = 
-						[
-							"unnamed_5",
-						]
-					},
-					{
-						_class = "LODGroup"
-						switch_threshold = 0.0
-						meshes = 
-						[
-							"unnamed_6",
-						]
-					},
-					{
-						_class = "LODGroup"
-						switch_threshold = 0.0
-						meshes = 
-						[
-							"unnamed_7",
-						]
-					},
-				]
-			},
-			{
-				_class = "MaterialGroupList"
-				children = 
-				[
-					{
-						_class = "DefaultMaterialGroup"
-						note = "rework hair\n"
-						remaps = 
-						[
-							{
-								from = "blooddollbodyasylum.vmat"
-								to = "materials/models/character/npc/common/blood_doll/bd_asylum/blooddollbodyasylum.vmat"
-							},
-							{
-								from = "blooddollhair2asylum.vmat"
-								to = "materials/models/character/npc/common/blood_doll/bd_asylum/blooddollhair2asylum.vmat"
-							},
-							{
-								from = "blooddollhairasylum.vmat"
-								to = "materials/models/character/npc/common/blood_doll/bd_asylum/blooddollhairasylum.vmat"
-							},
-							{
-								from = "blooddollheadasylum.vmat"
-								to = "materials/models/character/npc/common/blood_doll/bd_asylum/blooddollheadasylum.vmat"
-							},
-							{
-								from = "lowerteeth.vmat"
-								to = "materials/models/character/npc/common/gangmember_male_2/alt/lowerteeth.vmat"
-							},
-							{
-								from = "molar.vmat"
-								to = "materials/models/character/teeth/molar.vmat"
-							},
-							{
-								from = "mouth.vmat"
-								to = "materials/models/character/teeth/mouth.vmat"
-							},
-							{
-								from = "tongue.vmat"
-								to = "materials/models/character/teeth/tongue.vmat"
-							},
-							{
-								from = "upperteeth.vmat"
-								to = "materials/models/character/npc/unique/downtown/larry/larry_upperteeth.vmat"
-							},
-							{
-								from = "eyeball_l.vmat"
-								to = "materials/models/character/npc/unique/hollywood/andrei/eyeball_r.vmat"
-							},
-							{
-								from = "eyeball_r.vmat"
-								to = "materials/models/character/npc/unique/hollywood/andrei/eyeball_r.vmat"
-							},
-						]
-						use_global_default = false
-						global_default_material = ""
-					},
-				]
-			},
-			{
-				_class = "RenderMeshList"
-				children = 
-				[
-					{
-						_class = "RenderMeshFile"
-						filename = "models/character/npc/common/blood_doll/bd_asylum/Blood_Dollasylum_ref.smd"
-						import_scale = 1.0
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-					{
-						_class = "RenderMeshFile"
-						filename = "models/character/npc/common/blood_doll/bd_asylum/Blood_Dollasylum_ref_lod1.smd"
-						import_scale = 1.0
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-					{
-						_class = "RenderMeshFile"
-						filename = "models/character/npc/common/blood_doll/bd_asylum/Blood_Dollasylum_ref_lod2.smd"
-						import_scale = 1.0
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-					{
-						_class = "RenderMeshFile"
-						filename = "models/character/npc/common/blood_doll/bd_asylum/Blood_Dollasylum_ref_lod3.smd"
-						import_scale = 1.0
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-					{
-						_class = "RenderMeshFile"
-						filename = "models/character/npc/common/blood_doll/bd_asylum/Blood_Dollasylum_ref_lod4.smd"
-						import_scale = 1.0
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-					{
-						_class = "RenderMeshFile"
-						filename = "models/character/npc/common/blood_doll/bd_asylum/Blood_Dollasylum_ref_lod5.smd"
-						import_scale = 1.0
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-					{
-						_class = "RenderMeshFile"
-						filename = "models/character/npc/common/blood_doll/bd_asylum/Blood_Dollasylum_ref_lod6.smd"
-						import_scale = 1.0
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-				]
-			},
-			{
-				_class = "AnimationList"
-				children = 
-				[
-					{
-						_class = "AnimFile"
-						name = "ragdoll"
-						activity_name = ""
-						activity_weight = 1
-						weight_list_name = ""
-						fade_in_time = 0.2
-						fade_out_time = 0.2
-						looping = false
-						delta = false
-						worldSpace = false
-						hidden = false
-						anim_markup_ordered = false
-						disable_compression = false
-						source_filename = "models/character/npc/common/blood_doll/bd_asylum/blood_dollasylum_anims/ragdoll.smd"
-						start_frame = -1
-						end_frame = -1
-						framerate = -1.0
-						reverse = false
-					},
-					{
-						_class = "Prefab"
-						target_file = "models/character/shared/prefabs/female/shared_female_misc_anim.vmdl_prefab"
-					},
-					{
-						_class = "Prefab"
-						target_file = "models/character/shared/prefabs/female/move_n_run.vmdl_prefab"
-					},
-				]
-				default_root_bone_name = ""
-			},
-
+"rootNode" = {
+"_class" = "RootNode"
+"children" = [
 {
-	_class = "AttachmentList"
-	children = [
-		{
-			_class = "Attachment"
-			name = "r_hand"
-			parent_bone = "bip01_r_hand"
-			relative_origin = [
-				0.0,
-				0.0,
-				0.0,
-			]
-			relative_angles = [
-				0.0,
-				0.0,
-				0.0,
-			]
-			weight = 1.0
-			ignore_rotation = false
-		},
-	]
-},
+"_class" = "WeightListList"
+"children" = [
+{
+"_class" = "WeightList"
+"name" = "dialogue_face_only"
+"default_weight" = 0.0
+"weights" = [
+
 ]
-		model_archetype = "generic_actor_model"
-		primary_associated_entity = "generic_actor"
-		anim_graph_name = "animgraphs/shared_female.vanmgrph"
-	}
+"master_morph_weight" = 1.0
+"morph_weights" = [
+
+]
+}
+]
+},
+{
+"_class" = "MaterialGroupList"
+"children" = [
+{
+"_class" = "DefaultMaterialGroup"
+"remaps" = [
+{
+"from" = "eyeball_l.vmat"
+"to" = "models/character/npc/common/blood_doll/bd_asylum/asylum_eyes/eyeball_l.vmat"
+},
+{
+"from" = "eyeball_r.vmat"
+"to" = "models/character/npc/common/blood_doll/bd_asylum/asylum_eyes/eyeball_r.vmat"
+},
+{
+"from" = "blooddollbodyasylum.vmat"
+"to" = "materials/models/character/npc/common/blood_doll/bd_asylum/blooddollbodyasylum.vmat"
+},
+{
+"from" = "blooddollhair2asylum.vmat"
+"to" = "materials/models/character/npc/common/blood_doll/bd_asylum/blooddollhair2asylum.vmat"
+},
+{
+"from" = "blooddollhairasylum.vmat"
+"to" = "materials/models/character/npc/common/blood_doll/bd_asylum/blooddollhairasylum.vmat"
+},
+{
+"from" = "blooddollheadasylum.vmat"
+"to" = "models/character/npc/common/blood_doll/bd_asylum/dialogue_materials/blooddollheadasylum.vmat"
+},
+{
+"from" = "lowerteeth.vmat"
+"to" = "models/character/npc/common/blood_doll/bd_asylum/dialogue_materials/lowerteeth.vmat"
+},
+{
+"from" = "molar.vmat"
+"to" = "models/character/npc/common/blood_doll/bd_asylum/dialogue_materials/molar.vmat"
+},
+{
+"from" = "mouth.vmat"
+"to" = "models/character/npc/common/blood_doll/bd_asylum/dialogue_materials/mouth.vmat"
+},
+{
+"from" = "tongue.vmat"
+"to" = "models/character/npc/common/blood_doll/bd_asylum/dialogue_materials/tongue.vmat"
+},
+{
+"from" = "upperteeth.vmat"
+"to" = "models/character/npc/common/blood_doll/bd_asylum/dialogue_materials/upperteeth.vmat"
+}
+]
+}
+]
+},
+{
+"_class" = "RenderMeshList"
+"children" = [
+{
+"_class" = "RenderMeshFile"
+"name" = "body"
+"filename" = "models/character/npc/common/blood_doll/bd_asylum/doll1_body.smd"
+"import_scale" = 1.0
+},
+{
+"_class" = "RenderMeshFile"
+"name" = "face"
+"filename" = "models/character/npc/common/blood_doll/bd_asylum/doll1_face.dmx"
+"import_scale" = 1.0
+}
+]
+},
+{
+"_class" = "AnimationList"
+"children" = [
+{
+"_class" = "Prefab"
+"target_file" = "models/character/npc/common/blood_doll/bd_asylum/prefabs/dialogue_face_channels.vmdl_prefab"
+},
+{
+"_class" = "Prefab"
+"target_file" = "models/character/shared/prefabs/female/shared_female_misc_anim.vmdl_prefab"
+},
+{
+"_class" = "Prefab"
+"target_file" = "models/character/shared/prefabs/female/move_n_run.vmdl_prefab"
+}
+]
+},
+{
+"_class" = "AttachmentList"
+"children" = [
+{
+"_class" = "Attachment"
+"name" = "r_hand"
+"parent_bone" = "bip01_r_hand"
+"relative_origin" = [
+0.0,
+0.0,
+0.0
+]
+"relative_angles" = [
+0.0,
+0.0,
+0.0
+]
+}
+]
+},
+{
+"_class" = "GameDataList"
+"children" = [
+{
+"_class" = "MovementSettings"
+"movementsettings" = {
+"name" = ""
+"speeds" = [
+
+]
+"runspeed" = 150.0
+"walkspeed" = 90.0
+"maxSpringTension" = 100.0
+"springConstant" = 10.0
+"useSmoothPaths" = true
+"useMotionDamping" = false
+"sharpStartAngle" = 179.0
+"m_vTraceScale" = [
+1.0,
+0.1,
+1.0
+]
+}
+}
+]
+}
+]
+"model_archetype" = "generic_actor_model"
+"primary_associated_entity" = "generic_actor"
+"anim_graph_name" = "animgraphs/doll1_dialogue.vanmgrph"
+}
 }

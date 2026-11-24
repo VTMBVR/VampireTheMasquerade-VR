@@ -1,0 +1,6 @@
+Layer0
+{
+	shader "vr_complex.vfx"
+	TextureColor "models/character/npc/unique/santa_monica/cal/asylum_eyes/eyeball_r_color.png"
+	g_flRoughnessScaleFactor "0.200"
+}

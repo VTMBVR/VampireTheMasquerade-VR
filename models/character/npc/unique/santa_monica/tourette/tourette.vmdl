@@ -1,0 +1,333 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+"rootNode" = {
+"_class" = "RootNode"
+"children" = [
+{
+"_class" = "WeightListList"
+"children" = [
+{
+"_class" = "WeightList"
+"name" = "dialogue_face_only"
+"default_weight" = 0.0
+"weights" = [
+
+]
+"master_morph_weight" = 1.0
+"morph_weights" = [
+
+]
+}
+]
+},
+{
+"_class" = "MaterialGroupList"
+"children" = [
+{
+"_class" = "DefaultMaterialGroup"
+"remaps" = [
+{
+"from" = "therese_body.vmat"
+"to" = "materials/models/character/npc/unique/santa_monica/therese/therese_body.vmat"
+},
+{
+"from" = "therese_hair.vmat"
+"to" = "materials/models/character/npc/unique/santa_monica/therese/therese_hair.vmat"
+},
+{
+"from" = "therese_skirt.vmat"
+"to" = "materials/models/character/npc/unique/santa_monica/therese/therese_skirt.vmat"
+},
+{
+"from" = "eyeball_l.vmat"
+"to" = "models/character/npc/unique/santa_monica/tourette/asylum_eyes/eyeball_l.vmat"
+},
+{
+"from" = "eyeball_r.vmat"
+"to" = "models/character/npc/unique/santa_monica/tourette/asylum_eyes/eyeball_r.vmat"
+},
+{
+"from" = "jeanette_hair_2.vmat"
+"to" = "materials/models/character/npc/unique/santa_monica/jeanette/jeanette_hair_2.vmat"
+},
+{
+"from" = "jeanette_hair_3.vmat"
+"to" = "materials/models/character/npc/unique/santa_monica/jeanette/jeanette_hair_3.vmat"
+},
+{
+"from" = "jeanette_hair_4.vmat"
+"to" = "materials/models/character/npc/unique/santa_monica/jeanette/jeanette_hair_4.vmat"
+},
+{
+"from" = "jeanette_hair_5.vmat"
+"to" = "materials/models/character/npc/unique/santa_monica/jeanette/jeanette_hair_5.vmat"
+},
+{
+"from" = "jeanette_hair_6.vmat"
+"to" = "materials/models/character/npc/unique/santa_monica/jeanette/jeanette_hair_6.vmat"
+},
+{
+"from" = "jeanette_hair_7.vmat"
+"to" = "materials/models/character/npc/unique/santa_monica/jeanette/jeanette_hair_7.vmat"
+},
+{
+"from" = "lowerteeth.vmat"
+"to" = "models/character/npc/unique/santa_monica/tourette/dialogue_materials/lowerteeth.vmat"
+},
+{
+"from" = "molar.vmat"
+"to" = "models/character/npc/unique/santa_monica/tourette/dialogue_materials/molar.vmat"
+},
+{
+"from" = "mouth.vmat"
+"to" = "models/character/npc/unique/santa_monica/tourette/dialogue_materials/mouth.vmat"
+},
+{
+"from" = "tongue.vmat"
+"to" = "models/character/npc/unique/santa_monica/tourette/dialogue_materials/tongue.vmat"
+},
+{
+"from" = "tourette_face.vmat"
+"to" = "models/character/npc/unique/santa_monica/tourette/dialogue_materials/tourette_face.vmat"
+},
+{
+"from" = "upperteeth.vmat"
+"to" = "models/character/npc/unique/santa_monica/tourette/dialogue_materials/upperteeth.vmat"
+}
+]
+}
+]
+},
+{
+"_class" = "RenderMeshList"
+"children" = [
+{
+"_class" = "RenderMeshFile"
+"name" = "body"
+"filename" = "models/character/npc/unique/santa_monica/tourette/tourette_body.smd"
+"import_scale" = 1.0
+},
+{
+"_class" = "RenderMeshFile"
+"name" = "face"
+"filename" = "models/character/npc/unique/santa_monica/tourette/tourette_face.dmx"
+"import_scale" = 1.0
+}
+]
+},
+{
+"_class" = "AnimationList"
+"children" = [
+{
+"_class" = "Prefab"
+"target_file" = "models/character/npc/unique/santa_monica/tourette/prefabs/dialogue_face_channels.vmdl_prefab"
+},
+{
+"_class" = "Prefab"
+"target_file" = "models/character/shared/prefabs/female/shared_female_misc_anim.vmdl_prefab"
+},
+{
+"_class" = "Prefab"
+"target_file" = "models/character/shared/prefabs/female/move_n_run.vmdl_prefab"
+},
+{
+"_class" = "AnimFile"
+"name" = "Tourette_intro_pre"
+"children" = [
+{
+"_class" = "AnimOffset"
+"translation" = [
+0.0,
+0.0,
+0.0
+]
+"rotation_xyz" = [
+0.0,
+0.0,
+-90.0
+]
+}
+]
+"source_filename" = "models/character/npc/unique/santa_monica/tourette/source_animations/Tourette_intro_pre.smd"
+"framerate" = 30.0
+},
+{
+"_class" = "AnimFile"
+"name" = "Tourette_intro"
+"children" = [
+{
+"_class" = "AnimOffset"
+"translation" = [
+0.0,
+0.0,
+0.0
+]
+"rotation_xyz" = [
+0.0,
+0.0,
+-90.0
+]
+}
+]
+"source_filename" = "models/character/npc/unique/santa_monica/tourette/source_animations/Tourette_intro.smd"
+"framerate" = 30.0
+},
+{
+"_class" = "AnimFile"
+"name" = "Tourette_Line1_Col_E"
+"children" = [
+{
+"_class" = "AnimOffset"
+"translation" = [
+0.0,
+0.0,
+0.0
+]
+"rotation_xyz" = [
+0.0,
+0.0,
+-90.0
+]
+}
+]
+"source_filename" = "models/character/npc/unique/santa_monica/tourette/source_animations/Tourette_Line1_Col_E.smd"
+"framerate" = 30.0
+},
+{
+"_class" = "AnimFile"
+"name" = "Tourette_Line11_Col_E"
+"children" = [
+{
+"_class" = "AnimOffset"
+"translation" = [
+0.0,
+0.0,
+0.0
+]
+"rotation_xyz" = [
+0.0,
+0.0,
+-90.0
+]
+}
+]
+"source_filename" = "models/character/npc/unique/santa_monica/tourette/source_animations/Tourette_Line11_Col_E.smd"
+"framerate" = 30.0
+},
+{
+"_class" = "AnimFile"
+"name" = "Tourette_ShootsHerself"
+"children" = [
+{
+"_class" = "AnimOffset"
+"translation" = [
+0.0,
+0.0,
+0.0
+]
+"rotation_xyz" = [
+0.0,
+0.0,
+-90.0
+]
+}
+]
+"source_filename" = "models/character/npc/unique/santa_monica/tourette/source_animations/Tourette_ShootsHerself.smd"
+"framerate" = 30.0
+},
+{
+"_class" = "AnimFile"
+"name" = "ragdoll"
+"children" = [
+{
+"_class" = "AnimOffset"
+"translation" = [
+0.0,
+0.0,
+0.0
+]
+"rotation_xyz" = [
+0.0,
+0.0,
+-90.0
+]
+}
+]
+"source_filename" = "models/character/npc/unique/santa_monica/tourette/source_animations/ragdoll.smd"
+"framerate" = 30.0
+},
+{
+"_class" = "AnimFile"
+"name" = "malk_female_idle"
+"children" = [
+{
+"_class" = "AnimOffset"
+"translation" = [
+0.0,
+0.0,
+0.0
+]
+"rotation_xyz" = [
+0.0,
+0.0,
+-90.0
+]
+}
+]
+"source_filename" = "models/character/npc/unique/santa_monica/tourette/source_animations/shared/Malk_Female_Idle2.smd"
+"framerate" = 30.0
+}
+]
+},
+{
+"_class" = "AttachmentList"
+"children" = [
+{
+"_class" = "Attachment"
+"name" = "r_hand"
+"parent_bone" = "bip01_r_hand"
+"relative_origin" = [
+0.0,
+0.0,
+0.0
+]
+"relative_angles" = [
+0.0,
+0.0,
+0.0
+]
+}
+]
+},
+{
+"_class" = "GameDataList"
+"children" = [
+{
+"_class" = "MovementSettings"
+"movementsettings" = {
+"name" = ""
+"speeds" = [
+
+]
+"runspeed" = 150.0
+"walkspeed" = 90.0
+"maxSpringTension" = 100.0
+"springConstant" = 10.0
+"useSmoothPaths" = true
+"useMotionDamping" = false
+"sharpStartAngle" = 179.0
+"m_vTraceScale" = [
+1.0,
+0.1,
+1.0
+]
+}
+}
+]
+}
+]
+"model_archetype" = "generic_actor_model"
+"primary_associated_entity" = "generic_actor"
+"anim_graph_name" = "animgraphs/tourette_dialogue.vanmgrph"
+}
+}

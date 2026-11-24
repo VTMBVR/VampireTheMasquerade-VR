@@ -1,0 +1,336 @@
+{
+  "navSha256": "f4b5fd7e68b3aea6aa55c166308fe07dcd790515fba47dbdb742378e8332cdb6",
+  "hull": {
+    "index": 1,
+    "radius": 16.0,
+    "height": 79.0,
+    "enabled": true,
+    "climb": 15.5
+  },
+  "areas": 184,
+  "components": 2,
+  "activeCrowdPlaces": 36,
+  "approachableCrowdPlaces": 36,
+  "places": [
+    {
+      "place": "iplace_101170",
+      "sourceId": 117,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 261,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101180",
+      "sourceId": 118,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 261,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101190",
+      "sourceId": 119,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 319,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101200",
+      "sourceId": 120,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 319,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101210",
+      "sourceId": 121,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 259,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101211",
+      "sourceId": 121,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 214,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101220",
+      "sourceId": 122,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 319,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101221",
+      "sourceId": 122,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 319,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101222",
+      "sourceId": 122,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 319,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101230",
+      "sourceId": 123,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 261,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101240",
+      "sourceId": 124,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 259,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101650",
+      "sourceId": 165,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 292,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101660",
+      "sourceId": 166,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 307,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101670",
+      "sourceId": 167,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 306,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101680",
+      "sourceId": 168,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 306,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101690",
+      "sourceId": 169,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 305,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101691",
+      "sourceId": 169,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 305,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101692",
+      "sourceId": 169,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 307,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101693",
+      "sourceId": 169,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 305,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101730",
+      "sourceId": 173,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 307,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101740",
+      "sourceId": 174,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 372,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101770",
+      "sourceId": 177,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 333,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101780",
+      "sourceId": 178,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 339,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101790",
+      "sourceId": 179,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 256,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101800",
+      "sourceId": 180,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 332,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101810",
+      "sourceId": 181,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 332,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_101820",
+      "sourceId": 182,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 333,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_102120",
+      "sourceId": 212,
+      "activeCrowdPlace": false,
+      "distance": 0.0,
+      "area": 375,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_102130",
+      "sourceId": 213,
+      "activeCrowdPlace": false,
+      "distance": 0.0,
+      "area": 219,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_102840",
+      "sourceId": 284,
+      "activeCrowdPlace": false,
+      "distance": null,
+      "area": null,
+      "canApproach": false
+    },
+    {
+      "place": "iplace_103010",
+      "sourceId": 301,
+      "activeCrowdPlace": false,
+      "distance": 0.0,
+      "area": 349,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_103190",
+      "sourceId": 319,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 261,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_103200",
+      "sourceId": 320,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 261,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_103210",
+      "sourceId": 321,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 259,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_103220",
+      "sourceId": 322,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 259,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_103230",
+      "sourceId": 323,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 319,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_103240",
+      "sourceId": 324,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 319,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_103250",
+      "sourceId": 325,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 261,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_103260",
+      "sourceId": 326,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 261,
+      "canApproach": true
+    },
+    {
+      "place": "iplace_103270",
+      "sourceId": 327,
+      "activeCrowdPlace": true,
+      "distance": 0.0,
+      "area": 261,
+      "canApproach": true
+    }
+  ]
+}

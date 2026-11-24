@@ -1,0 +1,5 @@
+Layer0
+{
+shader "vr_complex.vfx"
+TextureColor "models/character/npc/common/hustler/asylum_materials/Hstlr2Head_color.png"
+}

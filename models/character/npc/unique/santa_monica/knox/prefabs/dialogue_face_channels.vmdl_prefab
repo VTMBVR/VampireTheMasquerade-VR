@@ -1,0 +1,270 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{rootNode={_class="RootNode" children=[{_class="AnimationList" children=[
+{_class="AnimFile" name="dialogue_face_reference" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_01.dmx"
+        looping=false hidden=true start_frame=0 end_frame=0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_01" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_01.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_02" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_02.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_03" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_03.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_04" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_04.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_05" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_05.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_06" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_06.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_07" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_07.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_08" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_08.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_09" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_09.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_10" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_10.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_11" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_11.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_12" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_12.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_13" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_13.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_14" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_14.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_15" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_15.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_16" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_16.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_17" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_17.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_18" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_18.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_19" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_19.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_20" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_20.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_21" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_21.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_22" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_22.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_23" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_23.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_24" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_24.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_25" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_25.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_26" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_26.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_27" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_27.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_28" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_28.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_29" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_29.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_30" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_30.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_31" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_31.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_32" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_32.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_33" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_33.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_34" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_34.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_35" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_35.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_36" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_36.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_37" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_37.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_38" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_38.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_39" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_39.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_40" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_40.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_41" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_41.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_42" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_42.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_43" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_43.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_44" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_44.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_45" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_45.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_46" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_46.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_47" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_47.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_48" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_48.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_49" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_49.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_50" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_50.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_51" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_51.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_52" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_52.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+{_class="AnimFile" name="dialogue_face_53" source_filename="models/character/npc/unique/santa_monica/knox/face_channels/dialogue_face_53.dmx"
+            children=[{_class="AnimSubtract" anim_name="dialogue_face_reference" frame=0}]
+            looping=false delta=true worldSpace=false hidden=true start_frame=0 end_frame=1
+            weight_list_name="dialogue_face_only"
+            fade_in_time=0.0 fade_out_time=0.0 framerate=24.0},
+]}]}}

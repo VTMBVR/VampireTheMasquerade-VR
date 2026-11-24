@@ -1,0 +1,5 @@
+Layer0
+{
+shader "vr_complex.vfx"
+TextureColor "models/character/npc/common/dancer/female_2/asylum_materials/femaledancerl512_color.png"
+}

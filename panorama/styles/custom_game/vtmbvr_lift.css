@@ -1,0 +1,9 @@
+.LiftRoot { width:128px; height:128px; }
+.LiftButton { width:124px; height:124px; horizontal-align:center; vertical-align:center; background-color:#28261ff5; border:3px solid #a59a76; border-radius:8px; }
+.LiftButton:hover, .LiftButton:focus { background-color:#474232fa; border-color:#ecda94; }
+.Arrow { font-family:Arial; font-size:60px; color:#e2d6a8; horizontal-align:center; margin-top:7px; }
+.Caption { font-family:Arial; font-size:18px; color:#e2d6a8; horizontal-align:center; vertical-align:bottom; margin-bottom:12px; }
+.LiftDownLabel { visibility:collapse; }
+.LiftDown .LiftDownLabel { visibility:visible; }
+.LiftDown .LiftUp { visibility:collapse; }
+.LiftLocked .Arrow, .LiftLocked .Caption { color:#a77665; }

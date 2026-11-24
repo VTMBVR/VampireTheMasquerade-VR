@@ -56,12 +56,12 @@ function AsylumSourcePlay(character,lineId,actorName,variant)
     local state={sound=line.sound,borrowed=borrowed}
     active[actor:GetEntityIndex()]=state
     EmitSoundOn(line.sound,actor)
-    print("[ASYLUM_SOURCE] PLAY character="..character.." line="..key.." face="..tostring(faceReady).." body=neutral_preview quest_commands=inert")
+    print("[ASYLUM_SOURCE] PLAY character="..character.." line="..key.." face="..tostring(faceReady).." body=source_cues quest_commands=inert")
     local id=actor:GetEntityIndex()
     actor:SetContextThink("AsylumSourceFinish",function()
         if not valid(actor) then active[id]=nil;return nil end
         if active[id]==state then AsylumSourceStop(actorName) end
         return nil
-    end,line.duration+.5)
+    end,(line.sceneDuration or line.duration)+.5)
     return true
 end

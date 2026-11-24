@@ -92,6 +92,9 @@ class AddonTests(unittest.TestCase):
 
     def test_dialogue_cli_builds_into_detected_mount(self):
         data = {'nodes': {'welcome': {'audio': 'sounds/dialogue/test.wav'}}}
+        layout = self.checkout/'panorama/layout/custom_game/vtmbvr_dialog.xml'
+        layout.parent.mkdir(parents=True)
+        layout.write_text('<root><styles></styles><scripts></scripts><Button id="DialogueTuning" /></root>', encoding='utf8')
         with patch.object(build_dialogue, '__file__', str(self.checkout/'utils/build_dialogue.py')), \
              patch.object(build_dialogue, 'generate_data', return_value=data), \
              patch('sys.argv', ['build_dialogue.py', '--alyx-root', str(self.sdk)]), \
@@ -99,6 +102,10 @@ class AddonTests(unittest.TestCase):
              contextlib.redirect_stdout(io.StringIO()):
             build_dialogue.main()
         self.assertTrue((self.runtime/'panorama/layout/custom_game/vtmbvr_dialog.vxml_c').is_file())
+        world = layout.with_name('vtmbvr_dialog_world.xml').read_text(encoding='utf8')
+        self.assertEqual(world.count('id="DialogueGrabHandle"'), 1)
+        self.assertIn('vtmbvr_dialog_window.vjs_c', world)
+        self.assertTrue((self.runtime/'panorama/layout/custom_game/vtmbvr_dialog_world.vxml_c').is_file())
         self.assertTrue((self.runtime/'resourcemanifests/vampirethemasquerade_addon_resources.vrman_c').is_file())
 
     def test_source_bank_builds_into_detected_mount(self):
