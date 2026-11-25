@@ -73,9 +73,9 @@
     "item_g_oh_diary": {
       "model": "models/items/asylum/item_g_oh_diary/item.vmdl",
       "name": "Дневник",
-      "description": "Это обугленные останки чего-то, похожего на дневник:\r\n\r\n\t\t\t30/05/1958 - Только что приехали сюда, в \"Ocean House\". Проводим недельный отпуск в Санта-Монике, и Эд заказал номер к открытию отеля. Это чудесное место, почти волшебное. Дети весь день купались.\r\n\r\n\t\t\t31/05/1958 - Первые два дня почти безупречны, разве что Эд постоянно допытывается насчет медальона, который мне прислала мать. Похоже, он считает, что это подарок поклонника. Обычно Эд славный, но иногда его заносит от ревности. Надеюсь, завтра он успокоится.\r\n\t\t\t\r\n\t\t\t01/06/1958 - Сегодня солнечно, на небе ни облачка. Эд слегка на взводе, продолжает гадать, кто этот мой \"новый приятель\". Глупенький Эд.\r\n\t\t\t\r\n\t\t\t03/06/1958 - Утром был пикник для постояльцев отеля... просто впечатляющее мероприятие. Эд снова не в духе. Не знаю даже, как убедить его, что он моя единственная любовь. Он только однажды повеселел - при разговоре с дворником. Мальчишки и их игрушки...\r\n\t\t\t\r\n\t\t\t04/06/1958 - Нам осталось всего два дня, и слава богу, что мы, наконец, едем домой. Эд не разговаривает со мной и детьми, и я неоднократно видела, как он стоит в ванной, уставившись на медальон в руке. Боюсь, у него какой-то психоз. Я говорила, что мы можем вернуться домой, но он только качает головой. Даже не смотрит на меня. Я просто хочу вернуться домой.\r\n\t\t\t\r\n\t\t\t05/06/1958 - Эд ушел рано этим утром, и с тех пор я его не видела. Еще час, и придется звать менеджера отеля. Несмотря на мои возражения, Эд-младший отправился поискать его в подвале. Надо будет отправить за ним Тиффани, если... постой... кто-то стучит в дверь...\r\n\r\n\t\t\tО боже, Эд весь в крови... идет убить меня... заперлась в ванной... он свихнулся... непрестанно орет мы будем вместе вечно и он не даст мне уйти... кто-нибудь пожалуйста помо... (запись обрывается).",
+      "description": "Это обугленные останки чего-то, похожего на дневник:\r\n\r\n\t\t\t30/05/1958 - Только что приехали сюда, в \"Ocean House\". Проводим недельный отпуск в Санта-Монике, и Эд заказал номер к открытию отеля. Это чудесное место, почти волшебное. Дети весь день купались.\r\n\r\n\t\t\t31/05/1958 - Первые два дня почти безупречны, разве что Эд постоянно допытывается насчет медальона, который мне прислала мать. Похоже, он считает, что это подарок поклонника. Обычно Эд славный, но иногда его заносит от ревности. Надеюсь, завтра он успокоится.\r\n\t\t\t\r\n\t\t\t01/06/1958 - Сегодня солнечно, на небе ни облачка. Эд слегка на взводе, продолжает гадать, кто этот мой \"новый приятель\". Глупенький Эд.\r\n\t\t\t\r\n\t\t\t03/06/1958 - Утром был пикник для постояльцев отеля... просто впечатляющее мероприятие. Эд снова не в духе. Не знаю даже, как убедить его, что он моя единственная любовь. Он только однажды повеселел - при разговоре с дворником. Мальчишки и их игрушки...\r\n\t\t\t\r\n\t\t\t04/06/1958 - Нам осталось всего два дня, и слава богу, что мы, наконец, едем домой. Эд не разговаривает со мной и детьми, и я неоднократно видела, как он стоит в ванной, уставившись на медальон в руке. Боюсь, у него срыв. Я говорила, что мы можем вернуться домой, но он только качает головой. Даже не смотрит на меня. Я просто хочу вернуться домой.\r\n\t\t\t\r\n\t\t\t05/06/1958 - Эд ушел рано этим утром, и с тех пор я его не видела. Еще час, и придется звать менеджера отеля. Несмотря на мои возражения, Эд-младший отправился поискать его в подвале. Надо будет отправить за ним Тиффани, если... постой... кто-то стучит в дверь...\r\n\r\n\t\t\tО боже, Эд весь в крови... идет убить меня... заперлась в ванной... он свихнулся... непрестанно орет мы будем вместе вечно и он не даст мне уйти... кто-нибудь пожалуйста помо... (запись обрывается).",
       "mass": 0.35,
-      "sourceModel": "models/items/diary/ground/diary.mdl",
+      "sourceModel": "models/items/diary/ground/diari.mdl",
       "minimum": [
         -3.35879993,
         -2.48350024,
@@ -90,14 +90,14 @@
       "source": {
         "path": "vdata/items/item_g_oh_diary.txt",
         "source": "Unofficial_Patch/vdata/items/item_g_oh_diary.txt",
-        "bytes": 2761,
-        "sha256": "63d835033595b924f1416cdb3acb6d348ad428d3429efa1f4897448499058945"
+        "bytes": 2826,
+        "sha256": "3d510b36023b0ffa06bcfbc915914d7d7048f03dd5bdbe5a95c3761feba96ff6"
       },
       "modelSource": {
-        "path": "models/items/diary/ground/diary.mdl",
-        "source": "Vampire/pack002.vpk:models/items/diary/ground/diary.mdl",
+        "path": "models/items/diary/ground/diari.mdl",
+        "source": "Unofficial_Patch/models/items/diary/ground/diari.mdl",
         "bytes": 4668,
-        "sha256": "a3425449a4628098eed7ab190fdf2fe3a3e6d880c1a44877aabec07684ab976b"
+        "sha256": "3c1cdf98a40a832b2ae1204bd4f8ede58f149e6191f498a8a7c188af6013cd41"
       },
       "triangles": 96
     },
@@ -165,8 +165,8 @@
     },
     "item_w_thirtyeight": {
       "model": "models/items/asylum/item_w_thirtyeight/item.vmdl",
-      "name": "Тридцать восьмой",
-      "description": "Это дешевый мелкокалиберный револьвер, используемый мелкой шпаной в темных переулках. Также известен как дамский пистолет.",
+      "name": "Полицейский кольт",
+      "description": "Это дешевый револьвер 38-го калибра, используемый мелкой шпаной в темных переулках. Также известен как дамский пистолет.",
       "mass": 0.8,
       "sourceModel": "models/weapons/thirtyeight/ground/g_thirtyeight.mdl",
       "minimum": [
@@ -183,8 +183,8 @@
       "source": {
         "path": "vdata/items/item_w_thirtyeight.txt",
         "source": "Unofficial_Patch/vdata/items/item_w_thirtyeight.txt",
-        "bytes": 7712,
-        "sha256": "beabf22c5f621060fccc91f1e12efd8da221e01ef57d2f9b686207641ff3d4d7"
+        "bytes": 7980,
+        "sha256": "2f39e818cb498ba14d82dbed9b5305b259f036d7e18db798488561821a57b615"
       },
       "modelSource": {
         "path": "models/weapons/thirtyeight/ground/g_thirtyeight.mdl",
@@ -286,38 +286,38 @@
     "vdata/items/item_g_oh_diary.txt": {
       "path": "vdata/items/item_g_oh_diary.txt",
       "source": "Unofficial_Patch/vdata/items/item_g_oh_diary.txt",
-      "bytes": 2761,
-      "sha256": "63d835033595b924f1416cdb3acb6d348ad428d3429efa1f4897448499058945"
+      "bytes": 2826,
+      "sha256": "3d510b36023b0ffa06bcfbc915914d7d7048f03dd5bdbe5a95c3761feba96ff6"
     },
-    "models/items/diary/ground/diary.mdl": {
-      "path": "models/items/diary/ground/diary.mdl",
-      "source": "Vampire/pack002.vpk:models/items/diary/ground/diary.mdl",
+    "models/items/diary/ground/diari.mdl": {
+      "path": "models/items/diary/ground/diari.mdl",
+      "source": "Unofficial_Patch/models/items/diary/ground/diari.mdl",
       "bytes": 4668,
-      "sha256": "a3425449a4628098eed7ab190fdf2fe3a3e6d880c1a44877aabec07684ab976b"
+      "sha256": "3c1cdf98a40a832b2ae1204bd4f8ede58f149e6191f498a8a7c188af6013cd41"
     },
-    "models/items/diary/ground/diary.dx80.vtx": {
-      "path": "models/items/diary/ground/diary.dx80.vtx",
-      "source": "Vampire/pack002.vpk:models/items/diary/ground/diary.dx80.vtx",
+    "models/items/diary/ground/diari.dx80.vtx": {
+      "path": "models/items/diary/ground/diari.dx80.vtx",
+      "source": "Unofficial_Patch/models/items/diary/ground/diari.dx80.vtx",
       "bytes": 924,
       "sha256": "d3d99f689a5a56bf2d96c257ab0ebc28393db33252afb7eee10282065b4d2353"
     },
-    "materials/models/items/diary/diary.vmt": {
-      "path": "materials/models/items/diary/diary.vmt",
-      "source": "Vampire/pack002.vpk:materials/models/items/diary/diary.vmt",
+    "materials/models/items/diary/diari.vmt": {
+      "path": "materials/models/items/diary/diari.vmt",
+      "source": "Unofficial_Patch/materials/models/items/diary/diari.vmt",
       "bytes": 70,
-      "sha256": "b755ebce18a7e0e0f9e48a1b89a696d08b56fad21c3af1a836f1de2e8db9295f"
+      "sha256": "b976409e3d07397e9f47831e51c4ff555fa56a8c15dbe52ba2b3d743f5173a60"
     },
-    "materials/models/items/diary/diary.tth": {
-      "path": "materials/models/items/diary/diary.tth",
-      "source": "Vampire/pack002.vpk:materials/models/items/diary/diary.tth",
-      "bytes": 308,
-      "sha256": "2629ca86e9169015708ce7edcd5034b327e25a5dc110721301b262fd257ac6b6"
+    "materials/models/items/diary/diari.tth": {
+      "path": "materials/models/items/diary/diari.tth",
+      "source": "Unofficial_Patch/materials/models/items/diary/diari.tth",
+      "bytes": 284,
+      "sha256": "68baafcb1820ba93441212e2af75a85d6c0e271bdd6dd563a533abb28d2d733f"
     },
-    "materials/models/items/diary/diary.ttz": {
-      "path": "materials/models/items/diary/diary.ttz",
-      "source": "Vampire/pack002.vpk:materials/models/items/diary/diary.ttz",
-      "bytes": 34669,
-      "sha256": "4ed94fd7c2d87a144505ae2aa5ab4fd3534b479abdcb2c6769a1f7a291fb73dd"
+    "materials/models/items/diary/diari.ttz": {
+      "path": "materials/models/items/diary/diari.ttz",
+      "source": "Unofficial_Patch/materials/models/items/diary/diari.ttz",
+      "bytes": 31023,
+      "sha256": "0bccc7d08d5e2d2ba0d39c2a4fa217a759ca00ad909e481386500c2c674ce78f"
     },
     "vdata/items/item_k_oceanhouse_sewer_key.txt": {
       "path": "vdata/items/item_k_oceanhouse_sewer_key.txt",
@@ -412,8 +412,8 @@
     "vdata/items/item_w_thirtyeight.txt": {
       "path": "vdata/items/item_w_thirtyeight.txt",
       "source": "Unofficial_Patch/vdata/items/item_w_thirtyeight.txt",
-      "bytes": 7712,
-      "sha256": "beabf22c5f621060fccc91f1e12efd8da221e01ef57d2f9b686207641ff3d4d7"
+      "bytes": 7980,
+      "sha256": "2f39e818cb498ba14d82dbed9b5305b259f036d7e18db798488561821a57b615"
     },
     "models/weapons/thirtyeight/ground/g_thirtyeight.mdl": {
       "path": "models/weapons/thirtyeight/ground/g_thirtyeight.mdl",

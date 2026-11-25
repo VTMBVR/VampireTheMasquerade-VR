@@ -3,7 +3,7 @@
 {
 						_class = "AnimFile"
 						name = "alert_180_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -31,7 +31,7 @@
 {
 						_class = "AnimFile"
 						name = "alert_180_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -59,7 +59,7 @@
 {
 						_class = "AnimFile"
 						name = "alert_fidget_lookaround"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -87,7 +87,7 @@
 {
 						_class = "AnimFile"
 						name = "alert_front_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -115,7 +115,7 @@
 {
 						_class = "AnimFile"
 						name = "alert_front_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -143,7 +143,7 @@
 {
 						_class = "AnimFile"
 						name = "alert_l45_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -171,7 +171,7 @@
 {
 						_class = "AnimFile"
 						name = "alert_l45_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -199,7 +199,7 @@
 {
 						_class = "AnimFile"
 						name = "alert_l90_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -227,7 +227,7 @@
 {
 						_class = "AnimFile"
 						name = "alert_l90_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -255,7 +255,7 @@
 {
 						_class = "AnimFile"
 						name = "alert_l135_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -283,7 +283,7 @@
 {
 						_class = "AnimFile"
 						name = "alert_l135_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -311,7 +311,7 @@
 {
 						_class = "AnimFile"
 						name = "alert_r45_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -339,7 +339,7 @@
 {
 						_class = "AnimFile"
 						name = "alert_r45_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -367,7 +367,7 @@
 {
 						_class = "AnimFile"
 						name = "alert_r90_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -395,7 +395,7 @@
 {
 						_class = "AnimFile"
 						name = "alert_r90_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -423,7 +423,7 @@
 {
 						_class = "AnimFile"
 						name = "alert_r135_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -451,7 +451,7 @@
 {
 						_class = "AnimFile"
 						name = "alert_r135_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -479,7 +479,7 @@
 {
 						_class = "AnimFile"
 						name = "animalism_bats"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -507,7 +507,7 @@
 {
 						_class = "AnimFile"
 						name = "animalism_pestilence_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -535,7 +535,7 @@
 {
 						_class = "AnimFile"
 						name = "animalism_pestilence_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -563,7 +563,7 @@
 {
 						_class = "AnimFile"
 						name = "animalism_pestilence_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -591,7 +591,7 @@
 {
 						_class = "AnimFile"
 						name = "animalism_ravens_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -619,7 +619,7 @@
 {
 						_class = "AnimFile"
 						name = "animalism_ravens_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -647,7 +647,7 @@
 {
 						_class = "AnimFile"
 						name = "animalism_ravens_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -675,7 +675,7 @@
 {
 						_class = "AnimFile"
 						name = "animalism_spectralwolves_break"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -703,7 +703,7 @@
 {
 						_class = "AnimFile"
 						name = "animalism_spectralwolves_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -731,7 +731,7 @@
 {
 						_class = "AnimFile"
 						name = "animalism_spectralwolves_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -759,7 +759,7 @@
 {
 						_class = "AnimFile"
 						name = "animalism_spectralwolves_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -857,7 +857,7 @@
 {
 						_class = "AnimFile"
 						name = "Bed_Left_Idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -885,7 +885,7 @@
 {
 						_class = "AnimFile"
 						name = "Bed_Left_Outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -913,7 +913,7 @@
 {
 						_class = "AnimFile"
 						name = "Bed_Right_Idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -941,7 +941,7 @@
 {
 						_class = "AnimFile"
 						name = "Bed_Right_Outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -969,7 +969,7 @@
 {
 						_class = "AnimFile"
 						name = "bleedingeyes_getout"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -997,7 +997,7 @@
 {
 						_class = "AnimFile"
 						name = "bleedingeyes_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1025,7 +1025,7 @@
 {
 						_class = "AnimFile"
 						name = "bleedingeyes_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1053,7 +1053,7 @@
 {
 						_class = "AnimFile"
 						name = "bleedingeyes_pre_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1081,7 +1081,7 @@
 {
 						_class = "AnimFile"
 						name = "burning_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1109,7 +1109,7 @@
 {
 						_class = "AnimFile"
 						name = "burning_loop"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1137,7 +1137,7 @@
 {
 						_class = "AnimFile"
 						name = "burning_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1165,7 +1165,7 @@
 {
 						_class = "AnimFile"
 						name = "Cards_sitforward_Left_Fidget"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1193,7 +1193,7 @@
 {
 						_class = "AnimFile"
 						name = "Cards_sitforward_Left_Idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1221,7 +1221,7 @@
 {
 						_class = "AnimFile"
 						name = "Cards_sitforward_Left_Play"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1249,7 +1249,7 @@
 {
 						_class = "AnimFile"
 						name = "Cards_sitforward_Right_Fidget"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1277,7 +1277,7 @@
 {
 						_class = "AnimFile"
 						name = "Cards_sitforward_Right_Idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1305,7 +1305,7 @@
 {
 						_class = "AnimFile"
 						name = "Cards_sitforward_Right_Play"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1333,7 +1333,7 @@
 {
 						_class = "AnimFile"
 						name = "cauldron"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1361,7 +1361,7 @@
 {
 						_class = "AnimFile"
 						name = "cauldron_death"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1389,7 +1389,7 @@
 {
 						_class = "AnimFile"
 						name = "cauldron_pre"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1417,7 +1417,7 @@
 {
 						_class = "AnimFile"
 						name = "cellphone"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1550,7 +1550,7 @@
 {
 						_class = "AnimFile"
 						name = "choking"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1683,7 +1683,7 @@
 {
 						_class = "AnimFile"
 						name = "CoinMachine"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1711,7 +1711,7 @@
 {
 						_class = "AnimFile"
 						name = "comatose_getout"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1739,7 +1739,7 @@
 {
 						_class = "AnimFile"
 						name = "comatose_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1767,7 +1767,7 @@
 {
 						_class = "AnimFile"
 						name = "comatose_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1795,7 +1795,7 @@
 {
 						_class = "AnimFile"
 						name = "comatose_pre_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1823,7 +1823,7 @@
 {
 						_class = "AnimFile"
 						name = "comfort_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1851,7 +1851,7 @@
 {
 						_class = "AnimFile"
 						name = "comfort_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1879,7 +1879,7 @@
 {
 						_class = "AnimFile"
 						name = "comfort_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1907,7 +1907,7 @@
 {
 						_class = "AnimFile"
 						name = "comfort2_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1935,7 +1935,7 @@
 {
 						_class = "AnimFile"
 						name = "comfort2_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1963,7 +1963,7 @@
 {
 						_class = "AnimFile"
 						name = "comfort2_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -1991,7 +1991,7 @@
 {
 						_class = "AnimFile"
 						name = "CouchTV_Idle_01"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2019,7 +2019,7 @@
 {
 						_class = "AnimFile"
 						name = "CouchTV_Idle_02"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2047,7 +2047,7 @@
 {
 						_class = "AnimFile"
 						name = "CouchTV_Into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2075,7 +2075,7 @@
 {
 						_class = "AnimFile"
 						name = "CouchTV_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2103,7 +2103,7 @@
 {
 						_class = "AnimFile"
 						name = "cower_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2131,7 +2131,7 @@
 {
 						_class = "AnimFile"
 						name = "cower_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2159,7 +2159,7 @@
 {
 						_class = "AnimFile"
 						name = "cower_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2187,7 +2187,7 @@
 {
 						_class = "AnimFile"
 						name = "cower2_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2215,7 +2215,7 @@
 {
 						_class = "AnimFile"
 						name = "cower2_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2243,7 +2243,7 @@
 {
 						_class = "AnimFile"
 						name = "cower2_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2271,7 +2271,7 @@
 {
 						_class = "AnimFile"
 						name = "cower3_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2299,7 +2299,7 @@
 {
 						_class = "AnimFile"
 						name = "cower3_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2327,7 +2327,7 @@
 {
 						_class = "AnimFile"
 						name = "cower3_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2355,7 +2355,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_cast_charge"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2383,7 +2383,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_cast_charge_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2411,7 +2411,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_cast_chargehold"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2439,7 +2439,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_cast_chargehold_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2467,7 +2467,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_cast_continue"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2495,7 +2495,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_cast_continue_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2523,7 +2523,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_cast_hold"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2551,7 +2551,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_cast_hold_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2579,7 +2579,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_cast_reset"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2607,7 +2607,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_cast_reset_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2635,7 +2635,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2663,7 +2663,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_idle_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2796,7 +2796,7 @@
 {
 						_class = "AnimFile"
 						name = "death01"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2824,7 +2824,7 @@
 {
 						_class = "AnimFile"
 						name = "death02"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2852,7 +2852,7 @@
 {
 						_class = "AnimFile"
 						name = "disoriented"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2880,7 +2880,7 @@
 {
 						_class = "AnimFile"
 						name = "disposition_beatendown"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2908,7 +2908,7 @@
 {
 						_class = "AnimFile"
 						name = "disposition_coy"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2936,7 +2936,7 @@
 {
 						_class = "AnimFile"
 						name = "disposition_jittery"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2964,7 +2964,7 @@
 {
 						_class = "AnimFile"
 						name = "disposition_pissed"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -2992,7 +2992,7 @@
 {
 						_class = "AnimFile"
 						name = "dive_left"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3020,7 +3020,7 @@
 {
 						_class = "AnimFile"
 						name = "dive_right"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3048,7 +3048,7 @@
 {
 						_class = "AnimFile"
 						name = "doorknock"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3076,7 +3076,7 @@
 {
 						_class = "AnimFile"
 						name = "Drag_FromBehind"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3279,7 +3279,7 @@
 {
 						_class = "AnimFile"
 						name = "falling"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3412,7 +3412,7 @@
 {
 						_class = "AnimFile"
 						name = "forgetit"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3440,7 +3440,7 @@
 {
 						_class = "AnimFile"
 						name = "getup_back"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3468,7 +3468,7 @@
 {
 						_class = "AnimFile"
 						name = "getup_front"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3496,7 +3496,7 @@
 {
 						_class = "AnimFile"
 						name = "graffiti_idle01"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3524,7 +3524,7 @@
 {
 						_class = "AnimFile"
 						name = "graffiti_idle02"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3552,7 +3552,7 @@
 {
 						_class = "AnimFile"
 						name = "graffiti_idle03"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3580,7 +3580,7 @@
 {
 						_class = "AnimFile"
 						name = "graffiti_idle04"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3608,7 +3608,7 @@
 {
 						_class = "AnimFile"
 						name = "graffiti_idle05"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3636,7 +3636,7 @@
 {
 						_class = "AnimFile"
 						name = "graffiti_idle06"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3664,7 +3664,7 @@
 {
 						_class = "AnimFile"
 						name = "graffiti_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3692,7 +3692,7 @@
 {
 						_class = "AnimFile"
 						name = "graffiti_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3720,7 +3720,7 @@
 {
 						_class = "AnimFile"
 						name = "hit_head_back"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3748,7 +3748,7 @@
 {
 						_class = "AnimFile"
 						name = "hit_head_front"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3776,7 +3776,7 @@
 {
 						_class = "AnimFile"
 						name = "hit_head_left"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3804,7 +3804,7 @@
 {
 						_class = "AnimFile"
 						name = "hit_head_right"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3832,7 +3832,7 @@
 {
 						_class = "AnimFile"
 						name = "hit_stepback"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3860,7 +3860,7 @@
 {
 						_class = "AnimFile"
 						name = "hit_torso_back"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3888,7 +3888,7 @@
 {
 						_class = "AnimFile"
 						name = "hit_torso_back_left"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3916,7 +3916,7 @@
 {
 						_class = "AnimFile"
 						name = "hit_torso_back_right"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3944,7 +3944,7 @@
 {
 						_class = "AnimFile"
 						name = "hit_torso_front"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -3972,7 +3972,7 @@
 {
 						_class = "AnimFile"
 						name = "hit_torso_front_left"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4000,7 +4000,7 @@
 {
 						_class = "AnimFile"
 						name = "hit_torso_front_right"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4028,7 +4028,7 @@
 {
 						_class = "AnimFile"
 						name = "hit_torso_left"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4056,7 +4056,7 @@
 {
 						_class = "AnimFile"
 						name = "hit_torso_right"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4084,7 +4084,7 @@
 {
 						_class = "AnimFile"
 						name = "holy_light_cast"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4112,7 +4112,7 @@
 {
 						_class = "AnimFile"
 						name = "holy_light_cast_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4140,7 +4140,7 @@
 {
 						_class = "AnimFile"
 						name = "holy_light_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4168,7 +4168,7 @@
 {
 						_class = "AnimFile"
 						name = "holy_light_idle_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4196,7 +4196,7 @@
 {
 						_class = "AnimFile"
 						name = "hop"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4224,7 +4224,7 @@
 {
 						_class = "AnimFile"
 						name = "hop_down"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4252,7 +4252,7 @@
 {
 						_class = "AnimFile"
 						name = "hop_up"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4350,7 +4350,7 @@
 {
 						_class = "AnimFile"
 						name = "hunt_walk_lookleft"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -4389,7 +4389,7 @@
 {
 						_class = "AnimFile"
 						name = "hunt_walk_lookright"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -4428,7 +4428,7 @@
 {
 						_class = "AnimFile"
 						name = "idle_player_in_face"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4491,7 +4491,7 @@
 {
 						_class = "AnimFile"
 						name = "jump"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4519,7 +4519,7 @@
 {
 						_class = "AnimFile"
 						name = "jump_forward"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4547,7 +4547,7 @@
 {
 						_class = "AnimFile"
 						name = "jump_long"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4575,7 +4575,7 @@
 {
 						_class = "AnimFile"
 						name = "jump_to_death"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4603,7 +4603,7 @@
 {
 						_class = "AnimFile"
 						name = "ladder_down"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4631,7 +4631,7 @@
 {
 						_class = "AnimFile"
 						name = "ladder_up"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4659,7 +4659,7 @@
 {
 						_class = "AnimFile"
 						name = "land"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4687,7 +4687,7 @@
 {
 						_class = "AnimFile"
 						name = "land_crouched"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4715,7 +4715,7 @@
 {
 						_class = "AnimFile"
 						name = "land_hard"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4743,7 +4743,7 @@
 {
 						_class = "AnimFile"
 						name = "laugh_getout"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4771,7 +4771,7 @@
 {
 						_class = "AnimFile"
 						name = "laugh_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4799,7 +4799,7 @@
 {
 						_class = "AnimFile"
 						name = "laugh_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4827,7 +4827,7 @@
 {
 						_class = "AnimFile"
 						name = "laugh_pre_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4855,7 +4855,7 @@
 {
 						_class = "AnimFile"
 						name = "leap"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4883,7 +4883,7 @@
 {
 						_class = "AnimFile"
 						name = "leap_ascend"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4911,7 +4911,7 @@
 {
 						_class = "AnimFile"
 						name = "leap_descend"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4939,7 +4939,7 @@
 {
 						_class = "AnimFile"
 						name = "lockpick"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4967,7 +4967,7 @@
 {
 						_class = "AnimFile"
 						name = "look_out_window"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -4995,7 +4995,7 @@
 {
 						_class = "AnimFile"
 						name = "lost"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -5023,7 +5023,7 @@
 {
 						_class = "AnimFile"
 						name = "madness_getout"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -5051,7 +5051,7 @@
 {
 						_class = "AnimFile"
 						name = "madness_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -5079,7 +5079,7 @@
 {
 						_class = "AnimFile"
 						name = "madness_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -5107,7 +5107,7 @@
 {
 						_class = "AnimFile"
 						name = "madness_pre_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -5135,7 +5135,7 @@
 {
 						_class = "AnimFile"
 						name = "mesmerized"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -5163,7 +5163,7 @@
 {
 						_class = "AnimFile"
 						name = "mesmerized_pre_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -5191,7 +5191,7 @@
 {
 						_class = "AnimFile"
 						name = "onehanded_crouch_relaxed"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -5219,7 +5219,7 @@
 {
 						_class = "AnimFile"
 						name = "operate_computer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -5247,7 +5247,7 @@
 {
 						_class = "AnimFile"
 						name = "operate_panel"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -5275,7 +5275,7 @@
 {
 						_class = "AnimFile"
 						name = "panic_run"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -5314,7 +5314,7 @@
 {
 						_class = "AnimFile"
 						name = "panic_run_lookleft"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -5353,7 +5353,7 @@
 {
 						_class = "AnimFile"
 						name = "panic_run_lookright"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -5392,7 +5392,7 @@
 {
 						_class = "AnimFile"
 						name = "panic_run_trip"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -5431,7 +5431,7 @@
 {
 						_class = "AnimFile"
 						name = "party_drinking"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -5704,7 +5704,7 @@
 {
 						_class = "AnimFile"
 						name = "payphone_hangup"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -5732,7 +5732,7 @@
 {
 						_class = "AnimFile"
 						name = "payphone_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -5760,7 +5760,7 @@
 {
 						_class = "AnimFile"
 						name = "payphone_pickup"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -5788,7 +5788,7 @@
 {
 						_class = "AnimFile"
 						name = "pinball_idle01"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -5816,7 +5816,7 @@
 {
 						_class = "AnimFile"
 						name = "pinball_idle02"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -5844,7 +5844,7 @@
 {
 						_class = "AnimFile"
 						name = "pinball_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -5872,7 +5872,7 @@
 {
 						_class = "AnimFile"
 						name = "pinball_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -5900,7 +5900,7 @@
 {
 						_class = "AnimFile"
 						name = "Piss_Idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -5928,7 +5928,7 @@
 {
 						_class = "AnimFile"
 						name = "Piss_Into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -5956,7 +5956,7 @@
 {
 						_class = "AnimFile"
 						name = "Piss_Outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -5984,7 +5984,7 @@
 {
 						_class = "AnimFile"
 						name = "place_bomb"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6012,7 +6012,7 @@
 {
 						_class = "AnimFile"
 						name = "pray"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6040,7 +6040,7 @@
 {
 						_class = "AnimFile"
 						name = "praying_begin"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6068,7 +6068,7 @@
 {
 						_class = "AnimFile"
 						name = "praying_end"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6096,7 +6096,7 @@
 {
 						_class = "AnimFile"
 						name = "praying_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6124,7 +6124,7 @@
 {
 						_class = "AnimFile"
 						name = "pre_choking"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6152,7 +6152,7 @@
 {
 						_class = "AnimFile"
 						name = "presence"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6180,7 +6180,7 @@
 {
 						_class = "AnimFile"
 						name = "Scripted_BackHit"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6208,7 +6208,7 @@
 {
 						_class = "AnimFile"
 						name = "shared_pre_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6306,7 +6306,7 @@
 {
 						_class = "AnimFile"
 						name = "sit_barstool_into_alt"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6369,7 +6369,7 @@
 {
 						_class = "AnimFile"
 						name = "sitback_idle_left"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6397,7 +6397,7 @@
 {
 						_class = "AnimFile"
 						name = "sitback_idle_left_deep"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6425,7 +6425,7 @@
 {
 						_class = "AnimFile"
 						name = "sitback_idle_right"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6453,7 +6453,7 @@
 {
 						_class = "AnimFile"
 						name = "sitback_idle_right_deep"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6481,7 +6481,7 @@
 {
 						_class = "AnimFile"
 						name = "sitback_left"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6509,7 +6509,7 @@
 {
 						_class = "AnimFile"
 						name = "sitback_left_deep"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6537,7 +6537,7 @@
 {
 						_class = "AnimFile"
 						name = "sitback_right"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6565,7 +6565,7 @@
 {
 						_class = "AnimFile"
 						name = "sitback_right_deep"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6593,7 +6593,7 @@
 {
 						_class = "AnimFile"
 						name = "sitback_upfast_left"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6621,7 +6621,7 @@
 {
 						_class = "AnimFile"
 						name = "sitback_upfast_left_deep"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6649,7 +6649,7 @@
 {
 						_class = "AnimFile"
 						name = "sitback_upfast_right"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6677,7 +6677,7 @@
 {
 						_class = "AnimFile"
 						name = "sitback_upfast_right_deep"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6705,7 +6705,7 @@
 {
 						_class = "AnimFile"
 						name = "sitforward_idle_left"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6733,7 +6733,7 @@
 {
 						_class = "AnimFile"
 						name = "sitforward_idle_left_deep"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6761,7 +6761,7 @@
 {
 						_class = "AnimFile"
 						name = "sitforward_idle_right"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6789,7 +6789,7 @@
 {
 						_class = "AnimFile"
 						name = "sitforward_idle_right_deep"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6817,7 +6817,7 @@
 {
 						_class = "AnimFile"
 						name = "sitforward_left"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6845,7 +6845,7 @@
 {
 						_class = "AnimFile"
 						name = "sitforward_left_deep"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6873,7 +6873,7 @@
 {
 						_class = "AnimFile"
 						name = "sitforward_right"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6901,7 +6901,7 @@
 {
 						_class = "AnimFile"
 						name = "sitforward_right_deep"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6929,7 +6929,7 @@
 {
 						_class = "AnimFile"
 						name = "sitforward_upfast_left"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6957,7 +6957,7 @@
 {
 						_class = "AnimFile"
 						name = "sitforward_upfast_left_deep"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -6985,7 +6985,7 @@
 {
 						_class = "AnimFile"
 						name = "sitforward_upfast_right"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7013,7 +7013,7 @@
 {
 						_class = "AnimFile"
 						name = "sitforward_upfast_right_deep"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7041,7 +7041,7 @@
 {
 						_class = "AnimFile"
 						name = "Sitlow_Idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7069,7 +7069,7 @@
 {
 						_class = "AnimFile"
 						name = "Sitlow_Into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7097,7 +7097,7 @@
 {
 						_class = "AnimFile"
 						name = "Sitlow_Out_Left"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7125,7 +7125,7 @@
 {
 						_class = "AnimFile"
 						name = "Sitlow_Out_Right"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7153,7 +7153,7 @@
 {
 						_class = "AnimFile"
 						name = "Sitneutral_Idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7181,7 +7181,7 @@
 {
 						_class = "AnimFile"
 						name = "Sitneutral_Into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7209,7 +7209,7 @@
 {
 						_class = "AnimFile"
 						name = "Sitneutral_Out_Left"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7237,7 +7237,7 @@
 {
 						_class = "AnimFile"
 						name = "Sitneutral_Out_Right"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7265,7 +7265,7 @@
 {
 						_class = "AnimFile"
 						name = "sleep_fall_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7293,7 +7293,7 @@
 {
 						_class = "AnimFile"
 						name = "sleep_getup"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7321,7 +7321,7 @@
 {
 						_class = "AnimFile"
 						name = "sleep_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7349,7 +7349,7 @@
 {
 						_class = "AnimFile"
 						name = "sleep_pre_fall_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7377,7 +7377,7 @@
 {
 						_class = "AnimFile"
 						name = "sobbing"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7405,7 +7405,7 @@
 {
 						_class = "AnimFile"
 						name = "sobbing_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7433,7 +7433,7 @@
 {
 						_class = "AnimFile"
 						name = "sobbing_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7461,7 +7461,7 @@
 {
 						_class = "AnimFile"
 						name = "sobbing_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7489,7 +7489,7 @@
 {
 						_class = "AnimFile"
 						name = "sobbing_pre_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7517,7 +7517,7 @@
 {
 						_class = "AnimFile"
 						name = "spellhit"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7545,7 +7545,7 @@
 {
 						_class = "AnimFile"
 						name = "stake_target"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7573,7 +7573,7 @@
 {
 						_class = "AnimFile"
 						name = "stunned"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7601,7 +7601,7 @@
 {
 						_class = "AnimFile"
 						name = "stunned_recover"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7629,7 +7629,7 @@
 {
 						_class = "AnimFile"
 						name = "surprised_by_window"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7657,7 +7657,7 @@
 {
 						_class = "AnimFile"
 						name = "swim"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7685,7 +7685,7 @@
 {
 						_class = "AnimFile"
 						name = "thaumaturgy_cast"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7713,7 +7713,7 @@
 {
 						_class = "AnimFile"
 						name = "thaumaturgy_cast_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7741,7 +7741,7 @@
 {
 						_class = "AnimFile"
 						name = "thaumaturgy_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7769,7 +7769,7 @@
 {
 						_class = "AnimFile"
 						name = "thaumaturgy_idle_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7797,7 +7797,7 @@
 {
 						_class = "AnimFile"
 						name = "theft_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7825,7 +7825,7 @@
 {
 						_class = "AnimFile"
 						name = "theft_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7853,7 +7853,7 @@
 {
 						_class = "AnimFile"
 						name = "theft_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7881,7 +7881,7 @@
 {
 						_class = "AnimFile"
 						name = "theft_pre_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7909,7 +7909,7 @@
 {
 						_class = "AnimFile"
 						name = "treadwater"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7937,7 +7937,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_crouch_relaxed"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7965,7 +7965,7 @@
 {
 						_class = "AnimFile"
 						name = "vision_of_death"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -7993,7 +7993,7 @@
 {
 						_class = "AnimFile"
 						name = "vomit_getout"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8021,7 +8021,7 @@
 {
 						_class = "AnimFile"
 						name = "vomit_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8049,7 +8049,7 @@
 {
 						_class = "AnimFile"
 						name = "vomit_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8077,7 +8077,7 @@
 {
 						_class = "AnimFile"
 						name = "vomit_pre_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8280,7 +8280,7 @@
 {
 						_class = "AnimFile"
 						name = "whistling_fidget"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8308,7 +8308,7 @@
 {
 						_class = "AnimFile"
 						name = "whistling_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8336,7 +8336,7 @@
 {
 						_class = "AnimFile"
 						name = "wine_drink"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8364,7 +8364,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8392,7 +8392,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8420,7 +8420,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8448,7 +8448,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8476,7 +8476,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8504,7 +8504,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8532,7 +8532,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8560,7 +8560,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8588,7 +8588,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8616,7 +8616,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8644,7 +8644,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8672,7 +8672,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8700,7 +8700,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_attack_leaning_left"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8728,7 +8728,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_attack_leaning_right"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8756,7 +8756,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_bobble_base"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8784,7 +8784,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_bobble_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8812,7 +8812,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_corner_cover_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8840,7 +8840,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_dodge"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8868,7 +8868,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_dryfire"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8896,7 +8896,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_dryfire_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8924,7 +8924,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_dryfire_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8952,7 +8952,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_fidget"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -8980,7 +8980,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -9008,7 +9008,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_lean_left_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -9036,7 +9036,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_lean_left_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -9064,7 +9064,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_lean_left_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -9092,7 +9092,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_lean_right_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -9120,7 +9120,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_lean_right_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -9148,7 +9148,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_lean_right_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -9176,7 +9176,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_ready"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -9204,7 +9204,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_reload"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -9232,7 +9232,7 @@
 {
 						_class = "AnimFile"
 						name = "anaconda_reload_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -9260,7 +9260,7 @@
 {
 						_class = "AnimFile"
 						name = "baseballbat_bobble_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -9288,7 +9288,7 @@
 {
 						_class = "AnimFile"
 						name = "baseballbat_relaxed_move_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -9316,7 +9316,7 @@
 {
 						_class = "AnimFile"
 						name = "bushhook_bobble_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -9344,7 +9344,7 @@
 {
 						_class = "AnimFile"
 						name = "bushhook_relaxed_move_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -9372,7 +9372,7 @@
 {
 						_class = "AnimFile"
 						name = "claws_aggressive_walk"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -9411,7 +9411,7 @@
 {
 						_class = "AnimFile"
 						name = "claws_aggressive_walk_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -9450,7 +9450,7 @@
 {
 						_class = "AnimFile"
 						name = "claws_run_0"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -9489,7 +9489,7 @@
 {
 						_class = "AnimFile"
 						name = "claws_run_0_alt1"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -9528,7 +9528,7 @@
 {
 						_class = "AnimFile"
 						name = "claws_run_0_alt2"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -9567,7 +9567,7 @@
 {
 						_class = "AnimFile"
 						name = "claws_run_45"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -9606,7 +9606,7 @@
 {
 						_class = "AnimFile"
 						name = "claws_run_90"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -9645,7 +9645,7 @@
 {
 						_class = "AnimFile"
 						name = "claws_run_135"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -9684,7 +9684,7 @@
 {
 						_class = "AnimFile"
 						name = "claws_run_180"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -9723,7 +9723,7 @@
 {
 						_class = "AnimFile"
 						name = "claws_run_225"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -9762,7 +9762,7 @@
 {
 						_class = "AnimFile"
 						name = "claws_run_270"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -9801,7 +9801,7 @@
 {
 						_class = "AnimFile"
 						name = "claws_run_315"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -9840,7 +9840,7 @@
 {
 						_class = "AnimFile"
 						name = "combat_walk_180"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -9879,7 +9879,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -9907,7 +9907,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -9935,7 +9935,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -9963,7 +9963,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -9991,7 +9991,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10019,7 +10019,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10047,7 +10047,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10075,7 +10075,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10103,7 +10103,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10131,7 +10131,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_alert_180_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10159,7 +10159,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_alert_180_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10187,7 +10187,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_alert_fidget_agro_lookaround"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10215,7 +10215,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_alert_front_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10243,7 +10243,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_alert_front_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10271,7 +10271,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_alert_l45_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10299,7 +10299,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_alert_l45_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10327,7 +10327,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_alert_l135_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10355,7 +10355,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_alert_l135_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10383,7 +10383,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_alert_r45_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10411,7 +10411,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_alert_r45_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10439,7 +10439,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_alert_r135_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10467,7 +10467,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_alert_r135_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10495,7 +10495,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10523,7 +10523,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10551,7 +10551,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10579,7 +10579,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_attack_leaning_left"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10607,7 +10607,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_attack_leaning_right"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10635,7 +10635,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_bobble_base"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10663,7 +10663,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_bobble_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10691,7 +10691,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_crouch_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10719,7 +10719,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_crouch_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10747,7 +10747,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_crouch_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10775,7 +10775,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_crouch_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10803,7 +10803,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_crouch_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10831,7 +10831,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_crouch_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10859,7 +10859,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_crouch_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10887,7 +10887,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_crouch_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10915,7 +10915,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_crouch_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10943,7 +10943,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_crouch_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10971,7 +10971,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_crouch_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -10999,7 +10999,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_crouch_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11027,7 +11027,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_crouch_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11055,7 +11055,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_crunch_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -11094,7 +11094,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_crunch_into"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -11133,7 +11133,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_crunch_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -11172,7 +11172,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_dodge"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11200,7 +11200,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_dryfire"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11228,7 +11228,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_dryfire_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11256,7 +11256,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_dryfire_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11284,7 +11284,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_fidget"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11312,7 +11312,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_hunt_walk"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -11351,7 +11351,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_hunt_walk_lookleft"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -11390,7 +11390,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_hunt_walk_lookright"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -11429,7 +11429,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11457,7 +11457,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_lean_left_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11485,7 +11485,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_lean_left_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11513,7 +11513,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_lean_left_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11541,7 +11541,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_lean_right_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11569,7 +11569,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_lean_right_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11597,7 +11597,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_lean_right_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11625,7 +11625,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_midcrouch_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11653,7 +11653,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_midcrouch_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11681,7 +11681,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_midcrouch_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11709,7 +11709,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_midcrouch_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11737,7 +11737,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_midcrouch_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11765,7 +11765,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_midcrouch_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11793,7 +11793,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_midcrouch_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11821,7 +11821,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_midcrouch_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11849,7 +11849,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_midcrouch_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11877,7 +11877,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_midcrouch_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11905,7 +11905,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_midcrouch_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11933,7 +11933,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_midcrouch_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11961,7 +11961,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_midcrouch_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -11989,7 +11989,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_midcrouch_idle_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12017,7 +12017,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_midcrunch_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -12056,7 +12056,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_midcrunch_into"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -12095,7 +12095,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_midcrunch_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -12134,7 +12134,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_ready"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12162,7 +12162,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_relaxed_move_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12190,7 +12190,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_reload"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12218,7 +12218,7 @@
 {
 						_class = "AnimFile"
 						name = "crossbow_reload_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12246,7 +12246,7 @@
 {
 						_class = "AnimFile"
 						name = "crouch"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12274,7 +12274,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_cast_charge1"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12302,7 +12302,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_cast_charge_layer1"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12330,7 +12330,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_cast_chargehold1"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12358,7 +12358,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_cast_chargehold_layer1"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12386,7 +12386,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_cast_continue1"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12414,7 +12414,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_cast_continue_layer1"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12442,7 +12442,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_cast_hold1"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12470,7 +12470,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_cast_hold_layer1"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12498,7 +12498,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_cast_reset1"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12526,7 +12526,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_cast_reset_layer1"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12554,7 +12554,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_idle1"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12582,7 +12582,7 @@
 {
 						_class = "AnimFile"
 						name = "d_thaum_idle_layer1"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12610,7 +12610,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12638,7 +12638,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12666,7 +12666,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12694,7 +12694,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12722,7 +12722,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12750,7 +12750,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12778,7 +12778,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12806,7 +12806,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12834,7 +12834,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12862,7 +12862,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12890,7 +12890,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12918,7 +12918,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12946,7 +12946,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_attack_leaning_left"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -12974,7 +12974,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_attack_leaning_right"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13002,7 +13002,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_bobble_base"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13030,7 +13030,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_bobble_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13058,7 +13058,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_corner_cover_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13086,7 +13086,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_dodge"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13114,7 +13114,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_dryfire"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13142,7 +13142,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_dryfire_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13170,7 +13170,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_dryfire_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13198,7 +13198,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_fidget"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13226,7 +13226,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13254,7 +13254,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_lean_left_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13282,7 +13282,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_lean_left_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13310,7 +13310,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_lean_left_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13338,7 +13338,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_lean_right_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13366,7 +13366,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_lean_right_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13394,7 +13394,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_lean_right_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13422,7 +13422,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_ready"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13450,7 +13450,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_relaxed_move_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13478,7 +13478,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_reload"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13506,7 +13506,7 @@
 {
 						_class = "AnimFile"
 						name = "deserteagle_reload_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13534,7 +13534,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13562,7 +13562,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13590,7 +13590,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13618,7 +13618,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13646,7 +13646,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13674,7 +13674,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13702,7 +13702,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13730,7 +13730,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13758,7 +13758,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13786,7 +13786,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13814,7 +13814,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13842,7 +13842,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13870,7 +13870,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_bobble_base"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13898,7 +13898,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_bobble_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13926,7 +13926,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_dodge"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13954,7 +13954,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_dryfire"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -13982,7 +13982,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_dryfire_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14010,7 +14010,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_dryfire_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14038,7 +14038,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_fidget"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14066,7 +14066,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14094,7 +14094,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_ready"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14122,7 +14122,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_relaxed_move_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14150,7 +14150,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_reload"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14178,7 +14178,7 @@
 {
 						_class = "AnimFile"
 						name = "enfield_reload_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14206,7 +14206,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14234,7 +14234,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14262,7 +14262,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14290,7 +14290,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14318,7 +14318,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14346,7 +14346,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14374,7 +14374,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14402,7 +14402,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14430,7 +14430,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14458,7 +14458,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14486,7 +14486,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14514,7 +14514,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14542,7 +14542,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_bobble_base"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14570,7 +14570,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_bobble_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14598,7 +14598,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_dodge"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14626,7 +14626,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_dryfire"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14654,7 +14654,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_dryfire_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14682,7 +14682,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_dryfire_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14710,7 +14710,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_fidget"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14738,7 +14738,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14766,7 +14766,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_ready"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14794,7 +14794,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_relaxed_move_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14822,7 +14822,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_reload"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14850,7 +14850,7 @@
 {
 						_class = "AnimFile"
 						name = "flamet_reload_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14878,7 +14878,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14906,7 +14906,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14934,7 +14934,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14962,7 +14962,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -14990,7 +14990,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15018,7 +15018,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15046,7 +15046,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15074,7 +15074,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15102,7 +15102,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15130,7 +15130,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15158,7 +15158,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15186,7 +15186,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15214,7 +15214,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_bobble_base"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15242,7 +15242,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_bobble_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15270,7 +15270,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_dodge"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15298,7 +15298,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_dryfire"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15326,7 +15326,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_dryfire_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15354,7 +15354,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_dryfire_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15382,7 +15382,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_fidget"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15410,7 +15410,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15438,7 +15438,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_ready"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15466,7 +15466,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_relaxed_move_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15494,7 +15494,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_reload"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15522,7 +15522,7 @@
 {
 						_class = "AnimFile"
 						name = "glock_reload_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15550,7 +15550,7 @@
 {
 						_class = "AnimFile"
 						name = "holy_light_cast1"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15578,7 +15578,7 @@
 {
 						_class = "AnimFile"
 						name = "holy_light_cast_layer1"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15606,7 +15606,7 @@
 {
 						_class = "AnimFile"
 						name = "holy_light_idle1"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15634,7 +15634,7 @@
 {
 						_class = "AnimFile"
 						name = "holy_light_idle_layer1"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15662,7 +15662,7 @@
 {
 						_class = "AnimFile"
 						name = "katana_bobble_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15690,7 +15690,7 @@
 {
 						_class = "AnimFile"
 						name = "katana_relaxed_move_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15718,7 +15718,7 @@
 {
 						_class = "AnimFile"
 						name = "knife_bobble_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15746,7 +15746,7 @@
 {
 						_class = "AnimFile"
 						name = "knife_relaxed_move_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15774,7 +15774,7 @@
 {
 						_class = "AnimFile"
 						name = "lookback_left_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15802,7 +15802,7 @@
 {
 						_class = "AnimFile"
 						name = "lookback_right_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15830,7 +15830,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15858,7 +15858,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15886,7 +15886,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15914,7 +15914,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15942,7 +15942,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15970,7 +15970,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -15998,7 +15998,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16026,7 +16026,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16054,7 +16054,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16082,7 +16082,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16110,7 +16110,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16138,7 +16138,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16166,7 +16166,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_bobble_base"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16194,7 +16194,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_bobble_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16222,7 +16222,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_dodge"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16250,7 +16250,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_dryfire"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16278,7 +16278,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_dryfire_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16306,7 +16306,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_dryfire_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16334,7 +16334,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_fidget"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16362,7 +16362,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16390,7 +16390,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_ready"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16418,7 +16418,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_relaxed_move_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16446,7 +16446,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_reload"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16474,7 +16474,7 @@
 {
 						_class = "AnimFile"
 						name = "m37_reload_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16502,7 +16502,7 @@
 {
 						_class = "AnimFile"
 						name = "npc_run_0"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -16541,7 +16541,7 @@
 {
 						_class = "AnimFile"
 						name = "npc_run_45"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -16580,7 +16580,7 @@
 {
 						_class = "AnimFile"
 						name = "npc_run_90"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -16619,7 +16619,7 @@
 {
 						_class = "AnimFile"
 						name = "npc_run_135"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -16658,7 +16658,7 @@
 {
 						_class = "AnimFile"
 						name = "npc_run_180"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -16697,7 +16697,7 @@
 {
 						_class = "AnimFile"
 						name = "npc_run_225"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -16736,7 +16736,7 @@
 {
 						_class = "AnimFile"
 						name = "npc_run_270"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -16775,7 +16775,7 @@
 {
 						_class = "AnimFile"
 						name = "npc_run_315"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -16814,7 +16814,7 @@
 {
 						_class = "AnimFile"
 						name = "onehand_sneak"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16842,7 +16842,7 @@
 {
 						_class = "AnimFile"
 						name = "onehand_sneak_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16870,7 +16870,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_alert_180_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16898,7 +16898,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_alert_180_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16926,7 +16926,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_alert_fidget_agro_lookaround"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16954,7 +16954,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_alert_fidget_lookaround"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -16982,7 +16982,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_alert_front_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17010,7 +17010,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_alert_front_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17038,7 +17038,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_alert_l45_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17066,7 +17066,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_alert_l45_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17094,7 +17094,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_alert_l90_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17122,7 +17122,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_alert_l90_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17150,7 +17150,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_alert_l135_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17178,7 +17178,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_alert_l135_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17206,7 +17206,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_alert_r45_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17234,7 +17234,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_alert_r45_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17262,7 +17262,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_alert_r90_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17290,7 +17290,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_alert_r90_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17318,7 +17318,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_alert_r135_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17346,7 +17346,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_alert_r135_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17374,7 +17374,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_crouch_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17402,7 +17402,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_crouch_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17430,7 +17430,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_crouch_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17458,7 +17458,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_crouch_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17486,7 +17486,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_crouch_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17514,7 +17514,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_crouch_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17542,7 +17542,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_crouch_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17570,7 +17570,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_crouch_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17598,7 +17598,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_crouch_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17626,7 +17626,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_crouch_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17654,7 +17654,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_crouch_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17682,7 +17682,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_crouch_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17710,7 +17710,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_crouch_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17738,7 +17738,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_crouch_idle_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -17766,7 +17766,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_crunch_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -17805,7 +17805,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_crunch_into"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -17844,7 +17844,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_crunch_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -17883,7 +17883,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_hunt_walk"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -17922,7 +17922,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_hunt_walk_lookleft"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -17961,7 +17961,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_hunt_walk_lookright"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -18000,7 +18000,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_midcrouch_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18028,7 +18028,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_midcrouch_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18056,7 +18056,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_midcrouch_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18084,7 +18084,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_midcrouch_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18112,7 +18112,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_midcrouch_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18140,7 +18140,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_midcrouch_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18168,7 +18168,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_midcrouch_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18196,7 +18196,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_midcrouch_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18224,7 +18224,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_midcrouch_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18252,7 +18252,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_midcrouch_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18280,7 +18280,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_midcrouch_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18308,7 +18308,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_midcrouch_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18336,7 +18336,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_midcrouch_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18364,7 +18364,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_midcrouch_idle_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18392,7 +18392,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_midcrunch_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -18431,7 +18431,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_midcrunch_into"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -18470,7 +18470,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_midcrunch_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -18509,7 +18509,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_relaxed_run_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -18548,7 +18548,7 @@
 {
 						_class = "AnimFile"
 						name = "pistol_relaxed_walk_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -18587,7 +18587,7 @@
 {
 						_class = "AnimFile"
 						name = "Pistol_Reload_Fast"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18615,7 +18615,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18643,7 +18643,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18671,7 +18671,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18699,7 +18699,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18727,7 +18727,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18755,7 +18755,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18783,7 +18783,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18811,7 +18811,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18839,7 +18839,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18867,7 +18867,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18895,7 +18895,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18923,7 +18923,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18951,7 +18951,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_bobble_base"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -18979,7 +18979,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_bobble_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19007,7 +19007,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_dodge"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19035,7 +19035,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_dryfire"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19063,7 +19063,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_dryfire_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19091,7 +19091,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_dryfire_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19119,7 +19119,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_fidget"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19147,7 +19147,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19175,7 +19175,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_ready"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19203,7 +19203,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_relaxed_move_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19231,7 +19231,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_reload"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19259,7 +19259,7 @@
 {
 						_class = "AnimFile"
 						name = "rem700_reload_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19287,7 +19287,7 @@
 {
 						_class = "AnimFile"
 						name = "run_0"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -19326,7 +19326,7 @@
 {
 						_class = "AnimFile"
 						name = "run_45"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -19365,7 +19365,7 @@
 {
 						_class = "AnimFile"
 						name = "run_90"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -19404,7 +19404,7 @@
 {
 						_class = "AnimFile"
 						name = "run_135"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -19443,7 +19443,7 @@
 {
 						_class = "AnimFile"
 						name = "run_180"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -19482,7 +19482,7 @@
 {
 						_class = "AnimFile"
 						name = "run_225"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -19521,7 +19521,7 @@
 {
 						_class = "AnimFile"
 						name = "run_270"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -19560,7 +19560,7 @@
 {
 						_class = "AnimFile"
 						name = "run_315"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -19599,7 +19599,7 @@
 {
 						_class = "AnimFile"
 						name = "sledgehammer_bobble_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19627,7 +19627,7 @@
 {
 						_class = "AnimFile"
 						name = "sledgehammer_relaxed_move_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19655,7 +19655,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19683,7 +19683,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19711,7 +19711,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19739,7 +19739,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19767,7 +19767,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19795,7 +19795,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19823,7 +19823,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19851,7 +19851,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19879,7 +19879,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19907,7 +19907,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19935,7 +19935,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19963,7 +19963,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -19991,7 +19991,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_attack_leaning_left"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20019,7 +20019,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_attack_leaning_right"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20047,7 +20047,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_bobble_base"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20075,7 +20075,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_bobble_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20103,7 +20103,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_corner_cover_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20131,7 +20131,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_dodge"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20159,7 +20159,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_dryfire"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20187,7 +20187,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_dryfire_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20215,7 +20215,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_dryfire_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20243,7 +20243,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_fidget"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20271,7 +20271,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20299,7 +20299,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_lean_left_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20327,7 +20327,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_lean_left_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20355,7 +20355,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_lean_left_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20383,7 +20383,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_lean_right_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20411,7 +20411,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_lean_right_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20439,7 +20439,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_lean_right_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20467,7 +20467,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_ready"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20495,7 +20495,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_reload"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20523,7 +20523,7 @@
 {
 						_class = "AnimFile"
 						name = "smith_reload_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20551,7 +20551,7 @@
 {
 						_class = "AnimFile"
 						name = "sneak_0"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20579,7 +20579,7 @@
 {
 						_class = "AnimFile"
 						name = "sneak_45"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20607,7 +20607,7 @@
 {
 						_class = "AnimFile"
 						name = "sneak_90"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20635,7 +20635,7 @@
 {
 						_class = "AnimFile"
 						name = "sneak_135"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20663,7 +20663,7 @@
 {
 						_class = "AnimFile"
 						name = "sneak_180"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20691,7 +20691,7 @@
 {
 						_class = "AnimFile"
 						name = "sneak_225"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20719,7 +20719,7 @@
 {
 						_class = "AnimFile"
 						name = "sneak_270"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20747,7 +20747,7 @@
 {
 						_class = "AnimFile"
 						name = "sneak_315"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20775,7 +20775,7 @@
 {
 						_class = "AnimFile"
 						name = "stake_bobble_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20803,7 +20803,7 @@
 {
 						_class = "AnimFile"
 						name = "stake_relaxed_move_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20831,7 +20831,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20859,7 +20859,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20887,7 +20887,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20915,7 +20915,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20943,7 +20943,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20971,7 +20971,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -20999,7 +20999,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21027,7 +21027,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21055,7 +21055,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21083,7 +21083,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_alert_180_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21111,7 +21111,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_alert_180_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21139,7 +21139,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_alert_fidget_agro_lookaround"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21167,7 +21167,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_alert_front_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21195,7 +21195,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_alert_front_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21223,7 +21223,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_alert_l90_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21251,7 +21251,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_alert_l90_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21279,7 +21279,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_alert_r90_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21307,7 +21307,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_alert_r90_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21335,7 +21335,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21363,7 +21363,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21391,7 +21391,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21419,7 +21419,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_attack_leaning_left"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21447,7 +21447,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_attack_leaning_right"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21475,7 +21475,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_bobble_base"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21503,7 +21503,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_bobble_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21531,7 +21531,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_corner_cover_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21559,7 +21559,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_crouch_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21587,7 +21587,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_crouch_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21615,7 +21615,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_crouch_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21643,7 +21643,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_crouch_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21671,7 +21671,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_crouch_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21699,7 +21699,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_crouch_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21727,7 +21727,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_crouch_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21755,7 +21755,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_crouch_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21783,7 +21783,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_crouch_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21811,7 +21811,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_crouch_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21839,7 +21839,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_crouch_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21867,7 +21867,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_crouch_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21895,7 +21895,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_crouch_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -21923,7 +21923,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_crunch_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -21962,7 +21962,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_crunch_into"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -22001,7 +22001,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_crunch_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -22040,7 +22040,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_dodge"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22068,7 +22068,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_dryfire"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22096,7 +22096,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_dryfire_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22124,7 +22124,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_dryfire_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22152,7 +22152,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_fidget"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22180,7 +22180,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_hunt_walk"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -22219,7 +22219,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_hunt_walk_lookleft"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -22258,7 +22258,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_hunt_walk_lookright"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -22297,7 +22297,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22325,7 +22325,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_lean_left_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22353,7 +22353,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_lean_left_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22381,7 +22381,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_lean_left_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22409,7 +22409,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_lean_right_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22437,7 +22437,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_lean_right_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22465,7 +22465,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_lean_right_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22493,7 +22493,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_midcrouch_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22521,7 +22521,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_midcrouch_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22549,7 +22549,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_midcrouch_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22577,7 +22577,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_midcrouch_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22605,7 +22605,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_midcrouch_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22633,7 +22633,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_midcrouch_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22661,7 +22661,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_midcrouch_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22689,7 +22689,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_midcrouch_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22717,7 +22717,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_midcrouch_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22745,7 +22745,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_midcrouch_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22773,7 +22773,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_midcrouch_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22801,7 +22801,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_midcrouch_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22829,7 +22829,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_midcrouch_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22857,7 +22857,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_midcrouch_idle_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -22885,7 +22885,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_midcrunch_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -22924,7 +22924,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_midcrunch_into"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -22963,7 +22963,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_midcrunch_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -23002,7 +23002,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_ready"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23030,7 +23030,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_relaxed_move_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23058,7 +23058,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_reload"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23086,7 +23086,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_Reload_Fast"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23114,7 +23114,7 @@
 {
 						_class = "AnimFile"
 						name = "steyr_reload_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23142,7 +23142,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23170,7 +23170,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23198,7 +23198,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23226,7 +23226,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23254,7 +23254,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23282,7 +23282,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23310,7 +23310,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23338,7 +23338,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23366,7 +23366,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23394,7 +23394,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_alert_180_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23422,7 +23422,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_alert_180_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23450,7 +23450,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_alert_fidget_agro_lookaround"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23478,7 +23478,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_alert_front_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23506,7 +23506,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_alert_front_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23534,7 +23534,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_alert_l45_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23562,7 +23562,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_alert_l45_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23590,7 +23590,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_alert_l90_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23618,7 +23618,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_alert_l90_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23646,7 +23646,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_alert_l135_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23674,7 +23674,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_alert_l135_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23702,7 +23702,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_alert_r45_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23730,7 +23730,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_alert_r45_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23758,7 +23758,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_alert_r90_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23786,7 +23786,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_alert_r90_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23814,7 +23814,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_alert_r135_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23842,7 +23842,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_alert_r135_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23870,7 +23870,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23898,7 +23898,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23926,7 +23926,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23954,7 +23954,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_attack_leaning_left"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -23982,7 +23982,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_attack_leaning_right"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24010,7 +24010,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_bobble_base"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24038,7 +24038,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_bobble_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24066,7 +24066,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_corner_cover_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24094,7 +24094,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_crouch_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24122,7 +24122,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_crouch_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24150,7 +24150,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_crouch_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24178,7 +24178,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_crouch_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24206,7 +24206,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_crouch_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24234,7 +24234,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_crouch_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24262,7 +24262,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_crouch_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24290,7 +24290,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_crouch_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24318,7 +24318,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_crouch_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24346,7 +24346,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_crouch_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24374,7 +24374,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_crouch_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24402,7 +24402,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_crouch_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24430,7 +24430,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_crouch_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24458,7 +24458,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_crunch_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -24497,7 +24497,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_crunch_into"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -24536,7 +24536,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_crunch_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -24575,7 +24575,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_dodge"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24603,7 +24603,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_dryfire"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24631,7 +24631,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_dryfire_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24659,7 +24659,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_dryfire_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24687,7 +24687,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_fidget"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24715,7 +24715,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_hunt_walk"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -24754,7 +24754,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_hunt_walk_lookleft"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -24793,7 +24793,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_hunt_walk_lookright"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -24832,7 +24832,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24860,7 +24860,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_lean_left_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24888,7 +24888,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_lean_left_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24916,7 +24916,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_lean_left_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24944,7 +24944,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_lean_right_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -24972,7 +24972,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_lean_right_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25000,7 +25000,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_lean_right_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25028,7 +25028,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_midcrouch_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25056,7 +25056,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_midcrouch_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25084,7 +25084,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_midcrouch_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25112,7 +25112,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_midcrouch_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25140,7 +25140,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_midcrouch_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25168,7 +25168,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_midcrouch_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25196,7 +25196,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_midcrouch_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25224,7 +25224,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_midcrouch_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25252,7 +25252,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_midcrouch_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25280,7 +25280,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_midcrouch_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25308,7 +25308,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_midcrouch_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25336,7 +25336,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_midcrouch_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25364,7 +25364,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_midcrouch_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25392,7 +25392,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_midcrouch_idle_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25420,7 +25420,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_midcrunch_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -25459,7 +25459,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_midcrunch_into"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -25498,7 +25498,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_midcrunch_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -25537,7 +25537,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_ready"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25565,7 +25565,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_relaxed_move_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25593,7 +25593,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_reload"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25621,7 +25621,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_reload_fast"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25649,7 +25649,7 @@
 {
 						_class = "AnimFile"
 						name = "submachinegun_reload_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25677,7 +25677,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25705,7 +25705,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25733,7 +25733,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25761,7 +25761,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25789,7 +25789,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25817,7 +25817,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25845,7 +25845,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25873,7 +25873,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25901,7 +25901,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25929,7 +25929,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25957,7 +25957,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -25985,7 +25985,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26013,7 +26013,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_bobble_base"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26041,7 +26041,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_bobble_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26069,7 +26069,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_dodge"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26097,7 +26097,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_dryfire"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26125,7 +26125,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_dryfire_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26153,7 +26153,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_dryfire_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26181,7 +26181,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_fidget"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26209,7 +26209,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_hunt_walk"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -26248,7 +26248,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_hunt_walk_lookleft"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -26287,7 +26287,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_hunt_walk_lookright"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -26326,7 +26326,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26354,7 +26354,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_ready"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26382,7 +26382,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_relaxed_move_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26410,7 +26410,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_reload"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26438,7 +26438,7 @@
 {
 						_class = "AnimFile"
 						name = "supershotgun_reload_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26466,7 +26466,7 @@
 {
 						_class = "AnimFile"
 						name = "thaumaturgy_cast1"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26494,7 +26494,7 @@
 {
 						_class = "AnimFile"
 						name = "thaumaturgy_cast_layer1"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26522,7 +26522,7 @@
 {
 						_class = "AnimFile"
 						name = "thaumaturgy_idle1"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26550,7 +26550,7 @@
 {
 						_class = "AnimFile"
 						name = "thaumaturgy_idle_layer1"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26578,7 +26578,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26606,7 +26606,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26634,7 +26634,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26662,7 +26662,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26690,7 +26690,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26718,7 +26718,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26746,7 +26746,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26774,7 +26774,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26802,7 +26802,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26830,7 +26830,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26858,7 +26858,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26886,7 +26886,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26914,7 +26914,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_crouch_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26942,7 +26942,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_crouch_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26970,7 +26970,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_crouch_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -26998,7 +26998,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_crouch_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27026,7 +27026,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_crouch_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27054,7 +27054,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_crouch_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27082,7 +27082,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_crouch_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27110,7 +27110,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_crouch_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27138,7 +27138,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_crouch_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27166,7 +27166,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_crouch_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27194,7 +27194,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_dryfire"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27222,7 +27222,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_dryfire_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27250,7 +27250,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27278,7 +27278,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_idle_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27306,7 +27306,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_relaxed_run_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -27345,7 +27345,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_relaxed_walk_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -27384,7 +27384,7 @@
 {
 						_class = "AnimFile"
 						name = "throwing_star_reload"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27412,7 +27412,7 @@
 {
 						_class = "AnimFile"
 						name = "tireiron_bobble_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27440,7 +27440,7 @@
 {
 						_class = "AnimFile"
 						name = "tireiron_relaxed_move_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27468,7 +27468,7 @@
 {
 						_class = "AnimFile"
 						name = "twohand_sneak"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27496,7 +27496,7 @@
 {
 						_class = "AnimFile"
 						name = "twohand_sneak_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27524,7 +27524,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_alert_180_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27552,7 +27552,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_alert_180_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27580,7 +27580,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_alert_fidget_agro_lookaround"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27608,7 +27608,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_alert_fidget_lookaround"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27636,7 +27636,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_alert_front_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27664,7 +27664,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_alert_front_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27692,7 +27692,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_alert_l90_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27720,7 +27720,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_alert_l90_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27748,7 +27748,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_alert_r90_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27776,7 +27776,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_alert_r90_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27804,7 +27804,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_attack_leaning_left"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27832,7 +27832,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_attack_leaning_right"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27860,7 +27860,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_corner_cover_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27888,7 +27888,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_crouch_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27916,7 +27916,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_crouch_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27944,7 +27944,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_crouch_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -27972,7 +27972,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_crouch_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28000,7 +28000,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_crouch_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28028,7 +28028,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_crouch_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28056,7 +28056,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_crouch_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28084,7 +28084,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_crouch_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28112,7 +28112,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_crouch_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28140,7 +28140,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_crouch_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28168,7 +28168,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_crouch_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28196,7 +28196,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_crouch_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28224,7 +28224,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_crouch_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28252,7 +28252,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_crouch_idle_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28280,7 +28280,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_crunch_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -28319,7 +28319,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_crunch_into"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -28358,7 +28358,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_crunch_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -28397,7 +28397,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_fidget_lookaround"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28425,7 +28425,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_hunt_walk"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -28464,7 +28464,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_hunt_walk_lookleft"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -28503,7 +28503,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_hunt_walk_lookright"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -28542,7 +28542,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_lean_left_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28570,7 +28570,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_lean_left_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28598,7 +28598,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_lean_left_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28626,7 +28626,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_lean_right_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28654,7 +28654,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_lean_right_into"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28682,7 +28682,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_lean_right_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28710,7 +28710,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_midcrouch_aim_CC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28738,7 +28738,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_midcrouch_aim_CL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28766,7 +28766,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_midcrouch_aim_CR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28794,7 +28794,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_midcrouch_aim_DC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28822,7 +28822,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_midcrouch_aim_DL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28850,7 +28850,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_midcrouch_aim_DR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28878,7 +28878,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_midcrouch_aim_UC"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28906,7 +28906,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_midcrouch_aim_UL"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28934,7 +28934,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_midcrouch_aim_UR"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28962,7 +28962,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_midcrouch_attack"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -28990,7 +28990,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_midcrouch_attack_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -29018,7 +29018,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_midcrouch_attack_layer"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -29046,7 +29046,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_midcrouch_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -29074,7 +29074,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_midcrouch_idle_delta"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -29102,7 +29102,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_midcrunch_idle"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -29141,7 +29141,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_midcrunch_into"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -29180,7 +29180,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_midcrunch_outof"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -29219,7 +29219,7 @@
 {
 						_class = "AnimFile"
 						name = "twohanded_Reload_Fast"
-						children =
+						children = 
 						[
 							{
 								_class = "AnimOffset"
@@ -29247,7 +29247,7 @@
 {
 						_class = "AnimFile"
 						name = "walk_0"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -29356,7 +29356,7 @@
 {
 						_class = "AnimFile"
 						name = "walk_135"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -29430,7 +29430,7 @@
 {
 						_class = "AnimFile"
 						name = "walk_225"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -29469,7 +29469,7 @@
 {
 						_class = "AnimFile"
 						name = "walk_270"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"
@@ -29508,7 +29508,7 @@
 {
 						_class = "AnimFile"
 						name = "walk_315"
-						children =
+						children = 
 						[
 							{
 								_class = "ExtractMotion"

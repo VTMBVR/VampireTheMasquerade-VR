@@ -21,8 +21,8 @@
 "_class" = "DefaultMaterialGroup"
 "remaps" = [
 {
-"from" = "diary.vmat"
-"to" = "models/items/asylum/item_g_oh_diary/materials/Diary.vmat"
+"from" = "diari.vmat"
+"to" = "models/items/asylum/item_g_oh_diary/materials/Diari.vmat"
 }
 ]
 }

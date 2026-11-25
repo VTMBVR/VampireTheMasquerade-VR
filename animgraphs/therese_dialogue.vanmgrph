@@ -217,6 +217,7 @@
             m_previewButton="ANIMPARAM_BUTTON_NONE" m_bNetwork=true m_bUseMostRecentValue=false
             m_bAutoReset=false m_bPredicted=false m_fDefaultValue=0.0 m_fMinValue=0.0
             m_fMaxValue=1.0 m_bInterpolate=true},
+{_class="CBoolAnimParameter" m_name = "source_walk" m_id={m_id=2400100001} m_bNetwork=true m_bUseMostRecentValue=false m_bAutoReset=false m_bPredicted=false m_defaultValue=false},
 			{
 				_class = "CBoolAnimParameter"
 				m_name = "scripted_playback"
@@ -867,7 +868,7 @@
 	]
 	m_nodes = [
 {key={m_id=2200000000} value={_class="CSelectorAnimNode" m_sName="Source dialogue performance" m_nNodeID={m_id=2200000000} m_networkMode="ClientSimulate" m_vecPosition=[1400.0,3000.0] m_children=[{m_id=2300000000},{m_id=2200010001},{m_id=2200010002},{m_id=2200010003},{m_id=2200010004},{m_id=2200010005},{m_id=2200010006},{m_id=2200010007},{m_id=2200010008}] m_tags=[{m_id=4294967295},{m_id=4294967295},{m_id=4294967295},{m_id=4294967295},{m_id=4294967295},{m_id=4294967295},{m_id=4294967295},{m_id=4294967295},{m_id=4294967295}] m_selectionSource="SelectionSource_Enum" m_boolParamID={m_id=4294967295} m_enumParamID={m_id=2200000001} m_blendDuration=0.15 m_tagBehavior="SelectorTagBehavior_OffWhenFinished" m_bResetOnChange=true m_bSyncCyclesOnChange=false m_blendCurve={m_vControlPoint1=[0.5,0.0] m_vControlPoint2=[0.5,1.0]}}},
-{key={m_id=2300000000} value={_class="CSelectorAnimNode" m_sName="Asylum scene pose" m_nNodeID={m_id=2300000000} m_networkMode="ClientSimulate" m_vecPosition=[1200.0,3300.0] m_children=[{m_id=564353207},{m_id=2300010001},{m_id=2300010002},{m_id=2300010003},{m_id=2300010004}] m_tags=[{m_id=4294967295},{m_id=4294967295},{m_id=4294967295},{m_id=4294967295},{m_id=4294967295}] m_selectionSource="SelectionSource_Enum" m_boolParamID={m_id=4294967295} m_enumParamID={m_id=2300000001} m_blendDuration=0.2 m_tagBehavior="SelectorTagBehavior_OffWhenFinished" m_bResetOnChange=true m_bSyncCyclesOnChange=false m_blendCurve={m_vControlPoint1=[0.5,0.0] m_vControlPoint2=[0.5,1.0]}}},
+{key={m_id=2300000000} value={_class="CSelectorAnimNode" m_sName="Asylum scene pose" m_nNodeID={m_id=2300000000} m_networkMode="ClientSimulate" m_vecPosition=[1200.0,3300.0] m_children=[{m_id=2400100002},{m_id=2300010001},{m_id=2300010002},{m_id=2300010003},{m_id=2300010004}] m_tags=[{m_id=4294967295},{m_id=4294967295},{m_id=4294967295},{m_id=4294967295},{m_id=4294967295}] m_selectionSource="SelectionSource_Enum" m_boolParamID={m_id=4294967295} m_enumParamID={m_id=2300000001} m_blendDuration=0.2 m_tagBehavior="SelectorTagBehavior_OffWhenFinished" m_bResetOnChange=true m_bSyncCyclesOnChange=false m_blendCurve={m_vControlPoint1=[0.5,0.0] m_vControlPoint2=[0.5,1.0]}}},
 {key={m_id=2200010001} value={_class="CSequenceAnimNode" m_sName="Therese_Line191_Col_E" m_nNodeID={m_id=2200010001} m_networkMode="ClientSimulate" m_vecPosition=[1000.0,3000.0] m_sequenceName="Therese_Line191_Col_E" m_playbackSpeed=1.0 m_bLoop=false}},
 {key={m_id=2200010002} value={_class="CSequenceAnimNode" m_sName="Therese_Line1_Col_E" m_nNodeID={m_id=2200010002} m_networkMode="ClientSimulate" m_vecPosition=[1000.0,3000.0] m_sequenceName="Therese_Line1_Col_E" m_playbackSpeed=1.0 m_bLoop=false}},
 {key={m_id=2200010003} value={_class="CSequenceAnimNode" m_sName="Therese_Line251_Col_E" m_nNodeID={m_id=2200010003} m_networkMode="ClientSimulate" m_vecPosition=[1000.0,3000.0] m_sequenceName="Therese_Line251_Col_E" m_playbackSpeed=1.0 m_bLoop=false}},
@@ -1315,6 +1316,7 @@
         m_blendSpace="BlendSpace_Parent" m_bUseBlendScale=false
         m_timingBehavior="UseChild1" m_flTimingBlend=0.0 m_flRootMotionBlend=0.0
         m_footMotionTiming="Child1" m_bResetChild1=false m_bResetChild2=false}},
+{key={m_id=2400100002} value={_class="CSelectorAnimNode" m_sName="Supported arrival walk" m_nNodeID={m_id=2400100002} m_networkMode="ServerAuthoritative" m_vecPosition=[1400,1000] m_children=[{m_id=564353207},{m_id=142481039}] m_tags=[{m_id=4294967295},{m_id=4294967295}] m_selectionSource="SelectionSource_Bool" m_boolParamID={m_id=2400100001} m_enumParamID={m_id=4294967295} m_blendDuration=0.15 m_tagBehavior="SelectorTagBehavior_OffWhenFinished" m_bResetOnChange=true m_bSyncCyclesOnChange=false m_blendCurve={m_vControlPoint1=[0.5,0] m_vControlPoint2=[0.5,1]}}},
 		{
 			key = {
 				m_id = 44592127

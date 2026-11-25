@@ -5,10 +5,20 @@
 		_class = "RootNode"
 		children = 
 		[
-            {_class="WeightListList" children=[{_class="WeightList"
-                name="dialogue_face_only" default_weight=0.0 weights=[]
-                master_morph_weight=1.0 morph_weights=[]}]},
-
+			{
+				_class = "WeightListList"
+				children = 
+				[
+					{
+						_class = "WeightList"
+						name = "dialogue_face_only"
+						default_weight = 0.0
+						weights = [  ]
+						master_morph_weight = 1.0
+						morph_weights = [  ]
+					},
+				]
+			},
 			{
 				_class = "MaterialGroupList"
 				children = 
@@ -127,7 +137,11 @@
 						name = "dialogue_face"
 						filename = "models/character/npc/unique/santa_monica/jeanette/jeanette_face.dmx"
 						import_scale = 1.0
-						import_filter = { exclude_by_default = false exception_list = [] }
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
 					},
 					{
 						_class = "RenderMeshFile"
@@ -146,7 +160,10 @@
 				_class = "AnimationList"
 				children = 
 				[
- { _class = "Prefab" target_file = "models/character/npc/unique/santa_monica/jeanette/prefabs/dialogue_face_channels.vmdl_prefab" },
+					{
+						_class = "Prefab"
+						target_file = "models/character/npc/unique/santa_monica/jeanette/prefabs/dialogue_face_channels.vmdl_prefab"
+					},
 					{
 						_class = "AnimFile"
 						name = "jeanette_anim_Jeanette_Line1_Col_E"
@@ -1317,9 +1334,9 @@
 						cloth_collision_layer3 = true
 						cloth_stickiness = 0.0
 						cloth_collision_priority = 0
-						radius0 = 2.781816
-						radius1 = 3.59195
-						point0 = [ -0.145433, 1.204057, -0.175461 ]
+						radius0 = 2.8
+						radius1 = 2.5
+						point0 = [ 0.217012, -0.267776, -0.363924 ]
 						point1 = [ 11.572819, 1.368715, -0.139431 ]
 					},
 					{
@@ -1331,8 +1348,8 @@
 						cloth_collision_layer3 = true
 						cloth_stickiness = 0.0
 						cloth_collision_priority = 0
-						radius0 = 3.10516
-						radius1 = 2.868645
+						radius0 = 2.8
+						radius1 = 1.923823
 						point0 = [ -1.073345, 0.610113, -0.107944 ]
 						point1 = [ 13.180429, 2.307067, 0.550415 ]
 					},
@@ -1345,8 +1362,8 @@
 						cloth_collision_layer3 = true
 						cloth_stickiness = 0.0
 						cloth_collision_priority = 0
-						dimensions = [ 8.737122, 5.762688, 9.396798 ]
-						origin = [ -0.002038, 1.570014, -0.037421 ]
+						dimensions = [ 8.737122, 5.586013, 8.883206 ]
+						origin = [ -0.002038, 1.169635, 0.219375 ]
 						angles = [ 0.0, 0.0, 0.0 ]
 					},
 					{
@@ -1358,7 +1375,7 @@
 						cloth_collision_layer3 = true
 						cloth_stickiness = 0.0
 						cloth_collision_priority = 0
-						radius = 3.398427
+						radius = 2.8
 						center = [ 0.999278, -0.658712, -0.621384 ]
 					},
 					{
@@ -1370,7 +1387,7 @@
 						cloth_collision_layer3 = true
 						cloth_stickiness = 0.0
 						cloth_collision_priority = 0
-						radius = 3.659638
+						radius = 2.8
 						center = [ 0.303815, 0.076233, 0.830723 ]
 					},
 				]
@@ -1391,32 +1408,40 @@
 				stiffness_on_ragdoll = 0.0
 				cloth_sleep_enabled = false
 			},
-
-{
-	_class = "AttachmentList"
-	children = [
-		{ _class = "Attachment" name = "eyes" parent_bone = "bip01_head" relative_origin = [3.800002, 3.5, 0] relative_angles = [0,0,0] weight = 1.0 ignore_rotation = false },
-		{ _class = "Attachment" name = "mouth" parent_bone = "bip01_head" relative_origin = [1.4, 4.5, 0] relative_angles = [0,0,0] weight = 1.0 ignore_rotation = false },
-		{
-			_class = "Attachment"
-			name = "r_hand"
-			parent_bone = "bip01_r_hand"
-			relative_origin = [
-				0.0,
-				0.0,
-				0.0,
-			]
-			relative_angles = [
-				0.0,
-				0.0,
-				0.0,
-			]
-			weight = 1.0
-			ignore_rotation = false
-		},
-	]
-},
-]
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "eyes"
+						parent_bone = "bip01_head"
+						relative_origin = [ 3.800002, 3.5, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "mouth"
+						parent_bone = "bip01_head"
+						relative_origin = [ 1.4, 4.5, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "r_hand"
+						parent_bone = "bip01_r_hand"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+		]
 		model_archetype = "generic_actor_model"
 		primary_associated_entity = "generic_actor"
 		anim_graph_name = "animgraphs/jeanette_dialogue.vanmgrph"
