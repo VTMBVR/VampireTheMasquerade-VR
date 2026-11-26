@@ -1,10 +1,24 @@
 -- Optional original Asylum roster. Loading this file does not change the scene.
--- Enable/disable is reversible within this map session; VMAP is never rewritten.
+-- Adopt the original NPCs authored in Hammer; spawn only story alternatives.
 local roster=require("npc_source_cast_data")
 local story=require("npc_dialog_source")
 local actors,parked,positions={},{},{}
 local enabled=false
 local function valid(e) return e and not e:IsNull() end
+local function mapPlacement(id)
+    local prefix="asylum_map_"..id.."_"
+    if thisEntity:Attribute_GetIntValue(prefix.."present",0)~=1 then return nil end
+    local function value(key) return thisEntity:Attribute_GetIntValue(prefix..key,0)/1000 end
+    return {value("x"),value("y"),value("z")},value("yaw")
+end
+local function rememberPlacement(id,actor)
+    if actor:Attribute_GetIntValue("asylum_map_actor",0)~=1 then return end
+    local prefix="asylum_map_"..id.."_"
+    for _,key in ipairs({"x","y","z","yaw"}) do
+        thisEntity:Attribute_SetIntValue(prefix..key,actor:Attribute_GetIntValue("asylum_map_"..key,0))
+    end
+    thisEntity:Attribute_SetIntValue(prefix.."present",1)
+end
 local function floorPosition(position,actor,entry)
     local at=Vector(position[1],position[2],position[3])
     -- The Alyx port adjusts some platform heights. Keep source XY and use the
@@ -57,10 +71,11 @@ function AsylumCastPlan(state)
         elseif name=="Jeanette" or name=="Therese" or name=="Tourette" then show=upstairs[name]==true end
         local position={entry.origin[1],entry.origin[2],entry.origin[3]}
         local yaw=entry.angles[2]
-        if name=="Jeanette" and (state.talked.jeanette or 0)==0 and (g.Therese_Quest or 0)<2 then
+        local intro=name=="Jeanette" and (state.talked.jeanette or 0)==0 and (g.Therese_Quest or 0)<2
+        if intro then
             show=true;position={-904.223,420.837,-280.691};yaw=0
         end
-        if show then result[#result+1]={entry=entry,position=position,yaw=yaw} end
+        if show then result[#result+1]={entry=entry,position=position,yaw=yaw,intro=intro} end
     end
     return result
 end
@@ -70,6 +85,16 @@ local function refresh()
     local wanted={}
     for _,slot in ipairs(AsylumCastPlan()) do
         local entry=slot.entry;local id=entry.sourceId;wanted[id]=true
+        local authored,yaw=mapPlacement(id)
+        -- Jeanette's club introduction and later office visit are different
+        -- story positions. An editor change to the introduction must not drag
+        -- her out of the office after her departure.
+        if authored and (entry.name~="Jeanette" or slot.intro) then
+            slot.position=authored;slot.yaw=yaw
+        else authored=nil end
+        local function destination(actor)
+            return authored and Vector(authored[1],authored[2],authored[3]) or floorPosition(slot.position,actor,entry)
+        end
         local signature=table.concat(slot.position,",")..":"..slot.yaw
         local idle=not entry.dialogue and (entry.gender=="male" and "dance01" or "dance02") or nil
         if not valid(actors[id]) then
@@ -80,10 +105,10 @@ local function refresh()
             if valid(actor) then
                 actors[id]=actor
                 actor:Attribute_SetIntValue("vtmbvr_talk_enabled",entry.dialogue and 1 or 0)
-                if NpcSceneSourcePose(actor,floorPosition(slot.position,actor,entry),slot.yaw,idle) then positions[id]=signature end
+                if NpcSceneSourcePose(actor,destination(actor),slot.yaw,idle) then positions[id]=signature end
             end
         else
-            if positions[id]~=signature and not (AsylumLocationOwns and AsylumLocationOwns(actors[id])) and NpcSceneSourcePose(actors[id],floorPosition(slot.position,actors[id],entry),slot.yaw,idle) then positions[id]=signature end
+            if positions[id]~=signature and not (AsylumLocationOwns and AsylumLocationOwns(actors[id])) and NpcSceneSourcePose(actors[id],destination(actors[id]),slot.yaw,idle) then positions[id]=signature end
         end
     end
     for id,actor in pairs(actors) do
@@ -107,7 +132,12 @@ function AsylumCastEnable(profile)
     if not enabled then
         for _,actor in ipairs(Entities:FindAllByClassname("generic_actor")) do
             local sourceId=actor:GetName():match("^npc_vampire_asylum_(%d+)$")
-            if sourceId then actors[tonumber(sourceId)]=actor
+            if sourceId then
+                sourceId=tonumber(sourceId);actors[sourceId]=actor
+                rememberPlacement(sourceId,actor)
+                for _,entry in ipairs(roster.actors) do
+                    if entry.sourceId==sourceId then actor:Attribute_SetIntValue("vtmbvr_talk_enabled",entry.dialogue and 1 or 0);break end
+                end
             elseif actor:GetName():match("^npc_vampire_") then
                 local origin,angles=actor:GetAbsOrigin(),actor:GetAngles()
                 if actor:Attribute_GetIntValue("asylum_parked",0)==1 then
@@ -137,7 +167,22 @@ function AsylumCastDisable()
     if AsylumLocationStop then AsylumLocationStop() end
     enabled=false;thisEntity:SetContextThink("AsylumOriginalCast",nil,0)
     thisEntity:Attribute_SetIntValue("asylum_cast_enabled",0)
-    for _,actor in pairs(actors) do if valid(actor) then UTIL_Remove(actor) end end
+    for id,actor in pairs(actors) do if not mapPlacement(id) and valid(actor) then UTIL_Remove(actor) end end
+    -- Restore the authored first-visit cast, including NPCs removed by a
+    -- different story profile. Legacy maps retain their parked demo actors.
+    for _,entry in ipairs(roster.actors) do
+        local at,yaw=mapPlacement(entry.sourceId)
+        if at then
+            local actor=actors[entry.sourceId]
+            if not valid(actor) then actor=SpawnEntityFromTableSynchronous("generic_actor",{
+                targetname="npc_vampire_asylum_"..entry.sourceId,model=entry.alyxModel,
+                vscripts="asylum_map_actor.lua",origin=Vector(at[1],at[2],at[3]),angles=QAngle(0,yaw,0)}) end
+            if valid(actor) then
+                NpcSceneSourcePose(actor,Vector(at[1],at[2],at[3]),yaw,nil)
+                actor:Attribute_SetIntValue("vtmbvr_talk_enabled",entry.dialogue and 1 or 0)
+            end
+        end
+    end
     for _,record in ipairs(parked) do
         if valid(record.actor) then
             NpcSceneSourcePose(record.actor,record.origin,record.angles.y,nil)

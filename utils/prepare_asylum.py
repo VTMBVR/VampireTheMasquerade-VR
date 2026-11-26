@@ -21,6 +21,7 @@ def main():
     tasks=[('prepare_asylum_models.py',True),('prepare_asylum_crowd.py',True),
            ('prepare_asylum_eyes.py',True),
            ('prepare_asylum_items.py',True),
+           ('prepare_jeanette_proxy.py',False),
            ('prepare_dialogue_art.py',True),('prepare_asylum_location.py',True),('prepare_source_dialogue.py',False),
            ('build_asylum.py',False)]
     for script,needs_install in tasks:

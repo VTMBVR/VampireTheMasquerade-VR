@@ -6,6 +6,9 @@ from pathlib import Path
 from PIL import Image
 from build_jeanette_face import read_smd
 from bloodlines_animation import quaternion_euler
+from prepare_asylum_models import class_blocks
+from prepare_jeanette_skirt import canonical
+from jeanette_cloth_mesh import skirt_boundaries, surface_at, sub, cross, dot
 
 
 def rotation_roundtrip():
@@ -43,6 +46,84 @@ def mesh(path):
 def main():
     rotation_roundtrip()
     root=Path(__file__).resolve().parents[1]
+    jeanette=root/'models/character/npc/unique/santa_monica/jeanette'
+    bones,_,vertices,skirt_triangles=read_smd(jeanette/'jeanette_body.smd')
+    skirt=[vertex for material,vertex in vertices if material.lower()=='jeanette_skirt']
+    assert skirt,'Jeanette lost her authored skirt source'
+    assert not any(name.startswith('skirt_phys_') for _,name,_ in bones),'Retired fitted cloth joints remain'
+    document=(jeanette/'jeanette.vmdl').read_text(encoding='utf8')
+    driver=list(class_blocks(document,'ClothProxyMeshFile'))
+    assert len(driver)==1,'Missing or duplicated skirt simulation surface'
+    for field in ('back_solve_joints','back_solve_joints_drive_meshes'):
+        assert re.search(field+r'\s*=\s*false',driver[0]),'Selected skirt must drive the render mesh directly'
+    assert re.search(r'add_bones_to_render_mesh\s*=\s*true',driver[0]),'Direct proxy render binding is disabled'
+    for suffix in ('jeanette_proxy_body.smd','jeanette_proxy_skirt.dmx','jeanette_skirt_proxy.dmx'):
+        assert suffix in document and (jeanette/suffix).stat().st_size>0,'Missing proxy asset: '+suffix
+    assert not any(material=='jeanette_skirt' for material,_ in read_smd(jeanette/'jeanette_proxy_body.smd')[2]),'Body duplicates the simulated skirt'
+    active=[block for block in class_blocks(document,'RenderMeshFile') if not re.search(r'disabled\s*=\s*true',block)]
+    assert len(active)==3,'Duplicate or missing body, face or skirt mesh'
+    parameters=list(class_blocks(document,'ClothProxyMeshList'))
+    assert len(parameters)==1 and 'ClothParams' in parameters[0],'Cloth settings must reach the native compiler'
+    shapes=list(class_blocks(document,'ClothShapeCapsule'))
+    shape_names={re.search(r'name\s*=\s*"([^"]+)"',shape)[1] for shape in shapes}
+    assert shape_names=={'jeanette_skirt_l_thigh','jeanette_skirt_r_thigh',
+                         'jeanette_skirt_pelvis','jeanette_skirt_pelvis_back'},'Missing fitted thigh or rear hip collision'
+    attachments=list(class_blocks(document,'Attachment'))
+    assert not any('cloth_debug_' in a for a in attachments),'Retired preview attachments remain'
+    for name in ('eyes','mouth','r_hand'):
+        assert any(re.search(r'name\s*=\s*"'+name+'"',a) for a in attachments),'Missing production attachment: '+name
+    def array(text,name,kind):
+        block=re.search('"'+re.escape(name)+'" "'+kind+r'_array"\s*\[([^\]]*)\]',text)
+        assert block,'Missing DMX field: '+name
+        return [list(map(float,row.split())) for row in re.findall(r'"([^"\n]+)"',block[1])]
+    render=(jeanette/'jeanette_proxy_skirt.dmx').read_text()
+    points=array(render,'position$0','vector3')
+    normals=array(render,'normal$0','vector3')
+    assert len(points)==len(skirt) and all(abs(sum(n*n for n in normal)-1)<1e-4 for normal in normals),'Invalid render normals or vertex count'
+    assert all(math.isfinite(x) for p in points for x in p),'Non-finite cloth geometry'
+    enabled=[v[0] for v in array(render,'cloth_enable$0','float')]
+    assert min(enabled)==0 and max(enabled)==1,'Skirt must have a sewn band and a free hem'
+    assert all(weight in (0.,1.) for weight in enabled),'Free skirt vertices blend pelvis skin back through cloth collision'
+    # DMX imports in the +90 degree SMD basis. Keep the authored edge height,
+    # with an outward clearance that prevents its polygon chords cutting skin.
+    waist,hem=skirt_boundaries(vertices,skirt_triangles)
+    seam={tuple(round(v,5) for v in p) for p in waist}
+    for vertex,point,weight in zip(skirt,points,enabled):
+        if tuple(round(v,5) for v in vertex[0]) in seam:
+            x,y,z=vertex[0]
+            assert abs(point[2]-z)<1e-5,'Draping displaced the waistband vertically'
+    hem_positions={tuple(round(v,5) for v in p) for p in hem}
+    lowered=[(vertex[0][2],point[2]) for vertex,point in zip(skirt,points)
+             if tuple(round(v,5) for v in vertex[0]) in hem_positions]
+    assert lowered and sum(a-b for a,b in lowered)/len(lowered)>2.,'Skirt still has the horizontal rest shape'
+    indices=[int(v[0]) for v in array(render,'position$0Indices','int')]
+    faces=[int(v[0]) for v in array(render,'faces','int')]
+    assert len(faces)%4==0 and all(faces[i]==-1 for i in range(3,len(faces),4)),'Invalid render triangles'
+    outward=inward=0
+    for start in range(0,len(faces),4):
+        ids=[indices[i] for i in faces[start:start+3]]
+        a,b,c=[points[i] for i in ids]
+        normal=tuple(sum(normals[j][k] for j in ids) for k in range(3))
+        direction=dot(cross(sub(b,a),sub(c,a)),normal)
+        outward+=direction>1e-7;inward+=direction< -1e-7
+    assert outward/(outward+inward)>.95,'Draping inverted the visible skirt'
+    center=tuple(sum(p[i] for p in waist)/len(waist) for i in range(2))
+    body=[tuple(vertices[i][1][0] for i in face) for mat,face in skirt_triangles
+          if mat=='jeanette_body' and all(math.dist(vertices[i][1][0][:2],center)<9 for i in face)]
+    for vertex,(x,y,z) in zip(skirt,points):
+        if tuple(round(v,5) for v in vertex[0]) not in seam:continue
+        point=(y,-x,z);angle=math.atan2(point[1]-center[1],point[0]-center[0])
+        hit=surface_at(body,center,angle,z)
+        assert math.dist(point[:2],center)-math.dist(hit[:2],center)>.16,'Waistband has insufficient skin clearance'
+    body_hits=0
+    for (x,y,z),weight in zip(points,enabled):
+        if weight<.999:continue
+        point=(y,-x,z);angle=math.atan2(point[1]-center[1],point[0]-center[0])
+        try:hit=surface_at(body,center,angle,z)
+        except ValueError:continue
+        body_hits+=1
+        assert math.dist(point[:2],center)-math.dist(hit[:2],center)>.32,'Draped rest mesh intersects the hips'
+    assert body_hits>50,'No representative hip clearance check'
     data=json.loads((root/'scripts/dialogue/asylum/model_preparation.json').read_text(encoding='utf8'))
     assert set(data)=={'doll1','cal','chunk','danielle','jeanette','knox','therese','tourette'}
     paths=[]

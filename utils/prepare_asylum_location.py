@@ -13,6 +13,22 @@ from bloodlines_assets import Assets, write_json
 from build_asylum import lua
 
 
+def location_vmf(bloodlines_root, raw):
+    """Export the installed map source, or reuse an earlier raw import."""
+    relative=Path('mapsrc/sm_asylum_1.vmf')
+    installed=bloodlines_root/'SDKContent/mapsrc/up sources/sm_asylum_1.vmf'
+    exported=raw/relative
+    if installed.is_file():
+        source=installed.read_bytes()
+        exported.parent.mkdir(parents=True,exist_ok=True)
+        exported.write_bytes(source)
+    elif not exported.is_file():
+        raise FileNotFoundError('Original Asylum map source was not found. Expected '+str(installed)+
+            ', or an earlier import at '+str(exported)+
+            '. Install the Bloodlines patch SDK map sources, or pass the original import folder with --raw-output.')
+    return exported.read_text(encoding='utf-8-sig')
+
+
 def sisters_scene(assets,scene,vmf):
     trigger=next(e for e in scene['entities'] if e['properties'].get('targetname')=='tourette_trigger')
     where=vmf.index('"targetname" "tourette_trigger"')
@@ -46,12 +62,17 @@ def sisters_scene(assets,scene,vmf):
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--bloodlines-root',type=Path,required=True)
-    parser.add_argument('--raw-output',type=Path,required=True)
+    parser.add_argument('--raw-output',type=Path,
+                        help='Original location export outside the checkout; defaults to ../bloodlines-asylum-location-source')
     args=parser.parse_args()
     root=Path(__file__).resolve().parents[1]
-    raw=args.raw_output.resolve()
+    raw=(args.raw_output or root.parent/'bloodlines-asylum-location-source').resolve()
     if raw.is_relative_to(root) or raw.is_relative_to(args.bloodlines_root.resolve()):
         parser.error('Keep raw exports outside the checkout and installed game')
+    try:
+        vmf=location_vmf(args.bloodlines_root,raw)
+    except FileNotFoundError as error:
+        parser.error(str(error))
     assets=Assets(args.bloodlines_root)
     directory=root/'scripts/dialogue/asylum'
     scene=json.loads((directory/'scene.json').read_text(encoding='utf8'))
@@ -114,7 +135,7 @@ def main():
     whispers={category:[sounds[label] for label,source in wanted.items() if '/'+category.lower()+'/' in source]
               for category in ('Deluded','Moaning')}
     result={'actors':actors,'places':places,'conversations':conversations,'sounds':sounds,'whispers':whispers,
-            'sisters':sisters_scene(assets,scene,(raw/'mapsrc/sm_asylum_1.vmf').read_text(encoding='utf-8-sig')),
+            'sisters':sisters_scene(assets,scene,vmf),
             'argumentDuration':sounds['argument']['duration'],
             'storyKeys':['Asylum_Visited','Doll_Seduce'],
             'sourceMap':'sm_asylum_1','geometryEdited':False}

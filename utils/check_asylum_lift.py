@@ -76,6 +76,9 @@ def main():
         local top=make("path_top","path_track",-1.5)
         local up=make("elev_button_up","func_button",-238)
         local down=make("elev_button_down","func_button",-240)
+        local physical=make("button_center_pusher","func_physical_button",-238)
+        local pusher=make("button_pusher_prop","prop_physics_override",-238)
+        local stalePanel=make("asylum_lift_ui_elev_button_up","point_clientui_world_panel")
         make("iplace_6","trigger_multiple")
         for _,name in ipairs({"door_left","door_right","door_left2","door_right2"}) do make(name,"func_door") end
         local globals={Cal_Permission=0,Asylum_Visited=1}
@@ -91,14 +94,20 @@ def main():
         package.loaded.asylum_sisters={Start=noop,Stop=noop,Tick=noop}
         package.loaded.npc_source_location_data={actors={},places={},conversations={},sounds={
             music={sound="music",duration=200},denied={sound="denied"},ding={sound="ding"}}}
+        local player=nil;local rayHit=nil
+        function TraceLine(q)
+            q.hit=rayHit~=nil or (player and player.inCab or false);q.enthit=rayHit or (q.hit and train or nil)
+        end
         Entities={FindByName=function(_,_,name) return pool[name] end,
             FindAllByName=function(_,name) return pool[name] and {pool[name]} or {} end,
-            GetLocalPlayer=function() return nil end}
+            GetLocalPlayer=function() return player end}
         function SpawnEntityFromTableSynchronous(class,kv)
+            assert(class~="point_clientui_world_panel","Lift must not spawn virtual buttons")
             local e=make(kv.targetname,class);e.origin=kv.origin;return e
         end
         function UTIL_Remove(e) e.removed=true end
         function EmitSoundOn(name,e) sounds[#sounds+1]=name end
+        function EmitSoundOnClient() end
         function StopSoundOn() end
         print=function(message) messages[#messages+1]=message end
         function DoEntFireByInstanceHandle(e,operation,param,delay)
@@ -111,9 +120,19 @@ def main():
             if button.locked then output(button,"OnUseLocked");return end
             if now<(button.readyAt or 0) then return end
             button.readyAt=now+1 -- authored wait=1, neither button is a toggle
-            if legacyFirst then DoEntFireByInstanceHandle(button,"Lock","",0) end
+            if button==physical then
+                if button.latched then return end
+                button.latched=true;output(button,"OnPressed");return
+            end
+            local function legacy()
+                DoEntFireByInstanceHandle(button,"Lock","",0)
+                for _,name in ipairs({'door_left','door_right','door_left2','door_right2'}) do
+                    DoEntFireByInstanceHandle(pool[name],'Close','',0)
+                end
+            end
+            if legacyFirst then legacy() end
             output(button,"OnPressed")
-            if not legacyFirst then DoEntFireByInstanceHandle(button,"Lock","",0) end
+            if not legacyFirst then legacy() end
         end
         local function advance(duration)
             local finish=now+duration
@@ -132,7 +151,13 @@ def main():
                 end
                 for _,item in ipairs(ready) do
                     local e,op=item.e,item.operation
-                    if op=="Lock" then e.locked=true
+                    if op=="PressIn" then press(e,false)
+                    elseif op=="PressOut" then
+                        if not e.locked then
+                            local was=e.latched;e.latched=false
+                            if was then output(e,"OnPressed") end -- release/bounce must never start another trip
+                        end
+                    elseif op=="Lock" then e.locked=true
                     elseif op=="Unlock" then e.locked=false
                     elseif op=="Open" or op=="Close" then e.open=op=="Open"
                     elseif op=="Stop" then e.direction=nil
@@ -148,17 +173,20 @@ def main():
             end
         end
         dofile(location_file);AsylumLocationStart();advance(.5)
-        assert(up.parent==train and down.parent==train)
+        assert(up.parent==train and down.parent==train and physical.parent==train)
+        assert(stalePanel.removed and physical.locked)
         assert(up.locked and not down.locked)
+        assert(not pool.door_left.open and pool.door_left.locked,'First visit starts with the lower door closed')
         press(up);advance(.1);assert(sounds[#sounds]=="denied")
         press(up);advance(.1);assert(#sounds==1,"Throttle held locked use")
         assert(AsylumLocationStatus().lift=="idle")
         -- Native legacy outputs lock even on the current floor. They must
         -- not leave either control permanently dead after an accepted press.
         press(down,false);advance(1.1)
-        assert(not down.locked and sounds[#sounds]=="ding")
+        assert(not down.locked and not pool.door_left.open,'Same-floor down cannot bypass Cal')
         press(down,true);advance(1.1);assert(not down.locked)
         globals.Cal_Permission=1;advance(.5);assert(not up.locked)
+        assert(pool.door_left.open and not pool.door_left.locked,'Cal opens the waiting cab')
         -- A path OnPass can swallow the departure command. Restart boundedly.
         train.swallowStart=true;press(up,false);advance(2.5)
         assert(up.locked and down.locked)
@@ -169,7 +197,8 @@ def main():
         assert(AsylumLocationStatus().lift=="idle" and math.abs(train.origin.z-top.origin.z)<8)
         assert(not up.locked and not down.locked and pool.door_left2.open and not pool.door_left.open)
         assert(train.starts>=2)
-        press(up,true);advance(1.1);assert(not up.locked,"Same-floor up must also reset")
+        press(up,true);advance(1.1);assert(not up.locked and pool.door_left2.open,"Same-floor up must reset doors and button")
+        press(up,false);advance(1.1);assert(pool.door_left2.open,'Late native Close must not leave the cab shut')
         -- Save/load halfway down restores the persisted destination and
         -- replaces, rather than accumulating, redirected callbacks.
         press(down,false);advance(4)
@@ -196,19 +225,53 @@ def main():
         globals.Cal_Permission=0;host.attributes.asylum_loc_lift_pending=2
         AsylumLocationStart();advance(12)
         assert(math.abs(train.origin.z-top.origin.z)<8 and up.locked and not down.locked)
-        press(down);advance(12)
+        -- Exercise the actual empty-cab return scheduler after the NPC ride.
+        host.attributes.asylum_loc_cab_return=1
+        AsylumLocationStart();advance(13)
         assert(math.abs(train.origin.z-bottom.origin.z)<8)
+        assert(host.attributes.asylum_loc_cab_return==0)
+        assert(not pool.door_left.open and pool.door_left.locked,'Empty return must remain locked without Cal')
+        -- The NPC can board the lower cab without granting the player access.
+        host.attributes.asylum_loc_jeanette_departing=1
+        advance(.5);assert(pool.door_left.open and not pool.door_left.locked)
+        host.attributes.asylum_loc_jeanette_departing=0
+        advance(.5);assert(not pool.door_left.open)
+        -- A restored player already standing in the cab can leave safely.
+        player=make('player','player');player.inCab=true
+        function player:GetHMDAvatar() return nil end
+        advance(.5);assert(pool.door_left.open and not pool.door_left.locked)
+        player.inCab=false;advance(1);assert(pool.door_left.open,'Threshold crossing has an egress grace period')
+        advance(2);assert(not pool.door_left.open and pool.door_left.locked)
+        player=nil
         AsylumLocationStart();advance(.5)
         assert(#up.outputs.OnPressed==1 and #down.outputs.OnUseLocked==1)
         assert(AsylumLocationLiftUp()==false and AsylumLocationStatus().lift=="idle")
+        -- Use the visible model, with occlusion and permission checks.
+        local origin=pusher:GetAbsOrigin()+Vector(16,0,0);local direction=Vector(-1,0,0)
+        rayHit=pool.door_left
+        assert(not AsylumLocationInteract(origin,direction,true),"A wall must block the button")
+        rayHit=pusher
+        assert(AsylumLocationInteract(origin,direction,true));advance(.2)
+        assert(AsylumLocationStatus().lift=="idle","The model cannot bypass Cal")
+        globals.Cal_Permission=1;advance(.5)
+        assert(not physical.locked and AsylumLocationInteract(origin,direction,true));advance(11)
+        assert(math.abs(train.origin.z-top.origin.z)<8 and pool.door_left2.open,"Model button must go up")
+        globals.Cal_Permission=0;advance(.5)
+        assert(not physical.locked,"Descending must remain possible without Cal permission")
+        assert(not physical.latched,"Physical actuator stayed pressed after the up trip")
+        press(physical);advance(11)
+        assert(math.abs(train.origin.z-bottom.origin.z)<8 and physical.locked,"Same model button must go down and relock")
+        rayHit=nil
+        dofile(location_file);AsylumLocationStart();advance(.5)
+        assert(#physical.outputs.OnPressed==1 and #physical.outputs.OnUseLocked==1,"Reinstall duplicated physical callbacks")
         globals.Cal_Permission=1;advance(.5);press(up);advance(1)
         train.removed=true;advance(.5)
         assert(AsylumLocationStatus().lift=="idle" and AsylumLocationStatus().liftPending==0)
         train.removed=false
         AsylumLocationStop()
-        assert(#up.outputs.OnPressed==0 and #down.outputs.OnUseLocked==0)
+        assert(#up.outputs.OnPressed==0 and #down.outputs.OnUseLocked==0 and #physical.outputs.OnPressed==0)
         for _,message in ipairs(messages) do assert(not message:find("ERROR",1,true),message) end
-        return {scenarios=13,messages=#messages,starts=train.starts,gameTested=false,physicalVRTested=false}
+        return {scenarios=26,messages=#messages,starts=train.starts,gameTested=false,physicalVRTested=false}
     ''')
     print(json.dumps(dict(result), indent=2))
 

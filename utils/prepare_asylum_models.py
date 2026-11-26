@@ -108,11 +108,13 @@ def main():
                     ',\n'.join(animations)+'\n]}]}}\n',encoding='utf8')
     for character in entries:
         if character == 'jeanette':
+            from prepare_jeanette_skirt import prepare as prepare_skirt
             library=json.loads((catalogs/'performances/jeanette.json').read_text(encoding='utf8'))
             folder=Path(library['model']['model']).parent
             channels=json.loads((root/'scripts/dialogue/jeanette_lipsync.json').read_text(encoding='utf8'))['faceControllers']
             face_graph(root,root,folder,channels)
             bindings,missing,scene_bindings=attach(root/'animgraphs/jeanette_dialogue.vanmgrph',root/folder/'jeanette.vmdl',library)
+            prepare_skirt(root)
             report[character]={'model':(folder/'jeanette.vmdl').as_posix(),'bodyBindings':bindings,'sceneBindings':scene_bindings,'missingBodyClips':missing,'status':'prepared_not_native_tested','meshPreserved':True}
             continue
         library = json.loads((catalogs/'performances'/(character+'.json')).read_text(encoding='utf8'))

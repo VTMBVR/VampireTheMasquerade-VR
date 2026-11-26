@@ -2,6 +2,7 @@
 from dataclasses import dataclass
 from pathlib import Path
 import shutil
+import filecmp
 
 
 @dataclass(frozen=True)
@@ -47,6 +48,39 @@ def compiled_relative(relative):
               '.vmdl': '.vmdl_c', '.vanmgrph': '.vanmgrph_c'}.get(
                   path.suffix, (path.suffix if path.suffix.startswith('.v') else '.v'+path.suffix[1:])+'_c')
     return path.with_suffix(suffix)
+
+
+def sync_scripts(paths):
+    """Install all script sources, including generated Lua and dialogue data.
+
+    Some local SDK mounts link vscripts directly to content. Such files are
+    already installed; never copy a file onto itself or follow unrelated links.
+    Runtime-only files are retained.
+    """
+    source = paths.source/'scripts'
+    target = paths.runtime/'scripts'
+    counts = dict(copied=0, unchanged=0, linked=0)
+    if not source.is_dir():
+        return counts
+    runtime = paths.runtime.resolve()
+    for entry in [source, *sorted(source.rglob('*'))]:
+        destination = target/entry.relative_to(source)
+        resolved = destination.resolve()
+        if resolved == entry.resolve():
+            if entry.is_file():
+                counts['linked'] += 1
+            continue
+        if not resolved.is_relative_to(runtime):
+            raise ValueError('Script destination points outside the runtime addon: '+str(destination))
+        if entry.is_dir():
+            destination.mkdir(parents=True, exist_ok=True)
+        elif entry.is_file():
+            if destination.is_file() and filecmp.cmp(entry, destination, shallow=False):
+                counts['unchanged'] += 1
+            else:
+                shutil.copy2(entry, destination)
+                counts['copied'] += 1
+    return counts
 
 
 def install_manifest_alias(paths):

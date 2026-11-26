@@ -4,7 +4,7 @@ from pathlib import Path
 import subprocess
 import json
 import wave
-from alyx_sdk import compiled_relative, install_manifest_alias, resolve_addon
+from alyx_sdk import compiled_relative, install_manifest_alias, resolve_addon, sync_scripts
 
 def generate_data(checkout):
     from prepare_source_dialogue import generate
@@ -65,8 +65,6 @@ ASSETS = (
     'panorama/styles/custom_game/vtmbvr_dialog_window.css',
     'panorama/scripts/custom_game/vtmbvr_dialog_window.js',
     'panorama/layout/custom_game/vtmbvr_dialog_prompt.xml',
-    'panorama/layout/custom_game/vtmbvr_lift.xml',
-    'panorama/styles/custom_game/vtmbvr_lift.css',
     'resourcemanifests/vtmbvr_addon_resources.vrman',
 )
 
@@ -87,6 +85,8 @@ def main():
     parser.add_argument('--alyx-root', required=True, type=Path,
                         help='Half-Life Alyx installation directory')
     parser.add_argument('--addon', help='SDK addon folder; detected from this checkout when omitted')
+    parser.add_argument('--scripts-only', action='store_true',
+                        help='Copy the complete scripts folder without recompiling resources')
     args = parser.parse_args()
     sdk = args.alyx_root.resolve()
     checkout = Path(__file__).resolve().parents[1]
@@ -96,6 +96,9 @@ def main():
         parser.error(str(error))
     compiler, source, runtime = paths.compiler, paths.source, paths.runtime
     print('Building SDK addon: '+paths.name)
+    if args.scripts_only:
+        print('Scripts installed: '+str(sync_scripts(paths)))
+        return
     data = generate_data(checkout)
     generate_world_layout(checkout)
     audio = [node['audio'] for node in data['nodes'].values() if node.get('audio')]
@@ -113,9 +116,10 @@ def main():
         print(result.stdout)
         # Some SDK failures still exit 0. Require both the success summary and
         # the newly written compiled resource rather than trusting the exit code.
-        if result.returncode or '0 failed' not in result.stdout or 'Error calling' in result.stdout or 'Error!' in result.stdout or not target.is_file() or target.stat().st_mtime_ns == before:
+        if result.returncode or '0 failed' not in result.stdout or 'Error calling' in result.stdout or 'Error!' in result.stdout or 'difference in mesh and proxy' in result.stdout or not target.is_file() or target.stat().st_mtime_ns == before:
             raise SystemExit('Compile failed or output was not updated: ' + relative + '\n' + result.stderr)
     install_manifest_alias(paths)
+    print('Scripts installed: '+str(sync_scripts(paths)))
     # Dynamic glyph URLs are compiled through the build-only preload layout.
     # Check the actual texture outputs: the SDK reports "0 failed" even when
     # an unsupported direct PNG invocation compiled nothing.

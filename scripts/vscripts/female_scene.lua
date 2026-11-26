@@ -800,7 +800,7 @@ end
 function NpcSceneSourceSequence(actor,name)
     local s=lookup(actor)
     if not s or type(actor:GetGraphParameter("source_scene_clip"))~="number" then return false end
-    local index=0
+    local index
     if name then
         for character,entry in pairs(sourceCast.characters) do
             if actor:GetModelName():lower()==entry.model:lower() then
@@ -808,8 +808,8 @@ function NpcSceneSourceSequence(actor,name)
                 break
             end
         end
-        if not index then return false end
-    end
+        if index==nil then return false end
+    else index=0 end
     s.sourceSequence=name
     actor:SetGraphParameterEnum("source_scene_clip",index)
     return true

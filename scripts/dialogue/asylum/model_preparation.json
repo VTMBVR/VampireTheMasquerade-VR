@@ -152,7 +152,12 @@
       "idle01": 1,
       "doorknock": 2,
       "SM_Huddle": 3,
-      "hunt_walk": 4
+      "hunt_walk": 4,
+      "dance01": 5,
+      "dance02": 6,
+      "dance03": 7,
+      "party_laugh": 8,
+      "ArmsCrossed_Idle": 9
     },
     "missingBodyClips": [
       "Jeanette_Line211_Col_E"
