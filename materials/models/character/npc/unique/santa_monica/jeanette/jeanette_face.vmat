@@ -3,6 +3,7 @@
 Layer0
 {
 	shader "vr_skin.vfx"
+	F_MORPH_SUPPORTED "1"
 
 	//---- Ambient Occlusion ----
 	g_flAmbientOcclusionDirectDiffuse "0.000"

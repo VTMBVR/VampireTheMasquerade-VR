@@ -1,0 +1,71 @@
+.DialogueRoot { width:1024px; height:768px; font-family:Arial; color:#ffffff; }
+.DialogueFrame {
+    width:94%; height:fit-children; max-height:720px;
+    horizontal-align:center; vertical-align:bottom; margin-bottom:16px;
+    flow-children:none;
+    background-color:#050505fa; border:1px solid #c4bfa444;
+}
+.DesktopMode .DialogueFrame { background-color:#000000f5; }
+.DialogueContent { width:100%; height:fit-children; padding:28px 38px 60px 38px; flow-children:down; }
+.OriginalFrameInset { width:100%; height:100%; position:0px 0px 0px; border:1px solid #c4bfa433; margin:5px; }
+.OriginalCornerTL, .OriginalCornerBR { width:36px; height:36px; }
+.OriginalCornerTL { horizontal-align:left; vertical-align:top; margin:5px; }
+.OriginalCornerBR { horizontal-align:right; vertical-align:bottom; margin:5px; }
+.Heading, .LastReply, .Footnote { visibility:collapse; }
+.Speech { width:100%; height:fit-children; margin-bottom:12px; }
+.Choices { width:100%; height:fit-children; flow-children:down; }
+.Choice { width:100%; height:fit-children; min-height:54px; margin-bottom:4px; padding:8px 10px; border:1px solid #ffffff00; background-color:#ffffff00; }
+.Choice Panel { width:100%; }
+.Choice:hover, .Choice:focus, .Choice.PointerHover { background-color:#ffffff0d; border-color:#e9b70470; }
+.Choice:active, .Choice.PointerPressed { background-color:#e9b70420; }
+.Choice Label { font-size:28px; color:#ffffff; white-space:normal; }
+.SourcePage { visibility:collapse; min-height:44px; margin-top:4px; }
+.SourceDialogue .SourcePage { visibility:visible; }
+.FaceEditing .SourcePage { visibility:collapse; }
+.Restart { visibility:collapse; margin-top:12px; }
+.DialogueEnded .Choices { visibility:collapse; }
+.DialogueEnded .Restart { visibility:visible; }
+.CloseButton { width:38px; height:38px; horizontal-align:right; vertical-align:bottom; margin:0px 54px 28px 0px; border:1px solid #c4bfa450; background-color:#00000088; }
+.CloseButton Label { font-size:30px; color:#d9d5c8; horizontal-align:center; vertical-align:center; }
+.CloseButton:hover, .CloseButton.PointerHover { border-color:#e9b704; background-color:#ffffff18; }
+.Pointer { visibility:collapse; width:14px; height:14px; position:505px 377px 0px; border:2px solid #161111; border-radius:50%; background-color:#f4d6a4; box-shadow:#000000bb 0px 1px 5px 0px; }
+.PointerMode .Pointer { visibility:visible; }
+.PointerMode .Choice:hover, .PointerMode .Choice:focus { background-color:#ffffff00; border-color:#ffffff00; }
+.PointerMode .Choice.PointerHover { background-color:#ffffff0d; border-color:#e9b70470; }
+.PointerMode .Choice.PointerPressed { background-color:#e9b70420; }
+.TalkPromptRoot, .TalkPromptButton { width:128px; height:128px; }
+.TalkPromptButton Image { width:128px; height:128px; }
+.TalkMaleIcon { visibility:collapse; }
+.TalkMale .TalkFemaleIcon { visibility:collapse; }
+.TalkMale .TalkMaleIcon { visibility:visible; }
+.TalkPromptButton:hover, .TalkFocused .TalkPromptButton { brightness:1.4; }
+
+.ToolButton { height: 40px; border: 1px solid #866444; background-color: #2b2323f5; }
+.ToolButton Label { horizontal-align: center; vertical-align: center; color: #e0ba84; font-size: 18px; }
+.ToolButton:hover, .ToolButton.PointerHover { background-color: #51362d; border-color: #e6b773; }
+.ToolButton:active, .ToolButton.PointerPressed { background-color: #744733; }
+.TuneToggle { position: 435px 704px 0px; width: 230px; }
+.FaceEditor { width: 1024px; height: 768px; visibility: collapse; }
+.FaceEditing .FaceEditor { visibility: visible; }
+.FaceEditing .DialogueFrame, .FaceEditing .TuneToggle { visibility: collapse; }
+.FaceEditorBackground { width: 62%; height: 100%; horizontal-align: right; background-color: #17151bf9; border: 2px solid #926649; }
+.FaceEditorTitle { position: 435px 40px 0px; font-size: 29px; color: #e6b773; }
+.FaceEditorLine { position: 435px 80px 0px; width: 530px; height: 25px; font-size: 15px; color: #ac9a8e; text-overflow: ellipsis; }
+.FaceMode { position: 435px 112px 0px; width: 310px; height: 34px; }
+.FacePrev { position: 770px 112px 0px; width: 50px; height: 34px; }
+.FaceNext { position: 928px 112px 0px; width: 50px; height: 34px; }
+.FacePage { position: 827px 116px 0px; width: 94px; font-size: 18px; text-align: center; color: #ac9a8e; }
+.FaceRow { width: 543px; height: 72px; }
+.FaceName { width: 440px; height: 28px; font-size: 19px; text-overflow: ellipsis; color: #eed9b7; }
+.FaceValue { horizontal-align: right; height: 28px; font-size: 19px; color: #e6b773; }
+.FaceTrack { position: 0px 32px 0px; width: 543px; height: 22px; background-color: #332b30; border: 1px solid #735741; }
+.FaceFill { width: 0px; height: 100%; background-color: #a07a4d; }
+.FaceKnob { width: 12px; height: 20px; background-color: #f2d09a; border: 1px solid #fae6c3; }
+.FaceLoop { position: 435px 598px 0px; width: 543px; }
+.FaceBack { position: 435px 652px 0px; width: 150px; }
+.FaceReset { position: 595px 652px 0px; width: 195px; }
+.FaceSave { position: 800px 652px 0px; width: 178px; }
+.FaceStatus { position: 435px 707px 0px; width: 543px; height: 45px; font-size: 17px; white-space: normal; color: #ac9a8e; }
+
+.TuneToggle { position:0px 0px 0px; width:38px; height:38px; horizontal-align:right; vertical-align:bottom; margin:0px 103px 28px 0px; }
+.FaceEditing .CloseButton { vertical-align:top; margin:24px 28px 0px 0px; }

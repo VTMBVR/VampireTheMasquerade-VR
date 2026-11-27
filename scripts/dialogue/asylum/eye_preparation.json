@@ -1,0 +1,398 @@
+{
+  "models/character/npc/common/blood_doll/bd_asylum/blood_dollasylum.vmdl": {
+    "eyeball_l": {
+      "triangles": 40,
+      "uvPixels": 202452,
+      "irisPixels": 40639,
+      "material": "models/character/npc/common/blood_doll/bd_asylum/asylum_eyes/eyeball_l.vmat",
+      "color": "models/character/npc/common/blood_doll/bd_asylum/asylum_eyes/eyeball_l_color.png",
+      "sourceMaterial": "materials/models/character/npc/common/blood_doll/bd_asylum/eyeball_l.vmt",
+      "baseTexture": "models/character/eyes/Eyeball",
+      "irisTexture": "models/character/eyes/Green_light",
+      "source": {
+        "path": "materials/models/character/npc/common/blood_doll/bd_asylum/eyeball_l.vmt",
+        "source": "Unofficial_Patch/materials/models/character/npc/common/blood_doll/bd_asylum/eyeball_l.vmt",
+        "bytes": 107,
+        "sha256": "a89d693412c3a35fdf80153ca9980ef4b7002f8aa6ffdc823304cf1e0463e7b7"
+      },
+      "gaze": "neutral_baked"
+    },
+    "eyeball_r": {
+      "triangles": 40,
+      "uvPixels": 202452,
+      "irisPixels": 40626,
+      "material": "models/character/npc/common/blood_doll/bd_asylum/asylum_eyes/eyeball_r.vmat",
+      "color": "models/character/npc/common/blood_doll/bd_asylum/asylum_eyes/eyeball_r_color.png",
+      "sourceMaterial": "materials/models/character/npc/common/blood_doll/bd_asylum/eyeball_r.vmt",
+      "baseTexture": "models/character/eyes/eyeball",
+      "irisTexture": "models/character/eyes/Green_light",
+      "source": {
+        "path": "materials/models/character/npc/common/blood_doll/bd_asylum/eyeball_r.vmt",
+        "source": "Unofficial_Patch/materials/models/character/npc/common/blood_doll/bd_asylum/eyeball_r.vmt",
+        "bytes": 107,
+        "sha256": "1d13fa7ddea914856a375eaed195ef0e9ee6edf4183fb81561bdb1e7356d6e90"
+      },
+      "gaze": "neutral_baked"
+    }
+  },
+  "models/character/npc/common/goth_kids/female/goth_female.vmdl": {
+    "eyeball_l": {
+      "triangles": 40,
+      "uvPixels": 202452,
+      "irisPixels": 37675,
+      "material": "models/character/npc/common/goth_kids/female/asylum_eyes/eyeball_l.vmat",
+      "color": "models/character/npc/common/goth_kids/female/asylum_eyes/eyeball_l_color.png",
+      "sourceMaterial": "materials/models/character/npc/common/goth_kids/female/eyeball_l.vmt",
+      "baseTexture": "models/character/eyes/Eyeball",
+      "irisTexture": "models/character/eyes/blue_ice",
+      "source": {
+        "path": "materials/models/character/npc/common/goth_kids/female/eyeball_l.vmt",
+        "source": "Vampire/pack003.vpk:materials/models/character/npc/common/goth_kids/female/eyeball_l.vmt",
+        "bytes": 104,
+        "sha256": "38468fb0e8d90219db610276d14dc8bf27e93b40ce68cf2ff97b742f60a0a638"
+      },
+      "gaze": "neutral_baked"
+    },
+    "eyeball_r": {
+      "triangles": 40,
+      "uvPixels": 202452,
+      "irisPixels": 37671,
+      "material": "models/character/npc/common/goth_kids/female/asylum_eyes/eyeball_r.vmat",
+      "color": "models/character/npc/common/goth_kids/female/asylum_eyes/eyeball_r_color.png",
+      "sourceMaterial": "materials/models/character/npc/common/goth_kids/female/eyeball_r.vmt",
+      "baseTexture": "models/character/eyes/eyeball",
+      "irisTexture": "models/character/eyes/blue_ice",
+      "source": {
+        "path": "materials/models/character/npc/common/goth_kids/female/eyeball_r.vmt",
+        "source": "Vampire/pack003.vpk:materials/models/character/npc/common/goth_kids/female/eyeball_r.vmt",
+        "bytes": 104,
+        "sha256": "1fa014c91c021c7b901c621f5364909795e90f2241cf72bab4d01ba28e626639"
+      },
+      "gaze": "neutral_baked"
+    }
+  },
+  "models/character/npc/common/hustler/hustler_2_ref.vmdl": {
+    "eyeball_l": {
+      "triangles": 40,
+      "uvPixels": 202452,
+      "irisPixels": 23362,
+      "material": "models/character/npc/common/hustler/asylum_eyes/eyeball_l.vmat",
+      "color": "models/character/npc/common/hustler/asylum_eyes/eyeball_l_color.png",
+      "sourceMaterial": "materials/models/character/npc/common/hustler/eyeball_l.vmt",
+      "baseTexture": "models/character/eyes/Eyeball",
+      "irisTexture": "models/character/eyes/blue_dark",
+      "source": {
+        "path": "materials/models/character/npc/common/hustler/eyeball_l.vmt",
+        "source": "Vampire/pack003.vpk:materials/models/character/npc/common/hustler/eyeball_l.vmt",
+        "bytes": 105,
+        "sha256": "8b3f8bc6e04a4a25a9dad4b2a3441402c5fd91530e1130a80cf53d1550eae388"
+      },
+      "gaze": "neutral_baked"
+    },
+    "eyeball_r": {
+      "triangles": 40,
+      "uvPixels": 202452,
+      "irisPixels": 23362,
+      "material": "models/character/npc/common/hustler/asylum_eyes/eyeball_r.vmat",
+      "color": "models/character/npc/common/hustler/asylum_eyes/eyeball_r_color.png",
+      "sourceMaterial": "materials/models/character/npc/common/hustler/eyeball_r.vmt",
+      "baseTexture": "models/character/eyes/eyeball",
+      "irisTexture": "models/character/eyes/blue_dark",
+      "source": {
+        "path": "materials/models/character/npc/common/hustler/eyeball_r.vmt",
+        "source": "Vampire/pack003.vpk:materials/models/character/npc/common/hustler/eyeball_r.vmt",
+        "bytes": 105,
+        "sha256": "a8660f0771a5299abad6acdf33bfe168cbcb67815014ca2a0bd1976e2ecacfd1"
+      },
+      "gaze": "neutral_baked"
+    }
+  },
+  "models/character/npc/common/raver/females/female_raver_1/female_raver_1.vmdl": {
+    "eyeball_l": {
+      "triangles": 40,
+      "uvPixels": 202452,
+      "irisPixels": 30837,
+      "material": "models/character/npc/common/raver/females/female_raver_1/asylum_eyes/eyeball_l.vmat",
+      "color": "models/character/npc/common/raver/females/female_raver_1/asylum_eyes/eyeball_l_color.png",
+      "sourceMaterial": "materials/models/character/npc/common/raver/females/female_raver_1/eyeball_l.vmt",
+      "baseTexture": "models/character/eyes/eyeball",
+      "irisTexture": "models/character/eyes/Grey_Green",
+      "source": {
+        "path": "materials/models/character/npc/common/raver/females/female_raver_1/eyeball_l.vmt",
+        "source": "Unofficial_Patch/materials/models/character/npc/common/raver/females/female_raver_1/eyeball_l.vmt",
+        "bytes": 106,
+        "sha256": "5c0aba2755541bb8b4782e8d4f9b47bb30b3b7001f1400de3818f3b67b18aa5f"
+      },
+      "gaze": "neutral_baked"
+    },
+    "eyeball_r": {
+      "triangles": 40,
+      "uvPixels": 202452,
+      "irisPixels": 30843,
+      "material": "models/character/npc/common/raver/females/female_raver_1/asylum_eyes/eyeball_r.vmat",
+      "color": "models/character/npc/common/raver/females/female_raver_1/asylum_eyes/eyeball_r_color.png",
+      "sourceMaterial": "materials/models/character/npc/common/raver/females/female_raver_1/eyeball_r.vmt",
+      "baseTexture": "models/character/eyes/eyeball",
+      "irisTexture": "models/character/eyes/Grey_Green",
+      "source": {
+        "path": "materials/models/character/npc/common/raver/females/female_raver_1/eyeball_r.vmt",
+        "source": "Unofficial_Patch/materials/models/character/npc/common/raver/females/female_raver_1/eyeball_r.vmt",
+        "bytes": 106,
+        "sha256": "5c0aba2755541bb8b4782e8d4f9b47bb30b3b7001f1400de3818f3b67b18aa5f"
+      },
+      "gaze": "neutral_baked"
+    }
+  },
+  "models/character/npc/common/security_guard/security_guard.vmdl": {
+    "eyeball_l": {
+      "triangles": 40,
+      "uvPixels": 202452,
+      "irisPixels": 34467,
+      "material": "models/character/npc/common/security_guard/asylum_eyes/eyeball_l.vmat",
+      "color": "models/character/npc/common/security_guard/asylum_eyes/eyeball_l_color.png",
+      "sourceMaterial": "materials/models/character/npc/common/security_guard/eyeball_l.vmt",
+      "baseTexture": "models/character/eyes/Eyeball",
+      "irisTexture": "models/character/eyes/blue_med",
+      "source": {
+        "path": "materials/models/character/npc/common/security_guard/eyeball_l.vmt",
+        "source": "Unofficial_Patch/materials/models/character/npc/common/security_guard/eyeball_l.vmt",
+        "bytes": 104,
+        "sha256": "9b5c8da072ccf008a46f0f99d5eb7ba3fbf67316daa96515c21527e24998fc7e"
+      },
+      "gaze": "neutral_baked"
+    },
+    "eyeball_r": {
+      "triangles": 40,
+      "uvPixels": 202452,
+      "irisPixels": 34479,
+      "material": "models/character/npc/common/security_guard/asylum_eyes/eyeball_r.vmat",
+      "color": "models/character/npc/common/security_guard/asylum_eyes/eyeball_r_color.png",
+      "sourceMaterial": "materials/models/character/npc/common/security_guard/eyeball_r.vmt",
+      "baseTexture": "models/character/eyes/eyeball",
+      "irisTexture": "models/character/eyes/blue_med",
+      "source": {
+        "path": "materials/models/character/npc/common/security_guard/eyeball_r.vmt",
+        "source": "Unofficial_Patch/materials/models/character/npc/common/security_guard/eyeball_r.vmt",
+        "bytes": 104,
+        "sha256": "0a966418c7d99bcd52a2feadf0d5cbe5b925f4213c3798bcdfffe39e3fd2cd3e"
+      },
+      "gaze": "neutral_baked"
+    }
+  },
+  "models/character/npc/unique/santa_monica/cal/cal.vmdl": {
+    "eyeball_l": {
+      "triangles": 40,
+      "uvPixels": 202452,
+      "irisPixels": 37291,
+      "material": "models/character/npc/unique/santa_monica/cal/asylum_eyes/eyeball_l.vmat",
+      "color": "models/character/npc/unique/santa_monica/cal/asylum_eyes/eyeball_l_color.png",
+      "sourceMaterial": "materials/models/character/npc/common/shopkeeper/shopkeeper_santa_monica_a/eyeball_l.vmt",
+      "baseTexture": "models/character/eyes/Eyeball",
+      "irisTexture": "models/character/eyes/blue_light",
+      "source": {
+        "path": "materials/models/character/npc/common/shopkeeper/shopkeeper_santa_monica_a/eyeball_l.vmt",
+        "source": "Vampire/pack003.vpk:materials/models/character/npc/common/shopkeeper/shopkeeper_santa_monica_a/eyeball_l.vmt",
+        "bytes": 106,
+        "sha256": "490bcfd326dd4c3b0701e762a3d2b3857080311a0f861eb02e16c8dd15675162"
+      },
+      "gaze": "neutral_baked"
+    },
+    "eyeball_r": {
+      "triangles": 40,
+      "uvPixels": 202452,
+      "irisPixels": 37301,
+      "material": "models/character/npc/unique/santa_monica/cal/asylum_eyes/eyeball_r.vmat",
+      "color": "models/character/npc/unique/santa_monica/cal/asylum_eyes/eyeball_r_color.png",
+      "sourceMaterial": "materials/models/character/npc/common/shopkeeper/shopkeeper_santa_monica_a/eyeball_r.vmt",
+      "baseTexture": "models/character/eyes/eyeball",
+      "irisTexture": "models/character/eyes/blue_light",
+      "source": {
+        "path": "materials/models/character/npc/common/shopkeeper/shopkeeper_santa_monica_a/eyeball_r.vmt",
+        "source": "Vampire/pack003.vpk:materials/models/character/npc/common/shopkeeper/shopkeeper_santa_monica_a/eyeball_r.vmt",
+        "bytes": 106,
+        "sha256": "10180341acc856fbd3f6f329665eeca2fce710014106697905364de7b6c2a759"
+      },
+      "gaze": "neutral_baked"
+    }
+  },
+  "models/character/npc/unique/santa_monica/danielle/danielle.vmdl": {
+    "eyeball_l": {
+      "triangles": 40,
+      "uvPixels": 202452,
+      "irisPixels": 40860,
+      "material": "models/character/npc/unique/santa_monica/danielle/asylum_eyes/eyeball_l.vmat",
+      "color": "models/character/npc/unique/santa_monica/danielle/asylum_eyes/eyeball_l_color.png",
+      "sourceMaterial": "materials/models/character/npc/unique/santa_monica/danielle/eyeball_l.vmt",
+      "baseTexture": "models/character/eyes/Eyeball",
+      "irisTexture": "models/character/eyes/green_med",
+      "source": {
+        "path": "materials/models/character/npc/unique/santa_monica/danielle/eyeball_l.vmt",
+        "source": "Vampire/pack003.vpk:materials/models/character/npc/unique/santa_monica/danielle/eyeball_l.vmt",
+        "bytes": 105,
+        "sha256": "198ecd27e58583d7e7c787a441b264097a066f60ddfa9e711163100a4e21b9b0"
+      },
+      "gaze": "neutral_baked"
+    },
+    "eyeball_r": {
+      "triangles": 40,
+      "uvPixels": 202452,
+      "irisPixels": 40848,
+      "material": "models/character/npc/unique/santa_monica/danielle/asylum_eyes/eyeball_r.vmat",
+      "color": "models/character/npc/unique/santa_monica/danielle/asylum_eyes/eyeball_r_color.png",
+      "sourceMaterial": "materials/models/character/npc/unique/santa_monica/danielle/eyeball_r.vmt",
+      "baseTexture": "models/character/eyes/eyeball",
+      "irisTexture": "models/character/eyes/green_med",
+      "source": {
+        "path": "materials/models/character/npc/unique/santa_monica/danielle/eyeball_r.vmt",
+        "source": "Vampire/pack003.vpk:materials/models/character/npc/unique/santa_monica/danielle/eyeball_r.vmt",
+        "bytes": 105,
+        "sha256": "d2c719c782610ce46f43637ffd2a7a617bb9c55f645249628131836591c398e2"
+      },
+      "gaze": "neutral_baked"
+    }
+  },
+  "models/character/npc/unique/santa_monica/jeanette/jeanette.vmdl": {
+    "eyeball_l": {
+      "triangles": 36,
+      "uvPixels": 62530,
+      "irisPixels": 39585,
+      "material": "models/character/npc/unique/santa_monica/jeanette/asylum_eyes/eyeball_l.vmat",
+      "color": "models/character/npc/unique/santa_monica/jeanette/asylum_eyes/eyeball_l_color.png",
+      "sourceMaterial": "materials/models/character/npc/unique/santa_monica/jeanette/eyeball_l.vmt",
+      "baseTexture": "models/character/eyes/eyeball2",
+      "irisTexture": "models/character/eyes/hazel_green",
+      "source": {
+        "path": "materials/models/character/npc/unique/santa_monica/jeanette/eyeball_l.vmt",
+        "source": "Vampire/pack003.vpk:materials/models/character/npc/unique/santa_monica/jeanette/eyeball_l.vmt",
+        "bytes": 110,
+        "sha256": "5d0f3415107ba73b4e39ea4bb31779250dc6d4318b455a9411688e9cef404845"
+      },
+      "gaze": "neutral_baked"
+    },
+    "eyeball_r": {
+      "triangles": 36,
+      "uvPixels": 62530,
+      "irisPixels": 39494,
+      "material": "models/character/npc/unique/santa_monica/jeanette/asylum_eyes/eyeball_r.vmat",
+      "color": "models/character/npc/unique/santa_monica/jeanette/asylum_eyes/eyeball_r_color.png",
+      "sourceMaterial": "materials/models/character/npc/unique/santa_monica/jeanette/eyeball_r.vmt",
+      "baseTexture": "models/character/eyes/eyeball2",
+      "irisTexture": "models/character/eyes/prince",
+      "source": {
+        "path": "materials/models/character/npc/unique/santa_monica/jeanette/eyeball_r.vmt",
+        "source": "Vampire/pack003.vpk:materials/models/character/npc/unique/santa_monica/jeanette/eyeball_r.vmt",
+        "bytes": 105,
+        "sha256": "be44bd5d529c85e4c1c70149e38fb67385e725a75bcc411429044089aa720cf6"
+      },
+      "gaze": "neutral_baked"
+    }
+  },
+  "models/character/npc/unique/santa_monica/knox/knox.vmdl": {
+    "eyeball_l": {
+      "triangles": 40,
+      "uvPixels": 202452,
+      "irisPixels": 37294,
+      "material": "models/character/npc/unique/santa_monica/knox/asylum_eyes/eyeball_l.vmat",
+      "color": "models/character/npc/unique/santa_monica/knox/asylum_eyes/eyeball_l_color.png",
+      "sourceMaterial": "materials/models/character/npc/unique/santa_monica/knox/eyeball_l.vmt",
+      "baseTexture": "models/character/eyes/Eyeball",
+      "irisTexture": "models/character/eyes/hazel",
+      "source": {
+        "path": "materials/models/character/npc/unique/santa_monica/knox/eyeball_l.vmt",
+        "source": "Vampire/pack002.vpk:materials/models/character/npc/unique/santa_monica/knox/eyeball_l.vmt",
+        "bytes": 101,
+        "sha256": "3d5b4877b7b28d0ba6ac92f357ecb84f513d6580cbe25ad53910b6c1e27d196f"
+      },
+      "gaze": "neutral_baked"
+    },
+    "eyeball_r": {
+      "triangles": 40,
+      "uvPixels": 202452,
+      "irisPixels": 37282,
+      "material": "models/character/npc/unique/santa_monica/knox/asylum_eyes/eyeball_r.vmat",
+      "color": "models/character/npc/unique/santa_monica/knox/asylum_eyes/eyeball_r_color.png",
+      "sourceMaterial": "materials/models/character/npc/unique/santa_monica/knox/eyeball_r.vmt",
+      "baseTexture": "models/character/eyes/eyeball",
+      "irisTexture": "models/character/eyes/hazel",
+      "source": {
+        "path": "materials/models/character/npc/unique/santa_monica/knox/eyeball_r.vmt",
+        "source": "Vampire/pack002.vpk:materials/models/character/npc/unique/santa_monica/knox/eyeball_r.vmt",
+        "bytes": 101,
+        "sha256": "c6faf917522626f9d5df298e3e02d0d96468243bb7ed49fed30dd2fdfb5232e6"
+      },
+      "gaze": "neutral_baked"
+    }
+  },
+  "models/character/npc/unique/santa_monica/therese/therese.vmdl": {
+    "eyeball_l": {
+      "triangles": 36,
+      "uvPixels": 62530,
+      "irisPixels": 39074,
+      "material": "models/character/npc/unique/santa_monica/therese/asylum_eyes/eyeball_l.vmat",
+      "color": "models/character/npc/unique/santa_monica/therese/asylum_eyes/eyeball_l_color.png",
+      "sourceMaterial": "materials/models/character/npc/unique/santa_monica/therese/eyeball_l.vmt",
+      "baseTexture": "models/character/eyes/eyeball2",
+      "irisTexture": "models/character/eyes/prince",
+      "source": {
+        "path": "materials/models/character/npc/unique/santa_monica/therese/eyeball_l.vmt",
+        "source": "Vampire/pack001.vpk:materials/models/character/npc/unique/santa_monica/therese/eyeball_l.vmt",
+        "bytes": 105,
+        "sha256": "be44bd5d529c85e4c1c70149e38fb67385e725a75bcc411429044089aa720cf6"
+      },
+      "gaze": "neutral_baked"
+    },
+    "eyeball_r": {
+      "triangles": 36,
+      "uvPixels": 62530,
+      "irisPixels": 39146,
+      "material": "models/character/npc/unique/santa_monica/therese/asylum_eyes/eyeball_r.vmat",
+      "color": "models/character/npc/unique/santa_monica/therese/asylum_eyes/eyeball_r_color.png",
+      "sourceMaterial": "materials/models/character/npc/unique/santa_monica/therese/eyeball_r.vmt",
+      "baseTexture": "models/character/eyes/eyeball2",
+      "irisTexture": "models/character/eyes/prince",
+      "source": {
+        "path": "materials/models/character/npc/unique/santa_monica/therese/eyeball_r.vmt",
+        "source": "Vampire/pack001.vpk:materials/models/character/npc/unique/santa_monica/therese/eyeball_r.vmt",
+        "bytes": 105,
+        "sha256": "be44bd5d529c85e4c1c70149e38fb67385e725a75bcc411429044089aa720cf6"
+      },
+      "gaze": "neutral_baked"
+    }
+  },
+  "models/character/npc/unique/santa_monica/tourette/tourette.vmdl": {
+    "eyeball_l": {
+      "triangles": 36,
+      "uvPixels": 62530,
+      "irisPixels": 39074,
+      "material": "models/character/npc/unique/santa_monica/tourette/asylum_eyes/eyeball_l.vmat",
+      "color": "models/character/npc/unique/santa_monica/tourette/asylum_eyes/eyeball_l_color.png",
+      "sourceMaterial": "materials/models/character/npc/unique/santa_monica/tourette/eyeball_l.vmt",
+      "baseTexture": "models/character/eyes/eyeball",
+      "irisTexture": "models/character/eyes/hazel_green",
+      "source": {
+        "path": "materials/models/character/npc/unique/santa_monica/tourette/eyeball_l.vmt",
+        "source": "Vampire/pack003.vpk:materials/models/character/npc/unique/santa_monica/tourette/eyeball_l.vmt",
+        "bytes": 109,
+        "sha256": "e376d9f08f374a34d275d77275fe6116215246076be4c97be6836b1716334393"
+      },
+      "gaze": "neutral_baked"
+    },
+    "eyeball_r": {
+      "triangles": 36,
+      "uvPixels": 62530,
+      "irisPixels": 39146,
+      "material": "models/character/npc/unique/santa_monica/tourette/asylum_eyes/eyeball_r.vmat",
+      "color": "models/character/npc/unique/santa_monica/tourette/asylum_eyes/eyeball_r_color.png",
+      "sourceMaterial": "materials/models/character/npc/unique/santa_monica/tourette/eyeball_r.vmt",
+      "baseTexture": "models/character/eyes/eyeball",
+      "irisTexture": "models/character/eyes/prince",
+      "source": {
+        "path": "materials/models/character/npc/unique/santa_monica/tourette/eyeball_r.vmt",
+        "source": "Vampire/pack003.vpk:materials/models/character/npc/unique/santa_monica/tourette/eyeball_r.vmt",
+        "bytes": 104,
+        "sha256": "96fa2b6d60d6d13bdf88aae0c0cacc0ac6a753314b1248dd9501bc99aac0bda1"
+      },
+      "gaze": "neutral_baked"
+    }
+  }
+}

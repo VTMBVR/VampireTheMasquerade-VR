@@ -1,0 +1,155 @@
+"""Build the imported Asylum performance library without launching the game."""
+import argparse
+import json
+from pathlib import Path
+import re
+import subprocess
+
+from bloodlines_assets import write_json
+from build_jeanette_face import lua
+from alyx_sdk import compiled_relative, install_manifest_alias, resolve_addon, sync_scripts
+
+
+def generate(checkout):
+    source = checkout/'scripts/dialogue/asylum'
+    manifest = json.loads((source/'manifest.json').read_text(encoding='utf8'))
+    modules = checkout/'scripts/vscripts/asylum_data'
+    modules.mkdir(parents=True, exist_ok=True)
+    audit = {'characters': {}, 'runtimeWarnings': [],
+             'sourceDialogueRuntimeAvailable':(source/'dialogue_runtime.json').is_file(),
+             'campaignWorldEffectsComplete':False,
+             'nativePlaybackVerified': False}
+    prepared=source/'model_preparation.json'
+    preparation=json.loads(prepared.read_text(encoding='utf8')) if prepared.exists() else {}
+    location_file=source/'location.json'
+    location=json.loads(location_file.read_text(encoding='utf8')) if location_file.exists() else {}
+    for character in manifest['characters']:
+        catalog = json.loads((source/'characters'/(character+'.json')).read_text(encoding='utf8'))
+        raw = json.loads((source/'performances'/(character+'.json')).read_text(encoding='utf8'))
+        model = raw['model']
+        lines = {}
+        for identifier, record in raw['lines'].items():
+            if not record.get('audio'):
+                continue
+            phonemes = []
+            for i, event in enumerate(record.get('lip', {}).get('phonemes', [])):
+                reason = None
+                if event['end'] <= event['start'] or event['intensity'] < 0:
+                    reason = 'invalid_original_interval'
+                elif str(event['code']) not in model['phonemePoses']:
+                    reason = 'missing_original_phoneme_pose'
+                elif event['start'] >= record['duration']:
+                    reason = 'outside_voice_duration'
+                if reason:
+                    audit['runtimeWarnings'].append({'character': character, 'performance': identifier,
+                                                     'phoneme': i, 'reason': reason})
+                else:
+                    phonemes.append([event['start'], min(event['end'], record['duration']),
+                                     str(event['code']), event['intensity']])
+            phonemes.sort(key=lambda e: e[0])
+            expressions = []
+            body = []
+            timeline=[]
+            for event in record.get('choreography', {}).get('events', []):
+                if event['type'] == 'expression':
+                    fields = event['fields']
+                    label = fields.get('param2', [''])[0]
+                    if label not in model['expressionPoses']:
+                        audit['runtimeWarnings'].append({'character': character, 'performance': identifier,
+                                                         'expression': label, 'reason': 'missing_original_expression_pose'})
+                        continue
+                    points = []
+                    for child in event['tree']:
+                        if child['header'][0] == 'event_ramp':
+                            points = [[float(v) for v in p['header'][:2]] for p in child['items']]
+                    expressions.append({'start': event['start'], 'finish': event['end'],
+                                        'pose': label, 'ramp': points})
+                elif event['type'] in ('gesture', 'sequence'):
+                    body.append(event)
+                elif event['type']=='python':
+                    command=event['fields'].get('param',[''])[0]
+                    if command=='touretteMuzzleFlash()':
+                        timeline.append({'start':event['start'],'kind':'world','name':'sisters_muzzle_flash'})
+                    else:
+                        audit['runtimeWarnings'].append({'character':character,'performance':identifier,
+                            'command':command,'reason':'unhandled_source_scene_callback'})
+                elif event['type']=='speak':
+                    path=event['fields'].get('param',[''])[0].replace('\\','/').lower()
+                    if path=='weapons/ranged/anaconda/attack_1.wav':
+                        cue=location.get('sounds',{}).get('sistersGunshot')
+                        if not cue:raise ValueError('Prepare location sound cues before building performances')
+                        timeline.append({'start':event['start'],'kind':'sound','sound':cue['sound']})
+            lines[identifier] = {'id': record['line'], 'sound': record['sound'],
+                                 'duration': record['duration'], 'phonemes': phonemes,
+                                 'expressions': expressions, 'bodyEvents': body,
+                                 'sceneDuration':max([record['duration']]+[event['end'] for event in body]),
+                                 'timelineEvents':sorted(timeline,key=lambda e:e['start'])}
+        names = [re.sub('[^A-Za-z0-9]', '', f['name'])+'Frame'+str(i)
+                 for i, f in enumerate(model['frames'], 1)]
+        data = {'character': character, 'sourceModel': model['model'], 'faceControllers': names,
+                'faceParameters': ['dialogue_face_%02d' % i for i in range(1, len(names)+1)],
+                'phonemePoses': model['phonemePoses'], 'expressionPoses': model['expressionPoses'],
+                'neutral': model['neutral'], 'blink': model['blink'], 'lines': lines,
+                'dialogue': catalog}
+        data['bodyBindings']=preparation.get(character,{}).get('bodyBindings',{})
+        data['sceneBindings']=preparation.get(character,{}).get('sceneBindings',{})
+        (modules/(character+'.lua')).write_text('-- Generated voice, facial and body performance data.\nreturn '+lua(data)+'\n', encoding='utf8')
+        audit['characters'][character] = {'voicedPerformances': len(lines),
+                                          'runtimePhonemes': sum(len(p['phonemes']) for p in lines.values()),
+                                          'expressionEvents': sum(len(p['expressions']) for p in lines.values()),
+                                          'bodyEvents': sum(len(p['bodyEvents']) for p in lines.values()),
+                                          'unresolvedDialogueTargets': catalog['unresolvedTargets']}
+    write_json(source/'runtime-audit.json', audit)
+    return manifest, audit
+
+
+def compile_assets(checkout, sdk, addon, log_path):
+    paths = resolve_addon(sdk, checkout, addon)
+    source, runtime = paths.source, paths.runtime
+    print('Building SDK addon: '+paths.name, flush=True)
+    manifest = json.loads((checkout/'scripts/dialogue/asylum/manifest.json').read_text(encoding='utf8'))
+    resources = [a['audio'] for a in manifest['audio']]+['soundevents/vtmbvr_asylum.vsndevts',
+                                                        'resourcemanifests/vtmbvr_addon_resources.vrman']
+    if not resources:
+        raise ValueError('No imported resources')
+    list_file = log_path.with_suffix('.inputs.txt')
+    list_file.write_text('\n'.join(str(source/r) for r in resources)+'\n', encoding='utf8')
+    before = {r: (runtime/compiled_relative(r)).stat().st_mtime_ns
+              if (runtime/compiled_relative(r)).exists() else None
+              for r in resources}
+    with log_path.open('w', encoding='utf8') as stream:
+        result = subprocess.run([str(paths.compiler), '-filelist', str(list_file),
+                                 '-game', str(sdk/'game/hlvr'), '-nop4', '-f'],
+                                stdout=stream, stderr=subprocess.STDOUT,
+                                creationflags=getattr(subprocess, 'CREATE_NO_WINDOW', 0))
+    report = log_path.read_text(encoding='utf8', errors='replace')
+    failures = []
+    for r in resources:
+        target = runtime/compiled_relative(r)
+        if not target.is_file() or target.stat().st_size == 0 or target.stat().st_mtime_ns == before[r]:
+            failures.append(r)
+    if result.returncode or '0 failed' not in report or failures:
+        raise RuntimeError('Native resource build failed; inspect '+str(log_path)+'; missing/stale '+str(failures[:10]))
+    install_manifest_alias(paths)
+    print('Scripts installed: '+str(sync_scripts(paths)), flush=True)
+    return len(resources)
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--output-root', type=Path, default=Path(__file__).resolve().parents[1])
+    parser.add_argument('--alyx-root', type=Path)
+    parser.add_argument('--addon', help='SDK addon folder; detected from the checkout when omitted')
+    parser.add_argument('--compile-log', type=Path)
+    args = parser.parse_args()
+    manifest, audit = generate(args.output_root)
+    print('Generated '+str(len(audit['characters']))+' performance modules; warnings retained in runtime-audit.json', flush=True)
+    if args.alyx_root:
+        if not args.compile_log:
+            parser.error('--compile-log is required when compiling')
+        count = compile_assets(args.output_root, args.alyx_root, args.addon, args.compile_log)
+        print('Compiled '+str(count)+' native resources', flush=True)
+
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,230 @@
+{
+  "speaker": "ЖАНЕТТ",
+  "start": "welcome",
+  "faceTuning": {
+    "smoothAttack": 0.005,
+    "expressionGain": 0.03,
+    "jawGain": 0.81,
+    "smoothRelease": 0.005,
+    "speechGain": 0.1,
+    "expressionFade": 0.05
+  },
+  "nodes": {
+    "welcome": {
+      "text": "Привет, котёнок.",
+      "answers": [
+        {
+          "text": "Как найти галерею?",
+          "next": "club"
+        },
+        {
+          "text": "Как идут дела в городе?",
+          "next": "looking"
+        },
+        {
+          "text": "Тебе скучно? Может, сыграем во что-нибудь?",
+          "next": "dance"
+        },
+        {
+          "text": "Я пойду к галерее. Что-нибудь ещё?",
+          "next": "goodbye"
+        }
+      ],
+      "animation": "waveover01",
+      "audio": "sounds/dialogue/jeanette/line701_col_e.wav",
+      "sourceLine": 701,
+      "expression": {
+        "right_outer_raiser": 0.18,
+        "left_outer_raiser": 0.18,
+        "right_cheek_raiser": 0.08,
+        "left_cheek_raiser": 0.08
+      }
+    },
+    "club": {
+      "text": "Мне нарисовать тебе карту? Галерея прямо вниз по улице.",
+      "answers": [
+        {
+          "text": "Знаешь, думаю, мы с тобой поладим.",
+          "next": "owner"
+        },
+        {
+          "text": "Нелепый у нас мир.",
+          "next": "rules"
+        },
+        {
+          "text": "У меня другой вопрос.",
+          "next": "welcome"
+        },
+        {
+          "text": "Хорошо, пойду взгляну на картины.",
+          "next": "goodbye"
+        }
+      ],
+      "animation": "party_talk_idle1",
+      "audio": "sounds/dialogue/jeanette/line551_col_e.wav",
+      "sourceLine": 551,
+      "expression": {
+        "right_inner_raiser": 0.12,
+        "left_inner_raiser": 0.12,
+        "right_outer_raiser": 0.12,
+        "left_outer_raiser": 0.12
+      }
+    },
+    "looking": {
+      "text": "Прилив уходит, прилив приходит — и снова машет на прощание. Мне понадобится несколько лет, чтобы разбудить этот город.",
+      "answers": [
+        {
+          "text": "Неужели здесь всё настолько мрачно?",
+          "next": "guests"
+        },
+        {
+          "text": "Ты всё равно прекрасна.",
+          "next": "secrets"
+        },
+        {
+          "text": "Вернёмся к началу.",
+          "next": "welcome"
+        },
+        {
+          "text": "Загляну в галерею. Что-то ещё?",
+          "next": "goodbye"
+        }
+      ],
+      "animation": "ArmsCrossed_Idle",
+      "audio": "sounds/dialogue/jeanette/line491_col_e.wav",
+      "sourceLine": 491,
+      "expression": {
+        "right_inner_raiser": 0.32,
+        "left_inner_raiser": 0.32,
+        "right_lowerer": 0.1,
+        "left_lowerer": 0.1
+      }
+    },
+    "dance": {
+      "text": "О, милый, в последнее время — отчаянно. Я всего лишь одинокая девочка в дождливый день. Знаешь игры, в которые мы могли бы сыграть?",
+      "answers": [
+        {
+          "text": "Может, просто потанцуем?",
+          "next": "challenge"
+        },
+        {
+          "text": "Лучше расскажи, где галерея.",
+          "next": "club"
+        },
+        {
+          "text": "У меня есть другой вопрос.",
+          "next": "welcome"
+        },
+        {
+          "text": "Сначала схожу в галерею.",
+          "next": "goodbye"
+        }
+      ],
+      "animation": "dance01",
+      "audio": "sounds/dialogue/jeanette/line511_col_e.wav",
+      "sourceLine": 511,
+      "expression": {
+        "right_outer_raiser": 0.25,
+        "left_outer_raiser": 0.25,
+        "right_cheek_raiser": 0.14,
+        "left_cheek_raiser": 0.14
+      }
+    },
+    "owner": {
+      "text": "[Смеётся.] Чувствую, мы с тобой поладим — прямо как пожарные шланги.",
+      "answers": "back",
+      "animation": "ArmsCrossed_Fidget",
+      "audio": "sounds/dialogue/jeanette/line21_col_e.wav",
+      "sourceLine": 21,
+      "expression": {
+        "right_outer_raiser": 0.32,
+        "left_outer_raiser": 0.12
+      }
+    },
+    "rules": {
+      "text": "Весь мир такой, но мы всё равно продолжаем кататься на этой залитой лунным светом карусели.",
+      "answers": "back",
+      "animation": "fidget01",
+      "audio": "sounds/dialogue/jeanette/line61_col_e.wav",
+      "sourceLine": 61,
+      "expression": {
+        "right_lowerer": 0.22,
+        "left_lowerer": 0.22
+      }
+    },
+    "guests": {
+      "text": "Внутри мы все — мёртвое мясо, котёнок.",
+      "answers": "back",
+      "animation": "party_talk_idle1",
+      "audio": "sounds/dialogue/jeanette/line591_col_e.wav",
+      "sourceLine": 591,
+      "expression": {
+        "right_inner_raiser": 0.18,
+        "left_inner_raiser": 0.18,
+        "right_outer_raiser": 0.06,
+        "left_outer_raiser": 0.06
+      }
+    },
+    "secrets": {
+      "text": "Банально и предсказуемо. Но можешь повторять это когда угодно — я буду делать вид, что ты первый и единственный.",
+      "answers": "back",
+      "animation": "party_laugh",
+      "audio": "sounds/dialogue/jeanette/line201_col_e.wav",
+      "sourceLine": 201,
+      "expression": {
+        "right_outer_raiser": 0.18,
+        "left_outer_raiser": 0.18,
+        "right_cheek_raiser": 0.16,
+        "left_cheek_raiser": 0.16
+      }
+    },
+    "challenge": {
+      "text": "Подумай ещё — и погрязнее.",
+      "answers": "back",
+      "animation": "dance02",
+      "audio": "sounds/dialogue/jeanette/line521_col_e.wav",
+      "sourceLine": 521,
+      "expression": {
+        "right_outer_raiser": 0.3,
+        "left_outer_raiser": 0.08,
+        "right_cheek_raiser": 0.12,
+        "left_cheek_raiser": 0.12
+      }
+    },
+    "goodbye": {
+      "text": "М-м, и ещё что-то было насчёт картин... Что же это было?.. Не помню. Ну ладно, развлекайся, утёнок!",
+      "answers": [],
+      "animation": "waveover02",
+      "audio": "sounds/dialogue/jeanette/line811_col_e.wav",
+      "sourceLine": 811,
+      "expression": {
+        "right_inner_raiser": 0.14,
+        "left_inner_raiser": 0.14,
+        "right_outer_raiser": 0.14,
+        "left_outer_raiser": 0.14
+      }
+    }
+  },
+  "backAnswers": [
+    {
+      "text": "Так где находится галерея?",
+      "next": "club"
+    },
+    {
+      "text": "Как там наш город?",
+      "next": "looking"
+    },
+    {
+      "text": "У меня другой вопрос.",
+      "next": "welcome"
+    },
+    {
+      "text": "Пойду к галерее. Что-нибудь ещё?",
+      "next": "goodbye"
+    }
+  ],
+  "actor": "npc_vampire_jeanete",
+  "interactDistance": 100,
+  "voiceSource": "Original Vampire: The Masquerade - Bloodlines Jeanette recordings, English audio with Russian subtitles",
+  "faceShapeGains": {}
+}

@@ -1,0 +1,6 @@
+Layer0
+{
+	F_MORPH_SUPPORTED "1"
+shader "vr_complex.vfx"
+TextureColor "models/character/npc/unique/santa_monica/tourette/dialogue_materials/tourette_face_color.png"
+}

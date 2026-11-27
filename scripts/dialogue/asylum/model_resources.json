@@ -1,0 +1,16 @@
+[
+  "animgraphs/cal_dialogue.vanmgrph",
+  "animgraphs/chunk_dialogue.vanmgrph",
+  "animgraphs/danielle_dialogue.vanmgrph",
+  "animgraphs/doll1_dialogue.vanmgrph",
+  "animgraphs/knox_dialogue.vanmgrph",
+  "animgraphs/therese_dialogue.vanmgrph",
+  "animgraphs/tourette_dialogue.vanmgrph",
+  "models/character/npc/common/blood_doll/bd_asylum/blood_dollasylum.vmdl",
+  "models/character/npc/common/security_guard/security_guard.vmdl",
+  "models/character/npc/unique/santa_monica/cal/cal.vmdl",
+  "models/character/npc/unique/santa_monica/danielle/danielle.vmdl",
+  "models/character/npc/unique/santa_monica/knox/knox.vmdl",
+  "models/character/npc/unique/santa_monica/therese/therese.vmdl",
+  "models/character/npc/unique/santa_monica/tourette/tourette.vmdl"
+]

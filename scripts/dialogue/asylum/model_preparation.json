@@ -1,0 +1,284 @@
+{
+  "doll1": {
+    "vertices": 1979,
+    "triangles": 2999,
+    "bones": 88,
+    "mappedFaceVertices": 1979,
+    "maxMappingDistance": 5.014881875840466e-08,
+    "morphs": 53,
+    "materials": {
+      "blooddollheadasylum": 2093,
+      "mouth": 52,
+      "upperteeth": 279,
+      "molar": 300,
+      "lowerteeth": 237,
+      "tongue": 38
+    },
+    "model": "models/character/npc/common/blood_doll/bd_asylum/blood_dollasylum.vmdl",
+    "gender": "female",
+    "bodyBindings": {},
+    "sceneBindings": {
+      "idle01": 1,
+      "doorknock": 2,
+      "SM_Huddle": 3,
+      "hunt_walk": 4
+    },
+    "missingBodyClips": [],
+    "status": "prepared_not_native_tested"
+  },
+  "cal": {
+    "vertices": 1884,
+    "triangles": 2996,
+    "bones": 82,
+    "mappedFaceVertices": 1884,
+    "maxMappingDistance": 5.015484949470585e-08,
+    "morphs": 53,
+    "materials": {
+      "ShopSMAHead": 2083,
+      "Mouth": 59,
+      "upperteeth": 279,
+      "molar": 300,
+      "lowerteeth": 237,
+      "tongue": 38
+    },
+    "model": "models/character/npc/unique/santa_monica/cal/cal.vmdl",
+    "gender": "male",
+    "bodyBindings": {
+      "dialog_line101_Col_E": 1,
+      "dialog_line111_Col_E": 2,
+      "dialog_line11_Col_E": 3,
+      "dialog_line121_Col_E": 4,
+      "dialog_line131_Col_E": 5,
+      "dialog_line141_Col_E": 6,
+      "dialog_line151_Col_E": 7,
+      "dialog_line1_Col_E": 8,
+      "dialog_line31_Col_E": 9,
+      "dialog_line41_Col_E": 10,
+      "dialog_line41_Col_F": 11,
+      "dialog_line51_Col_E": 12,
+      "dialog_line55_Col_E": 13,
+      "dialog_line61_Col_E": 14,
+      "dialog_line81_Col_E": 15,
+      "dialog_line91_Col_E": 16
+    },
+    "sceneBindings": {
+      "idle01": 1,
+      "doorknock": 2,
+      "dialog_bar_idle01": 3,
+      "hunt_walk": 4
+    },
+    "missingBodyClips": [],
+    "status": "prepared_not_native_tested"
+  },
+  "chunk": {
+    "vertices": 1995,
+    "triangles": 3012,
+    "bones": 74,
+    "mappedFaceVertices": 1995,
+    "maxMappingDistance": 5.008522632117455e-08,
+    "morphs": 53,
+    "materials": {
+      "SecurityGuardHead": 2124,
+      "Mouth": 34,
+      "upperteeth": 279,
+      "molar": 300,
+      "tongue": 38,
+      "lowerteeth": 237
+    },
+    "model": "models/character/npc/common/security_guard/security_guard.vmdl",
+    "gender": "male",
+    "bodyBindings": {},
+    "sceneBindings": {
+      "idle01": 1,
+      "doorknock": 2,
+      "hunt_walk": 3
+    },
+    "missingBodyClips": [],
+    "status": "prepared_not_native_tested"
+  },
+  "danielle": {
+    "vertices": 1968,
+    "triangles": 3109,
+    "bones": 69,
+    "mappedFaceVertices": 1968,
+    "maxMappingDistance": 5.01966422602428e-08,
+    "morphs": 53,
+    "materials": {
+      "Danielle_Head": 2171,
+      "mouth": 84,
+      "upperteeth": 279,
+      "molar": 300,
+      "tongue": 38,
+      "lowerteeth": 237
+    },
+    "model": "models/character/npc/unique/santa_monica/danielle/danielle.vmdl",
+    "gender": "female",
+    "bodyBindings": {},
+    "sceneBindings": {
+      "idle01": 1,
+      "doorknock": 2,
+      "SM_Huddle": 3,
+      "hunt_walk": 4
+    },
+    "missingBodyClips": [],
+    "status": "prepared_not_native_tested"
+  },
+  "jeanette": {
+    "model": "models/character/npc/unique/santa_monica/jeanette/jeanette.vmdl",
+    "bodyBindings": {
+      "Jeanette_Line11_Col_E": 1,
+      "Jeanette_Line131_Col_E": 2,
+      "Jeanette_Line191_Col_E": 3,
+      "Jeanette_Line1_Col_E": 4,
+      "Jeanette_Line1_Col_F": 5,
+      "Jeanette_Line21_Col_E": 6,
+      "Jeanette_Line271_Col_E": 7,
+      "Jeanette_Line311_Col_E": 8,
+      "Jeanette_Line31_Col_E": 9,
+      "Jeanette_Line351_Col_E": 10,
+      "Jeanette_Line361_Col_E": 11,
+      "Jeanette_Line41_Col_E": 12,
+      "Jeanette_Line41_Col_F": 13,
+      "Jeanette_Line511_Col_E": 14,
+      "Jeanette_Line51_Col_E": 15,
+      "Jeanette_Line571_Col_E": 16,
+      "Jeanette_Line61_Col_E": 17,
+      "Jeanette_Line71_Col_E": 18,
+      "Jeanette_Line811_Col_E": 19,
+      "Jeanette_Line81_Col_E": 20,
+      "Jeanette_Line91_Col_E": 21
+    },
+    "sceneBindings": {
+      "idle01": 1,
+      "doorknock": 2,
+      "SM_Huddle": 3,
+      "hunt_walk": 4,
+      "dance01": 5,
+      "dance02": 6,
+      "dance03": 7,
+      "party_laugh": 8,
+      "ArmsCrossed_Idle": 9
+    },
+    "missingBodyClips": [
+      "Jeanette_Line211_Col_E"
+    ],
+    "status": "prepared_not_native_tested",
+    "meshPreserved": true
+  },
+  "knox": {
+    "vertices": 2057,
+    "triangles": 3143,
+    "bones": 72,
+    "mappedFaceVertices": 2057,
+    "maxMappingDistance": 5.0295486592072024e-08,
+    "morphs": 53,
+    "materials": {
+      "finalknoxhead": 2255,
+      "mouth": 34,
+      "upperteeth": 279,
+      "molar": 300,
+      "lowerteeth": 237,
+      "tongue": 38
+    },
+    "model": "models/character/npc/unique/santa_monica/knox/knox.vmdl",
+    "gender": "male",
+    "bodyBindings": {
+      "Knox_line101_col_E": 1,
+      "Knox_line111_col_E": 2,
+      "Knox_line131_col_E": 3,
+      "Knox_line141_col_E": 4,
+      "Knox_line51_col_E": 5,
+      "Knox_line51_col_F": 6,
+      "Knox_line551_col_E": 7,
+      "Knox_line611_col_E": 8,
+      "Knox_line61_col_E": 9,
+      "Knox_line621_col_E": 10,
+      "Knox_line921_col_E": 11
+    },
+    "sceneBindings": {
+      "idle01": 1,
+      "doorknock": 2,
+      "hunt_walk": 3
+    },
+    "missingBodyClips": [],
+    "status": "prepared_not_native_tested"
+  },
+  "therese": {
+    "vertices": 1982,
+    "triangles": 3066,
+    "bones": 79,
+    "mappedFaceVertices": 1982,
+    "maxMappingDistance": 5.0099426049554274e-08,
+    "morphs": 53,
+    "materials": {
+      "Therese_face": 2142,
+      "mouth": 70,
+      "upperteeth": 279,
+      "molar": 300,
+      "lowerteeth": 237,
+      "tongue": 38
+    },
+    "model": "models/character/npc/unique/santa_monica/therese/therese.vmdl",
+    "gender": "female",
+    "bodyBindings": {
+      "Therese_Line191_Col_E": 1,
+      "Therese_Line1_Col_E": 2,
+      "Therese_Line251_Col_E": 3,
+      "Therese_Line261_Col_E": 4,
+      "Therese_Line271_Col_E": 5,
+      "Therese_Line281_Col_E": 6,
+      "Therese_Line61_Col_E": 7,
+      "Therese_Line81_Col_E": 8
+    },
+    "sceneBindings": {
+      "idle01": 1,
+      "doorknock": 2,
+      "SM_Huddle": 3,
+      "hunt_walk": 4
+    },
+    "missingBodyClips": [],
+    "status": "prepared_not_native_tested"
+  },
+  "tourette": {
+    "vertices": 1980,
+    "triangles": 3066,
+    "bones": 83,
+    "mappedFaceVertices": 1980,
+    "maxMappingDistance": 5.0099426049554274e-08,
+    "morphs": 53,
+    "materials": {
+      "tourette_face": 2142,
+      "mouth": 70,
+      "upperteeth": 279,
+      "molar": 300,
+      "lowerteeth": 237,
+      "tongue": 38
+    },
+    "model": "models/character/npc/unique/santa_monica/tourette/tourette.vmdl",
+    "gender": "female",
+    "bodyBindings": {
+      "Tourette_Line11_Col_E": 1,
+      "Tourette_Line1_Col_E": 2,
+      "Tourette_ShootsHerself": 3
+    },
+    "sceneBindings": {
+      "idle01": 1,
+      "doorknock": 2,
+      "Tourette_intro_pre": 3,
+      "Tourette_intro": 4,
+      "Tourette_ShootsHerself": 5,
+      "malk_female_idle": 6,
+      "SM_Huddle": 7,
+      "hunt_walk": 8
+    },
+    "missingBodyClips": [],
+    "status": "prepared_not_native_tested",
+    "sharedGestureAliases": {
+      "malk_female_idle": {
+        "source": "models/character/shared/female/pc/ma.mdl",
+        "sequence": "Malk_Female_Idle2",
+        "reason": "legacy_gesture_name_absent_from_installed_sequences"
+      }
+    }
+  }
+}

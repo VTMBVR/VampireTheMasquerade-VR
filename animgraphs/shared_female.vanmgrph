@@ -4,6 +4,7 @@
 	m_pParameterList = {
 		_class = "CAnimParameterList"
 		m_Parameters = [
+{_class="CBoolAnimParameter" m_name = "source_walk" m_id={m_id=2400100001} m_bNetwork=true m_bUseMostRecentValue=false m_bAutoReset=false m_bPredicted=false m_defaultValue=false},
 			{
 				_class = "CBoolAnimParameter"
 				m_name = "scripted_playback"
@@ -653,6 +654,7 @@
 		"models/character/npc/unique/santa_monica/jeanette/jeanette.vmdl",
 	]
 	m_nodes = [
+{key={m_id=2400100002} value={_class="CSelectorAnimNode" m_sName="Supported arrival walk" m_nNodeID={m_id=2400100002} m_networkMode="ServerAuthoritative" m_vecPosition=[1400,1000] m_children=[{m_id=564353207},{m_id=142481039}] m_tags=[{m_id=4294967295},{m_id=4294967295}] m_selectionSource="SelectionSource_Bool" m_boolParamID={m_id=2400100001} m_enumParamID={m_id=4294967295} m_blendDuration=0.15 m_tagBehavior="SelectorTagBehavior_OffWhenFinished" m_bResetOnChange=true m_bSyncCyclesOnChange=false m_blendCurve={m_vControlPoint1=[0.5,0] m_vControlPoint2=[0.5,1]}}},
 		{
 			key = {
 				m_id = 44592127
@@ -691,7 +693,7 @@
 				}
 				m_networkMode = "ServerAuthoritative"
 				m_childID = {
-					m_id = 564353207
+					m_id = 2400100002
 				}
 			}
 		},
@@ -4854,6 +4856,37 @@
 					{
 						_class = "CAnimState"
 						m_transitions = [
+                            // Explicit cancellation also interrupts a looping ambient action.
+                            {
+								_class = "CAnimStateTransition"
+								m_conditions = [
+									{
+                                    _class = "CParameterAnimCondition"
+                                    m_comparisonOp = 0
+                                    m_paramID = { m_id = 211160001 }
+                                    m_comparisonValue = { m_nType = 1 m_data = 0 }
+                                },
+								]
+								m_blendDuration = 0.18
+								m_destState = {
+									m_id = 211165000
+								}
+								m_bReset = true
+								m_resetCycleOption = "Beginning"
+								m_flFixedCycleValue = 0.0
+								m_blendCurve = {
+									m_vControlPoint1 = [
+										0.5,
+										0.0,
+									]
+									m_vControlPoint2 = [
+										0.5,
+										1.0,
+									]
+								}
+								m_bForceFootPlant = false
+								m_bDisabled = false
+							},
 							{
 								_class = "CAnimStateTransition"
 								m_conditions = [

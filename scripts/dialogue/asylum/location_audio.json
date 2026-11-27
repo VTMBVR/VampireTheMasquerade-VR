@@ -1,0 +1,93 @@
+[
+  {
+    "sound": "VTMBVR.Asylum.Location.sistersGunshot",
+    "source": "sound/weapons/ranged/anaconda/attack_1.wav",
+    "audio": "sounds/ambience/asylum/location/sistersGunshot.wav",
+    "duration": 0.9184583333333334,
+    "sourceSha256": "64c7530886c217c7dd5fab9b6fb4a9dad68a0ba8cfc5fdd27023cae7f7499603"
+  },
+  {
+    "sound": "VTMBVR.Asylum.Location.conversation1",
+    "source": "sound/environmental/people/conversation1.wav",
+    "audio": "sounds/ambience/asylum/location/conversation1.wav",
+    "duration": 54.89725,
+    "sourceSha256": "61e0dd8c834d8d1ca639414bb2a6a5169fa99911c502f1fd99a393456fc3ba44"
+  },
+  {
+    "sound": "VTMBVR.Asylum.Location.conversation4",
+    "source": "sound/environmental/people/conversation4.wav",
+    "audio": "sounds/ambience/asylum/location/conversation4.wav",
+    "duration": 11.065770833333334,
+    "sourceSha256": "51b670194bb5873ea41c895a9c7594965b3c220e910b82e7462ac741df1b7427"
+  },
+  {
+    "sound": "VTMBVR.Asylum.Location.conversation5",
+    "source": "sound/environmental/people/conversation5.wav",
+    "audio": "sounds/ambience/asylum/location/conversation5.wav",
+    "duration": 16.344145833333332,
+    "sourceSha256": "8a30fd0a18cfb3a759e34fbfdd78f51a6b2a1efbc1825c787bfdbdda3fbc686c"
+  },
+  {
+    "sound": "VTMBVR.Asylum.Location.music",
+    "source": "sound/music/licenced/05. chiasm - isolated.mp3",
+    "audio": "sounds/music/asylum/isolated.wav",
+    "duration": 317.96245833333336,
+    "sourceSha256": "217fbc064b18b0bc577abf6fed5dfe6ce7852c3047e0a7b5638eb09156be3096"
+  },
+  {
+    "sound": "VTMBVR.Asylum.Location.whisper_calf",
+    "source": "sound/whispers/deluded/calf.wav",
+    "audio": "sounds/ambience/asylum/location/whisper_calf.wav",
+    "duration": 5.09025,
+    "sourceSha256": "da3307fbb1740f3145baffcd0f6b3e193951446436b1b2bdd64517f96a7572e5"
+  },
+  {
+    "sound": "VTMBVR.Asylum.Location.whisper_blind",
+    "source": "sound/whispers/deluded/blind.wav",
+    "audio": "sounds/ambience/asylum/location/whisper_blind.wav",
+    "duration": 4.791479166666667,
+    "sourceSha256": "3ed0653316aadac1a0da0656f5f9d6f63ccfa5f1c35e292e808086dd3017eaec"
+  },
+  {
+    "sound": "VTMBVR.Asylum.Location.whisper_mistress",
+    "source": "sound/whispers/deluded/mistress.wav",
+    "audio": "sounds/ambience/asylum/location/whisper_mistress.wav",
+    "duration": 3.9836875,
+    "sourceSha256": "3e3a85c40cee65a1a740f06f3b97cfa0826264844f0b5ee8d1946b97ea692371"
+  },
+  {
+    "sound": "VTMBVR.Asylum.Location.whisper_wishes_words",
+    "source": "sound/whispers/deluded/wishes_words.wav",
+    "audio": "sounds/ambience/asylum/location/whisper_wishes_words.wav",
+    "duration": 4.271395833333333,
+    "sourceSha256": "8c3cfe6a8b6192a198c31781c470daf471d9cbfb2077c91f46eeeb8b4bc42d45"
+  },
+  {
+    "sound": "VTMBVR.Asylum.Location.whisper_child_moan",
+    "source": "sound/whispers/moaning/child_moan.wav",
+    "audio": "sounds/ambience/asylum/location/whisper_child_moan.wav",
+    "duration": 1.682,
+    "sourceSha256": "081351607d3e3460bccf0e0d720523e4b081673613ecfedac8ef85dd17808bb5"
+  },
+  {
+    "sound": "VTMBVR.Asylum.Location.whisper_man_moan",
+    "source": "sound/whispers/moaning/man_moan.wav",
+    "audio": "sounds/ambience/asylum/location/whisper_man_moan.wav",
+    "duration": 2.4455416666666667,
+    "sourceSha256": "9dcdbc33eba71744f3250a592c36447a30b132e76c795102c8b4e5129b041ade"
+  },
+  {
+    "sound": "VTMBVR.Asylum.Location.whisper_woman_moan",
+    "source": "sound/whispers/moaning/woman_moan.wav",
+    "audio": "sounds/ambience/asylum/location/whisper_woman_moan.wav",
+    "duration": 4.8246875,
+    "sourceSha256": "7a1dfe56e1a0c64201d694d7549ecd029225b6d97a5c97948deabf532c8b29a4"
+  },
+  {
+    "sound": "VTMBVR.Asylum.Location.whisper_child_moan_alt3",
+    "source": "sound/whispers/moaning/child_moan_alt3.wav",
+    "audio": "sounds/ambience/asylum/location/whisper_child_moan_alt3.wav",
+    "duration": 1.682,
+    "sourceSha256": "081351607d3e3460bccf0e0d720523e4b081673613ecfedac8ef85dd17808bb5"
+  }
+]

@@ -1,0 +1,373 @@
+// Generated from scripts/dialogue/jeanette.json by build_dialogue.py.
+var VTMBVRDialogueData = {
+  "speaker": "ЖАНЕТТ",
+  "start": "welcome",
+  "faceTuning": {
+    "smoothAttack": 0.005,
+    "expressionGain": 0.03,
+    "jawGain": 0.81,
+    "smoothRelease": 0.005,
+    "speechGain": 0.1,
+    "expressionFade": 0.05
+  },
+  "nodes": {
+    "welcome": {
+      "text": "Привет, котёнок.",
+      "answers": [
+        {
+          "text": "Как найти галерею?",
+          "next": "club"
+        },
+        {
+          "text": "Как идут дела в городе?",
+          "next": "looking"
+        },
+        {
+          "text": "Тебе скучно? Может, сыграем во что-нибудь?",
+          "next": "dance"
+        },
+        {
+          "text": "Я пойду к галерее. Что-нибудь ещё?",
+          "next": "goodbye"
+        }
+      ],
+      "animation": "waveover01",
+      "audio": "sounds/dialogue/jeanette/line701_col_e.wav",
+      "sourceLine": 701,
+      "expression": {
+        "right_outer_raiser": 0.18,
+        "left_outer_raiser": 0.18,
+        "right_cheek_raiser": 0.08,
+        "left_cheek_raiser": 0.08
+      },
+      "duration": 1.489,
+      "sound": "VTMBVR.Jeanette.welcome"
+    },
+    "club": {
+      "text": "Мне нарисовать тебе карту? Галерея прямо вниз по улице.",
+      "answers": [
+        {
+          "text": "Знаешь, думаю, мы с тобой поладим.",
+          "next": "owner"
+        },
+        {
+          "text": "Нелепый у нас мир.",
+          "next": "rules"
+        },
+        {
+          "text": "У меня другой вопрос.",
+          "next": "welcome"
+        },
+        {
+          "text": "Хорошо, пойду взгляну на картины.",
+          "next": "goodbye"
+        }
+      ],
+      "animation": "party_talk_idle1",
+      "audio": "sounds/dialogue/jeanette/line551_col_e.wav",
+      "sourceLine": 551,
+      "expression": {
+        "right_inner_raiser": 0.12,
+        "left_inner_raiser": 0.12,
+        "right_outer_raiser": 0.12,
+        "left_outer_raiser": 0.12
+      },
+      "duration": 3.187,
+      "sound": "VTMBVR.Jeanette.club"
+    },
+    "looking": {
+      "text": "Прилив уходит, прилив приходит — и снова машет на прощание. Мне понадобится несколько лет, чтобы разбудить этот город.",
+      "answers": [
+        {
+          "text": "Неужели здесь всё настолько мрачно?",
+          "next": "guests"
+        },
+        {
+          "text": "Ты всё равно прекрасна.",
+          "next": "secrets"
+        },
+        {
+          "text": "Вернёмся к началу.",
+          "next": "welcome"
+        },
+        {
+          "text": "Загляну в галерею. Что-то ещё?",
+          "next": "goodbye"
+        }
+      ],
+      "animation": "ArmsCrossed_Idle",
+      "audio": "sounds/dialogue/jeanette/line491_col_e.wav",
+      "sourceLine": 491,
+      "expression": {
+        "right_inner_raiser": 0.32,
+        "left_inner_raiser": 0.32,
+        "right_lowerer": 0.1,
+        "left_lowerer": 0.1
+      },
+      "duration": 8.333,
+      "sound": "VTMBVR.Jeanette.looking"
+    },
+    "dance": {
+      "text": "О, милый, в последнее время — отчаянно. Я всего лишь одинокая девочка в дождливый день. Знаешь игры, в которые мы могли бы сыграть?",
+      "answers": [
+        {
+          "text": "Может, просто потанцуем?",
+          "next": "challenge"
+        },
+        {
+          "text": "Лучше расскажи, где галерея.",
+          "next": "club"
+        },
+        {
+          "text": "У меня есть другой вопрос.",
+          "next": "welcome"
+        },
+        {
+          "text": "Сначала схожу в галерею.",
+          "next": "goodbye"
+        }
+      ],
+      "animation": "dance01",
+      "audio": "sounds/dialogue/jeanette/line511_col_e.wav",
+      "sourceLine": 511,
+      "expression": {
+        "right_outer_raiser": 0.25,
+        "left_outer_raiser": 0.25,
+        "right_cheek_raiser": 0.14,
+        "left_cheek_raiser": 0.14
+      },
+      "duration": 9.43,
+      "sound": "VTMBVR.Jeanette.dance"
+    },
+    "owner": {
+      "text": "[Смеётся.] Чувствую, мы с тобой поладим — прямо как пожарные шланги.",
+      "answers": "back",
+      "animation": "ArmsCrossed_Fidget",
+      "audio": "sounds/dialogue/jeanette/line21_col_e.wav",
+      "sourceLine": 21,
+      "expression": {
+        "right_outer_raiser": 0.32,
+        "left_outer_raiser": 0.12
+      },
+      "duration": 5.982,
+      "sound": "VTMBVR.Jeanette.owner"
+    },
+    "rules": {
+      "text": "Весь мир такой, но мы всё равно продолжаем кататься на этой залитой лунным светом карусели.",
+      "answers": "back",
+      "animation": "fidget01",
+      "audio": "sounds/dialogue/jeanette/line61_col_e.wav",
+      "sourceLine": 61,
+      "expression": {
+        "right_lowerer": 0.22,
+        "left_lowerer": 0.22
+      },
+      "duration": 5.094,
+      "sound": "VTMBVR.Jeanette.rules"
+    },
+    "guests": {
+      "text": "Внутри мы все — мёртвое мясо, котёнок.",
+      "answers": "back",
+      "animation": "party_talk_idle1",
+      "audio": "sounds/dialogue/jeanette/line591_col_e.wav",
+      "sourceLine": 591,
+      "expression": {
+        "right_inner_raiser": 0.18,
+        "left_inner_raiser": 0.18,
+        "right_outer_raiser": 0.06,
+        "left_outer_raiser": 0.06
+      },
+      "duration": 3.318,
+      "sound": "VTMBVR.Jeanette.guests"
+    },
+    "secrets": {
+      "text": "Банально и предсказуемо. Но можешь повторять это когда угодно — я буду делать вид, что ты первый и единственный.",
+      "answers": "back",
+      "animation": "party_laugh",
+      "audio": "sounds/dialogue/jeanette/line201_col_e.wav",
+      "sourceLine": 201,
+      "expression": {
+        "right_outer_raiser": 0.18,
+        "left_outer_raiser": 0.18,
+        "right_cheek_raiser": 0.16,
+        "left_cheek_raiser": 0.16
+      },
+      "duration": 6.113,
+      "sound": "VTMBVR.Jeanette.secrets"
+    },
+    "challenge": {
+      "text": "Подумай ещё — и погрязнее.",
+      "answers": "back",
+      "animation": "dance02",
+      "audio": "sounds/dialogue/jeanette/line521_col_e.wav",
+      "sourceLine": 521,
+      "expression": {
+        "right_outer_raiser": 0.3,
+        "left_outer_raiser": 0.08,
+        "right_cheek_raiser": 0.12,
+        "left_cheek_raiser": 0.12
+      },
+      "duration": 2.586,
+      "sound": "VTMBVR.Jeanette.challenge"
+    },
+    "goodbye": {
+      "text": "М-м, и ещё что-то было насчёт картин... Что же это было?.. Не помню. Ну ладно, развлекайся, утёнок!",
+      "answers": [],
+      "animation": "waveover02",
+      "audio": "sounds/dialogue/jeanette/line811_col_e.wav",
+      "sourceLine": 811,
+      "expression": {
+        "right_inner_raiser": 0.14,
+        "left_inner_raiser": 0.14,
+        "right_outer_raiser": 0.14,
+        "left_outer_raiser": 0.14
+      },
+      "duration": 7.758,
+      "sound": "VTMBVR.Jeanette.goodbye"
+    }
+  },
+  "backAnswers": [
+    {
+      "text": "Так где находится галерея?",
+      "next": "club"
+    },
+    {
+      "text": "Как там наш город?",
+      "next": "looking"
+    },
+    {
+      "text": "У меня другой вопрос.",
+      "next": "welcome"
+    },
+    {
+      "text": "Пойду к галерее. Что-нибудь ещё?",
+      "next": "goodbye"
+    }
+  ],
+  "actor": "npc_vampire_jeanete",
+  "interactDistance": 100,
+  "voiceSource": "Original Vampire: The Masquerade - Bloodlines Jeanette recordings, English audio with Russian subtitles",
+  "faceShapeGains": {},
+  "faceEditor": {
+    "layout": {
+      "left": 435,
+      "right": 978,
+      "top": 160,
+      "rowHeight": 72,
+      "trackTop": 32,
+      "trackHeight": 22,
+      "rows": 6
+    },
+    "controls": [
+      {
+        "key": "jawGain",
+        "label": "Раскрытие челюсти",
+        "min": 0,
+        "max": 1,
+        "step": 0.01,
+        "scale": 100,
+        "unit": "%"
+      },
+      {
+        "key": "speechGain",
+        "label": "Движения губ",
+        "min": 0,
+        "max": 1,
+        "step": 0.01,
+        "scale": 100,
+        "unit": "%"
+      },
+      {
+        "key": "expressionGain",
+        "label": "Брови и щёки",
+        "min": 0,
+        "max": 1,
+        "step": 0.01,
+        "scale": 100,
+        "unit": "%"
+      },
+      {
+        "key": "smoothAttack",
+        "label": "Плавность начала движения",
+        "min": 0.005,
+        "max": 0.2,
+        "step": 0.005,
+        "scale": 1000,
+        "unit": "мс"
+      },
+      {
+        "key": "smoothRelease",
+        "label": "Плавность завершения",
+        "min": 0.005,
+        "max": 0.2,
+        "step": 0.005,
+        "scale": 1000,
+        "unit": "мс"
+      },
+      {
+        "key": "expressionFade",
+        "label": "Плавность смены эмоции",
+        "min": 0.05,
+        "max": 1,
+        "step": 0.01,
+        "scale": 1000,
+        "unit": "мс"
+      }
+    ],
+    "channels": [
+      "upperrightFrame1",
+      "upperrightFrame2",
+      "lowerrightFrame3",
+      "lowerrightFrame4",
+      "upperleftFrame5",
+      "upperleftFrame6",
+      "lowerleftFrame7",
+      "lowerleftFrame8",
+      "AU1RFrame9",
+      "AU1LFrame10",
+      "AU2RFrame11",
+      "AU2LFrame12",
+      "AU1AU2RFrame13",
+      "AU1AU2LFrame14",
+      "AU4RFrame15",
+      "AU4LFrame16",
+      "AU6RFrame17",
+      "AU6LFrame18",
+      "AU9RFrame19",
+      "AU9LFrame20",
+      "AU38Frame21",
+      "AU10RFrame22",
+      "AU10LFrame23",
+      "AU12RFrame24",
+      "AU12RFrame25",
+      "AU12LFrame26",
+      "AU12LFrame27",
+      "AU15Frame28",
+      "AU17RFrame29",
+      "AU17LFrame30",
+      "AU25RFrame31",
+      "AU25LFrame32",
+      "AU18RFrame33",
+      "AU18RFrame34",
+      "AU18LFrame35",
+      "AU18LFrame36",
+      "AU22RFrame37",
+      "AU22LFrame38",
+      "AU20RFrame39",
+      "AU20LFrame40",
+      "AU32Frame41",
+      "AU24Frame42",
+      "AU31Frame43",
+      "AU26RFrame44",
+      "AU26LFrame45",
+      "AU27RFrame46",
+      "AU27LFrame47",
+      "AU12AU25Frame48",
+      "AU10SRFrame49",
+      "AU10SLFrame50",
+      "AU27ZFrame51",
+      "AU42Frame52",
+      "AU16Frame53"
+    ]
+  }
+};

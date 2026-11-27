@@ -1,0 +1,13 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+"VTMBVR.Jeanette.welcome" = { type = "hlvr_default_3d" volume = 1.0 volume_falloff_min = 100.0 volume_falloff_max = 500.0 vsnd_files = ["sounds/dialogue/jeanette/line701_col_e.vsnd"] }
+"VTMBVR.Jeanette.club" = { type = "hlvr_default_3d" volume = 1.0 volume_falloff_min = 100.0 volume_falloff_max = 500.0 vsnd_files = ["sounds/dialogue/jeanette/line551_col_e.vsnd"] }
+"VTMBVR.Jeanette.looking" = { type = "hlvr_default_3d" volume = 1.0 volume_falloff_min = 100.0 volume_falloff_max = 500.0 vsnd_files = ["sounds/dialogue/jeanette/line491_col_e.vsnd"] }
+"VTMBVR.Jeanette.dance" = { type = "hlvr_default_3d" volume = 1.0 volume_falloff_min = 100.0 volume_falloff_max = 500.0 vsnd_files = ["sounds/dialogue/jeanette/line511_col_e.vsnd"] }
+"VTMBVR.Jeanette.owner" = { type = "hlvr_default_3d" volume = 1.0 volume_falloff_min = 100.0 volume_falloff_max = 500.0 vsnd_files = ["sounds/dialogue/jeanette/line21_col_e.vsnd"] }
+"VTMBVR.Jeanette.rules" = { type = "hlvr_default_3d" volume = 1.0 volume_falloff_min = 100.0 volume_falloff_max = 500.0 vsnd_files = ["sounds/dialogue/jeanette/line61_col_e.vsnd"] }
+"VTMBVR.Jeanette.guests" = { type = "hlvr_default_3d" volume = 1.0 volume_falloff_min = 100.0 volume_falloff_max = 500.0 vsnd_files = ["sounds/dialogue/jeanette/line591_col_e.vsnd"] }
+"VTMBVR.Jeanette.secrets" = { type = "hlvr_default_3d" volume = 1.0 volume_falloff_min = 100.0 volume_falloff_max = 500.0 vsnd_files = ["sounds/dialogue/jeanette/line201_col_e.vsnd"] }
+"VTMBVR.Jeanette.challenge" = { type = "hlvr_default_3d" volume = 1.0 volume_falloff_min = 100.0 volume_falloff_max = 500.0 vsnd_files = ["sounds/dialogue/jeanette/line521_col_e.vsnd"] }
+"VTMBVR.Jeanette.goodbye" = { type = "hlvr_default_3d" volume = 1.0 volume_falloff_min = 100.0 volume_falloff_max = 500.0 vsnd_files = ["sounds/dialogue/jeanette/line811_col_e.vsnd"] }
+}

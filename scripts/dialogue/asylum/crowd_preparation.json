@@ -1,0 +1,94 @@
+{
+  "models/character/npc/common/dancer/female_1/female_dancer_1.mdl": {
+    "bones": 57,
+    "triangles": 1505,
+    "materials": [
+      "dancer",
+      "malkgirlhead"
+    ],
+    "model": "models/character/npc/common/dancer/female_1/female_dancer_1.vmdl",
+    "status": "prepared_not_native_tested"
+  },
+  "models/character/npc/common/raver/females/female_raver_1/female_raver_1.mdl": {
+    "bones": 61,
+    "triangles": 5042,
+    "materials": [
+      "FemRave1torsoback",
+      "FemRave1torsofront",
+      "FemRave1Head",
+      "FemRave1Misc",
+      "FemRave1leftarm",
+      "FemRave1leftleg",
+      "FemRave1rightleg",
+      "FemRave1handbottom",
+      "FemRave1handtop",
+      "FemRave1foot",
+      "FemRave1footbottom",
+      "FemRave1pony",
+      "FemRave1Pack",
+      "Eyeball",
+      "upperteeth",
+      "lowerteeth",
+      "FemRave1lens",
+      "FemRave1glasses",
+      "Eyeball_r",
+      "Eyeball_l",
+      "glint",
+      "malkgirlhead"
+    ],
+    "model": "models/character/npc/common/raver/females/female_raver_1/female_raver_1.vmdl",
+    "status": "prepared_not_native_tested"
+  },
+  "models/character/npc/common/dancer/male_2/male_dancer_2.mdl": {
+    "bones": 68,
+    "triangles": 1558,
+    "materials": [
+      "male2targa",
+      "FortitudeSkin"
+    ],
+    "model": "models/character/npc/common/dancer/male_2/male_dancer_2.vmdl",
+    "status": "prepared_not_native_tested"
+  },
+  "models/character/npc/common/hustler/hustler_2_ref.mdl": {
+    "bones": 60,
+    "triangles": 5558,
+    "materials": [
+      "FlynnBody",
+      "Hstlr2Head",
+      "Eyeball_r",
+      "Eyeball_l",
+      "mouth",
+      "upperteeth",
+      "molar",
+      "lowerteeth",
+      "tongue",
+      "Pupil_r",
+      "glint",
+      "Pupil_l",
+      "FortitudeSkin"
+    ],
+    "model": "models/character/npc/common/hustler/hustler_2_ref.vmdl",
+    "status": "prepared_not_native_tested"
+  },
+  "models/character/npc/common/dancer/female_2/female_dancer_2.mdl": {
+    "bones": 84,
+    "triangles": 1740,
+    "materials": [
+      "femaledancerl512",
+      "malkgirlhead"
+    ],
+    "model": "models/character/npc/common/dancer/female_2/female_dancer_2.vmdl",
+    "status": "prepared_not_native_tested"
+  },
+  "models/character/npc/common/dancer/male_1/male_dancer_1.mdl": {
+    "bones": 68,
+    "triangles": 1606,
+    "materials": [
+      "Maledancerbody512",
+      "hairpiece128",
+      "FortitudeSkin"
+    ],
+    "model": "models/character/npc/common/dancer/male_1/male_dancer_1.vmdl",
+    "status": "prepared_not_native_tested"
+  }
+}

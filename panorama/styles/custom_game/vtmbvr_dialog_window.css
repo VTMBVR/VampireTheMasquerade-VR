@@ -1,0 +1,8 @@
+.WindowGrabHandle {
+    visibility:visible; position:230px 720px 0px; width:560px; height:32px;
+    background-color:#15120ff5; border:1px solid #a18a5166;
+}
+.FaceEditing .WindowGrabHandle { position:16px 16px 0px; width:380px; }
+.FaceEditing #DialogueGrabText { width:350px; }
+.PanelDragging .WindowGrabHandle { background-color:#4b3b1ff5; border-color:#e9b704; }
+#DialogueGrabText { width:530px; margin:3px 15px 0px 15px; }

@@ -1,0 +1,5 @@
+Layer0
+{
+shader "vr_complex.vfx"
+TextureColor "models/character/npc/common/security_guard/asylum_materials/swatgun_color.png"
+}

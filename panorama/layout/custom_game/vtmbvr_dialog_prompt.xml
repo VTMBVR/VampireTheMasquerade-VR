@@ -1,0 +1,9 @@
+<root>
+    <styles><include src="s2r://panorama/styles/custom_game/vtmbvr_dialog.vcss_c" /></styles>
+    <ClientUIDialogPanel class="TalkPromptRoot" hittest="true" hittestchildren="true">
+        <Button class="TalkPromptButton" onactivate="$.DispatchEvent('ClientUI_FireOutput', $.GetContextPanel(), 0)">
+            <Image class="TalkFemaleIcon" src="file://{images}/custom_game/vtmbvr/talk_female.png" hittest="false" />
+            <Image class="TalkMaleIcon" src="file://{images}/custom_game/vtmbvr/talk_male.png" hittest="false" />
+        </Button>
+    </ClientUIDialogPanel>
+</root>

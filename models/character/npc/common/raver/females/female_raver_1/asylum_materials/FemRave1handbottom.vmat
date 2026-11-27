@@ -1,0 +1,5 @@
+Layer0
+{
+shader "vr_complex.vfx"
+TextureColor "models/character/npc/common/raver/females/female_raver_1/asylum_materials/FemRave1handbottom_color.png"
+}

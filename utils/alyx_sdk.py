@@ -1,0 +1,105 @@
+"""Resolve an addon checkout mounted in an Alyx Workshop Tools installation."""
+from dataclasses import dataclass
+from pathlib import Path
+import shutil
+import filecmp
+
+
+@dataclass(frozen=True)
+class AddonPaths:
+    name: str
+    source: Path
+    runtime: Path
+    compiler: Path
+
+
+def resolve_addon(sdk, checkout, addon=None):
+    sdk, checkout = Path(sdk).resolve(), Path(checkout).resolve()
+    compiler = sdk/'game/bin/win64/resourcecompiler.exe'
+    if not compiler.is_file():
+        raise ValueError('Alyx Workshop Tools resourcecompiler.exe was not found: '+str(compiler))
+    content = sdk/'content/hlvr_addons'
+    if addon is not None:
+        if not addon or addon in ('.', '..') or any(c in addon for c in '/\\:'):
+            raise ValueError('--addon must be one folder name, not a path')
+        source = content/addon
+        if not source.is_dir() or source.resolve() != checkout:
+            raise ValueError('The selected addon does not point to this checkout.\n'
+                             '  Addon: '+str(source)+'\n  Checkout: '+str(checkout))
+    else:
+        matches = [p for p in content.iterdir() if p.is_dir() and p.resolve() == checkout] if content.is_dir() else []
+        preferred = [p for p in matches if p.name.casefold() == checkout.name.casefold()]
+        if len(preferred) == 1:
+            source = preferred[0]
+        elif len(matches) == 1:
+            source = matches[0]
+        elif matches:
+            raise ValueError('Several SDK addon folders point to this checkout: '+', '.join(p.name for p in matches)+
+                             '. Select one with --addon <folder-name>.')
+        else:
+            raise ValueError('No SDK content addon points to this checkout.\n  Checkout: '+str(checkout)+
+                             '\nPlace or link it under '+str(content)+'/<addon-name>.')
+    return AddonPaths(source.name, source, sdk/'game/hlvr_addons'/source.name, compiler)
+
+
+def compiled_relative(relative):
+    path = Path(relative)
+    suffix = {'.wav': '.vsnd_c', '.vsndevts': '.vsndevts_c', '.vrman': '.vrman_c',
+              '.vmdl': '.vmdl_c', '.vanmgrph': '.vanmgrph_c'}.get(
+                  path.suffix, (path.suffix if path.suffix.startswith('.v') else '.v'+path.suffix[1:])+'_c')
+    return path.with_suffix(suffix)
+
+
+def sync_scripts(paths):
+    """Install all script sources, including generated Lua and dialogue data.
+
+    Some local SDK mounts link vscripts directly to content. Such files are
+    already installed; never copy a file onto itself or follow unrelated links.
+    Runtime-only files are retained.
+    """
+    source = paths.source/'scripts'
+    target = paths.runtime/'scripts'
+    counts = dict(copied=0, unchanged=0, linked=0)
+    if not source.is_dir():
+        return counts
+    runtime = paths.runtime.resolve()
+    for entry in [source, *sorted(source.rglob('*'))]:
+        destination = target/entry.relative_to(source)
+        resolved = destination.resolve()
+        if resolved == entry.resolve():
+            if entry.is_file():
+                counts['linked'] += 1
+            continue
+        if not resolved.is_relative_to(runtime):
+            raise ValueError('Script destination points outside the runtime addon: '+str(destination))
+        if entry.is_dir():
+            destination.mkdir(parents=True, exist_ok=True)
+        elif entry.is_file():
+            if destination.is_file() and filecmp.cmp(entry, destination, shallow=False):
+                counts['unchanged'] += 1
+            else:
+                shutil.copy2(entry, destination)
+                counts['copied'] += 1
+    return counts
+
+
+def install_manifest_alias(paths):
+    # The engine looks up <mounted-addon>_addon_resources. The manifest's
+    # resource list itself is independent of the mounted folder's name.
+    source = paths.runtime/'resourcemanifests/vtmbvr_addon_resources.vrman_c'
+    target = paths.runtime/'resourcemanifests'/(paths.name+'_addon_resources.vrman_c')
+    if source != target:
+        shutil.copy2(source, target)
+    # A discoverable local addon can contain junctions to the runtime's child
+    # folders instead of being a root junction. Keep its named manifest current
+    # as well, but only when it shares this exact manifest directory.
+    for mount in paths.runtime.parent.iterdir():
+        manifests=mount/'resourcemanifests'
+        if mount.is_dir() and manifests.is_dir() and manifests.resolve()==source.parent.resolve():
+            alias=manifests/(mount.name+'_addon_resources.vrman_c')
+            if alias.resolve()!=source.resolve():shutil.copy2(source,alias)
+    # Local playable addons also need metadata in the runtime mount. Without
+    # it addon_play silently disables the addon and cannot find its map VPK.
+    metadata=paths.source/'addoninfo.txt'
+    if metadata.is_file():shutil.copy2(metadata,paths.runtime/'addoninfo.txt')
+    return target

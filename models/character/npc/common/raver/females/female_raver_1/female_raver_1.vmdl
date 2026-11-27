@@ -1,0 +1,171 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+"rootNode" = {
+"_class" = "RootNode"
+"children" = [
+{
+"_class" = "MaterialGroupList"
+"children" = [
+{
+"_class" = "DefaultMaterialGroup"
+"remaps" = [
+{
+"from" = "femrave1torsoback.vmat"
+"to" = "models/character/npc/common/raver/females/female_raver_1/asylum_materials/FemRave1torsoback.vmat"
+},
+{
+"from" = "femrave1torsofront.vmat"
+"to" = "models/character/npc/common/raver/females/female_raver_1/asylum_materials/FemRave1torsofront.vmat"
+},
+{
+"from" = "femrave1head.vmat"
+"to" = "models/character/npc/common/raver/females/female_raver_1/asylum_materials/FemRave1Head.vmat"
+},
+{
+"from" = "femrave1misc.vmat"
+"to" = "models/character/npc/common/raver/females/female_raver_1/asylum_materials/FemRave1Misc.vmat"
+},
+{
+"from" = "femrave1leftarm.vmat"
+"to" = "models/character/npc/common/raver/females/female_raver_1/asylum_materials/FemRave1leftarm.vmat"
+},
+{
+"from" = "femrave1leftleg.vmat"
+"to" = "models/character/npc/common/raver/females/female_raver_1/asylum_materials/FemRave1leftleg.vmat"
+},
+{
+"from" = "femrave1rightleg.vmat"
+"to" = "models/character/npc/common/raver/females/female_raver_1/asylum_materials/FemRave1rightleg.vmat"
+},
+{
+"from" = "femrave1handbottom.vmat"
+"to" = "models/character/npc/common/raver/females/female_raver_1/asylum_materials/FemRave1handbottom.vmat"
+},
+{
+"from" = "femrave1handtop.vmat"
+"to" = "models/character/npc/common/raver/females/female_raver_1/asylum_materials/FemRave1handtop.vmat"
+},
+{
+"from" = "femrave1foot.vmat"
+"to" = "models/character/npc/common/raver/females/female_raver_1/asylum_materials/FemRave1foot.vmat"
+},
+{
+"from" = "femrave1footbottom.vmat"
+"to" = "models/character/npc/common/raver/females/female_raver_1/asylum_materials/FemRave1footbottom.vmat"
+},
+{
+"from" = "femrave1pony.vmat"
+"to" = "models/character/npc/common/raver/females/female_raver_1/asylum_materials/FemRave1pony.vmat"
+},
+{
+"from" = "femrave1pack.vmat"
+"to" = "models/character/npc/common/raver/females/female_raver_1/asylum_materials/FemRave1Pack.vmat"
+},
+{
+"from" = "eyeball.vmat"
+"to" = "models/character/npc/common/raver/females/female_raver_1/asylum_materials/Eyeball.vmat"
+},
+{
+"from" = "upperteeth.vmat"
+"to" = "models/character/npc/common/raver/females/female_raver_1/asylum_materials/upperteeth.vmat"
+},
+{
+"from" = "lowerteeth.vmat"
+"to" = "models/character/npc/common/raver/females/female_raver_1/asylum_materials/lowerteeth.vmat"
+},
+{
+"from" = "femrave1lens.vmat"
+"to" = "models/character/npc/common/raver/females/female_raver_1/asylum_materials/FemRave1lens.vmat"
+},
+{
+"from" = "femrave1glasses.vmat"
+"to" = "models/character/npc/common/raver/females/female_raver_1/asylum_materials/FemRave1glasses.vmat"
+},
+{
+"from" = "eyeball_r.vmat"
+"to" = "models/character/npc/common/raver/females/female_raver_1/asylum_eyes/eyeball_r.vmat"
+},
+{
+"from" = "eyeball_l.vmat"
+"to" = "models/character/npc/common/raver/females/female_raver_1/asylum_eyes/eyeball_l.vmat"
+}
+]
+}
+]
+},
+{
+"_class" = "RenderMeshList"
+"children" = [
+{
+"_class" = "RenderMeshFile"
+"name" = "body"
+"filename" = "models/character/npc/common/raver/females/female_raver_1/asylum_reference.smd"
+"import_scale" = 1.0
+}
+]
+},
+{
+"_class" = "AnimationList"
+"children" = [
+{
+"_class" = "Prefab"
+"target_file" = "models/character/shared/prefabs/female/shared_female_misc_anim.vmdl_prefab"
+},
+{
+"_class" = "Prefab"
+"target_file" = "models/character/shared/prefabs/female/move_n_run.vmdl_prefab"
+}
+]
+},
+{
+"_class" = "AttachmentList"
+"children" = [
+{
+"_class" = "Attachment"
+"name" = "r_hand"
+"parent_bone" = "bip01_r_hand"
+"relative_origin" = [
+0.0,
+0.0,
+0.0
+]
+"relative_angles" = [
+0.0,
+0.0,
+0.0
+]
+}
+]
+},
+{
+"_class" = "GameDataList"
+"children" = [
+{
+"_class" = "MovementSettings"
+"movementsettings" = {
+"name" = ""
+"speeds" = [
+
+]
+"runspeed" = 150.0
+"walkspeed" = 90.0
+"maxSpringTension" = 100.0
+"springConstant" = 10.0
+"useSmoothPaths" = true
+"useMotionDamping" = false
+"sharpStartAngle" = 179.0
+"m_vTraceScale" = [
+1.0,
+0.1,
+1.0
+]
+}
+}
+]
+}
+]
+"model_archetype" = "generic_actor_model"
+"primary_associated_entity" = "generic_actor"
+"anim_graph_name" = "animgraphs/shared_female.vanmgrph"
+}
+}

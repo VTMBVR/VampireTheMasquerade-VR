@@ -1,0 +1,1476 @@
+{
+  "actors": [
+    {
+      "sourceId": 144,
+      "name": "Doll1",
+      "model": "models/character/npc/common/Blood_Doll/bd_asylum/Blood_Dollasylum.mdl",
+      "alyxModel": "models/character/npc/common/blood_doll/bd_asylum/blood_dollasylum.vmdl",
+      "origin": [
+        -798.259,
+        431.681,
+        -277.0
+      ],
+      "angles": [
+        0.0,
+        30.0,
+        0.0
+      ],
+      "startHidden": false,
+      "interestingGroups": "11 12 15",
+      "dialogue": "dlg/Generic/Doll1.dlg",
+      "visibility": "Subject to santamonica.py and OnMapLoad callbacks",
+      "gender": "female",
+      "pinned": true,
+      "dialogueAttributes": {
+        "pl_criminal_attack": 6,
+        "pl_investigate": 6
+      },
+      "groups": [
+        11,
+        12,
+        15
+      ],
+      "usesInteresting": false
+    },
+    {
+      "sourceId": 145,
+      "name": "female_dancer",
+      "model": "models/character/npc/common/Goth_kids/female/Goth_Female.mdl",
+      "alyxModel": "models/character/npc/common/goth_kids/female/goth_female.vmdl",
+      "origin": [
+        -847.926,
+        562.132,
+        -145.0
+      ],
+      "angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startHidden": false,
+      "interestingGroups": "11 12",
+      "dialogue": null,
+      "visibility": "Subject to santamonica.py and OnMapLoad callbacks",
+      "gender": "female",
+      "pinned": false,
+      "dialogueAttributes": {
+        "pl_criminal_attack": 6,
+        "pl_investigate": 6
+      },
+      "groups": [
+        11,
+        12
+      ],
+      "usesInteresting": true
+    },
+    {
+      "sourceId": 146,
+      "name": "basic_raver",
+      "model": "models/character/npc/common/dancer/female_1/female_dancer_1.mdl",
+      "alyxModel": "models/character/npc/common/dancer/female_1/female_dancer_1.vmdl",
+      "origin": [
+        -942.85,
+        458.616,
+        -145.0
+      ],
+      "angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startHidden": false,
+      "interestingGroups": "11 12",
+      "dialogue": null,
+      "visibility": "Subject to santamonica.py and OnMapLoad callbacks",
+      "gender": "female",
+      "pinned": false,
+      "dialogueAttributes": {
+        "pl_criminal_attack": 6,
+        "pl_investigate": 6
+      },
+      "groups": [
+        11,
+        12
+      ],
+      "usesInteresting": true
+    },
+    {
+      "sourceId": 147,
+      "name": "plus_raver",
+      "model": "models/character/npc/common/raver/females/female_raver_1/female_raver_1.mdl",
+      "alyxModel": "models/character/npc/common/raver/females/female_raver_1/female_raver_1.vmdl",
+      "origin": [
+        -942.85,
+        458.616,
+        -145.0
+      ],
+      "angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startHidden": true,
+      "interestingGroups": "11 12",
+      "dialogue": null,
+      "visibility": "Subject to santamonica.py and OnMapLoad callbacks",
+      "gender": "female",
+      "pinned": false,
+      "dialogueAttributes": {
+        "pl_criminal_attack": 6,
+        "pl_investigate": 6
+      },
+      "groups": [
+        11,
+        12
+      ],
+      "usesInteresting": true
+    },
+    {
+      "sourceId": 148,
+      "name": "male_dancer",
+      "model": "models/character/npc/common/dancer/male_1/Male_Dancer_1.mdl",
+      "alyxModel": "models/character/npc/common/dancer/male_1/male_dancer_1.vmdl",
+      "origin": [
+        -844.234,
+        459.101,
+        -145.0
+      ],
+      "angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startHidden": false,
+      "interestingGroups": "11 12 14",
+      "dialogue": null,
+      "visibility": "Subject to santamonica.py and OnMapLoad callbacks",
+      "gender": "male",
+      "pinned": false,
+      "dialogueAttributes": {
+        "pl_criminal_attack": 6,
+        "pl_investigate": 6
+      },
+      "groups": [
+        11,
+        12,
+        14
+      ],
+      "usesInteresting": true
+    },
+    {
+      "sourceId": 149,
+      "name": "male_dancer",
+      "model": "models/character/npc/common/dancer/male_2/Male_Dancer_2.mdl",
+      "alyxModel": "models/character/npc/common/dancer/male_2/male_dancer_2.vmdl",
+      "origin": [
+        -926.786,
+        277.51,
+        -273.0
+      ],
+      "angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startHidden": false,
+      "interestingGroups": "11 14",
+      "dialogue": null,
+      "visibility": "Subject to santamonica.py and OnMapLoad callbacks",
+      "gender": "male",
+      "pinned": false,
+      "dialogueAttributes": {
+        "pl_criminal_attack": 6,
+        "pl_investigate": 6
+      },
+      "groups": [
+        11,
+        14
+      ],
+      "usesInteresting": true
+    },
+    {
+      "sourceId": 150,
+      "name": "jeanette_flirt_partner",
+      "model": "models/character/npc/common/hustler/Hustler_2_Ref.mdl",
+      "alyxModel": "models/character/npc/common/hustler/hustler_2_ref.vmdl",
+      "origin": [
+        -855.495,
+        410.311,
+        -273.0
+      ],
+      "angles": [
+        0.0,
+        176.0,
+        0.0
+      ],
+      "startHidden": false,
+      "interestingGroups": "11 14",
+      "dialogue": null,
+      "visibility": "Subject to santamonica.py and OnMapLoad callbacks",
+      "gender": "male",
+      "pinned": true,
+      "dialogueAttributes": {
+        "pl_criminal_attack": 6,
+        "pl_investigate": 6
+      },
+      "groups": [
+        11,
+        14
+      ],
+      "usesInteresting": false
+    },
+    {
+      "sourceId": 151,
+      "name": "basic_raver",
+      "model": "models/character/npc/common/dancer/female_1/female_dancer_1.mdl",
+      "alyxModel": "models/character/npc/common/dancer/female_1/female_dancer_1.vmdl",
+      "origin": [
+        -703.102,
+        39.6804,
+        -273.0
+      ],
+      "angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startHidden": false,
+      "interestingGroups": "11 15",
+      "dialogue": null,
+      "visibility": "Subject to santamonica.py and OnMapLoad callbacks",
+      "gender": "female",
+      "pinned": false,
+      "dialogueAttributes": {
+        "pl_criminal_attack": 6,
+        "pl_investigate": 6
+      },
+      "groups": [
+        11,
+        15
+      ],
+      "usesInteresting": true
+    },
+    {
+      "sourceId": 152,
+      "name": "plus_raver",
+      "model": "models/character/npc/common/raver/females/female_raver_1/female_raver_1.mdl",
+      "alyxModel": "models/character/npc/common/raver/females/female_raver_1/female_raver_1.vmdl",
+      "origin": [
+        -703.102,
+        39.6804,
+        -273.0
+      ],
+      "angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startHidden": true,
+      "interestingGroups": "11 15",
+      "dialogue": null,
+      "visibility": "Subject to santamonica.py and OnMapLoad callbacks",
+      "gender": "female",
+      "pinned": false,
+      "dialogueAttributes": {
+        "pl_criminal_attack": 6,
+        "pl_investigate": 6
+      },
+      "groups": [
+        11,
+        15
+      ],
+      "usesInteresting": true
+    },
+    {
+      "sourceId": 153,
+      "name": "male_dancer",
+      "model": "models/character/npc/common/dancer/male_1/Male_Dancer_1.mdl",
+      "alyxModel": "models/character/npc/common/dancer/male_1/male_dancer_1.vmdl",
+      "origin": [
+        -1171.45,
+        38.4032,
+        -273.0
+      ],
+      "angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startHidden": false,
+      "interestingGroups": "11 14",
+      "dialogue": null,
+      "visibility": "Subject to santamonica.py and OnMapLoad callbacks",
+      "gender": "male",
+      "pinned": false,
+      "dialogueAttributes": {
+        "pl_criminal_attack": 6,
+        "pl_investigate": 6
+      },
+      "groups": [
+        11,
+        14
+      ],
+      "usesInteresting": true
+    },
+    {
+      "sourceId": 154,
+      "name": "male_dancer",
+      "model": "models/character/npc/common/dancer/male_2/male_dancer_2.mdl",
+      "alyxModel": "models/character/npc/common/dancer/male_2/male_dancer_2.vmdl",
+      "origin": [
+        -992.0,
+        16.0,
+        -273.0
+      ],
+      "angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startHidden": false,
+      "interestingGroups": "11",
+      "dialogue": null,
+      "visibility": "Subject to santamonica.py and OnMapLoad callbacks",
+      "gender": "male",
+      "pinned": false,
+      "dialogueAttributes": {
+        "pl_criminal_attack": 6,
+        "pl_investigate": 6
+      },
+      "groups": [
+        11
+      ],
+      "usesInteresting": true
+    },
+    {
+      "sourceId": 155,
+      "name": "female_dancer",
+      "model": "models/character/npc/common/dancer/female_1/female_dancer_1.mdl",
+      "alyxModel": "models/character/npc/common/dancer/female_1/female_dancer_1.vmdl",
+      "origin": [
+        -768.29,
+        342.569,
+        -269.847
+      ],
+      "angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startHidden": false,
+      "interestingGroups": "11 15",
+      "dialogue": null,
+      "visibility": "Subject to santamonica.py and OnMapLoad callbacks",
+      "gender": "female",
+      "pinned": false,
+      "dialogueAttributes": {
+        "pl_criminal_attack": 6,
+        "pl_investigate": 6
+      },
+      "groups": [
+        11,
+        15
+      ],
+      "usesInteresting": true
+    },
+    {
+      "sourceId": 156,
+      "name": "female_dancer",
+      "model": "models/character/npc/common/dancer/female_2/Female_Dancer_2.mdl",
+      "alyxModel": "models/character/npc/common/dancer/female_2/female_dancer_2.vmdl",
+      "origin": [
+        -971.338,
+        186.93,
+        -269.847
+      ],
+      "angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startHidden": false,
+      "interestingGroups": "11 15",
+      "dialogue": null,
+      "visibility": "Subject to santamonica.py and OnMapLoad callbacks",
+      "gender": "female",
+      "pinned": false,
+      "dialogueAttributes": {
+        "pl_criminal_attack": 6,
+        "pl_investigate": 6
+      },
+      "groups": [
+        11,
+        15
+      ],
+      "usesInteresting": true
+    },
+    {
+      "sourceId": 164,
+      "name": "Danielle",
+      "model": "models/character/npc/unique/Santa_Monica/Danielle/Danielle.mdl",
+      "alyxModel": "models/character/npc/unique/santa_monica/danielle/danielle.vmdl",
+      "origin": [
+        -768.0,
+        452.0,
+        -154.0
+      ],
+      "angles": [
+        0.0,
+        225.0,
+        0.0
+      ],
+      "startHidden": false,
+      "interestingGroups": "19",
+      "dialogue": "dlg/Santa Monica/Danielle.dlg",
+      "visibility": "Subject to santamonica.py and OnMapLoad callbacks",
+      "gender": "female",
+      "pinned": true,
+      "dialogueAttributes": {
+        "pl_criminal_attack": 6,
+        "pl_investigate": 6
+      },
+      "groups": [
+        19
+      ],
+      "usesInteresting": false
+    },
+    {
+      "sourceId": 184,
+      "name": "Cal",
+      "model": "models/character/npc/unique/Santa_Monica/Cal/Cal.mdl",
+      "alyxModel": "models/character/npc/unique/santa_monica/cal/cal.vmdl",
+      "origin": [
+        -696.665,
+        488.069,
+        -276.998
+      ],
+      "angles": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "startHidden": false,
+      "interestingGroups": "13",
+      "dialogue": "dlg/Santa Monica/Cal.dlg",
+      "visibility": "Subject to santamonica.py and OnMapLoad callbacks",
+      "gender": "male",
+      "pinned": false,
+      "dialogueAttributes": {
+        "pl_criminal_attack": 2,
+        "pl_investigate": 6
+      },
+      "groups": [
+        13
+      ],
+      "usesInteresting": true
+    },
+    {
+      "sourceId": 187,
+      "name": "Jeanette",
+      "model": "models/character/npc/unique/Santa_Monica/Jeanette/Jeanette.mdl",
+      "alyxModel": "models/character/npc/unique/santa_monica/jeanette/jeanette.vmdl",
+      "origin": [
+        -820.077,
+        410.0,
+        -12.7639
+      ],
+      "angles": [
+        0.0,
+        135.0,
+        0.0
+      ],
+      "startHidden": false,
+      "interestingGroups": "32",
+      "dialogue": "dlg/Santa Monica/Jeanette.dlg",
+      "visibility": "Subject to santamonica.py and OnMapLoad callbacks",
+      "gender": "female",
+      "pinned": true,
+      "dialogueAttributes": {
+        "pl_criminal_attack": 3,
+        "pl_investigate": 6
+      },
+      "groups": [
+        32
+      ],
+      "usesInteresting": false
+    },
+    {
+      "sourceId": 188,
+      "name": "Therese",
+      "model": "models/character/npc/unique/Santa_Monica/Therese/Therese.mdl",
+      "alyxModel": "models/character/npc/unique/santa_monica/therese/therese.vmdl",
+      "origin": [
+        -782.922,
+        509.587,
+        -12.7639
+      ],
+      "angles": [
+        0.0,
+        135.0,
+        0.0
+      ],
+      "startHidden": false,
+      "interestingGroups": "0",
+      "dialogue": "dlg/Santa Monica/Therese.dlg",
+      "visibility": "Subject to santamonica.py and OnMapLoad callbacks",
+      "gender": "female",
+      "pinned": true,
+      "dialogueAttributes": {
+        "pl_criminal_attack": 3,
+        "pl_investigate": 6
+      },
+      "groups": [
+        0
+      ],
+      "usesInteresting": false
+    },
+    {
+      "sourceId": 218,
+      "name": "Tourette",
+      "model": "models/character/npc/unique/Santa_Monica/Tourette/Tourette.mdl",
+      "alyxModel": "models/character/npc/unique/santa_monica/tourette/tourette.vmdl",
+      "origin": [
+        -906.727,
+        452.287,
+        -13.4556
+      ],
+      "angles": [
+        0.0,
+        105.0,
+        0.0
+      ],
+      "startHidden": false,
+      "interestingGroups": "0",
+      "dialogue": "dlg/Santa Monica/Tourette.dlg",
+      "visibility": "Subject to santamonica.py and OnMapLoad callbacks",
+      "gender": "female",
+      "pinned": true,
+      "dialogueAttributes": {
+        "pl_criminal_attack": 3,
+        "pl_investigate": 6
+      },
+      "groups": [
+        0
+      ],
+      "usesInteresting": false
+    },
+    {
+      "sourceId": 220,
+      "name": "Chunk",
+      "model": "models/character/npc/common/security_guard/Security_Guard.mdl",
+      "alyxModel": "models/character/npc/common/security_guard/security_guard.vmdl",
+      "origin": [
+        -960.134,
+        339.872,
+        -266.0
+      ],
+      "angles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "startHidden": true,
+      "interestingGroups": "11",
+      "dialogue": null,
+      "visibility": "Subject to santamonica.py and OnMapLoad callbacks",
+      "gender": "male",
+      "pinned": false,
+      "dialogueAttributes": {
+        "pl_criminal_attack": 6,
+        "pl_investigate": 6
+      },
+      "groups": [
+        11
+      ],
+      "usesInteresting": true
+    },
+    {
+      "sourceId": 312,
+      "name": "Knox_basic",
+      "model": "models/character/npc/unique/Santa_Monica/Knox/Knox.mdl",
+      "alyxModel": "models/character/npc/unique/santa_monica/knox/knox.vmdl",
+      "origin": [
+        -748.0,
+        396.0,
+        -277.0
+      ],
+      "angles": [
+        0.0,
+        30.0,
+        0.0
+      ],
+      "startHidden": true,
+      "interestingGroups": "11 12 15",
+      "dialogue": "dlg/Santa Monica/Knox.dlg",
+      "visibility": "Subject to santamonica.py and OnMapLoad callbacks",
+      "gender": "male",
+      "pinned": true,
+      "dialogueAttributes": {
+        "pl_criminal_attack": 6,
+        "pl_investigate": 6
+      },
+      "groups": [
+        11,
+        12,
+        15
+      ],
+      "usesInteresting": false
+    },
+    {
+      "sourceId": 362,
+      "name": "Knox_plus",
+      "model": "models/character/npc/unique/Santa_Monica/Knox/Knox.mdl",
+      "alyxModel": "models/character/npc/unique/santa_monica/knox/knox.vmdl",
+      "origin": [
+        -1028.0,
+        637.0,
+        -153.0
+      ],
+      "angles": [
+        0.0,
+        280.0,
+        0.0
+      ],
+      "startHidden": true,
+      "interestingGroups": "11 12 15",
+      "dialogue": "dlg/Santa Monica/Knox.dlg",
+      "visibility": "Subject to santamonica.py and OnMapLoad callbacks",
+      "gender": "male",
+      "pinned": true,
+      "dialogueAttributes": {
+        "pl_criminal_attack": 6,
+        "pl_investigate": 6
+      },
+      "groups": [
+        11,
+        12,
+        15
+      ],
+      "usesInteresting": false
+    }
+  ],
+  "places": [
+    {
+      "id": 1170,
+      "name": "iplace_101170",
+      "sourceId": 117,
+      "group": 11,
+      "kind": "Dance",
+      "origin": [
+        -801.359,
+        80.3236,
+        -273.0
+      ],
+      "yaw": 90.0,
+      "minimum": 45.0,
+      "maximum": 90.0,
+      "conversation": ""
+    },
+    {
+      "id": 1180,
+      "name": "iplace_101180",
+      "sourceId": 118,
+      "group": 11,
+      "kind": "Dance",
+      "origin": [
+        -801.975,
+        114.608,
+        -273.0
+      ],
+      "yaw": 270.0,
+      "minimum": 45.0,
+      "maximum": 90.0,
+      "conversation": ""
+    },
+    {
+      "id": 1190,
+      "name": "iplace_101190",
+      "sourceId": 119,
+      "group": 11,
+      "kind": "Dance",
+      "origin": [
+        -1007.43,
+        16.9579,
+        -273.0
+      ],
+      "yaw": 180.0,
+      "minimum": 45.0,
+      "maximum": 90.0,
+      "conversation": ""
+    },
+    {
+      "id": 1200,
+      "name": "iplace_101200",
+      "sourceId": 120,
+      "group": 11,
+      "kind": "Dance",
+      "origin": [
+        -1041.2,
+        15.8423,
+        -273.0
+      ],
+      "yaw": 0.0,
+      "minimum": 45.0,
+      "maximum": 90.0,
+      "conversation": ""
+    },
+    {
+      "id": 1210,
+      "name": "iplace_101210",
+      "sourceId": 121,
+      "group": 11,
+      "kind": "Dance",
+      "origin": [
+        -799.874,
+        6.33311,
+        -273.0
+      ],
+      "yaw": 0.0,
+      "minimum": 45.0,
+      "maximum": 90.0,
+      "conversation": ""
+    },
+    {
+      "id": 1211,
+      "name": "iplace_101211",
+      "sourceId": 121,
+      "group": 11,
+      "kind": "Dance",
+      "origin": [
+        -767.874,
+        6.33311,
+        -273.0
+      ],
+      "yaw": 0.0,
+      "minimum": 45.0,
+      "maximum": 90.0,
+      "conversation": ""
+    },
+    {
+      "id": 1220,
+      "name": "iplace_101220",
+      "sourceId": 122,
+      "group": 11,
+      "kind": "Dance",
+      "origin": [
+        -1062.21,
+        73.3688,
+        -273.0
+      ],
+      "yaw": 90.0,
+      "minimum": 45.0,
+      "maximum": 90.0,
+      "conversation": ""
+    },
+    {
+      "id": 1221,
+      "name": "iplace_101221",
+      "sourceId": 122,
+      "group": 11,
+      "kind": "Dance",
+      "origin": [
+        -1014.21,
+        73.3688,
+        -273.0
+      ],
+      "yaw": 90.0,
+      "minimum": 45.0,
+      "maximum": 90.0,
+      "conversation": ""
+    },
+    {
+      "id": 1222,
+      "name": "iplace_101222",
+      "sourceId": 122,
+      "group": 11,
+      "kind": "Dance",
+      "origin": [
+        -1062.21,
+        105.3688,
+        -273.0
+      ],
+      "yaw": 90.0,
+      "minimum": 45.0,
+      "maximum": 90.0,
+      "conversation": ""
+    },
+    {
+      "id": 1230,
+      "name": "iplace_101230",
+      "sourceId": 123,
+      "group": 11,
+      "kind": "Dance",
+      "origin": [
+        -848.0,
+        104.813,
+        -273.0
+      ],
+      "yaw": 90.0,
+      "minimum": 45.0,
+      "maximum": 90.0,
+      "conversation": ""
+    },
+    {
+      "id": 1240,
+      "name": "iplace_101240",
+      "sourceId": 124,
+      "group": 11,
+      "kind": "Dance",
+      "origin": [
+        -850.924,
+        24.0,
+        -273.0
+      ],
+      "yaw": 90.0,
+      "minimum": 45.0,
+      "maximum": 90.0,
+      "conversation": ""
+    },
+    {
+      "id": 1650,
+      "name": "iplace_101650",
+      "sourceId": 165,
+      "group": 12,
+      "kind": "Idle",
+      "origin": [
+        -760.0,
+        556.0,
+        -145.0
+      ],
+      "yaw": 120.0,
+      "minimum": 20.0,
+      "maximum": 120.0,
+      "conversation": ""
+    },
+    {
+      "id": 1660,
+      "name": "iplace_101660",
+      "sourceId": 166,
+      "group": 12,
+      "kind": "conversation_normal",
+      "origin": [
+        -924.127,
+        556.44,
+        -145.0
+      ],
+      "yaw": 45.0,
+      "minimum": 20.0,
+      "maximum": 120.0,
+      "conversation": "convo_spot_3"
+    },
+    {
+      "id": 1670,
+      "name": "iplace_101670",
+      "sourceId": 167,
+      "group": 12,
+      "kind": "conversation_normal",
+      "origin": [
+        -927.511,
+        625.702,
+        -145.0
+      ],
+      "yaw": 315.0,
+      "minimum": 20.0,
+      "maximum": 120.0,
+      "conversation": "convo_spot_3"
+    },
+    {
+      "id": 1680,
+      "name": "iplace_101680",
+      "sourceId": 168,
+      "group": 12,
+      "kind": "conversation_normal",
+      "origin": [
+        -838.861,
+        553.287,
+        -145.0
+      ],
+      "yaw": 135.0,
+      "minimum": 20.0,
+      "maximum": 120.0,
+      "conversation": "convo_spot_3"
+    },
+    {
+      "id": 1690,
+      "name": "iplace_101690",
+      "sourceId": 169,
+      "group": 12,
+      "kind": "Idle",
+      "origin": [
+        -963.893,
+        447.12,
+        -145.0
+      ],
+      "yaw": 271.0,
+      "minimum": 8.0,
+      "maximum": 20.0,
+      "conversation": ""
+    },
+    {
+      "id": 1691,
+      "name": "iplace_101691",
+      "sourceId": 169,
+      "group": 12,
+      "kind": "Idle",
+      "origin": [
+        -899.893,
+        447.12,
+        -145.0
+      ],
+      "yaw": 271.0,
+      "minimum": 8.0,
+      "maximum": 20.0,
+      "conversation": ""
+    },
+    {
+      "id": 1692,
+      "name": "iplace_101692",
+      "sourceId": 169,
+      "group": 12,
+      "kind": "Idle",
+      "origin": [
+        -963.893,
+        463.12,
+        -145.0
+      ],
+      "yaw": 271.0,
+      "minimum": 8.0,
+      "maximum": 20.0,
+      "conversation": ""
+    },
+    {
+      "id": 1693,
+      "name": "iplace_101693",
+      "sourceId": 169,
+      "group": 12,
+      "kind": "Idle",
+      "origin": [
+        -899.893,
+        463.12,
+        -145.0
+      ],
+      "yaw": 271.0,
+      "minimum": 8.0,
+      "maximum": 20.0,
+      "conversation": ""
+    },
+    {
+      "id": 1730,
+      "name": "iplace_101730",
+      "sourceId": 173,
+      "group": 12,
+      "kind": "Idle",
+      "origin": [
+        -1048.74,
+        450.748,
+        -145.0
+      ],
+      "yaw": 275.0,
+      "minimum": 8.0,
+      "maximum": 60.0,
+      "conversation": ""
+    },
+    {
+      "id": 1740,
+      "name": "iplace_101740",
+      "sourceId": 174,
+      "group": 12,
+      "kind": "Idle",
+      "origin": [
+        -1137.45,
+        425.123,
+        -145.0
+      ],
+      "yaw": 317.0,
+      "minimum": 8.0,
+      "maximum": 60.0,
+      "conversation": ""
+    },
+    {
+      "id": 1770,
+      "name": "iplace_101770",
+      "sourceId": 177,
+      "group": 11,
+      "kind": "Idle",
+      "origin": [
+        -1020.35,
+        499.625,
+        -273.0
+      ],
+      "yaw": 210.0,
+      "minimum": 5.0,
+      "maximum": 60.0,
+      "conversation": ""
+    },
+    {
+      "id": 1780,
+      "name": "iplace_101780",
+      "sourceId": 178,
+      "group": 11,
+      "kind": "Idle",
+      "origin": [
+        -1083.86,
+        234.521,
+        -273.0
+      ],
+      "yaw": 330.0,
+      "minimum": 5.0,
+      "maximum": 60.0,
+      "conversation": ""
+    },
+    {
+      "id": 1790,
+      "name": "iplace_101790",
+      "sourceId": 179,
+      "group": 11,
+      "kind": "Idle",
+      "origin": [
+        -773.309,
+        229.705,
+        -273.0
+      ],
+      "yaw": 210.0,
+      "minimum": 5.0,
+      "maximum": 60.0,
+      "conversation": ""
+    },
+    {
+      "id": 1800,
+      "name": "iplace_101800",
+      "sourceId": 180,
+      "group": 11,
+      "kind": "conversation_normal",
+      "origin": [
+        -901.643,
+        646.004,
+        -273.0
+      ],
+      "yaw": 330.0,
+      "minimum": 5.0,
+      "maximum": 60.0,
+      "conversation": "convo_spot_2"
+    },
+    {
+      "id": 1810,
+      "name": "iplace_101810",
+      "sourceId": 181,
+      "group": 11,
+      "kind": "conversation_normal",
+      "origin": [
+        -865.429,
+        648.234,
+        -273.0
+      ],
+      "yaw": 210.0,
+      "minimum": 5.0,
+      "maximum": 60.0,
+      "conversation": "convo_spot_2"
+    },
+    {
+      "id": 1820,
+      "name": "iplace_101820",
+      "sourceId": 182,
+      "group": 11,
+      "kind": "Idle",
+      "origin": [
+        -1062.19,
+        500.643,
+        -273.0
+      ],
+      "yaw": 330.0,
+      "minimum": 5.0,
+      "maximum": 60.0,
+      "conversation": ""
+    },
+    {
+      "id": 2120,
+      "name": "iplace_102120",
+      "sourceId": 212,
+      "group": 15,
+      "kind": "Doorknock",
+      "origin": [
+        -1202.41,
+        -52.9519,
+        -273.0
+      ],
+      "yaw": 270.0,
+      "minimum": 5.0,
+      "maximum": 20.0,
+      "conversation": ""
+    },
+    {
+      "id": 2130,
+      "name": "iplace_102130",
+      "sourceId": 213,
+      "group": 14,
+      "kind": "Doorknock",
+      "origin": [
+        -656.738,
+        -53.557,
+        -273.0
+      ],
+      "yaw": 270.0,
+      "minimum": 5.0,
+      "maximum": 20.0,
+      "conversation": ""
+    },
+    {
+      "id": 2840,
+      "name": "iplace_102840",
+      "sourceId": 284,
+      "group": 32,
+      "kind": "Idle",
+      "origin": [
+        -838.693,
+        423.385,
+        -6.0
+      ],
+      "yaw": 136.0,
+      "minimum": 50000.0,
+      "maximum": 50000.0,
+      "conversation": ""
+    },
+    {
+      "id": 3010,
+      "name": "iplace_103010",
+      "sourceId": 301,
+      "group": 19,
+      "kind": "Idle",
+      "origin": [
+        -1056.0,
+        624.0,
+        -273.0
+      ],
+      "yaw": 125.0,
+      "minimum": 500.0,
+      "maximum": 500.0,
+      "conversation": ""
+    },
+    {
+      "id": 3190,
+      "name": "iplace_103190",
+      "sourceId": 319,
+      "group": 11,
+      "kind": "Dance",
+      "origin": [
+        -860.0,
+        100.0,
+        -273.0
+      ],
+      "yaw": 188.0,
+      "minimum": 45.0,
+      "maximum": 90.0,
+      "conversation": ""
+    },
+    {
+      "id": 3200,
+      "name": "iplace_103200",
+      "sourceId": 320,
+      "group": 11,
+      "kind": "Dance",
+      "origin": [
+        -860.0,
+        52.0,
+        -273.0
+      ],
+      "yaw": 164.0,
+      "minimum": 45.0,
+      "maximum": 90.0,
+      "conversation": ""
+    },
+    {
+      "id": 3210,
+      "name": "iplace_103210",
+      "sourceId": 321,
+      "group": 11,
+      "kind": "Dance",
+      "origin": [
+        -900.0,
+        4.0,
+        -273.0
+      ],
+      "yaw": 109.0,
+      "minimum": 45.0,
+      "maximum": 90.0,
+      "conversation": ""
+    },
+    {
+      "id": 3220,
+      "name": "iplace_103220",
+      "sourceId": 322,
+      "group": 11,
+      "kind": "Dance",
+      "origin": [
+        -952.0,
+        8.0,
+        -273.0
+      ],
+      "yaw": 82.0,
+      "minimum": 45.0,
+      "maximum": 90.0,
+      "conversation": ""
+    },
+    {
+      "id": 3230,
+      "name": "iplace_103230",
+      "sourceId": 323,
+      "group": 11,
+      "kind": "Dance",
+      "origin": [
+        -996.0,
+        44.0,
+        -273.0
+      ],
+      "yaw": 23.0,
+      "minimum": 45.0,
+      "maximum": 90.0,
+      "conversation": ""
+    },
+    {
+      "id": 3240,
+      "name": "iplace_103240",
+      "sourceId": 324,
+      "group": 11,
+      "kind": "Dance",
+      "origin": [
+        -996.0,
+        92.0,
+        -273.0
+      ],
+      "yaw": 0.0,
+      "minimum": 45.0,
+      "maximum": 90.0,
+      "conversation": ""
+    },
+    {
+      "id": 3250,
+      "name": "iplace_103250",
+      "sourceId": 325,
+      "group": 11,
+      "kind": "Dance",
+      "origin": [
+        -972.0,
+        144.0,
+        -273.0
+      ],
+      "yaw": 319.0,
+      "minimum": 45.0,
+      "maximum": 90.0,
+      "conversation": ""
+    },
+    {
+      "id": 3260,
+      "name": "iplace_103260",
+      "sourceId": 326,
+      "group": 11,
+      "kind": "Dance",
+      "origin": [
+        -920.0,
+        140.0,
+        -273.0
+      ],
+      "yaw": 278.0,
+      "minimum": 45.0,
+      "maximum": 90.0,
+      "conversation": ""
+    },
+    {
+      "id": 3270,
+      "name": "iplace_103270",
+      "sourceId": 327,
+      "group": 11,
+      "kind": "Dance",
+      "origin": [
+        -872.0,
+        140.0,
+        -273.0
+      ],
+      "yaw": 245.0,
+      "minimum": 45.0,
+      "maximum": 90.0,
+      "conversation": ""
+    }
+  ],
+  "conversations": [
+    {
+      "name": "convo_spot_1",
+      "id": 280,
+      "places": "convo_spot_1",
+      "origin": [
+        -1039.21,
+        513.0,
+        -189.114
+      ],
+      "sound": {
+        "sound": "VTMBVR.Asylum.Location.conversation1",
+        "duration": 54.89725
+      }
+    },
+    {
+      "name": "convo_spot_2",
+      "id": 281,
+      "places": "convo_spot_2",
+      "origin": [
+        -879.214,
+        641.0,
+        -189.114
+      ],
+      "sound": {
+        "sound": "VTMBVR.Asylum.Location.conversation4",
+        "duration": 11.065770833333334
+      }
+    },
+    {
+      "name": "convo_spot_3",
+      "id": 282,
+      "places": "convo_spot_3",
+      "origin": [
+        -880.0,
+        592.0,
+        -97.1142
+      ],
+      "sound": {
+        "sound": "VTMBVR.Asylum.Location.conversation5",
+        "duration": 16.344145833333332
+      }
+    }
+  ],
+  "sounds": {
+    "argument": {
+      "sound": "VTMBVR.Asylum.Ambient.cc8aaf19ee5e",
+      "duration": 52.706229
+    },
+    "doorSlam": {
+      "sound": "VTMBVR.Asylum.Ambient.21d4f51b5bde",
+      "duration": 0.763542
+    },
+    "ding": {
+      "sound": "VTMBVR.Asylum.Ambient.a6c5bf2d5937",
+      "duration": 2.9435
+    },
+    "sistersGunshot": {
+      "sound": "VTMBVR.Asylum.Location.sistersGunshot",
+      "duration": 0.9184583333333334
+    },
+    "denied": {
+      "sound": "VTMBVR.Asylum.Ambient.25a342e24d3f",
+      "duration": 0.276646
+    },
+    "unlock": {
+      "sound": "VTMBVR.Asylum.Ambient.2ba3c630a1b7",
+      "duration": 0.331979
+    },
+    "conversation1": {
+      "sound": "VTMBVR.Asylum.Location.conversation1",
+      "duration": 54.89725
+    },
+    "conversation4": {
+      "sound": "VTMBVR.Asylum.Location.conversation4",
+      "duration": 11.065770833333334
+    },
+    "conversation5": {
+      "sound": "VTMBVR.Asylum.Location.conversation5",
+      "duration": 16.344145833333332
+    },
+    "music": {
+      "sound": "VTMBVR.Asylum.Location.music",
+      "duration": 317.96245833333336
+    },
+    "whisper_calf": {
+      "sound": "VTMBVR.Asylum.Location.whisper_calf",
+      "duration": 5.09025
+    },
+    "whisper_blind": {
+      "sound": "VTMBVR.Asylum.Location.whisper_blind",
+      "duration": 4.791479166666667
+    },
+    "whisper_mistress": {
+      "sound": "VTMBVR.Asylum.Location.whisper_mistress",
+      "duration": 3.9836875
+    },
+    "whisper_wishes_words": {
+      "sound": "VTMBVR.Asylum.Location.whisper_wishes_words",
+      "duration": 4.271395833333333
+    },
+    "whisper_child_moan": {
+      "sound": "VTMBVR.Asylum.Location.whisper_child_moan",
+      "duration": 1.682
+    },
+    "whisper_man_moan": {
+      "sound": "VTMBVR.Asylum.Location.whisper_man_moan",
+      "duration": 2.4455416666666667
+    },
+    "whisper_woman_moan": {
+      "sound": "VTMBVR.Asylum.Location.whisper_woman_moan",
+      "duration": 4.8246875
+    },
+    "whisper_child_moan_alt3": {
+      "sound": "VTMBVR.Asylum.Location.whisper_child_moan_alt3",
+      "duration": 1.682
+    }
+  },
+  "whispers": {
+    "Deluded": [
+      {
+        "sound": "VTMBVR.Asylum.Location.whisper_calf",
+        "duration": 5.09025
+      },
+      {
+        "sound": "VTMBVR.Asylum.Location.whisper_blind",
+        "duration": 4.791479166666667
+      },
+      {
+        "sound": "VTMBVR.Asylum.Location.whisper_mistress",
+        "duration": 3.9836875
+      },
+      {
+        "sound": "VTMBVR.Asylum.Location.whisper_wishes_words",
+        "duration": 4.271395833333333
+      }
+    ],
+    "Moaning": [
+      {
+        "sound": "VTMBVR.Asylum.Location.whisper_child_moan",
+        "duration": 1.682
+      },
+      {
+        "sound": "VTMBVR.Asylum.Location.whisper_man_moan",
+        "duration": 2.4455416666666667
+      },
+      {
+        "sound": "VTMBVR.Asylum.Location.whisper_woman_moan",
+        "duration": 4.8246875
+      },
+      {
+        "sound": "VTMBVR.Asylum.Location.whisper_child_moan_alt3",
+        "duration": 1.682
+      }
+    ]
+  },
+  "sisters": {
+    "actor": "npc_vampire_asylum_218",
+    "sourceTrigger": 215,
+    "minimum": [
+      -976.0,
+      652.0,
+      2.55
+    ],
+    "maximum": [
+      -898.24,
+      725.285,
+      70.55
+    ],
+    "durations": {
+      "Tourette_intro_pre": 2.0,
+      "Tourette_intro": 2.3333333333333335,
+      "Tourette_ShootsHerself": 8.666666666666666
+    }
+  },
+  "argumentDuration": 52.706229,
+  "storyKeys": [
+    "Asylum_Visited",
+    "Doll_Seduce"
+  ],
+  "sourceMap": "sm_asylum_1",
+  "geometryEdited": false
+}

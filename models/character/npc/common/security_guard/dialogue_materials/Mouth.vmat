@@ -1,0 +1,6 @@
+Layer0
+{
+	F_MORPH_SUPPORTED "1"
+shader "vr_complex.vfx"
+TextureColor "models/character/npc/common/security_guard/dialogue_materials/Mouth_color.png"
+}

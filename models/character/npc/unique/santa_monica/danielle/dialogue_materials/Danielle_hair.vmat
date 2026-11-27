@@ -1,0 +1,5 @@
+Layer0
+{
+shader "vr_complex.vfx"
+TextureColor "models/character/npc/unique/santa_monica/danielle/dialogue_materials/Danielle_hair_color.png"
+}
