@@ -7,7 +7,7 @@ import subprocess
 
 from bloodlines_assets import write_json
 from build_jeanette_face import lua
-from alyx_sdk import compiled_relative, install_manifest_alias, resolve_addon
+from alyx_sdk import compiled_relative, install_manifest_alias, resolve_addon, sync_scripts
 
 
 def generate(checkout):
@@ -131,6 +131,7 @@ def compile_assets(checkout, sdk, addon, log_path):
     if result.returncode or '0 failed' not in report or failures:
         raise RuntimeError('Native resource build failed; inspect '+str(log_path)+'; missing/stale '+str(failures[:10]))
     install_manifest_alias(paths)
+    print('Scripts installed: '+str(sync_scripts(paths)), flush=True)
     return len(resources)
 
 

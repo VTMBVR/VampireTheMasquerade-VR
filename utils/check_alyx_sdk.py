@@ -7,7 +7,7 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
-from alyx_sdk import compiled_relative, install_manifest_alias, resolve_addon
+from alyx_sdk import compiled_relative, install_manifest_alias, resolve_addon, sync_scripts
 import build_asylum
 import build_dialogue
 
@@ -75,6 +75,65 @@ class AddonTests(unittest.TestCase):
         self.assertEqual(alias.name, 'vampirethemasquerade_addon_resources.vrman_c')
         self.assertEqual(alias.read_bytes(), canonical.read_bytes())
 
+    def test_copies_complete_scripts_tree_and_updates_changed_files(self):
+        paths=resolve_addon(self.sdk,self.checkout)
+        source=self.checkout/'scripts'
+        (source/'vscripts/nested').mkdir(parents=True)
+        (source/'vscripts/npc_dialog.lua').write_text('first')
+        (source/'vscripts/nested/data.lua').write_text('return {}')
+        (source/'dialogue').mkdir()
+        (source/'dialogue/catalog.json').write_text('{}')
+        self.assertEqual(sync_scripts(paths),dict(copied=3,unchanged=0,linked=0))
+        installed=self.runtime/'scripts'
+        (installed/'runtime-only.lua').write_text('keep')
+        (source/'vscripts/npc_dialog.lua').write_text('second')
+        self.assertEqual(sync_scripts(paths),dict(copied=1,unchanged=2,linked=0))
+        self.assertEqual((installed/'vscripts/npc_dialog.lua').read_text(),'second')
+        self.assertEqual((installed/'runtime-only.lua').read_text(),'keep')
+
+    def test_linked_vscripts_are_not_copied_onto_themselves(self):
+        paths=resolve_addon(self.sdk,self.checkout)
+        source=self.checkout/'scripts/vscripts'
+        source.mkdir(parents=True)
+        (source/'npc_dialog.lua').write_text('linked')
+        original=Path.resolve
+        target=self.runtime/'scripts/vscripts'
+        def resolve(path,*args,**kwargs):
+            if path==target or path.is_relative_to(target):
+                return source/path.relative_to(target)
+            return original(path,*args,**kwargs)
+        with patch.object(Path,'resolve',resolve),patch('alyx_sdk.shutil.copy2') as copy:
+            self.assertEqual(sync_scripts(paths),dict(copied=0,unchanged=0,linked=1))
+            copy.assert_not_called()
+
+    def test_unrelated_runtime_junction_is_rejected(self):
+        paths=resolve_addon(self.sdk,self.checkout)
+        source=self.checkout/'scripts/vscripts'
+        source.mkdir(parents=True)
+        (source/'npc_dialog.lua').write_text('safe')
+        original=Path.resolve
+        target=self.runtime/'scripts/vscripts'
+        def resolve(path,*args,**kwargs):
+            if path==target or path.is_relative_to(target):
+                return Path(self.temp.name)/'unrelated'/path.relative_to(target)
+            return original(path,*args,**kwargs)
+        with patch.object(Path,'resolve',resolve),patch('alyx_sdk.shutil.copy2') as copy:
+            with self.assertRaisesRegex(ValueError,'outside the runtime'):
+                sync_scripts(paths)
+            copy.assert_not_called()
+
+    def test_scripts_only_cli_never_launches_compiler(self):
+        script=self.checkout/'scripts/vscripts/npc_dialog.lua'
+        script.parent.mkdir(parents=True)
+        script.write_text('dialogue runtime')
+        with patch.object(build_dialogue,'__file__',str(self.checkout/'utils/build_dialogue.py')), \
+             patch('sys.argv',['build_dialogue.py','--alyx-root',str(self.sdk),'--scripts-only']), \
+             patch.object(build_dialogue.subprocess,'run') as compiler, \
+             contextlib.redirect_stdout(io.StringIO()):
+            build_dialogue.main()
+            compiler.assert_not_called()
+        self.assertEqual((self.runtime/'scripts/vscripts/npc_dialog.lua').read_text(),'dialogue runtime')
+
     def compiler(self, args, **kwargs):
         if '-filelist' in args:
             inputs = Path(args[args.index('-filelist')+1]).read_text(encoding='utf8').splitlines()
@@ -118,6 +177,7 @@ class AddonTests(unittest.TestCase):
         self.assertEqual(count, 3)
         self.assertTrue((self.runtime/'sounds/dialogue/test.vsnd_c').is_file())
         self.assertTrue((self.runtime/'resourcemanifests/vampirethemasquerade_addon_resources.vrman_c').is_file())
+        self.assertEqual((self.runtime/'scripts/dialogue/asylum/manifest.json').read_text(),manifest.read_text())
 
 
 if __name__ == '__main__':

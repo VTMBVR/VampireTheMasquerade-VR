@@ -13,3 +13,5 @@ _bakeresourcecache/
 _buildcubemaps/
 __pycache__/
 *.py[cod]
+/asylum-build.log
+/asylum-build.inputs.txt

@@ -11,8 +11,12 @@ local records,slots,emitters,scheduled={},{},{},{}
 local departure,argument,musicAt,musicPlaying=nil,nil,0,false
 local liftTravel=nil
 local liftDeniedAt=0
-local liftPanels={}
-local liftButtons={elev_button_up="AsylumLocationLiftUp",elev_button_down="AsylumLocationLiftDown"}
+local physicalResetUntil=0
+local physicalNeedsReset=false
+local liftDoorStates={}
+local liftEgressUntil=0
+local liftButtons={elev_button_up="AsylumLocationLiftUp",elev_button_down="AsylumLocationLiftDown",
+    button_center_pusher="AsylumLocationLiftToggle"}
 local OWNER="AsylumLocation"
 local function valid(e) return e and not e:IsNull() end
 local function log(message) print("[ASYLUM_LOCATION] "..message) end
@@ -56,26 +60,70 @@ end
 local function input(name,operation)
     for _,e in ipairs(Entities:FindAllByName(name)) do
         local class=e:GetClassname()
-        if class=="func_button" or class=="func_door" or class:match("^prop_door") then
+        if class=="func_button" or class=="func_physical_button" or class=="func_door" or class:match("^prop_door") then
             DoEntFireByInstanceHandle(e,operation,"",0,nil,thisEntity)
         end
     end
 end
+local function playerInCab(train)
+    local player=Entities:GetLocalPlayer()
+    if not valid(player) or not valid(train) then return false end
+    local p=player:GetAbsOrigin()
+    local ground={startpos=p+Vector(0,0,16),endpos=p-Vector(0,0,12),ignore=player}
+    TraceLine(ground)
+    return ground.hit and valid(ground.enthit) and
+        (ground.enthit==train or ground.enthit:GetRootMoveParent()==train)
+end
+local function lowerDoorAccess()
+    -- Never trap somebody who rode with Jeanette or restored a save in the
+    -- cab. Keep a short grace period while they step across its threshold.
+    if playerInCab(Entities:FindByName(nil,"lift_train")) then liftEgressUntil=Time()+2 end
+    return get("Cal_Permission")==1 or Time()<liftEgressUntil or
+        (flag("jeanette_departing")==1 and flag("jeanette_riding")==0)
+end
 local function liftDoors(open,upper)
+    local allowed=upper or lowerDoorAccess()
     for _,name in ipairs({"door_left","door_right","door_left2","door_right2"}) do
-        input(name,open and ((name:sub(-1)=="2")==upper) and "Open" or "Close")
+        local show=open and allowed and ((name:sub(-1)=="2")==upper)
+        if liftDoorStates[name]~=show then
+            if show then input(name,"Unlock");input(name,"Open")
+            else input(name,"Close");input(name,"Lock") end
+            liftDoorStates[name]=show
+        end
     end
 end
+local function syncLiftDoors()
+    if liftTravel then return end
+    local train=Entities:FindByName(nil,"lift_train")
+    if not valid(train) then return end
+    for _,upper in ipairs({false,true}) do
+        local stop=Entities:FindByName(nil,upper and "path_top" or "path_bottom")
+        if valid(stop) and math.abs(train:GetAbsOrigin().z-stop:GetAbsOrigin().z)<8 then
+            liftDoors(true,upper);return
+        end
+    end
+    liftDoors(false,false)
+end
+local function liftAtUpper()
+    local train=Entities:FindByName(nil,"lift_train")
+    local top=Entities:FindByName(nil,"path_top")
+    local bottom=Entities:FindByName(nil,"path_bottom")
+    return valid(train) and valid(top) and valid(bottom) and
+        math.abs(train:GetAbsOrigin().z-top:GetAbsOrigin().z)<math.abs(train:GetAbsOrigin().z-bottom:GetAbsOrigin().z)
+end
 local function syncLiftButtons()
-    -- The imported OnPressed outputs also lock their own button. Reconcile
-    -- after those queued outputs, including denied and same-floor presses.
+    -- Reconcile the old brush buttons' self-locking I/O, too. The physical
+    -- model button chooses the opposite landing and can always descend.
     input("elev_button_up",not liftTravel and get("Cal_Permission")==1 and "Unlock" or "Lock")
     input("elev_button_down",liftTravel and "Lock" or "Unlock")
-    for name,panel in pairs(liftPanels) do
-        if valid(panel) then
-            local locked=liftTravel~=nil or (name=="elev_button_up" and get("Cal_Permission")~=1)
-            if locked then panel:AddCSSClasses("LiftLocked") else panel:RemoveCSSClasses("LiftLocked") end
-        end
+    local physicalReady=not liftTravel and (liftAtUpper() or get("Cal_Permission")==1)
+    input("button_center_pusher",physicalReady and "Unlock" or "Lock")
+    -- PressOut is ignored while a native physical button is locked. Release
+    -- only after arrival/unlock, and suppress its release-edge OnPressed.
+    if physicalReady and physicalNeedsReset then
+        physicalNeedsReset=false;physicalResetUntil=Time()+.2
+        local button=Entities:FindByName(nil,"button_center_pusher")
+        if valid(button) then DoEntFireByInstanceHandle(button,"PressOut","",.05,nil,thisEntity) end
     end
 end
 function AsylumLocationLiftLocked()
@@ -92,8 +140,17 @@ local function liftRequest(upper,npc)
     if not running or not valid(train) or not valid(stop) then return false end
     if liftTravel then return AsylumLocationLiftLocked() end
     if upper and not npc and get("Cal_Permission")~=1 then return AsylumLocationLiftLocked() end
+    if not upper and not npc and math.abs(train:GetAbsOrigin().z-stop:GetAbsOrigin().z)<8 and not lowerDoorAccess() then
+        return AsylumLocationLiftLocked()
+    end
     if math.abs(train:GetAbsOrigin().z-stop:GetAbsOrigin().z)<8 then
-        liftDoors(true,upper);sound("ding",train:GetAbsOrigin());return true
+        liftDoors(true,upper)
+        -- Older compiled maps queue native Close after OnPressed even when
+        -- the button did not start a trip. Reconcile after that queued I/O.
+        after(.1,function()
+            if not liftTravel then liftDoorStates={};syncLiftDoors() end
+        end)
+        sound("ding",train:GetAbsOrigin());return true
     end
     liftTravel={train=train,upper=upper,z=stop:GetAbsOrigin().z,deadline=Time()+25,
         previous=train:GetAbsOrigin().z,lastMotion=Time()+2,lastCommand=Time()+2,retries=0}
@@ -111,24 +168,34 @@ local function liftRequest(upper,npc)
 end
 function AsylumLocationLiftUp() return liftRequest(true,false) end
 function AsylumLocationLiftDown() return liftRequest(false,false) end
+function AsylumLocationLiftToggle()
+    -- Native physical buttons can stay latched if locked during a trip.
+    -- Release their actuator explicitly. Ignore the release/bounce output.
+    if Time()<physicalResetUntil then return false end
+    physicalNeedsReset=true
+    if liftTravel then return AsylumLocationLiftLocked() end
+    local accepted=liftRequest(not liftAtUpper(),false)
+    return accepted
+end
 function AsylumLocationPlayerSeated() return vrInteractions.Seated() end
 function AsylumLocationVRStop() vrInteractions.Stop() end
 function AsylumLocationVRStand() return vrInteractions.Stand("console",false) end
 function AsylumLocationInteract(origin,direction,activate)
     if not running then return false end
     if vrInteractions.Interact(origin,direction,activate) then return true end
-    local closestButton,nearest=nil,80
-    for name,panel in pairs(liftPanels) do
-        if valid(panel) then
-            local delta=panel:GetAbsOrigin()-origin;local t=delta:Dot(direction)
-            if t>=0 and t<nearest and (delta-direction*t):Length()<5 then
-                local q={startpos=origin,endpos=panel:GetAbsOrigin(),ignore=Entities:GetLocalPlayer()};TraceLine(q)
-                if not q.hit or (q.pos-panel:GetAbsOrigin()):Length()<5 then closestButton=name;nearest=t end
-            end
-        end
+    -- Desktop use / trigger aiming hits the actual pusher model. VR hands
+    -- also press its existing func_physical_button directly, with no UI plane.
+    local button=Entities:FindByName(nil,"button_center_pusher")
+    local model=Entities:FindByName(nil,"button_pusher_prop")
+    if not valid(button) or not valid(model) then return false end
+    local at=model:GetAbsOrigin();local delta=at-origin;local t=delta:Dot(direction)
+    if t<0 or t>80 or (delta-direction*t):Length()>4 then return false end
+    local q={startpos=origin,endpos=at,ignore=Entities:GetLocalPlayer()};TraceLine(q)
+    if q.hit and q.enthit~=model and q.enthit~=button then return false end
+    if activate then
+        if liftTravel or (not liftAtUpper() and get("Cal_Permission")~=1) then AsylumLocationLiftLocked()
+        else DoEntFireByInstanceHandle(button,"PressIn","",0,Entities:GetLocalPlayer(),thisEntity) end
     end
-    if not closestButton then return false end
-    if activate then liftRequest(closestButton=="elev_button_up",false) end
     return true
 end
 local function entity(id) return Entities:FindByName(nil,"npc_vampire_asylum_"..id) end
@@ -145,15 +212,8 @@ local function releaseSlot(record)
 end
 local function returnEmptyCab()
     if not running or flag("cab_return")==0 then return end
-    local player=Entities:GetLocalPlayer();local train=Entities:FindByName(nil,"lift_train")
-    if valid(player) and valid(train) then
-        local p=player:GetAbsOrigin()
-        local ground={startpos=p+Vector(0,0,16),endpos=p-Vector(0,0,12),ignore=player}
-        TraceLine(ground)
-        if ground.hit and valid(ground.enthit) and (ground.enthit==train or ground.enthit:GetRootMoveParent()==train) then
-            after(1,returnEmptyCab);return
-        end
-    end
+    local train=Entities:FindByName(nil,"lift_train")
+    if playerInCab(train) then after(1,returnEmptyCab);return end
     if liftRequest(false,true) then flag("cab_return",0) else after(1,returnEmptyCab) end
 end
 local function finishDeparture()
@@ -431,6 +491,7 @@ local function think()
             log("LIFT_FAILED")
         end
     end
+    syncLiftDoors()
     if departure and departure.stage=="waiting_lift" and not liftTravel and now>=departure.boardAt then boardDeparture() end
     for _,entry in ipairs(data.actors) do
         local actor=entity(entry.sourceId)
@@ -472,8 +533,6 @@ function AsylumLocationStop()
     items.Stop()
     sisters.Stop()
     running=false;story.BindWorld(nil)
-    for _,panel in pairs(liftPanels) do if valid(panel) then UTIL_Remove(panel) end end
-    liftPanels={}
     for _,record in pairs(records) do
         if valid(record.actor) and not NpcSceneDialogueBusy(record.actor) then
             NpcSceneSourcePose(record.actor,record.actor:GetAbsOrigin(),record.actor:GetAngles().y,nil)
@@ -501,6 +560,7 @@ function AsylumLocationStop()
         place.trigger=nil
     end
     records={};slots={};emitters={};scheduled={};departure=nil;argument=nil;musicPlaying=false;liftTravel=nil
+    liftDoorStates={};liftEgressUntil=0
 end
 function AsylumLocationStart(profile)
     if running then AsylumLocationStop() end
@@ -511,6 +571,10 @@ function AsylumLocationStart(profile)
     if profile and not profile:match("^first_visit") then set("Asylum_Visited",1) end
     flag("initialized",1)
     running=true;musicAt=Time()+1;liftDeniedAt=0
+    for _,name in ipairs({"elev_button_up","elev_button_down"}) do
+        local old=Entities:FindByName(nil,"asylum_lift_ui_"..name)
+        if valid(old) then UTIL_Remove(old) end
+    end
     vrInteractions.Start(thisEntity)
     items.Start(thisEntity,story,profile~=nil)
     sisters.Start(thisEntity,story,profile~=nil)
@@ -527,28 +591,14 @@ function AsylumLocationStart(profile)
                 button:DisconnectRedirectedOutput("OnUseLocked","AsylumLocationLiftLocked",thisEntity)
                 button:RedirectOutput("OnPressed",callback,thisEntity)
                 button:RedirectOutput("OnUseLocked","AsylumLocationLiftLocked",thisEntity)
-                local panelName="asylum_lift_ui_"..name
-                local panel=Entities:FindByName(nil,panelName)
-                if not valid(panel) then
-                    panel=SpawnEntityFromTableSynchronous("point_clientui_world_panel",{
-                        targetname=panelName,origin=position+Vector(2,.5,.5),angles=QAngle(0,90,90),
-                        dialog_layout_name="file://{resources}/layout/custom_game/vtmbvr_lift.xml",
-                        width=6,height=6,panel_dpi=128/6,horizontal_align="1",vertical_align="1",orientation="0",
-                        interact_distance=80,enabled=1,ignore_input=0})
+                if name=="button_center_pusher" then
+                    physicalNeedsReset=true
                 end
-                if valid(panel) then
-                    local at=panel:GetAbsOrigin();panel:SetParent(train,"");panel:SetAbsOrigin(at)
-                    panel:DisconnectRedirectedOutput("CustomOutput0",callback,thisEntity)
-                    panel:RedirectOutput("CustomOutput0",callback,thisEntity)
-                    if name=="elev_button_down" then panel:AddCSSClasses("LiftDown") end
-                    local player=Entities:GetLocalPlayer()
-                    if valid(player) and player:GetHMDAvatar() then panel:IgnoreUserInput() else panel:AcceptUserInput() end
-                    liftPanels[name]=panel
-                end
+
             end
         end
         syncLiftButtons()
-        liftDoors(true,train:GetAbsOrigin().z> -100)
+        syncLiftDoors()
     end
     makePlaces();story.BindWorld(world)
     for _,entry in ipairs(data.actors) do

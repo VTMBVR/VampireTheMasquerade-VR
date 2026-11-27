@@ -51,6 +51,14 @@ $bloodlines = "E:\Vampire - The Masquerade Bloodlines"
 python utils/prepare_asylum.py --bloodlines-root $bloodlines
 ```
 
+The batch passes `--raw-output` to the location step automatically. It defaults
+to `bloodlines-asylum-location-source` beside the checkout; to choose another
+folder, add `--raw-output "D:\mod\asylum-raw"`. Keep raw exports outside both
+the checkout and the installed Bloodlines game. The location step exports
+`SDKContent/mapsrc/up sources/sm_asylum_1.vmf` from the installed game itself;
+if those optional SDK sources are absent, use an earlier raw import containing
+`mapsrc/sm_asylum_1.vmf`.
+
 This regenerates seven additional facial-capable models, the existing Jeanette
 facial graph, missing crowd model sources, original UI art, dialogue data and
 voice/performance modules. Jeanette's approved body/face mesh and saved tuning
@@ -86,11 +94,34 @@ The first command compiles source voices, sound events and the manifest. The
 second compiles dialogue models/graphs, crowd models, UI, original glyph images
 and the earlier example's resources. Restart Alyx after rebuilding cached UI.
 Neither command rewrites or compiles the map. Rebuild
-`maps/sm_asylum_fix_navfix.vmap` in Hammer for its chair, trigger and bottle
-changes. Close the running map before rebuilding its VPK. If multiple SDK
+`maps/sm_asylum_fix_navfix.vmap` in Hammer for its NPC, table, lift I/O, chair,
+trigger and bottle changes. Rebuild navigation after moving static obstacles.
+If the NAV changes, refresh the runtime approach data with
+`python utils/prepare_asylum_navigation.py --nav-file "<compiled-map.nav>"`,
+then install scripts again. Close the running map before rebuilding its VPK. If multiple SDK
 mounts point to this checkout, select one with `--addon vampirethemasquerade`
 or its actual name. Club music is reconstructed by `prepare_asylum.py` from
 the local Bloodlines installation; `sounds/music` is excluded from Git.
+
+Both builders also copy the complete `scripts` folder from content to game,
+including generated Lua modules and dialogue data. A local `vscripts` junction
+is detected and retained. To install just the prepared scripts without running
+the compiler (for example, when `npc_dialog` cannot be found):
+
+```powershell
+python utils/build_dialogue.py --alyx-root $alyx --scripts-only
+```
+
+The authored map contains the 16 NPCs used by the fresh `first_visit_quest`
+profile. The runtime adopts these entities and keeps their Hammer placement;
+conditional Basic/Plus and later story alternatives still follow dialogue
+state. Jeanette's club introduction and office position remain separate.
+The cast script retains support for older maps containing the demo roster.
+
+After Jeanette leaves, the empty lift returns downstairs with its doors closed.
+Cal's permission unlocks and opens the waiting cab. NPC boarding and safe player
+egress remain possible without that permission. Native path outputs no longer
+open the doors independently of the location script.
 
 ## Dialogue state and map scope
 
@@ -288,6 +319,26 @@ their original iris materials. The full `prepare_asylum.py` batch includes this
 step. It bakes each MDL eyeball's neutral iris projection into the existing UVs;
 the body mesh, skinning and saved facial calibration stay unchanged. Original
 left/right iris colors are preserved. Animated pupil tracking is not included.
+
+Jeanette uses a Source 2 direct cloth proxy in her
+normal `jeanette.vmdl`. A 56-by-8 simulation surface drives the visible skirt;
+the old fitted skirt joints are no longer used. The sewn waistband follows
+the underlying body skin. Below it, the rest mesh hangs downward around the
+hips, retaining the original UVs. Pelvis/thigh capsules
+provide collision, with weaker pose attraction at the free hem.
+
+Run `python utils/prepare_jeanette_skirt.py` to regenerate the sources, then
+recompile her model. Preparation always starts from the authored reference,
+so repeated runs cannot bend the already draped mesh again. These assets are
+included in the full preparation/build workflow. The normal `jeanette.vmdl`
+is the only runtime model; no comparison NPCs or label panels are installed.
+
+`python utils/prepare_jeanette_skirt.py --collisions-only` updates the fitted
+capsules without regenerating the cloth mesh; recompile Jeanette afterwards.
+
+The lift uses its modelled physical button. It selects the opposite landing,
+keeps Cal's access restriction and releases the actuator after arrival.
+Rebuild `sm_asylum_fix_navfix` after pulling the map changes.
 
 `prepare_asylum_items.py` imports the six original dialogue quest items and the
 sisters' wielded revolver. Dialogue inventory changes are server owned; physical

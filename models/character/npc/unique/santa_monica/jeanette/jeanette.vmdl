@@ -5,20 +5,52 @@
 		_class = "RootNode"
 		children = 
 		[
-			{
-				_class = "WeightListList"
-				children = 
-				[
-					{
-						_class = "WeightList"
-						name = "dialogue_face_only"
-						default_weight = 0.0
-						weights = [  ]
-						master_morph_weight = 1.0
-						morph_weights = [  ]
-					},
-				]
-			},
+{
+    _class = "ClothProxyMeshList"
+    children = [
+        {
+            _class = "ClothParams"
+            default_stretch = 0.0
+            additional_shear_stretch = 0.0
+            extra_iterations = 16
+            extra_goal_iterations = 2
+            default_gravity_scale = 1.0
+            velocity_smooth_rate = 0.0
+            local_force = 0.5
+            local_rotation = 0.75
+            new_style = true
+            add_stiffness_rods = false
+            add_bend_only_rods = true
+            rigid_edge_hinges = false
+            add_curvature = 0.18
+            force_world_collision_on_all_nodes = false
+        },
+        {
+            _class = "ClothProxyMeshFile"
+            name = "skirt_proxy"
+            filename = "models/character/npc/unique/santa_monica/jeanette/jeanette_skirt_proxy.dmx"
+            import_scale = 1.0
+            back_solve_joints = false
+            back_solve_joints_drive_meshes = false
+            flex_cloth_borders = false
+            add_bones_to_render_mesh = true
+            back_solve_influence_threshold = 0.05
+            cloth_stray_radius_scale = 1.0
+            cloth_stray_radius_inv_scale = 1.0
+            import_filter = {
+                exclude_by_default = false
+                exception_list = [
+
+                ]
+            }
+        }
+    ]
+},
+
+            {_class="WeightListList" children=[{_class="WeightList"
+                name="dialogue_face_only" default_weight=0.0 weights=[]
+                master_morph_weight=1.0 morph_weights=[]}]},
+
 			{
 				_class = "MaterialGroupList"
 				children = 
@@ -105,11 +137,8 @@
 					},
 				]
 			},
-			{
-				_class = "RenderMeshList"
-				children = 
-				[
-					{
+			{_class="RenderMeshList" children=[
+{
 						_class = "RenderMeshFile"
 						name = "rework_1"
 						disabled = true
@@ -121,10 +150,10 @@
 							exception_list = [  ]
 						}
 					},
-					{
+{
 						_class = "RenderMeshFile"
 						name = "rework_6"
-						filename = "models/character/npc/unique/santa_monica/jeanette/jeanette_body.smd"
+						filename = "models/character/npc/unique/santa_monica/jeanette/jeanette_proxy_body.smd"
 						import_scale = 1.0
 						import_filter = 
 						{
@@ -132,18 +161,14 @@
 							exception_list = [  ]
 						}
 					},
-					{
+{
 						_class = "RenderMeshFile"
 						name = "dialogue_face"
 						filename = "models/character/npc/unique/santa_monica/jeanette/jeanette_face.dmx"
 						import_scale = 1.0
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
+						import_filter = { exclude_by_default = false exception_list = [] }
 					},
-					{
+{
 						_class = "RenderMeshFile"
 						disabled = true
 						filename = "models/character/npc/unique/santa_monica/jeanette/skirt_rebuild/klim/JeanetteR2_REF_fixed_v1.smd"
@@ -154,16 +179,24 @@
 							exception_list = [  ]
 						}
 					},
-				]
-			},
+{
+    _class = "RenderMeshFile"
+    name = "proxy_skirt_render"
+    filename = "models/character/npc/unique/santa_monica/jeanette/jeanette_proxy_skirt.dmx"
+    import_scale = 1.0
+    import_filter = {
+        exclude_by_default = false
+        exception_list = [
+
+        ]
+    }
+}
+]},
 			{
 				_class = "AnimationList"
 				children = 
 				[
-					{
-						_class = "Prefab"
-						target_file = "models/character/npc/unique/santa_monica/jeanette/prefabs/dialogue_face_channels.vmdl_prefab"
-					},
+ { _class = "Prefab" target_file = "models/character/npc/unique/santa_monica/jeanette/prefabs/dialogue_face_channels.vmdl_prefab" },
 					{
 						_class = "AnimFile"
 						name = "jeanette_anim_Jeanette_Line1_Col_E"
@@ -1322,126 +1355,133 @@
 				]
 			},
 			{
-				_class = "ClothShapeList"
-				children = 
-				[
-					{
-						_class = "ClothShapeCapsule"
-						parent_bone = "bip01_r_thigh"
-						cloth_collision_layer0 = true
-						cloth_collision_layer1 = true
-						cloth_collision_layer2 = true
-						cloth_collision_layer3 = true
-						cloth_stickiness = 0.0
-						cloth_collision_priority = 0
-						radius0 = 2.8
-						radius1 = 2.5
-						point0 = [ 0.217012, -0.267776, -0.363924 ]
-						point1 = [ 11.572819, 1.368715, -0.139431 ]
-					},
-					{
-						_class = "ClothShapeCapsule"
-						parent_bone = "bip01_l_thigh"
-						cloth_collision_layer0 = true
-						cloth_collision_layer1 = true
-						cloth_collision_layer2 = true
-						cloth_collision_layer3 = true
-						cloth_stickiness = 0.0
-						cloth_collision_priority = 0
-						radius0 = 2.8
-						radius1 = 1.923823
-						point0 = [ -1.073345, 0.610113, -0.107944 ]
-						point1 = [ 13.180429, 2.307067, 0.550415 ]
-					},
-					{
-						_class = "ClothShapeBox"
-						parent_bone = "bip01_pelvis"
-						cloth_collision_layer0 = true
-						cloth_collision_layer1 = true
-						cloth_collision_layer2 = true
-						cloth_collision_layer3 = true
-						cloth_stickiness = 0.0
-						cloth_collision_priority = 0
-						dimensions = [ 8.737122, 5.586013, 8.883206 ]
-						origin = [ -0.002038, 1.169635, 0.219375 ]
-						angles = [ 0.0, 0.0, 0.0 ]
-					},
-					{
-						_class = "ClothShapeSphere"
-						parent_bone = "bip01_r_thigh"
-						cloth_collision_layer0 = true
-						cloth_collision_layer1 = true
-						cloth_collision_layer2 = true
-						cloth_collision_layer3 = true
-						cloth_stickiness = 0.0
-						cloth_collision_priority = 0
-						radius = 2.8
-						center = [ 0.999278, -0.658712, -0.621384 ]
-					},
-					{
-						_class = "ClothShapeSphere"
-						parent_bone = "bip01_l_thigh"
-						cloth_collision_layer0 = true
-						cloth_collision_layer1 = true
-						cloth_collision_layer2 = true
-						cloth_collision_layer3 = true
-						cloth_stickiness = 0.0
-						cloth_collision_priority = 0
-						radius = 2.8
-						center = [ 0.303815, 0.076233, 0.830723 ]
-					},
-				]
-			},
+    _class = "ClothShapeList"
+    children = [
+        {
+            _class = "ClothShapeCapsule"
+            name = "jeanette_skirt_l_thigh"
+            parent_bone = "bip01_l_thigh"
+            cloth_collision_layer0 = false
+            cloth_collision_layer1 = true
+            cloth_collision_layer2 = false
+            cloth_collision_layer3 = false
+            cloth_stickiness = 0.0
+            cloth_collision_priority = 0
+            radius0 = 3.4528
+            radius1 = 2.704
+            point0 = [
+                3.3,
+                0.4,
+                0.0
+            ]
+            point1 = [
+                15.5,
+                1.1,
+                0.0
+            ]
+        },
+        {
+            _class = "ClothShapeCapsule"
+            name = "jeanette_skirt_r_thigh"
+            parent_bone = "bip01_r_thigh"
+            cloth_collision_layer0 = false
+            cloth_collision_layer1 = true
+            cloth_collision_layer2 = false
+            cloth_collision_layer3 = false
+            cloth_stickiness = 0.0
+            cloth_collision_priority = 0
+            radius0 = 3.4528
+            radius1 = 2.704
+            point0 = [
+                3.3,
+                0.4,
+                0.0
+            ]
+            point1 = [
+                15.5,
+                1.1,
+                0.0
+            ]
+        },
+        {
+            _class = "ClothShapeCapsule"
+            name = "jeanette_skirt_pelvis"
+            parent_bone = "bip01_pelvis"
+            cloth_collision_layer0 = false
+            cloth_collision_layer1 = true
+            cloth_collision_layer2 = false
+            cloth_collision_layer3 = false
+            cloth_stickiness = 0.0
+            cloth_collision_priority = 0
+            radius0 = 3.848
+            radius1 = 3.848
+            point0 = [
+                -0.6,
+                0.82,
+                -2.64
+            ]
+            point1 = [
+                -0.6,
+                0.82,
+                2.64
+            ]
+        },
+        {
+            _class = "ClothShapeCapsule"
+            name = "jeanette_skirt_pelvis_back"
+            parent_bone = "bip01_pelvis"
+            cloth_collision_layer0 = false
+            cloth_collision_layer1 = true
+            cloth_collision_layer2 = false
+            cloth_collision_layer3 = false
+            cloth_stickiness = 0.0
+            cloth_collision_priority = 0
+            radius0 = 2.1242
+            radius1 = 2.1242
+            point0 = [
+                -1.1,
+                -1.2,
+                -3.2
+            ]
+            point1 = [
+                -1.1,
+                -1.2,
+                3.2
+            ]
+        }
+    ]
+},
 			{
-				_class = "Softbody"
-				children = 
-				[
-					{
-						_class = "Prefab"
-						target_file = "models/character/npc/unique/santa_monica/jeanette/prefabs/skirt_softbody.vmdl_prefab"
-					},
-					{
-						_class = "Prefab"
-						target_file = "models/character/npc/unique/santa_monica/jeanette/prefabs/skirt_quads_cloth.vmdl_prefab"
-					},
-				]
-				stiffness_on_ragdoll = 0.0
-				cloth_sleep_enabled = false
-			},
-			{
-				_class = "AttachmentList"
-				children = 
-				[
-					{
-						_class = "Attachment"
-						name = "eyes"
-						parent_bone = "bip01_head"
-						relative_origin = [ 3.800002, 3.5, 0.0 ]
-						relative_angles = [ 0.0, 0.0, 0.0 ]
-						weight = 1.0
-						ignore_rotation = false
-					},
-					{
-						_class = "Attachment"
-						name = "mouth"
-						parent_bone = "bip01_head"
-						relative_origin = [ 1.4, 4.5, 0.0 ]
-						relative_angles = [ 0.0, 0.0, 0.0 ]
-						weight = 1.0
-						ignore_rotation = false
-					},
-					{
-						_class = "Attachment"
-						name = "r_hand"
-						parent_bone = "bip01_r_hand"
-						relative_origin = [ 0.0, 0.0, 0.0 ]
-						relative_angles = [ 0.0, 0.0, 0.0 ]
-						weight = 1.0
-						ignore_rotation = false
-					},
-				]
-			},
-		]
+    _class = "Softbody"
+    children = [
+
+    ]
+    stiffness_on_ragdoll = 0.0
+    cloth_sleep_enabled = true
+},
+
+{_class="AttachmentList" children=[
+{ _class = "Attachment" name = "eyes" parent_bone = "bip01_head" relative_origin = [3.800002, 3.5, 0] relative_angles = [0,0,0] weight = 1.0 ignore_rotation = false },
+{ _class = "Attachment" name = "mouth" parent_bone = "bip01_head" relative_origin = [1.4, 4.5, 0] relative_angles = [0,0,0] weight = 1.0 ignore_rotation = false },
+{
+			_class = "Attachment"
+			name = "r_hand"
+			parent_bone = "bip01_r_hand"
+			relative_origin = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			relative_angles = [
+				0.0,
+				0.0,
+				0.0,
+			]
+			weight = 1.0
+			ignore_rotation = false
+		}
+]},
+]
 		model_archetype = "generic_actor_model"
 		primary_associated_entity = "generic_actor"
 		anim_graph_name = "animgraphs/jeanette_dialogue.vanmgrph"

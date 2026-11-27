@@ -32,7 +32,8 @@ def attach(graph_file, model_file, performance):
         return values
     scene_available=sequences(Path(model_file))
     scene_requested=['idle01','doorknock','dialog_bar_idle01','Tourette_intro_pre','Tourette_intro',
-                     'Tourette_ShootsHerself','malk_female_idle','SM_Huddle','hunt_walk']
+                     'Tourette_ShootsHerself','malk_female_idle','SM_Huddle','hunt_walk',
+                     'dance01','dance02','dance03','party_laugh','ArmsCrossed_Idle']
     scene_bindings={};scene_children=['{m_id='+str(old)+'}'];scene_options=['movement'];scene_nodes=[]
     for name in scene_requested:
         actual=next((value for value in scene_available if value.lower()==name.lower()),None)
